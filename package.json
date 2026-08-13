@@ -1,0 +1,9 @@
+{
+  "name": "the-sixfold-bloom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An unofficial pixel-art Hedonites of Slaanesh fan tribute.",
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
