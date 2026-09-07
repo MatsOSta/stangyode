@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-language="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,26 +10,30 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://stangyode.com/">
   <title>Stangyode — Infrastructure, security & automation</title>
+  <script>try{if(localStorage.getItem('stangyode-language')==='ja'){document.documentElement.lang='ja';document.documentElement.dataset.language='ja'}}catch{}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
   <div class="noise" aria-hidden="true"></div>
 
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Stangyode home">
+    <a class="brand" href="#top" aria-label="Stangyode home" data-i18n-aria-label="a11y.home">
       <svg viewBox="0 0 34 34" aria-hidden="true"><path d="M4 9.5 17 2l13 7.5v15L17 32 4 24.5z"/><path d="m10 13 7-4 7 4-7 4-7 4 7 4 7-4"/></svg>
       <span>STANGYODE</span>
     </a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only">Open menu</span></button>
-    <nav id="site-nav" aria-label="Primary navigation">
-      <a href="#work">Work</a>
-      <a href="#practice">Practice</a>
-      <a href="#about">About</a>
-      <a class="nav-contact" href="#contact">Start a conversation</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only" data-menu-label>Open menu</span></button>
+    <nav id="site-nav" aria-label="Primary navigation" data-i18n-aria-label="a11y.navigation">
+      <a href="#work" data-i18n="nav.work">Work</a>
+      <a href="#practice" data-i18n="nav.practice">Practice</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <button class="language-toggle" id="language-toggle" type="button" aria-pressed="false" aria-label="Switch to Japanese">
+        <span class="lang-option lang-en" lang="en">EN</span><i aria-hidden="true">/</i><span class="lang-option lang-ja" lang="ja">日本語</span>
+      </button>
+      <a class="nav-contact" href="#contact" data-i18n="nav.contact">Start a conversation</a>
     </nav>
   </header>
 
@@ -37,51 +41,51 @@
     <section class="hero" id="top">
       <div class="hero-index mono" aria-hidden="true">01 / 05</div>
       <div class="hero-copy">
-        <p class="kicker mono">INDEPENDENT TECHNOLOGY PRACTICE · NORWAY</p>
-        <h1>Systems that hold up<br><span>when they leave the diagram.</span></h1>
-        <p class="intro">Stangyode designs and builds secure cloud infrastructure, useful automation, and AI systems that can survive contact with production.</p>
+        <p class="kicker mono" data-i18n="hero.kicker">INDEPENDENT TECHNOLOGY PRACTICE · NORWAY</p>
+        <h1><span class="hero-primary" data-i18n="hero.primary">Systems that hold up</span><br><span class="hero-secondary" data-i18n="hero.secondary">when they leave the diagram.</span></h1>
+        <p class="intro" data-i18n="hero.intro">Stangyode designs and builds secure cloud infrastructure, useful automation, and AI systems that can survive contact with production.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#contact">Discuss a project <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="#work">See the work <span aria-hidden="true">↓</span></a>
+          <a class="button button-primary" href="#contact"><span data-i18n="hero.discuss">Discuss a project</span> <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#work"><span data-i18n="hero.work">See the work</span> <span aria-hidden="true">↓</span></a>
         </div>
       </div>
-      <div class="system-map" aria-label="A diagram showing design, build, and operate as a continuous system">
+      <div class="system-map" aria-label="A diagram showing design, build, and operate as a continuous system" data-i18n-aria-label="a11y.systemMap">
         <div class="map-grid" aria-hidden="true"></div>
-        <span class="map-label map-label-a mono">DESIGN</span>
-        <span class="map-label map-label-b mono">BUILD</span>
-        <span class="map-label map-label-c mono">OPERATE</span>
+        <span class="map-label map-label-a mono" data-i18n="map.design">DESIGN</span>
+        <span class="map-label map-label-b mono" data-i18n="map.build">BUILD</span>
+        <span class="map-label map-label-c mono" data-i18n="map.operate">OPERATE</span>
         <div class="orbit orbit-one" aria-hidden="true"></div>
         <div class="orbit orbit-two" aria-hidden="true"></div>
         <div class="core" aria-hidden="true"><i></i></div>
-        <p class="map-status mono"><i></i> SYSTEM ONLINE<br><span>BOUNDARIES VERIFIED</span></p>
+        <p class="map-status mono"><i></i> <span class="status-primary" data-i18n="map.online">SYSTEM ONLINE</span><br><span data-i18n="map.verified">BOUNDARIES VERIFIED</span></p>
       </div>
       <p class="vertical-note mono" aria-hidden="true">設計 · 自動化 · 防御</p>
     </section>
 
-    <section class="statement reveal" aria-label="Stangyode approach">
+    <section class="statement reveal" aria-label="Stangyode approach" data-i18n-aria-label="a11y.approach">
       <p class="section-number mono">02</p>
-      <blockquote>Good infrastructure should be boring on the worst day of the week.</blockquote>
-      <p>The work is in the boundaries: what can connect, who can change it, how it fails, and whether someone else can operate it at 03:00.</p>
+      <blockquote data-i18n="statement.quote">Good infrastructure should be boring on the worst day of the week.</blockquote>
+      <p data-i18n="statement.body">The work is in the boundaries: what can connect, who can change it, how it fails, and whether someone else can operate it at 03:00.</p>
     </section>
 
     <section class="work section-shell" id="work">
       <div class="section-heading reveal">
-        <div><p class="eyebrow mono">SELECTED WORK / CURRENT BUILD</p><h2>Proof, not pitch.</h2></div>
-        <p>Public work showing how I approach architecture: narrow permissions, explicit contracts, and verification before claims.</p>
+        <div><p class="eyebrow mono" data-i18n="work.eyebrow">SELECTED WORK / CURRENT BUILD</p><h2 data-i18n="work.title">Proof, not pitch.</h2></div>
+        <p data-i18n="work.intro">Public work showing how I approach architecture: narrow permissions, explicit contracts, and verification before claims.</p>
       </div>
       <a class="project-feature reveal" href="https://github.com/MatsOSta/hermes-on-aws" target="_blank" rel="noreferrer">
         <div class="project-meta mono">
           <span>01</span>
-          <span>OPEN SOURCE</span>
+          <span data-i18n="work.opensource">OPEN SOURCE</span>
           <span>2026</span>
         </div>
         <div class="project-main">
-          <p class="project-type mono">AWS · SECURITY · AUTOMATION · AGENT INFRASTRUCTURE</p>
+          <p class="project-type mono" data-i18n="work.tags">AWS · SECURITY · AUTOMATION · AGENT INFRASTRUCTURE</p>
           <h3>Hermes on AWS</h3>
-          <p>A security-conscious deployment of a personal AI agent on AWS. Private ingress, SSM operations, pinned runtimes, persistent storage, and infrastructure kept in code.</p>
+          <p data-i18n="work.description">A security-conscious deployment of a personal AI agent on AWS. Private ingress, SSM operations, pinned runtimes, persistent storage, and infrastructure kept in code.</p>
         </div>
         <div class="project-visual" aria-hidden="true">
-          <div class="terminal-bar"><i></i><i></i><i></i><span>deployment / topology</span></div>
+          <div class="terminal-bar"><i></i><i></i><i></i><span data-i18n="work.topology">deployment / topology</span></div>
           <pre><span>internet</span>
     │
     ├── cloudflare edge
@@ -99,33 +103,33 @@
 
     <section class="practice section-shell" id="practice">
       <div class="section-heading reveal">
-        <div><p class="eyebrow mono">THE PRACTICE</p><h2>Where I can help.</h2></div>
-        <p>Hands-on architecture for teams that need fewer assumptions and a cleaner path to production.</p>
+        <div><p class="eyebrow mono" data-i18n="practice.eyebrow">THE PRACTICE</p><h2 data-i18n="practice.title">Where I can help.</h2></div>
+        <p data-i18n="practice.intro">Hands-on architecture for teams that need fewer assumptions and a cleaner path to production.</p>
       </div>
       <div class="service-list">
         <article class="service reveal">
           <p class="service-num mono">01</p>
-          <h3>Cloud foundations</h3>
-          <p>AWS environments, identity, networking, infrastructure as code, and operational paths people can follow.</p>
-          <span class="mono">ARCHITECTURE / IAC / OPERATIONS</span>
+          <h3 data-i18n="service.cloud.title">Cloud foundations</h3>
+          <p data-i18n="service.cloud.body">AWS environments, identity, networking, infrastructure as code, and operational paths people can follow.</p>
+          <span class="mono" data-i18n="service.cloud.tags">ARCHITECTURE / IAC / OPERATIONS</span>
         </article>
         <article class="service reveal">
           <p class="service-num mono">02</p>
-          <h3>Security-minded delivery</h3>
-          <p>Threat-aware design, least privilege, secret boundaries, and changes backed by evidence rather than optimism.</p>
-          <span class="mono">BOUNDARIES / IAM / HARDENING</span>
+          <h3 data-i18n="service.security.title">Security-minded delivery</h3>
+          <p data-i18n="service.security.body">Threat-aware design, least privilege, secret boundaries, and changes backed by evidence rather than optimism.</p>
+          <span class="mono" data-i18n="service.security.tags">BOUNDARIES / IAM / HARDENING</span>
         </article>
         <article class="service reveal">
           <p class="service-num mono">03</p>
-          <h3>Automation and AI systems</h3>
-          <p>Agent infrastructure, integrations, deployment workflows, and guardrails for software that can take action.</p>
-          <span class="mono">AGENTS / WORKFLOWS / INTEGRATION</span>
+          <h3 data-i18n="service.ai.title">Automation and AI systems</h3>
+          <p data-i18n="service.ai.body">Agent infrastructure, integrations, deployment workflows, and guardrails for software that can take action.</p>
+          <span class="mono" data-i18n="service.ai.tags">AGENTS / WORKFLOWS / INTEGRATION</span>
         </article>
         <article class="service reveal">
           <p class="service-num mono">04</p>
-          <h3>Technical direction</h3>
-          <p>Architecture reviews, migration planning, production readiness, and a second pair of eyes on difficult systems.</p>
-          <span class="mono">REVIEW / MIGRATION / DELIVERY</span>
+          <h3 data-i18n="service.direction.title">Technical direction</h3>
+          <p data-i18n="service.direction.body">Architecture reviews, migration planning, production readiness, and a second pair of eyes on difficult systems.</p>
+          <span class="mono" data-i18n="service.direction.tags">REVIEW / MIGRATION / DELIVERY</span>
         </article>
       </div>
     </section>
@@ -135,35 +139,36 @@
         <svg viewBox="0 0 420 420"><path d="M46 115 210 20l164 95v190l-164 95L46 305z"/><path d="m119 161 91-53 91 53-91 52-91 53 91 52 91-52"/></svg>
       </div>
       <div class="about-copy reveal">
-        <p class="eyebrow mono">MATS O. STANGJORDET / FOUNDER</p>
-        <h2>From illustration to infrastructure.</h2>
-        <p>I started as an illustrator and ended up building systems. The disciplines overlap more than they first appear: understand the constraints, remove what does not belong, and make the result legible to the next person.</p>
-        <p>Today I work as a senior solutions architect across infrastructure, cybersecurity, and automation. Stangyode is where that work meets independent experiments, open source, and focused technical engagements.</p>
-        <div class="location mono"><span>NORWAY</span><i></i><span>JAPAN</span><i></i><span>REMOTE</span></div>
+        <p class="eyebrow mono" data-i18n="about.eyebrow">MATS O. STANGJORDET / FOUNDER</p>
+        <h2 data-i18n="about.title">From illustration to infrastructure.</h2>
+        <p data-i18n="about.body1">I started as an illustrator and ended up building systems. The disciplines overlap more than they first appear: understand the constraints, remove what does not belong, and make the result legible to the next person.</p>
+        <p data-i18n="about.body2">Today I work as a senior solutions architect across infrastructure, cybersecurity, and automation. Stangyode is where that work meets independent experiments, open source, and focused technical engagements.</p>
+        <div class="location mono"><span data-i18n="about.norway">NORWAY</span><i></i><span data-i18n="about.japan">JAPAN</span><i></i><span data-i18n="about.remote">REMOTE</span></div>
       </div>
     </section>
 
     <section class="contact" id="contact">
       <div class="contact-grid" aria-hidden="true"></div>
-      <p class="eyebrow mono reveal">HAVE A DIFFICULT SYSTEM?</p>
-      <h2 class="reveal">Bring the messy version.</h2>
-      <p class="reveal">A useful conversation can start before the brief is tidy.</p>
+      <p class="eyebrow mono reveal" data-i18n="contact.eyebrow">HAVE A DIFFICULT SYSTEM?</p>
+      <h2 class="reveal" data-i18n="contact.title">Bring the messy version.</h2>
+      <p class="reveal" data-i18n="contact.body">A useful conversation can start before the brief is tidy.</p>
       <div class="contact-actions reveal">
-        <a class="button button-light" href="https://www.linkedin.com/in/mats-o-stangjordet-45885a158/" target="_blank" rel="noreferrer">Contact on LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="button button-light" href="https://www.linkedin.com/in/mats-o-stangjordet-45885a158/" target="_blank" rel="noreferrer"><span data-i18n="contact.linkedin">Contact on LinkedIn</span> <span aria-hidden="true">↗</span></a>
         <a class="contact-secondary" href="https://github.com/MatsOSta" target="_blank" rel="noreferrer">GitHub / MatsOSta <span aria-hidden="true">↗</span></a>
       </div>
     </section>
   </main>
 
   <footer>
-    <a class="brand footer-brand" href="#top">
+    <a class="brand footer-brand" href="#top" aria-label="Stangyode home" data-i18n-aria-label="a11y.home">
       <svg viewBox="0 0 34 34" aria-hidden="true"><path d="M4 9.5 17 2l13 7.5v15L17 32 4 24.5z"/><path d="m10 13 7-4 7 4-7 4-7 4 7 4 7-4"/></svg>
       <span>STANGYODE</span>
     </a>
-    <p>Infrastructure · Security · Automation</p>
+    <p data-i18n="footer.focus">Infrastructure · Security · Automation</p>
     <p class="mono">© <span id="year">2026</span> MATS O. STANGJORDET</p>
   </footer>
 
+  <script src="translations.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
