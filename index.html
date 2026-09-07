@@ -1,11 +1,169 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="An unofficial pixel-art fan tribute to the Hedonites of Slaanesh."><title>The Sixfold Bloom — Hedonites Fan Tribute</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body>
-<div class="grain"></div><header><a class="sigil" href="#top"><b>♢</b><span>THE SIXFOLD<br>BLOOM</span></a><nav><a href="#lore">LORE</a><a href="#carnival">CARNIVAL</a><a href="#temptation">TEMPTATION</a></nav><p>UNOFFICIAL FAN TRIBUTE</p></header>
-<main id="top"><section class="hero"><img src="assets/court-of-excess.png" alt="Original pixel art of a sinister masked courtier in a moonlit palace"><div class="veil"></div><div class="hero-copy"><p class="overline">A HEDONITES OF SLAANESH FAN SHRINE</p><h1>EXCESS<br><em>WITHOUT END</em></h1><p class="lead">Behind silk and perfume waits the exquisite edge. Enter the court. Taste the impossible. Desire more.</p><a class="enter" href="#temptation"><i>◆</i> ENTER THE REVELS</a></div><div class="vertical">快楽 · 誘惑 · 過剰</div><div class="chapter">ACT I<br><b>THE PERFUMED GATE</b></div></section>
-<section class="manifesto" id="lore"><span class="num">一</span><div><p class="eyebrow">THE DARK PRINCE</p><h2>Every desire<br>is a doorway.</h2></div><div class="copy"><p>Slaanesh is the Chaos God of temptation and excess. Though imprisoned in the Hidden Gloaming of Uhl-Gysh, the Dark Prince still reaches into the Mortal Realms through mortal longing.</p><p>The Hedonites turn battle into spectacle: fine silks, jewelled armour, poisoned arrows, intoxicating fog and violence performed with impossible grace.</p></div></section>
-<section class="carnival" id="carnival"><div class="section-head"><div><p class="eyebrow">THE PERFUMED HOST</p><h2>Choose your obsession.</h2></div><span>SCROLL 02 / 03</span></div><div class="cards">
-<article tabindex="0"><div class="crest">扇</div><p class="index">01</p><h3>BLISSBARB<br>ARCHERS</h3><p>Fleet-footed Sybarites loose barbed arrows steeped in hallucinogenic toxins.</p><span class="trait">POISONED ELEGANCE</span></article>
-<article tabindex="0"><div class="crest">刃</div><p class="index">02</p><h3>SLICKBLADE<br>SEEKERS</h3><p>Glaive-bearing riders who pursue the perfect kill without ever breaking stride.</p><span class="trait">UNRIVALLED VELOCITY</span></article>
-<article tabindex="0"><div class="crest">煙</div><p class="index">03</p><h3>SHARD<br>SPEAKERS</h3><p>Murderous mystics who conduct the carnival from clouds of intoxicating fog.</p><span class="trait">LORE OF EXTRAVAGANCE</span></article>
-</div></section>
-<section class="temptation" id="temptation"><div class="ritual"><p class="eyebrow">AN EXCESS OF DEPRAVITY</p><h2>Accept the gift?</h2><p id="offer">A flawless reflection, untouched by time.</p><div class="die" id="die">6</div><div class="choices"><button id="accept">ACCEPT</button><button id="refuse">REFUSE</button></div><small>SIX OFFERS. EVERY CHOICE HAS A PRICE.</small></div><aside><p>DEPRAVITY</p><strong id="score">00</strong><div class="meter"><i id="meter"></i></div><p id="verdict">THE COURT IS WATCHING.</p><button id="reset">BEGIN ANEW ↻</button></aside></section>
-</main><footer><div><b>THE SIXFOLD BLOOM</b><p>An unofficial, non-commercial fan tribute. Warhammer Age of Sigmar, Hedonites of Slaanesh and associated names belong to Games Workshop.</p></div><a href="#top">RETURN TO THE GATE ↑</a></footer><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stangyode is Mats O. Stangjordet's independent practice for secure cloud infrastructure, automation, and AI systems.">
+  <meta name="theme-color" content="#0b0d0c">
+  <meta property="og:title" content="Stangyode — Systems that hold up">
+  <meta property="og:description" content="Secure cloud infrastructure, automation, and AI systems by Mats O. Stangjordet.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stangyode.com/">
+  <title>Stangyode — Infrastructure, security & automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Stangyode home">
+      <svg viewBox="0 0 34 34" aria-hidden="true"><path d="M4 9.5 17 2l13 7.5v15L17 32 4 24.5z"/><path d="m10 13 7-4 7 4-7 4-7 4 7 4 7-4"/></svg>
+      <span>STANGYODE</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only">Open menu</span></button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#practice">Practice</a>
+      <a href="#about">About</a>
+      <a class="nav-contact" href="#contact">Start a conversation</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-index mono" aria-hidden="true">01 / 05</div>
+      <div class="hero-copy">
+        <p class="kicker mono">INDEPENDENT TECHNOLOGY PRACTICE · NORWAY</p>
+        <h1>Systems that hold up<br><span>when they leave the diagram.</span></h1>
+        <p class="intro">Stangyode designs and builds secure cloud infrastructure, useful automation, and AI systems that can survive contact with production.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Discuss a project <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#work">See the work <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="system-map" aria-label="A diagram showing design, build, and operate as a continuous system">
+        <div class="map-grid" aria-hidden="true"></div>
+        <span class="map-label map-label-a mono">DESIGN</span>
+        <span class="map-label map-label-b mono">BUILD</span>
+        <span class="map-label map-label-c mono">OPERATE</span>
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="core" aria-hidden="true"><i></i></div>
+        <p class="map-status mono"><i></i> SYSTEM ONLINE<br><span>BOUNDARIES VERIFIED</span></p>
+      </div>
+      <p class="vertical-note mono" aria-hidden="true">設計 · 自動化 · 防御</p>
+    </section>
+
+    <section class="statement reveal" aria-label="Stangyode approach">
+      <p class="section-number mono">02</p>
+      <blockquote>Good infrastructure should be boring on the worst day of the week.</blockquote>
+      <p>The work is in the boundaries: what can connect, who can change it, how it fails, and whether someone else can operate it at 03:00.</p>
+    </section>
+
+    <section class="work section-shell" id="work">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow mono">SELECTED WORK / CURRENT BUILD</p><h2>Proof, not pitch.</h2></div>
+        <p>Public work showing how I approach architecture: narrow permissions, explicit contracts, and verification before claims.</p>
+      </div>
+      <a class="project-feature reveal" href="https://github.com/MatsOSta/hermes-on-aws" target="_blank" rel="noreferrer">
+        <div class="project-meta mono">
+          <span>01</span>
+          <span>OPEN SOURCE</span>
+          <span>2026</span>
+        </div>
+        <div class="project-main">
+          <p class="project-type mono">AWS · SECURITY · AUTOMATION · AGENT INFRASTRUCTURE</p>
+          <h3>Hermes on AWS</h3>
+          <p>A security-conscious deployment of a personal AI agent on AWS. Private ingress, SSM operations, pinned runtimes, persistent storage, and infrastructure kept in code.</p>
+        </div>
+        <div class="project-visual" aria-hidden="true">
+          <div class="terminal-bar"><i></i><i></i><i></i><span>deployment / topology</span></div>
+          <pre><span>internet</span>
+    │
+    ├── cloudflare edge
+    │       └── outbound tunnel
+    │
+<span>aws vpc</span>
+    └── private runtime
+          ├── hermes gateway
+          ├── encrypted volume
+          └── ssm operations</pre>
+        </div>
+        <span class="project-arrow" aria-hidden="true">↗</span>
+      </a>
+    </section>
+
+    <section class="practice section-shell" id="practice">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow mono">THE PRACTICE</p><h2>Where I can help.</h2></div>
+        <p>Hands-on architecture for teams that need fewer assumptions and a cleaner path to production.</p>
+      </div>
+      <div class="service-list">
+        <article class="service reveal">
+          <p class="service-num mono">01</p>
+          <h3>Cloud foundations</h3>
+          <p>AWS environments, identity, networking, infrastructure as code, and operational paths people can follow.</p>
+          <span class="mono">ARCHITECTURE / IAC / OPERATIONS</span>
+        </article>
+        <article class="service reveal">
+          <p class="service-num mono">02</p>
+          <h3>Security-minded delivery</h3>
+          <p>Threat-aware design, least privilege, secret boundaries, and changes backed by evidence rather than optimism.</p>
+          <span class="mono">BOUNDARIES / IAM / HARDENING</span>
+        </article>
+        <article class="service reveal">
+          <p class="service-num mono">03</p>
+          <h3>Automation and AI systems</h3>
+          <p>Agent infrastructure, integrations, deployment workflows, and guardrails for software that can take action.</p>
+          <span class="mono">AGENTS / WORKFLOWS / INTEGRATION</span>
+        </article>
+        <article class="service reveal">
+          <p class="service-num mono">04</p>
+          <h3>Technical direction</h3>
+          <p>Architecture reviews, migration planning, production readiness, and a second pair of eyes on difficult systems.</p>
+          <span class="mono">REVIEW / MIGRATION / DELIVERY</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section-shell" id="about">
+      <div class="about-mark reveal" aria-hidden="true">
+        <svg viewBox="0 0 420 420"><path d="M46 115 210 20l164 95v190l-164 95L46 305z"/><path d="m119 161 91-53 91 53-91 52-91 53 91 52 91-52"/></svg>
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow mono">MATS O. STANGJORDET / FOUNDER</p>
+        <h2>From illustration to infrastructure.</h2>
+        <p>I started as an illustrator and ended up building systems. The disciplines overlap more than they first appear: understand the constraints, remove what does not belong, and make the result legible to the next person.</p>
+        <p>Today I work as a senior solutions architect across infrastructure, cybersecurity, and automation. Stangyode is where that work meets independent experiments, open source, and focused technical engagements.</p>
+        <div class="location mono"><span>NORWAY</span><i></i><span>JAPAN</span><i></i><span>REMOTE</span></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-grid" aria-hidden="true"></div>
+      <p class="eyebrow mono reveal">HAVE A DIFFICULT SYSTEM?</p>
+      <h2 class="reveal">Bring the messy version.</h2>
+      <p class="reveal">A useful conversation can start before the brief is tidy.</p>
+      <div class="contact-actions reveal">
+        <a class="button button-light" href="https://www.linkedin.com/in/mats-o-stangjordet-45885a158/" target="_blank" rel="noreferrer">Contact on LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="contact-secondary" href="https://github.com/MatsOSta" target="_blank" rel="noreferrer">GitHub / MatsOSta <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top">
+      <svg viewBox="0 0 34 34" aria-hidden="true"><path d="M4 9.5 17 2l13 7.5v15L17 32 4 24.5z"/><path d="m10 13 7-4 7 4-7 4-7 4 7 4 7-4"/></svg>
+      <span>STANGYODE</span>
+    </a>
+    <p>Infrastructure · Security · Automation</p>
+    <p class="mono">© <span id="year">2026</span> MATS O. STANGJORDET</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

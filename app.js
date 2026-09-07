@@ -1,1 +1,38 @@
-const offers=["A flawless reflection, untouched by time.","A melody no mortal ear has survived.","The perfect stroke of the poisoned brush.","One victory, exquisite and absolute.","A perfume distilled from forbidden memory.","The final secret whispered by the Dark Prince."];let turn=0,score=0;const offer=document.querySelector("#offer"),die=document.querySelector("#die"),scoreEl=document.querySelector("#score"),meter=document.querySelector("#meter"),verdict=document.querySelector("#verdict");function choose(accepted){if(turn>=6)return;score+=accepted?6:1;turn++;die.textContent=turn>=6?"◆":6-turn;offer.textContent=turn<6?offers[turn]:"The final veil falls. The court has measured your desire.";scoreEl.textContent=String(score).padStart(2,"0");meter.style.width=`${score/36*100}%`;verdict.textContent=turn>=6?(score>24?"PARAGON OF EXCESS. NOTHING WILL EVER BE ENOUGH.":score>10?"THE PERFUMED PATH HAS CLAIMED YOU.":"RESISTANCE IS MERELY DESIRE DEFERRED."):(accepted?"THE GIFT IS SWEET. THE HUNGER IS SWEETER.":"YOU REFUSE. THE COURT DELIGHTS IN YOUR PAIN.")}document.querySelector("#accept").onclick=()=>choose(true);document.querySelector("#refuse").onclick=()=>choose(false);document.querySelector("#reset").onclick=()=>{turn=score=0;offer.textContent=offers[0];die.textContent="6";scoreEl.textContent="00";meter.style.width="0";verdict.textContent="THE COURT IS WATCHING."};
+const menuButton = document.querySelector('.menu-toggle');
+const navigation = document.querySelector('#site-nav');
+
+menuButton?.addEventListener('click', () => {
+  const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+  menuButton.setAttribute('aria-expanded', String(!isOpen));
+  navigation.classList.toggle('open', !isOpen);
+  menuButton.querySelector('.sr-only').textContent = isOpen ? 'Open menu' : 'Close menu';
+});
+
+navigation?.querySelectorAll('a').forEach((link) => {
+  link.addEventListener('click', () => {
+    menuButton?.setAttribute('aria-expanded', 'false');
+    navigation.classList.remove('open');
+    const label = menuButton?.querySelector('.sr-only');
+    if (label) label.textContent = 'Open menu';
+  });
+});
+
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const revealItems = document.querySelectorAll('.reveal');
+
+if (reducedMotion || !('IntersectionObserver' in window)) {
+  revealItems.forEach((item) => item.classList.add('visible'));
+} else {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px' });
+  revealItems.forEach((item) => observer.observe(item));
+}
+
+const year = document.querySelector('#year');
+if (year) year.textContent = new Date().getFullYear();
