@@ -37,5 +37,5 @@ const server = createServer(async (request, response) => {
 });
 
 server.listen(port, host, () => {
-  console.log(`Local Space is ready at http://${host}:${port}`);
+  console.log(`Stangyode is ready at http://${host}:${port}`);
 });
