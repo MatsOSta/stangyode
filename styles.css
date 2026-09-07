@@ -10,12 +10,16 @@
   --line-dark: rgba(237,236,229,.13);
   --sans: "Manrope", system-ui, -apple-system, sans-serif;
   --mono: "DM Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --jp: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
   --max: 1240px;
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.6; font-feature-settings: "ss01"; }
+html:lang(ja) body { font-family: var(--jp); }
+html:lang(ja) h1, html:lang(ja) h2, html:lang(ja) h3 { letter-spacing: -.035em; }
+html:lang(ja) .mono { font-family: var(--jp); letter-spacing: .08em; }
 a { color: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
 img, svg { display: block; max-width: 100%; }
@@ -34,6 +38,11 @@ img, svg { display: block; max-width: 100%; }
 .site-header nav a { font-size: 13px; font-weight: 600; text-decoration: none; }
 .site-header nav a:not(.nav-contact) { color: #474b47; }
 .site-header nav a:not(.nav-contact):hover { color: var(--ink); }
+.language-toggle { min-height: 44px; display: inline-flex; align-items: center; gap: 7px; padding: 0; border: 0; background: transparent; color: var(--muted); font: 500 11px var(--mono); cursor: pointer; }
+.language-toggle i { color: rgba(16,18,16,.3); font-style: normal; }
+.language-toggle .lang-option { transition: color .2s ease; }
+.language-toggle .lang-en, html[data-language="ja"] .language-toggle .lang-ja { color: var(--ink); }
+html[data-language="ja"] .language-toggle .lang-en { color: var(--muted); }
 .nav-contact { padding: 10px 15px; color: var(--paper); background: var(--night); border: 1px solid var(--night); transition: .2s ease; }
 .nav-contact:hover { color: var(--night); background: var(--lime); border-color: var(--lime); }
 .menu-toggle { display: none; border: 0; background: transparent; width: 44px; height: 44px; padding: 12px 8px; }
@@ -45,7 +54,7 @@ img, svg { display: block; max-width: 100%; }
 .kicker { margin: 0 0 28px; color: var(--muted); }
 h1, h2, h3, p { text-wrap: pretty; }
 h1 { max-width: 900px; margin: 0; font-size: clamp(48px,6.4vw,98px); line-height: .98; letter-spacing: -.065em; font-weight: 500; }
-h1 span { color: var(--muted); }
+h1 .hero-secondary { color: var(--muted); }
 .intro { max-width: 650px; margin: 38px 0 0; color: #3f433f; font-size: clamp(17px,1.45vw,21px); line-height: 1.65; }
 .hero-actions { margin-top: 42px; display: flex; align-items: center; gap: 30px; }
 .button { min-height: 50px; display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; padding: 12px 18px; font-size: 13px; font-weight: 700; text-decoration: none; border: 1px solid; transition: transform .2s ease, background .2s ease, color .2s ease; }
@@ -77,6 +86,7 @@ h1 span { color: var(--muted); }
 .map-status { position: absolute; left: 34px; bottom: 30px; color: var(--paper); font-size: 10px; line-height: 1.8; }
 .map-status i { display: inline-block; width: 6px; height: 6px; margin-right: 8px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 10px var(--lime); }
 .map-status span { color: rgba(237,236,229,.42); }
+.map-status .status-primary { color: var(--paper); }
 @keyframes spin { to { transform: translate(-50%,-50%) rotate(360deg); } }
 @keyframes spin-reverse { to { transform: translate(-50%,-50%) rotate(-360deg); } }
 
@@ -169,6 +179,7 @@ footer p:last-child { text-align: right; font-size: 9px; }
   .site-header nav { position: absolute; left: 0; right: 0; top: 72px; display: none; padding: 24px; flex-direction: column; align-items: stretch; gap: 0; background: var(--paper); border-bottom: 1px solid var(--line); }
   .site-header nav.open { display: flex; }
   .site-header nav a { min-height: 50px; display: flex; align-items: center; border-bottom: 1px solid var(--line); }
+  .site-header nav .language-toggle { min-height: 50px; justify-content: flex-start; border-bottom: 1px solid var(--line); }
   .site-header nav .nav-contact { margin-top: 18px; justify-content: center; border: 0; }
   .hero { min-height: 0; }
   .hero-copy { min-height: calc(100svh - 72px); padding: 90px 24px 70px; display: flex; flex-direction: column; justify-content: center; }
