@@ -1,0 +1,8 @@
+# Hermes runtime/user state
+.env
+auth.json
+memories/
+sessions/
+state.db
+cron/
+*.log
