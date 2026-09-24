@@ -21,6 +21,7 @@ const server = createServer(async (request, response) => {
     const requested = pathname === "/" ? "/index.html" : pathname;
     const safePath = normalize(requested).replace(/^(\.\.(\/|\\|$))+/, "");
     let filePath = join(root, safePath);
+    if (pathname === "/ai-engineering" || pathname === "/ai-engineering/") filePath = join(root, "ai-engineering", "index.html");
 
     if (!(await stat(filePath)).isFile()) throw new Error("Not a file");
     const body = await readFile(filePath);

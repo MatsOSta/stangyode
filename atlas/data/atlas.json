@@ -1,0 +1,2568 @@
+{
+  "meta": {
+    "title": {
+      "en": "AI Engineering Atlas",
+      "ja": "AIエンジニアリング・アトラス"
+    },
+    "snapshot": {
+      "en": "September 2026",
+      "ja": "2026年9月"
+    },
+    "updated": {
+      "en": "24 September 2026",
+      "ja": "2026年9月24日"
+    }
+  },
+  "layers": [
+    {
+      "id": "intelligence-agency",
+      "en": "Intelligence & agency",
+      "ja": "知能とエージェンシー",
+      "orientation": {
+        "en": "This layer separates model capability from agency: objectives, inference budgets, and selection policies become observable engineering choices.",
+        "ja": "この層ではモデル能力とエージェンシーを分け、目的、推論予算、選択方針を観測可能な設計判断として扱う。"
+      }
+    },
+    {
+      "id": "harness-execution",
+      "en": "Harness & execution",
+      "ja": "ハーネスと実行",
+      "orientation": {
+        "en": "It covers the control plane around a model and the environments in which actions, code, and computer interaction are executed.",
+        "ja": "モデルを囲む制御面と、行動・コード・コンピュータ操作を実行する環境を扱う。"
+      }
+    },
+    {
+      "id": "orchestration",
+      "en": "Orchestration",
+      "ja": "オーケストレーション",
+      "orientation": {
+        "en": "This layer distinguishes model-led delegation from declared workflows and combinations of the two.",
+        "ja": "モデル主導の委任、宣言的ワークフロー、両者の組み合わせを区別する層。"
+      }
+    },
+    {
+      "id": "durability",
+      "en": "Durability",
+      "ja": "耐久性",
+      "orientation": {
+        "en": "These mechanisms make long or interrupted work recoverable without confusing history replay with duplicate side effects.",
+        "ja": "長時間・中断作業を復旧可能にし、履歴再生と副作用の重複を混同しないための機構を扱う。"
+      }
+    },
+    {
+      "id": "capabilities",
+      "en": "Capabilities",
+      "ja": "能力",
+      "orientation": {
+        "en": "Capabilities are the concrete powers exposed to an agent, from tools and skills to runtime-integrated extensions.",
+        "ja": "ツールやスキルからランタイム統合拡張まで、エージェントに公開される具体的な力を扱う。"
+      }
+    },
+    {
+      "id": "protocols",
+      "en": "Protocols",
+      "ja": "プロトコル",
+      "orientation": {
+        "en": "Protocols define boundaries between hosts, tools, resources, and agents; they are not interchangeable implementations.",
+        "ja": "ホスト、ツール、リソース、エージェント間の境界を定義する層で、各プロトコルは相互置換ではない。"
+      }
+    },
+    {
+      "id": "context",
+      "en": "Context",
+      "ja": "コンテキスト",
+      "orientation": {
+        "en": "Context engineering manages the bounded information visible now, including disclosure, compaction, sessions, and durable artifacts.",
+        "ja": "今見えている有限の情報を管理し、開示、圧縮、セッション、永続アーティファクトを扱う。"
+      }
+    },
+    {
+      "id": "memory-retrieval",
+      "en": "Memory & retrieval",
+      "ja": "メモリと検索",
+      "orientation": {
+        "en": "Memory can survive a session; retrieval is one way to place selected information into the current context.",
+        "ja": "メモリはセッションを越えて残り、検索は選んだ情報を現在のコンテキストへ置く一つの方法である。"
+      }
+    },
+    {
+      "id": "governance",
+      "en": "Governance",
+      "ja": "ガバナンス",
+      "orientation": {
+        "en": "Governance separates model-facing guidance from approvals, authorization, identity, and controls enforced outside the model.",
+        "ja": "モデル向け指示と、モデル外で強制される承認、認可、アイデンティティ、制御を分ける。"
+      }
+    },
+    {
+      "id": "observability",
+      "en": "Observability",
+      "ja": "可観測性",
+      "orientation": {
+        "en": "Signals here explain what an agent did, how it did it, and what operational cost or failure followed.",
+        "ja": "エージェントが何をどう行い、どの運用コストや失敗につながったかを信号で説明する。"
+      }
+    },
+    {
+      "id": "evaluation",
+      "en": "Evaluation",
+      "ja": "評価",
+      "orientation": {
+        "en": "Evaluation turns desired behavior and production evidence into repeatable measurements of answers and trajectories.",
+        "ja": "望ましい挙動と本番の証拠を、回答と軌跡の反復可能な測定へ変換する。"
+      }
+    },
+    {
+      "id": "agentic-ui",
+      "en": "Agentic UI",
+      "ja": "エージェントUI",
+      "orientation": {
+        "en": "This layer distinguishes generated surfaces from protocols that stream or declaratively render agent-facing interfaces.",
+        "ja": "生成される画面と、エージェントUIをストリーミング・宣言描画するプロトコルを区別する。"
+      }
+    },
+    {
+      "id": "development-methodology",
+      "en": "Development methodology",
+      "ja": "開発手法",
+      "orientation": {
+        "en": "These practices define how humans specify, supervise, test, and accept software built with coding agents.",
+        "ja": "コーディング・エージェントで作るソフトウェアを、人間が仕様化、監督、テスト、受け入れする方法を扱う。"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "ai-agent-agentic-ai",
+      "title": {
+        "en": "AI Agent / Agentic AI",
+        "ja": "AIエージェント / エージェント型AI"
+      },
+      "layer": "intelligence-agency",
+      "kind": "concept",
+      "status": "CORE",
+      "definition": {
+        "en": "An AI agent is a model in an observe–decide–tool/action loop that continues toward an objective; agentic AI is the broader adjective for systems organized around that behavior.",
+        "ja": "AIエージェントは、観測・判断・ツール/行動のループで目的に向かって進み続けるモデルであり、agentic AIはその振る舞いを中心に構成されたシステムを表す広い形容語。"
+      },
+      "relatedIds": [
+        "agent-loop",
+        "agent-harness"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "anthropic-building"
+      ],
+      "why": {
+        "en": "The noun names the looping actor; the adjective covers systems and practices organized around agency.",
+        "ja": "名詞はループする主体を、形容語はエージェンシーを中心にしたシステムや実践を指す。"
+      }
+    },
+    {
+      "id": "agentic-engineering",
+      "title": {
+        "en": "Agentic Engineering",
+        "ja": "エージェント・エンジニアリング"
+      },
+      "layer": "intelligence-agency",
+      "kind": "methodology",
+      "status": "RISING",
+      "definition": {
+        "en": "An engineering practice in which agents are delegated increasingly complete tasks and outcomes, with humans shaping specifications, constraints, tests, and review rather than only accepting isolated suggestions.",
+        "ja": "エージェントに断片的な提案ではなく、より完結したタスクや成果を委任し、人間は仕様・制約・テスト・レビューを設計する開発実践。"
+      },
+      "relatedIds": [
+        "agent-harness",
+        "agent-runtime"
+      ],
+      "sourceIds": [
+        "openai-harness",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "long-horizon-long-running-agent",
+      "title": {
+        "en": "Long-horizon / Long-running Agent",
+        "ja": "長期タスク / 長時間稼働エージェント"
+      },
+      "layer": "intelligence-agency",
+      "kind": "concept",
+      "status": "RISING",
+      "definition": {
+        "en": "Long-horizon describes a task whose plan or context spans many steps; long-running describes wall-clock execution that persists over time. They can occur together but are different scaling problems.",
+        "ja": "long-horizonは計画やコンテキストが多数の手順にまたがるタスク、long-runningは実時間で長く稼働する実行を指す。両立し得るが別の拡張問題である。"
+      },
+      "relatedIds": [
+        "durable-execution",
+        "background-agent"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "temporal-docs"
+      ],
+      "why": {
+        "en": "Planning complexity and elapsed-time reliability require different controls.",
+        "ja": "計画の複雑さと経過時間の信頼性には異なる制御が必要である。"
+      }
+    },
+    {
+      "id": "reasoning-effort-inference-time-compute",
+      "title": {
+        "en": "Reasoning Effort / Inference-Time Compute",
+        "ja": "推論努力 / 推論時計算"
+      },
+      "layer": "intelligence-agency",
+      "kind": "concept",
+      "status": "EVOLVING",
+      "definition": {
+        "en": "A per-request budget of tokens, search, sampling, or deliberation used to spend more inference computation on a difficult decision.",
+        "ja": "難しい判断のために、リクエストごとにトークン、探索、サンプリング、熟考へ割り当てる推論計算の予算。"
+      },
+      "relatedIds": [
+        "model-routing",
+        "model-cascade"
+      ],
+      "sourceIds": [
+        "openai-models",
+        "openai-reasoning"
+      ]
+    },
+    {
+      "id": "model-routing",
+      "title": {
+        "en": "Model Routing",
+        "ja": "モデルルーティング"
+      },
+      "layer": "intelligence-agency",
+      "kind": "pattern",
+      "status": "CORE",
+      "definition": {
+        "en": "Selecting among available models or providers for a request using signals such as task, cost, latency, quality, or policy; selection need not be sequential.",
+        "ja": "タスク、コスト、遅延、品質、ポリシーなどの信号で、利用可能なモデルやプロバイダーからリクエスト先を選ぶこと。順番に試す必要はない。"
+      },
+      "relatedIds": [
+        "reasoning-effort-inference-time-compute",
+        "model-cascade"
+      ],
+      "sourceIds": [
+        "openai-models",
+        "openai-reasoning"
+      ]
+    },
+    {
+      "id": "model-cascade",
+      "title": {
+        "en": "Model Cascade",
+        "ja": "モデルカスケード"
+      },
+      "layer": "intelligence-agency",
+      "kind": "pattern",
+      "status": "RISING",
+      "definition": {
+        "en": "A sequential routing policy that starts with a cheaper or faster model and escalates to a stronger one when confidence, validation, or a failure condition requires it.",
+        "ja": "安価・高速なモデルから始め、信頼度、検証結果、失敗条件に応じて高性能モデルへ段階的に移す逐次ルーティング方針。"
+      },
+      "relatedIds": [
+        "reasoning-effort-inference-time-compute",
+        "model-routing"
+      ],
+      "sourceIds": [
+        "openai-models",
+        "openai-reasoning"
+      ]
+    },
+    {
+      "id": "agent-harness",
+      "title": {
+        "en": "Agent Harness",
+        "ja": "エージェント・ハーネス"
+      },
+      "layer": "harness-execution",
+      "kind": "architecture",
+      "status": "CORE",
+      "definition": {
+        "en": "The surrounding control software that supplies an agent with prompts, tools, state, permissions, retries, and observations so a model can act in an environment.",
+        "ja": "モデルが環境で行動できるよう、プロンプト、ツール、状態、権限、再試行、観測を提供する周辺制御ソフトウェア。"
+      },
+      "relatedIds": [
+        "ai-agent-agentic-ai",
+        "agent-loop",
+        "agent-runtime",
+        "agentic-engineering"
+      ],
+      "sourceIds": [
+        "openai-harness",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "harness-engineering",
+      "title": {
+        "en": "Harness Engineering",
+        "ja": "ハーネス・エンジニアリング"
+      },
+      "layer": "harness-execution",
+      "kind": "methodology",
+      "status": "RISING",
+      "definition": {
+        "en": "The practice of designing the harness, interfaces, tests, feedback, and constraints that make delegated agent work reliable and inspectable.",
+        "ja": "委任したエージェント作業を信頼可能かつ検査可能にするため、ハーネス、インターフェース、テスト、フィードバック、制約を設計する実践。"
+      },
+      "relatedIds": [
+        "agent-harness",
+        "agent-runtime",
+        "agent-loop",
+        "sandbox"
+      ],
+      "sourceIds": [
+        "openai-harness",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "agent-runtime",
+      "title": {
+        "en": "Agent Runtime",
+        "ja": "エージェント・ランタイム"
+      },
+      "layer": "harness-execution",
+      "kind": "runtime",
+      "status": "CORE",
+      "definition": {
+        "en": "The process environment that executes agent turns, tool calls, state transitions, waiting, cancellation, and resource or permission boundaries.",
+        "ja": "エージェントのターン、ツール呼び出し、状態遷移、待機、キャンセル、リソースや権限の境界を実行するプロセス環境。"
+      },
+      "relatedIds": [
+        "agent-loop",
+        "agent-harness",
+        "agentic-engineering"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "agent-loop",
+      "title": {
+        "en": "Agent Loop",
+        "ja": "エージェント・ループ"
+      },
+      "layer": "harness-execution",
+      "kind": "pattern",
+      "status": "CORE",
+      "definition": {
+        "en": "The control cycle model → action → observation → model, repeated until the objective, stopping rule, or failure condition is reached.",
+        "ja": "モデル→行動→観測→モデルを、目的・停止条件・失敗条件に達するまで繰り返す制御サイクル。"
+      },
+      "relatedIds": [
+        "ai-agent-agentic-ai",
+        "agent-harness",
+        "agent-runtime"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "sandbox",
+      "title": {
+        "en": "Sandbox",
+        "ja": "サンドボックス"
+      },
+      "layer": "harness-execution",
+      "kind": "control",
+      "status": "CORE",
+      "definition": {
+        "en": "An isolated execution boundary that limits filesystem, network, process, or privilege effects while untrusted agent work runs.",
+        "ja": "信頼できないエージェント作業の実行中に、ファイルシステム、ネットワーク、プロセス、権限への影響を制限する隔離境界。"
+      },
+      "relatedIds": [
+        "computer-use",
+        "code-execution"
+      ],
+      "sourceIds": [
+        "codex-sandbox",
+        "openai-harness"
+      ]
+    },
+    {
+      "id": "computer-use",
+      "title": {
+        "en": "Computer Use",
+        "ja": "コンピュータ操作"
+      },
+      "layer": "harness-execution",
+      "kind": "capability",
+      "status": "RISING",
+      "definition": {
+        "en": "A capability in which an agent operates a graphical or desktop computer through screenshots and input events such as clicks, typing, and scrolling.",
+        "ja": "スクリーンショットとクリック、入力、スクロールなどのイベントで、GUIやデスクトップを操作するエージェント能力。"
+      },
+      "relatedIds": [
+        "sandbox",
+        "code-execution"
+      ],
+      "sourceIds": [
+        "anthropic-computer-use",
+        "openai-agents"
+      ]
+    },
+    {
+      "id": "code-execution",
+      "title": {
+        "en": "Code Execution",
+        "ja": "コード実行"
+      },
+      "layer": "harness-execution",
+      "kind": "capability",
+      "status": "CORE",
+      "definition": {
+        "en": "Running generated or supplied source code in an execution environment to compute results or perform operations; it is not synonymous with GUI control.",
+        "ja": "生成または提供されたソースコードを実行環境で動かして計算や操作を行うこと。GUI操作と同義ではない。"
+      },
+      "relatedIds": [
+        "sandbox",
+        "computer-use"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "agent-orchestration",
+      "title": {
+        "en": "Agent Orchestration",
+        "ja": "エージェント・オーケストレーション"
+      },
+      "layer": "orchestration",
+      "kind": "architecture",
+      "status": "CORE",
+      "definition": {
+        "en": "Coordinating agent actors, tools, state, handoffs, and policies so a goal is accomplished across multiple steps or workers.",
+        "ja": "複数の手順やワーカーにまたがる目的達成のため、エージェント、ツール、状態、ハンドオフ、ポリシーを調整すること。"
+      },
+      "relatedIds": [
+        "workflow-orchestration",
+        "dynamic-orchestration"
+      ],
+      "sourceIds": [
+        "google-adk",
+        "microsoft-agent"
+      ]
+    },
+    {
+      "id": "workflow-orchestration",
+      "title": {
+        "en": "Workflow Orchestration",
+        "ja": "ワークフロー・オーケストレーション"
+      },
+      "layer": "orchestration",
+      "kind": "architecture",
+      "status": "CORE",
+      "definition": {
+        "en": "Coordinating a declared sequence or graph of tasks, dependencies, and transitions, with agent decisions occupying only selected steps when needed.",
+        "ja": "宣言されたタスク、依存関係、遷移の系列やグラフを調整し、必要な箇所だけエージェント判断を置くこと。"
+      },
+      "relatedIds": [
+        "agent-orchestration",
+        "dynamic-orchestration",
+        "deterministic-orchestration"
+      ],
+      "sourceIds": [
+        "google-adk",
+        "microsoft-agent"
+      ]
+    },
+    {
+      "id": "dynamic-orchestration",
+      "title": {
+        "en": "Dynamic Orchestration",
+        "ja": "動的オーケストレーション"
+      },
+      "layer": "orchestration",
+      "kind": "pattern",
+      "status": "RISING",
+      "definition": {
+        "en": "Orchestration where the next worker, tool, or path is selected at runtime from current observations rather than fixed entirely in advance.",
+        "ja": "次のワーカー、ツール、経路を事前に固定せず、現在の観測から実行時に選ぶオーケストレーション。"
+      },
+      "relatedIds": [
+        "agent-orchestration",
+        "workflow-orchestration",
+        "deterministic-orchestration",
+        "hybrid-orchestration"
+      ],
+      "sourceIds": [
+        "google-adk",
+        "microsoft-agent"
+      ]
+    },
+    {
+      "id": "deterministic-orchestration",
+      "title": {
+        "en": "Deterministic Orchestration",
+        "ja": "決定論的オーケストレーション"
+      },
+      "layer": "orchestration",
+      "kind": "pattern",
+      "status": "CORE",
+      "definition": {
+        "en": "Orchestration whose transitions, retries, and dependencies are defined by program logic or a workflow graph, making the same state follow a predictable path.",
+        "ja": "遷移、再試行、依存関係をプログラムやワークフローグラフで定義し、同じ状態が予測可能な経路を進むオーケストレーション。"
+      },
+      "relatedIds": [
+        "workflow-orchestration",
+        "dynamic-orchestration",
+        "hybrid-orchestration"
+      ],
+      "sourceIds": [
+        "google-adk",
+        "microsoft-agent"
+      ]
+    },
+    {
+      "id": "hybrid-orchestration",
+      "title": {
+        "en": "Hybrid Orchestration",
+        "ja": "ハイブリッド・オーケストレーション"
+      },
+      "layer": "orchestration",
+      "kind": "pattern",
+      "status": "CORE",
+      "definition": {
+        "en": "A design that combines deterministic workflow control for safety or durability with agentic decisions for ambiguous steps.",
+        "ja": "安全性や耐久性のための決定論的ワークフロー制御と、曖昧な手順のエージェント判断を組み合わせる設計。"
+      },
+      "relatedIds": [
+        "dynamic-orchestration",
+        "deterministic-orchestration"
+      ],
+      "sourceIds": [
+        "google-adk",
+        "microsoft-agent"
+      ]
+    },
+    {
+      "id": "subagent",
+      "title": {
+        "en": "Subagent",
+        "ja": "サブエージェント"
+      },
+      "layer": "orchestration",
+      "kind": "concept",
+      "status": "CORE",
+      "definition": {
+        "en": "A delegated agent run created to handle a bounded subtask, usually returning a result or artifact to a parent agent.",
+        "ja": "親エージェントから委任された限定的なサブタスクを処理し、通常は結果やアーティファクトを返すエージェント実行。"
+      },
+      "relatedIds": [
+        "handoff",
+        "multi-agent-system"
+      ],
+      "sourceIds": [
+        "google-adk",
+        "microsoft-agent"
+      ]
+    },
+    {
+      "id": "handoff",
+      "title": {
+        "en": "Handoff",
+        "ja": "ハンドオフ"
+      },
+      "layer": "orchestration",
+      "kind": "pattern",
+      "status": "CORE",
+      "definition": {
+        "en": "A deliberate transfer of responsibility and relevant state from one agent or workflow step to another agent.",
+        "ja": "あるエージェントまたはワークフロー手順から別のエージェントへ、責任と関連状態を意図的に移すこと。"
+      },
+      "relatedIds": [
+        "subagent",
+        "multi-agent-system",
+        "agent-mesh"
+      ],
+      "sourceIds": [
+        "google-adk",
+        "microsoft-agent"
+      ]
+    },
+    {
+      "id": "multi-agent-system",
+      "title": {
+        "en": "Multi-Agent System",
+        "ja": "マルチエージェント・システム"
+      },
+      "layer": "orchestration",
+      "kind": "architecture",
+      "status": "RISING",
+      "definition": {
+        "en": "A system in which multiple agent instances coordinate or specialize, sharing a task through messages, delegation, or a common orchestrator.",
+        "ja": "複数のエージェント・インスタンスが、メッセージ、委任、共通オーケストレーターで協調・分担するシステム。"
+      },
+      "relatedIds": [
+        "subagent",
+        "handoff",
+        "agent-mesh"
+      ],
+      "sourceIds": [
+        "google-adk",
+        "microsoft-agent"
+      ]
+    },
+    {
+      "id": "agent-mesh",
+      "title": {
+        "en": "Agent Mesh",
+        "ja": "エージェント・メッシュ"
+      },
+      "layer": "orchestration",
+      "kind": "architecture",
+      "status": "EVOLVING",
+      "definition": {
+        "en": "A distributed pattern where independently deployed agents discover, communicate with, and route work across one another without a single tightly coupled controller.",
+        "ja": "独立デプロイされたエージェントが、単一の密結合コントローラーなしに互いを発見・通信し、仕事をルーティングする分散パターン。"
+      },
+      "relatedIds": [
+        "handoff",
+        "multi-agent-system"
+      ],
+      "sourceIds": [
+        "google-adk",
+        "microsoft-agent"
+      ]
+    },
+    {
+      "id": "durable-execution",
+      "title": {
+        "en": "Durable Execution",
+        "ja": "耐久実行"
+      },
+      "layer": "durability",
+      "kind": "runtime",
+      "status": "CORE",
+      "definition": {
+        "en": "Execution backed by persisted history so a process can wait, retry, recover, and continue toward completion despite worker or infrastructure failure.",
+        "ja": "永続化された履歴に支えられ、ワーカーや基盤の障害があっても待機、再試行、復旧し、完了へ進み続ける実行方式。"
+      },
+      "relatedIds": [
+        "resumability",
+        "idempotency"
+      ],
+      "sourceIds": [
+        "temporal-docs",
+        "langgraph-docs"
+      ]
+    },
+    {
+      "id": "checkpointing",
+      "title": {
+        "en": "Checkpointing",
+        "ja": "チェックポイント"
+      },
+      "layer": "durability",
+      "kind": "mechanism",
+      "status": "CORE",
+      "definition": {
+        "en": "Persisting a resumable snapshot of workflow or agent state at a boundary, reducing the work needed after interruption.",
+        "ja": "中断後に再開できるワークフローやエージェント状態のスナップショットを境界で永続化し、再開時の作業を減らすこと。"
+      },
+      "relatedIds": [
+        "replay",
+        "resumability"
+      ],
+      "sourceIds": [
+        "temporal-docs",
+        "langgraph-docs"
+      ]
+    },
+    {
+      "id": "replay",
+      "title": {
+        "en": "Replay",
+        "ja": "リプレイ"
+      },
+      "layer": "durability",
+      "kind": "mechanism",
+      "status": "CORE",
+      "definition": {
+        "en": "Reconstructing state by re-reading execution history without repeating completed external side effects; replay is distinct from re-running an API call.",
+        "ja": "完了済みの外部副作用を繰り返さず、実行履歴を読み直して状態を再構成すること。API呼び出しの再実行とは異なる。"
+      },
+      "relatedIds": [
+        "checkpointing",
+        "resumability",
+        "idempotency"
+      ],
+      "sourceIds": [
+        "temporal-replay",
+        "langgraph-docs"
+      ],
+      "why": {
+        "en": "Safe replay is a state-reconstruction technique, not permission to duplicate side effects.",
+        "ja": "安全なリプレイは状態再構成の技法であり、副作用を重複させる許可ではない。"
+      }
+    },
+    {
+      "id": "resumability",
+      "title": {
+        "en": "Resumability",
+        "ja": "再開可能性"
+      },
+      "layer": "durability",
+      "kind": "property",
+      "status": "CORE",
+      "definition": {
+        "en": "The property that interrupted work can continue from persisted state or history without restarting the entire task.",
+        "ja": "中断した作業を永続状態や履歴から続行でき、タスク全体を最初からやり直さずに済む性質。"
+      },
+      "relatedIds": [
+        "checkpointing",
+        "replay",
+        "idempotency",
+        "durable-execution"
+      ],
+      "sourceIds": [
+        "temporal-docs",
+        "langgraph-docs"
+      ]
+    },
+    {
+      "id": "idempotency",
+      "title": {
+        "en": "Idempotency",
+        "ja": "冪等性"
+      },
+      "layer": "durability",
+      "kind": "property",
+      "status": "CORE",
+      "definition": {
+        "en": "The property that repeating the same operation or delivery produces the same intended external result, typically through stable keys or deduplication.",
+        "ja": "同じ操作や配送を繰り返しても、安定したキーや重複排除により意図した外部結果が一度と同じになる性質。"
+      },
+      "relatedIds": [
+        "replay",
+        "resumability",
+        "durable-execution"
+      ],
+      "sourceIds": [
+        "temporal-docs",
+        "langgraph-docs"
+      ]
+    },
+    {
+      "id": "background-agent",
+      "title": {
+        "en": "Background Agent",
+        "ja": "バックグラウンド・エージェント"
+      },
+      "layer": "durability",
+      "kind": "pattern",
+      "status": "RISING",
+      "definition": {
+        "en": "An agent execution that continues independently of an interactive request, reporting progress or completion later through durable state, events, or notifications.",
+        "ja": "対話中のリクエストから独立して実行を続け、耐久状態、イベント、通知で後から進捗や完了を伝えるエージェント実行。"
+      },
+      "relatedIds": [
+        "long-horizon-long-running-agent",
+        "durable-execution",
+        "resumability"
+      ],
+      "sourceIds": [
+        "temporal-docs",
+        "langgraph-docs"
+      ]
+    },
+    {
+      "id": "tool-use-function-calling",
+      "title": {
+        "en": "Tool Use / Function Calling",
+        "ja": "ツール利用 / Function Calling"
+      },
+      "layer": "capabilities",
+      "kind": "capability",
+      "status": "CORE",
+      "definition": {
+        "en": "A model-directed interface in which the model emits a structured request for a named tool or function and the host executes it and returns the result.",
+        "ja": "モデルが名前付きツールや関数への構造化リクエストを出し、ホストが実行して結果を返すインターフェース。"
+      },
+      "relatedIds": [
+        "toolset",
+        "programmatic-tool-calling"
+      ],
+      "sourceIds": [
+        "openai-tools",
+        "google-function-calling"
+      ]
+    },
+    {
+      "id": "toolset",
+      "title": {
+        "en": "Toolset",
+        "ja": "ツールセット"
+      },
+      "layer": "capabilities",
+      "kind": "capability",
+      "status": "CORE",
+      "definition": {
+        "en": "The available collection of callable tools, including their schemas, descriptions, permissions, and execution adapters, exposed to an agent.",
+        "ja": "エージェントに公開される呼び出し可能ツールの集合で、スキーマ、説明、権限、実行アダプターを含む。"
+      },
+      "relatedIds": [
+        "tool-use-function-calling",
+        "programmatic-tool-calling",
+        "dynamic-tool-discovery-tool-search"
+      ],
+      "sourceIds": [
+        "openai-tools",
+        "google-function-calling"
+      ]
+    },
+    {
+      "id": "programmatic-tool-calling",
+      "title": {
+        "en": "Programmatic Tool Calling",
+        "ja": "プログラムによるツール呼び出し"
+      },
+      "layer": "capabilities",
+      "kind": "pattern",
+      "status": "RISING",
+      "definition": {
+        "en": "Generated or authored code coordinates multiple tool calls in one execution, avoiding a separate model inference between every operation.",
+        "ja": "生成または記述したコードが複数のツール呼び出しを一つの実行で調整し、各操作の間に毎回モデル推論を挟まない方式。"
+      },
+      "relatedIds": [
+        "tool-use-function-calling",
+        "toolset",
+        "dynamic-tool-discovery-tool-search",
+        "agent-skill"
+      ],
+      "sourceIds": [
+        "openai-tools",
+        "google-function-calling"
+      ]
+    },
+    {
+      "id": "dynamic-tool-discovery-tool-search",
+      "title": {
+        "en": "Dynamic Tool Discovery / Tool Search",
+        "ja": "動的ツール発見 / ツール検索"
+      },
+      "layer": "capabilities",
+      "kind": "pattern",
+      "status": "RISING",
+      "definition": {
+        "en": "Selecting or loading relevant tool definitions at runtime so a large tool catalog does not consume the agent context before a tool is needed.",
+        "ja": "大規模なツール目録を必要になる前からコンテキストに消費させず、実行時に関連する定義を選択・読み込むこと。"
+      },
+      "relatedIds": [
+        "toolset",
+        "programmatic-tool-calling",
+        "agent-skill",
+        "plugin"
+      ],
+      "sourceIds": [
+        "openai-tools",
+        "google-function-calling"
+      ]
+    },
+    {
+      "id": "agent-skill",
+      "title": {
+        "en": "Agent Skill",
+        "ja": "エージェント・スキル"
+      },
+      "layer": "capabilities",
+      "kind": "capability",
+      "status": "RISING",
+      "definition": {
+        "en": "A reusable, instruction-and-resource package that teaches an agent a bounded procedure, domain convention, or operating method.",
+        "ja": "限定された手順、ドメイン規約、操作方法をエージェントに教える、再利用可能な指示とリソースのパッケージ。"
+      },
+      "relatedIds": [
+        "programmatic-tool-calling",
+        "dynamic-tool-discovery-tool-search",
+        "plugin",
+        "capability"
+      ],
+      "sourceIds": [
+        "agent-skills-spec"
+      ]
+    },
+    {
+      "id": "plugin",
+      "title": {
+        "en": "Plugin",
+        "ja": "プラグイン"
+      },
+      "layer": "capabilities",
+      "kind": "capability",
+      "status": "EVOLVING",
+      "definition": {
+        "en": "An installable extension that adds host-integrated code, commands, tools, or UI beyond a prompt or skill package.",
+        "ja": "プロンプトやスキルを超えて、ホストに統合されたコード、コマンド、ツール、UIを追加するインストール可能な拡張。"
+      },
+      "relatedIds": [
+        "dynamic-tool-discovery-tool-search",
+        "agent-skill",
+        "capability"
+      ],
+      "sourceIds": [
+        "openai-tools",
+        "google-function-calling"
+      ]
+    },
+    {
+      "id": "capability",
+      "title": {
+        "en": "Capability",
+        "ja": "能力"
+      },
+      "layer": "capabilities",
+      "kind": "concept",
+      "status": "CORE",
+      "definition": {
+        "en": "A provisioned ability of an agent or runtime, such as reading a resource, calling a tool, executing code, or taking an approved action.",
+        "ja": "リソースの読み取り、ツール呼び出し、コード実行、承認済み行動など、エージェントやランタイムに与えられた能力。"
+      },
+      "relatedIds": [
+        "agent-skill",
+        "plugin"
+      ],
+      "sourceIds": [
+        "openai-tools",
+        "google-function-calling"
+      ]
+    },
+    {
+      "id": "mcp",
+      "title": {
+        "en": "MCP",
+        "ja": "MCP"
+      },
+      "layer": "protocols",
+      "kind": "protocol",
+      "status": "CORE",
+      "definition": {
+        "en": "Model Context Protocol is an open protocol for connecting AI applications to external tools and contextual resources through standardized hosts, clients, and servers.",
+        "ja": "Model Context Protocolは、標準化されたホスト、クライアント、サーバーを通じてAIアプリケーションを外部ツールや文脈リソースに接続するオープンプロトコル。"
+      },
+      "relatedIds": [
+        "mcp-server",
+        "mcp-client"
+      ],
+      "sourceIds": [
+        "mcp-spec",
+        "mcp-basic"
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "title": {
+        "en": "MCP Server",
+        "ja": "MCPサーバー"
+      },
+      "layer": "protocols",
+      "kind": "protocol",
+      "status": "CORE",
+      "definition": {
+        "en": "An MCP server exposes tools, resources, and prompts to an MCP client over the protocol and owns the implementation of those external capabilities.",
+        "ja": "MCPサーバーはプロトコル越しにツール、リソース、プロンプトをMCPクライアントへ公開し、外部能力の実装を担う。"
+      },
+      "relatedIds": [
+        "mcp",
+        "mcp-client",
+        "mcp-tasks"
+      ],
+      "sourceIds": [
+        "mcp-spec",
+        "mcp-basic"
+      ]
+    },
+    {
+      "id": "mcp-client",
+      "title": {
+        "en": "MCP Client",
+        "ja": "MCPクライアント"
+      },
+      "layer": "protocols",
+      "kind": "protocol",
+      "status": "CORE",
+      "definition": {
+        "en": "An MCP client is the protocol participant inside an AI host that discovers and invokes capabilities exposed by one or more MCP servers.",
+        "ja": "MCPクライアントはAIホスト内のプロトコル参加者で、1つ以上のMCPサーバーが公開する能力を発見・呼び出す。"
+      },
+      "relatedIds": [
+        "mcp",
+        "mcp-server",
+        "mcp-tasks",
+        "mcp-apps"
+      ],
+      "sourceIds": [
+        "mcp-spec",
+        "mcp-basic"
+      ]
+    },
+    {
+      "id": "mcp-tasks",
+      "title": {
+        "en": "MCP Tasks",
+        "ja": "MCP Tasks"
+      },
+      "layer": "protocols",
+      "kind": "extension",
+      "status": "EVOLVING",
+      "definition": {
+        "en": "MCP Tasks is the 2026-07-28 extension for tracking long-running server work and later retrieving its result or status asynchronously.",
+        "ja": "MCP Tasksは2026-07-28版の拡張で、サーバー上の長時間処理を追跡し、後から結果や状態を非同期に取得する。"
+      },
+      "relatedIds": [
+        "mcp-server",
+        "mcp-client",
+        "mcp-apps",
+        "stateless-mcp"
+      ],
+      "sourceIds": [
+        "mcp-tasks"
+      ]
+    },
+    {
+      "id": "mcp-apps",
+      "title": {
+        "en": "MCP Apps",
+        "ja": "MCP Apps"
+      },
+      "layer": "protocols",
+      "kind": "protocol",
+      "status": "RISING",
+      "definition": {
+        "en": "MCP Apps extends MCP so a server can deliver an interactive user interface alongside a tool result inside a compatible host.",
+        "ja": "MCP AppsはMCPを拡張し、対応ホスト内でサーバーがツール結果とともに対話UIを提供できるようにする。"
+      },
+      "relatedIds": [
+        "a2ui",
+        "ag-ui"
+      ],
+      "sourceIds": [
+        "mcp-apps-docs"
+      ]
+    },
+    {
+      "id": "stateless-mcp",
+      "title": {
+        "en": "Stateless MCP",
+        "ja": "ステートレスMCP"
+      },
+      "layer": "protocols",
+      "kind": "architecture",
+      "status": "CORE",
+      "definition": {
+        "en": "Stateless MCP describes a protocol layer after removing protocol sessions and initialization; application state may still exist in tools, servers, or the host.",
+        "ja": "Stateless MCPはプロトコルのセッションと初期化を除いた層を指す。ツール、サーバー、ホストにはアプリケーション状態が残り得る。"
+      },
+      "relatedIds": [
+        "mcp-tasks",
+        "mcp-apps",
+        "a2a",
+        "agentic-resource-discovery-ard"
+      ],
+      "sourceIds": [
+        "mcp-spec",
+        "mcp-basic"
+      ],
+      "why": {
+        "en": "Removing protocol sessions does not erase business state held by an application.",
+        "ja": "プロトコルセッションを除いても、アプリケーションが保持する業務状態は消えない。"
+      }
+    },
+    {
+      "id": "a2a",
+      "title": {
+        "en": "A2A",
+        "ja": "A2A"
+      },
+      "layer": "protocols",
+      "kind": "protocol",
+      "status": "RISING",
+      "definition": {
+        "en": "A2A is an agent-to-agent protocol for independently deployed agents that uses Agent Cards for discovery and supports tasks, artifacts, and asynchronous updates.",
+        "ja": "A2Aは独立デプロイされたエージェント間のプロトコルで、Agent Cardによる発見、タスク、アーティファクト、非同期更新を扱う。"
+      },
+      "relatedIds": [
+        "mcp-apps",
+        "stateless-mcp",
+        "agentic-resource-discovery-ard"
+      ],
+      "sourceIds": [
+        "a2a-spec"
+      ]
+    },
+    {
+      "id": "agentic-resource-discovery-ard",
+      "title": {
+        "en": "Agentic Resource Discovery (ARD)",
+        "ja": "Agentic Resource Discovery (ARD)"
+      },
+      "layer": "protocols",
+      "kind": "protocol",
+      "status": "EVOLVING",
+      "definition": {
+        "en": "ARD is the open, evolving v0.91 federated discovery and verification specification used before invocation; it complements rather than replaces MCP, A2A, Skills, APIs, or workflows.",
+        "ja": "ARDは呼び出し前に使う、オープンで発展中のv0.91フェデレーテッド発見・検証仕様であり、MCP、A2A、Skills、API、ワークフローを置き換えず補完する。"
+      },
+      "relatedIds": [
+        "stateless-mcp",
+        "a2a"
+      ],
+      "sourceIds": [
+        "ard-spec",
+        "ard-announcement"
+      ],
+      "why": {
+        "en": "ARD answers “what can I invoke and can I verify it?” before invocation; execution remains the job of other interfaces.",
+        "ja": "ARDは呼び出し前に「何を呼べ、検証できるか」を答え、実行は他のインターフェースが担う。"
+      }
+    },
+    {
+      "id": "context-engineering",
+      "title": {
+        "en": "Context Engineering",
+        "ja": "コンテキスト・エンジニアリング"
+      },
+      "layer": "context",
+      "kind": "methodology",
+      "status": "CORE",
+      "definition": {
+        "en": "The deliberate design of what information, instructions, tools, and state enter a model context, when they enter, and how they are removed or compressed.",
+        "ja": "どの情報、指示、ツール、状態をいつモデルコンテキストに入れ、どう除去・圧縮するかを意図的に設計すること。"
+      },
+      "relatedIds": [
+        "context-window",
+        "progressive-disclosure"
+      ],
+      "sourceIds": [
+        "anthropic-context",
+        "anthropic-context-editing"
+      ]
+    },
+    {
+      "id": "context-window",
+      "title": {
+        "en": "Context Window",
+        "ja": "コンテキスト・ウィンドウ"
+      },
+      "layer": "context",
+      "kind": "concept",
+      "status": "CORE",
+      "definition": {
+        "en": "The bounded amount of tokenized input and output a model can attend to for a request or turn.",
+        "ja": "モデルが一つのリクエストやターンで扱える、トークン化された入力と出力の上限。"
+      },
+      "relatedIds": [
+        "context-engineering",
+        "progressive-disclosure",
+        "just-in-time-context"
+      ],
+      "sourceIds": [
+        "anthropic-context",
+        "anthropic-context-editing"
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "title": {
+        "en": "Progressive Disclosure",
+        "ja": "段階的開示"
+      },
+      "layer": "context",
+      "kind": "pattern",
+      "status": "CORE",
+      "definition": {
+        "en": "Revealing instructions, tool schemas, or detail in stages so the model receives deeper information only as the task requires it.",
+        "ja": "タスクが必要とする段階でだけ、指示、ツールスキーマ、詳細を深いレベルへ段階的に提示すること。"
+      },
+      "relatedIds": [
+        "context-engineering",
+        "context-window",
+        "just-in-time-context",
+        "context-rot-context-pollution"
+      ],
+      "sourceIds": [
+        "anthropic-context",
+        "anthropic-context-editing"
+      ]
+    },
+    {
+      "id": "just-in-time-context",
+      "title": {
+        "en": "Just-in-Time Context",
+        "ja": "ジャストインタイム・コンテキスト"
+      },
+      "layer": "context",
+      "kind": "pattern",
+      "status": "RISING",
+      "definition": {
+        "en": "Fetching or constructing relevant context at the moment of a decision instead of placing the entire corpus into the initial prompt.",
+        "ja": "全コーパスを初期プロンプトに詰め込まず、判断の瞬間に関連コンテキストを取得・構成すること。"
+      },
+      "relatedIds": [
+        "context-window",
+        "progressive-disclosure",
+        "context-rot-context-pollution",
+        "context-compaction"
+      ],
+      "sourceIds": [
+        "anthropic-context",
+        "anthropic-context-editing"
+      ]
+    },
+    {
+      "id": "context-rot-context-pollution",
+      "title": {
+        "en": "Context Rot / Context Pollution",
+        "ja": "コンテキスト劣化 / 汚染"
+      },
+      "layer": "context",
+      "kind": "risk",
+      "status": "CORE",
+      "definition": {
+        "en": "Performance degradation caused by excess, irrelevant, stale, or conflicting context competing with the information needed for the current decision.",
+        "ja": "現在の判断に必要な情報と競合する、過剰・無関係・古い・矛盾したコンテキストによる性能低下。"
+      },
+      "relatedIds": [
+        "progressive-disclosure",
+        "just-in-time-context",
+        "context-compaction",
+        "session"
+      ],
+      "sourceIds": [
+        "anthropic-context",
+        "anthropic-context-editing"
+      ]
+    },
+    {
+      "id": "context-compaction",
+      "title": {
+        "en": "Context Compaction",
+        "ja": "コンテキスト圧縮"
+      },
+      "layer": "context",
+      "kind": "mechanism",
+      "status": "CORE",
+      "definition": {
+        "en": "Summarizing or restructuring a growing conversation and state into a smaller representation while preserving information needed for continued work.",
+        "ja": "会話と状態の増大を、継続に必要な情報を保った小さな表現へ要約・再構成すること。"
+      },
+      "relatedIds": [
+        "just-in-time-context",
+        "context-rot-context-pollution",
+        "session",
+        "artifact"
+      ],
+      "sourceIds": [
+        "anthropic-context",
+        "anthropic-context-editing"
+      ]
+    },
+    {
+      "id": "session",
+      "title": {
+        "en": "Session",
+        "ja": "セッション"
+      },
+      "layer": "context",
+      "kind": "concept",
+      "status": "CORE",
+      "definition": {
+        "en": "A bounded interaction record that groups turns, tool events, context, and lifecycle state for a user or task.",
+        "ja": "ユーザーやタスクについて、ターン、ツールイベント、コンテキスト、ライフサイクル状態をまとめる限定された対話記録。"
+      },
+      "relatedIds": [
+        "context-rot-context-pollution",
+        "context-compaction",
+        "artifact"
+      ],
+      "sourceIds": [
+        "anthropic-context",
+        "anthropic-context-editing"
+      ]
+    },
+    {
+      "id": "artifact",
+      "title": {
+        "en": "Artifact",
+        "ja": "アーティファクト"
+      },
+      "layer": "context",
+      "kind": "concept",
+      "status": "CORE",
+      "definition": {
+        "en": "Persistent work output or state such as a file, report, dataset, patch, or checkpoint that can outlive the model context and be inspected or reused.",
+        "ja": "モデルコンテキストを越えて存続し、検査・再利用できるファイル、報告書、データセット、パッチ、チェックポイントなどの永続的な成果物や状態。"
+      },
+      "relatedIds": [
+        "context-compaction",
+        "session"
+      ],
+      "sourceIds": [
+        "anthropic-context",
+        "anthropic-context-editing"
+      ]
+    },
+    {
+      "id": "agent-memory",
+      "title": {
+        "en": "Agent Memory",
+        "ja": "エージェント・メモリ"
+      },
+      "layer": "memory-retrieval",
+      "kind": "concept",
+      "status": "RISING",
+      "definition": {
+        "en": "Information retained from prior interaction or execution that a system may later retrieve and place into the current context.",
+        "ja": "過去の対話や実行から保持され、後で取得して現在のコンテキストへ入れられる情報。"
+      },
+      "relatedIds": [
+        "working-memory",
+        "long-term-memory"
+      ],
+      "sourceIds": [
+        "openai-retrieval",
+        "anthropic-context"
+      ]
+    },
+    {
+      "id": "working-memory",
+      "title": {
+        "en": "Working Memory",
+        "ja": "ワーキングメモリ"
+      },
+      "layer": "memory-retrieval",
+      "kind": "concept",
+      "status": "CORE",
+      "definition": {
+        "en": "Short-lived task state actively used during the current run, such as the plan, observations, intermediate results, and pending decisions.",
+        "ja": "計画、観測、中間結果、未決定事項など、現在の実行で能動的に使う短命なタスク状態。"
+      },
+      "relatedIds": [
+        "agent-memory",
+        "long-term-memory",
+        "rag"
+      ],
+      "sourceIds": [
+        "openai-retrieval",
+        "anthropic-context"
+      ]
+    },
+    {
+      "id": "long-term-memory",
+      "title": {
+        "en": "Long-Term Memory",
+        "ja": "長期メモリ"
+      },
+      "layer": "memory-retrieval",
+      "kind": "concept",
+      "status": "RISING",
+      "definition": {
+        "en": "Durable information retained across sessions, commonly structured and retrieved by identity, time, semantics, or explicit user preference.",
+        "ja": "セッションをまたいで保持され、通常は識別子、時刻、意味、明示的なユーザー設定で構造化・検索される永続情報。"
+      },
+      "relatedIds": [
+        "agent-memory",
+        "working-memory",
+        "rag",
+        "agentic-rag"
+      ],
+      "sourceIds": [
+        "openai-retrieval",
+        "anthropic-context"
+      ]
+    },
+    {
+      "id": "rag",
+      "title": {
+        "en": "RAG",
+        "ja": "RAG"
+      },
+      "layer": "memory-retrieval",
+      "kind": "pattern",
+      "status": "CORE",
+      "definition": {
+        "en": "Retrieval-augmented generation retrieves external information and places selected passages or records into model context before generation.",
+        "ja": "検索拡張生成は外部情報を取得し、選んだ文章やレコードを生成前にモデルコンテキストへ置く。"
+      },
+      "relatedIds": [
+        "working-memory",
+        "long-term-memory",
+        "agentic-rag",
+        "hybrid-retrieval"
+      ],
+      "sourceIds": [
+        "openai-retrieval",
+        "anthropic-context"
+      ]
+    },
+    {
+      "id": "agentic-rag",
+      "title": {
+        "en": "Agentic RAG",
+        "ja": "エージェント型RAG"
+      },
+      "layer": "memory-retrieval",
+      "kind": "pattern",
+      "status": "RISING",
+      "definition": {
+        "en": "A retrieval system in which an agent plans searches, chooses sources or query reformulations, and iterates based on evidence rather than issuing one fixed retrieval.",
+        "ja": "一度の固定検索ではなく、エージェントが検索を計画し、情報源やクエリを選び、証拠に応じて反復する検索システム。"
+      },
+      "relatedIds": [
+        "long-term-memory",
+        "rag",
+        "hybrid-retrieval"
+      ],
+      "sourceIds": [
+        "openai-retrieval",
+        "anthropic-context"
+      ]
+    },
+    {
+      "id": "hybrid-retrieval",
+      "title": {
+        "en": "Hybrid Retrieval",
+        "ja": "ハイブリッド検索"
+      },
+      "layer": "memory-retrieval",
+      "kind": "pattern",
+      "status": "CORE",
+      "definition": {
+        "en": "Combining retrieval methods such as lexical search, dense vectors, metadata filters, and reranking to improve recall and relevance.",
+        "ja": "語彙検索、密ベクトル、メタデータフィルター、再ランキングなどを組み合わせ、再現率と関連性を高める検索方式。"
+      },
+      "relatedIds": [
+        "rag",
+        "agentic-rag"
+      ],
+      "sourceIds": [
+        "openai-retrieval",
+        "anthropic-context"
+      ]
+    },
+    {
+      "id": "guardrail",
+      "title": {
+        "en": "Guardrail",
+        "ja": "ガードレール"
+      },
+      "layer": "governance",
+      "kind": "control",
+      "status": "CORE",
+      "definition": {
+        "en": "A rule, validator, or intervention that constrains model inputs, outputs, or actions and can block, modify, or flag unsafe behavior.",
+        "ja": "モデルの入力、出力、行動を制約し、安全でない振る舞いを遮断・変更・警告できる規則、検証器、介入。"
+      },
+      "relatedIds": [
+        "human-in-the-loop-hitl",
+        "approval-gate"
+      ],
+      "sourceIds": [
+        "openai-guardrails",
+        "microsoft-hitl"
+      ]
+    },
+    {
+      "id": "human-in-the-loop-hitl",
+      "title": {
+        "en": "Human-in-the-Loop / HITL",
+        "ja": "Human-in-the-Loop / HITL"
+      },
+      "layer": "governance",
+      "kind": "control",
+      "status": "CORE",
+      "definition": {
+        "en": "A control arrangement that pauses selected work for a human decision or input before the system proceeds.",
+        "ja": "選択された作業を人間の判断や入力のために停止し、その後にシステムが進む制御方式。"
+      },
+      "relatedIds": [
+        "guardrail",
+        "approval-gate",
+        "permission-layer"
+      ],
+      "sourceIds": [
+        "microsoft-hitl",
+        "openai-guardrails"
+      ]
+    },
+    {
+      "id": "approval-gate",
+      "title": {
+        "en": "Approval Gate",
+        "ja": "承認ゲート"
+      },
+      "layer": "governance",
+      "kind": "control",
+      "status": "CORE",
+      "definition": {
+        "en": "An explicit checkpoint where a designated person or role must approve a proposed action or transition before execution.",
+        "ja": "提案された行動や遷移の実行前に、指定された人や役割が承認しなければならない明示的な境界。"
+      },
+      "relatedIds": [
+        "guardrail",
+        "human-in-the-loop-hitl",
+        "permission-layer",
+        "agent-identity"
+      ],
+      "sourceIds": [
+        "codex-sandbox",
+        "microsoft-hitl"
+      ]
+    },
+    {
+      "id": "permission-layer",
+      "title": {
+        "en": "Permission Layer",
+        "ja": "権限レイヤー"
+      },
+      "layer": "governance",
+      "kind": "control",
+      "status": "CORE",
+      "definition": {
+        "en": "The authorization layer that determines which identity may perform which operation on which resource, independently of the model’s request.",
+        "ja": "モデルの要求とは独立して、どのアイデンティティがどのリソースへ何を実行できるかを決める認可層。"
+      },
+      "relatedIds": [
+        "human-in-the-loop-hitl",
+        "approval-gate",
+        "agent-identity",
+        "policy-enforcement"
+      ],
+      "sourceIds": [
+        "codex-sandbox",
+        "microsoft-hitl"
+      ]
+    },
+    {
+      "id": "agent-identity",
+      "title": {
+        "en": "Agent Identity",
+        "ja": "エージェント・アイデンティティ"
+      },
+      "layer": "governance",
+      "kind": "control",
+      "status": "RISING",
+      "definition": {
+        "en": "A verifiable principal representing an agent or service, carrying credentials and audit attribution across calls and delegated work.",
+        "ja": "呼び出しや委任作業をまたいで認証情報と監査上の帰属を持つ、検証可能なエージェントやサービスの主体。"
+      },
+      "relatedIds": [
+        "approval-gate",
+        "permission-layer",
+        "policy-enforcement"
+      ],
+      "sourceIds": [
+        "a2a-spec",
+        "ard-spec"
+      ]
+    },
+    {
+      "id": "policy-enforcement",
+      "title": {
+        "en": "Policy Enforcement",
+        "ja": "ポリシー適用"
+      },
+      "layer": "governance",
+      "kind": "control",
+      "status": "CORE",
+      "definition": {
+        "en": "Runtime or infrastructure enforcement of policy independently of model compliance, such as denying a network request or requiring a credential.",
+        "ja": "モデルが従うかに依存せず、ネットワーク要求の拒否や資格情報の要求などをランタイムや基盤が強制すること。"
+      },
+      "relatedIds": [
+        "permission-layer",
+        "agent-identity"
+      ],
+      "sourceIds": [
+        "codex-sandbox",
+        "microsoft-hitl"
+      ]
+    },
+    {
+      "id": "agent-observability",
+      "title": {
+        "en": "Agent Observability",
+        "ja": "エージェント可観測性"
+      },
+      "layer": "observability",
+      "kind": "methodology",
+      "status": "CORE",
+      "definition": {
+        "en": "The instrumentation and analysis of agent behavior, tool calls, state, latency, cost, errors, and outcomes across a run.",
+        "ja": "実行全体でエージェントの挙動、ツール呼び出し、状態、遅延、コスト、エラー、成果を計測・分析すること。"
+      },
+      "relatedIds": [
+        "trace",
+        "span"
+      ],
+      "sourceIds": [
+        "opentelemetry",
+        "openai-tracing"
+      ]
+    },
+    {
+      "id": "trace",
+      "title": {
+        "en": "Trace",
+        "ja": "トレース"
+      },
+      "layer": "observability",
+      "kind": "signal",
+      "status": "CORE",
+      "definition": {
+        "en": "A trace is the end-to-end record of one request or agent execution, linking its distributed operations into a causal tree or graph.",
+        "ja": "トレースは一つのリクエストやエージェント実行の端から端までを記録し、分散操作を因果的な木やグラフで結ぶ。"
+      },
+      "relatedIds": [
+        "agent-observability",
+        "span",
+        "trajectory"
+      ],
+      "sourceIds": [
+        "opentelemetry",
+        "openai-tracing"
+      ]
+    },
+    {
+      "id": "span",
+      "title": {
+        "en": "Span",
+        "ja": "スパン"
+      },
+      "layer": "observability",
+      "kind": "signal",
+      "status": "CORE",
+      "definition": {
+        "en": "A span is a timed, named interval representing one operation within a trace, with attributes, events, status, and parentage.",
+        "ja": "スパンはトレース内の一つの操作を表す時間付き名前付き区間で、属性、イベント、状態、親子関係を持つ。"
+      },
+      "relatedIds": [
+        "agent-observability",
+        "trace",
+        "trajectory",
+        "opentelemetry-otel"
+      ],
+      "sourceIds": [
+        "opentelemetry",
+        "openai-tracing"
+      ]
+    },
+    {
+      "id": "trajectory",
+      "title": {
+        "en": "Trajectory",
+        "ja": "軌跡"
+      },
+      "layer": "observability",
+      "kind": "signal",
+      "status": "RISING",
+      "definition": {
+        "en": "A trajectory is the ordered sequence of agent actions, tool uses, observations, and state transitions that produced an outcome.",
+        "ja": "軌跡は成果に至ったエージェントの行動、ツール利用、観測、状態遷移の順序付き系列。"
+      },
+      "relatedIds": [
+        "trace",
+        "span",
+        "opentelemetry-otel",
+        "agent-monitoring"
+      ],
+      "sourceIds": [
+        "opentelemetry",
+        "openai-tracing"
+      ]
+    },
+    {
+      "id": "opentelemetry-otel",
+      "title": {
+        "en": "OpenTelemetry / OTel",
+        "ja": "OpenTelemetry / OTel"
+      },
+      "layer": "observability",
+      "kind": "standard",
+      "status": "CORE",
+      "definition": {
+        "en": "OpenTelemetry is a vendor-neutral framework and specification for generating, collecting, and exporting telemetry such as traces, metrics, and logs.",
+        "ja": "OpenTelemetryはトレース、メトリクス、ログなどのテレメトリーを生成・収集・出力するベンダー中立のフレームワークと仕様。"
+      },
+      "relatedIds": [
+        "span",
+        "trajectory",
+        "agent-monitoring"
+      ],
+      "sourceIds": [
+        "opentelemetry",
+        "openai-tracing"
+      ]
+    },
+    {
+      "id": "agent-monitoring",
+      "title": {
+        "en": "Agent Monitoring",
+        "ja": "エージェント監視"
+      },
+      "layer": "observability",
+      "kind": "methodology",
+      "status": "CORE",
+      "definition": {
+        "en": "Monitoring watches operational signals and alerts over time, such as failure rate, latency, cost, queue depth, and policy violations.",
+        "ja": "失敗率、遅延、コスト、キュー長、ポリシー違反などの運用信号を継続監視し、アラートすること。"
+      },
+      "relatedIds": [
+        "trajectory",
+        "opentelemetry-otel"
+      ],
+      "sourceIds": [
+        "opentelemetry",
+        "openai-tracing"
+      ]
+    },
+    {
+      "id": "eval-evaluation",
+      "title": {
+        "en": "Eval / Evaluation",
+        "ja": "Eval / 評価"
+      },
+      "layer": "evaluation",
+      "kind": "methodology",
+      "status": "CORE",
+      "definition": {
+        "en": "Evaluation is the umbrella practice of measuring an agent or model against defined tasks, criteria, traces, users, or production outcomes.",
+        "ja": "定義したタスク、基準、軌跡、ユーザー、または本番成果に対してエージェントやモデルを測定する包括的な実践。"
+      },
+      "relatedIds": [
+        "offline-eval",
+        "online-eval"
+      ],
+      "sourceIds": [
+        "langsmith-evaluation",
+        "openai-evals"
+      ]
+    },
+    {
+      "id": "offline-eval",
+      "title": {
+        "en": "Offline Eval",
+        "ja": "オフライン評価"
+      },
+      "layer": "evaluation",
+      "kind": "methodology",
+      "status": "CORE",
+      "definition": {
+        "en": "Evaluation run before deployment or outside live traffic on fixed datasets, scenarios, and expected criteria.",
+        "ja": "固定データセット、シナリオ、期待基準を使い、デプロイ前または実トラフィック外で行う評価。"
+      },
+      "relatedIds": [
+        "eval-evaluation",
+        "online-eval",
+        "trajectory-eval"
+      ],
+      "sourceIds": [
+        "langsmith-evaluation",
+        "openai-evals"
+      ]
+    },
+    {
+      "id": "online-eval",
+      "title": {
+        "en": "Online Eval",
+        "ja": "オンライン評価"
+      },
+      "layer": "evaluation",
+      "kind": "methodology",
+      "status": "RISING",
+      "definition": {
+        "en": "Evaluation performed on live or sampled production interactions to detect quality, safety, and distribution changes after deployment.",
+        "ja": "デプロイ後の品質、安全性、分布変化を検出するため、本番またはサンプリングした対話で行う評価。"
+      },
+      "relatedIds": [
+        "eval-evaluation",
+        "offline-eval",
+        "trajectory-eval",
+        "llm-as-a-judge"
+      ],
+      "sourceIds": [
+        "langsmith-evaluation",
+        "openai-evals"
+      ]
+    },
+    {
+      "id": "trajectory-eval",
+      "title": {
+        "en": "Trajectory Eval",
+        "ja": "軌跡評価"
+      },
+      "layer": "evaluation",
+      "kind": "methodology",
+      "status": "RISING",
+      "definition": {
+        "en": "Evaluation of the path an agent took—its actions, tool choices, observations, and transitions—in addition to its final answer.",
+        "ja": "最終回答だけでなく、エージェントの行動、ツール選択、観測、遷移という経路を評価すること。"
+      },
+      "relatedIds": [
+        "offline-eval",
+        "online-eval",
+        "llm-as-a-judge",
+        "autorater"
+      ],
+      "sourceIds": [
+        "langsmith-evaluation",
+        "openai-evals"
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "title": {
+        "en": "LLM-as-a-Judge",
+        "ja": "LLM-as-a-Judge"
+      },
+      "layer": "evaluation",
+      "kind": "methodology",
+      "status": "RISING",
+      "definition": {
+        "en": "Using a language model with a rubric and reference context to score or critique another model’s output or trajectory.",
+        "ja": "基準と参照コンテキストを与えた言語モデルで、別モデルの出力や軌跡を採点・批評する方法。"
+      },
+      "relatedIds": [
+        "online-eval",
+        "trajectory-eval",
+        "autorater",
+        "synthetic-user-simulation"
+      ],
+      "sourceIds": [
+        "langsmith-evaluation",
+        "openai-evals"
+      ]
+    },
+    {
+      "id": "autorater",
+      "title": {
+        "en": "Autorater",
+        "ja": "自動評価器"
+      },
+      "layer": "evaluation",
+      "kind": "methodology",
+      "status": "RISING",
+      "definition": {
+        "en": "An automated evaluator that applies programmed rules, learned models, or rubric-based judgments repeatedly at scale.",
+        "ja": "プログラム規則、学習モデル、基準ベースの判断を大規模かつ反復的に適用する自動評価器。"
+      },
+      "relatedIds": [
+        "trajectory-eval",
+        "llm-as-a-judge",
+        "synthetic-user-simulation",
+        "eval-driven-development"
+      ],
+      "sourceIds": [
+        "langsmith-evaluation",
+        "openai-evals"
+      ]
+    },
+    {
+      "id": "synthetic-user-simulation",
+      "title": {
+        "en": "Synthetic User / Simulation",
+        "ja": "合成ユーザー / シミュレーション"
+      },
+      "layer": "evaluation",
+      "kind": "methodology",
+      "status": "RISING",
+      "definition": {
+        "en": "A generated user persona or simulator that drives an agent through scripted or exploratory interactions for testing and evaluation.",
+        "ja": "テストや評価のため、生成したユーザーペルソナやシミュレーターでエージェントに定型・探索的対話をさせること。"
+      },
+      "relatedIds": [
+        "llm-as-a-judge",
+        "autorater",
+        "eval-driven-development"
+      ],
+      "sourceIds": [
+        "langsmith-evaluation",
+        "openai-evals"
+      ]
+    },
+    {
+      "id": "eval-driven-development",
+      "title": {
+        "en": "Eval-Driven Development",
+        "ja": "評価駆動開発"
+      },
+      "layer": "evaluation",
+      "kind": "methodology",
+      "status": "CORE",
+      "definition": {
+        "en": "A development loop that turns desired behavior into executable evaluations and uses measured failures to guide implementation and iteration.",
+        "ja": "望ましい挙動を実行可能な評価に変換し、測定した失敗を実装と反復の指針にする開発ループ。"
+      },
+      "relatedIds": [
+        "coding-agent",
+        "spec-driven-development",
+        "vibe-coding",
+        "human-on-the-loop"
+      ],
+      "sourceIds": [
+        "langsmith-evaluation",
+        "openai-evals"
+      ]
+    },
+    {
+      "id": "generative-ui",
+      "title": {
+        "en": "Generative UI",
+        "ja": "生成UI"
+      },
+      "layer": "agentic-ui",
+      "kind": "pattern",
+      "status": "RISING",
+      "definition": {
+        "en": "An interface whose controls, layout, or content are generated or adapted at runtime from user intent, data, or agent results.",
+        "ja": "ユーザー意図、データ、エージェント結果から、操作部品、レイアウト、内容を実行時に生成・適応するUI。"
+      },
+      "relatedIds": [
+        "a2ui",
+        "ag-ui"
+      ],
+      "sourceIds": [
+        "a2ui-docs",
+        "ag-ui-docs"
+      ]
+    },
+    {
+      "id": "a2ui",
+      "title": {
+        "en": "A2UI",
+        "ja": "A2UI"
+      },
+      "layer": "agentic-ui",
+      "kind": "protocol",
+      "status": "RISING",
+      "definition": {
+        "en": "A2UI is a declarative protocol and renderer model for agents or servers to describe interactive UI surfaces that a client renders.",
+        "ja": "A2UIはエージェントやサーバーが対話UIサーフェスを宣言的に記述し、クライアントが描画するプロトコルとレンダラーモデル。"
+      },
+      "relatedIds": [
+        "generative-ui",
+        "ag-ui",
+        "mcp-apps"
+      ],
+      "sourceIds": [
+        "a2ui-docs",
+        "ag-ui-docs"
+      ]
+    },
+    {
+      "id": "ag-ui",
+      "title": {
+        "en": "AG-UI",
+        "ja": "AG-UI"
+      },
+      "layer": "agentic-ui",
+      "kind": "protocol",
+      "status": "RISING",
+      "definition": {
+        "en": "AG-UI is an event-oriented interface for connecting agentic backends to user-facing applications with streaming state, tool, and lifecycle events.",
+        "ja": "AG-UIは、状態、ツール、ライフサイクルのイベントをストリーミングし、エージェントバックエンドをユーザー向けアプリへ接続するイベント指向インターフェース。"
+      },
+      "relatedIds": [
+        "generative-ui",
+        "a2ui",
+        "mcp-apps"
+      ],
+      "sourceIds": [
+        "a2ui-docs",
+        "ag-ui-docs"
+      ]
+    },
+    {
+      "id": "agentic-coding",
+      "title": {
+        "en": "Agentic Coding",
+        "ja": "エージェント型コーディング"
+      },
+      "layer": "development-methodology",
+      "kind": "methodology",
+      "status": "RISING",
+      "definition": {
+        "en": "A coding practice where agents participate across planning, implementation, testing, debugging, and delivery under engineered constraints and feedback.",
+        "ja": "設計、実装、テスト、デバッグ、納品の各段階に、設計された制約とフィードバックの下でエージェントが参加するコーディング実践。"
+      },
+      "relatedIds": [
+        "coding-agent",
+        "spec-driven-development"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "title": {
+        "en": "Coding Agent",
+        "ja": "コーディング・エージェント"
+      },
+      "layer": "development-methodology",
+      "kind": "concept",
+      "status": "CORE",
+      "definition": {
+        "en": "An agent specialized for software work that can inspect a repository, edit code, run tools or tests, and report changes toward a development objective.",
+        "ja": "リポジトリを調査し、コードを編集し、ツールやテストを実行し、開発目標に向けた変更を報告するソフトウェア専門エージェント。"
+      },
+      "relatedIds": [
+        "agentic-coding",
+        "spec-driven-development",
+        "eval-driven-development"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "spec-driven-development",
+      "title": {
+        "en": "Spec-Driven Development",
+        "ja": "仕様駆動開発"
+      },
+      "layer": "development-methodology",
+      "kind": "methodology",
+      "status": "CORE",
+      "definition": {
+        "en": "A method that treats a written, testable specification as the source of truth for implementation, review, and acceptance.",
+        "ja": "記述されテスト可能な仕様を、実装、レビュー、受け入れの真実の源として扱う開発手法。"
+      },
+      "relatedIds": [
+        "agentic-coding",
+        "coding-agent",
+        "eval-driven-development",
+        "vibe-coding"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "title": {
+        "en": "Vibe Coding",
+        "ja": "バイブ・コーディング"
+      },
+      "layer": "development-methodology",
+      "kind": "methodology",
+      "status": "EVOLVING",
+      "definition": {
+        "en": "Loose iterative prompting where generated implementation is accepted largely by feel or inspection rather than a rigorous specification and evaluation loop.",
+        "ja": "厳密な仕様と評価ループよりも、感覚や目視確認を主に頼って生成実装を受け入れる、緩い反復プロンプティング。"
+      },
+      "relatedIds": [
+        "spec-driven-development",
+        "eval-driven-development",
+        "human-on-the-loop"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "anthropic-building"
+      ]
+    },
+    {
+      "id": "human-on-the-loop",
+      "title": {
+        "en": "Human-on-the-Loop",
+        "ja": "Human-on-the-Loop"
+      },
+      "layer": "development-methodology",
+      "kind": "governance",
+      "status": "RISING",
+      "definition": {
+        "en": "A supervision model in which a human watches autonomous execution, reviews signals or outcomes, and intervenes when needed rather than approving every action.",
+        "ja": "人間が自律実行を監督し、信号や成果をレビューして必要時に介入するモデル。各行動を毎回承認する方式ではない。"
+      },
+      "relatedIds": [
+        "eval-driven-development",
+        "vibe-coding"
+      ],
+      "sourceIds": [
+        "openai-agents",
+        "anthropic-building"
+      ],
+      "why": {
+        "en": "The human supervises the run rather than becoming a per-action approval bottleneck.",
+        "ja": "人間は実行を監督し、行動ごとの承認ボトルネックにはならない。"
+      }
+    }
+  ],
+  "ecosystems": [
+    {
+      "id": "openai",
+      "name": {
+        "en": "OpenAI",
+        "ja": "OpenAI"
+      },
+      "category": {
+        "en": "model + harness + managed runtime",
+        "ja": "モデル + ハーネス + 管理型ランタイム"
+      },
+      "role": {
+        "en": "Responses API and Agents SDK expose model-and-harness building blocks, while the managed Agents API points toward hosted runtime execution.",
+        "ja": "Responses APIとAgents SDKはモデルとハーネスの構成要素を提供し、管理型Agents APIはホスト型ランタイム実行の方向を示す。"
+      },
+      "components": {
+        "en": [
+          "Responses API",
+          "Agents SDK",
+          "managed Agents API",
+          "tools",
+          "tracing",
+          "guardrails"
+        ],
+        "ja": [
+          "Responses API",
+          "Agents SDK",
+          "管理型Agents API",
+          "ツール",
+          "トレーシング",
+          "ガードレール"
+        ]
+      },
+      "mentalModel": {
+        "en": "Choose how much runtime you own.",
+        "ja": "どこまでランタイムを自分で所有するかを選ぶ。"
+      },
+      "sourceIds": [
+        "openai-agents",
+        "openai-tools"
+      ]
+    },
+    {
+      "id": "anthropic-claude",
+      "name": {
+        "en": "Anthropic / Claude",
+        "ja": "Anthropic / Claude"
+      },
+      "category": {
+        "en": "model + reference harness",
+        "ja": "モデル + リファレンス・ハーネス"
+      },
+      "role": {
+        "en": "Claude models plus a reference approach to simple harnesses; supported tool use, computer use, skills, subagents, hooks, permissions, checkpoints, background work, and context engineering should be verified per feature.",
+        "ja": "Claudeモデルとシンプルなハーネスのリファレンス。ツール利用、コンピュータ操作、スキル、サブエージェント、フック、権限、チェックポイント、バックグラウンド作業、コンテキスト設計は機能ごとに対応状況を確認する。"
+      },
+      "components": {
+        "en": [
+          "Claude models",
+          "tool use",
+          "computer use",
+          "extended thinking",
+          "context editing"
+        ],
+        "ja": [
+          "Claudeモデル",
+          "ツール利用",
+          "コンピュータ操作",
+          "拡張思考",
+          "コンテキスト編集"
+        ]
+      },
+      "mentalModel": {
+        "en": "A capable model can permit a smaller harness, but production controls remain explicit.",
+        "ja": "能力の高いモデルは小さなハーネスを許すが、本番制御は明示的に必要である。"
+      },
+      "sourceIds": [
+        "anthropic-building",
+        "anthropic-tool-use"
+      ]
+    },
+    {
+      "id": "google-adk",
+      "name": {
+        "en": "Google ADK",
+        "ja": "Google ADK"
+      },
+      "category": {
+        "en": "model + broad agent ecosystem",
+        "ja": "モデル + 広範なエージェント・エコシステム"
+      },
+      "role": {
+        "en": "A broad agent development ecosystem spanning ADK, Gemini function calling, deployment patterns, and protocol work.",
+        "ja": "ADK、Gemini Function Calling、デプロイパターン、プロトコル作業にまたがる広範なエージェント開発エコシステム。"
+      },
+      "components": {
+        "en": [
+          "Agent Development Kit",
+          "Gemini function calling",
+          "deployment",
+          "protocol ecosystem"
+        ],
+        "ja": [
+          "Agent Development Kit",
+          "Gemini Function Calling",
+          "デプロイ",
+          "プロトコル・エコシステム"
+        ]
+      },
+      "mentalModel": {
+        "en": "A platform ecosystem rather than one agent loop.",
+        "ja": "一つのエージェントループではなく、プラットフォーム・エコシステム。"
+      },
+      "sourceIds": [
+        "google-adk",
+        "google-function-calling"
+      ]
+    },
+    {
+      "id": "microsoft-agent-framework",
+      "name": {
+        "en": "Microsoft Agent Framework",
+        "ja": "Microsoft Agent Framework"
+      },
+      "category": {
+        "en": "consolidated orchestration framework",
+        "ja": "統合オーケストレーション・フレームワーク"
+      },
+      "role": {
+        "en": "An active consolidated framework for agents and workflows, with HITL and durable extensions; use ordinary code when it is the more reliable boundary.",
+        "ja": "エージェントとワークフロー、HITL、耐久拡張を扱う統合フレームワーク。より信頼できる境界なら通常のコードを使う。"
+      },
+      "components": {
+        "en": [
+          "agents",
+          "workflows",
+          "HITL",
+          "durable extensions"
+        ],
+        "ja": [
+          "エージェント",
+          "ワークフロー",
+          "HITL",
+          "耐久拡張"
+        ]
+      },
+      "mentalModel": {
+        "en": "Framework orchestration, not a mandate to agentify every step.",
+        "ja": "すべてをエージェント化する指示ではなく、フレームワーク・オーケストレーション。"
+      },
+      "sourceIds": [
+        "microsoft-agent",
+        "microsoft-hitl"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "name": {
+        "en": "LangGraph",
+        "ja": "LangGraph"
+      },
+      "category": {
+        "en": "stateful graph orchestration",
+        "ja": "状態を持つグラフ・オーケストレーション"
+      },
+      "role": {
+        "en": "Stateful graph execution with checkpoints, persistence, and human review for controllable agent graphs.",
+        "ja": "チェックポイント、永続化、人によるレビューを備えた、制御可能なエージェントグラフの状態付き実行。"
+      },
+      "components": {
+        "en": [
+          "stateful graphs",
+          "checkpoints",
+          "persistence",
+          "human review"
+        ],
+        "ja": [
+          "状態付きグラフ",
+          "チェックポイント",
+          "永続化",
+          "人によるレビュー"
+        ]
+      },
+      "mentalModel": {
+        "en": "Make the control graph explicit.",
+        "ja": "制御グラフを明示する。"
+      },
+      "sourceIds": [
+        "langgraph-docs"
+      ]
+    },
+    {
+      "id": "langsmith",
+      "name": {
+        "en": "LangSmith",
+        "ja": "LangSmith"
+      },
+      "category": {
+        "en": "tracing, evaluation, and monitoring",
+        "ja": "トレーシング、評価、監視"
+      },
+      "role": {
+        "en": "A separate platform for tracing runs, monitoring behavior, and evaluating datasets and complex agents.",
+        "ja": "実行のトレース、挙動の監視、データセットと複雑なエージェントの評価を行う別基盤。"
+      },
+      "components": {
+        "en": [
+          "tracing",
+          "datasets",
+          "offline evaluation",
+          "online evaluation"
+        ],
+        "ja": [
+          "トレーシング",
+          "データセット",
+          "オフライン評価",
+          "オンライン評価"
+        ]
+      },
+      "mentalModel": {
+        "en": "Observe and measure the system separately from orchestration.",
+        "ja": "オーケストレーションとは別にシステムを観測・測定する。"
+      },
+      "sourceIds": [
+        "langsmith-docs",
+        "langsmith-evaluation"
+      ]
+    },
+    {
+      "id": "pydanticai",
+      "name": {
+        "en": "PydanticAI",
+        "ja": "PydanticAI"
+      },
+      "category": {
+        "en": "typed Python agent primitives",
+        "ja": "型付きPythonエージェント・プリミティブ"
+      },
+      "role": {
+        "en": "Typed Python primitives for agents, tools, and structured outputs; durability is delegated to surrounding infrastructure.",
+        "ja": "エージェント、ツール、構造化出力の型付きPythonプリミティブ。耐久性は周辺基盤に委ねる。"
+      },
+      "components": {
+        "en": [
+          "typed dependencies",
+          "tools",
+          "structured outputs",
+          "validation"
+        ],
+        "ja": [
+          "型付き依存性",
+          "ツール",
+          "構造化出力",
+          "検証"
+        ]
+      },
+      "mentalModel": {
+        "en": "Strong application contracts, not a durable scheduler.",
+        "ja": "強いアプリケーション契約であり、耐久スケジューラーではない。"
+      },
+      "sourceIds": [
+        "pydanticai-docs"
+      ]
+    },
+    {
+      "id": "logfire",
+      "name": {
+        "en": "Logfire",
+        "ja": "Logfire"
+      },
+      "category": {
+        "en": "Python observability",
+        "ja": "Python可観測性"
+      },
+      "role": {
+        "en": "Separate observability for Python applications and agent runs, complementing typed agent primitives.",
+        "ja": "型付きエージェント・プリミティブを補完する、Pythonアプリとエージェント実行の別可観測性基盤。"
+      },
+      "components": {
+        "en": [
+          "telemetry",
+          "traces",
+          "instrumentation",
+          "querying"
+        ],
+        "ja": [
+          "テレメトリー",
+          "トレース",
+          "計測",
+          "クエリ"
+        ]
+      },
+      "mentalModel": {
+        "en": "Instrument the application you already own.",
+        "ja": "既に所有するアプリケーションを計測する。"
+      },
+      "sourceIds": [
+        "logfire-docs"
+      ]
+    },
+    {
+      "id": "crewai",
+      "name": {
+        "en": "CrewAI",
+        "ja": "CrewAI"
+      },
+      "category": {
+        "en": "crews and flows",
+        "ja": "CrewsとFlows"
+      },
+      "role": {
+        "en": "Crews model collaborative agents; Flows provide structured control around those collaborations.",
+        "ja": "Crewsは協調するエージェントを、Flowsはその協調を囲む構造化制御をモデル化する。"
+      },
+      "components": {
+        "en": [
+          "Crews",
+          "Flows",
+          "tasks",
+          "processes"
+        ],
+        "ja": [
+          "Crews",
+          "Flows",
+          "タスク",
+          "プロセス"
+        ]
+      },
+      "mentalModel": {
+        "en": "Collaboration is not the same as workflow control.",
+        "ja": "協調とワークフロー制御は同じではない。"
+      },
+      "sourceIds": [
+        "crewai-docs"
+      ]
+    },
+    {
+      "id": "n8n",
+      "name": {
+        "en": "n8n",
+        "ja": "n8n"
+      },
+      "category": {
+        "en": "workflow automation with selected AI judgment",
+        "ja": "選択的なAI判断を含むワークフロー自動化"
+      },
+      "role": {
+        "en": "A deterministic visual workflow system where selected AI nodes and workflow-as-tool integrations add judgment; it is not merely another agent framework.",
+        "ja": "決定論的なビジュアル・ワークフローに、選択したAIノードとworkflow-as-tool連携で判断を加える。単なる別のエージェントフレームワークではない。"
+      },
+      "components": {
+        "en": [
+          "visual workflows",
+          "AI Agent node",
+          "integrations",
+          "workflow as tool"
+        ],
+        "ja": [
+          "ビジュアル・ワークフロー",
+          "AI Agentノード",
+          "連携",
+          "ツールとしてのワークフロー"
+        ]
+      },
+      "mentalModel": {
+        "en": "Automate the path; agentify only the ambiguous step.",
+        "ja": "経路は自動化し、曖昧な手順だけをエージェント化する。"
+      },
+      "sourceIds": [
+        "n8n-ai-agent"
+      ]
+    },
+    {
+      "id": "temporal",
+      "name": {
+        "en": "Temporal",
+        "ja": "Temporal"
+      },
+      "category": {
+        "en": "durable execution",
+        "ja": "耐久実行"
+      },
+      "role": {
+        "en": "The agent decides what should happen; Temporal ensures the workflow eventually happens correctly through history, retries, waiting, and recovery.",
+        "ja": "エージェントは何をすべきかを決め、Temporalは履歴、再試行、待機、復旧でワークフローが最終的に正しく起きることを保証する。"
+      },
+      "components": {
+        "en": [
+          "workflows",
+          "activities",
+          "event history",
+          "retries",
+          "signals"
+        ],
+        "ja": [
+          "ワークフロー",
+          "アクティビティ",
+          "イベント履歴",
+          "再試行",
+          "シグナル"
+        ]
+      },
+      "mentalModel": {
+        "en": "Separate decision quality from execution reliability.",
+        "ja": "判断の品質と実行の信頼性を分離する。"
+      },
+      "sourceIds": [
+        "temporal-docs",
+        "temporal-replay"
+      ]
+    }
+  ],
+  "ui": {
+    "stackExamples": {
+      "en": [
+        "Model / intelligence: reasoning model + agent loop",
+        "Harness / execution: sandboxed code execution + tool policy",
+        "Orchestration: deterministic workflow with agentic decision step",
+        "Durability: Temporal-style event history and replay",
+        "Capabilities: MCP tools plus skills",
+        "Protocols: MCP for tools/resources, A2A for agent collaboration",
+        "Context: progressive disclosure and compaction",
+        "Memory / retrieval: working memory plus RAG",
+        "Governance: identity, permission layer, approval gate",
+        "Observability: OTel trace with trajectory events",
+        "Evaluation: offline trajectory eval plus online monitoring",
+        "Agentic UI: AG-UI events or A2UI declarative surface",
+        "Methodology: spec-driven, eval-driven agentic coding"
+      ],
+      "ja": [
+        "モデル / 知能：推論モデル + エージェントループ",
+        "ハーネス / 実行：サンドボックス化コード実行 + ツールポリシー",
+        "オーケストレーション：エージェント判断手順を含む決定論的ワークフロー",
+        "耐久性：Temporal型イベント履歴とリプレイ",
+        "能力：MCPツール + スキル",
+        "プロトコル：ツール/リソースはMCP、エージェント協調はA2A",
+        "コンテキスト：段階的開示と圧縮",
+        "メモリ / 検索：ワーキングメモリ + RAG",
+        "ガバナンス：アイデンティティ、権限層、承認ゲート",
+        "可観測性：軌跡イベントを含むOTelトレース",
+        "評価：オフライン軌跡評価 + オンライン監視",
+        "エージェントUI：AG-UIイベントまたはA2UI宣言UI",
+        "手法：仕様駆動・評価駆動のエージェント型コーディング"
+      ]
+    },
+    "disclaimer": {
+      "en": "Displayed stacks are examples, not required blueprints; layers overlap and some components are optional.",
+      "ja": "表示するスタックは例であり必須の設計図ではない。レイヤーは重なり、任意の構成要素もある。"
+    },
+    "synthesisCaveat": {
+      "en": "The atlas records observable emerging direction, not a settled taxonomy or prediction.",
+      "ja": "このアトラスは観測可能な新興方向を記録するもので、確定した分類や予測ではない。"
+    },
+    "architectureWatch": {
+      "en": "Architecture Watch records changes in protocols, runtimes, and practices that may alter layer boundaries.",
+      "ja": "Architecture Watchは、レイヤー境界を変え得るプロトコル、ランタイム、実践の変化を記録する。"
+    },
+    "obsolescencePlaceholder": {
+      "en": "Reserved for noting when a term, source, or pattern is superseded; absence of a note is not a claim of permanence.",
+      "ja": "用語、情報源、パターンが置き換えられた場合に記録する欄。記載がないことは恒久性を意味しない。"
+    }
+  }
+}
