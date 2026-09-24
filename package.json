@@ -5,6 +5,8 @@
   "description": "The Stangyode company homepage.",
   "scripts": {
     "start": "node server.mjs",
-    "check": "node --check public/translations.js && node --check public/app.js"
+    "build:atlas": "node atlas/scripts/build-atlas.mjs",
+    "validate:atlas": "node atlas/scripts/validate-atlas.mjs",
+    "check": "node --check public/translations.js && node --check public/app.js && node --check public/ai-engineering/atlas.js && npm run validate:atlas"
   }
 }

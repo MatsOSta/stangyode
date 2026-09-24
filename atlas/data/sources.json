@@ -1,0 +1,362 @@
+{
+  "openai-agents": {
+    "title": "OpenAI Agents API, Agents SDK, tracing and guardrails",
+    "url": "https://developers.openai.com/api/docs/guides/agents",
+    "note": {
+      "en": "Official overview of agents, tools, handoffs, tracing, and guardrails.",
+      "ja": "エージェント、ツール、ハンドオフ、トレーシング、ガードレールの公式概要。"
+    }
+  },
+  "openai-tools": {
+    "title": "OpenAI tools and function calling",
+    "url": "https://platform.openai.com/docs/guides/function-calling",
+    "note": {
+      "en": "Official function and tool calling interface documentation.",
+      "ja": "関数・ツール呼び出しインターフェースの公式ドキュメント。"
+    }
+  },
+  "openai-models": {
+    "title": "OpenAI models and reasoning",
+    "url": "https://platform.openai.com/docs/guides/reasoning",
+    "note": {
+      "en": "Official guidance on reasoning models and inference effort.",
+      "ja": "推論モデルと推論努力に関する公式ガイダンス。"
+    }
+  },
+  "openai-reasoning": {
+    "title": "OpenAI reasoning best practices",
+    "url": "https://developers.openai.com/api/docs/guides/reasoning",
+    "note": {
+      "en": "Official reasoning and reasoning-token guidance.",
+      "ja": "推論と推論トークンに関する公式ガイダンス。"
+    }
+  },
+  "openai-tracing": {
+    "title": "OpenAI Agents SDK tracing",
+    "url": "https://openai.github.io/openai-agents-python/tracing/",
+    "note": {
+      "en": "Official tracing concepts for agent runs.",
+      "ja": "エージェント実行のトレースに関する公式概念。"
+    }
+  },
+  "openai-guardrails": {
+    "title": "OpenAI guardrails and human review",
+    "url": "https://openai.github.io/openai-agents-python/guardrails/",
+    "note": {
+      "en": "Official guardrail and human-review mechanisms.",
+      "ja": "ガードレールと人によるレビュー機構の公式資料。"
+    }
+  },
+  "openai-retrieval": {
+    "title": "OpenAI retrieval and file search",
+    "url": "https://platform.openai.com/docs/guides/retrieval",
+    "note": {
+      "en": "Official retrieval and file-search documentation.",
+      "ja": "検索とファイル検索の公式ドキュメント。"
+    }
+  },
+  "openai-evals": {
+    "title": "OpenAI evaluation best practices",
+    "url": "https://platform.openai.com/docs/guides/evals",
+    "note": {
+      "en": "Official evaluation guidance.",
+      "ja": "評価に関する公式ガイダンス。"
+    }
+  },
+  "anthropic-building": {
+    "title": "Building effective agents",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "note": {
+      "en": "Official Anthropic guidance on workflows, agents, and harnesses.",
+      "ja": "ワークフロー、エージェント、ハーネスに関するAnthropic公式資料。"
+    }
+  },
+  "anthropic-context": {
+    "title": "Context windows",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/context-windows",
+    "note": {
+      "en": "Official context-window documentation.",
+      "ja": "コンテキストウィンドウの公式ドキュメント。"
+    }
+  },
+  "anthropic-context-editing": {
+    "title": "Context editing",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/context-editing",
+    "note": {
+      "en": "Official context editing and compaction documentation.",
+      "ja": "コンテキスト編集と圧縮の公式ドキュメント。"
+    }
+  },
+  "anthropic-tool-use": {
+    "title": "Tool use",
+    "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview",
+    "note": {
+      "en": "Official tool-use documentation.",
+      "ja": "ツール利用の公式ドキュメント。"
+    }
+  },
+  "anthropic-computer-use": {
+    "title": "Computer use",
+    "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+    "note": {
+      "en": "Official computer-use documentation.",
+      "ja": "コンピュータ操作の公式ドキュメント。"
+    }
+  },
+  "anthropic-thinking": {
+    "title": "Extended thinking",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+    "note": {
+      "en": "Official extended-thinking documentation.",
+      "ja": "拡張思考の公式ドキュメント。"
+    }
+  },
+  "mcp-spec": {
+    "title": "MCP specification 2026-07-28",
+    "url": "https://modelcontextprotocol.io/specification/2026-07-28",
+    "note": {
+      "en": "Official protocol snapshot.",
+      "ja": "公式プロトコルスナップショット。"
+    }
+  },
+  "mcp-basic": {
+    "title": "MCP basic concepts",
+    "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic",
+    "note": {
+      "en": "Official host, client, and server concepts.",
+      "ja": "ホスト、クライアント、サーバーの公式概念。"
+    }
+  },
+  "mcp-tools": {
+    "title": "MCP server tools",
+    "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+    "note": {
+      "en": "Official MCP tools specification.",
+      "ja": "MCPツールの公式仕様。"
+    }
+  },
+  "mcp-resources": {
+    "title": "MCP server resources",
+    "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/resources",
+    "note": {
+      "en": "Official MCP resources specification.",
+      "ja": "MCPリソースの公式仕様。"
+    }
+  },
+  "mcp-tasks": {
+    "title": "MCP Tasks",
+    "url": "https://modelcontextprotocol.io/extensions/tasks/overview",
+    "note": {
+      "en": "Official Tasks extension overview for long-running MCP operations and durable handles.",
+      "ja": "長時間のMCP処理と永続ハンドルに関するTasks拡張の公式概要。"
+    }
+  },
+  "mcp-changelog": {
+    "title": "MCP changelog",
+    "url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+    "note": {
+      "en": "Official protocol change history.",
+      "ja": "公式プロトコル変更履歴。"
+    }
+  },
+  "mcp-apps-docs": {
+    "title": "MCP Apps",
+    "url": "https://modelcontextprotocol.io/extensions/apps/overview",
+    "note": {
+      "en": "Official MCP Apps extension documentation.",
+      "ja": "MCP Apps拡張の公式ドキュメント。"
+    }
+  },
+  "a2a-spec": {
+    "title": "A2A specification and Agent Cards",
+    "url": "https://a2a-protocol.org/latest/specification/",
+    "note": {
+      "en": "Official specification for agent discovery, tasks, artifacts, and updates.",
+      "ja": "エージェント発見、タスク、アーティファクト、更新の公式仕様。"
+    }
+  },
+  "ard-announcement": {
+    "title": "Agentic Resource Discovery announcement",
+    "url": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/",
+    "note": {
+      "en": "Official announcement of ARD.",
+      "ja": "ARDの公式発表。"
+    }
+  },
+  "ard-spec": {
+    "title": "Agentic Resource Discovery specification",
+    "url": "https://agenticresourcediscovery.org/spec/",
+    "note": {
+      "en": "Open evolving ARD v0.91 specification.",
+      "ja": "オープンで発展中のARD v0.91仕様。"
+    }
+  },
+  "ard-repo": {
+    "title": "ARD canonical repository",
+    "url": "https://github.com/ards-project/ard-spec",
+    "note": {
+      "en": "Canonical open ARD repository.",
+      "ja": "ARDの公式オープンリポジトリ。"
+    }
+  },
+  "google-adk": {
+    "title": "Google ADK",
+    "url": "https://adk.dev/",
+    "note": {
+      "en": "Official Google Agent Development Kit documentation.",
+      "ja": "Google Agent Development Kit公式ドキュメント。"
+    }
+  },
+  "google-function-calling": {
+    "title": "Gemini function calling",
+    "url": "https://ai.google.dev/gemini-api/docs/function-calling",
+    "note": {
+      "en": "Official Gemini function-calling documentation.",
+      "ja": "Gemini Function Calling公式ドキュメント。"
+    }
+  },
+  "microsoft-agent": {
+    "title": "Microsoft Agent Framework overview",
+    "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+    "note": {
+      "en": "Official consolidated framework documentation.",
+      "ja": "統合フレームワークの公式ドキュメント。"
+    }
+  },
+  "microsoft-hitl": {
+    "title": "Microsoft Agent Framework workflows and HITL",
+    "url": "https://learn.microsoft.com/en-us/agent-framework/workflows/human-in-the-loop",
+    "note": {
+      "en": "Official workflow and human-in-the-loop documentation.",
+      "ja": "ワークフローとHITLの公式ドキュメント。"
+    }
+  },
+  "langgraph-docs": {
+    "title": "LangGraph documentation",
+    "url": "https://docs.langchain.com/oss/python/langgraph/",
+    "note": {
+      "en": "Official stateful graph orchestration documentation.",
+      "ja": "状態を持つグラフ・オーケストレーションの公式ドキュメント。"
+    }
+  },
+  "langsmith-docs": {
+    "title": "LangSmith documentation",
+    "url": "https://docs.langchain.com/langsmith/",
+    "note": {
+      "en": "Official tracing, monitoring, and evaluation platform documentation.",
+      "ja": "トレーシング、監視、評価基盤の公式ドキュメント。"
+    }
+  },
+  "langsmith-evaluation": {
+    "title": "LangSmith evaluation concepts",
+    "url": "https://docs.langchain.com/langsmith/evaluation-concepts",
+    "note": {
+      "en": "Official evaluation concepts and workflows.",
+      "ja": "評価概念とワークフローの公式ドキュメント。"
+    }
+  },
+  "pydanticai-docs": {
+    "title": "PydanticAI",
+    "url": "https://ai.pydantic.dev/",
+    "note": {
+      "en": "Official typed Python agent framework documentation.",
+      "ja": "型付きPythonエージェントフレームワークの公式ドキュメント。"
+    }
+  },
+  "logfire-docs": {
+    "title": "Logfire documentation",
+    "url": "https://logfire.pydantic.dev/docs/",
+    "note": {
+      "en": "Official Python observability documentation.",
+      "ja": "Python可観測性の公式ドキュメント。"
+    }
+  },
+  "crewai-docs": {
+    "title": "CrewAI documentation",
+    "url": "https://docs.crewai.com/",
+    "note": {
+      "en": "Official crews and flows documentation.",
+      "ja": "CrewsとFlowsの公式ドキュメント。"
+    }
+  },
+  "n8n-ai-agent": {
+    "title": "n8n AI Agent node and tools",
+    "url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/",
+    "note": {
+      "en": "Official AI Agent node and workflow-tool documentation.",
+      "ja": "AI Agentノードとワークフロー・ツールの公式ドキュメント。"
+    }
+  },
+  "temporal-docs": {
+    "title": "Temporal workflow and activity execution",
+    "url": "https://docs.temporal.io/workflow-execution",
+    "note": {
+      "en": "Official durable workflow execution documentation.",
+      "ja": "耐久ワークフロー実行の公式ドキュメント。"
+    }
+  },
+  "temporal-glossary": {
+    "title": "Temporal glossary",
+    "url": "https://docs.temporal.io/glossary",
+    "note": {
+      "en": "Official durable execution terminology.",
+      "ja": "耐久実行用語の公式資料。"
+    }
+  },
+  "temporal-replay": {
+    "title": "Temporal replay and determinism",
+    "url": "https://docs.temporal.io/workflows#replay",
+    "note": {
+      "en": "Official replay and deterministic workflow guidance.",
+      "ja": "リプレイと決定論的ワークフローの公式ガイダンス。"
+    }
+  },
+  "opentelemetry": {
+    "title": "OpenTelemetry traces and spans",
+    "url": "https://opentelemetry.io/docs/concepts/signals/traces/",
+    "note": {
+      "en": "Official traces and spans documentation.",
+      "ja": "トレースとスパンの公式ドキュメント。"
+    }
+  },
+  "a2ui-docs": {
+    "title": "A2UI",
+    "url": "https://a2ui.org/",
+    "note": {
+      "en": "Project documentation for declarative agent UI.",
+      "ja": "宣言的エージェントUIのプロジェクト公式資料。"
+    }
+  },
+  "ag-ui-docs": {
+    "title": "AG-UI",
+    "url": "https://docs.ag-ui.com/introduction",
+    "note": {
+      "en": "Project documentation for agent-to-UI events.",
+      "ja": "エージェントとUIのイベント接続に関する公式資料。"
+    }
+  },
+  "agent-skills-spec": {
+    "title": "Agent Skills specification",
+    "url": "https://agentskills.io/specification",
+    "note": {
+      "en": "Open format for instruction-and-resource skill packages.",
+      "ja": "手順とリソースを含むスキルのオープン形式。"
+    }
+  },
+  "openai-harness": {
+    "title": "Codex as a platform: the open agent harness",
+    "url": "https://developers.openai.com/blog/codex-as-a-platform",
+    "note": {
+      "en": "OpenAI explanation of the agent loop, harness, controls, and human approval.",
+      "ja": "エージェントループ、ハーネス、制御、人間の承認に関するOpenAIの解説。"
+    }
+  },
+  "codex-sandbox": {
+    "title": "Codex sandboxing and approvals",
+    "url": "https://learn.chatgpt.com/docs/sandboxing",
+    "note": {
+      "en": "Official host-enforced filesystem, network, command, and approval boundaries.",
+      "ja": "ホスト側で強制するファイル、ネットワーク、コマンド、承認の境界。"
+    }
+  }
+}
