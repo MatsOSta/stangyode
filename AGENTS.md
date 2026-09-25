@@ -1,14 +1,8 @@
 # stangyode project instructions
 
-This project is onboarded under Melancholy.
-
-- Read `README.md`, `ORGANIZATION.md`, and `.melancholy/project.md` first.
-- `stangyode-pm` is the persistent project PM and owns project-local execution.
-- Use bounded workers only for explicit, scoped assignments; require artifact
-  references, validation evidence, status, limitations, and one next action.
-- Changes use assigned branch -> pushed branch -> pull request -> Mats review/
-  approval -> merge.
-- Do not publish, change the custom domain, add deployment automation, use
-  unapproved credentials/integrations, modify protected branches, or make
-  destructive/persistent governance changes without Mats approval.
-- Melancholy is the system-level governance layer; Mats is final approver.
+Read README.md for project semantics and .melancholy/project.yaml for the governance pointer.
+Authoritative lifecycle and authority live outside this repository at melancholy://projects/stangyode.
+stangyode-pm interprets, plans, decomposes, routes, delegates through Kanban, and evaluates. It never implements.
+Only assigned, eligible workers implement a bounded OPERATION on board stangyode. Return typed RESULT on the same native card.
+Do not merge, publish, change deployment/domain configuration, use credentials or expand scope. Mats owns protected decisions and merges.
+Historical .melancholy/archive material is migration evidence, not authority.

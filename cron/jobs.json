@@ -1,0 +1,21 @@
+{
+  "jobs": [
+    {
+      "id": "173897fe2a95",
+      "name": "vnext-dispatch-stangyode",
+      "prompt": "",
+      "script": "dispatch-board.py",
+      "no_agent": true,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 1,
+        "display": "every 1m"
+      },
+      "deliver": "local",
+      "workdir": "/home/mats/Git/Personal/stangyode",
+      "repeat": {
+        "times": null
+      }
+    }
+  ]
+}

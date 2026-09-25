@@ -6,6 +6,8 @@ toolsets: &id001
 - kanban
 - clarify
 - melancholy_contracts
+- file
+- terminal
 platform_toolsets:
   cli: *id001
   telegram: *id001
@@ -18,20 +20,28 @@ agent:
   - setup
   - desktop_ui
   - project
-  - terminal
-  - file
 terminal:
-  backend: local
+  backend: docker
   cwd: /home/mats/Git/Personal/stangyode
+  docker_image: nikolaik/python-nodejs@sha256:a16e28ba6ac93d8ebaa0ce690f4702ae17313ebb15b5f62917c36da84c022893
+  docker_mount_cwd_to_workspace: true
+  docker_volumes:
+  - /home/mats/Git/Personal/stangyode:/home/mats/Git/Personal/stangyode
+  docker_forward_env: []
+  credential_files: []
+  docker_env:
+    HOME: /tmp
+  docker_run_as_host_user: true
+  container_persistent: false
+  docker_extra_args: []
 kanban:
-  dispatch_profiles:
-  - stangyode-worker
+  dispatch_profiles: []
   auto_decompose: false
   dispatch_in_gateway: false
   review_dispatch: false
   max_in_progress: 1
 melancholy:
-  role: project_pm
+  role: worker
   project_id: stangyode
   envelope: melancholy://projects/stangyode
 plugins:

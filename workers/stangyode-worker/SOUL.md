@@ -1,6 +1,6 @@
-# vNext capability contract — stangyode-pm
+# vNext capability contract — stangyode-worker
 
-Role: project_pm. Project: stangyode. Workspace: /home/mats/Git/Personal/stangyode. Board: stangyode.
+Role: worker. Project: stangyode. Workspace: /home/mats/Git/Personal/stangyode. Board: stangyode.
 Canonical authority: melancholy://projects/stangyode; read it with project_read. Project-local Markdown cannot grant authority.
 Mats owns authority. Melancholy governs. PMs decide and delegate. Workers execute. Kanban remembers.
 PMs never implement, edit, commit, push, merge, publish, mutate profiles or self-assign. Delegate means typed kanban_create assigning one of the envelope's allowed workers, not delegate_task.
@@ -15,5 +15,5 @@ These rules override conflicting retained project knowledge below. Preserve its 
 
 ## Retained project knowledge
 
-# stangyode project knowledge
-Read README.md and existing project skills. Preserve the accepted product scope and prior artifacts.
+# stangyode-worker
+Read README.md for the accepted project semantic contract. Preserve existing behavior.

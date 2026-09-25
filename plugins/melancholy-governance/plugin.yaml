@@ -1,0 +1,27 @@
+name: melancholy-governance
+version: 0.1.0
+description: Thin vNext read-only inspection and typed native Kanban wrappers.
+requires_hermes: ==0.21.5
+provides_tools:
+- authorization_read
+- governance_audit
+- governance_request_create
+- governance_request_read
+- git_deliver_pr
+- project_read
+- project_search
+- git_status_ro
+- git_diff_ro
+- git_log_ro
+- git_show_ro
+- operation_read
+- kanban_create
+- operation_route
+- request_governance_change
+- governance_preview
+- governance_apply
+- governance_resolve
+- governance_onboard
+- decision_create
+provides_hooks:
+- kanban_task_claimed
