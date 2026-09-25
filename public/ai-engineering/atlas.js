@@ -7,6 +7,12 @@ const kind = document.querySelector('#kind');
 const status = document.querySelector('#status');
 const resultCount = document.querySelector('#result-count');
 const empty = document.querySelector('#no-results');
+const radarCards = [...document.querySelectorAll('[data-radar-card]')];
+const radarSearch = document.querySelector('#radar-search');
+const radarStage = document.querySelector('#radar-stage');
+const radarCompatibility = document.querySelector('#radar-compatibility');
+const radarResultCount = document.querySelector('#radar-result-count');
+const radarEmpty = document.querySelector('#radar-no-results');
 const languageButtons = [...document.querySelectorAll('#language-toggle, #language-toggle-mobile')];
 
 function safeStorageGet(key) { try { return window.localStorage.getItem(key); } catch { return null; } }
@@ -24,8 +30,9 @@ function setLocale(locale) {
   document.querySelectorAll('[data-en][data-ja]').forEach((element) => { if (element.dataset.rich === 'true') element.innerHTML = japanese ? element.dataset.ja : element.dataset.en; else element.textContent = japanese ? element.dataset.ja : element.dataset.en; });
   document.querySelectorAll('[data-label-en][data-label-ja]').forEach((element) => element.setAttribute('aria-label', japanese ? element.dataset.labelJa : element.dataset.labelEn));
   if (search) search.placeholder = japanese ? search.dataset.placeholderJa : search.dataset.placeholderEn;
+  if (radarSearch) radarSearch.placeholder = japanese ? radarSearch.dataset.placeholderJa : radarSearch.dataset.placeholderEn;
   languageButtons.forEach((button) => { button.setAttribute('aria-pressed', String(japanese)); button.setAttribute('aria-label', japanese ? '英語に切り替える' : 'Switch to Japanese'); });
-  safeStorageSet('stangyode-language', selected); filterTerms();
+  safeStorageSet('stangyode-language', selected); filterTerms(); filterRadar();
 }
 function filterTerms() {
   const query = search?.value.trim().toLowerCase() || ''; const selectedLayer = layer?.value || ''; const selectedKind = kind?.value || ''; const selectedStatus = status?.value || '';
@@ -36,6 +43,15 @@ function filterTerms() {
   if (empty) empty.hidden = visible !== 0;
 }
 [search, layer, kind, status].filter(Boolean).forEach((control) => control.addEventListener('input', filterTerms));
+function filterRadar() {
+  const query = radarSearch?.value.trim().toLowerCase() || ''; const selectedStage = radarStage?.value || ''; const selectedCompatibility = radarCompatibility?.value || '';
+  let visible = 0;
+  const totalRadarEntries = radarCards.filter((card) => card.classList.contains('radar-card')).length;
+  radarCards.forEach((card) => { const matches = (!query || card.dataset.search.toLowerCase().includes(query)) && (!selectedStage || card.dataset.stage === selectedStage) && (!selectedCompatibility || card.dataset.compatibility === selectedCompatibility); card.hidden = !matches; if (matches && card.classList.contains('radar-card')) visible += 1; });
+  if (radarResultCount) radarResultCount.textContent = `${visible} / ${totalRadarEntries} ${root.lang === 'ja' ? '項目' : 'ENTRIES'}`;
+  if (radarEmpty) radarEmpty.hidden = visible !== 0;
+}
+[radarSearch, radarStage, radarCompatibility].filter(Boolean).forEach((control) => control.addEventListener('input', filterRadar));
 document.querySelectorAll('.term-card a[href^="#term-"]').forEach((link) => link.addEventListener('click', () => {
   const target = document.getElementById(decodeURIComponent(link.hash.slice(1)));
   if (!target?.hidden) return;

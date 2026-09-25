@@ -1,0 +1,20 @@
+{
+  "schema": "stangyode.github-discovery/v1",
+  "provider": "github",
+  "mode": "manual-input",
+  "credentialsRequired": false,
+  "liveFetch": false,
+  "policy": {
+    "en": "This file is an input representation only. A future manual run may add public repository evidence; absence of a repository is intentional and does not establish a negative finding.",
+    "ja": "このファイルは入力表現のみである。将来の手動実行で公開リポジトリの証拠を追加できる。リポジトリがないことは意図的で、否定的な発見を意味しない。"
+  },
+  "queries": [
+    { "id": "agent-skills-query", "candidateId": "agent-skills", "query": "topic:agent-skills", "state": "not-collected" },
+    { "id": "mcp-apps-query", "candidateId": "mcp-apps", "query": "topic:mcp-apps", "state": "not-collected" },
+    { "id": "a2a-query", "candidateId": "a2a", "query": "topic:agent-to-agent", "state": "not-collected" },
+    { "id": "ard-query", "candidateId": "agentic-resource-discovery-ard", "query": "topic:agentic-resource-discovery", "state": "not-collected" },
+    { "id": "ponytail-query", "candidateId": "ponytail", "query": "ponytail", "state": "not-collected" },
+    { "id": "caveman-query", "candidateId": "caveman", "query": "caveman", "state": "not-collected" }
+  ],
+  "signals": []
+}
