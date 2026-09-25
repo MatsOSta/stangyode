@@ -5,7 +5,7 @@ import { html as expectedHtml } from './render-atlas.mjs';
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const load = async (name) => JSON.parse(await readFile(resolve(repo, `atlas/data/${name}`), 'utf8'));
-const [data, sources, changelog, html] = await Promise.all([load('atlas.json'), load('sources.json'), load('changelog.json'), readFile(resolve(repo, 'public/ai-engineering/index.html'), 'utf8')]);
+const [data, sources, changelog, radar, html] = await Promise.all([load('atlas.json'), load('sources.json'), load('changelog.json'), load('frontier-radar.json'), readFile(resolve(repo, 'public/ai-engineering/index.html'), 'utf8')]);
 const fail = (message) => { throw new Error(message); };
 const count = (pattern) => (html.match(pattern) || []).length;
 const bilingual = (value, label) => value && typeof value.en === 'string' && value.en.trim() && typeof value.ja === 'string' && value.ja.trim() || fail(`Missing bilingual ${label}`);
@@ -27,13 +27,16 @@ for (const [id, item] of Object.entries(sources)) { if (!item.title || !/^https:
 for (const [key, value] of Object.entries(data.ui)) { if (key === 'stackExamples') continue; bilingual(value, `ui field ${key}`); }
 if (!data.ui.stackExamples?.en?.length || data.ui.stackExamples.en.length !== data.ui.stackExamples.ja.length) fail('Stack example language count mismatch');
 for (const item of changelog) { if (!item.date || !item.label) fail(`Invalid changelog item ${item.label}`); bilingual(item, `changelog ${item.label}`); }
+if (radar.schema !== 'stangyode.frontier-radar/v1' || radar.signals.length !== 7 || radar.adoption.length !== radar.signals.length) fail('Radar presentation data is incomplete');
+if (count(/class="radar-card"/g) !== radar.signals.length || count(/class="adoption-card"/g) !== radar.signals.length) fail('Generated Radar or Adoption card count mismatch');
+for (const signal of radar.signals) { if (!html.includes(`id="radar-${signal.id}"`) || !html.includes(`id="adoption-${signal.id}"`)) fail(`Missing Radar view ${signal.id}`); bilingual(signal.name, `Radar name ${signal.id}`); bilingual(signal.recommendation, `Radar recommendation ${signal.id}`); }
 for (const landmark of ['stack','principle','ecosystems','terminology','synthesis','architecture-watch','obsolescence-radar','sources']) if (!html.includes(`id="${landmark}"`)) fail(`Missing route landmark ${landmark}`);
 if (count(/class="term-card"/g) !== data.terms.length) fail('Generated term count mismatch');
 if (count(/class="ecosystem-card"/g) !== data.ecosystems.length) fail('Generated ecosystem count mismatch');
 for (const term of data.terms) if (!html.includes(`id="term-${term.id}"`)) fail(`Missing term ${term.id}`);
 for (const item of data.ecosystems) if (!html.includes(`id="ecosystem-${item.id}"`)) fail(`Missing ecosystem ${item.id}`);
 for (const control of ['id="search"','id="layer"','id="kind"','id="status"','id="result-count"']) if (!html.includes(control)) fail(`Missing filter ${control}`);
-for (const token of ['data-en=','data-ja=','Architecture Watch','TURN FAILURE INTO EVAL','RUN REGRESSION SUITE','Primary sources first.']) if (!html.includes(token)) fail(`Missing generated content ${token}`);
+for (const token of ['data-en=','data-ja=','Frontier Radar','Adoption Intelligence','radar-search','radar-stage','radar-compatibility','TURN FAILURE INTO EVAL','RUN REGRESSION SUITE','Primary sources first.']) if (!html.includes(token)) fail(`Missing generated content ${token}`);
 const logoPath = 'M4 9.5 17 2l13 7.5v15L17 32 4 24.5z'; const innerPath = 'm10 13 7-4 7 4-7 4-7 4 7 4 7-4';
 if (html.split(`<path d="${logoPath}"`).length - 1 < 2 || html.split(`<path d="${innerPath}"`).length - 1 < 2) fail('Canonical logo paths missing');
 if (html !== expectedHtml) fail('Generated Atlas HTML is stale: run npm run build:atlas and review the diff');
