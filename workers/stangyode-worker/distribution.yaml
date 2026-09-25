@@ -1,6 +1,6 @@
-name: stangyode-pm
+name: stangyode-worker
 version: 0.2.0
-description: project_pm for stangyode, Melancholy vNext
+description: worker for stangyode, Melancholy vNext
 hermes_requires: ==0.21.5
 distribution_owned:
 - SOUL.md
@@ -9,4 +9,3 @@ distribution_owned:
 - plugins
 - skills
 - scripts
-- cron
