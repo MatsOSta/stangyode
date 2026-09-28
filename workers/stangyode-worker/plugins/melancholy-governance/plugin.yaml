@@ -8,6 +8,7 @@ provides_tools:
 - governance_request_create
 - governance_request_read
 - git_deliver_pr
+- git_publish_pages_pr
 - project_read
 - project_search
 - git_status_ro
