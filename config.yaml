@@ -6,6 +6,7 @@ toolsets: &id001
 - kanban
 - clarify
 - melancholy_contracts
+- terminal
 platform_toolsets:
   cli: *id001
   telegram: *id001
@@ -18,7 +19,6 @@ agent:
   - setup
   - desktop_ui
   - project
-  - terminal
   - file
 terminal:
   backend: local
