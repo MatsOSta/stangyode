@@ -50,7 +50,7 @@ When adding or removing translated content:
 
 The public site remains on GitHub Pages at `https://stangyode.com/`. The existing publication branch and custom-domain configuration are retained as the deployment target.
 
-Publication is manual and separately approved for now. A reviewed deployment workflow may automate publication in a later project. Do not publish, change the custom domain, or create deployment automation without explicit approval.
+Publication is initiated only by Mats's explicit `publish` request after a website PR has been reviewed and merged. The governed worker creates a publication PR targeting the existing `gh-pages` branch; Mats retains the final merge. A reviewed deployment workflow may automate publication in a later project. Do not change the custom domain or create deployment automation.
 
 ## Migration boundary
 
