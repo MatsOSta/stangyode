@@ -19,7 +19,7 @@ agent:
   - setup
   - desktop_ui
   - project
-  - process
+  - process_manage
   - file
 terminal:
   backend: local
