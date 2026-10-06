@@ -1,23 +1,19 @@
 # Stangyode
 
-Stangyode is Mats O. Stangjordet's main public website and professional calling card. It showcases technical work and public proof, with the main site in scope by default. Public subsites may be added explicitly later.
+Stangyode is Mats O. Stangjordet's public website and professional calling card. The site is bilingual in English and Japanese and includes the AI Engineering Atlas.
 
-The site is bilingual in English and Japanese. Both languages are maintained as feature- and content-complete peers.
-
-## Project status
-
-This repository is the canonical source for the Stangyode website. The current migration preserves the existing website implementation and behavior; redesign and broader content review are separate future projects.
-
-The project is governed by Melancholy. Old Melancholy Inc / ai-company control-plane infrastructure, credentials, workflows, and historical coordination records are not part of this repository.
-
-Mats is the owner and final approver. Changes use an assigned feature branch, pushed branch, pull request, review, approval, and merge. The `master` branch is the canonical source branch.
+This repository is the canonical source for the website.
 
 ## Project structure
 
-- `public/index.html` — page structure and translatable element bindings
-- `public/styles.css` — responsive layout, visual system, and language-specific typography
-- `public/translations.js` — complete English and Japanese copy
-- `public/app.js` — language switching, menu behavior, reveal effects, and footer year
+- `public/index.html` — main page structure
+- `public/styles.css` — responsive layout and visual system
+- `public/translations.js` — English and Japanese copy
+- `public/app.js` — language switching and page interactions
+- `public/ai-engineering/` — generated AI Engineering Atlas site
+- `atlas/data/` — Atlas and Frontier Radar source data
+- `atlas/scripts/` — Atlas build and validation scripts
+- `atlas/artifacts/` — generated supporting artifacts
 - `server.mjs` — dependency-free local static server
 
 ## Local development
@@ -30,36 +26,51 @@ npm start
 
 Open `http://127.0.0.1:4173`.
 
-Run JavaScript syntax checks with:
+Run the project checks with:
 
 ```sh
 npm run check
 ```
 
+Rebuild Atlas output when its source data changes:
+
+```sh
+npm run build:atlas
+npm run build:frontier-radar
+```
+
 ## Language support
 
-The `EN / 日本語` control changes all page copy, metadata, and relevant accessibility labels. The selected locale is stored in `localStorage` under `stangyode-language` and restored on the next visit.
+English and Japanese are maintained as feature- and content-complete peers.
 
-When adding or removing translated content:
+The `EN / 日本語` control changes page copy, metadata, and relevant accessibility labels. The selected locale is stored in `localStorage` under `stangyode-language` and restored on the next visit.
+
+When changing translated content:
 
 1. Bind the element with `data-i18n="key"` or `data-i18n-aria-label="key"`.
 2. Add the same key to both `en` and `ja` in `public/translations.js`.
-3. Run `npm run check` and verify both language states before publication.
+3. Run `npm run check` and verify both language states.
+
+## Development workflow
+
+Work may be done directly by Mats, through ChatGPT, or with local coding agents such as Hermes. The repository is intentionally tool-agnostic: agent profiles, personalities, runtime distributions, orchestration state, machine-specific hooks, and external governance configuration do not belong in this repository.
+
+For normal website changes:
+
+1. Create a focused branch.
+2. Make the scoped change.
+3. Run `npm run check` and relevant local/browser verification.
+4. Open a pull request to `master`.
+5. Review and merge.
+
+`master` is the canonical source branch.
 
 ## Publication
 
-The public site remains on GitHub Pages at `https://stangyode.com/`. The existing publication branch and custom-domain configuration are retained as the deployment target.
+The public site is hosted at `https://stangyode.com/` using the existing `gh-pages` branch and custom-domain configuration.
 
-Publication is initiated only by Mats's explicit `publish` request after a website PR has been reviewed and merged. The governed worker creates a publication PR targeting the existing `gh-pages` branch; Mats retains the final merge. A reviewed deployment workflow may automate publication in a later project. Do not change the custom domain or create deployment automation.
+Publication is separate from source development. Do not change the custom domain or deployment configuration as part of unrelated website work.
 
-## Migration boundary
+## Repository history
 
-The current website source was imported as the migration baseline. The previous source directory is not a second active source and may be removed only after the canonical repository has been verified and that deletion is explicitly authorized.
-
-The first migration acceptance checks are:
-
-- JavaScript syntax checks
-- Local server smoke test
-- Responsive browser review
-- English interaction checks
-- Japanese interaction checks
+Earlier revisions of this repository included Melancholy/Hermes project-management and agent-runtime configuration. That machinery is no longer part of the active project. Its history remains available through Git and should not be restored as repository-local runtime authority.
