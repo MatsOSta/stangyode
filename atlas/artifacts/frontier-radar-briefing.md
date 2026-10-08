@@ -9,28 +9,30 @@ A bounded manual-run inventory for deciding what to watch, test, or defer. / 何
 ## Signals / シグナル
 
 ### Agent Skills / Agent Skills
-- Adoption stage / 導入段階: WATCH (48/100)
-- Scores / スコア: frontier 78, fit 72, confidence 42
-- Recommendation / 推奨: Watch and prototype as a versioned capability boundary; do not install a package from discovery by default. / バージョン管理された能力境界として観測・試作する。発見したパッケージを標準でインストールしない。
-- Compatibility / 互換性: UNKNOWN — Host, permission, and instruction-loading compatibility has not been checked in this seed snapshot. / このシード・スナップショットでは、ホスト、権限、指示読み込みの互換性を確認していない。
+- Adoption stage / 導入段階: WATCH (55/100)
+- Scores / スコア: frontier 82, fit 78, confidence 70
+- Recommendation / 推奨: Watch and prototype with pinned sources, permission disclosure, review, and cross-host conformance checks; installability is not trust. / 固定済みソース、権限開示、レビュー、ホスト横断適合性確認を伴って観測・試作する。インストール可能であることは信頼ではない。
+- Compatibility / 互換性: UNKNOWN — Host, permission, and instruction-loading compatibility remains untested across named clients. / 指定したクライアント間でのホスト、権限、指示読み込みの互換性は未検証。
 - Trade-offs / トレードオフ:
   - Portable instructions can improve reuse, but hidden dependencies can weaken reviewability. / 移植可能な指示は再利用性を高めるが、隠れた依存関係はレビュー可能性を下げる。
   - Progressive disclosure reduces context load, but adds packaging and lifecycle work. / 段階的開示はコンテキスト負荷を減らすが、パッケージ化とライフサイクル作業が増える。
-- Provenance / 来歴: seed; unverified; 2026-09-24
+- Provenance / 来歴: verification; partially-verified; 2026-10-08
 - History / 履歴:
   - 2026-09-24: Seeded for watch-list review. / ウォッチリスト確認用にシード。
+  - 2026-10-08: Added implementation evidence for cross-client installation and update semantics; high attention supports WATCH, while provenance and permission controls remain weak. / クライアント横断のインストールと更新機能の実装証拠を追加。高い注目はWATCHを支持するが、来歴と権限制御は弱いまま。
 
 ### MCP Apps / MCP Apps
-- Adoption stage / 導入段階: WATCH (44/100)
-- Scores / スコア: frontier 76, fit 63, confidence 58
-- Recommendation / 推奨: Watch for a narrow UI integration experiment behind an explicit host compatibility check. / 明示的なホスト互換性確認を前提に、限定的なUI統合実験を観測する。
+- Adoption stage / 導入段階: WATCH (50/100)
+- Scores / スコア: frontier 80, fit 65, confidence 70
+- Recommendation / 推奨: Watch as a typed tool-to-UI stack; require a narrow cross-host compatibility test and threat model before any pilot. / 型付きツールからUIへのスタックとして観測する。試行前に限定的なホスト横断互換性テストと脅威モデルを必須とする。
 - Compatibility / 互換性: UNKNOWN — The Atlas records the protocol concept, not compatibility with Stangyode's static site or a chosen host. / アトラスが記録するのはプロトコル概念であり、Stangyodeの静的サイトや特定ホストとの互換性ではない。
 - Trade-offs / トレードオフ:
   - Tool results can become more usable, but the host becomes part of the product contract. / ツール結果は使いやすくなるが、ホストが製品契約の一部になる。
   - Richer interaction can reduce handoff friction, but increases UI and security surface. / 豊かな操作は引き継ぎ摩擦を減らすが、UIとセキュリティ面を広げる。
-- Provenance / 来歴: seed; unverified; 2026-09-24
+- Provenance / 来歴: verification; partially-verified; 2026-10-08
 - History / 履歴:
   - 2026-09-24: Seeded as a protocol watch item. / プロトコルの観測項目としてシード。
+  - 2026-10-08: Added an active full-stack framework and the July protocol changelog; typed UI contracts are real, but production compatibility remains unverified. / 活発なフルスタック・フレームワークと7月のプロトコル変更履歴を追加。型付きUI契約は実在するが、本番互換性は未検証。
 
 ### A2A / A2A
 - Adoption stage / 導入段階: WATCH (46/100)
@@ -93,17 +95,42 @@ A bounded manual-run inventory for deciding what to watch, test, or defer. / 何
   - 2026-09-24: Added as an unverified candidate; no evidence collected. / 未検証候補として追加。証拠は収集していない。
 
 ### System One / typed decision models / システムワン / 型付き判断モデル
-- Adoption stage / 導入段階: WATCH (36/100)
-- Scores / スコア: frontier 82, fit 74, confidence 55
-- Recommendation / 推奨: Watch as a non-generative decision layer. Jev is an implementation; System One / typed decisions is the idea. Do not install. Do not promote to Core Atlas yet. Hype is high; first-party experiment has not been run. / 非生成の判断層として観測する。Jevは実装、システムワン / 型付き判断が概念。インストールしない。まだコア・アトラスへ昇格しない。注目は高い。自前の実験は未実施。
-- Compatibility / 互換性: UNKNOWN — No Stangyode workload has been run against the API. Compatibility stays unknown. / Stangyodeの仕事をAPIに対して実行していない。互換性は不明のまま。
+- Adoption stage / 導入段階: WATCH (40/100)
+- Scores / スコア: frontier 84, fit 76, confidence 68
+- Recommendation / 推奨: Watch for cheap routing, gating, abstention, and escalation; benchmark locally against calibrated classifiers and label-probability baselines before a pilot. / 低コストのルーティング、ゲート、棄却、エスカレーション用途として観測する。試行前に較正済み分類器とラベル確率ベースラインでローカル評価する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has been run against a hosted or open implementation. Compatibility stays unknown. / Stangyodeの仕事をホスト型または公開実装に対して実行していない。互換性は不明のまま。
 - Trade-offs / トレードオフ:
   - Typed answers let software branch without parsing prose, but the hosted model is a new vendor and runtime dependency. / 型付き回答は文章解析なしに分岐できるが、ホストモデルは新たなベンダーと実行時依存になる。
   - Calibrated confidence is useful for act-or-escalate gates, but calibration claims need independent checks. / 較正された確信度は実行かエスカレーションかの門に使えるが、較正の主張は独立検証が必要。
   - Attention is real (docs, press, reproductions). Attention is not proof the model is accurate in our workloads. / 注目は実在する（資料、報道、再現）。注目は、我々の仕事で正確であることの証明ではない。
-- Provenance / 来歴: discovery; partially-verified; 2026-10-08
+- Provenance / 来歴: verification; partially-verified; 2026-10-08
 - History / 履歴:
   - 2026-10-08: Discovered without a Jev-named query. Assessed as Radar-only. Implementation: Jev. Concept: System One / typed decisions. / Jevという名前のクエリなしで発見。レーダーのみとして評価。実装はJev。概念はシステムワン / 型付き判断。
+  - 2026-10-08: Added an open implementation and an independent early evidence audit. The interface and latency/cost case strengthened; general accuracy superiority remains unproven. / 公開実装と独立した初期証拠監査を追加。インターフェースと遅延・コスト面は強まったが、一般的な精度優位は未証明。
+
+### Knowledge Triage / type-aware retention / Knowledge Triage / 型対応保持
+- Adoption stage / 導入段階: WATCH (28/100)
+- Scores / スコア: frontier 79, fit 84, confidence 68
+- Recommendation / 推奨: Watch and replicate on real agent histories before adopting type-aware compaction; preserve exact invariants separately in the meantime. / 型対応圧縮を採用する前に実際のエージェント履歴で再現する。当面は正確な不変条件を別途保持する。
+- Compatibility / 互換性: UNKNOWN — No representative long-running agent history from this project has been evaluated with these operators. / このプロジェクトの代表的な長期エージェント履歴を、これらの演算子で評価していない。
+- Trade-offs / トレードオフ:
+  - Type-specific retention can protect exact constraints, but classification errors become a new safety boundary. / 型別保持は正確な制約を守れるが、分類誤りが新たな安全境界になる。
+  - The paper and code provide replication artifacts, but the reported gains still come from one research line without independent replication. / 論文とコードは再現用成果物を提供するが、報告された改善は独立再現のない一つの研究系列に依存する。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-08
+- History / 履歴:
+  - 2026-10-08: Added at WATCH from a peer-reviewed paper and reference implementation; strong relevance, low buzz, replication still required. / 査読論文と参照実装からWATCHに追加。関連性は高く話題性は低い。再現はなお必要。
+
+### Verified tool effects and transactional settlement / 検証済みツール効果とトランザクション決済
+- Adoption stage / 導入段階: WATCH (30/100)
+- Scores / スコア: frontier 83, fit 90, confidence 74
+- Recommendation / 推奨: Watch as a reliability pattern: verify tool returns, make writes idempotent or compensable, and gate irreversible effects behind explicit settlement. / 信頼性パターンとして観測する。ツール戻り値を検証し、書き込みを冪等または補償可能にし、不可逆効果を明示的な決済の後段に置く。
+- Compatibility / 互換性: UNKNOWN — The pattern fits external-write workflows in principle, but no Stangyode-side harness or transactional adapter has been tested. / 原則上は外部書き込みワークフローに適合するが、Stangyode側のハーネスやトランザクション・アダプターは未検証。
+- Trade-offs / トレードオフ:
+  - Verification and settlement boundaries reduce silent corruption and leaked side effects, but add latency, adapters, and failure states. / 検証と決済境界は静かな破損と漏れた副作用を減らすが、遅延、アダプター、障害状態を増やす。
+  - Atomix demonstrates one concrete runtime design, but does not establish full crash-safe exactly-once behavior or automatic fit for existing systems. / Atomixは具体的なランタイム設計を示すが、完全なクラッシュ安全exactly-onceや既存システムへの自動適合を確立しない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-08
+- History / 履歴:
+  - 2026-10-08: Added at WATCH as an Atlas-level reliability pattern, not an automatic recommendation to adopt Atomix. / Atomixの自動採用推奨ではなく、アトラス級の信頼性パターンとしてWATCHに追加。
 
 ## GitHub discovery input / GitHub発見入力
 

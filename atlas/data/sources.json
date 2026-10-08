@@ -382,5 +382,69 @@
       "en": "Independent report. Attention evidence, not primary technical proof.",
       "ja": "独立報道。注目の証拠であり、一次の技術証明ではない。"
     }
+  },
+  "decider-repo": {
+    "title": "Mapika decider",
+    "url": "https://github.com/Mapika/decider",
+    "note": {
+      "en": "Apache-2.0 open implementation, evaluation, training, and serving code for one-pass typed decisions; repository results are project-reported.",
+      "ja": "一回の推論による型付き判断のApache-2.0実装、評価、学習、配信コード。リポジトリ内の結果はプロジェクト自身の報告。"
+    }
+  },
+  "typed-decision-audit": {
+    "title": "Typed Decision Models: An Early Evidence Audit and Evaluation Checklist",
+    "url": "https://arxiv.org/html/2609.32160v1",
+    "note": {
+      "en": "Independent early audit of 28 papers; finds latency and cost evidence but no independent accuracy advantage for typed readout, with only nine days of evidence.",
+      "ja": "28本の論文を対象とした独立の初期監査。遅延とコストの証拠はあるが、型付き読み出し固有の精度優位は未確認で、証拠期間は9日間のみ。"
+    }
+  },
+  "vercel-skills-cli": {
+    "title": "Vercel skills CLI",
+    "url": "https://github.com/vercel-labs/skills",
+    "note": {
+      "en": "Open installer and updater for distributing skills across multiple agent clients; popularity is an attention signal, not capability proof.",
+      "ja": "複数のエージェントクライアントへスキルを配布するオープンなインストール・更新ツール。人気は注目のシグナルであり、能力の証明ではない。"
+    }
+  },
+  "mcp-use-repo": {
+    "title": "mcp-use full-stack MCP framework",
+    "url": "https://github.com/mcp-use/mcp-use",
+    "note": {
+      "en": "Active framework combining MCP servers, apps, inspection, tunneling, and deployment; repository claims are not cross-host production proof.",
+      "ja": "MCPサーバー、アプリ、検査、トンネリング、デプロイを組み合わせる活発なフレームワーク。リポジトリの主張はホスト横断の本番実証ではない。"
+    }
+  },
+  "knowledge-triage-paper": {
+    "title": "The Compaction Cliff in Long-Running AI Agent Memory",
+    "url": "https://arxiv.org/abs/2608.22752",
+    "note": {
+      "en": "CIKM 2026 paper reporting type-aware compaction, decomposition, and retrieval results; independent replication was not found.",
+      "ja": "型を考慮した圧縮、分解、検索の結果を報告するCIKM 2026論文。独立再現は未確認。"
+    }
+  },
+  "knowledge-triage-repo": {
+    "title": "Knowledge Triage reference implementation",
+    "url": "https://github.com/searchsim-org/cikm26-knowledge-triage",
+    "note": {
+      "en": "Apache-2.0 reference code, experiments, and frozen result artifacts accompanying the Knowledge Triage paper.",
+      "ja": "Knowledge Triage論文に付随するApache-2.0参照コード、実験、固定済み結果アーティファクト。"
+    }
+  },
+  "unreliable-tools-paper": {
+    "title": "Agents' Overreliance on Unreliable Tools",
+    "url": "https://arxiv.org/abs/2609.05587",
+    "note": {
+      "en": "Study of 14 models and three corrupted tool classes; reports corrupted-return adoption above one third for every tool and 68% for web search.",
+      "ja": "14モデルと3種類の破損ツール出力を調べた研究。全ツールで破損出力の採用率が3分の1を超え、ウェブ検索では68%と報告。"
+    }
+  },
+  "atomix-paper": {
+    "title": "Atomix: Timely, Transactional Tool Use for Reliable Agentic Workflows",
+    "url": "https://arxiv.org/html/2602.14849",
+    "note": {
+      "en": "Research runtime for sealed transactions, progress frontiers, commit/abort, and irreversible-effect gates; does not claim full crash-safe exactly-once semantics.",
+      "ja": "封印済みトランザクション、進捗フロンティア、コミット/中止、不可逆効果ゲートを扱う研究ランタイム。完全なクラッシュ安全exactly-onceは主張しない。"
+    }
   }
 }

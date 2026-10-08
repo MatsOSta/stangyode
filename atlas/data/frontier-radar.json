@@ -21,14 +21,16 @@
     "dimensions": ["frontier", "adoption", "fit", "confidence"]
   },
   "adoption": [
-    { "signalId": "agent-skills", "stage": "watch", "score": 48, "compatibility": "unknown" },
-    { "signalId": "mcp-apps", "stage": "watch", "score": 44, "compatibility": "unknown" },
+    { "signalId": "agent-skills", "stage": "watch", "score": 55, "compatibility": "unknown" },
+    { "signalId": "mcp-apps", "stage": "watch", "score": 50, "compatibility": "unknown" },
     { "signalId": "a2a", "stage": "watch", "score": 46, "compatibility": "unknown" },
     { "signalId": "agentic-resource-discovery-ard", "stage": "defer", "score": 31, "compatibility": "unknown" },
     { "signalId": "context-engineering", "stage": "pilot", "score": 62, "compatibility": "unknown" },
     { "signalId": "ponytail", "stage": "defer", "score": 0, "compatibility": "unknown" },
     { "signalId": "caveman", "stage": "defer", "score": 0, "compatibility": "unknown" },
-    { "signalId": "system-one-models", "stage": "watch", "score": 36, "compatibility": "unknown" }
+    { "signalId": "system-one-models", "stage": "watch", "score": 40, "compatibility": "unknown" },
+    { "signalId": "knowledge-triage", "stage": "watch", "score": 28, "compatibility": "unknown" },
+    { "signalId": "tool-effect-integrity", "stage": "watch", "score": 30, "compatibility": "unknown" }
   ],
   "signals": [
     {
@@ -36,10 +38,10 @@
       "name": { "en": "Agent Skills", "ja": "Agent Skills" },
       "kind": "concept",
       "atlasTermIds": ["agent-harness", "capability"],
-      "scores": { "frontier": 78, "adoption": 48, "fit": 72, "confidence": 42 },
+      "scores": { "frontier": 82, "adoption": 55, "fit": 78, "confidence": 70 },
       "recommendation": {
-        "en": "Watch and prototype as a versioned capability boundary; do not install a package from discovery by default.",
-        "ja": "バージョン管理された能力境界として観測・試作する。発見したパッケージを標準でインストールしない。"
+        "en": "Watch and prototype with pinned sources, permission disclosure, review, and cross-host conformance checks; installability is not trust.",
+        "ja": "固定済みソース、権限開示、レビュー、ホスト横断適合性確認を伴って観測・試作する。インストール可能であることは信頼ではない。"
       },
       "tradeoffs": [
         { "en": "Portable instructions can improve reuse, but hidden dependencies can weaken reviewability.", "ja": "移植可能な指示は再利用性を高めるが、隠れた依存関係はレビュー可能性を下げる。" },
@@ -47,18 +49,19 @@
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "Host, permission, and instruction-loading compatibility has not been checked in this seed snapshot.", "ja": "このシード・スナップショットでは、ホスト、権限、指示読み込みの互換性を確認していない。" },
+        "rationale": { "en": "Host, permission, and instruction-loading compatibility remains untested across named clients.", "ja": "指定したクライアント間でのホスト、権限、指示読み込みの互換性は未検証。" },
         "checkedAgainst": []
       },
       "provenance": {
-        "kind": "seed",
-        "status": "unverified",
-        "sourceIds": ["agent-skills-spec"],
-        "collectedAt": "2026-09-24",
-        "method": { "en": "Manual seed derived from the existing Atlas source index; no live discovery performed.", "ja": "既存アトラスの情報源一覧から手動でシードした。ライブ発見は実行していない。" }
+        "kind": "verification",
+        "status": "partially-verified",
+        "sourceIds": ["agent-skills-spec", "vercel-skills-cli"],
+        "collectedAt": "2026-10-08",
+        "method": { "en": "Reviewed the open Agent Skills specification and Vercel skills CLI. No package was installed and cross-host behavior was not tested.", "ja": "Agent Skillsの公開仕様とVercel skills CLIを確認。パッケージはインストールせず、ホスト横断動作も未検証。" }
       },
       "history": [
-        { "date": "2026-09-24", "event": { "en": "Seeded for watch-list review.", "ja": "ウォッチリスト確認用にシード。" }, "scores": { "frontier": 78, "adoption": 48, "fit": 72, "confidence": 42 } }
+        { "date": "2026-09-24", "event": { "en": "Seeded for watch-list review.", "ja": "ウォッチリスト確認用にシード。" }, "scores": { "frontier": 78, "adoption": 48, "fit": 72, "confidence": 42 } },
+        { "date": "2026-10-08", "event": { "en": "Added implementation evidence for cross-client installation and update semantics; high attention supports WATCH, while provenance and permission controls remain weak.", "ja": "クライアント横断のインストールと更新機能の実装証拠を追加。高い注目はWATCHを支持するが、来歴と権限制御は弱いまま。" }, "scores": { "frontier": 82, "adoption": 55, "fit": 78, "confidence": 70 } }
       ]
     },
     {
@@ -66,10 +69,10 @@
       "name": { "en": "MCP Apps", "ja": "MCP Apps" },
       "kind": "concept",
       "atlasTermIds": ["mcp-apps"],
-      "scores": { "frontier": 76, "adoption": 44, "fit": 63, "confidence": 58 },
+      "scores": { "frontier": 80, "adoption": 50, "fit": 65, "confidence": 70 },
       "recommendation": {
-        "en": "Watch for a narrow UI integration experiment behind an explicit host compatibility check.",
-        "ja": "明示的なホスト互換性確認を前提に、限定的なUI統合実験を観測する。"
+        "en": "Watch as a typed tool-to-UI stack; require a narrow cross-host compatibility test and threat model before any pilot.",
+        "ja": "型付きツールからUIへのスタックとして観測する。試行前に限定的なホスト横断互換性テストと脅威モデルを必須とする。"
       },
       "tradeoffs": [
         { "en": "Tool results can become more usable, but the host becomes part of the product contract.", "ja": "ツール結果は使いやすくなるが、ホストが製品契約の一部になる。" },
@@ -81,14 +84,15 @@
         "checkedAgainst": ["stangyode-static-site"]
       },
       "provenance": {
-        "kind": "seed",
-        "status": "unverified",
-        "sourceIds": ["mcp-apps-docs"],
-        "collectedAt": "2026-09-24",
-        "method": { "en": "Manual seed from the existing Atlas source relationship; no implementation was installed.", "ja": "既存アトラスの情報源関係から手動でシードした。実装はインストールしていない。" }
+        "kind": "verification",
+        "status": "partially-verified",
+        "sourceIds": ["mcp-apps-docs", "mcp-use-repo", "mcp-changelog"],
+        "collectedAt": "2026-10-08",
+        "method": { "en": "Reviewed mcp-use repository evidence and the normative MCP changelog. No framework was installed and no host matrix was exercised.", "ja": "mcp-useのリポジトリ証拠と規範的MCP変更履歴を確認。フレームワークはインストールせず、ホスト行列も未実行。" }
       },
       "history": [
-        { "date": "2026-09-24", "event": { "en": "Seeded as a protocol watch item.", "ja": "プロトコルの観測項目としてシード。" }, "scores": { "frontier": 76, "adoption": 44, "fit": 63, "confidence": 58 } }
+        { "date": "2026-09-24", "event": { "en": "Seeded as a protocol watch item.", "ja": "プロトコルの観測項目としてシード。" }, "scores": { "frontier": 76, "adoption": 44, "fit": 63, "confidence": 58 } },
+        { "date": "2026-10-08", "event": { "en": "Added an active full-stack framework and the July protocol changelog; typed UI contracts are real, but production compatibility remains unverified.", "ja": "活発なフルスタック・フレームワークと7月のプロトコル変更履歴を追加。型付きUI契約は実在するが、本番互換性は未検証。" }, "scores": { "frontier": 80, "adoption": 50, "fit": 65, "confidence": 70 } }
       ]
     },
     {
@@ -246,10 +250,10 @@
       "name": { "en": "System One / typed decision models", "ja": "システムワン / 型付き判断モデル" },
       "kind": "discovery-candidate",
       "atlasTermIds": [],
-      "scores": { "frontier": 82, "adoption": 36, "fit": 74, "confidence": 55 },
+      "scores": { "frontier": 84, "adoption": 40, "fit": 76, "confidence": 68 },
       "recommendation": {
-        "en": "Watch as a non-generative decision layer. Jev is an implementation; System One / typed decisions is the idea. Do not install. Do not promote to Core Atlas yet. Hype is high; first-party experiment has not been run.",
-        "ja": "非生成の判断層として観測する。Jevは実装、システムワン / 型付き判断が概念。インストールしない。まだコア・アトラスへ昇格しない。注目は高い。自前の実験は未実施。"
+        "en": "Watch for cheap routing, gating, abstention, and escalation; benchmark locally against calibrated classifiers and label-probability baselines before a pilot.",
+        "ja": "低コストのルーティング、ゲート、棄却、エスカレーション用途として観測する。試行前に較正済み分類器とラベル確率ベースラインでローカル評価する。"
       },
       "tradeoffs": [
         { "en": "Typed answers let software branch without parsing prose, but the hosted model is a new vendor and runtime dependency.", "ja": "型付き回答は文章解析なしに分岐できるが、ホストモデルは新たなベンダーと実行時依存になる。" },
@@ -258,18 +262,79 @@
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "No Stangyode workload has been run against the API. Compatibility stays unknown.", "ja": "Stangyodeの仕事をAPIに対して実行していない。互換性は不明のまま。" },
+        "rationale": { "en": "No Stangyode workload has been run against a hosted or open implementation. Compatibility stays unknown.", "ja": "Stangyodeの仕事をホスト型または公開実装に対して実行していない。互換性は不明のまま。" },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "verification",
+        "status": "partially-verified",
+        "sourceIds": ["typesafe-system-one", "typesafe-home", "infoq-jev", "decider-repo", "typed-decision-audit"],
+        "collectedAt": "2026-10-08",
+        "method": { "en": "Reviewed the open decider implementation and an independent 28-paper audit. No model was installed and no Stangyode workload was run.", "ja": "公開decider実装と28本を対象にした独立監査を確認。モデルはインストールせず、Stangyodeの仕事も実行していない。" }
+      },
+      "history": [
+        { "date": "2026-10-08", "event": { "en": "Discovered without a Jev-named query. Assessed as Radar-only. Implementation: Jev. Concept: System One / typed decisions.", "ja": "Jevという名前のクエリなしで発見。レーダーのみとして評価。実装はJev。概念はシステムワン / 型付き判断。" }, "scores": { "frontier": 82, "adoption": 36, "fit": 74, "confidence": 55 } },
+        { "date": "2026-10-08", "event": { "en": "Added an open implementation and an independent early evidence audit. The interface and latency/cost case strengthened; general accuracy superiority remains unproven.", "ja": "公開実装と独立した初期証拠監査を追加。インターフェースと遅延・コスト面は強まったが、一般的な精度優位は未証明。" }, "scores": { "frontier": 84, "adoption": 40, "fit": 76, "confidence": 68 } }
+      ]
+    },
+    {
+      "id": "knowledge-triage",
+      "name": { "en": "Knowledge Triage / type-aware retention", "ja": "Knowledge Triage / 型対応保持" },
+      "kind": "discovery-candidate",
+      "atlasTermIds": ["context-engineering"],
+      "scores": { "frontier": 79, "adoption": 28, "fit": 84, "confidence": 68 },
+      "recommendation": {
+        "en": "Watch and replicate on real agent histories before adopting type-aware compaction; preserve exact invariants separately in the meantime.",
+        "ja": "型対応圧縮を採用する前に実際のエージェント履歴で再現する。当面は正確な不変条件を別途保持する。"
+      },
+      "tradeoffs": [
+        { "en": "Type-specific retention can protect exact constraints, but classification errors become a new safety boundary.", "ja": "型別保持は正確な制約を守れるが、分類誤りが新たな安全境界になる。" },
+        { "en": "The paper and code provide replication artifacts, but the reported gains still come from one research line without independent replication.", "ja": "論文とコードは再現用成果物を提供するが、報告された改善は独立再現のない一つの研究系列に依存する。" }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": { "en": "No representative long-running agent history from this project has been evaluated with these operators.", "ja": "このプロジェクトの代表的な長期エージェント履歴を、これらの演算子で評価していない。" },
         "checkedAgainst": []
       },
       "provenance": {
         "kind": "discovery",
         "status": "partially-verified",
-        "sourceIds": ["typesafe-system-one", "typesafe-home", "infoq-jev"],
+        "sourceIds": ["knowledge-triage-paper", "knowledge-triage-repo"],
         "collectedAt": "2026-10-08",
-        "method": { "en": "Phenomenon sweep for typed probabilistic decisions / System One. Primary docs inspected. No product-name seed query. No local experiment.", "ja": "型付き確率的判断 / システムワンの現象スイープ。一次資料を確認。製品名シードクエリなし。ローカル実験なし。" }
+        "method": { "en": "Reviewed the CIKM paper abstract and Apache-2.0 reference repository. No code was installed and no independent replication was found.", "ja": "CIKM論文要旨とApache-2.0参照リポジトリを確認。コードはインストールせず、独立再現は未確認。" }
       },
       "history": [
-        { "date": "2026-10-08", "event": { "en": "Discovered without a Jev-named query. Assessed as Radar-only. Implementation: Jev. Concept: System One / typed decisions.", "ja": "Jevという名前のクエリなしで発見。レーダーのみとして評価。実装はJev。概念はシステムワン / 型付き判断。" }, "scores": { "frontier": 82, "adoption": 36, "fit": 74, "confidence": 55 } }
+        { "date": "2026-10-08", "event": { "en": "Added at WATCH from a peer-reviewed paper and reference implementation; strong relevance, low buzz, replication still required.", "ja": "査読論文と参照実装からWATCHに追加。関連性は高く話題性は低い。再現はなお必要。" }, "scores": { "frontier": 79, "adoption": 28, "fit": 84, "confidence": 68 } }
+      ]
+    },
+    {
+      "id": "tool-effect-integrity",
+      "name": { "en": "Verified tool effects and transactional settlement", "ja": "検証済みツール効果とトランザクション決済" },
+      "kind": "concept",
+      "atlasTermIds": ["tool-use-function-calling", "durable-execution"],
+      "scores": { "frontier": 83, "adoption": 30, "fit": 90, "confidence": 74 },
+      "recommendation": {
+        "en": "Watch as a reliability pattern: verify tool returns, make writes idempotent or compensable, and gate irreversible effects behind explicit settlement.",
+        "ja": "信頼性パターンとして観測する。ツール戻り値を検証し、書き込みを冪等または補償可能にし、不可逆効果を明示的な決済の後段に置く。"
+      },
+      "tradeoffs": [
+        { "en": "Verification and settlement boundaries reduce silent corruption and leaked side effects, but add latency, adapters, and failure states.", "ja": "検証と決済境界は静かな破損と漏れた副作用を減らすが、遅延、アダプター、障害状態を増やす。" },
+        { "en": "Atomix demonstrates one concrete runtime design, but does not establish full crash-safe exactly-once behavior or automatic fit for existing systems.", "ja": "Atomixは具体的なランタイム設計を示すが、完全なクラッシュ安全exactly-onceや既存システムへの自動適合を確立しない。" }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": { "en": "The pattern fits external-write workflows in principle, but no Stangyode-side harness or transactional adapter has been tested.", "ja": "原則上は外部書き込みワークフローに適合するが、Stangyode側のハーネスやトランザクション・アダプターは未検証。" },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": ["unreliable-tools-paper", "atomix-paper"],
+        "collectedAt": "2026-10-08",
+        "method": { "en": "Reviewed two independent research lines: corrupted tool-return adoption and transactional side-effect settlement. No runtime was installed.", "ja": "破損ツール戻り値の採用と副作用のトランザクション決済という独立した二つの研究系列を確認。ランタイムはインストールしていない。" }
+      },
+      "history": [
+        { "date": "2026-10-08", "event": { "en": "Added at WATCH as an Atlas-level reliability pattern, not an automatic recommendation to adopt Atomix.", "ja": "Atomixの自動採用推奨ではなく、アトラス級の信頼性パターンとしてWATCHに追加。" }, "scores": { "frontier": 83, "adoption": 30, "fit": 90, "confidence": 74 } }
       ]
     }
   ]

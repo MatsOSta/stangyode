@@ -10,5 +10,11 @@
     "label": "radar-loop-1",
     "en": "Living Radar loop: discovery candidates are no longer required to fit Core Atlas taxonomy. System One / typed decision models added from a phenomenon sweep, not a seeded product query.",
     "ja": "生きたレーダー循環：発見候補はコア・アトラスの分類に合わせる必要がなくなった。製品名のシードではなく、現象スイープからシステムワン / 型付き判断モデルを追加。"
+  },
+  {
+    "date": "2026-10-08",
+    "label": "radar-loop-2",
+    "en": "Radar evidence update: Agent Skills, MCP Apps, and typed decisions gain direct implementation evidence; Knowledge Triage and tool-effect settlement enter WATCH with uncertainty preserved.",
+    "ja": "レーダー証拠更新：Agent Skills、MCP Apps、型付き判断に直接の実装証拠を追加。Knowledge Triageとツール効果決済を不確実性を保ったままWATCHへ追加。"
   }
 ]
