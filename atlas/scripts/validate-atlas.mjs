@@ -27,7 +27,7 @@ for (const [id, item] of Object.entries(sources)) { if (!item.title || !/^https:
 for (const [key, value] of Object.entries(data.ui)) { if (key === 'stackExamples') continue; bilingual(value, `ui field ${key}`); }
 if (!data.ui.stackExamples?.en?.length || data.ui.stackExamples.en.length !== data.ui.stackExamples.ja.length) fail('Stack example language count mismatch');
 for (const item of changelog) { if (!item.date || !item.label) fail(`Invalid changelog item ${item.label}`); bilingual(item, `changelog ${item.label}`); }
-if (radar.schema !== 'stangyode.frontier-radar/v1' || radar.signals.length !== 7 || radar.adoption.length !== radar.signals.length) fail('Radar presentation data is incomplete');
+if (radar.schema !== 'stangyode.frontier-radar/v1' || radar.signals.length < 1 || radar.adoption.length !== radar.signals.length) fail('Radar presentation data is incomplete');
 if (count(/class="radar-card"/g) !== radar.signals.length || count(/class="adoption-card"/g) !== radar.signals.length) fail('Generated Radar or Adoption card count mismatch');
 for (const signal of radar.signals) { if (!html.includes(`id="radar-${signal.id}"`) || !html.includes(`id="adoption-${signal.id}"`)) fail(`Missing Radar view ${signal.id}`); bilingual(signal.name, `Radar name ${signal.id}`); bilingual(signal.recommendation, `Radar recommendation ${signal.id}`); }
 for (const landmark of ['stack','principle','ecosystems','terminology','synthesis','architecture-watch','obsolescence-radar','sources']) if (!html.includes(`id="${landmark}"`)) fail(`Missing route landmark ${landmark}`);

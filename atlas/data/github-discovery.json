@@ -5,10 +5,11 @@
   "credentialsRequired": false,
   "liveFetch": false,
   "policy": {
-    "en": "This file is an input representation only. A future manual run may add public repository evidence; absence of a repository is intentional and does not establish a negative finding.",
-    "ja": "このファイルは入力表現のみである。将来の手動実行で公開リポジトリの証拠を追加できる。リポジトリがないことは意図的で、否定的な発見を意味しない。"
+    "en": "Public observation input only. Living candidates live in discovery-candidates.json. Absence of a repository is not a negative finding. Queries may be phenomenon-based and need not match Core Atlas terms.",
+    "ja": "公開観測の入力のみ。生きた候補は discovery-candidates.json にある。リポジトリがないことは否定的発見ではない。クエリは現象ベースでよく、コア・アトラス用語と一致する必要はない。"
   },
   "queries": [
+    { "id": "typed-decision-query", "candidateId": "typed-decision-models", "query": "typed probabilistic decision model System One", "state": "collected" },
     { "id": "agent-skills-query", "candidateId": "agent-skills", "query": "topic:agent-skills", "state": "not-collected" },
     { "id": "mcp-apps-query", "candidateId": "mcp-apps", "query": "topic:mcp-apps", "state": "not-collected" },
     { "id": "a2a-query", "candidateId": "a2a", "query": "topic:agent-to-agent", "state": "not-collected" },

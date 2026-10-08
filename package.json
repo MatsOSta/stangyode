@@ -9,7 +9,8 @@
     "build:frontier-radar": "node atlas/scripts/render-frontier-briefing.mjs --write",
     "validate:atlas": "node atlas/scripts/validate-atlas.mjs",
     "validate:frontier-radar": "node atlas/scripts/validate-frontier-radar.mjs",
+    "validate:discovery": "node atlas/scripts/validate-discovery.mjs",
     "validate:i18n": "node scripts/validate-i18n.mjs",
-    "check": "node --check public/translations.js && node --check public/app.js && node --check public/ai-engineering/atlas.js && npm run validate:i18n && npm run validate:atlas && npm run validate:frontier-radar"
+    "check": "node --check public/translations.js && node --check public/app.js && node --check public/ai-engineering/atlas.js && npm run validate:i18n && npm run validate:discovery && npm run validate:atlas && npm run validate:frontier-radar"
   }
 }

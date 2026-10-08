@@ -20,20 +20,29 @@ const [radar, discovery, atlas, sources, artifact] = await Promise.all([
   load('atlas/data/sources.json'),
   readFile(resolve(repo, 'atlas/artifacts/frontier-radar-briefing.md'), 'utf8'),
 ]);
+
 if (radar.schema !== 'stangyode.frontier-radar/v1') fail('Invalid Radar schema');
-if (radar.meta.snapshot !== '2026-09-24') fail('Seed snapshot must remain explicit');
+if (!/^\d{4}-\d{2}-\d{2}$/.test(radar.meta.snapshot)) fail('Radar snapshot must be an explicit ISO date');
 if (radar.scoreScale.min !== 0 || radar.scoreScale.max !== 100) fail('Invalid score scale');
-const expectedIds = ['agent-skills', 'mcp-apps', 'a2a', 'agentic-resource-discovery-ard', 'context-engineering', 'ponytail', 'caveman'];
+const requiredDimensions = ['frontier', 'adoption', 'fit', 'confidence'];
+if (requiredDimensions.some((dimension) => !radar.scoreScale.dimensions.includes(dimension))) fail('Radar score dimensions missing');
+
 const ids = new Set(radar.signals.map((signal) => signal.id));
-if (radar.signals.length !== expectedIds.length || expectedIds.some((id) => !ids.has(id))) fail('Radar seed set is incomplete or duplicated');
+if (radar.signals.length < 1 || ids.size !== radar.signals.length) fail('Radar signals must be unique and non-empty');
 const atlasIds = new Set(atlas.terms.map((term) => term.id));
 const sourceIds = new Set(Object.keys(sources));
 const adoptionIds = new Set(radar.adoption.map((item) => item.signalId));
-if (radar.adoption.length !== radar.signals.length || adoptionIds.size !== radar.adoption.length) fail('Adoption intelligence does not cover each signal exactly once');
+if (radar.adoption.length !== radar.signals.length || adoptionIds.size !== radar.adoption.length) fail('Adoption intelligence must cover each signal exactly once');
+
+const provenanceKinds = new Set(['seed', 'discovery', 'verification']);
+const provenanceStatuses = new Set(['unverified', 'partially-verified', 'verified', 'contradicted', 'unknown']);
+const compatibilityStatuses = new Set(['unknown', 'compatible', 'incompatible', 'partial']);
+
 for (const item of radar.adoption) {
-  if (!ids.has(item.signalId) || !['watch', 'pilot', 'defer'].includes(item.stage) || item.compatibility !== 'unknown') fail(`Invalid adoption record ${item.signalId}`);
+  if (!ids.has(item.signalId) || !['watch', 'pilot', 'defer'].includes(item.stage) || !compatibilityStatuses.has(item.compatibility)) fail(`Invalid adoption record ${item.signalId}`);
   score(item.score, `adoption ${item.signalId}`);
 }
+
 for (const signal of radar.signals) {
   bilingual(signal.name, `name ${signal.id}`);
   if (!['concept', 'discovery-candidate'].includes(signal.kind)) fail(`Invalid kind ${signal.id}`);
@@ -42,21 +51,25 @@ for (const signal of radar.signals) {
   bilingual(signal.recommendation, `recommendation ${signal.id}`);
   if (!Array.isArray(signal.tradeoffs) || signal.tradeoffs.length < 2) fail(`Trade-offs missing ${signal.id}`);
   for (const tradeoff of signal.tradeoffs) bilingual(tradeoff, `trade-off ${signal.id}`);
-  if (signal.compatibility.status !== 'unknown') fail(`Compatibility must remain unknown for seed ${signal.id}`);
+  if (!compatibilityStatuses.has(signal.compatibility.status)) fail(`Invalid compatibility ${signal.id}`);
   bilingual(signal.compatibility.rationale, `compatibility ${signal.id}`);
   if (!Array.isArray(signal.history) || signal.history.length < 1) fail(`History missing ${signal.id}`);
-  for (const entry of signal.history) { if (!/^\d{4}-\d{2}-\d{2}$/.test(entry.date)) fail(`Invalid history date ${signal.id}`); bilingual(entry.event, `history ${signal.id}`); for (const dimension of radar.scoreScale.dimensions) score(entry.scores[dimension], `history ${signal.id}.${dimension}`); }
-  if (!['seed'].includes(signal.provenance.kind) || !['unverified', 'unknown'].includes(signal.provenance.status)) fail(`Invalid provenance status ${signal.id}`);
+  for (const entry of signal.history) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(entry.date)) fail(`Invalid history date ${signal.id}`);
+    bilingual(entry.event, `history ${signal.id}`);
+    for (const dimension of radar.scoreScale.dimensions) score(entry.scores[dimension], `history ${signal.id}.${dimension}`);
+  }
+  if (!provenanceKinds.has(signal.provenance.kind) || !provenanceStatuses.has(signal.provenance.status)) fail(`Invalid provenance ${signal.id}`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(signal.provenance.collectedAt)) fail(`Invalid provenance date ${signal.id}`);
   bilingual(signal.provenance.method, `provenance ${signal.id}`);
   for (const sourceId of signal.provenance.sourceIds) if (!sourceIds.has(sourceId)) fail(`Missing provenance source ${signal.id} -> ${sourceId}`);
 }
-if (discovery.schema !== 'stangyode.github-discovery/v1' || discovery.provider !== 'github' || discovery.mode !== 'manual-input' || discovery.credentialsRequired !== false || discovery.liveFetch !== false) fail('GitHub discovery must be a credential-free manual input');
+
+if (discovery.schema !== 'stangyode.github-discovery/v1' || discovery.credentialsRequired !== false) fail('GitHub discovery must remain credential-free');
 bilingual(discovery.policy, 'GitHub discovery policy');
 if (!Array.isArray(discovery.queries) || discovery.queries.length < 1) fail('GitHub discovery queries missing');
-for (const query of discovery.queries) {
-  if (!ids.has(query.candidateId) || !query.query || query.state !== 'not-collected') fail(`Invalid GitHub query ${query.id}`);
+if (!Array.isArray(discovery.signals) || discovery.signals.some((signal) => !['unknown', 'unverified', 'partially-verified', 'verified', 'contradicted'].includes(signal.status))) {
+  fail('GitHub signals must carry an explicit evidence state');
 }
-if (!Array.isArray(discovery.signals) || discovery.signals.some((signal) => signal.status !== 'unknown' && signal.status !== 'unverified')) fail('GitHub signals must be explicitly unknown or unverified');
 if (artifact !== markdown) fail('Frontier briefing is stale: run npm run build:frontier-radar');
-console.log(`Validated ${radar.signals.length} Radar seeds, ${radar.adoption.length} adoption records, ${discovery.queries.length} GitHub discovery inputs, provenance/history, unknown compatibility, and deterministic briefing output.`);
+console.log(`Validated ${radar.signals.length} Radar signals, ${radar.adoption.length} adoption records, ${discovery.queries.length} GitHub discovery inputs, provenance/history, and deterministic briefing output.`);

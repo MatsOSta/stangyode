@@ -358,5 +358,29 @@
       "en": "Official host-enforced filesystem, network, command, and approval boundaries.",
       "ja": "ホスト側で強制するファイル、ネットワーク、コマンド、承認の境界。"
     }
+  },
+  "typesafe-system-one": {
+    "title": "TypeSafe System One",
+    "url": "https://docs.typesafe.ai/concepts/system-one",
+    "note": {
+      "en": "Primary documentation for System One models: state plus typed questions, typed answers and probabilities.",
+      "ja": "システムワンモデルの一次資料。状態と型付き質問、型付き回答と確率。"
+    }
+  },
+  "typesafe-home": {
+    "title": "TypeSafe AI",
+    "url": "https://typesafe.ai/",
+    "note": {
+      "en": "Vendor homepage for System One models and the Jev implementation.",
+      "ja": "システムワンモデルとJev実装のベンダーホームページ。"
+    }
+  },
+  "infoq-jev": {
+    "title": "InfoQ: TypeSafe AI releases Jev",
+    "url": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/",
+    "note": {
+      "en": "Independent report. Attention evidence, not primary technical proof.",
+      "ja": "独立報道。注目の証拠であり、一次の技術証明ではない。"
+    }
   }
 }
