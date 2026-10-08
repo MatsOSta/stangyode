@@ -40,19 +40,21 @@
       "radarSignalId": "system-one-models",
       "atlasTermIds": [],
       "judgment": {
-        "substance": 78,
-        "hype": 72,
-        "fieldImportance": 70,
-        "relevance": 74,
-        "evidenceDiversity": 66,
-        "momentum": 68
+        "substance": 82,
+        "hype": 78,
+        "fieldImportance": 74,
+        "relevance": 76,
+        "evidenceDiversity": 78,
+        "momentum": 80
       },
       "observations": [
         { "sensor": "primary-docs", "url": "https://docs.typesafe.ai/concepts/system-one", "date": "2026-10-08" },
         { "sensor": "primary-docs", "url": "https://typesafe.ai/", "date": "2026-10-08" },
         { "sensor": "independent-press", "url": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/", "date": "2026-10-08" },
         { "sensor": "preprint", "url": "https://arxiv.org/pdf/2610.00346v2", "date": "2026-10-08" },
-        { "sensor": "github-public", "url": "https://github.com/typesafe-ai", "date": "2026-10-08" }
+        { "sensor": "github-public", "url": "https://github.com/typesafe-ai", "date": "2026-10-08" },
+        { "sensor": "github-public", "url": "https://github.com/Mapika/decider", "date": "2026-10-08" },
+        { "sensor": "preprint", "url": "https://arxiv.org/html/2609.32160v1", "date": "2026-10-08" }
       ]
     },
     {
@@ -107,6 +109,118 @@
       },
       "observations": [
         { "sensor": "github-public", "url": "https://huggingface.co/Cloudflare/clef", "date": "2026-10-08" }
+      ]
+    },
+    {
+      "id": "agent-skills-distribution",
+      "names": ["Agent Skills", "skills CLI", "SKILL.md packages"],
+      "status": "assessed",
+      "kindGuess": "format-plus-distribution-layer",
+      "whyInteresting": {
+        "en": "A portable skill directory contract now has validation plus a high-attention installer/updater spanning multiple agent clients; distribution maturity is ahead of provenance and permission controls.",
+        "ja": "移植可能なスキル・ディレクトリ契約に、検証と複数エージェント対応の高注目インストール・更新ツールが加わった。配布の成熟が来歴・権限制御より先行している。"
+      },
+      "firstObserved": "2026-10-08",
+      "lastObserved": "2026-10-08",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "agent-skills",
+      "atlasTermIds": ["agent-harness", "capability"],
+      "judgment": {
+        "substance": 78,
+        "hype": 90,
+        "fieldImportance": 85,
+        "relevance": 82,
+        "evidenceDiversity": 76,
+        "momentum": 86
+      },
+      "observations": [
+        { "sensor": "primary-docs", "url": "https://agentskills.io/specification", "date": "2026-10-08" },
+        { "sensor": "github-public", "url": "https://github.com/vercel-labs/skills", "date": "2026-10-08" }
+      ]
+    },
+    {
+      "id": "mcp-app-stack",
+      "names": ["MCP Apps", "mcp-use", "typed tool-to-UI applications"],
+      "status": "assessed",
+      "kindGuess": "protocol-extension-plus-framework",
+      "whyInteresting": {
+        "en": "Typed tool contracts, native views, inspection, and deployment are converging into an application stack while the underlying MCP protocol is changing materially.",
+        "ja": "型付きツール契約、ネイティブ表示、検査、デプロイがアプリケーションスタックへ収束する一方、基盤MCPプロトコルも大きく変化している。"
+      },
+      "firstObserved": "2026-10-08",
+      "lastObserved": "2026-10-08",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "mcp-apps",
+      "atlasTermIds": ["mcp-apps"],
+      "judgment": {
+        "substance": 76,
+        "hype": 80,
+        "fieldImportance": 82,
+        "relevance": 70,
+        "evidenceDiversity": 72,
+        "momentum": 84
+      },
+      "observations": [
+        { "sensor": "github-public", "url": "https://github.com/mcp-use/mcp-use", "date": "2026-10-08" },
+        { "sensor": "primary-docs", "url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog", "date": "2026-10-08" }
+      ]
+    },
+    {
+      "id": "knowledge-triage",
+      "names": ["Knowledge Triage", "type-aware context retention", "Compaction Cliff"],
+      "status": "assessed",
+      "kindGuess": "research-pattern-plus-reference-implementation",
+      "whyInteresting": {
+        "en": "Uniform compaction can erase exact constraints; type-aware retention gives safety rules, episodic logs, and other knowledge different fidelity and retrieval policies.",
+        "ja": "一様な圧縮は正確な制約を失わせ得る。型を考慮した保持は、安全規則、エピソード記録などに異なる忠実度と検索方針を与える。"
+      },
+      "firstObserved": "2026-10-08",
+      "lastObserved": "2026-10-08",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "knowledge-triage",
+      "atlasTermIds": ["context-engineering"],
+      "judgment": {
+        "substance": 84,
+        "hype": 24,
+        "fieldImportance": 80,
+        "relevance": 88,
+        "evidenceDiversity": 66,
+        "momentum": 52
+      },
+      "observations": [
+        { "sensor": "preprint", "url": "https://arxiv.org/abs/2608.22752", "date": "2026-10-08" },
+        { "sensor": "github-public", "url": "https://github.com/searchsim-org/cikm26-knowledge-triage", "date": "2026-10-08" }
+      ]
+    },
+    {
+      "id": "tool-effect-integrity",
+      "names": ["verified tool effects", "transactional tool settlement", "Atomix", "unreliable tool returns"],
+      "status": "assessed",
+      "kindGuess": "reliability-pattern-plus-research-runtime",
+      "whyInteresting": {
+        "en": "Tool reliability has two boundaries: verify plausible returns before trusting them, and delay or compensate external effects until the workflow has an explicit settlement decision.",
+        "ja": "ツール信頼性には二つの境界がある。もっともらしい戻り値を信頼前に検証し、外部効果を明示的な決済判断まで遅延または補償する。"
+      },
+      "firstObserved": "2026-10-08",
+      "lastObserved": "2026-10-08",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "tool-effect-integrity",
+      "atlasTermIds": ["tool-use-function-calling", "durable-execution"],
+      "judgment": {
+        "substance": 88,
+        "hype": 22,
+        "fieldImportance": 90,
+        "relevance": 95,
+        "evidenceDiversity": 82,
+        "momentum": 60
+      },
+      "observations": [
+        { "sensor": "preprint", "url": "https://arxiv.org/abs/2609.05587", "date": "2026-10-08" },
+        { "sensor": "preprint", "url": "https://arxiv.org/html/2602.14849", "date": "2026-10-08" }
       ]
     }
   ]
