@@ -94,19 +94,30 @@ A bounded manual-run inventory for deciding what to watch, test, or defer. / 何
 - History / 履歴:
   - 2026-09-24: Added as an unverified candidate; no evidence collected. / 未検証候補として追加。証拠は収集していない。
 
-### System One / typed decision models / システムワン / 型付き判断モデル
-- Adoption stage / 導入段階: WATCH (40/100)
-- Scores / スコア: frontier 84, fit 76, confidence 68
-- Recommendation / 推奨: Watch for cheap routing, gating, abstention, and escalation; benchmark locally against calibrated classifiers and label-probability baselines before a pilot. / 低コストのルーティング、ゲート、棄却、エスカレーション用途として観測する。試行前に較正済み分類器とラベル確率ベースラインでローカル評価する。
-- Compatibility / 互換性: UNKNOWN — No Stangyode workload has been run against a hosted or open implementation. Compatibility stays unknown. / Stangyodeの仕事をホスト型または公開実装に対して実行していない。互換性は不明のまま。
+### Jev / Jev
+- Adoption stage / 導入段階: WATCH (26/100)
+- Scores / スコア: frontier 76, fit 54, confidence 70
+- Recommendation / 推奨: Watch Jev as a commoditizing named implementation and benchmark candidate, not as the category default; compare it with hosted and open alternatives before adoption. / Jevをコモディティ化しつつある名前付き実装兼ベンチマーク候補として観測し、カテゴリの標準とは見なさない。導入前にホスト型と公開型の代替実装と比較する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has been run against Jev, and vendor quality or calibration claims have not been independently reproduced here. / Stangyodeの仕事をJevで実行しておらず、ベンダーの品質・較正主張もここでは独立再現していない。
 - Trade-offs / トレードオフ:
-  - Typed answers let software branch without parsing prose, but the hosted model is a new vendor and runtime dependency. / 型付き回答は文章解析なしに分岐できるが、ホストモデルは新たなベンダーと実行時依存になる。
-  - Calibrated confidence is useful for act-or-escalate gates, but calibration claims need independent checks. / 較正された確信度は実行かエスカレーションかの門に使えるが、較正の主張は独立検証が必要。
-  - Attention is real (docs, press, reproductions). Attention is not proof the model is accurate in our workloads. / 注目は実在する（資料、報道、再現）。注目は、我々の仕事で正確であることの証明ではない。
+  - Jev offers typed, parse-free answers and vendor-reported low latency and cost, but it remains early-access and text-only. / Jevは解析不要の型付き回答とベンダー報告の低遅延・低コストを提供するが、早期アクセスかつテキスト専用である。
+  - OpenAI Decisions, Clef, d1, and llama.cpp-compatible models now supply substantially the same value, sharply reducing Jev-specific differentiation. / OpenAI Decisions、Clef、d1、llama.cpp互換モデルが実質的に同じ価値を提供し、Jev固有の差別化は大きく低下した。
 - Provenance / 来歴: verification; partially-verified; 2026-10-08
 - History / 履歴:
-  - 2026-10-08: Discovered without a Jev-named query. Assessed as Radar-only. Implementation: Jev. Concept: System One / typed decisions. / Jevという名前のクエリなしで発見。レーダーのみとして評価。実装はJev。概念はシステムワン / 型付き判断。
-  - 2026-10-08: Added an open implementation and an independent early evidence audit. The interface and latency/cost case strengthened; general accuracy superiority remains unproven. / 公開実装と独立した初期証拠監査を追加。インターフェースと遅延・コスト面は強まったが、一般的な精度優位は未証明。
+  - 2026-10-08: Initially discovered inside a combined System One / typed-decisions record. / 当初はシステムワン / 型付き判断の統合レコード内で発見された。
+  - 2026-10-08: Split into a named-entity record after multiple equivalents emerged. Jev remains WATCH, but its implementation-specific fit and differentiation were lowered. / 複数の同等実装が登場したため名前付きエンティティへ分離。JevはWATCHを維持するが、実装固有の適合度と差別化を引き下げた。
+
+### Typed probabilistic decision models / 型付き確率的判断モデル
+- Adoption stage / 導入段階: WATCH (48/100)
+- Scores / スコア: frontier 91, fit 80, confidence 82
+- Recommendation / 推奨: WATCH for cheap classification, routing, verification, abstention, and escalation; benchmark local workloads against calibrated classifiers and label-probability baselines before choosing an implementation. / 低コストの分類、ルーティング、検証、棄却、エスカレーション用途としてWATCHする。実装選定前に、実際の仕事を較正済み分類器とラベル確率ベースラインに対して評価する。
+- Compatibility / 互換性: UNKNOWN — Adoption paths exist for hosted, open-weight, local, text, and multimodal use, but no implementation has been benchmarked on a Stangyode workload. / ホスト型、公開ウェイト、ローカル、テキスト、マルチモーダルの導入経路はあるが、Stangyodeの仕事で評価した実装はない。
+- Trade-offs / トレードオフ:
+  - Bounded predicate, choice, and score outputs avoid free-text parsing and expose probabilities in one pass, but task-specific calibration still has to be measured. / 限定されたpredicate、choice、score出力は自由文解析を避け、一回の推論で確率を示すが、仕事固有の較正は測定が必要である。
+  - Implementations now include Jev, OpenAI Decisions, Clef, Liquid d1, and six llama.cpp-served model families; provider quality, modality, license, deployment, and price remain unsettled. / 実装にはJev、OpenAI Decisions、Clef、Liquid d1、llama.cppで配信できる6系統があるが、品質、モダリティ、ライセンス、配備、価格の優位は未確定である。
+- Provenance / 来歴: verification; partially-verified; 2026-10-08
+- History / 履歴:
+  - 2026-10-08: Spawned as a category when OpenAI Decisions, open multimodal models, and a six-model llama.cpp stack established credible cross-vendor convergence around typed probabilistic decisions. / OpenAI Decisions、公開マルチモーダルモデル、6モデルのllama.cppスタックにより、型付き確率的判断への信頼できるベンダー横断収束が成立したためカテゴリとして分離。
 
 ### Knowledge Triage / type-aware retention / Knowledge Triage / 型対応保持
 - Adoption stage / 導入段階: WATCH (28/100)
