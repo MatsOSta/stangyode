@@ -1,10 +1,10 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-09-24
+Snapshot / スナップショット: 2026-10-08
 
 A bounded manual-run inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した手動実行用インベントリ。
 
-> Seed judgments are not current external evidence. Unknown compatibility stays explicit until a manual run records a check. / シード判断は現在の外部証拠ではない。手動実行で確認を記録するまで、互換性の不明点を明示する。
+> Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof. / シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。
 
 ## Signals / シグナル
 
@@ -92,12 +92,26 @@ A bounded manual-run inventory for deciding what to watch, test, or defer. / 何
 - History / 履歴:
   - 2026-09-24: Added as an unverified candidate; no evidence collected. / 未検証候補として追加。証拠は収集していない。
 
+### System One / typed decision models / システムワン / 型付き判断モデル
+- Adoption stage / 導入段階: WATCH (36/100)
+- Scores / スコア: frontier 82, fit 74, confidence 55
+- Recommendation / 推奨: Watch as a non-generative decision layer. Jev is an implementation; System One / typed decisions is the idea. Do not install. Do not promote to Core Atlas yet. Hype is high; first-party experiment has not been run. / 非生成の判断層として観測する。Jevは実装、システムワン / 型付き判断が概念。インストールしない。まだコア・アトラスへ昇格しない。注目は高い。自前の実験は未実施。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has been run against the API. Compatibility stays unknown. / Stangyodeの仕事をAPIに対して実行していない。互換性は不明のまま。
+- Trade-offs / トレードオフ:
+  - Typed answers let software branch without parsing prose, but the hosted model is a new vendor and runtime dependency. / 型付き回答は文章解析なしに分岐できるが、ホストモデルは新たなベンダーと実行時依存になる。
+  - Calibrated confidence is useful for act-or-escalate gates, but calibration claims need independent checks. / 較正された確信度は実行かエスカレーションかの門に使えるが、較正の主張は独立検証が必要。
+  - Attention is real (docs, press, reproductions). Attention is not proof the model is accurate in our workloads. / 注目は実在する（資料、報道、再現）。注目は、我々の仕事で正確であることの証明ではない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-08
+- History / 履歴:
+  - 2026-10-08: Discovered without a Jev-named query. Assessed as Radar-only. Implementation: Jev. Concept: System One / typed decisions. / Jevという名前のクエリなしで発見。レーダーのみとして評価。実装はJev。概念はシステムワン / 型付き判断。
+
 ## GitHub discovery input / GitHub発見入力
 
-This file is an input representation only. A future manual run may add public repository evidence; absence of a repository is intentional and does not establish a negative finding. / このファイルは入力表現のみである。将来の手動実行で公開リポジトリの証拠を追加できる。リポジトリがないことは意図的で、否定的な発見を意味しない。
+Public observation input only. Living candidates live in discovery-candidates.json. Absence of a repository is not a negative finding. Queries may be phenomenon-based and need not match Core Atlas terms. / 公開観測の入力のみ。生きた候補は discovery-candidates.json にある。リポジトリがないことは否定的発見ではない。クエリは現象ベースでよく、コア・アトラス用語と一致する必要はない。
 
 Provider / プロバイダー: github; mode / モード: manual-input; live fetch / ライブ取得: no
 
+- typed-decision-models: typed probabilistic decision model System One (collected)
 - agent-skills: topic:agent-skills (not-collected)
 - mcp-apps: topic:mcp-apps (not-collected)
 - a2a: topic:agent-to-agent (not-collected)

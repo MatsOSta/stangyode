@@ -9,10 +9,10 @@
       "en": "A bounded manual-run inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した手動実行用インベントリ。"
     },
-    "snapshot": "2026-09-24",
+    "snapshot": "2026-10-08",
     "evidencePolicy": {
-      "en": "Seed judgments are not current external evidence. Unknown compatibility stays explicit until a manual run records a check.",
-      "ja": "シード判断は現在の外部証拠ではない。手動実行で確認を記録するまで、互換性の不明点を明示する。"
+      "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
+      "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "scoreScale": {
@@ -27,7 +27,8 @@
     { "signalId": "agentic-resource-discovery-ard", "stage": "defer", "score": 31, "compatibility": "unknown" },
     { "signalId": "context-engineering", "stage": "pilot", "score": 62, "compatibility": "unknown" },
     { "signalId": "ponytail", "stage": "defer", "score": 0, "compatibility": "unknown" },
-    { "signalId": "caveman", "stage": "defer", "score": 0, "compatibility": "unknown" }
+    { "signalId": "caveman", "stage": "defer", "score": 0, "compatibility": "unknown" },
+    { "signalId": "system-one-models", "stage": "watch", "score": 36, "compatibility": "unknown" }
   ],
   "signals": [
     {
@@ -238,6 +239,37 @@
       },
       "history": [
         { "date": "2026-09-24", "event": { "en": "Added as an unverified candidate; no evidence collected.", "ja": "未検証候補として追加。証拠は収集していない。" }, "scores": { "frontier": 50, "adoption": 0, "fit": 50, "confidence": 0 } }
+      ]
+    },
+    {
+      "id": "system-one-models",
+      "name": { "en": "System One / typed decision models", "ja": "システムワン / 型付き判断モデル" },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [],
+      "scores": { "frontier": 82, "adoption": 36, "fit": 74, "confidence": 55 },
+      "recommendation": {
+        "en": "Watch as a non-generative decision layer. Jev is an implementation; System One / typed decisions is the idea. Do not install. Do not promote to Core Atlas yet. Hype is high; first-party experiment has not been run.",
+        "ja": "非生成の判断層として観測する。Jevは実装、システムワン / 型付き判断が概念。インストールしない。まだコア・アトラスへ昇格しない。注目は高い。自前の実験は未実施。"
+      },
+      "tradeoffs": [
+        { "en": "Typed answers let software branch without parsing prose, but the hosted model is a new vendor and runtime dependency.", "ja": "型付き回答は文章解析なしに分岐できるが、ホストモデルは新たなベンダーと実行時依存になる。" },
+        { "en": "Calibrated confidence is useful for act-or-escalate gates, but calibration claims need independent checks.", "ja": "較正された確信度は実行かエスカレーションかの門に使えるが、較正の主張は独立検証が必要。" },
+        { "en": "Attention is real (docs, press, reproductions). Attention is not proof the model is accurate in our workloads.", "ja": "注目は実在する（資料、報道、再現）。注目は、我々の仕事で正確であることの証明ではない。" }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": { "en": "No Stangyode workload has been run against the API. Compatibility stays unknown.", "ja": "Stangyodeの仕事をAPIに対して実行していない。互換性は不明のまま。" },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": ["typesafe-system-one", "typesafe-home", "infoq-jev"],
+        "collectedAt": "2026-10-08",
+        "method": { "en": "Phenomenon sweep for typed probabilistic decisions / System One. Primary docs inspected. No product-name seed query. No local experiment.", "ja": "型付き確率的判断 / システムワンの現象スイープ。一次資料を確認。製品名シードクエリなし。ローカル実験なし。" }
+      },
+      "history": [
+        { "date": "2026-10-08", "event": { "en": "Discovered without a Jev-named query. Assessed as Radar-only. Implementation: Jev. Concept: System One / typed decisions.", "ja": "Jevという名前のクエリなしで発見。レーダーのみとして評価。実装はJev。概念はシステムワン / 型付き判断。" }, "scores": { "frontier": 82, "adoption": 36, "fit": 74, "confidence": 55 } }
       ]
     }
   ]

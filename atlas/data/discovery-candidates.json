@@ -1,0 +1,113 @@
+{
+  "schema": "stangyode.discovery-candidates/v1",
+  "generatedAt": "2026-10-08",
+  "mode": "manual-run",
+  "liveFetch": false,
+  "policy": {
+    "en": "Discovery observes people and places already filtering emerging work. Sensors are not proof. Primary sources are required before a claim is treated as verified. Candidates need not fit Core Atlas taxonomy.",
+    "ja": "発見は、新興の仕事を既に選別している人や場所を観測する。センサーは証明ではない。主張を検証済みとする前に一次資料が必要である。候補はコア・アトラスの分類に合わせる必要はない。"
+  },
+  "regression": {
+    "id": "typed-decision-models",
+    "withoutNamedQuery": true,
+    "note": {
+      "en": "Surfaced by phenomenon queries for typed probabilistic decisions / System One models, not by searching a product name.",
+      "ja": "製品名検索ではなく、型付き確率的判断 / システムワンという現象クエリで浮上した。"
+    }
+  },
+  "sensors": [
+    { "id": "primary-docs", "kind": "documentation" },
+    { "id": "independent-press", "kind": "secondary-report" },
+    { "id": "github-public", "kind": "repository" },
+    { "id": "preprint", "kind": "paper" }
+  ],
+  "candidates": [
+    {
+      "id": "typed-decision-models",
+      "names": ["System One models", "typed decision models", "typed probabilistic decisions", "Jev"],
+      "status": "assessed",
+      "kindGuess": "implementation-plus-concept",
+      "implementation": "Jev",
+      "durableConcept": "System One / typed decision model: state + typed questions → typed answers and probabilities",
+      "whyInteresting": {
+        "en": "A non-generative model class: software sends state and typed questions, and gets bounded choices, scores, or probabilities it can branch on. Distinct from another agent loop.",
+        "ja": "非生成のモデル級。ソフトウェアが状態と型付き質問を送り、分岐に使える限定的な選択・評点・確率を得る。別のエージェントループではない。"
+      },
+      "firstObserved": "2026-10-08",
+      "lastObserved": "2026-10-08",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "system-one-models",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 78,
+        "hype": 72,
+        "fieldImportance": 70,
+        "relevance": 74,
+        "evidenceDiversity": 66,
+        "momentum": 68
+      },
+      "observations": [
+        { "sensor": "primary-docs", "url": "https://docs.typesafe.ai/concepts/system-one", "date": "2026-10-08" },
+        { "sensor": "primary-docs", "url": "https://typesafe.ai/", "date": "2026-10-08" },
+        { "sensor": "independent-press", "url": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/", "date": "2026-10-08" },
+        { "sensor": "preprint", "url": "https://arxiv.org/pdf/2610.00346v2", "date": "2026-10-08" },
+        { "sensor": "github-public", "url": "https://github.com/typesafe-ai", "date": "2026-10-08" }
+      ]
+    },
+    {
+      "id": "open-weight-typed-decision-inference",
+      "names": ["Laya", "open-weight typed decisions"],
+      "status": "discovered",
+      "kindGuess": "implementation",
+      "whyInteresting": {
+        "en": "The typed-decision pattern appearing as local/open-weight inference, not only a hosted API.",
+        "ja": "型付き判断がホストAPIだけでなく、ローカル/オープンウェイト推論としても現れつつある。"
+      },
+      "firstObserved": "2026-10-08",
+      "lastObserved": "2026-10-08",
+      "lifecycle": "observed",
+      "evidenceState": "unverified",
+      "radarSignalId": null,
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 40,
+        "hype": 35,
+        "fieldImportance": 45,
+        "relevance": 50,
+        "evidenceDiversity": 30,
+        "momentum": 40
+      },
+      "observations": [
+        { "sensor": "github-public", "url": "https://github.com/receptron/laya", "date": "2026-10-08" }
+      ]
+    },
+    {
+      "id": "multimodal-typed-decisions",
+      "names": ["Clef", "Cloudflare Clef"],
+      "status": "discovered",
+      "kindGuess": "implementation",
+      "whyInteresting": {
+        "en": "Typed questions scored in one forward pass over text, JSON, images, and video — the pattern leaving text-only APIs.",
+        "ja": "テキスト、JSON、画像、動画に対し、一回の前向き計算で型付き質問を採点する。テキスト専用APIから外へ出ている。"
+      },
+      "firstObserved": "2026-10-08",
+      "lastObserved": "2026-10-08",
+      "lifecycle": "observed",
+      "evidenceState": "unverified",
+      "radarSignalId": null,
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 48,
+        "hype": 50,
+        "fieldImportance": 55,
+        "relevance": 42,
+        "evidenceDiversity": 35,
+        "momentum": 45
+      },
+      "observations": [
+        { "sensor": "github-public", "url": "https://huggingface.co/Cloudflare/clef", "date": "2026-10-08" }
+      ]
+    }
+  ]
+}

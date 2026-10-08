@@ -4,5 +4,11 @@
     "label": "v0",
     "en": "Baseline editorial snapshot: 85 bilingual terms, 11 ecosystem cards, layer orientations, source relationships, architecture-watch caveats, and verification-ready structured content.",
     "ja": "編集基準スナップショット：85の二言語用語、11のエコシステムカード、レイヤー概要、情報源関係、Architecture Watchの留保、検証可能な構造化コンテンツ。"
+  },
+  {
+    "date": "2026-10-08",
+    "label": "radar-loop-1",
+    "en": "Living Radar loop: discovery candidates are no longer required to fit Core Atlas taxonomy. System One / typed decision models added from a phenomenon sweep, not a seeded product query.",
+    "ja": "生きたレーダー循環：発見候補はコア・アトラスの分類に合わせる必要がなくなった。製品名のシードではなく、現象スイープからシステムワン / 型付き判断モデルを追加。"
   }
 ]
