@@ -117,6 +117,8 @@ A bounded manual-run inventory for deciding what to watch, test, or defer. / 何
   - Implementations now include Jev, OpenAI Decisions, Clef, Liquid d1, and six llama.cpp-served model families; provider quality, modality, license, deployment, and price remain unsettled. / 実装にはJev、OpenAI Decisions、Clef、Liquid d1、llama.cppで配信できる6系統があるが、品質、モダリティ、ライセンス、配備、価格の優位は未確定である。
 - Provenance / 来歴: verification; partially-verified; 2026-10-08
 - History / 履歴:
+  - 2026-10-08: Discovered without a Jev-named query. Initially tracked as a combined System One / typed-decisions signal with Jev as its known implementation. / Jevという名前のクエリなしで発見。当初はJevを既知の実装とする、システムワン / 型付き判断の統合シグナルとして追跡した。
+  - 2026-10-08: Added an open implementation and an independent early evidence audit. The interface and latency/cost case strengthened; general accuracy superiority remained unproven. / 公開実装と独立した初期証拠監査を追加。インターフェースと遅延・コスト面は強まったが、一般的な精度優位は未証明のままだった。
   - 2026-10-08: Spawned as a category when OpenAI Decisions, open multimodal models, and a six-model llama.cpp stack established credible cross-vendor convergence around typed probabilistic decisions. / OpenAI Decisions、公開マルチモーダルモデル、6モデルのllama.cppスタックにより、型付き確率的判断への信頼できるベンダー横断収束が成立したためカテゴリとして分離。
 
 ### Knowledge Triage / type-aware retention / Knowledge Triage / 型対応保持

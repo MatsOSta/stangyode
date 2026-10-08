@@ -15,7 +15,9 @@ const score = (value, label) => {
 
 const data = JSON.parse(await readFile(resolve(repo, 'atlas/data/discovery-candidates.json'), 'utf8'));
 const radar = JSON.parse(await readFile(resolve(repo, 'atlas/data/frontier-radar.json'), 'utf8'));
+const sources = JSON.parse(await readFile(resolve(repo, 'atlas/data/sources.json'), 'utf8'));
 const radarIds = new Set(radar.signals.map((signal) => signal.id));
+const sourceIds = new Set(Object.keys(sources));
 
 if (data.schema !== 'stangyode.discovery-candidates/v1') fail('Invalid discovery schema');
 if (!/^\d{4}-\d{2}-\d{2}$/.test(data.generatedAt)) fail('Discovery generatedAt must be an ISO date');
@@ -45,6 +47,14 @@ for (const candidate of data.candidates) {
     if (!/^https:\/\//.test(observation.url)) fail(`Invalid observation URL ${candidate.id}`);
   }
   for (const dimension of dimensions) score(candidate.judgment[dimension], `${candidate.id}.${dimension}`);
+  if (candidate.implementations) {
+    if (!Array.isArray(candidate.implementations) || candidate.implementations.length < 1) fail(`Invalid implementations ${candidate.id}`);
+    for (const implementation of candidate.implementations) {
+      if (!implementation.name || !implementation.vendor || !implementation.access) fail(`Incomplete implementation ${candidate.id}`);
+      if (!Array.isArray(implementation.sourceIds) || implementation.sourceIds.length < 1) fail(`Implementation sources missing ${candidate.id} -> ${implementation.name}`);
+      for (const sourceId of implementation.sourceIds) if (!sourceIds.has(sourceId)) fail(`Missing implementation source ${candidate.id} -> ${sourceId}`);
+    }
+  }
   if (candidate.radarSignalId && !radarIds.has(candidate.radarSignalId)) fail(`Radar pointer missing ${candidate.id} -> ${candidate.radarSignalId}`);
 }
 
