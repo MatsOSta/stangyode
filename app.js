@@ -18,9 +18,12 @@ function setLanguage(language, persist = true) {
   document.documentElement.lang = locale;
   document.documentElement.dataset.language = locale;
   document.title = copy['meta.title'];
-  document.querySelector('meta[name="description"]').content = copy['meta.description'];
-  document.querySelector('meta[property="og:title"]').content = copy['meta.ogTitle'];
-  document.querySelector('meta[property="og:description"]').content = copy['meta.ogDescription'];
+  const description = document.querySelector('meta[name="description"]');
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  const ogDescription = document.querySelector('meta[property="og:description"]');
+  if (description) description.content = copy['meta.description'];
+  if (ogTitle) ogTitle.content = copy['meta.ogTitle'];
+  if (ogDescription) ogDescription.content = copy['meta.ogDescription'];
 
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     element.textContent = copy[element.dataset.i18n];
@@ -29,10 +32,12 @@ function setLanguage(language, persist = true) {
     element.setAttribute('aria-label', copy[element.dataset.i18nAriaLabel]);
   });
 
-  languageButton.setAttribute('aria-pressed', String(locale === 'ja'));
-  languageButton.setAttribute('aria-label', copy['a11y.switchLanguage']);
-  const menuLabel = menuButton.querySelector('[data-menu-label]');
-  menuLabel.textContent = copy[menuButton.getAttribute('aria-expanded') === 'true' ? 'a11y.closeMenu' : 'a11y.openMenu'];
+  languageButton?.setAttribute('aria-pressed', String(locale === 'ja'));
+  languageButton?.setAttribute('aria-label', copy['a11y.switchLanguage']);
+  const menuLabel = menuButton?.querySelector('[data-menu-label]');
+  if (menuLabel) {
+    menuLabel.textContent = copy[menuButton.getAttribute('aria-expanded') === 'true' ? 'a11y.closeMenu' : 'a11y.openMenu'];
+  }
 
   if (persist) {
     try {
@@ -48,16 +53,18 @@ languageButton?.addEventListener('click', () => {
 menuButton?.addEventListener('click', () => {
   const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
   menuButton.setAttribute('aria-expanded', String(!isOpen));
-  navigation.classList.toggle('open', !isOpen);
+  navigation?.classList.toggle('open', !isOpen);
   const copy = translations[document.documentElement.lang];
-  menuButton.querySelector('[data-menu-label]').textContent = copy[isOpen ? 'a11y.openMenu' : 'a11y.closeMenu'];
+  const menuLabel = menuButton.querySelector('[data-menu-label]');
+  if (menuLabel) menuLabel.textContent = copy[isOpen ? 'a11y.openMenu' : 'a11y.closeMenu'];
 });
 
 navigation?.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => {
     menuButton?.setAttribute('aria-expanded', 'false');
     navigation.classList.remove('open');
-    menuButton.querySelector('[data-menu-label]').textContent = translations[document.documentElement.lang]['a11y.openMenu'];
+    const menuLabel = menuButton?.querySelector('[data-menu-label]');
+    if (menuLabel) menuLabel.textContent = translations[document.documentElement.lang]['a11y.openMenu'];
   });
 });
 
