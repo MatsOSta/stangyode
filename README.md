@@ -6,10 +6,11 @@ This repository is the canonical source for the website.
 
 ## Project structure
 
-- `public/index.html` — main page structure
+- `public/index.html` — main page structure (loads `translations.js` and `app.js`)
 - `public/styles.css` — responsive layout and visual system
-- `public/translations.js` — English and Japanese copy
-- `public/app.js` — language switching and page interactions
+- `public/translations.js` — English and Japanese homepage copy
+- `public/app.js` — language switching, metadata, and page interactions
+- `scripts/validate-i18n.mjs` — EN/JA key lockstep check for the homepage
 - `public/ai-engineering/` — generated AI Engineering Atlas site
 - `atlas/data/` — Atlas and Frontier Radar source data
 - `atlas/scripts/` — Atlas build and validation scripts
@@ -48,8 +49,8 @@ The `EN / 日本語` control changes page copy, metadata, and relevant accessibi
 When changing translated content:
 
 1. Bind the element with `data-i18n="key"` or `data-i18n-aria-label="key"`.
-2. Add the same key to both `en` and `ja` in `public/translations.js`.
-3. Run `npm run check` and verify both language states.
+2. Add the same key to both `en` and `ja` in `public/translations.js`. Do not put copy in an inline script on the homepage.
+3. Run `npm run check` (this includes an EN/JA key lockstep check) and verify both language states.
 
 ## Development workflow
 
