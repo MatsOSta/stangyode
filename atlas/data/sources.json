@@ -446,5 +446,37 @@
       "en": "Research runtime for sealed transactions, progress frontiers, commit/abort, and irreversible-effect gates; does not claim full crash-safe exactly-once semantics.",
       "ja": "封印済みトランザクション、進捗フロンティア、コミット/中止、不可逆効果ゲートを扱う研究ランタイム。完全なクラッシュ安全exactly-onceは主張しない。"
     }
+  },
+  "openai-decisions": {
+    "title": "OpenAI Decisions API",
+    "url": "https://developers.openai.com/api/docs/guides/decisions",
+    "note": {
+      "en": "First-party public-beta API for predicate, choice, and score answers over text and images; speed claims are vendor-reported.",
+      "ja": "テキストと画像に対するpredicate、choice、score回答を提供する公開ベータAPIの一次資料。速度主張はベンダー報告。"
+    }
+  },
+  "llamacpp-decision-models": {
+    "title": "llama.cpp decision models",
+    "url": "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp",
+    "note": {
+      "en": "First-party ecosystem announcement for a Jev-compatible local endpoint serving six decision-model families; performance figures are project-reported.",
+      "ja": "6系統の判断モデルを配信するJev互換ローカルエンドポイントのエコシステム一次発表。性能値はプロジェクト報告。"
+    }
+  },
+  "cloudflare-clef": {
+    "title": "Cloudflare Clef",
+    "url": "https://huggingface.co/Cloudflare/clef",
+    "note": {
+      "en": "Apache-2.0 multimodal open-weight decision model with a Jev-compatible API; benchmark results are Cloudflare-reported.",
+      "ja": "Jev互換APIを持つApache-2.0のマルチモーダル公開ウェイト判断モデル。ベンチマーク結果はCloudflare報告。"
+    }
+  },
+  "liquid-open-d1": {
+    "title": "Liquid AI open d1 decision models",
+    "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+    "note": {
+      "en": "First-party release of open multimodal d1-3B and d1-omni-600M decision models; latency and benchmark figures are vendor-reported.",
+      "ja": "公開マルチモーダル判断モデルd1-3Bとd1-omni-600Mの一次発表。遅延とベンチマーク値はベンダー報告。"
+    }
   }
 }

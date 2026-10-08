@@ -22,45 +22,144 @@
     { "id": "preprint", "kind": "paper" }
   ],
   "candidates": [
-    {
+        {
       "id": "typed-decision-models",
-      "names": ["System One models", "typed decision models", "typed probabilistic decisions", "Jev"],
+      "names": [
+        "typed probabilistic decision models",
+        "System One models",
+        "decision models"
+      ],
       "status": "assessed",
-      "kindGuess": "implementation-plus-concept",
-      "implementation": "Jev",
-      "durableConcept": "System One / typed decision model: state + typed questions → typed answers and probabilities",
+      "kindGuess": "category",
+      "durableConcept": "State + bounded typed questions → typed answers, probabilities, and confidence without free-text parsing",
       "whyInteresting": {
-        "en": "A non-generative model class: software sends state and typed questions, and gets bounded choices, scores, or probabilities it can branch on. Distinct from another agent loop.",
-        "ja": "非生成のモデル級。ソフトウェアが状態と型付き質問を送り、分岐に使える限定的な選択・評点・確率を得る。別のエージェントループではない。"
+        "en": "Multiple independent hosted and open implementations now provide bounded predicate, choice, or score answers with probabilities, establishing a category beyond any one launch.",
+        "ja": "独立した複数のホスト型・公開実装が、確率付きの限定predicate、choice、score回答を提供し、一つの発表を超えるカテゴリが成立した。"
       },
       "firstObserved": "2026-10-08",
       "lastObserved": "2026-10-08",
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
-      "radarSignalId": "system-one-models",
+      "radarSignalId": "typed-probabilistic-decision-models",
       "atlasTermIds": [],
       "judgment": {
-        "substance": 82,
-        "hype": 78,
-        "fieldImportance": 74,
-        "relevance": 76,
-        "evidenceDiversity": 78,
-        "momentum": 80
+        "substance": 86,
+        "hype": 88,
+        "fieldImportance": 90,
+        "relevance": 82,
+        "evidenceDiversity": 92,
+        "momentum": 94
       },
       "observations": [
-        { "sensor": "primary-docs", "url": "https://docs.typesafe.ai/concepts/system-one", "date": "2026-10-08" },
-        { "sensor": "primary-docs", "url": "https://typesafe.ai/", "date": "2026-10-08" },
-        { "sensor": "independent-press", "url": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/", "date": "2026-10-08" },
-        { "sensor": "preprint", "url": "https://arxiv.org/pdf/2610.00346v2", "date": "2026-10-08" },
-        { "sensor": "github-public", "url": "https://github.com/typesafe-ai", "date": "2026-10-08" },
-        { "sensor": "github-public", "url": "https://github.com/Mapika/decider", "date": "2026-10-08" },
-        { "sensor": "preprint", "url": "https://arxiv.org/html/2609.32160v1", "date": "2026-10-08" }
+        {
+          "sensor": "primary-docs",
+          "url": "https://developers.openai.com/api/docs/guides/decisions",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://huggingface.co/Cloudflare/clef",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/html/2609.32160v1",
+          "date": "2026-10-08"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Jev",
+          "vendor": "TypeSafe AI",
+          "access": "hosted early access"
+        },
+        {
+          "name": "OpenAI Decisions / gpt-6-luna",
+          "vendor": "OpenAI",
+          "access": "hosted public beta"
+        },
+        {
+          "name": "Clef / Clef-Flash",
+          "vendor": "Cloudflare",
+          "access": "open weights and hosted"
+        },
+        {
+          "name": "d1-3B / d1-omni-600M",
+          "vendor": "Liquid AI",
+          "access": "open weights"
+        },
+        {
+          "name": "Julia-1, Laya, Kev-4B, lev, OpenJev, Clef via llama.cpp",
+          "vendor": "ggml-org ecosystem",
+          "access": "local open inference"
+        }
       ]
     },
     {
+      "id": "jev",
+      "names": [
+        "Jev",
+        "TypeSafe Jev"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-implementation",
+      "whyInteresting": {
+        "en": "The high-attention launch helped define the interface, but equivalent hosted and open implementations now reduce product-specific differentiation.",
+        "ja": "高い注目を集めた発表がインターフェース定義に寄与したが、同等のホスト型・公開実装により製品固有の差別化は低下した。"
+      },
+      "firstObserved": "2026-10-08",
+      "lastObserved": "2026-10-08",
+      "lifecycle": "commoditizing",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "jev",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 68,
+        "hype": 88,
+        "fieldImportance": 58,
+        "relevance": 54,
+        "evidenceDiversity": 64,
+        "momentum": 70
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://docs.typesafe.ai/concepts/system-one",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "independent-press",
+          "url": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/",
+          "date": "2026-10-08"
+        }
+      ]
+    },
+        {
       "id": "open-weight-typed-decision-inference",
-      "names": ["Laya", "open-weight typed decisions"],
-      "status": "discovered",
+      "names": [
+        "llama.cpp decision models",
+        "Julia-1",
+        "Laya",
+        "Kev-4B",
+        "lev",
+        "OpenJev"
+      ],
+      "status": "assessed",
       "kindGuess": "implementation",
       "whyInteresting": {
         "en": "The typed-decision pattern appearing as local/open-weight inference, not only a hosted API.",
@@ -68,26 +167,34 @@
       },
       "firstObserved": "2026-10-08",
       "lastObserved": "2026-10-08",
-      "lifecycle": "observed",
-      "evidenceState": "unverified",
-      "radarSignalId": null,
+      "lifecycle": "implementation-recorded",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "typed-probabilistic-decision-models",
       "atlasTermIds": [],
       "judgment": {
-        "substance": 40,
-        "hype": 35,
-        "fieldImportance": 45,
-        "relevance": 50,
-        "evidenceDiversity": 30,
-        "momentum": 40
+        "substance": 78,
+        "hype": 70,
+        "fieldImportance": 82,
+        "relevance": 78,
+        "evidenceDiversity": 72,
+        "momentum": 86
       },
       "observations": [
-        { "sensor": "github-public", "url": "https://github.com/receptron/laya", "date": "2026-10-08" }
+        {
+          "sensor": "primary-docs",
+          "url": "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp",
+          "date": "2026-10-08"
+        }
       ]
     },
-    {
+        {
       "id": "multimodal-typed-decisions",
-      "names": ["Clef", "Cloudflare Clef"],
-      "status": "discovered",
+      "names": [
+        "Cloudflare Clef",
+        "Liquid d1",
+        "multimodal typed decisions"
+      ],
+      "status": "assessed",
       "kindGuess": "implementation",
       "whyInteresting": {
         "en": "Typed questions scored in one forward pass over text, JSON, images, and video — the pattern leaving text-only APIs.",
@@ -95,20 +202,34 @@
       },
       "firstObserved": "2026-10-08",
       "lastObserved": "2026-10-08",
-      "lifecycle": "observed",
-      "evidenceState": "unverified",
-      "radarSignalId": null,
+      "lifecycle": "implementation-recorded",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "typed-probabilistic-decision-models",
       "atlasTermIds": [],
       "judgment": {
-        "substance": 48,
-        "hype": 50,
-        "fieldImportance": 55,
-        "relevance": 42,
-        "evidenceDiversity": 35,
-        "momentum": 45
+        "substance": 80,
+        "hype": 74,
+        "fieldImportance": 84,
+        "relevance": 70,
+        "evidenceDiversity": 76,
+        "momentum": 88
       },
       "observations": [
-        { "sensor": "github-public", "url": "https://huggingface.co/Cloudflare/clef", "date": "2026-10-08" }
+        {
+          "sensor": "primary-docs",
+          "url": "https://huggingface.co/Cloudflare/clef",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://developers.openai.com/api/docs/guides/decisions",
+          "date": "2026-10-08"
+        }
       ]
     },
     {
