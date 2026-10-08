@@ -51,6 +51,14 @@ for (const signal of radar.signals) {
   bilingual(signal.recommendation, `recommendation ${signal.id}`);
   if (!Array.isArray(signal.tradeoffs) || signal.tradeoffs.length < 2) fail(`Trade-offs missing ${signal.id}`);
   for (const tradeoff of signal.tradeoffs) bilingual(tradeoff, `trade-off ${signal.id}`);
+  if (signal.implementations) {
+    if (!Array.isArray(signal.implementations) || signal.implementations.length < 1) fail(`Invalid implementations ${signal.id}`);
+    for (const implementation of signal.implementations) {
+      if (!implementation.name || !implementation.vendor || !implementation.access) fail(`Incomplete implementation ${signal.id}`);
+      if (!Array.isArray(implementation.sourceIds) || implementation.sourceIds.length < 1) fail(`Implementation sources missing ${signal.id} -> ${implementation.name}`);
+      for (const sourceId of implementation.sourceIds) if (!sourceIds.has(sourceId)) fail(`Missing implementation source ${signal.id} -> ${sourceId}`);
+    }
+  }
   if (!compatibilityStatuses.has(signal.compatibility.status)) fail(`Invalid compatibility ${signal.id}`);
   bilingual(signal.compatibility.rationale, `compatibility ${signal.id}`);
   if (!Array.isArray(signal.history) || signal.history.length < 1) fail(`History missing ${signal.id}`);

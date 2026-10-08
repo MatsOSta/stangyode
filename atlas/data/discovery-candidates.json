@@ -81,27 +81,43 @@
         {
           "name": "Jev",
           "vendor": "TypeSafe AI",
-          "access": "hosted early access"
+          "access": "hosted early access",
+          "sourceIds": [
+            "typesafe-system-one",
+            "typesafe-home"
+          ]
         },
         {
           "name": "OpenAI Decisions / gpt-6-luna",
           "vendor": "OpenAI",
-          "access": "hosted public beta"
+          "access": "hosted public beta",
+          "sourceIds": [
+            "openai-decisions"
+          ]
         },
         {
           "name": "Clef / Clef-Flash",
           "vendor": "Cloudflare",
-          "access": "open weights and hosted"
+          "access": "open weights and hosted",
+          "sourceIds": [
+            "cloudflare-clef"
+          ]
         },
         {
           "name": "d1-3B / d1-omni-600M",
           "vendor": "Liquid AI",
-          "access": "open weights"
+          "access": "open weights",
+          "sourceIds": [
+            "liquid-open-d1"
+          ]
         },
         {
           "name": "Julia-1, Laya, Kev-4B, lev, OpenJev, Clef via llama.cpp",
           "vendor": "ggml-org ecosystem",
-          "access": "local open inference"
+          "access": "local open inference",
+          "sourceIds": [
+            "llamacpp-decision-models"
+          ]
         }
       ]
     },
