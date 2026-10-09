@@ -14,9 +14,30 @@
       "type": "history-preservation",
       "signalId": "typed-probabilistic-decision-models",
       "expectedScoreHistory": [
-        { "frontier": 82, "adoption": 36, "fit": 74, "confidence": 55 },
-        { "frontier": 84, "adoption": 40, "fit": 76, "confidence": 68 },
-        { "frontier": 91, "adoption": 48, "fit": 80, "confidence": 82 }
+        {
+          "frontier": 82,
+          "adoption": 36,
+          "fit": 74,
+          "confidence": 55
+        },
+        {
+          "frontier": 84,
+          "adoption": 40,
+          "fit": 76,
+          "confidence": 68
+        },
+        {
+          "frontier": 91,
+          "adoption": 48,
+          "fit": 80,
+          "confidence": 82
+        },
+        {
+          "frontier": 93,
+          "adoption": 52,
+          "fit": 82,
+          "confidence": 88
+        }
       ]
     },
     {
@@ -29,14 +50,20 @@
         "openai",
         "cloudflare",
         "liquid-ai",
-        "ggml-org"
+        "ggml-org",
+        "perplexity",
+        "chinhnc",
+        "getainode"
       ],
       "requiredSourceIds": [
         "typesafe-system-one",
         "openai-decisions",
         "cloudflare-clef",
         "liquid-open-d1",
-        "llamacpp-decision-models"
+        "llamacpp-decision-models",
+        "perplexity-decisions",
+        "quyet-pypi",
+        "jebadiah-repo"
       ]
     }
   ]

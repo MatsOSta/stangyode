@@ -558,5 +558,125 @@
       "en": "Official TypeScript SDK release feed; no material Radar change was identified in this audit.",
       "ja": "公式TypeScript SDKリリースフィード。この監査ではレーダーの重要な変化を確認しなかった。"
     }
+  },
+  "typesafe-models": {
+    "title": "TypeSafe current models",
+    "url": "https://docs.typesafe.ai/models",
+    "note": {
+      "en": "First-party model roster for Jev; version, limits, modality, and price are vendor-reported.",
+      "ja": "Jevのバージョン、制限、モダリティ、価格を示す一次モデル一覧。数値はベンダー報告。"
+    }
+  },
+  "perplexity-decisions": {
+    "title": "Perplexity Decisions API",
+    "url": "https://docs.perplexity.ai/docs/decisions/quickstart",
+    "note": {
+      "en": "First-party operational Decisions API for typed noul, choice, and score probabilities over text, JSON, and images; performance claims are vendor-reported.",
+      "ja": "テキスト、JSON、画像に対するnoul、choice、scoreの確率を返す稼働中Decisions APIの一次資料。性能主張はベンダー報告。"
+    }
+  },
+  "jebadiah-repo": {
+    "title": "Jebadiah open decision models",
+    "url": "https://github.com/getainode/jebadiah",
+    "note": {
+      "en": "Apache-2.0 trainer, data builders, evaluation harnesses, run records, weights, and Jev-style serving for open decision models; results are project-reported.",
+      "ja": "公開判断モデルのApache-2.0学習器、データ構築、評価、実行記録、ウェイト、Jev形式配信。結果はプロジェクト報告。"
+    }
+  },
+  "quyet-pypi": {
+    "title": "Quyet 1.0.2",
+    "url": "https://pypi.org/project/quyet/",
+    "note": {
+      "en": "PyPI release for Apache-2.0 CPU/GPU decision models with TypeSafe-shaped choice, score, and noul output; safety and robustness remain unevaluated by its author.",
+      "ja": "TypeSafe形式のchoice、score、noul出力を持つApache-2.0のCPU/GPU判断モデルのPyPIリリース。安全性と堅牢性は作者自身も未評価としている。"
+    }
+  },
+  "vercel-decisions-gateway": {
+    "title": "Vercel AI Gateway Decisions API",
+    "url": "https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-decisions",
+    "note": {
+      "en": "First-party provider-neutral OpenAI-compatible Decisions gateway documentation; a routing surface, not a separate decision model.",
+      "ja": "プロバイダー中立のOpenAI互換Decisionsゲートウェイ一次資料。独立した判断モデルではなくルーティング面。"
+    }
+  },
+  "mcp-use-2-8-1": {
+    "title": "mcp-use 2.8.1 release",
+    "url": "https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.1",
+    "note": {
+      "en": "First-party tagged framework release; the release note is terse and does not establish cross-host compatibility.",
+      "ja": "フレームワークの一次タグ付きリリース。リリースノートは簡潔で、ホスト横断互換性は立証しない。"
+    }
+  },
+  "ponytail-5-1-0": {
+    "title": "Ponytail 5.1.0 release",
+    "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.1.0",
+    "note": {
+      "en": "First-party release replacing branded debt markers with neutral shortcut markers while preserving old-ledger discovery; outcome claims remain project-authored.",
+      "ja": "ブランド名付き負債マーカーを中立なshortcutマーカーへ置換し、旧台帳の発見を維持する一次リリース。成果主張はプロジェクト自身による。"
+    }
+  },
+  "caveman-3-2-0": {
+    "title": "Caveman 3.2.0 release",
+    "url": "https://github.com/JuliusBrussee/caveman/releases/tag/v3.2.0",
+    "note": {
+      "en": "First-party release adding cache-stable compression, recoverable result handles, signed artifacts, integrations, and deterministic fidelity checks; general task-success gains remain unverified.",
+      "ja": "キャッシュ安定圧縮、復元可能な結果ハンドル、署名済み成果物、統合、決定論的忠実度検査を追加した一次リリース。一般的なタスク成功改善は未検証。"
+    }
+  },
+  "google-gemini-agent": {
+    "title": "Google Cloud Gemini agent announcement",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+    "note": {
+      "en": "First-party launch of a persistent cross-channel work agent with model routing and identity-bearing sub-agents; customer and reliability claims are vendor-reported.",
+      "ja": "モデルルーティングと固有IDを持つサブエージェントを備えた、永続的なチャネル横断業務エージェントの一次発表。顧客・信頼性主張はベンダー報告。"
+    }
+  },
+  "openai-changelog": {
+    "title": "OpenAI API changelog",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "note": {
+      "en": "First-party API release log checked for material changes.",
+      "ja": "重要な変更を確認したOpenAI APIの一次リリース履歴。"
+    }
+  },
+  "anthropic-api-release-notes": {
+    "title": "Anthropic API release notes",
+    "url": "https://docs.anthropic.com/en/release-notes/api",
+    "note": {
+      "en": "First-party API release notes checked for material changes.",
+      "ja": "重要な変更を確認したAnthropic APIの一次リリースノート。"
+    }
+  },
+  "google-aqua": {
+    "title": "Google AQuA announcement",
+    "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent",
+    "note": {
+      "en": "First-party announcement for an ambient quality agent; kept as release-sweep evidence rather than a Radar promotion.",
+      "ja": "アンビエント品質エージェントの一次発表。レーダー昇格ではなくリリース確認証拠として保持。"
+    }
+  },
+  "aws-nova-sonic": {
+    "title": "AWS Nova 2.5 Sonic announcement",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-Sonic",
+    "note": {
+      "en": "First-party AWS model announcement checked in the release sweep; it did not trigger a Radar record.",
+      "ja": "リリース確認で調べたAWSの一次モデル発表。レーダー項目の追加には至らなかった。"
+    }
+  },
+  "azure-announcements": {
+    "title": "Microsoft Azure announcements",
+    "url": "https://azure.microsoft.com/en-us/blog/content-type/announcements/",
+    "note": {
+      "en": "First-party Microsoft release surface; no material Radar change was identified in this audit.",
+      "ja": "Microsoftの一次リリース面。この監査では重要なレーダー変更を確認しなかった。"
+    }
+  },
+  "atomix-releases": {
+    "title": "Atomix releases",
+    "url": "https://github.com/mpi-dsg/atomix/releases",
+    "note": {
+      "en": "Project release feed; no new independent validation or material change was identified in this audit.",
+      "ja": "プロジェクトのリリースフィード。この監査では新たな独立検証や重要変更を確認しなかった。"
+    }
   }
 }

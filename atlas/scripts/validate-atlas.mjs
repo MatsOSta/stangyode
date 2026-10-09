@@ -59,7 +59,7 @@ if (count(/class="ecosystem-card"/g) !== data.ecosystems.length) fail('Generated
 for (const term of data.terms) if (!html.includes(`id="term-${term.id}"`)) fail(`Missing term ${term.id}`);
 for (const item of data.ecosystems) if (!html.includes(`id="ecosystem-${item.id}"`)) fail(`Missing ecosystem ${item.id}`);
 for (const control of ['id="search"','id="layer"','id="kind"','id="status"','id="result-count"']) if (!html.includes(control)) fail(`Missing filter ${control}`);
-for (const token of ['data-en=','data-ja=','Frontier Radar','Adoption Intelligence','radar-search','radar-stage','radar-compatibility','id="radar-audit"','RADAR HEALTH','レーダー健全性','github-public','SKIPPED','2026-10-08T19:17:07Z','Buzz is evidence of attention, not proof of capability.','話題性は注目の証拠であり、能力の証明ではない。','TURN FAILURE INTO EVAL','RUN REGRESSION SUITE','Primary sources first.']) if (!html.includes(token)) fail(`Missing generated content ${token}`);
+for (const token of ['data-en=','data-ja=','Frontier Radar','Adoption Intelligence','radar-search','radar-stage','radar-compatibility','id="radar-audit"','RADAR HEALTH','レーダー健全性','github-public','SKIPPED','2026-10-09T05:07:41Z','Buzz is evidence of attention, not proof of capability.','話題性は注目の証拠であり、能力の証明ではない。','TURN FAILURE INTO EVAL','RUN REGRESSION SUITE','Primary sources first.']) if (!html.includes(token)) fail(`Missing generated content ${token}`);
 const logoPath = 'M4 9.5 17 2l13 7.5v15L17 32 4 24.5z'; const innerPath = 'm10 13 7-4 7 4-7 4-7 4 7 4 7-4';
 if (html.split(`<path d="${logoPath}"`).length - 1 < 2 || html.split(`<path d="${innerPath}"`).length - 1 < 2) fail('Canonical logo paths missing');
 if (html !== expectedHtml) fail('Generated Atlas HTML is stale: run npm run build:atlas and review the diff');

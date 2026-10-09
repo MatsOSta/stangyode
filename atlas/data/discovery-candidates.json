@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-08",
+  "generatedAt": "2026-10-09",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -16,13 +16,25 @@
     }
   },
   "sensors": [
-    { "id": "primary-docs", "kind": "documentation" },
-    { "id": "independent-press", "kind": "secondary-report" },
-    { "id": "github-public", "kind": "repository" },
-    { "id": "preprint", "kind": "paper" }
+    {
+      "id": "primary-docs",
+      "kind": "documentation"
+    },
+    {
+      "id": "independent-press",
+      "kind": "secondary-report"
+    },
+    {
+      "id": "github-public",
+      "kind": "repository"
+    },
+    {
+      "id": "preprint",
+      "kind": "paper"
+    }
   ],
   "candidates": [
-        {
+    {
       "id": "typed-decision-models",
       "names": [
         "typed probabilistic decision models",
@@ -37,18 +49,18 @@
         "ja": "独立した複数のホスト型・公開実装が、確率付きの限定predicate、choice、score回答を提供し、一つの発表を超えるカテゴリが成立した。"
       },
       "firstObserved": "2026-10-08",
-      "lastObserved": "2026-10-08",
+      "lastObserved": "2026-10-09",
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "typed-probabilistic-decision-models",
       "atlasTermIds": [],
       "judgment": {
-        "substance": 86,
-        "hype": 88,
-        "fieldImportance": 90,
-        "relevance": 82,
-        "evidenceDiversity": 92,
-        "momentum": 94
+        "substance": 88,
+        "hype": 90,
+        "fieldImportance": 92,
+        "relevance": 84,
+        "evidenceDiversity": 96,
+        "momentum": 96
       },
       "observations": [
         {
@@ -75,6 +87,21 @@
           "sensor": "preprint",
           "url": "https://arxiv.org/html/2609.32160v1",
           "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://docs.perplexity.ai/docs/decisions/quickstart",
+          "date": "2026-10-09"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/getainode/jebadiah",
+          "date": "2026-10-09"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://pypi.org/project/quyet/",
+          "date": "2026-10-09"
         }
       ],
       "implementations": [
@@ -123,6 +150,33 @@
           "sourceIds": [
             "llamacpp-decision-models"
           ]
+        },
+        {
+          "name": "Perplexity Decisions / pplx-decider-v1.1-27b",
+          "vendor": "Perplexity",
+          "organizationId": "perplexity",
+          "access": "hosted multimodal API",
+          "sourceIds": [
+            "perplexity-decisions"
+          ]
+        },
+        {
+          "name": "Quyet 1.0 model family",
+          "vendor": "Chinh Nguyen",
+          "organizationId": "chinhnc",
+          "access": "Apache-2.0 CPU and GPU models",
+          "sourceIds": [
+            "quyet-pypi"
+          ]
+        },
+        {
+          "name": "Jebadiah model family",
+          "vendor": "AINode / frontier-infra",
+          "organizationId": "getainode",
+          "access": "Apache-2.0 training, weights, evaluation, and serving",
+          "sourceIds": [
+            "jebadiah-repo"
+          ]
         }
       ]
     },
@@ -139,18 +193,18 @@
         "ja": "高い注目を集めた発表がインターフェース定義に寄与したが、同等のホスト型・公開実装により製品固有の差別化は低下した。"
       },
       "firstObserved": "2026-10-08",
-      "lastObserved": "2026-10-08",
+      "lastObserved": "2026-10-09",
       "lifecycle": "commoditizing",
       "evidenceState": "partially-verified",
       "radarSignalId": "jev",
       "atlasTermIds": [],
       "judgment": {
         "substance": 68,
-        "hype": 88,
-        "fieldImportance": 58,
-        "relevance": 54,
-        "evidenceDiversity": 64,
-        "momentum": 70
+        "hype": 86,
+        "fieldImportance": 54,
+        "relevance": 50,
+        "evidenceDiversity": 66,
+        "momentum": 64
       },
       "observations": [
         {
@@ -167,10 +221,15 @@
           "sensor": "independent-press",
           "url": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/",
           "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://docs.typesafe.ai/models",
+          "date": "2026-10-09"
         }
       ]
     },
-        {
+    {
       "id": "open-weight-typed-decision-inference",
       "names": [
         "llama.cpp decision models",
@@ -208,7 +267,7 @@
         }
       ]
     },
-        {
+    {
       "id": "multimodal-typed-decisions",
       "names": [
         "Cloudflare Clef",
@@ -255,7 +314,11 @@
     },
     {
       "id": "agent-skills-distribution",
-      "names": ["Agent Skills", "skills CLI", "SKILL.md packages"],
+      "names": [
+        "Agent Skills",
+        "skills CLI",
+        "SKILL.md packages"
+      ],
       "status": "assessed",
       "kindGuess": "format-plus-distribution-layer",
       "whyInteresting": {
@@ -267,7 +330,10 @@
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "agent-skills",
-      "atlasTermIds": ["agent-harness", "capability"],
+      "atlasTermIds": [
+        "agent-harness",
+        "capability"
+      ],
       "judgment": {
         "substance": 78,
         "hype": 90,
@@ -277,13 +343,25 @@
         "momentum": 86
       },
       "observations": [
-        { "sensor": "primary-docs", "url": "https://agentskills.io/specification", "date": "2026-10-08" },
-        { "sensor": "github-public", "url": "https://github.com/vercel-labs/skills", "date": "2026-10-08" }
+        {
+          "sensor": "primary-docs",
+          "url": "https://agentskills.io/specification",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/vercel-labs/skills",
+          "date": "2026-10-08"
+        }
       ]
     },
     {
       "id": "mcp-app-stack",
-      "names": ["MCP Apps", "mcp-use", "typed tool-to-UI applications"],
+      "names": [
+        "MCP Apps",
+        "mcp-use",
+        "typed tool-to-UI applications"
+      ],
       "status": "assessed",
       "kindGuess": "protocol-extension-plus-framework",
       "whyInteresting": {
@@ -295,7 +373,9 @@
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "mcp-apps",
-      "atlasTermIds": ["mcp-apps"],
+      "atlasTermIds": [
+        "mcp-apps"
+      ],
       "judgment": {
         "substance": 76,
         "hype": 80,
@@ -305,13 +385,25 @@
         "momentum": 84
       },
       "observations": [
-        { "sensor": "github-public", "url": "https://github.com/mcp-use/mcp-use", "date": "2026-10-08" },
-        { "sensor": "primary-docs", "url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog", "date": "2026-10-08" }
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/mcp-use/mcp-use",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+          "date": "2026-10-08"
+        }
       ]
     },
     {
       "id": "knowledge-triage",
-      "names": ["Knowledge Triage", "type-aware context retention", "Compaction Cliff"],
+      "names": [
+        "Knowledge Triage",
+        "type-aware context retention",
+        "Compaction Cliff"
+      ],
       "status": "assessed",
       "kindGuess": "research-pattern-plus-reference-implementation",
       "whyInteresting": {
@@ -323,7 +415,9 @@
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "knowledge-triage",
-      "atlasTermIds": ["context-engineering"],
+      "atlasTermIds": [
+        "context-engineering"
+      ],
       "judgment": {
         "substance": 84,
         "hype": 24,
@@ -333,13 +427,26 @@
         "momentum": 52
       },
       "observations": [
-        { "sensor": "preprint", "url": "https://arxiv.org/abs/2608.22752", "date": "2026-10-08" },
-        { "sensor": "github-public", "url": "https://github.com/searchsim-org/cikm26-knowledge-triage", "date": "2026-10-08" }
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2608.22752",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/searchsim-org/cikm26-knowledge-triage",
+          "date": "2026-10-08"
+        }
       ]
     },
     {
       "id": "tool-effect-integrity",
-      "names": ["verified tool effects", "transactional tool settlement", "Atomix", "unreliable tool returns"],
+      "names": [
+        "verified tool effects",
+        "transactional tool settlement",
+        "Atomix",
+        "unreliable tool returns"
+      ],
       "status": "assessed",
       "kindGuess": "reliability-pattern-plus-research-runtime",
       "whyInteresting": {
@@ -351,7 +458,10 @@
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "tool-effect-integrity",
-      "atlasTermIds": ["tool-use-function-calling", "durable-execution"],
+      "atlasTermIds": [
+        "tool-use-function-calling",
+        "durable-execution"
+      ],
       "judgment": {
         "substance": 88,
         "hype": 22,
@@ -361,8 +471,158 @@
         "momentum": 60
       },
       "observations": [
-        { "sensor": "preprint", "url": "https://arxiv.org/abs/2609.05587", "date": "2026-10-08" },
-        { "sensor": "preprint", "url": "https://arxiv.org/html/2602.14849", "date": "2026-10-08" }
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2609.05587",
+          "date": "2026-10-08"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/html/2602.14849",
+          "date": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "mcp-use",
+      "names": [
+        "mcp-use",
+        "mcp-use 2.8.1"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-framework",
+      "whyInteresting": {
+        "en": "A named full-stack MCP implementation with concrete release movement, separate from the MCP Apps protocol category.",
+        "ja": "MCP Appsプロトコルカテゴリとは別の、具体的なリリース進展を持つ名前付きフルスタックMCP実装。"
+      },
+      "firstObserved": "2026-10-09",
+      "lastObserved": "2026-10-09",
+      "lifecycle": "rising",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "mcp-use",
+      "atlasTermIds": [
+        "mcp-apps"
+      ],
+      "judgment": {
+        "substance": 74,
+        "hype": 80,
+        "fieldImportance": 72,
+        "relevance": 62,
+        "evidenceDiversity": 58,
+        "momentum": 84
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.1",
+          "date": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "ponytail",
+      "names": [
+        "Ponytail",
+        "Ponytail 5.1.0"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-skill",
+      "whyInteresting": {
+        "en": "A named coding-agent minimization skill with a persistent shortcut ledger; outcome evidence remains project-authored.",
+        "ja": "永続的なshortcut台帳を持つ名前付きコーディングエージェント最小化スキル。成果証拠はプロジェクト自身の報告。"
+      },
+      "firstObserved": "2026-10-09",
+      "lastObserved": "2026-10-09",
+      "lifecycle": "rising",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "ponytail",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 68,
+        "hype": 76,
+        "fieldImportance": 62,
+        "relevance": 66,
+        "evidenceDiversity": 52,
+        "momentum": 78
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.1.0",
+          "date": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "caveman",
+      "names": [
+        "Caveman",
+        "Caveman 3.2.0"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-tool",
+      "whyInteresting": {
+        "en": "A named reversible context and tool-result compression implementation with recoverable handles and deterministic fidelity checks.",
+        "ja": "復元可能ハンドルと決定論的忠実度検査を持つ、名前付きの可逆コンテキスト・ツール結果圧縮実装。"
+      },
+      "firstObserved": "2026-10-09",
+      "lastObserved": "2026-10-09",
+      "lifecycle": "rising",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "caveman",
+      "atlasTermIds": [
+        "context-engineering"
+      ],
+      "judgment": {
+        "substance": 78,
+        "hype": 78,
+        "fieldImportance": 74,
+        "relevance": 74,
+        "evidenceDiversity": 56,
+        "momentum": 84
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/JuliusBrussee/caveman/releases/tag/v3.2.0",
+          "date": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "gemini-agent",
+      "names": [
+        "Gemini agent",
+        "Google Gemini agent"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-enterprise-agent",
+      "whyInteresting": {
+        "en": "A high-attention universal work-agent launch combining persistent execution, cross-channel context, model routing, and identity-bearing sub-agents.",
+        "ja": "永続実行、チャネル横断コンテキスト、モデルルーティング、固有ID付きサブエージェントを組み合わせた高注目の汎用業務エージェント発表。"
+      },
+      "firstObserved": "2026-10-09",
+      "lastObserved": "2026-10-09",
+      "lifecycle": "rising",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "gemini-agent",
+      "atlasTermIds": [
+        "agent-harness"
+      ],
+      "judgment": {
+        "substance": 72,
+        "hype": 94,
+        "fieldImportance": 84,
+        "relevance": 58,
+        "evidenceDiversity": 46,
+        "momentum": 94
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "date": "2026-10-09"
+        }
       ]
     }
   ]

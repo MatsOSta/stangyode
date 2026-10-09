@@ -9,22 +9,22 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-08",
+    "snapshot": "2026-10-09",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-08T19:26:39Z",
+    "asOf": "2026-10-09T06:11:32Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "success",
-        "lastAttemptAt": "2026-10-08T19:17:07Z",
-        "lastSuccessfulRunAt": "2026-10-08T19:17:07Z",
+        "lastAttemptAt": "2026-10-09T05:07:41Z",
+        "lastSuccessfulRunAt": "2026-10-09T05:07:41Z",
         "failureStreak": 0,
         "lastFailure": {
           "at": "2026-10-08T13:31:55Z",
@@ -34,88 +34,234 @@
       },
       "editor": {
         "status": "success",
-        "lastAttemptAt": "2026-10-08T19:26:39Z",
-        "lastSuccessfulRunAt": "2026-10-08T19:26:39Z",
+        "lastAttemptAt": "2026-10-09T06:11:32Z",
+        "lastSuccessfulRunAt": "2026-10-09T06:11:32Z",
         "failureStreak": 0
       }
     },
     "sourcesChecked": [
-      { "sourceId": "openai-decisions", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "cloudflare-clef", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "liquid-open-d1", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "llamacpp-decision-models", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "typed-decision-audit", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "atomix-paper", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "unreliable-tools-paper", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "knowledge-triage-paper", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "knowledge-triage-repo", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "anthropic-news", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "google-developers-news", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "microsoft-agent-lightning", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "aws-ml-announcements", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "cloudflare-agents", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "meta-ai-news", "checkedAt": "2026-10-08", "outcome": "no-material-change" },
-      { "sourceId": "mistral-news", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "huggingface-blog", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "typesafe-system-one", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "vercel-skills-cli", "checkedAt": "2026-10-08", "outcome": "relevant" },
-      { "sourceId": "mcp-python-releases", "checkedAt": "2026-10-08", "outcome": "no-material-change" },
-      { "sourceId": "mcp-typescript-releases", "checkedAt": "2026-10-08", "outcome": "no-material-change" }
+      {
+        "sourceId": "typesafe-models",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "perplexity-decisions",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "jebadiah-repo",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "quyet-pypi",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "vercel-decisions-gateway",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "mcp-use-2-8-1",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "ponytail-5-1-0",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "caveman-3-2-0",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "google-gemini-agent",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "openai-changelog",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "anthropic-api-release-notes",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "google-aqua",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "aws-nova-sonic",
+        "checkedAt": "2026-10-09",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "azure-announcements",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "meta-ai-news",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "mistral-news",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "huggingface-blog",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "cloudflare-agents",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "mcp-python-releases",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "mcp-typescript-releases",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "knowledge-triage-repo",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "atomix-releases",
+        "checkedAt": "2026-10-09",
+        "outcome": "no-material-change"
+      }
     ],
     "queryGroups": [
       {
         "id": "named-sibling",
-        "label": { "en": "Named entities and sibling implementations", "ja": "名前付きエンティティと同等実装" },
+        "label": {
+          "en": "Named entities and sibling implementations",
+          "ja": "名前付きエンティティと同等実装"
+        },
         "runRole": "scout",
-        "targetIds": ["jev", "typed-probabilistic-decision-models"],
-        "sourceIds": ["typesafe-system-one", "openai-decisions", "cloudflare-clef", "liquid-open-d1", "llamacpp-decision-models", "typed-decision-audit"],
+        "targetIds": [
+          "jev",
+          "typed-probabilistic-decision-models",
+          "mcp-use",
+          "ponytail",
+          "caveman"
+        ],
+        "sourceIds": [
+          "typesafe-models",
+          "perplexity-decisions",
+          "jebadiah-repo",
+          "quyet-pypi",
+          "vercel-decisions-gateway",
+          "mcp-use-2-8-1",
+          "ponytail-5-1-0",
+          "caveman-3-2-0"
+        ],
         "resultSummary": {
-          "en": "Found independently operated hosted and open implementations that establish a category while reducing Jev-specific differentiation.",
-          "ja": "独立運営のホスト型・公開実装を確認し、カテゴリ成立と同時にJev固有の差別化低下を示した。"
+          "en": "Additional independent decision implementations further commoditized Jev while strengthening the category; named framework and minimization releases were kept separate from their broader concepts.",
+          "ja": "追加の独立判断実装はJevをさらにコモディティ化しつつカテゴリを強化した。名前付きフレームワークと最小化リリースは広い概念と分離して保持した。"
         },
         "queries": [
-          "Jev TypeSafe AI System One",
-          "Jev AI decision model alternatives competitors",
-          "Jev typed answers predicate choice score",
-          "Jev classification routing probabilities",
-          "OpenAI Decisions API model",
-          "typed probabilistic decision AI API",
-          "bounded finite-answer decision model",
-          "exact-name release adoption benchmark criticism for tracked entities"
+          "exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for tracked named entities",
+          "Jev alternatives competitors",
+          "decision API/model",
+          "typed answers",
+          "predicate choice score",
+          "classification routing probabilities",
+          "bounded finite-answer decisions",
+          "major-vendor decision model equivalent"
         ]
       },
       {
         "id": "first-party",
-        "label": { "en": "First-party release sweep", "ja": "一次情報リリース確認" },
+        "label": {
+          "en": "First-party release sweep",
+          "ja": "一次情報リリース確認"
+        },
         "runRole": "scout",
-        "targetIds": ["jev", "agent-skills", "mcp-apps", "typed-probabilistic-decision-models"],
-        "sourceIds": ["openai-decisions", "anthropic-news", "google-developers-news", "microsoft-agent-lightning", "aws-ml-announcements", "cloudflare-agents", "meta-ai-news", "mistral-news", "huggingface-blog", "typesafe-system-one", "vercel-skills-cli", "mcp-python-releases", "mcp-typescript-releases"],
+        "targetIds": [
+          "jev",
+          "mcp-use",
+          "gemini-agent",
+          "agent-skills",
+          "mcp-apps"
+        ],
+        "sourceIds": [
+          "typesafe-models",
+          "mcp-use-2-8-1",
+          "google-gemini-agent",
+          "openai-changelog",
+          "anthropic-api-release-notes",
+          "google-aqua",
+          "aws-nova-sonic",
+          "azure-announcements",
+          "meta-ai-news",
+          "mistral-news",
+          "huggingface-blog",
+          "cloudflare-agents",
+          "mcp-python-releases",
+          "mcp-typescript-releases",
+          "knowledge-triage-repo",
+          "atomix-releases"
+        ],
         "resultSummary": {
-          "en": "Checked the declared first-party release surfaces; material changes were attributed to their named entities or categories, and no-change outcomes remained explicit.",
-          "ja": "宣言済みの一次情報リリース面を確認し、重要な変化を名前付きエンティティまたはカテゴリへ帰属させ、変化なしの結果も明示した。"
+          "en": "The rolling release sweep found a material Gemini agent launch and named project releases; explicit no-change checks remained visible.",
+          "ja": "ローリングリリース確認で重要なGemini agent発表と名前付きプロジェクトのリリースを確認し、変化なしの確認も明示した。"
         },
         "queries": [
-          "site-restricted seven-day checks across OpenAI, Anthropic, Google, Microsoft, AWS, Cloudflare, Meta, Mistral, and Hugging Face",
-          "site-restricted checks for TypeSafe/Jev, Vercel Skills, MCP, Knowledge Triage, and Atomix"
+          "site-restricted October 3–9 checks across OpenAI, Anthropic, Google, Microsoft, AWS, Cloudflare, Meta, Mistral, and Hugging Face",
+          "site-restricted checks for TypeSafe/Jev, Vercel Skills, MCP, mcp-use, Knowledge Triage, and Atomix"
         ]
       },
       {
         "id": "open-discovery",
-        "label": { "en": "Open phenomenon discovery", "ja": "現象ベースのオープン探索" },
+        "label": {
+          "en": "Open phenomenon discovery",
+          "ja": "現象ベースのオープン探索"
+        },
         "runRole": "scout",
-        "targetIds": ["tool-effect-integrity", "knowledge-triage", "context-engineering"],
-        "sourceIds": ["atomix-paper", "unreliable-tools-paper", "knowledge-triage-paper", "knowledge-triage-repo"],
+        "targetIds": [
+          "gemini-agent",
+          "tool-effect-integrity",
+          "knowledge-triage"
+        ],
+        "sourceIds": [
+          "google-gemini-agent",
+          "google-aqua",
+          "aws-nova-sonic"
+        ],
         "resultSummary": {
-          "en": "Found material evidence for tool-effect integrity and knowledge retention without treating broad agent attention as capability proof.",
-          "ja": "広範なエージェント注目を能力証明とせず、ツール効果の完全性と知識保持に関する重要な証拠を確認した。"
+          "en": "Open discovery surfaced persistent work-agent identity and runtime-evidence leads; only the high-attention Gemini launch entered the public Radar.",
+          "ja": "オープン探索で永続業務エージェントIDと実行時証拠の手掛かりを確認し、高注目のGemini発表のみを公開レーダーへ追加した。"
         },
         "queries": [
-          "AI agent reliability benchmark tool-use integrity",
-          "LLM agent context retention memory benchmark",
-          "AI agent orchestration inference serving scheduling",
-          "tool-use security supply-chain prompt injection",
-          "human-agent interface evaluation benchmark",
-          "non-atomic tool failure verify-before-retry benchmark"
+          "agent reliability runtime verification",
+          "long context memory benchmark",
+          "agent inference orchestration",
+          "tool security supply chain",
+          "human-agent interface benchmark",
+          "shadow agent endpoint discovery",
+          "authorization decision receipt",
+          "interactive executable artifact evaluation"
         ]
       }
     ],
@@ -123,18 +269,27 @@
       "jev",
       "agent-skills",
       "mcp-apps",
+      "mcp-use",
       "ponytail",
-      "caveman"
+      "caveman",
+      "gemini-agent"
     ],
     "changelogEntriesChecked": [
       "radar-loop-1",
       "radar-loop-2",
       "radar-loop-3",
-      "radar-health-1"
+      "radar-health-1",
+      "radar-daily-2026-10-09"
     ],
     "sensors": [
-      { "id": "primary-docs", "state": "checked" },
-      { "id": "independent-press", "state": "checked" },
+      {
+        "id": "primary-docs",
+        "state": "checked"
+      },
+      {
+        "id": "independent-press",
+        "state": "checked"
+      },
       {
         "id": "github-public",
         "state": "skipped",
@@ -143,7 +298,10 @@
           "ja": "チェックイン済みGitHubセンサーはliveFetch無効の手動入力のままであり、リポジトリ証拠はより広いスカウト経由で収集した。"
         }
       },
-      { "id": "preprint", "state": "checked" }
+      {
+        "id": "preprint",
+        "state": "checked"
+      }
     ],
     "staleSources": [
       {
@@ -174,29 +332,65 @@
     "findings": [
       {
         "kind": "material-finding",
-        "targetIds": ["typed-probabilistic-decision-models"],
-        "sourceIds": ["typesafe-system-one", "openai-decisions", "cloudflare-clef", "liquid-open-d1", "llamacpp-decision-models", "typed-decision-audit"],
+        "targetIds": [
+          "typed-probabilistic-decision-models"
+        ],
+        "sourceIds": [
+          "perplexity-decisions",
+          "jebadiah-repo",
+          "quyet-pypi",
+          "vercel-decisions-gateway"
+        ],
         "summary": {
-          "en": "Multiple hosted and open implementations now establish typed probabilistic decisions as a category, while general accuracy superiority remains unproven.",
-          "ja": "複数のホスト型・公開実装により型付き確率的判断はカテゴリとして成立したが、一般的な精度優位は未証明である。"
+          "en": "Three additional independent model families and a provider-neutral gateway strengthen typed probabilistic decisions as a category without establishing a winning implementation.",
+          "ja": "追加の独立モデル3系統とプロバイダー中立ゲートウェイが型付き確率的判断カテゴリを強化したが、勝者となる実装は未確定。"
         }
       },
       {
         "kind": "editorial-decision",
-        "targetIds": ["jev", "typed-probabilistic-decision-models"],
-        "sourceIds": ["typesafe-system-one", "openai-decisions", "cloudflare-clef", "liquid-open-d1", "llamacpp-decision-models", "typed-decision-audit"],
+        "targetIds": [
+          "jev",
+          "typed-probabilistic-decision-models"
+        ],
+        "sourceIds": [
+          "typesafe-models",
+          "perplexity-decisions",
+          "jebadiah-repo",
+          "quyet-pypi"
+        ],
         "summary": {
-          "en": "Keep Jev as a commoditizing named WATCH entity and track typed probabilistic decision models as the broader WATCH category.",
-          "ja": "Jevはコモディティ化する名前付きWATCH項目として残し、型付き確率的判断モデルをより広いWATCHカテゴリとして追跡する。"
+          "en": "Lower Jev-specific frontier and fit scores while raising category readiness; keep both at WATCH and do not attribute competitor capability to Jev.",
+          "ja": "Jev固有のフロンティア性と適合度を下げ、カテゴリの準備度を上げる。両方をWATCHに保ち、競合能力をJevへ帰属させない。"
         }
       },
       {
         "kind": "material-finding",
-        "targetIds": ["tool-effect-integrity"],
-        "sourceIds": ["atomix-paper", "unreliable-tools-paper"],
+        "targetIds": [
+          "mcp-use",
+          "ponytail",
+          "caveman"
+        ],
+        "sourceIds": [
+          "mcp-use-2-8-1",
+          "ponytail-5-1-0",
+          "caveman-3-2-0"
+        ],
         "summary": {
-          "en": "Outcome verification, idempotency, and verify-before-retry address observed external-tool failure modes now.",
-          "ja": "結果検証、冪等性、再試行前検証は、観測済みの外部ツール障害モードへ今すぐ対応できる。"
+          "en": "Named releases justify WATCH records and bounded evaluation, but not PILOT or broad adoption without cross-host or task-success evidence.",
+          "ja": "名前付きリリースはWATCH記録と限定評価を正当化するが、ホスト横断・タスク成功証拠なしにPILOTや広範導入は正当化しない。"
+        }
+      },
+      {
+        "kind": "editorial-decision",
+        "targetIds": [
+          "gemini-agent"
+        ],
+        "sourceIds": [
+          "google-gemini-agent"
+        ],
+        "summary": {
+          "en": "Track Gemini agent as a high-attention named WATCH entity; vendor adoption claims do not establish independent reliability.",
+          "ja": "Gemini agentを高注目の名前付きWATCH項目として追跡し、ベンダー導入主張を独立した信頼性証明とは扱わない。"
         }
       }
     ]
@@ -204,235 +398,620 @@
   "scoreScale": {
     "min": 0,
     "max": 100,
-    "dimensions": ["frontier", "adoption", "fit", "confidence"]
+    "dimensions": [
+      "frontier",
+      "adoption",
+      "fit",
+      "confidence"
+    ]
   },
   "adoption": [
-    { "signalId": "agent-skills", "stage": "watch", "score": 55, "compatibility": "unknown" },
-    { "signalId": "mcp-apps", "stage": "watch", "score": 50, "compatibility": "unknown" },
-    { "signalId": "a2a", "stage": "watch", "score": 46, "compatibility": "unknown" },
-    { "signalId": "agentic-resource-discovery-ard", "stage": "defer", "score": 31, "compatibility": "unknown" },
-    { "signalId": "context-engineering", "stage": "pilot", "score": 62, "compatibility": "unknown" },
-    { "signalId": "ponytail", "stage": "defer", "score": 0, "compatibility": "unknown" },
-    { "signalId": "caveman", "stage": "defer", "score": 0, "compatibility": "unknown" },
-    { "signalId": "jev", "stage": "watch", "score": 26, "compatibility": "unknown" },
-    { "signalId": "typed-probabilistic-decision-models", "stage": "watch", "score": 48, "compatibility": "unknown" },
-    { "signalId": "knowledge-triage", "stage": "watch", "score": 28, "compatibility": "unknown" },
-    { "signalId": "tool-effect-integrity", "stage": "watch", "score": 30, "compatibility": "unknown" }
+    {
+      "signalId": "agent-skills",
+      "stage": "watch",
+      "score": 55,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "mcp-apps",
+      "stage": "watch",
+      "score": 50,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "a2a",
+      "stage": "watch",
+      "score": 46,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "agentic-resource-discovery-ard",
+      "stage": "defer",
+      "score": 31,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "context-engineering",
+      "stage": "pilot",
+      "score": 62,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "ponytail",
+      "stage": "watch",
+      "score": 28,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "caveman",
+      "stage": "watch",
+      "score": 34,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "jev",
+      "stage": "watch",
+      "score": 24,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "typed-probabilistic-decision-models",
+      "stage": "watch",
+      "score": 52,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "knowledge-triage",
+      "stage": "watch",
+      "score": 28,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "tool-effect-integrity",
+      "stage": "watch",
+      "score": 30,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "mcp-use",
+      "stage": "watch",
+      "score": 38,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "gemini-agent",
+      "stage": "watch",
+      "score": 36,
+      "compatibility": "unknown"
+    }
   ],
   "signals": [
     {
       "id": "agent-skills",
-      "name": { "en": "Agent Skills", "ja": "Agent Skills" },
+      "name": {
+        "en": "Agent Skills",
+        "ja": "Agent Skills"
+      },
       "kind": "concept",
-      "atlasTermIds": ["agent-harness", "capability"],
-      "scores": { "frontier": 82, "adoption": 55, "fit": 78, "confidence": 70 },
+      "atlasTermIds": [
+        "agent-harness",
+        "capability"
+      ],
+      "scores": {
+        "frontier": 82,
+        "adoption": 55,
+        "fit": 78,
+        "confidence": 70
+      },
       "recommendation": {
         "en": "Watch and prototype with pinned sources, permission disclosure, review, and cross-host conformance checks; installability is not trust.",
         "ja": "固定済みソース、権限開示、レビュー、ホスト横断適合性確認を伴って観測・試作する。インストール可能であることは信頼ではない。"
       },
       "tradeoffs": [
-        { "en": "Portable instructions can improve reuse, but hidden dependencies can weaken reviewability.", "ja": "移植可能な指示は再利用性を高めるが、隠れた依存関係はレビュー可能性を下げる。" },
-        { "en": "Progressive disclosure reduces context load, but adds packaging and lifecycle work.", "ja": "段階的開示はコンテキスト負荷を減らすが、パッケージ化とライフサイクル作業が増える。" }
+        {
+          "en": "Portable instructions can improve reuse, but hidden dependencies can weaken reviewability.",
+          "ja": "移植可能な指示は再利用性を高めるが、隠れた依存関係はレビュー可能性を下げる。"
+        },
+        {
+          "en": "Progressive disclosure reduces context load, but adds packaging and lifecycle work.",
+          "ja": "段階的開示はコンテキスト負荷を減らすが、パッケージ化とライフサイクル作業が増える。"
+        }
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "Host, permission, and instruction-loading compatibility remains untested across named clients.", "ja": "指定したクライアント間でのホスト、権限、指示読み込みの互換性は未検証。" },
+        "rationale": {
+          "en": "Host, permission, and instruction-loading compatibility remains untested across named clients.",
+          "ja": "指定したクライアント間でのホスト、権限、指示読み込みの互換性は未検証。"
+        },
         "checkedAgainst": []
       },
       "provenance": {
         "kind": "verification",
         "status": "partially-verified",
-        "sourceIds": ["agent-skills-spec", "vercel-skills-cli"],
+        "sourceIds": [
+          "agent-skills-spec",
+          "vercel-skills-cli"
+        ],
         "collectedAt": "2026-10-08",
-        "method": { "en": "Reviewed the open Agent Skills specification and Vercel skills CLI. No package was installed and cross-host behavior was not tested.", "ja": "Agent Skillsの公開仕様とVercel skills CLIを確認。パッケージはインストールせず、ホスト横断動作も未検証。" }
+        "method": {
+          "en": "Reviewed the open Agent Skills specification and Vercel skills CLI. No package was installed and cross-host behavior was not tested.",
+          "ja": "Agent Skillsの公開仕様とVercel skills CLIを確認。パッケージはインストールせず、ホスト横断動作も未検証。"
+        }
       },
       "history": [
-        { "date": "2026-09-24", "event": { "en": "Seeded for watch-list review.", "ja": "ウォッチリスト確認用にシード。" }, "scores": { "frontier": 78, "adoption": 48, "fit": 72, "confidence": 42 } },
-        { "date": "2026-10-08", "event": { "en": "Added implementation evidence for cross-client installation and update semantics; high attention supports WATCH, while provenance and permission controls remain weak.", "ja": "クライアント横断のインストールと更新機能の実装証拠を追加。高い注目はWATCHを支持するが、来歴と権限制御は弱いまま。" }, "scores": { "frontier": 82, "adoption": 55, "fit": 78, "confidence": 70 } }
+        {
+          "date": "2026-09-24",
+          "event": {
+            "en": "Seeded for watch-list review.",
+            "ja": "ウォッチリスト確認用にシード。"
+          },
+          "scores": {
+            "frontier": 78,
+            "adoption": 48,
+            "fit": 72,
+            "confidence": 42
+          }
+        },
+        {
+          "date": "2026-10-08",
+          "event": {
+            "en": "Added implementation evidence for cross-client installation and update semantics; high attention supports WATCH, while provenance and permission controls remain weak.",
+            "ja": "クライアント横断のインストールと更新機能の実装証拠を追加。高い注目はWATCHを支持するが、来歴と権限制御は弱いまま。"
+          },
+          "scores": {
+            "frontier": 82,
+            "adoption": 55,
+            "fit": 78,
+            "confidence": 70
+          }
+        }
       ]
     },
     {
       "id": "mcp-apps",
-      "name": { "en": "MCP Apps", "ja": "MCP Apps" },
+      "name": {
+        "en": "MCP Apps",
+        "ja": "MCP Apps"
+      },
       "kind": "concept",
-      "atlasTermIds": ["mcp-apps"],
-      "scores": { "frontier": 80, "adoption": 50, "fit": 65, "confidence": 70 },
+      "atlasTermIds": [
+        "mcp-apps"
+      ],
+      "scores": {
+        "frontier": 80,
+        "adoption": 50,
+        "fit": 65,
+        "confidence": 70
+      },
       "recommendation": {
         "en": "Watch as a typed tool-to-UI stack; require a narrow cross-host compatibility test and threat model before any pilot.",
         "ja": "型付きツールからUIへのスタックとして観測する。試行前に限定的なホスト横断互換性テストと脅威モデルを必須とする。"
       },
       "tradeoffs": [
-        { "en": "Tool results can become more usable, but the host becomes part of the product contract.", "ja": "ツール結果は使いやすくなるが、ホストが製品契約の一部になる。" },
-        { "en": "Richer interaction can reduce handoff friction, but increases UI and security surface.", "ja": "豊かな操作は引き継ぎ摩擦を減らすが、UIとセキュリティ面を広げる。" }
+        {
+          "en": "Tool results can become more usable, but the host becomes part of the product contract.",
+          "ja": "ツール結果は使いやすくなるが、ホストが製品契約の一部になる。"
+        },
+        {
+          "en": "Richer interaction can reduce handoff friction, but increases UI and security surface.",
+          "ja": "豊かな操作は引き継ぎ摩擦を減らすが、UIとセキュリティ面を広げる。"
+        }
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "The Atlas records the protocol concept, not compatibility with Stangyode's static site or a chosen host.", "ja": "アトラスが記録するのはプロトコル概念であり、Stangyodeの静的サイトや特定ホストとの互換性ではない。" },
-        "checkedAgainst": ["stangyode-static-site"]
+        "rationale": {
+          "en": "The Atlas records the protocol concept, not compatibility with Stangyode's static site or a chosen host.",
+          "ja": "アトラスが記録するのはプロトコル概念であり、Stangyodeの静的サイトや特定ホストとの互換性ではない。"
+        },
+        "checkedAgainst": [
+          "stangyode-static-site"
+        ]
       },
       "provenance": {
         "kind": "verification",
         "status": "partially-verified",
-        "sourceIds": ["mcp-apps-docs", "mcp-use-repo", "mcp-changelog"],
+        "sourceIds": [
+          "mcp-apps-docs",
+          "mcp-use-repo",
+          "mcp-changelog"
+        ],
         "collectedAt": "2026-10-08",
-        "method": { "en": "Reviewed mcp-use repository evidence and the normative MCP changelog. No framework was installed and no host matrix was exercised.", "ja": "mcp-useのリポジトリ証拠と規範的MCP変更履歴を確認。フレームワークはインストールせず、ホスト行列も未実行。" }
+        "method": {
+          "en": "Reviewed mcp-use repository evidence and the normative MCP changelog. No framework was installed and no host matrix was exercised.",
+          "ja": "mcp-useのリポジトリ証拠と規範的MCP変更履歴を確認。フレームワークはインストールせず、ホスト行列も未実行。"
+        }
       },
       "history": [
-        { "date": "2026-09-24", "event": { "en": "Seeded as a protocol watch item.", "ja": "プロトコルの観測項目としてシード。" }, "scores": { "frontier": 76, "adoption": 44, "fit": 63, "confidence": 58 } },
-        { "date": "2026-10-08", "event": { "en": "Added an active full-stack framework and the July protocol changelog; typed UI contracts are real, but production compatibility remains unverified.", "ja": "活発なフルスタック・フレームワークと7月のプロトコル変更履歴を追加。型付きUI契約は実在するが、本番互換性は未検証。" }, "scores": { "frontier": 80, "adoption": 50, "fit": 65, "confidence": 70 } }
+        {
+          "date": "2026-09-24",
+          "event": {
+            "en": "Seeded as a protocol watch item.",
+            "ja": "プロトコルの観測項目としてシード。"
+          },
+          "scores": {
+            "frontier": 76,
+            "adoption": 44,
+            "fit": 63,
+            "confidence": 58
+          }
+        },
+        {
+          "date": "2026-10-08",
+          "event": {
+            "en": "Added an active full-stack framework and the July protocol changelog; typed UI contracts are real, but production compatibility remains unverified.",
+            "ja": "活発なフルスタック・フレームワークと7月のプロトコル変更履歴を追加。型付きUI契約は実在するが、本番互換性は未検証。"
+          },
+          "scores": {
+            "frontier": 80,
+            "adoption": 50,
+            "fit": 65,
+            "confidence": 70
+          }
+        }
       ]
     },
     {
       "id": "a2a",
-      "name": { "en": "A2A", "ja": "A2A" },
+      "name": {
+        "en": "A2A",
+        "ja": "A2A"
+      },
       "kind": "concept",
-      "atlasTermIds": ["a2a"],
-      "scores": { "frontier": 73, "adoption": 46, "fit": 57, "confidence": 55 },
+      "atlasTermIds": [
+        "a2a"
+      ],
+      "scores": {
+        "frontier": 73,
+        "adoption": 46,
+        "fit": 57,
+        "confidence": 55
+      },
       "recommendation": {
         "en": "Keep on the watch list; first establish a real multi-agent boundary before evaluating a protocol.",
         "ja": "ウォッチリストに置く。プロトコル評価の前に、実際のマルチエージェント境界を確立する。"
       },
       "tradeoffs": [
-        { "en": "Independent agent deployment can clarify ownership, but adds discovery and task-state contracts.", "ja": "独立エージェントのデプロイは責務を明確にするが、発見とタスク状態の契約が増える。" },
-        { "en": "Async artifacts support long work, but make observability and failure recovery more demanding.", "ja": "非同期アーティファクトは長い作業を支えるが、可観測性と障害復旧が難しくなる。" }
+        {
+          "en": "Independent agent deployment can clarify ownership, but adds discovery and task-state contracts.",
+          "ja": "独立エージェントのデプロイは責務を明確にするが、発見とタスク状態の契約が増える。"
+        },
+        {
+          "en": "Async artifacts support long work, but make observability and failure recovery more demanding.",
+          "ja": "非同期アーティファクトは長い作業を支えるが、可観測性と障害復旧が難しくなる。"
+        }
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "No independent agent endpoint or Agent Card exists in this project snapshot to test against.", "ja": "このプロジェクトのスナップショットには、検証対象となる独立エンドポイントやAgent Cardがない。" },
-        "checkedAgainst": ["stangyode-static-site"]
+        "rationale": {
+          "en": "No independent agent endpoint or Agent Card exists in this project snapshot to test against.",
+          "ja": "このプロジェクトのスナップショットには、検証対象となる独立エンドポイントやAgent Cardがない。"
+        },
+        "checkedAgainst": [
+          "stangyode-static-site"
+        ]
       },
       "provenance": {
         "kind": "seed",
         "status": "unverified",
-        "sourceIds": ["a2a-spec"],
+        "sourceIds": [
+          "a2a-spec"
+        ],
         "collectedAt": "2026-09-24",
-        "method": { "en": "Manual seed from the existing Atlas source relationship; no endpoint was contacted.", "ja": "既存アトラスの情報源関係から手動でシードした。エンドポイントには接続していない。" }
+        "method": {
+          "en": "Manual seed from the existing Atlas source relationship; no endpoint was contacted.",
+          "ja": "既存アトラスの情報源関係から手動でシードした。エンドポイントには接続していない。"
+        }
       },
       "history": [
-        { "date": "2026-09-24", "event": { "en": "Seeded as a future boundary candidate.", "ja": "将来の境界候補としてシード。" }, "scores": { "frontier": 73, "adoption": 46, "fit": 57, "confidence": 55 } }
+        {
+          "date": "2026-09-24",
+          "event": {
+            "en": "Seeded as a future boundary candidate.",
+            "ja": "将来の境界候補としてシード。"
+          },
+          "scores": {
+            "frontier": 73,
+            "adoption": 46,
+            "fit": 57,
+            "confidence": 55
+          }
+        }
       ]
     },
     {
       "id": "agentic-resource-discovery-ard",
-      "name": { "en": "Agentic Resource Discovery (ARD)", "ja": "Agentic Resource Discovery (ARD)" },
+      "name": {
+        "en": "Agentic Resource Discovery (ARD)",
+        "ja": "Agentic Resource Discovery (ARD)"
+      },
       "kind": "concept",
-      "atlasTermIds": ["agentic-resource-discovery-ard"],
-      "scores": { "frontier": 84, "adoption": 31, "fit": 61, "confidence": 46 },
+      "atlasTermIds": [
+        "agentic-resource-discovery-ard"
+      ],
+      "scores": {
+        "frontier": 84,
+        "adoption": 31,
+        "fit": 61,
+        "confidence": 46
+      },
       "recommendation": {
         "en": "Watch as a discovery and verification layer; do not treat it as an execution interface or settled standard.",
         "ja": "発見・検証層として観測する。実行インターフェースや確定した標準として扱わない。"
       },
       "tradeoffs": [
-        { "en": "Pre-invocation verification can improve trust, but federation adds policy and freshness questions.", "ja": "呼び出し前の検証は信頼性を高めるが、連合化はポリシーと鮮度の問題を増やす。" },
-        { "en": "A separate discovery layer can reduce coupling, but creates another contract to operate.", "ja": "独立した発見層は結合を減らすが、運用すべき契約をもう一つ増やす。" }
+        {
+          "en": "Pre-invocation verification can improve trust, but federation adds policy and freshness questions.",
+          "ja": "呼び出し前の検証は信頼性を高めるが、連合化はポリシーと鮮度の問題を増やす。"
+        },
+        {
+          "en": "A separate discovery layer can reduce coupling, but creates another contract to operate.",
+          "ja": "独立した発見層は結合を減らすが、運用すべき契約をもう一つ増やす。"
+        }
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "The evolving specification has not been evaluated against a live discovery service in this project.", "ja": "発展中の仕様を、このプロジェクトでライブの発見サービスに対して評価していない。" },
-        "checkedAgainst": ["mcp", "a2a"]
+        "rationale": {
+          "en": "The evolving specification has not been evaluated against a live discovery service in this project.",
+          "ja": "発展中の仕様を、このプロジェクトでライブの発見サービスに対して評価していない。"
+        },
+        "checkedAgainst": [
+          "mcp",
+          "a2a"
+        ]
       },
       "provenance": {
         "kind": "seed",
         "status": "unverified",
-        "sourceIds": ["ard-spec", "ard-announcement"],
+        "sourceIds": [
+          "ard-spec",
+          "ard-announcement"
+        ],
         "collectedAt": "2026-09-24",
-        "method": { "en": "Manual seed from the existing Atlas source relationship; no live registry was queried.", "ja": "既存アトラスの情報源関係から手動でシードした。ライブレジストリは照会していない。" }
+        "method": {
+          "en": "Manual seed from the existing Atlas source relationship; no live registry was queried.",
+          "ja": "既存アトラスの情報源関係から手動でシードした。ライブレジストリは照会していない。"
+        }
       },
       "history": [
-        { "date": "2026-09-24", "event": { "en": "Seeded as an evolving architecture watch item.", "ja": "発展中のアーキテクチャ観測項目としてシード。" }, "scores": { "frontier": 84, "adoption": 31, "fit": 61, "confidence": 46 } }
+        {
+          "date": "2026-09-24",
+          "event": {
+            "en": "Seeded as an evolving architecture watch item.",
+            "ja": "発展中のアーキテクチャ観測項目としてシード。"
+          },
+          "scores": {
+            "frontier": 84,
+            "adoption": 31,
+            "fit": 61,
+            "confidence": 46
+          }
+        }
       ]
     },
     {
       "id": "context-engineering",
-      "name": { "en": "Context Engineering", "ja": "コンテキスト・エンジニアリング" },
+      "name": {
+        "en": "Context Engineering",
+        "ja": "コンテキスト・エンジニアリング"
+      },
       "kind": "concept",
-      "atlasTermIds": ["context-engineering"],
-      "scores": { "frontier": 66, "adoption": 62, "fit": 82, "confidence": 64 },
+      "atlasTermIds": [
+        "context-engineering"
+      ],
+      "scores": {
+        "frontier": 66,
+        "adoption": 62,
+        "fit": 82,
+        "confidence": 64
+      },
       "recommendation": {
         "en": "Adopt the principle in documentation and evaluation before adding a new runtime dependency.",
         "ja": "新しいランタイム依存を増やす前に、原則を文書化と評価へ導入する。"
       },
       "tradeoffs": [
-        { "en": "Deliberate context selection can improve reliability, but requires measurement and maintenance.", "ja": "意図的なコンテキスト選択は信頼性を高めるが、測定と保守が必要になる。" },
-        { "en": "Compaction and disclosure control token cost, but can hide information needed for diagnosis.", "ja": "圧縮と開示制御はトークンコストを抑えるが、診断に必要な情報を隠すことがある。" }
+        {
+          "en": "Deliberate context selection can improve reliability, but requires measurement and maintenance.",
+          "ja": "意図的なコンテキスト選択は信頼性を高めるが、測定と保守が必要になる。"
+        },
+        {
+          "en": "Compaction and disclosure control token cost, but can hide information needed for diagnosis.",
+          "ja": "圧縮と開示制御はトークンコストを抑えるが、診断に必要な情報を隠すことがある。"
+        }
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "The concept is compatible in principle, but project-specific gains have not been measured.", "ja": "原則上は適用可能だが、プロジェクト固有の効果は測定していない。" },
-        "checkedAgainst": ["core-atlas"]
+        "rationale": {
+          "en": "The concept is compatible in principle, but project-specific gains have not been measured.",
+          "ja": "原則上は適用可能だが、プロジェクト固有の効果は測定していない。"
+        },
+        "checkedAgainst": [
+          "core-atlas"
+        ]
       },
       "provenance": {
         "kind": "seed",
         "status": "unverified",
-        "sourceIds": ["anthropic-context", "anthropic-context-editing"],
+        "sourceIds": [
+          "anthropic-context",
+          "anthropic-context-editing"
+        ],
         "collectedAt": "2026-09-24",
-        "method": { "en": "Manual seed from the existing Atlas source relationship; no performance claim is made.", "ja": "既存アトラスの情報源関係から手動でシードした。性能上の主張はしていない。" }
+        "method": {
+          "en": "Manual seed from the existing Atlas source relationship; no performance claim is made.",
+          "ja": "既存アトラスの情報源関係から手動でシードした。性能上の主張はしていない。"
+        }
       },
       "history": [
-        { "date": "2026-09-24", "event": { "en": "Seeded as the highest-fit practice candidate.", "ja": "適合度の高い実践候補としてシード。" }, "scores": { "frontier": 66, "adoption": 62, "fit": 82, "confidence": 64 } }
+        {
+          "date": "2026-09-24",
+          "event": {
+            "en": "Seeded as the highest-fit practice candidate.",
+            "ja": "適合度の高い実践候補としてシード。"
+          },
+          "scores": {
+            "frontier": 66,
+            "adoption": 62,
+            "fit": 82,
+            "confidence": 64
+          }
+        }
       ]
     },
     {
       "id": "ponytail",
-      "name": { "en": "Ponytail", "ja": "Ponytail" },
+      "name": {
+        "en": "Ponytail",
+        "ja": "Ponytail"
+      },
       "kind": "discovery-candidate",
       "atlasTermIds": [],
-      "scores": { "frontier": 50, "adoption": 0, "fit": 50, "confidence": 0 },
+      "scores": {
+        "frontier": 72,
+        "adoption": 28,
+        "fit": 66,
+        "confidence": 66
+      },
       "recommendation": {
-        "en": "Keep as an unverified discovery candidate; collect a repository, license, and runnable description before evaluation.",
-        "ja": "未検証の発見候補として保持する。評価前にリポジトリ、ライセンス、実行可能な説明を収集する。"
+        "en": "WATCH as a named code-minimization skill; test on one real task and reject line-count or token savings that reduce task success.",
+        "ja": "名前付きコード最小化スキルとしてWATCHする。実作業一件で検証し、タスク成功率を下げる行数・トークン削減は棄却する。"
       },
       "tradeoffs": [
-        { "en": "A named candidate preserves a lead for later research, but the name alone is not evidence.", "ja": "名前付き候補は後続調査の手掛かりを残すが、名前だけでは証拠にならない。" },
-        { "en": "Deferring adoption avoids accidental installation, but leaves capability value unknown.", "ja": "導入を保留すれば誤インストールを避けられるが、能力の価値は不明なままになる。" }
+        {
+          "en": "Shorter instructions and code can reduce review surface, but minimal output can omit necessary behavior.",
+          "ja": "短い指示とコードはレビュー面を減らせるが、最小出力は必要な振る舞いを欠く可能性がある。"
+        },
+        {
+          "en": "The shortcut ledger preserves intentional debt, but effectiveness evidence remains project-authored.",
+          "ja": "shortcut台帳は意図的負債を残すが、有効性の証拠はプロジェクト自身の報告に留まる。"
+        }
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "No canonical artifact or compatibility evidence was supplied for this seed.", "ja": "このシードには正規アーティファクトも互換性の証拠も提供されていない。" },
+        "rationale": {
+          "en": "No canonical artifact or compatibility evidence was supplied for this seed.",
+          "ja": "このシードには正規アーティファクトも互換性の証拠も提供されていない。"
+        },
         "checkedAgainst": []
       },
       "provenance": {
-        "kind": "seed",
-        "status": "unknown",
-        "sourceIds": [],
-        "collectedAt": "2026-09-24",
-        "method": { "en": "Named seed supplied for manual discovery; no external claim is made.", "ja": "手動発見用に提供された名前付きシード。外部の主張はしていない。" }
+        "kind": "verification",
+        "status": "partially-verified",
+        "sourceIds": [
+          "ponytail-5-1-0"
+        ],
+        "collectedAt": "2026-10-09",
+        "method": {
+          "en": "Reviewed the tagged first-party project release. No package was installed and project-authored claims were not independently reproduced.",
+          "ja": "タグ付きのプロジェクト一次リリースを確認。パッケージはインストールせず、プロジェクト自身の主張も独立再現していない。"
+        }
       },
       "history": [
-        { "date": "2026-09-24", "event": { "en": "Added as an unverified candidate; no evidence collected.", "ja": "未検証候補として追加。証拠は収集していない。" }, "scores": { "frontier": 50, "adoption": 0, "fit": 50, "confidence": 0 } }
+        {
+          "date": "2026-09-24",
+          "event": {
+            "en": "Added as an unverified candidate; no evidence collected.",
+            "ja": "未検証候補として追加。証拠は収集していない。"
+          },
+          "scores": {
+            "frontier": 50,
+            "adoption": 0,
+            "fit": 50,
+            "confidence": 0
+          }
+        },
+        {
+          "date": "2026-10-09",
+          "event": {
+            "en": "Verified the 5.1.0 release and neutral shortcut ledger; project-authored outcome claims justify learning, not adoption.",
+            "ja": "5.1.0リリースと中立なshortcut台帳を確認。プロジェクト自身の成果主張は学習には値するが導入根拠にはならない。"
+          },
+          "scores": {
+            "frontier": 72,
+            "adoption": 28,
+            "fit": 66,
+            "confidence": 66
+          }
+        }
       ]
     },
     {
       "id": "caveman",
-      "name": { "en": "Caveman", "ja": "Caveman" },
+      "name": {
+        "en": "Caveman",
+        "ja": "Caveman"
+      },
       "kind": "discovery-candidate",
       "atlasTermIds": [],
-      "scores": { "frontier": 50, "adoption": 0, "fit": 50, "confidence": 0 },
+      "scores": {
+        "frontier": 78,
+        "adoption": 34,
+        "fit": 74,
+        "confidence": 72
+      },
       "recommendation": {
-        "en": "Keep as an unverified discovery candidate; do not infer capability, safety, or compatibility from the name.",
-        "ja": "未検証の発見候補として保持する。名前から能力、安全性、互換性を推測しない。"
+        "en": "WATCH as a named reversible context-compression tool; require byte-exact recovery and end-to-end task-success gates in a bounded evaluation.",
+        "ja": "名前付き可逆コンテキスト圧縮ツールとしてWATCHする。限定評価でバイト完全復元とエンドツーエンドのタスク成功ゲートを必須とする。"
       },
       "tradeoffs": [
-        { "en": "A placeholder keeps the research queue explicit, but can create false priority if not labelled unknown.", "ja": "プレースホルダーは調査待ちを明示するが、不明と表示しなければ優先度を誤認させる。" },
-        { "en": "Waiting for primary evidence protects the project boundary, but delays any adoption decision.", "ja": "一次証拠を待つことはプロジェクト境界を守るが、導入判断を遅らせる。" }
+        {
+          "en": "Recoverable handles can move bulky tool results out of context while retaining exact retrieval, but add storage and integrity boundaries.",
+          "ja": "復元可能ハンドルは大きなツール結果をコンテキスト外へ移しつつ正確な再取得を可能にするが、保存と完全性の境界が増える。"
+        },
+        {
+          "en": "Deterministic fidelity checks are stronger than token counts, but do not prove end-to-end task success across agents.",
+          "ja": "決定論的忠実度検査はトークン数より強いが、エージェント横断のタスク成功を証明しない。"
+        }
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "No canonical artifact or compatibility evidence was supplied for this seed.", "ja": "このシードには正規アーティファクトも互換性の証拠も提供されていない。" },
+        "rationale": {
+          "en": "No canonical artifact or compatibility evidence was supplied for this seed.",
+          "ja": "このシードには正規アーティファクトも互換性の証拠も提供されていない。"
+        },
         "checkedAgainst": []
       },
       "provenance": {
-        "kind": "seed",
-        "status": "unknown",
-        "sourceIds": [],
-        "collectedAt": "2026-09-24",
-        "method": { "en": "Named seed supplied for manual discovery; no external claim is made.", "ja": "手動発見用に提供された名前付きシード。外部の主張はしていない。" }
+        "kind": "verification",
+        "status": "partially-verified",
+        "sourceIds": [
+          "caveman-3-2-0"
+        ],
+        "collectedAt": "2026-10-09",
+        "method": {
+          "en": "Reviewed the tagged first-party project release. No package was installed and project-authored claims were not independently reproduced.",
+          "ja": "タグ付きのプロジェクト一次リリースを確認。パッケージはインストールせず、プロジェクト自身の主張も独立再現していない。"
+        }
       },
       "history": [
-        { "date": "2026-09-24", "event": { "en": "Added as an unverified candidate; no evidence collected.", "ja": "未検証候補として追加。証拠は収集していない。" }, "scores": { "frontier": 50, "adoption": 0, "fit": 50, "confidence": 0 } }
+        {
+          "date": "2026-09-24",
+          "event": {
+            "en": "Added as an unverified candidate; no evidence collected.",
+            "ja": "未検証候補として追加。証拠は収集していない。"
+          },
+          "scores": {
+            "frontier": 50,
+            "adoption": 0,
+            "fit": 50,
+            "confidence": 0
+          }
+        },
+        {
+          "date": "2026-10-09",
+          "event": {
+            "en": "Version 3.2.0 added recoverable handles, signed artifacts, integrations, and deterministic fidelity checks; general outcome gains remain unverified.",
+            "ja": "3.2.0は復元可能ハンドル、署名済み成果物、統合、決定論的忠実度検査を追加したが、一般的な成果改善は未検証。"
+          },
+          "scores": {
+            "frontier": 78,
+            "adoption": 34,
+            "fit": 74,
+            "confidence": 72
+          }
+        }
       ]
     },
-        {
+    {
       "id": "jev",
       "name": {
         "en": "Jev",
@@ -441,14 +1020,14 @@
       "kind": "discovery-candidate",
       "atlasTermIds": [],
       "scores": {
-        "frontier": 76,
-        "adoption": 26,
-        "fit": 54,
+        "frontier": 72,
+        "adoption": 24,
+        "fit": 50,
         "confidence": 70
       },
       "recommendation": {
-        "en": "Watch Jev as a commoditizing named implementation and benchmark candidate, not as the category default; compare it with hosted and open alternatives before adoption.",
-        "ja": "Jevをコモディティ化しつつある名前付き実装兼ベンチマーク候補として観測し、カテゴリの標準とは見なさない。導入前にホスト型と公開型の代替実装と比較する。"
+        "en": "Watch Jev as a commoditizing comparison target, not the category default; benchmark it against Perplexity, Quyet, Jebadiah, and calibrated baselines before adoption.",
+        "ja": "Jevをカテゴリ標準ではなく、コモディティ化する比較対象として観測する。導入前にPerplexity、Quyet、Jebadiah、較正済みベースラインと比較する。"
       },
       "tradeoffs": [
         {
@@ -456,8 +1035,8 @@
           "ja": "Jevは解析不要の型付き回答とベンダー報告の低遅延・低コストを提供するが、早期アクセスかつテキスト専用である。"
         },
         {
-          "en": "OpenAI Decisions, Clef, d1, and llama.cpp-compatible models now supply substantially the same value, sharply reducing Jev-specific differentiation.",
-          "ja": "OpenAI Decisions、Clef、d1、llama.cpp互換モデルが実質的に同じ価値を提供し、Jev固有の差別化は大きく低下した。"
+          "en": "Perplexity Decisions, Quyet, Jebadiah, OpenAI Decisions, Clef, d1, and local stacks now supply the same core interface, further reducing Jev-specific differentiation.",
+          "ja": "Perplexity Decisions、Quyet、Jebadiah、OpenAI Decisions、Clef、d1、ローカルスタックが同じ中核インターフェースを提供し、Jev固有の差別化はさらに低下した。"
         }
       ],
       "compatibility": {
@@ -474,12 +1053,13 @@
         "sourceIds": [
           "typesafe-system-one",
           "typesafe-home",
+          "typesafe-models",
           "infoq-jev"
         ],
-        "collectedAt": "2026-10-08",
+        "collectedAt": "2026-10-09",
         "method": {
-          "en": "Reviewed TypeSafe documentation and independent launch coverage. Competitor evidence was used to reassess Jev differentiation, not counted as Jev capability evidence. No model was installed.",
-          "ja": "TypeSafeの資料と独立した発表報道を確認。競合証拠はJevの能力証拠として加算せず、Jevの差別化再評価にのみ使用した。モデルはインストールしていない。"
+          "en": "Reviewed current TypeSafe model documentation. Competitor evidence lowered Jev-specific novelty and fit but was not counted as Jev capability evidence; no model was installed.",
+          "ja": "TypeSafeの現行モデル資料を確認。競合証拠はJev固有の新規性と適合度を下げるために用い、Jevの能力証拠には算入していない。モデルはインストールしていない。"
         }
       },
       "history": [
@@ -508,6 +1088,19 @@
             "fit": 54,
             "confidence": 70
           }
+        },
+        {
+          "date": "2026-10-09",
+          "event": {
+            "en": "Perplexity Decisions, Quyet, and Jebadiah added more direct substitutes without a verified Jev capability release; Jev-specific frontier and fit scores fell again.",
+            "ja": "Jevの能力リリースは確認されない一方、Perplexity Decisions、Quyet、Jebadiahという直接代替が増え、Jev固有のフロンティア性と適合度を再度引き下げた。"
+          },
+          "scores": {
+            "frontier": 72,
+            "adoption": 24,
+            "fit": 50,
+            "confidence": 70
+          }
         }
       ]
     },
@@ -520,10 +1113,10 @@
       "kind": "concept",
       "atlasTermIds": [],
       "scores": {
-        "frontier": 91,
-        "adoption": 48,
-        "fit": 80,
-        "confidence": 82
+        "frontier": 93,
+        "adoption": 52,
+        "fit": 82,
+        "confidence": 88
       },
       "recommendation": {
         "en": "WATCH for cheap classification, routing, verification, abstention, and escalation; benchmark local workloads against calibrated classifiers and label-probability baselines before choosing an implementation.",
@@ -535,8 +1128,8 @@
           "ja": "限定されたpredicate、choice、score出力は自由文解析を避け、一回の推論で確率を示すが、仕事固有の較正は測定が必要である。"
         },
         {
-          "en": "Implementations now include Jev, OpenAI Decisions, Clef, Liquid d1, and six llama.cpp-served model families; provider quality, modality, license, deployment, and price remain unsettled.",
-          "ja": "実装にはJev、OpenAI Decisions、Clef、Liquid d1、llama.cppで配信できる6系統があるが、品質、モダリティ、ライセンス、配備、価格の優位は未確定である。"
+          "en": "Hosted, open-weight, CPU/GPU, local, multimodal, and provider-neutral gateway paths now exist; calibration, robustness, deployment, and price—not interface novelty—decide between them.",
+          "ja": "ホスト型、公開ウェイト、CPU/GPU、ローカル、マルチモーダル、プロバイダー中立ゲートウェイの経路が揃った。実装選定はインターフェースの新規性ではなく、較正、堅牢性、配備、価格で決まる。"
         }
       ],
       "implementations": [
@@ -585,6 +1178,33 @@
           "sourceIds": [
             "llamacpp-decision-models"
           ]
+        },
+        {
+          "name": "Perplexity Decisions / pplx-decider-v1.1-27b",
+          "vendor": "Perplexity",
+          "organizationId": "perplexity",
+          "access": "hosted multimodal API",
+          "sourceIds": [
+            "perplexity-decisions"
+          ]
+        },
+        {
+          "name": "Quyet 1.0 model family",
+          "vendor": "Chinh Nguyen",
+          "organizationId": "chinhnc",
+          "access": "Apache-2.0 CPU and GPU models",
+          "sourceIds": [
+            "quyet-pypi"
+          ]
+        },
+        {
+          "name": "Jebadiah model family",
+          "vendor": "AINode / frontier-infra",
+          "organizationId": "getainode",
+          "access": "Apache-2.0 training, weights, evaluation, and serving",
+          "sourceIds": [
+            "jebadiah-repo"
+          ]
         }
       ],
       "compatibility": {
@@ -603,12 +1223,16 @@
           "llamacpp-decision-models",
           "cloudflare-clef",
           "liquid-open-d1",
-          "typed-decision-audit"
+          "typed-decision-audit",
+          "perplexity-decisions",
+          "quyet-pypi",
+          "jebadiah-repo",
+          "vercel-decisions-gateway"
         ],
-        "collectedAt": "2026-10-08",
+        "collectedAt": "2026-10-09",
         "method": {
-          "en": "Reviewed first-party API/model documentation across independent hosted and open implementations plus an early independent evidence audit. Vendor benchmarks were not treated as cross-vendor proof; no software was installed.",
-          "ja": "独立したホスト型・公開実装の一次API/モデル資料と初期の独立証拠監査を確認。ベンダーのベンチマークはベンダー横断の証明とは扱わず、ソフトウェアもインストールしていない。"
+          "en": "Reviewed current first-party and project documentation for three additional independent model families plus a provider-neutral gateway. Project and vendor benchmarks were not treated as cross-vendor proof; no software was installed.",
+          "ja": "追加の独立モデル3系統とプロバイダー中立ゲートウェイについて、現行の一次・プロジェクト資料を確認。プロジェクトやベンダーのベンチマークを横断的証明とは扱わず、ソフトウェアもインストールしていない。"
         }
       },
       "history": [
@@ -650,67 +1274,288 @@
             "fit": 80,
             "confidence": 82
           }
+        },
+        {
+          "date": "2026-10-09",
+          "event": {
+            "en": "Perplexity, Quyet, and Jebadiah expanded hosted and open implementation diversity; runnable paths strengthened the category while no cross-vendor benchmark established a winner.",
+            "ja": "Perplexity、Quyet、Jebadiahによりホスト型・公開実装の多様性が拡大。実行可能経路はカテゴリを強化したが、ベンダー横断評価による勝者は未確定。"
+          },
+          "scores": {
+            "frontier": 93,
+            "adoption": 52,
+            "fit": 82,
+            "confidence": 88
+          }
         }
       ]
     },
     {
       "id": "knowledge-triage",
-      "name": { "en": "Knowledge Triage / type-aware retention", "ja": "Knowledge Triage / 型対応保持" },
+      "name": {
+        "en": "Knowledge Triage / type-aware retention",
+        "ja": "Knowledge Triage / 型対応保持"
+      },
       "kind": "discovery-candidate",
-      "atlasTermIds": ["context-engineering"],
-      "scores": { "frontier": 79, "adoption": 28, "fit": 84, "confidence": 68 },
+      "atlasTermIds": [
+        "context-engineering"
+      ],
+      "scores": {
+        "frontier": 79,
+        "adoption": 28,
+        "fit": 84,
+        "confidence": 68
+      },
       "recommendation": {
         "en": "Watch and replicate on real agent histories before adopting type-aware compaction; preserve exact invariants separately in the meantime.",
         "ja": "型対応圧縮を採用する前に実際のエージェント履歴で再現する。当面は正確な不変条件を別途保持する。"
       },
       "tradeoffs": [
-        { "en": "Type-specific retention can protect exact constraints, but classification errors become a new safety boundary.", "ja": "型別保持は正確な制約を守れるが、分類誤りが新たな安全境界になる。" },
-        { "en": "The paper and code provide replication artifacts, but the reported gains still come from one research line without independent replication.", "ja": "論文とコードは再現用成果物を提供するが、報告された改善は独立再現のない一つの研究系列に依存する。" }
+        {
+          "en": "Type-specific retention can protect exact constraints, but classification errors become a new safety boundary.",
+          "ja": "型別保持は正確な制約を守れるが、分類誤りが新たな安全境界になる。"
+        },
+        {
+          "en": "The paper and code provide replication artifacts, but the reported gains still come from one research line without independent replication.",
+          "ja": "論文とコードは再現用成果物を提供するが、報告された改善は独立再現のない一つの研究系列に依存する。"
+        }
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "No representative long-running agent history from this project has been evaluated with these operators.", "ja": "このプロジェクトの代表的な長期エージェント履歴を、これらの演算子で評価していない。" },
+        "rationale": {
+          "en": "No representative long-running agent history from this project has been evaluated with these operators.",
+          "ja": "このプロジェクトの代表的な長期エージェント履歴を、これらの演算子で評価していない。"
+        },
         "checkedAgainst": []
       },
       "provenance": {
         "kind": "discovery",
         "status": "partially-verified",
-        "sourceIds": ["knowledge-triage-paper", "knowledge-triage-repo"],
+        "sourceIds": [
+          "knowledge-triage-paper",
+          "knowledge-triage-repo"
+        ],
         "collectedAt": "2026-10-08",
-        "method": { "en": "Reviewed the CIKM paper abstract and Apache-2.0 reference repository. No code was installed and no independent replication was found.", "ja": "CIKM論文要旨とApache-2.0参照リポジトリを確認。コードはインストールせず、独立再現は未確認。" }
+        "method": {
+          "en": "Reviewed the CIKM paper abstract and Apache-2.0 reference repository. No code was installed and no independent replication was found.",
+          "ja": "CIKM論文要旨とApache-2.0参照リポジトリを確認。コードはインストールせず、独立再現は未確認。"
+        }
       },
       "history": [
-        { "date": "2026-10-08", "event": { "en": "Added at WATCH from a peer-reviewed paper and reference implementation; strong relevance, low buzz, replication still required.", "ja": "査読論文と参照実装からWATCHに追加。関連性は高く話題性は低い。再現はなお必要。" }, "scores": { "frontier": 79, "adoption": 28, "fit": 84, "confidence": 68 } }
+        {
+          "date": "2026-10-08",
+          "event": {
+            "en": "Added at WATCH from a peer-reviewed paper and reference implementation; strong relevance, low buzz, replication still required.",
+            "ja": "査読論文と参照実装からWATCHに追加。関連性は高く話題性は低い。再現はなお必要。"
+          },
+          "scores": {
+            "frontier": 79,
+            "adoption": 28,
+            "fit": 84,
+            "confidence": 68
+          }
+        }
       ]
     },
     {
       "id": "tool-effect-integrity",
-      "name": { "en": "Verified tool effects and transactional settlement", "ja": "検証済みツール効果とトランザクション決済" },
+      "name": {
+        "en": "Verified tool effects and transactional settlement",
+        "ja": "検証済みツール効果とトランザクション決済"
+      },
       "kind": "concept",
-      "atlasTermIds": ["tool-use-function-calling", "durable-execution"],
-      "scores": { "frontier": 83, "adoption": 30, "fit": 90, "confidence": 74 },
+      "atlasTermIds": [
+        "tool-use-function-calling",
+        "durable-execution"
+      ],
+      "scores": {
+        "frontier": 83,
+        "adoption": 30,
+        "fit": 90,
+        "confidence": 74
+      },
       "recommendation": {
         "en": "Watch as a reliability pattern: verify tool returns, make writes idempotent or compensable, and gate irreversible effects behind explicit settlement.",
         "ja": "信頼性パターンとして観測する。ツール戻り値を検証し、書き込みを冪等または補償可能にし、不可逆効果を明示的な決済の後段に置く。"
       },
       "tradeoffs": [
-        { "en": "Verification and settlement boundaries reduce silent corruption and leaked side effects, but add latency, adapters, and failure states.", "ja": "検証と決済境界は静かな破損と漏れた副作用を減らすが、遅延、アダプター、障害状態を増やす。" },
-        { "en": "Atomix demonstrates one concrete runtime design, but does not establish full crash-safe exactly-once behavior or automatic fit for existing systems.", "ja": "Atomixは具体的なランタイム設計を示すが、完全なクラッシュ安全exactly-onceや既存システムへの自動適合を確立しない。" }
+        {
+          "en": "Verification and settlement boundaries reduce silent corruption and leaked side effects, but add latency, adapters, and failure states.",
+          "ja": "検証と決済境界は静かな破損と漏れた副作用を減らすが、遅延、アダプター、障害状態を増やす。"
+        },
+        {
+          "en": "Atomix demonstrates one concrete runtime design, but does not establish full crash-safe exactly-once behavior or automatic fit for existing systems.",
+          "ja": "Atomixは具体的なランタイム設計を示すが、完全なクラッシュ安全exactly-onceや既存システムへの自動適合を確立しない。"
+        }
       ],
       "compatibility": {
         "status": "unknown",
-        "rationale": { "en": "The pattern fits external-write workflows in principle, but no Stangyode-side harness or transactional adapter has been tested.", "ja": "原則上は外部書き込みワークフローに適合するが、Stangyode側のハーネスやトランザクション・アダプターは未検証。" },
+        "rationale": {
+          "en": "The pattern fits external-write workflows in principle, but no Stangyode-side harness or transactional adapter has been tested.",
+          "ja": "原則上は外部書き込みワークフローに適合するが、Stangyode側のハーネスやトランザクション・アダプターは未検証。"
+        },
         "checkedAgainst": []
       },
       "provenance": {
         "kind": "discovery",
         "status": "partially-verified",
-        "sourceIds": ["unreliable-tools-paper", "atomix-paper"],
+        "sourceIds": [
+          "unreliable-tools-paper",
+          "atomix-paper"
+        ],
         "collectedAt": "2026-10-08",
-        "method": { "en": "Reviewed two independent research lines: corrupted tool-return adoption and transactional side-effect settlement. No runtime was installed.", "ja": "破損ツール戻り値の採用と副作用のトランザクション決済という独立した二つの研究系列を確認。ランタイムはインストールしていない。" }
+        "method": {
+          "en": "Reviewed two independent research lines: corrupted tool-return adoption and transactional side-effect settlement. No runtime was installed.",
+          "ja": "破損ツール戻り値の採用と副作用のトランザクション決済という独立した二つの研究系列を確認。ランタイムはインストールしていない。"
+        }
       },
       "history": [
-        { "date": "2026-10-08", "event": { "en": "Added at WATCH as an Atlas-level reliability pattern, not an automatic recommendation to adopt Atomix.", "ja": "Atomixの自動採用推奨ではなく、アトラス級の信頼性パターンとしてWATCHに追加。" }, "scores": { "frontier": 83, "adoption": 30, "fit": 90, "confidence": 74 } }
+        {
+          "date": "2026-10-08",
+          "event": {
+            "en": "Added at WATCH as an Atlas-level reliability pattern, not an automatic recommendation to adopt Atomix.",
+            "ja": "Atomixの自動採用推奨ではなく、アトラス級の信頼性パターンとしてWATCHに追加。"
+          },
+          "scores": {
+            "frontier": 83,
+            "adoption": 30,
+            "fit": 90,
+            "confidence": 74
+          }
+        }
+      ]
+    },
+    {
+      "id": "mcp-use",
+      "name": {
+        "en": "mcp-use",
+        "ja": "mcp-use"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "mcp-apps"
+      ],
+      "scores": {
+        "frontier": 78,
+        "adoption": 38,
+        "fit": 62,
+        "confidence": 70
+      },
+      "recommendation": {
+        "en": "WATCH as a named framework implementation; require official MCP Apps compatibility, a two-host test, and a threat model before piloting.",
+        "ja": "名前付きフレームワーク実装としてWATCHする。試行前に公式MCP Apps互換性、2ホスト試験、脅威モデルを必須とする。"
+      },
+      "tradeoffs": [
+        {
+          "en": "A full server, app, inspector, tunnel, and deployment stack reduces integration work, but expands the framework trust boundary.",
+          "ja": "サーバー、アプリ、検査、トンネル、配備の一体型スタックは統合作業を減らすが、フレームワークの信頼境界を広げる。"
+        },
+        {
+          "en": "Active releases show operational momentum, but a tagged release alone does not prove cross-host production compatibility.",
+          "ja": "活発なリリースは運用上の勢いを示すが、タグ付きリリースだけではホスト横断の本番互換性を証明しない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No official cross-host MCP Apps matrix or Stangyode-side integration has been exercised.",
+          "ja": "公式のホスト横断MCP Apps行列もStangyode側統合も検証していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "verification",
+        "status": "partially-verified",
+        "sourceIds": [
+          "mcp-use-repo",
+          "mcp-use-2-8-1"
+        ],
+        "collectedAt": "2026-10-09",
+        "method": {
+          "en": "Reviewed the project repository and 2.8.1 tagged release. No framework was installed.",
+          "ja": "プロジェクトのリポジトリと2.8.1タグ付きリリースを確認。フレームワークはインストールしていない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-09",
+          "event": {
+            "en": "Split from the MCP Apps category as a named framework after the 2.8.1 release supplied concrete implementation movement.",
+            "ja": "2.8.1リリースで具体的な実装進展が確認されたため、MCP Appsカテゴリから名前付きフレームワークとして分離。"
+          },
+          "scores": {
+            "frontier": 78,
+            "adoption": 38,
+            "fit": 62,
+            "confidence": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "gemini-agent",
+      "name": {
+        "en": "Gemini agent",
+        "ja": "Gemini agent"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "agent-harness"
+      ],
+      "scores": {
+        "frontier": 88,
+        "adoption": 36,
+        "fit": 58,
+        "confidence": 64
+      },
+      "recommendation": {
+        "en": "WATCH the named launch; require evidence for state reconciliation, delegated identity, authorization, recovery, and auditability before any pilot.",
+        "ja": "名前付き発表としてWATCHする。試行前に状態整合、委任ID、認可、復旧、監査可能性の証拠を必須とする。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Persistent cross-channel context and identity-bearing sub-agents could reduce re-briefing and clarify delegation, but create larger memory and authorization boundaries.",
+          "ja": "永続的なチャネル横断コンテキストと固有ID付きサブエージェントは再説明を減らし委任を明確にし得るが、記憶と認可の境界を広げる。"
+        },
+        {
+          "en": "Google reports enterprise use and integrated governance, but independent reliability and recovery evidence for this named agent was not found.",
+          "ja": "Googleは企業利用と統合ガバナンスを報告するが、この名前付きエージェントの独立した信頼性・復旧証拠は未確認。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload, identity policy, or long-running recovery scenario has been tested against Gemini agent.",
+          "ja": "Gemini agentに対してStangyodeの仕事、ID方針、長時間復旧シナリオを検証していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "google-gemini-agent"
+        ],
+        "collectedAt": "2026-10-09",
+        "method": {
+          "en": "Reviewed Google Cloud’s first-party launch. Vendor adoption claims were treated as attention evidence, not independent capability proof.",
+          "ja": "Google Cloudの一次発表を確認。ベンダーの導入主張は注目の証拠として扱い、独立した能力証明とはしていない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-09",
+          "event": {
+            "en": "Added at WATCH as a high-attention named work agent; persistent execution and delegated identity are material claims, but independent validation is absent.",
+            "ja": "高注目の名前付き業務エージェントとしてWATCHに追加。永続実行と委任IDは重要な主張だが、独立検証はない。"
+          },
+          "scores": {
+            "frontier": 88,
+            "adoption": 36,
+            "fit": 58,
+            "confidence": 64
+          }
+        }
       ]
     }
   ]

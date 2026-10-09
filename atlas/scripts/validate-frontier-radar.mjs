@@ -181,6 +181,6 @@ for (const fixture of regressions.fixtures) {
 
 const { markdown } = await import('./render-frontier-briefing.mjs');
 for (const finding of audit.findings) if (!markdown.includes(`evidence: ${finding.sourceIds.join(', ')}`)) fail(`Missing briefing finding evidence ${finding.kind}`);
-if (!markdown.includes('## Radar health / レーダー健全性') || !markdown.includes('github-public: SKIPPED') || !markdown.includes('2026-10-08T19:17:07Z')) fail('Frontier briefing audit is incomplete');
+if (!markdown.includes('## Radar health / レーダー健全性') || !markdown.includes('github-public: SKIPPED') || !markdown.includes('2026-10-09T05:07:41Z')) fail('Frontier briefing audit is incomplete');
 if (artifact !== markdown) fail('Frontier briefing is stale: run npm run build:frontier-radar');
 console.log(`Validated ${radar.signals.length} Radar signals, ${radar.adoption.length} adoption records, ${discovery.queries.length} GitHub discovery inputs, provenance/history, and deterministic briefing output.`);
