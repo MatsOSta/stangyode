@@ -4,7 +4,7 @@
   --night: #0b0d0c;
   --raised: #121512;
   --lime: #c7ff45;
-  --muted: #747a72;
+  --muted: #5f655e;
   --line: rgba(16, 18, 16, .18);
   --dark-line: rgba(237, 236, 229, .16);
   --sans: "Manrope", system-ui, sans-serif;
@@ -135,8 +135,32 @@ footer { display: flex; justify-content: space-between; gap: 20px; align-items: 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 :focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }
 .radar-section, .adoption-section { background: var(--paper-deep); }
+.radar-audit { margin: 30px 0 24px; padding: 22px; border: 1px solid var(--dark-line); background: var(--night); color: var(--paper); }
+.radar-audit > header { display: flex; justify-content: space-between; gap: 20px; align-items: start; }
+.radar-audit > header p, .radar-audit > header h3 { margin: 0; }
+.radar-audit > header h3 { margin-top: 8px; font-size: clamp(20px, 2.5vw, 30px); font-weight: 500; }
+.radar-audit > p { max-width: 850px; color: #aeb2ac; font-size: 13px; }
+.radar-audit .status-current, .radar-audit .status-checked { color: var(--lime); }
+.radar-audit .status-skipped, .radar-audit .status-failed, .radar-audit .status-stale, .radar-audit .status-unavailable { color: #f4b860; }
+.radar-audit-summary { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: 20px; background: var(--dark-line); }
+.radar-audit-item { display: grid; gap: 7px; min-width: 0; padding: 14px; background: var(--raised); }
+.radar-audit-item > span:first-child { color: var(--lime); font-size: 10px; }
+.radar-audit-item strong { font-size: 14px; }
+.radar-audit-item time, .radar-audit-item > span:last-child { overflow-wrap: anywhere; color: #aeb2ac; font: 10px var(--mono); }
+.radar-audit-note { margin: 16px 0 0; padding-left: 12px; border-left: 2px solid #f4b860; }
+.radar-audit-note strong { color: #f4b860; }
+.radar-audit-details { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 18px; }
+.radar-audit-details details { min-width: 0; margin: 0; border-color: var(--dark-line); }
+.radar-audit-details summary { padding: 10px 0; color: var(--lime); cursor: pointer; font-size: 12px; }
+.radar-audit-details h4 { margin: 18px 0 8px; color: var(--paper); font-size: 13px; }
+.radar-audit-details code { overflow-wrap: anywhere; color: #d6dacd; font: 11px var(--mono); }
+.radar-audit-list, .radar-audit-findings { margin: 12px 0 0; padding-left: 18px; }
+.radar-audit-list li, .radar-audit-findings li { margin-top: 8px; color: #aeb2ac; font-size: 12px; }
+.radar-audit-list li > span, .radar-audit-list li > time { margin-left: 8px; }
+.radar-audit-list p, .radar-audit-findings p { margin: 4px 0 0; }
+.radar-audit-findings .mono { color: var(--lime); font-size: 10px; }
 .radar-controls { display: grid; grid-template-columns: minmax(220px, 1.8fr) repeat(2, minmax(150px, 1fr)) auto; gap: 12px; align-items: end; padding: 18px; background: var(--night); color: var(--paper); }
-.radar-controls label { display: grid; gap: 7px; font: 10px var(--mono); color: var(--muted); }
+.radar-controls label { display: grid; gap: 7px; font: 10px var(--mono); color: #aeb2ac; }
 .radar-controls input, .radar-controls select { width: 100%; min-height: 42px; padding: 8px 10px; border: 1px solid var(--dark-line); border-radius: 0; background: transparent; color: var(--paper); font-size: 13px; }
 .radar-controls option { color: #101210; }
 .radar-controls input:focus, .radar-controls select:focus { outline: 2px solid var(--lime); outline-offset: 2px; }
@@ -175,7 +199,7 @@ footer { display: flex; justify-content: space-between; gap: 20px; align-items: 
 .adoption-score span { font: 10px var(--mono); }
 .adoption-card details { border-color: var(--dark-line); }
 .adoption-card summary { color: var(--lime); }
-@media (max-width: 1050px) { .radar-grid, .adoption-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 1050px) { .radar-grid, .adoption-grid { grid-template-columns: repeat(2, 1fr); } .radar-audit-summary, .radar-audit-details { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 900px) { .radar-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); } #radar-result-count { grid-column: 1 / -1; } }
-@media (max-width: 760px) { .radar-grid, .adoption-grid { grid-template-columns: 1fr; } .radar-controls { grid-template-columns: 1fr 1fr; } .radar-controls label:first-child, #radar-result-count { grid-column: 1 / -1; } }
+@media (max-width: 760px) { .radar-grid, .adoption-grid { grid-template-columns: 1fr; } .radar-controls { grid-template-columns: 1fr 1fr; } .radar-controls label:first-child, #radar-result-count { grid-column: 1 / -1; } .radar-audit > header { display: grid; } .radar-audit-summary, .radar-audit-details { grid-template-columns: 1fr; } }
 @media (max-width: 390px) { .radar-controls { grid-template-columns: 1fr; } .radar-controls label:first-child, #radar-result-count { grid-column: auto; } }

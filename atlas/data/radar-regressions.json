@@ -1,0 +1,43 @@
+{
+  "schema": "stangyode.radar-regressions/v1",
+  "fixtures": [
+    {
+      "id": "named-product-category-split",
+      "type": "named-category-split",
+      "namedEntityId": "jev",
+      "categoryId": "typed-probabilistic-decision-models",
+      "competitorSourceId": "openai-decisions",
+      "expectedCategoryStage": "watch"
+    },
+    {
+      "id": "decision-category-history-preservation",
+      "type": "history-preservation",
+      "signalId": "typed-probabilistic-decision-models",
+      "expectedScoreHistory": [
+        { "frontier": 82, "adoption": 36, "fit": 74, "confidence": 55 },
+        { "frontier": 84, "adoption": 40, "fit": 76, "confidence": 68 },
+        { "frontier": 91, "adoption": 48, "fit": 80, "confidence": 82 }
+      ]
+    },
+    {
+      "id": "decision-category-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "typed-probabilistic-decision-models",
+      "minimumIndependentOrganizations": 4,
+      "requiredOrganizationIds": [
+        "typesafe-ai",
+        "openai",
+        "cloudflare",
+        "liquid-ai",
+        "ggml-org"
+      ],
+      "requiredSourceIds": [
+        "typesafe-system-one",
+        "openai-decisions",
+        "cloudflare-clef",
+        "liquid-open-d1",
+        "llamacpp-decision-models"
+      ]
+    }
+  ]
+}

@@ -22,5 +22,11 @@
     "label": "radar-loop-3",
     "en": "Editorial correction: Jev is now a separate named WATCH entity with lower product-specific differentiation, while typed probabilistic decision models are a category WATCH backed by OpenAI Decisions, Clef, Liquid d1, and llama.cpp implementations.",
     "ja": "編集上の修正：Jevを製品固有の差別化を引き下げた名前付きWATCHエンティティとして分離し、型付き確率的判断モデルをOpenAI Decisions、Clef、Liquid d1、llama.cpp実装に裏付けられたカテゴリWATCHとした。"
+  },
+  {
+    "date": "2026-10-08",
+    "label": "radar-health-1",
+    "en": "Radar health now exposes successful runs, source and query coverage, skipped sensors, stale evidence, findings, editorial decisions, and deterministic discovery regressions.",
+    "ja": "レーダー健全性として、成功した実行、情報源とクエリのカバレッジ、未実行センサー、古い証拠、発見、編集判断、決定論的な発見回帰テストを公開。"
   }
 ]

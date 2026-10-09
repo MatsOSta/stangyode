@@ -2,9 +2,103 @@
 
 Snapshot / スナップショット: 2026-10-08
 
-A bounded manual-run inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した手動実行用インベントリ。
+A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
 > Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof. / シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。
+
+## Radar health / レーダー健全性
+
+As of / 基準時刻: 2026-10-08T19:26:39Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+
+### Pipeline runs / パイプライン実行
+- scout: SUCCESS; last success 2026-10-08T19:17:07Z; failure streak 0; last failure rate_limit at 2026-10-08T13:31:55Z (resolved)
+- editor: SUCCESS; last success 2026-10-08T19:26:39Z; failure streak 0
+
+### Sensors / センサー
+- primary-docs: CHECKED
+- independent-press: CHECKED
+- github-public: SKIPPED — The checked-in GitHub sensor remains manual-input with liveFetch disabled; repository evidence came through the broader scout instead. / チェックイン済みGitHubセンサーはliveFetch無効の手動入力のままであり、リポジトリ証拠はより広いスカウト経由で収集した。
+- preprint: CHECKED
+
+### First-party sources checked / 確認済み一次情報
+- [OpenAI Decisions API](https://developers.openai.com/api/docs/guides/decisions): relevant; checked 2026-10-08; source openai-decisions
+- [Cloudflare Clef](https://huggingface.co/Cloudflare/clef): relevant; checked 2026-10-08; source cloudflare-clef
+- [Liquid AI open d1 decision models](https://huggingface.co/blog/LiquidAI/open-d1): relevant; checked 2026-10-08; source liquid-open-d1
+- [llama.cpp decision models](https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp): relevant; checked 2026-10-08; source llamacpp-decision-models
+- [Typed Decision Models: An Early Evidence Audit and Evaluation Checklist](https://arxiv.org/html/2609.32160v1): relevant; checked 2026-10-08; source typed-decision-audit
+- [Atomix: Timely, Transactional Tool Use for Reliable Agentic Workflows](https://arxiv.org/html/2602.14849): relevant; checked 2026-10-08; source atomix-paper
+- [Agents' Overreliance on Unreliable Tools](https://arxiv.org/abs/2609.05587): relevant; checked 2026-10-08; source unreliable-tools-paper
+- [The Compaction Cliff in Long-Running AI Agent Memory](https://arxiv.org/abs/2608.22752): relevant; checked 2026-10-08; source knowledge-triage-paper
+- [Knowledge Triage reference implementation](https://github.com/searchsim-org/cikm26-knowledge-triage): relevant; checked 2026-10-08; source knowledge-triage-repo
+- [Anthropic news](https://www.anthropic.com/news): relevant; checked 2026-10-08; source anthropic-news
+- [Google Developers news](https://developers.googleblog.com/en/search): relevant; checked 2026-10-08; source google-developers-news
+- [Microsoft Research Agent Lightning 1.0](https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0): relevant; checked 2026-10-08; source microsoft-agent-lightning
+- [AWS machine-learning announcements](https://aws.amazon.com/blogs/machine-learning/category/post-types/announcements): relevant; checked 2026-10-08; source aws-ml-announcements
+- [Cloudflare Agents](https://blog.cloudflare.com/tag/agents): relevant; checked 2026-10-08; source cloudflare-agents
+- [Meta AI news](https://about.fb.com/news/tag/ai): no-material-change; checked 2026-10-08; source meta-ai-news
+- [Mistral AI news](https://mistral.ai/news): relevant; checked 2026-10-08; source mistral-news
+- [Hugging Face blog](https://huggingface.co/blog): relevant; checked 2026-10-08; source huggingface-blog
+- [TypeSafe System One](https://docs.typesafe.ai/concepts/system-one): relevant; checked 2026-10-08; source typesafe-system-one
+- [Vercel skills CLI](https://github.com/vercel-labs/skills): relevant; checked 2026-10-08; source vercel-skills-cli
+- [MCP Python SDK releases](https://github.com/modelcontextprotocol/python-sdk/releases): no-material-change; checked 2026-10-08; source mcp-python-releases
+- [MCP TypeScript SDK releases](https://github.com/modelcontextprotocol/typescript-sdk/releases): no-material-change; checked 2026-10-08; source mcp-typescript-releases
+
+### Queries run / 実行クエリ
+### Named entities and sibling implementations / 名前付きエンティティと同等実装
+Found independently operated hosted and open implementations that establish a category while reducing Jev-specific differentiation. / 独立運営のホスト型・公開実装を確認し、カテゴリ成立と同時にJev固有の差別化低下を示した。
+
+Targets: jev, typed-probabilistic-decision-models
+
+Evidence: typesafe-system-one, openai-decisions, cloudflare-clef, liquid-open-d1, llamacpp-decision-models, typed-decision-audit
+
+- `Jev TypeSafe AI System One`
+- `Jev AI decision model alternatives competitors`
+- `Jev typed answers predicate choice score`
+- `Jev classification routing probabilities`
+- `OpenAI Decisions API model`
+- `typed probabilistic decision AI API`
+- `bounded finite-answer decision model`
+- `exact-name release adoption benchmark criticism for tracked entities`
+
+### First-party release sweep / 一次情報リリース確認
+Checked the declared first-party release surfaces; material changes were attributed to their named entities or categories, and no-change outcomes remained explicit. / 宣言済みの一次情報リリース面を確認し、重要な変化を名前付きエンティティまたはカテゴリへ帰属させ、変化なしの結果も明示した。
+
+Targets: jev, agent-skills, mcp-apps, typed-probabilistic-decision-models
+
+Evidence: openai-decisions, anthropic-news, google-developers-news, microsoft-agent-lightning, aws-ml-announcements, cloudflare-agents, meta-ai-news, mistral-news, huggingface-blog, typesafe-system-one, vercel-skills-cli, mcp-python-releases, mcp-typescript-releases
+
+- `site-restricted seven-day checks across OpenAI, Anthropic, Google, Microsoft, AWS, Cloudflare, Meta, Mistral, and Hugging Face`
+- `site-restricted checks for TypeSafe/Jev, Vercel Skills, MCP, Knowledge Triage, and Atomix`
+
+### Open phenomenon discovery / 現象ベースのオープン探索
+Found material evidence for tool-effect integrity and knowledge retention without treating broad agent attention as capability proof. / 広範なエージェント注目を能力証明とせず、ツール効果の完全性と知識保持に関する重要な証拠を確認した。
+
+Targets: tool-effect-integrity, knowledge-triage, context-engineering
+
+Evidence: atomix-paper, unreliable-tools-paper, knowledge-triage-paper, knowledge-triage-repo
+
+- `AI agent reliability benchmark tool-use integrity`
+- `LLM agent context retention memory benchmark`
+- `AI agent orchestration inference serving scheduling`
+- `tool-use security supply-chain prompt injection`
+- `human-agent interface evaluation benchmark`
+- `non-atomic tool failure verify-before-retry benchmark`
+
+### Tracked named entities / 追跡中の名前付きエンティティ
+- jev, agent-skills, mcp-apps, ponytail, caveman
+
+### Changelog entries checked / 確認済み変更履歴
+- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1
+
+### Explicitly stale sources / 明示的に古い情報源
+- a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
+- ard-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
+- anthropic-context; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
+
+### Findings and decisions / 発見と判断
+- material-finding; typed-probabilistic-decision-models: Multiple hosted and open implementations now establish typed probabilistic decisions as a category, while general accuracy superiority remains unproven. / 複数のホスト型・公開実装により型付き確率的判断はカテゴリとして成立したが、一般的な精度優位は未証明である。; evidence: typesafe-system-one, openai-decisions, cloudflare-clef, liquid-open-d1, llamacpp-decision-models, typed-decision-audit
+- editorial-decision; jev, typed-probabilistic-decision-models: Keep Jev as a commoditizing named WATCH entity and track typed probabilistic decision models as the broader WATCH category. / Jevはコモディティ化する名前付きWATCH項目として残し、型付き確率的判断モデルをより広いWATCHカテゴリとして追跡する。; evidence: typesafe-system-one, openai-decisions, cloudflare-clef, liquid-open-d1, llamacpp-decision-models, typed-decision-audit
+- material-finding; tool-effect-integrity: Outcome verification, idempotency, and verify-before-retry address observed external-tool failure modes now. / 結果検証、冪等性、再試行前検証は、観測済みの外部ツール障害モードへ今すぐ対応できる。; evidence: atomix-paper, unreliable-tools-paper
 
 ## Signals / シグナル
 

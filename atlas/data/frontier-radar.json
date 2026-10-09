@@ -6,14 +6,200 @@
       "ja": "AIフロンティア・レーダーと導入インテリジェンス"
     },
     "purpose": {
-      "en": "A bounded manual-run inventory for deciding what to watch, test, or defer.",
-      "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した手動実行用インベントリ。"
+      "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
+      "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
     "snapshot": "2026-10-08",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
+  },
+  "audit": {
+    "asOf": "2026-10-08T19:26:39Z",
+    "cadence": "daily",
+    "staleAfterHours": 48,
+    "dataStatus": "current",
+    "runs": {
+      "scout": {
+        "status": "success",
+        "lastAttemptAt": "2026-10-08T19:17:07Z",
+        "lastSuccessfulRunAt": "2026-10-08T19:17:07Z",
+        "failureStreak": 0,
+        "lastFailure": {
+          "at": "2026-10-08T13:31:55Z",
+          "class": "rate_limit",
+          "resolved": true
+        }
+      },
+      "editor": {
+        "status": "success",
+        "lastAttemptAt": "2026-10-08T19:26:39Z",
+        "lastSuccessfulRunAt": "2026-10-08T19:26:39Z",
+        "failureStreak": 0
+      }
+    },
+    "sourcesChecked": [
+      { "sourceId": "openai-decisions", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "cloudflare-clef", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "liquid-open-d1", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "llamacpp-decision-models", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "typed-decision-audit", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "atomix-paper", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "unreliable-tools-paper", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "knowledge-triage-paper", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "knowledge-triage-repo", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "anthropic-news", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "google-developers-news", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "microsoft-agent-lightning", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "aws-ml-announcements", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "cloudflare-agents", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "meta-ai-news", "checkedAt": "2026-10-08", "outcome": "no-material-change" },
+      { "sourceId": "mistral-news", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "huggingface-blog", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "typesafe-system-one", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "vercel-skills-cli", "checkedAt": "2026-10-08", "outcome": "relevant" },
+      { "sourceId": "mcp-python-releases", "checkedAt": "2026-10-08", "outcome": "no-material-change" },
+      { "sourceId": "mcp-typescript-releases", "checkedAt": "2026-10-08", "outcome": "no-material-change" }
+    ],
+    "queryGroups": [
+      {
+        "id": "named-sibling",
+        "label": { "en": "Named entities and sibling implementations", "ja": "名前付きエンティティと同等実装" },
+        "runRole": "scout",
+        "targetIds": ["jev", "typed-probabilistic-decision-models"],
+        "sourceIds": ["typesafe-system-one", "openai-decisions", "cloudflare-clef", "liquid-open-d1", "llamacpp-decision-models", "typed-decision-audit"],
+        "resultSummary": {
+          "en": "Found independently operated hosted and open implementations that establish a category while reducing Jev-specific differentiation.",
+          "ja": "独立運営のホスト型・公開実装を確認し、カテゴリ成立と同時にJev固有の差別化低下を示した。"
+        },
+        "queries": [
+          "Jev TypeSafe AI System One",
+          "Jev AI decision model alternatives competitors",
+          "Jev typed answers predicate choice score",
+          "Jev classification routing probabilities",
+          "OpenAI Decisions API model",
+          "typed probabilistic decision AI API",
+          "bounded finite-answer decision model",
+          "exact-name release adoption benchmark criticism for tracked entities"
+        ]
+      },
+      {
+        "id": "first-party",
+        "label": { "en": "First-party release sweep", "ja": "一次情報リリース確認" },
+        "runRole": "scout",
+        "targetIds": ["jev", "agent-skills", "mcp-apps", "typed-probabilistic-decision-models"],
+        "sourceIds": ["openai-decisions", "anthropic-news", "google-developers-news", "microsoft-agent-lightning", "aws-ml-announcements", "cloudflare-agents", "meta-ai-news", "mistral-news", "huggingface-blog", "typesafe-system-one", "vercel-skills-cli", "mcp-python-releases", "mcp-typescript-releases"],
+        "resultSummary": {
+          "en": "Checked the declared first-party release surfaces; material changes were attributed to their named entities or categories, and no-change outcomes remained explicit.",
+          "ja": "宣言済みの一次情報リリース面を確認し、重要な変化を名前付きエンティティまたはカテゴリへ帰属させ、変化なしの結果も明示した。"
+        },
+        "queries": [
+          "site-restricted seven-day checks across OpenAI, Anthropic, Google, Microsoft, AWS, Cloudflare, Meta, Mistral, and Hugging Face",
+          "site-restricted checks for TypeSafe/Jev, Vercel Skills, MCP, Knowledge Triage, and Atomix"
+        ]
+      },
+      {
+        "id": "open-discovery",
+        "label": { "en": "Open phenomenon discovery", "ja": "現象ベースのオープン探索" },
+        "runRole": "scout",
+        "targetIds": ["tool-effect-integrity", "knowledge-triage", "context-engineering"],
+        "sourceIds": ["atomix-paper", "unreliable-tools-paper", "knowledge-triage-paper", "knowledge-triage-repo"],
+        "resultSummary": {
+          "en": "Found material evidence for tool-effect integrity and knowledge retention without treating broad agent attention as capability proof.",
+          "ja": "広範なエージェント注目を能力証明とせず、ツール効果の完全性と知識保持に関する重要な証拠を確認した。"
+        },
+        "queries": [
+          "AI agent reliability benchmark tool-use integrity",
+          "LLM agent context retention memory benchmark",
+          "AI agent orchestration inference serving scheduling",
+          "tool-use security supply-chain prompt injection",
+          "human-agent interface evaluation benchmark",
+          "non-atomic tool failure verify-before-retry benchmark"
+        ]
+      }
+    ],
+    "trackedEntityIds": [
+      "jev",
+      "agent-skills",
+      "mcp-apps",
+      "ponytail",
+      "caveman"
+    ],
+    "changelogEntriesChecked": [
+      "radar-loop-1",
+      "radar-loop-2",
+      "radar-loop-3",
+      "radar-health-1"
+    ],
+    "sensors": [
+      { "id": "primary-docs", "state": "checked" },
+      { "id": "independent-press", "state": "checked" },
+      {
+        "id": "github-public",
+        "state": "skipped",
+        "reason": {
+          "en": "The checked-in GitHub sensor remains manual-input with liveFetch disabled; repository evidence came through the broader scout instead.",
+          "ja": "チェックイン済みGitHubセンサーはliveFetch無効の手動入力のままであり、リポジトリ証拠はより広いスカウト経由で収集した。"
+        }
+      },
+      { "id": "preprint", "state": "checked" }
+    ],
+    "staleSources": [
+      {
+        "sourceId": "a2a-spec",
+        "lastChecked": "2026-09-24",
+        "reason": {
+          "en": "This seed-era source has not been re-verified into the Radar record.",
+          "ja": "このシード時点の情報源はレーダー記録へ再検証されていない。"
+        }
+      },
+      {
+        "sourceId": "ard-spec",
+        "lastChecked": "2026-09-24",
+        "reason": {
+          "en": "This seed-era source has not been re-verified into the Radar record.",
+          "ja": "このシード時点の情報源はレーダー記録へ再検証されていない。"
+        }
+      },
+      {
+        "sourceId": "anthropic-context",
+        "lastChecked": "2026-09-24",
+        "reason": {
+          "en": "This seed-era source has not been re-verified into the Radar record.",
+          "ja": "このシード時点の情報源はレーダー記録へ再検証されていない。"
+        }
+      }
+    ],
+    "findings": [
+      {
+        "kind": "material-finding",
+        "targetIds": ["typed-probabilistic-decision-models"],
+        "sourceIds": ["typesafe-system-one", "openai-decisions", "cloudflare-clef", "liquid-open-d1", "llamacpp-decision-models", "typed-decision-audit"],
+        "summary": {
+          "en": "Multiple hosted and open implementations now establish typed probabilistic decisions as a category, while general accuracy superiority remains unproven.",
+          "ja": "複数のホスト型・公開実装により型付き確率的判断はカテゴリとして成立したが、一般的な精度優位は未証明である。"
+        }
+      },
+      {
+        "kind": "editorial-decision",
+        "targetIds": ["jev", "typed-probabilistic-decision-models"],
+        "sourceIds": ["typesafe-system-one", "openai-decisions", "cloudflare-clef", "liquid-open-d1", "llamacpp-decision-models", "typed-decision-audit"],
+        "summary": {
+          "en": "Keep Jev as a commoditizing named WATCH entity and track typed probabilistic decision models as the broader WATCH category.",
+          "ja": "Jevはコモディティ化する名前付きWATCH項目として残し、型付き確率的判断モデルをより広いWATCHカテゴリとして追跡する。"
+        }
+      },
+      {
+        "kind": "material-finding",
+        "targetIds": ["tool-effect-integrity"],
+        "sourceIds": ["atomix-paper", "unreliable-tools-paper"],
+        "summary": {
+          "en": "Outcome verification, idempotency, and verify-before-retry address observed external-tool failure modes now.",
+          "ja": "結果検証、冪等性、再試行前検証は、観測済みの外部ツール障害モードへ今すぐ対応できる。"
+        }
+      }
+    ]
   },
   "scoreScale": {
     "min": 0,
@@ -357,6 +543,7 @@
         {
           "name": "Jev",
           "vendor": "TypeSafe AI",
+          "organizationId": "typesafe-ai",
           "access": "hosted early access",
           "sourceIds": [
             "typesafe-system-one",
@@ -366,6 +553,7 @@
         {
           "name": "OpenAI Decisions / gpt-6-luna",
           "vendor": "OpenAI",
+          "organizationId": "openai",
           "access": "hosted public beta",
           "sourceIds": [
             "openai-decisions"
@@ -374,6 +562,7 @@
         {
           "name": "Clef / Clef-Flash",
           "vendor": "Cloudflare",
+          "organizationId": "cloudflare",
           "access": "open weights and hosted",
           "sourceIds": [
             "cloudflare-clef"
@@ -382,6 +571,7 @@
         {
           "name": "d1-3B / d1-omni-600M",
           "vendor": "Liquid AI",
+          "organizationId": "liquid-ai",
           "access": "open weights",
           "sourceIds": [
             "liquid-open-d1"
@@ -390,6 +580,7 @@
         {
           "name": "llama.cpp decision-model stack",
           "vendor": "ggml-org ecosystem",
+          "organizationId": "ggml-org",
           "access": "local open inference",
           "sourceIds": [
             "llamacpp-decision-models"
