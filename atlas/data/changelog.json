@@ -28,5 +28,11 @@
     "label": "radar-health-1",
     "en": "Radar health now exposes successful runs, source and query coverage, skipped sensors, stale evidence, findings, editorial decisions, and deterministic discovery regressions.",
     "ja": "レーダー健全性として、成功した実行、情報源とクエリのカバレッジ、未実行センサー、古い証拠、発見、編集判断、決定論的な発見回帰テストを公開。"
+  },
+  {
+    "date": "2026-10-09",
+    "label": "radar-daily-2026-10-09",
+    "en": "Daily Radar: additional Perplexity, Quyet, and Jebadiah implementations strengthen typed decisions while lowering Jev-specific novelty; mcp-use, Ponytail, Caveman, and Gemini agent enter or rise at WATCH with health coverage refreshed.",
+    "ja": "日次レーダー：Perplexity、Quyet、Jebadiahの追加実装が型付き判断カテゴリを強化し、Jev固有の新規性を引き下げた。mcp-use、Ponytail、Caveman、Gemini agentをWATCHで追加・更新し、健全性カバレッジも刷新。"
   }
 ]
