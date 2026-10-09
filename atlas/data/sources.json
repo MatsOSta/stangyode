@@ -478,5 +478,85 @@
       "en": "First-party release of open multimodal d1-3B and d1-omni-600M decision models; latency and benchmark figures are vendor-reported.",
       "ja": "公開マルチモーダル判断モデルd1-3Bとd1-omni-600Mの一次発表。遅延とベンチマーク値はベンダー報告。"
     }
+  },
+  "anthropic-news": {
+    "title": "Anthropic news",
+    "url": "https://www.anthropic.com/news",
+    "note": {
+      "en": "First-party release surface checked for material AI agent and model changes.",
+      "ja": "AIエージェントとモデルの重要な変化を確認する一次情報リリース面。"
+    }
+  },
+  "google-developers-news": {
+    "title": "Google Developers news",
+    "url": "https://developers.googleblog.com/en/search",
+    "note": {
+      "en": "First-party developer release surface checked for material AI engineering changes.",
+      "ja": "AIエンジニアリングの重要な変化を確認する一次開発者向けリリース面。"
+    }
+  },
+  "microsoft-agent-lightning": {
+    "title": "Microsoft Research Agent Lightning 1.0",
+    "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0",
+    "note": {
+      "en": "First-party research announcement for agent reinforcement-learning infrastructure; claims remain publisher-reported.",
+      "ja": "エージェント強化学習基盤に関する一次研究発表。主張は発表元による報告。"
+    }
+  },
+  "aws-ml-announcements": {
+    "title": "AWS machine-learning announcements",
+    "url": "https://aws.amazon.com/blogs/machine-learning/category/post-types/announcements",
+    "note": {
+      "en": "First-party AWS release surface checked for material machine-learning changes.",
+      "ja": "機械学習の重要な変化を確認するAWSの一次リリース面。"
+    }
+  },
+  "cloudflare-agents": {
+    "title": "Cloudflare Agents",
+    "url": "https://blog.cloudflare.com/tag/agents",
+    "note": {
+      "en": "First-party Cloudflare release surface checked for agent-platform changes.",
+      "ja": "エージェント基盤の変化を確認するCloudflareの一次リリース面。"
+    }
+  },
+  "meta-ai-news": {
+    "title": "Meta AI news",
+    "url": "https://about.fb.com/news/tag/ai",
+    "note": {
+      "en": "First-party Meta AI release surface; no material Radar change was identified in this audit.",
+      "ja": "Meta AIの一次リリース面。この監査ではレーダーの重要な変化を確認しなかった。"
+    }
+  },
+  "mistral-news": {
+    "title": "Mistral AI news",
+    "url": "https://mistral.ai/news",
+    "note": {
+      "en": "First-party Mistral release surface checked for material model and platform changes.",
+      "ja": "モデルと基盤の重要な変化を確認するMistralの一次リリース面。"
+    }
+  },
+  "huggingface-blog": {
+    "title": "Hugging Face blog",
+    "url": "https://huggingface.co/blog",
+    "note": {
+      "en": "Ecosystem release surface checked for material open-model and tooling changes; author provenance varies by post.",
+      "ja": "公開モデルとツールの重要な変化を確認するエコシステム情報面。執筆者の来歴は記事ごとに異なる。"
+    }
+  },
+  "mcp-python-releases": {
+    "title": "MCP Python SDK releases",
+    "url": "https://github.com/modelcontextprotocol/python-sdk/releases",
+    "note": {
+      "en": "Official Python SDK release feed; no material Radar change was identified in this audit.",
+      "ja": "公式Python SDKリリースフィード。この監査ではレーダーの重要な変化を確認しなかった。"
+    }
+  },
+  "mcp-typescript-releases": {
+    "title": "MCP TypeScript SDK releases",
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases",
+    "note": {
+      "en": "Official TypeScript SDK release feed; no material Radar change was identified in this audit.",
+      "ja": "公式TypeScript SDKリリースフィード。この監査ではレーダーの重要な変化を確認しなかった。"
+    }
   }
 }

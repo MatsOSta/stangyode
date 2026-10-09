@@ -50,7 +50,8 @@ for (const candidate of data.candidates) {
   if (candidate.implementations) {
     if (!Array.isArray(candidate.implementations) || candidate.implementations.length < 1) fail(`Invalid implementations ${candidate.id}`);
     for (const implementation of candidate.implementations) {
-      if (!implementation.name || !implementation.vendor || !implementation.access) fail(`Incomplete implementation ${candidate.id}`);
+      if (!implementation || !implementation.name || !implementation.vendor || !implementation.organizationId || !implementation.access) fail(`Incomplete implementation ${candidate.id}`);
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(implementation.organizationId)) fail(`Invalid implementation organization ${candidate.id} -> ${implementation.name}`);
       if (!Array.isArray(implementation.sourceIds) || implementation.sourceIds.length < 1) fail(`Implementation sources missing ${candidate.id} -> ${implementation.name}`);
       for (const sourceId of implementation.sourceIds) if (!sourceIds.has(sourceId)) fail(`Missing implementation source ${candidate.id} -> ${sourceId}`);
     }

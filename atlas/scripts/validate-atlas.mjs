@@ -7,6 +7,7 @@ const repo = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const load = async (name) => JSON.parse(await readFile(resolve(repo, `atlas/data/${name}`), 'utf8'));
 const [data, sources, changelog, radar, html] = await Promise.all([load('atlas.json'), load('sources.json'), load('changelog.json'), load('frontier-radar.json'), readFile(resolve(repo, 'public/ai-engineering/index.html'), 'utf8')]);
 const fail = (message) => { throw new Error(message); };
+const esc = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 const count = (pattern) => (html.match(pattern) || []).length;
 const bilingual = (value, label) => value && typeof value.en === 'string' && value.en.trim() && typeof value.ja === 'string' && value.ja.trim() || fail(`Missing bilingual ${label}`);
 const ids = new Set(data.terms.map((term) => term.id));
@@ -46,13 +47,19 @@ const assertCardOrder = (prefix) => {
 assertCardOrder('radar');
 assertCardOrder('adoption');
 for (const signal of radar.signals) { if (!html.includes(`id="radar-${signal.id}"`) || !html.includes(`id="adoption-${signal.id}"`)) fail(`Missing Radar view ${signal.id}`); bilingual(signal.name, `Radar name ${signal.id}`); bilingual(signal.recommendation, `Radar recommendation ${signal.id}`); }
+for (const finding of radar.audit.findings) {
+  const summaryPosition = html.indexOf(`data-en="${esc(finding.summary.en)}"`);
+  const evidenceLinks = finding.sourceIds.map((id) => `<a href="#source-${esc(id)}">${esc(id)}</a>`).join(' · ');
+  const evidencePosition = html.indexOf(`<p class="term-sources">${evidenceLinks}</p>`, summaryPosition);
+  if (summaryPosition < 0 || evidencePosition < summaryPosition || evidencePosition - summaryPosition > 3000) fail(`Missing rendered audit evidence ${finding.kind}`);
+}
 for (const landmark of ['stack','principle','ecosystems','terminology','synthesis','architecture-watch','obsolescence-radar','sources']) if (!html.includes(`id="${landmark}"`)) fail(`Missing route landmark ${landmark}`);
 if (count(/class="term-card"/g) !== data.terms.length) fail('Generated term count mismatch');
 if (count(/class="ecosystem-card"/g) !== data.ecosystems.length) fail('Generated ecosystem count mismatch');
 for (const term of data.terms) if (!html.includes(`id="term-${term.id}"`)) fail(`Missing term ${term.id}`);
 for (const item of data.ecosystems) if (!html.includes(`id="ecosystem-${item.id}"`)) fail(`Missing ecosystem ${item.id}`);
 for (const control of ['id="search"','id="layer"','id="kind"','id="status"','id="result-count"']) if (!html.includes(control)) fail(`Missing filter ${control}`);
-for (const token of ['data-en=','data-ja=','Frontier Radar','Adoption Intelligence','radar-search','radar-stage','radar-compatibility','Buzz is evidence of attention, not proof of capability.','話題性は注目の証拠であり、能力の証明ではない。','TURN FAILURE INTO EVAL','RUN REGRESSION SUITE','Primary sources first.']) if (!html.includes(token)) fail(`Missing generated content ${token}`);
+for (const token of ['data-en=','data-ja=','Frontier Radar','Adoption Intelligence','radar-search','radar-stage','radar-compatibility','id="radar-audit"','RADAR HEALTH','レーダー健全性','github-public','SKIPPED','2026-10-08T19:17:07Z','Buzz is evidence of attention, not proof of capability.','話題性は注目の証拠であり、能力の証明ではない。','TURN FAILURE INTO EVAL','RUN REGRESSION SUITE','Primary sources first.']) if (!html.includes(token)) fail(`Missing generated content ${token}`);
 const logoPath = 'M4 9.5 17 2l13 7.5v15L17 32 4 24.5z'; const innerPath = 'm10 13 7-4 7 4-7 4-7 4 7 4 7-4';
 if (html.split(`<path d="${logoPath}"`).length - 1 < 2 || html.split(`<path d="${innerPath}"`).length - 1 < 2) fail('Canonical logo paths missing');
 if (html !== expectedHtml) fail('Generated Atlas HTML is stale: run npm run build:atlas and review the diff');

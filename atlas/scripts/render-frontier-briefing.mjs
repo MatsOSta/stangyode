@@ -6,6 +6,7 @@ const repo = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const load = async (name) => JSON.parse(await readFile(resolve(repo, `atlas/data/${name}`), 'utf8'));
 const radar = await load('frontier-radar.json');
 const discovery = await load('github-discovery.json');
+const sources = await load('sources.json');
 const line = (value) => String(value).replaceAll('\n', ' ');
 const bilingual = (value) => `${line(value.en)} / ${line(value.ja)}`;
 const adoptionById = new Map(radar.adoption.map((item) => [item.signalId, item]));
@@ -27,6 +28,45 @@ const sections = radar.signals.map((signal) => {
 }).join('\n\n');
 
 const queries = discovery.queries.map((query) => `- ${query.candidateId}: ${query.query} (${query.state})`).join('\n');
+const audit = radar.audit;
+const runLines = Object.entries(audit.runs).map(([role, run]) => {
+  const failure = run.lastFailure ? `; last failure ${run.lastFailure.class} at ${run.lastFailure.at} (${run.lastFailure.resolved ? 'resolved' : 'unresolved'})` : '';
+  return `- ${role}: ${run.status.toUpperCase()}; last success ${run.lastSuccessfulRunAt}; failure streak ${run.failureStreak}${failure}`;
+}).join('\n');
+const sensorLines = audit.sensors.map((sensor) => `- ${sensor.id}: ${sensor.state.toUpperCase()}${sensor.reason ? ` — ${bilingual(sensor.reason)}` : ''}`).join('\n');
+const sourceLines = audit.sourcesChecked.map((item) => `- [${sources[item.sourceId].title}](${sources[item.sourceId].url}): ${item.outcome}; checked ${item.checkedAt}; source ${item.sourceId}`).join('\n');
+const queryLines = audit.queryGroups.map((group) => `### ${bilingual(group.label)}\n${bilingual(group.resultSummary)}\n\nTargets: ${group.targetIds.join(', ')}\n\nEvidence: ${group.sourceIds.join(', ')}\n\n${group.queries.map((query) => `- \`${query}\``).join('\n')}`).join('\n\n');
+const staleLines = audit.staleSources.length
+  ? audit.staleSources.map((item) => `- ${item.sourceId}; last checked ${item.lastChecked}: ${bilingual(item.reason)}`).join('\n')
+  : '- None declared / 宣言なし';
+const findingLines = audit.findings.map((finding) => `- ${finding.kind}; ${finding.targetIds.join(', ')}: ${bilingual(finding.summary)}; evidence: ${finding.sourceIds.join(', ')}`).join('\n');
+const auditSection = [
+  '## Radar health / レーダー健全性',
+  '',
+  `As of / 基準時刻: ${audit.asOf}; cadence / 頻度: ${audit.cadence}; data / データ: ${audit.dataStatus.toUpperCase()}; stale after / 期限: ${audit.staleAfterHours}h`,
+  '',
+  '### Pipeline runs / パイプライン実行',
+  runLines,
+  '',
+  '### Sensors / センサー',
+  sensorLines,
+  '',
+  '### First-party sources checked / 確認済み一次情報',
+  sourceLines,
+  '',
+  '### Queries run / 実行クエリ',
+  queryLines,
+  '',
+  `### Tracked named entities / 追跡中の名前付きエンティティ\n- ${audit.trackedEntityIds.join(', ')}`,
+  '',
+  `### Changelog entries checked / 確認済み変更履歴\n- ${audit.changelogEntriesChecked.join(', ')}`,
+  '',
+  '### Explicitly stale sources / 明示的に古い情報源',
+  staleLines,
+  '',
+  '### Findings and decisions / 発見と判断',
+  findingLines,
+].join('\n');
 export const markdown = [
   `# ${bilingual(radar.meta.title)}`,
   '',
@@ -35,6 +75,8 @@ export const markdown = [
   bilingual(radar.meta.purpose),
   '',
   `> ${bilingual(radar.meta.evidencePolicy)}`,
+  '',
+  auditSection,
   '',
   '## Signals / シグナル',
   '',
