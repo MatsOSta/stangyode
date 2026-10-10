@@ -37,6 +37,12 @@
           "adoption": 52,
           "fit": 82,
           "confidence": 88
+        },
+        {
+          "frontier": 94,
+          "adoption": 56,
+          "fit": 84,
+          "confidence": 90
         }
       ]
     },
@@ -64,6 +70,20 @@
         "perplexity-decisions",
         "quyet-pypi",
         "jebadiah-repo"
+      ]
+    },
+    {
+      "id": "execution-evidence-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "agent-independent-execution-evidence",
+      "minimumIndependentOrganizations": 2,
+      "requiredOrganizationIds": [
+        "university-of-st-gallen",
+        "swe-game-research-collaboration"
+      ],
+      "requiredSourceIds": [
+        "agent-spy-paper",
+        "swe-game-paper"
       ]
     }
   ]
