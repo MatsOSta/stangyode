@@ -138,9 +138,15 @@ for (const signal of radar.signals) {
   for (const sourceId of signal.provenance.sourceIds) if (!sourceIds.has(sourceId)) fail(`Missing provenance source ${signal.id} -> ${sourceId}`);
 }
 
-if (discovery.schema !== 'stangyode.github-discovery/v1' || discovery.credentialsRequired !== false) fail('GitHub discovery must remain credential-free');
+if (discovery.schema !== 'stangyode.github-discovery/v1' || discovery.provider !== 'github' || discovery.mode !== 'public-api' || discovery.credentialsRequired !== false || discovery.liveFetch !== true) fail('GitHub discovery must use the credential-free public fetch job');
 bilingual(discovery.policy, 'GitHub discovery policy');
-if (!Array.isArray(discovery.queries) || discovery.queries.length < 1) fail('GitHub discovery queries missing');
+if (!Array.isArray(discovery.queries) || discovery.queries.length < 1 || discovery.queries.length > 8) fail('GitHub discovery queries missing or unbounded');
+if (!discovery.lastRun || !['success', 'failed'].includes(discovery.lastRun.status) || !isoTimestamp(discovery.lastRun.attemptedAt)) fail('GitHub discovery run audit missing');
+const githubSensor = audit.sensors.find((sensor) => sensor.id === 'github-public');
+if (githubSensor.state === 'checked' && (discovery.lastRun.status !== 'success' || !isoTimestamp(discovery.lastRun.completedAt) || Date.parse(discovery.lastRun.completedAt) > Date.parse(audit.asOf))) fail('GitHub sensor cannot be checked without a successful current fetch');
+if (githubSensor.state === 'failed' && discovery.lastRun.status !== 'failed') fail('GitHub sensor failure must reference a failed fetch');
+if (githubSensor.state === 'skipped' && discovery.lastRun.status === 'failed') fail('GitHub sensor cannot remain skipped after a failed fetch');
+if (githubSensor.state === 'skipped' && discovery.lastRun.status === 'success' && Date.parse(discovery.lastRun.completedAt) <= Date.parse(audit.asOf)) fail('GitHub sensor cannot remain skipped after a successful fetch available to the audit');
 if (!Array.isArray(discovery.signals) || discovery.signals.some((signal) => !['unknown', 'unverified', 'partially-verified', 'verified', 'contradicted'].includes(signal.status))) {
   fail('GitHub signals must carry an explicit evidence state');
 }
