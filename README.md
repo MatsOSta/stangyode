@@ -40,6 +40,14 @@ npm run build:atlas
 npm run build:frontier-radar
 ```
 
+Refresh the credential-free GitHub discovery sensor before a Frontier Radar editorial run:
+
+```sh
+npm run fetch:github-discovery
+```
+
+The fetch makes at most eight GitHub repository-search requests with five results per query, sends no authorization header, and replaces `atlas/data/github-discovery.json` with normalized, sorted output. Its `lastRun` audit records the attempt, completion, query counts, and public API rate-limit state. A failed or rate-limited run exits non-zero, clears signals, and writes an explicit failed audit instead of retaining results that could look current. The daily Radar editor must run this command after syncing `origin/master` and before evaluating or marking the `github-public` sensor. It may mark that sensor `checked` only when `lastRun.status` is `success` and `completedAt` is no later than the Radar audit `asOf`; otherwise it must mark the sensor `failed` with a bilingual reason.
+
 ## Language support
 
 English and Japanese are maintained as feature- and content-complete peers.
