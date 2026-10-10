@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-09",
+  "generatedAt": "2026-10-10",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -45,22 +45,22 @@
       "kindGuess": "category",
       "durableConcept": "State + bounded typed questions → typed answers, probabilities, and confidence without free-text parsing",
       "whyInteresting": {
-        "en": "Multiple independent hosted and open implementations now provide bounded predicate, choice, or score answers with probabilities, establishing a category beyond any one launch.",
-        "ja": "独立した複数のホスト型・公開実装が、確率付きの限定predicate、choice、score回答を提供し、一つの発表を超えるカテゴリが成立した。"
+        "en": "Multiple independent hosted and open implementations now provide bounded typed probabilities; Clef-omni extends the category natively across text, image, audio, and video.",
+        "ja": "独立した複数のホスト型・公開実装が限定された型付き確率を提供し、Clef-omniはカテゴリをテキスト、画像、音声、動画へネイティブ拡張した。"
       },
       "firstObserved": "2026-10-08",
-      "lastObserved": "2026-10-09",
+      "lastObserved": "2026-10-10",
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "typed-probabilistic-decision-models",
       "atlasTermIds": [],
       "judgment": {
-        "substance": 88,
+        "substance": 90,
         "hype": 90,
-        "fieldImportance": 92,
-        "relevance": 84,
-        "evidenceDiversity": 96,
-        "momentum": 96
+        "fieldImportance": 94,
+        "relevance": 86,
+        "evidenceDiversity": 97,
+        "momentum": 97
       },
       "observations": [
         {
@@ -102,6 +102,11 @@
           "sensor": "primary-docs",
           "url": "https://pypi.org/project/quyet/",
           "date": "2026-10-09"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+          "date": "2026-10-10"
         }
       ],
       "implementations": [
@@ -125,12 +130,13 @@
           ]
         },
         {
-          "name": "Clef / Clef-Flash",
+          "name": "Clef / Clef-Flash / Clef-omni",
           "vendor": "Cloudflare",
           "organizationId": "cloudflare",
-          "access": "open weights and hosted",
+          "access": "open weights and hosted; text, image, audio, and video",
           "sourceIds": [
-            "cloudflare-clef"
+            "cloudflare-clef",
+            "cloudflare-clef-update"
           ]
         },
         {
@@ -189,11 +195,11 @@
       "status": "assessed",
       "kindGuess": "named-implementation",
       "whyInteresting": {
-        "en": "The high-attention launch helped define the interface, but equivalent hosted and open implementations now reduce product-specific differentiation.",
-        "ja": "高い注目を集めた発表がインターフェース定義に寄与したが、同等のホスト型・公開実装により製品固有の差別化は低下した。"
+        "en": "The high-attention launch helped define the interface, but equivalent hosted and open implementations now undercut its text-only modality and listed price.",
+        "ja": "高い注目を集めた発表がインターフェース定義に寄与したが、同等のホスト型・公開実装がテキスト専用性と掲載価格で上回りつつある。"
       },
       "firstObserved": "2026-10-08",
-      "lastObserved": "2026-10-09",
+      "lastObserved": "2026-10-10",
       "lifecycle": "commoditizing",
       "evidenceState": "partially-verified",
       "radarSignalId": "jev",
@@ -201,10 +207,10 @@
       "judgment": {
         "substance": 68,
         "hype": 86,
-        "fieldImportance": 54,
-        "relevance": 50,
-        "evidenceDiversity": 66,
-        "momentum": 64
+        "fieldImportance": 50,
+        "relevance": 46,
+        "evidenceDiversity": 70,
+        "momentum": 58
       },
       "observations": [
         {
@@ -326,7 +332,7 @@
         "ja": "移植可能なスキル・ディレクトリ契約に、検証と複数エージェント対応の高注目インストール・更新ツールが加わった。配布の成熟が来歴・権限制御より先行している。"
       },
       "firstObserved": "2026-10-08",
-      "lastObserved": "2026-10-08",
+      "lastObserved": "2026-10-10",
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "agent-skills",
@@ -352,6 +358,11 @@
           "sensor": "github-public",
           "url": "https://github.com/vercel-labs/skills",
           "date": "2026-10-08"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.2",
+          "date": "2026-10-10"
         }
       ]
     },
@@ -369,7 +380,7 @@
         "ja": "型付きツール契約、ネイティブ表示、検査、デプロイがアプリケーションスタックへ収束する一方、基盤MCPプロトコルも大きく変化している。"
       },
       "firstObserved": "2026-10-08",
-      "lastObserved": "2026-10-08",
+      "lastObserved": "2026-10-10",
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "mcp-apps",
@@ -394,6 +405,11 @@
           "sensor": "primary-docs",
           "url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
           "date": "2026-10-08"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://modelcontextprotocol.io/extensions/apps/overview",
+          "date": "2026-10-10"
         }
       ]
     },
@@ -487,7 +503,8 @@
       "id": "mcp-use",
       "names": [
         "mcp-use",
-        "mcp-use 2.8.1"
+        "mcp-use 2.8.1",
+        "mcp-use 2.8.2"
       ],
       "status": "assessed",
       "kindGuess": "named-framework",
@@ -496,7 +513,7 @@
         "ja": "MCP Appsプロトコルカテゴリとは別の、具体的なリリース進展を持つ名前付きフルスタックMCP実装。"
       },
       "firstObserved": "2026-10-09",
-      "lastObserved": "2026-10-09",
+      "lastObserved": "2026-10-10",
       "lifecycle": "rising",
       "evidenceState": "partially-verified",
       "radarSignalId": "mcp-use",
@@ -516,6 +533,11 @@
           "sensor": "github-public",
           "url": "https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.1",
           "date": "2026-10-09"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.2",
+          "date": "2026-10-10"
         }
       ]
     },
@@ -532,7 +554,7 @@
         "ja": "永続的なshortcut台帳を持つ名前付きコーディングエージェント最小化スキル。成果証拠はプロジェクト自身の報告。"
       },
       "firstObserved": "2026-10-09",
-      "lastObserved": "2026-10-09",
+      "lastObserved": "2026-10-10",
       "lifecycle": "rising",
       "evidenceState": "partially-verified",
       "radarSignalId": "ponytail",
@@ -542,7 +564,7 @@
         "hype": 76,
         "fieldImportance": 62,
         "relevance": 66,
-        "evidenceDiversity": 52,
+        "evidenceDiversity": 56,
         "momentum": 78
       },
       "observations": [
@@ -550,6 +572,11 @@
           "sensor": "github-public",
           "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.1.0",
           "date": "2026-10-09"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/DietrichGebert/ponytail/commit/88cedebb3c1f8d024ef361e13232bdf98c071481",
+          "date": "2026-10-10"
         }
       ]
     },
@@ -622,6 +649,107 @@
           "sensor": "primary-docs",
           "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
           "date": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "vercel-skills",
+      "names": [
+        "Vercel skills",
+        "skills CLI 1.7.2"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-installer-updater",
+      "whyInteresting": {
+        "en": "A high-attention named Agent Skills installer now discovers workspace, dependency, Git, and npm sources with explicit sync, removal, and lock behavior.",
+        "ja": "高注目の名前付きAgent Skillsインストーラーが、ワークスペース、依存関係、Git、npmソースを発見し、明示的な同期、削除、ロック挙動を持つ。"
+      },
+      "firstObserved": "2026-10-10",
+      "lastObserved": "2026-10-10",
+      "lifecycle": "rising",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "vercel-skills",
+      "atlasTermIds": [
+        "agent-harness",
+        "capability"
+      ],
+      "judgment": {
+        "substance": 74,
+        "hype": 88,
+        "fieldImportance": 76,
+        "relevance": 72,
+        "evidenceDiversity": 58,
+        "momentum": 90
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.2",
+          "date": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "agent-independent-execution-evidence",
+      "names": [
+        "agent-independent execution evidence",
+        "external runtime verification",
+        "evaluator-owned probes"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "durableConcept": "Observe agent effects from an evaluator-controlled boundary rather than trusting self-reported trajectories or final outputs alone",
+      "whyInteresting": {
+        "en": "Independent OS/network observation and domain-runtime probes both expose behavior missed by outcome-only or model-judged evaluation.",
+        "ja": "独立したOS・ネットワーク観測と領域実行時プローブの双方が、成果物のみ・モデル判定のみの評価が見逃す挙動を示す。"
+      },
+      "firstObserved": "2026-10-10",
+      "lastObserved": "2026-10-10",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "agent-independent-execution-evidence",
+      "atlasTermIds": [
+        "agent-observability",
+        "eval-evaluation"
+      ],
+      "judgment": {
+        "substance": 88,
+        "hype": 58,
+        "fieldImportance": 92,
+        "relevance": 90,
+        "evidenceDiversity": 78,
+        "momentum": 84
+      },
+      "observations": [
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.06001",
+          "date": "2026-10-10"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2609.33678",
+          "date": "2026-10-10"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "AgentSpy",
+          "vendor": "University of St. Gallen",
+          "organizationId": "university-of-st-gallen",
+          "access": "research prototype described in a public preprint",
+          "sourceIds": [
+            "agent-spy-paper"
+          ]
+        },
+        {
+          "name": "SWE-Game evaluator instrumentation",
+          "vendor": "SWE-Game research collaboration",
+          "organizationId": "swe-game-research-collaboration",
+          "access": "research benchmark described in a public preprint",
+          "sourceIds": [
+            "swe-game-paper"
+          ]
         }
       ]
     }

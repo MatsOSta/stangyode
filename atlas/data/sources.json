@@ -678,5 +678,101 @@
       "en": "Project release feed; no new independent validation or material change was identified in this audit.",
       "ja": "プロジェクトのリリースフィード。この監査では新たな独立検証や重要変更を確認しなかった。"
     }
+  },
+  "cloudflare-clef-update": {
+    "title": "Cloudflare Clef multimodal, price, and latency update",
+    "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+    "note": {
+      "en": "First-party release of Clef-omni plus listed Clef-flash pricing and hosted Clef latency changes; benchmarks and internal adoption examples are vendor-reported.",
+      "ja": "Clef-omniの公開、Clef-flashの価格、ホスト型Clefの遅延改善に関する一次発表。ベンチマークと社内導入例はベンダー報告。"
+    }
+  },
+  "mcp-use-2-8-2": {
+    "title": "mcp-use 2.8.2 release",
+    "url": "https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.2",
+    "note": {
+      "en": "First-party patch release with a late tunnel-cancellation fix, API-reference navigation improvements, and Inspector 20.3.18; cross-host compatibility remains untested.",
+      "ja": "遅いトンネルキャンセル修正、APIリファレンス導線改善、Inspector 20.3.18を含む一次パッチリリース。ホスト横断互換性は未検証。"
+    }
+  },
+  "vercel-skills-1-7-2": {
+    "title": "Vercel skills 1.7.2 release",
+    "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.2",
+    "note": {
+      "en": "First-party release adding recursive workspace sync, dependency and package-source discovery, filters, removal semantics, and lock/path fixes; it demonstrates distribution ergonomics, not agent capability.",
+      "ja": "再帰的ワークスペース同期、依存・パッケージソース発見、フィルター、削除規則、ロック・パス修正を追加した一次リリース。配布の使い勝手を示すが、エージェント能力の証明ではない。"
+    }
+  },
+  "ponytail-benchmark-hardening": {
+    "title": "Ponytail benchmark completeness hardening",
+    "url": "https://github.com/DietrichGebert/ponytail/commit/88cedebb3c1f8d024ef361e13232bdf98c071481",
+    "note": {
+      "en": "First-party commit that judges delivered diffs or chat output, blinds project markers, separates timeouts, and gates judging with self-tests; results remain project-authored.",
+      "ja": "提出差分またはチャット出力を判定し、プロジェクト印を盲検化し、タイムアウトを分離し、自己テストで判定をゲートする一次コミット。結果はプロジェクト自身の報告。"
+    }
+  },
+  "agent-spy-paper": {
+    "title": "AgentSpy: Making AI Agent Behavior Observable",
+    "url": "https://arxiv.org/abs/2610.06001",
+    "note": {
+      "en": "University of St. Gallen preprint on agent-independent system-call and network observation; reported conformance and security results have not been independently replicated.",
+      "ja": "エージェント非依存のシステムコール・ネットワーク観測に関するザンクトガレン大学のプレプリント。適合性・安全性結果は独立再現されていない。"
+    }
+  },
+  "swe-game-paper": {
+    "title": "SWE-Game: Can Coding Agents Build the Games We Want?",
+    "url": "https://arxiv.org/abs/2609.33678",
+    "note": {
+      "en": "Multi-institution preprint using evaluator-owned probes, engine state, and certified input replay; runtime checks outperformed a video-VLM judge on its labeled game behaviors.",
+      "ja": "評価者所有プローブ、エンジン状態、認証済み入力リプレイを用いる複数機関のプレプリント。ラベル付きゲーム挙動では実行時検査が動画VLM判定を上回った。"
+    }
+  },
+  "microsoft-copilot-rollout": {
+    "title": "Microsoft Copilot model rollout",
+    "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-1-sol-and-claude-sonnet-5-5-in/ba-p/4560801",
+    "note": {
+      "en": "First-party Microsoft Copilot model-rollout announcement checked in the release sweep; it did not trigger a Radar record.",
+      "ja": "リリース確認で調べたMicrosoft Copilotの一次モデル展開発表。レーダー項目の追加には至らなかった。"
+    }
+  },
+  "anthropic-cyber-verification": {
+    "title": "Anthropic Cyber Verification Program update",
+    "url": "https://www.anthropic.com/news/cyber-verification-program",
+    "note": {
+      "en": "First-party access and safeguards program update checked in the release sweep; vendor evaluation and impact figures were not treated as independent proof.",
+      "ja": "リリース確認で調べたアクセス・安全策プログラムの一次更新。ベンダー評価・効果数値は独立証拠として扱わない。"
+    }
+  },
+  "mistral-large-4": {
+    "title": "Mistral Large 4 announcement",
+    "url": "https://mistral.ai/news/mistral-large-4/",
+    "note": {
+      "en": "First-party public-preview announcement checked in the release sweep; benchmark and readiness claims remain largely vendor-led.",
+      "ja": "リリース確認で調べた一次公開プレビュー発表。ベンチマークと準備度の主張は主にベンダー発。"
+    }
+  },
+  "gemini-api-changelog": {
+    "title": "Gemini API release notes",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog",
+    "note": {
+      "en": "First-party Gemini API changelog checked for material changes.",
+      "ja": "重要な変更を確認したGemini APIの一次変更履歴。"
+    }
+  },
+  "aws-whats-new": {
+    "title": "AWS What’s New",
+    "url": "https://aws.amazon.com/about-aws/whats-new/",
+    "note": {
+      "en": "First-party AWS announcement surface checked for material AI engineering changes.",
+      "ja": "AIエンジニアリングの重要な変化を確認したAWSの一次発表面。"
+    }
+  },
+  "mcp-protocol-releases": {
+    "title": "MCP protocol releases",
+    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases",
+    "note": {
+      "en": "Official MCP protocol release feed; no material protocol release was identified in this audit.",
+      "ja": "公式MCPプロトコル・リリースフィード。この監査では重要なプロトコル更新を確認しなかった。"
+    }
   }
 }
