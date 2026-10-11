@@ -1,6 +1,8 @@
 import { readFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { validateGithubDiscovery } from './github-discovery-contract.mjs';
+import { validateMarkdownRadarAudit } from './radar-rendering-contract.mjs';
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const load = async (path) => JSON.parse(await readFile(resolve(repo, path), 'utf8'));
@@ -138,9 +140,13 @@ for (const signal of radar.signals) {
   for (const sourceId of signal.provenance.sourceIds) if (!sourceIds.has(sourceId)) fail(`Missing provenance source ${signal.id} -> ${sourceId}`);
 }
 
-if (discovery.schema !== 'stangyode.github-discovery/v1' || discovery.credentialsRequired !== false) fail('GitHub discovery must remain credential-free');
 bilingual(discovery.policy, 'GitHub discovery policy');
-if (!Array.isArray(discovery.queries) || discovery.queries.length < 1) fail('GitHub discovery queries missing');
+validateGithubDiscovery({ github: discovery, candidateIds, radarIds: ids });
+const githubSensor = audit.sensors.find((sensor) => sensor.id === 'github-public');
+if (githubSensor.state === 'checked' && (discovery.lastRun.status !== 'success' || !isoTimestamp(discovery.lastRun.completedAt) || Date.parse(discovery.lastRun.completedAt) > Date.parse(audit.asOf))) fail('GitHub sensor cannot be checked without a successful current fetch');
+if (githubSensor.state === 'failed' && discovery.lastRun.status !== 'failed') fail('GitHub sensor failure must reference a failed fetch');
+if (githubSensor.state === 'skipped' && discovery.lastRun.status === 'failed') fail('GitHub sensor cannot remain skipped after a failed fetch');
+if (githubSensor.state === 'skipped' && discovery.lastRun.status === 'success' && Date.parse(discovery.lastRun.completedAt) <= Date.parse(audit.asOf)) fail('GitHub sensor cannot remain skipped after a successful fetch available to the audit');
 if (!Array.isArray(discovery.signals) || discovery.signals.some((signal) => !['unknown', 'unverified', 'partially-verified', 'verified', 'contradicted'].includes(signal.status))) {
   fail('GitHub signals must carry an explicit evidence state');
 }
@@ -181,6 +187,6 @@ for (const fixture of regressions.fixtures) {
 
 const { markdown } = await import('./render-frontier-briefing.mjs');
 for (const finding of audit.findings) if (!markdown.includes(`evidence: ${finding.sourceIds.join(', ')}`)) fail(`Missing briefing finding evidence ${finding.kind}`);
-if (!markdown.includes('## Radar health / レーダー健全性') || !markdown.includes('github-public: SKIPPED') || !markdown.includes('2026-10-10T05:08:51Z')) fail('Frontier briefing audit is incomplete');
+validateMarkdownRadarAudit(markdown, audit);
 if (artifact !== markdown) fail('Frontier briefing is stale: run npm run build:frontier-radar');
 console.log(`Validated ${radar.signals.length} Radar signals, ${radar.adoption.length} adoption records, ${discovery.queries.length} GitHub discovery inputs, provenance/history, and deterministic briefing output.`);

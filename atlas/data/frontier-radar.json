@@ -313,8 +313,8 @@
         "id": "github-public",
         "state": "skipped",
         "reason": {
-          "en": "The checked-in GitHub sensor remains manual-input with liveFetch disabled; repository evidence came through the broader scout instead.",
-          "ja": "チェックイン済みGitHubセンサーはliveFetch無効の手動入力のままであり、リポジトリ証拠はより広いスカウト経由で収集した。"
+          "en": "A successful credential-free GitHub public fetch completed after this audit snapshot; its unverified repository signals await the next editorial review.",
+          "ja": "認証情報を使わないGitHub公開取得はこの監査スナップショット後に成功した。未検証のリポジトリ信号は次回の編集レビュー待ちである。"
         }
       },
       {
