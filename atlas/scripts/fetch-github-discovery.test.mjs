@@ -17,14 +17,16 @@ const baseInput = {
   liveFetch: false,
   policy: { en: 'Public only.', ja: '公開のみ。' },
   queries: [
-    { id: 'beta-query', candidateId: 'beta', query: 'topic:beta', state: 'not-collected' },
-    { id: 'alpha-query', candidateId: 'alpha', query: 'topic:alpha', state: 'not-collected' },
+    { id: 'beta-query', targetId: 'beta', query: 'topic:beta', state: 'not-collected' },
+    { id: 'alpha-query', targetId: 'alpha', query: 'topic:alpha', state: 'not-collected' },
   ],
   signals: [],
 };
 
-const run = ({ input, output, endpoint }) => new Promise((resolveRun) => {
-  const child = spawn(process.execPath, [script, '--input', input, '--output', output, '--now', '2026-10-11T05:00:00Z'], {
+const run = ({ input, output, endpoint, now = '2026-10-11T05:00:00Z' }) => new Promise((resolveRun) => {
+  const childArgs = [script, '--input', input, '--output', output];
+  if (now) childArgs.push('--now', now);
+  const child = spawn(process.execPath, childArgs, {
     cwd: repo,
     env: { ...process.env, GITHUB_PUBLIC_API_URL: endpoint },
   });
@@ -68,7 +70,9 @@ test('fetches bounded credential-free GitHub results and records failures explic
     response.writeHead(200, headers);
     const items = responseMode === 'malformed-item' && query === 'topic:alpha'
       ? [{ full_name: 'broken/repo', html_url: 'https://github.com/broken/repo' }]
-      : query === 'topic:alpha' ? [
+      : responseMode === 'identity-mismatch' && query === 'topic:alpha'
+        ? [{ full_name: 'owner/repository', html_url: 'https://github.com/other/repository/', description: 'Mismatch', stargazers_count: 1, forks_count: 0, language: 'JavaScript', topics: [], archived: false, pushed_at: '2026-10-10T12:00:00Z' }]
+        : query === 'topic:alpha' ? [
           { full_name: 'zeta/repo', html_url: 'https://github.com/zeta/repo', description: null, stargazers_count: 2, forks_count: 1, language: 'JavaScript', topics: ['agents'], archived: false, pushed_at: '2026-10-10T12:00:00Z' },
           { full_name: 'alpha/repo', html_url: 'https://github.com/alpha/repo', description: 'Alpha', stargazers_count: 5, forks_count: 0, language: null, topics: [], archived: false, pushed_at: '2026-10-10T13:00:00Z' },
         ] : [];
@@ -132,10 +136,68 @@ test('fetches bounded credential-free GitHub results and records failures explic
   ]);
   assert.deepEqual(malformedRecord.signals, []);
 
+  responseMode = 'identity-mismatch';
+  const mismatched = await run({ input, output, endpoint });
+  assert.notEqual(mismatched.status, 0);
+  const mismatchRecord = JSON.parse(await readFile(output, 'utf8'));
+  assert.deepEqual(mismatchRecord.lastRun.failedQueries, [{ id: 'alpha-query', class: 'invalid_response', httpStatus: null }]);
+  assert.deepEqual(mismatchRecord.signals, []);
+
   await new Promise((resolveClose) => server.close(resolveClose));
   const networkFailure = await run({ input, output, endpoint });
   assert.notEqual(networkFailure.status, 0);
   const networkRecord = JSON.parse(await readFile(output, 'utf8'));
   assert.equal(networkRecord.lastRun.rateLimit, null);
   assert.deepEqual(networkRecord.lastRun.failedQueries, [{ id: 'alpha-query', class: 'network', httpStatus: null }]);
+});
+
+test('rejects malformed query configuration before replacing output', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'github-discovery-preflight-'));
+  const input = join(dir, 'input.json');
+  const output = join(dir, 'output.json');
+  const malformed = {
+    ...baseInput,
+    queries: [
+      { id: 'duplicate', targetId: 'alpha', query: 'topic:alpha', state: 'not-collected' },
+      { id: 'duplicate', query: 'topic:beta', state: 'not-collected' },
+    ],
+  };
+  await writeFile(input, `${JSON.stringify(malformed, null, 2)}\n`);
+  await writeFile(output, 'preserve previous output\n');
+
+  const result = await run({ input, output, endpoint: 'http://127.0.0.1:1' });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /valid unique id, targetId, and query/);
+  assert.equal(await readFile(output, 'utf8'), 'preserve previous output\n');
+});
+
+test('records completion after the final request finishes', async (t) => {
+  const dir = await mkdtemp(join(tmpdir(), 'github-discovery-completion-'));
+  const input = join(dir, 'input.json');
+  const output = join(dir, 'output.json');
+  await writeFile(input, `${JSON.stringify({ ...baseInput, queries: [baseInput.queries[0]] }, null, 2)}\n`);
+
+  const server = createServer((_request, response) => {
+    setTimeout(() => {
+      response.writeHead(200, {
+        'content-type': 'application/json',
+        'x-ratelimit-limit': '10',
+        'x-ratelimit-remaining': '9',
+        'x-ratelimit-reset': '1791695100',
+      });
+      response.end(JSON.stringify({ items: [] }));
+    }, 50);
+  });
+  await new Promise((resolveListen) => server.listen(0, '127.0.0.1', resolveListen));
+  t.after(() => { if (server.listening) server.close(); });
+
+  const result = await run({
+    input,
+    output,
+    endpoint: `http://127.0.0.1:${server.address().port}`,
+    now: null,
+  });
+  assert.equal(result.status, 0, result.stderr);
+  const record = JSON.parse(await readFile(output, 'utf8'));
+  assert.ok(Date.parse(record.lastRun.completedAt) > Date.parse(record.lastRun.attemptedAt));
 });

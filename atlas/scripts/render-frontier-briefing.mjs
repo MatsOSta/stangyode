@@ -27,7 +27,7 @@ const sections = radar.signals.map((signal) => {
   ].join('\n');
 }).join('\n\n');
 
-const queries = discovery.queries.map((query) => `- ${query.candidateId}: ${query.query} (${query.state})`).join('\n');
+const queries = discovery.queries.map((query) => `- ${query.targetId}: ${query.query} (${query.state})`).join('\n');
 const audit = radar.audit;
 const runLines = Object.entries(audit.runs).map(([role, run]) => {
   const failure = run.lastFailure ? `; last failure ${run.lastFailure.class} at ${run.lastFailure.at} (${run.lastFailure.resolved ? 'resolved' : 'unresolved'})` : '';

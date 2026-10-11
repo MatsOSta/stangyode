@@ -14,7 +14,9 @@ const option = (name, fallback) => {
 };
 const inputPath = resolve(repo, option('--input', 'atlas/data/github-discovery.json'));
 const outputPath = resolve(repo, option('--output', 'atlas/data/github-discovery.json'));
-const attemptedAt = new Date(option('--now', new Date().toISOString())).toISOString().replace('.000Z', 'Z');
+const fixedNow = option('--now', null);
+const timestamp = () => new Date(fixedNow ?? new Date().toISOString()).toISOString().replace('.000Z', 'Z');
+const attemptedAt = timestamp();
 const apiBase = process.env.GITHUB_PUBLIC_API_URL || 'https://api.github.com';
 
 const input = JSON.parse(await readFile(inputPath, 'utf8'));
@@ -23,6 +25,15 @@ if (input.schema !== 'stangyode.github-discovery/v1' || input.credentialsRequire
 }
 if (!Array.isArray(input.queries) || input.queries.length < 1 || input.queries.length > MAX_QUERIES) {
   throw new Error(`GitHub discovery requires 1-${MAX_QUERIES} bounded queries`);
+}
+const inputQueryIds = new Set();
+for (const query of input.queries) {
+  if (typeof query?.id !== 'string' || !query.id.trim() || inputQueryIds.has(query.id)
+    || typeof query.targetId !== 'string' || !query.targetId.trim()
+    || typeof query.query !== 'string' || !query.query.trim()) {
+    throw new Error('Every GitHub discovery query requires a valid unique id, targetId, and query');
+  }
+  inputQueryIds.add(query.id);
 }
 
 const queries = [...input.queries].sort((a, b) => a.id.localeCompare(b.id));
@@ -52,7 +63,8 @@ const classifyFailure = (status, error) => {
 
 const validRepository = (item) => item
   && typeof item.full_name === 'string'
-  && /^https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+\/?$/.test(item.html_url)
+  && /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(item.full_name)
+  && item.html_url === `https://github.com/${item.full_name}`
   && (item.description === null || typeof item.description === 'string')
   && Number.isInteger(item.stargazers_count) && item.stargazers_count >= 0
   && Number.isInteger(item.forks_count) && item.forks_count >= 0
@@ -97,7 +109,7 @@ for (const query of queries) {
     for (const item of payload.items.slice(0, RESULTS_PER_QUERY)) {
       signals.push({
         queryId: query.id,
-        candidateId: query.candidateId,
+        targetId: query.targetId,
         status: 'unverified',
         repository: {
           fullName: item.full_name,
@@ -136,7 +148,7 @@ const output = {
   lastRun: {
     status: success ? 'success' : 'failed',
     attemptedAt,
-    completedAt: success ? attemptedAt : null,
+    completedAt: success ? timestamp() : null,
     queryCount: queries.length,
     successfulQueries: completedQueryIds.size,
     failedQueries,

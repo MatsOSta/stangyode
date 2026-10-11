@@ -11,43 +11,43 @@
   "queries": [
     {
       "id": "typed-decision-query",
-      "candidateId": "typed-decision-models",
+      "targetId": "typed-decision-models",
       "query": "typed probabilistic decision model System One",
       "state": "collected"
     },
     {
       "id": "agent-skills-query",
-      "candidateId": "agent-skills",
+      "targetId": "agent-skills",
       "query": "topic:agent-skills",
       "state": "collected"
     },
     {
       "id": "mcp-apps-query",
-      "candidateId": "mcp-apps",
+      "targetId": "mcp-apps",
       "query": "topic:mcp-apps",
       "state": "collected"
     },
     {
       "id": "a2a-query",
-      "candidateId": "a2a",
+      "targetId": "a2a",
       "query": "topic:agent-to-agent",
       "state": "collected"
     },
     {
       "id": "ard-query",
-      "candidateId": "agentic-resource-discovery-ard",
+      "targetId": "agentic-resource-discovery-ard",
       "query": "topic:agentic-resource-discovery",
       "state": "collected"
     },
     {
       "id": "ponytail-query",
-      "candidateId": "ponytail",
+      "targetId": "ponytail",
       "query": "ponytail",
       "state": "collected"
     },
     {
       "id": "caveman-query",
-      "candidateId": "caveman",
+      "targetId": "caveman",
       "query": "caveman",
       "state": "collected"
     }
@@ -55,7 +55,7 @@
   "signals": [
     {
       "queryId": "a2a-query",
-      "candidateId": "a2a",
+      "targetId": "a2a",
       "status": "unverified",
       "repository": {
         "fullName": "damianvtran/local-operator",
@@ -81,7 +81,7 @@
     },
     {
       "queryId": "a2a-query",
-      "candidateId": "a2a",
+      "targetId": "a2a",
       "status": "unverified",
       "repository": {
         "fullName": "jinwon-int/a2a-nexus",
@@ -104,7 +104,7 @@
     },
     {
       "queryId": "a2a-query",
-      "candidateId": "a2a",
+      "targetId": "a2a",
       "status": "unverified",
       "repository": {
         "fullName": "MartinM10/Myrmo",
@@ -129,7 +129,7 @@
     },
     {
       "queryId": "a2a-query",
-      "candidateId": "a2a",
+      "targetId": "a2a",
       "status": "unverified",
       "repository": {
         "fullName": "OfficialItopa/h2oai-flood-prediction-agent",
@@ -156,7 +156,7 @@
     },
     {
       "queryId": "a2a-query",
-      "candidateId": "a2a",
+      "targetId": "a2a",
       "status": "unverified",
       "repository": {
         "fullName": "opena2a-org/a2a-security-examples",
@@ -182,7 +182,7 @@
     },
     {
       "queryId": "agent-skills-query",
-      "candidateId": "agent-skills",
+      "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
         "fullName": "bitpunklabs/ticker-universe-builder",
@@ -212,7 +212,7 @@
     },
     {
       "queryId": "agent-skills-query",
-      "candidateId": "agent-skills",
+      "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
         "fullName": "CadenceUX/cadenceux-skill-creator-skill",
@@ -234,7 +234,7 @@
     },
     {
       "queryId": "agent-skills-query",
-      "candidateId": "agent-skills",
+      "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
         "fullName": "Grit-77/done-is-a-claim",
@@ -264,7 +264,7 @@
     },
     {
       "queryId": "agent-skills-query",
-      "candidateId": "agent-skills",
+      "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
         "fullName": "PabloAlaniz/google-suite",
@@ -293,7 +293,7 @@
     },
     {
       "queryId": "agent-skills-query",
-      "candidateId": "agent-skills",
+      "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
         "fullName": "reynold-hu/OpenFigura",
@@ -316,7 +316,7 @@
     },
     {
       "queryId": "ard-query",
-      "candidateId": "agentic-resource-discovery-ard",
+      "targetId": "agentic-resource-discovery-ard",
       "status": "unverified",
       "repository": {
         "fullName": "a2agora/spec",
@@ -348,7 +348,7 @@
     },
     {
       "queryId": "ard-query",
-      "candidateId": "agentic-resource-discovery-ard",
+      "targetId": "agentic-resource-discovery-ard",
       "status": "unverified",
       "repository": {
         "fullName": "api-evangelist/agentic-resource-discovery",
@@ -381,7 +381,7 @@
     },
     {
       "queryId": "ard-query",
-      "candidateId": "agentic-resource-discovery-ard",
+      "targetId": "agentic-resource-discovery-ard",
       "status": "unverified",
       "repository": {
         "fullName": "buchk/TypeFerence",
@@ -417,7 +417,7 @@
     },
     {
       "queryId": "ard-query",
-      "candidateId": "agentic-resource-discovery-ard",
+      "targetId": "agentic-resource-discovery-ard",
       "status": "unverified",
       "repository": {
         "fullName": "Sushegaad/AgentDossier",
@@ -442,7 +442,7 @@
     },
     {
       "queryId": "ard-query",
-      "candidateId": "agentic-resource-discovery-ard",
+      "targetId": "agentic-resource-discovery-ard",
       "status": "unverified",
       "repository": {
         "fullName": "webmaxru/ai-native-dev",
@@ -465,7 +465,7 @@
     },
     {
       "queryId": "caveman-query",
-      "candidateId": "caveman",
+      "targetId": "caveman",
       "status": "unverified",
       "repository": {
         "fullName": "diegosouzapw/OmniRoute",
@@ -502,7 +502,7 @@
     },
     {
       "queryId": "caveman-query",
-      "candidateId": "caveman",
+      "targetId": "caveman",
       "status": "unverified",
       "repository": {
         "fullName": "Iliesseu28/claude-essential-mode",
@@ -518,7 +518,7 @@
     },
     {
       "queryId": "caveman-query",
-      "candidateId": "caveman",
+      "targetId": "caveman",
       "status": "unverified",
       "repository": {
         "fullName": "JuliusBrussee/caveman",
@@ -545,7 +545,7 @@
     },
     {
       "queryId": "caveman-query",
-      "candidateId": "caveman",
+      "targetId": "caveman",
       "status": "unverified",
       "repository": {
         "fullName": "noman3271/caveman",
@@ -578,7 +578,7 @@
     },
     {
       "queryId": "caveman-query",
-      "candidateId": "caveman",
+      "targetId": "caveman",
       "status": "unverified",
       "repository": {
         "fullName": "twelfth-puerperium297/tokenoptim",
@@ -609,7 +609,7 @@
     },
     {
       "queryId": "mcp-apps-query",
-      "candidateId": "mcp-apps",
+      "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
         "fullName": "chipfighter/codex-attachment-manager",
@@ -641,7 +641,7 @@
     },
     {
       "queryId": "mcp-apps-query",
-      "candidateId": "mcp-apps",
+      "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
         "fullName": "Elysia-laoda/whale-whisper",
@@ -674,7 +674,7 @@
     },
     {
       "queryId": "mcp-apps-query",
-      "candidateId": "mcp-apps",
+      "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
         "fullName": "fqgate/FQGate-agent",
@@ -711,7 +711,7 @@
     },
     {
       "queryId": "mcp-apps-query",
-      "candidateId": "mcp-apps",
+      "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
         "fullName": "shteynu/render-policy",
@@ -744,7 +744,7 @@
     },
     {
       "queryId": "mcp-apps-query",
-      "candidateId": "mcp-apps",
+      "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
         "fullName": "ttimesai-star/agentlog-mcp",
@@ -767,7 +767,7 @@
     },
     {
       "queryId": "ponytail-query",
-      "candidateId": "ponytail",
+      "targetId": "ponytail",
       "status": "unverified",
       "repository": {
         "fullName": "Abhishek200416/AGI-1.6V",
@@ -792,7 +792,7 @@
     },
     {
       "queryId": "ponytail-query",
-      "candidateId": "ponytail",
+      "targetId": "ponytail",
       "status": "unverified",
       "repository": {
         "fullName": "matkabk6-ship-it/ponytail",
@@ -808,7 +808,7 @@
     },
     {
       "queryId": "ponytail-query",
-      "candidateId": "ponytail",
+      "targetId": "ponytail",
       "status": "unverified",
       "repository": {
         "fullName": "mirelconstantin/dsh-ponytail-sync",
@@ -840,7 +840,7 @@
     },
     {
       "queryId": "ponytail-query",
-      "candidateId": "ponytail",
+      "targetId": "ponytail",
       "status": "unverified",
       "repository": {
         "fullName": "mouvementvisible-cmd/glossy-ponytail",
@@ -856,7 +856,7 @@
     },
     {
       "queryId": "ponytail-query",
-      "candidateId": "ponytail",
+      "targetId": "ponytail",
       "status": "unverified",
       "repository": {
         "fullName": "Wenaixi/dsh-ponytail",
@@ -893,7 +893,7 @@
     },
     {
       "queryId": "typed-decision-query",
-      "candidateId": "typed-decision-models",
+      "targetId": "typed-decision-models",
       "status": "unverified",
       "repository": {
         "fullName": "123skywalker/Neriv",
@@ -909,7 +909,7 @@
     },
     {
       "queryId": "typed-decision-query",
-      "candidateId": "typed-decision-models",
+      "targetId": "typed-decision-models",
       "status": "unverified",
       "repository": {
         "fullName": "AgenticAPP-Web/Jev-Research-Index",
@@ -927,7 +927,7 @@
     },
     {
       "queryId": "typed-decision-query",
-      "candidateId": "typed-decision-models",
+      "targetId": "typed-decision-models",
       "status": "unverified",
       "repository": {
         "fullName": "markuswondrak/spec-kit-decision-step",
@@ -943,7 +943,7 @@
     },
     {
       "queryId": "typed-decision-query",
-      "candidateId": "typed-decision-models",
+      "targetId": "typed-decision-models",
       "status": "unverified",
       "repository": {
         "fullName": "pozapas/awesome-system-one-models",
@@ -967,7 +967,7 @@
     },
     {
       "queryId": "typed-decision-query",
-      "candidateId": "typed-decision-models",
+      "targetId": "typed-decision-models",
       "status": "unverified",
       "repository": {
         "fullName": "pozapas/system-one-models-survey",
