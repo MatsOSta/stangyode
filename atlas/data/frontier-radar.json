@@ -9,22 +9,22 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-10",
+    "snapshot": "2026-10-11",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-10T06:03:07Z",
+    "asOf": "2026-10-11T06:13:26Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "success",
-        "lastAttemptAt": "2026-10-10T05:08:51Z",
-        "lastSuccessfulRunAt": "2026-10-10T05:08:51Z",
+        "lastAttemptAt": "2026-10-11T05:08:42Z",
+        "lastSuccessfulRunAt": "2026-10-11T05:08:42Z",
         "failureStreak": 0,
         "lastFailure": {
           "at": "2026-10-08T13:31:55Z",
@@ -34,130 +34,150 @@
       },
       "editor": {
         "status": "success",
-        "lastAttemptAt": "2026-10-10T06:03:07Z",
-        "lastSuccessfulRunAt": "2026-10-10T06:03:07Z",
+        "lastAttemptAt": "2026-10-11T06:13:26Z",
+        "lastSuccessfulRunAt": "2026-10-11T06:13:26Z",
         "failureStreak": 0
       }
     },
     "sourcesChecked": [
       {
-        "sourceId": "cloudflare-clef-update",
-        "checkedAt": "2026-10-10",
-        "outcome": "relevant"
-      },
-      {
         "sourceId": "typesafe-models",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
-        "sourceId": "mcp-use-2-8-2",
-        "checkedAt": "2026-10-10",
+        "sourceId": "microsoft-decision-1",
+        "checkedAt": "2026-10-11",
         "outcome": "relevant"
       },
       {
-        "sourceId": "mcp-apps-docs",
-        "checkedAt": "2026-10-10",
+        "sourceId": "mapika-decider",
+        "checkedAt": "2026-10-11",
         "outcome": "relevant"
       },
       {
-        "sourceId": "vercel-skills-1-7-2",
-        "checkedAt": "2026-10-10",
+        "sourceId": "skillfs",
+        "checkedAt": "2026-10-11",
         "outcome": "relevant"
       },
       {
-        "sourceId": "ponytail-benchmark-hardening",
-        "checkedAt": "2026-10-10",
+        "sourceId": "cloudflare-skills-mcp",
+        "checkedAt": "2026-10-11",
         "outcome": "relevant"
       },
       {
-        "sourceId": "agent-spy-paper",
-        "checkedAt": "2026-10-10",
+        "sourceId": "swe-skills-bench",
+        "checkedAt": "2026-10-11",
         "outcome": "relevant"
       },
       {
-        "sourceId": "swe-game-paper",
-        "checkedAt": "2026-10-10",
+        "sourceId": "memory-rereads-paper",
+        "checkedAt": "2026-10-11",
         "outcome": "relevant"
       },
       {
-        "sourceId": "microsoft-copilot-rollout",
-        "checkedAt": "2026-10-10",
+        "sourceId": "personal-memory-validity-paper",
+        "checkedAt": "2026-10-11",
         "outcome": "relevant"
       },
       {
-        "sourceId": "anthropic-cyber-verification",
-        "checkedAt": "2026-10-10",
+        "sourceId": "mem0-dream",
+        "checkedAt": "2026-10-11",
         "outcome": "relevant"
       },
       {
-        "sourceId": "mistral-large-4",
-        "checkedAt": "2026-10-10",
+        "sourceId": "zep-temporal-facts",
+        "checkedAt": "2026-10-11",
         "outcome": "relevant"
-      },
-      {
-        "sourceId": "gemini-api-changelog",
-        "checkedAt": "2026-10-10",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "aws-whats-new",
-        "checkedAt": "2026-10-10",
-        "outcome": "no-material-change"
       },
       {
         "sourceId": "openai-changelog",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "anthropic-api-release-notes",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "gemini-api-changelog",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
-        "sourceId": "google-gemini-agent",
-        "checkedAt": "2026-10-10",
+        "sourceId": "aws-whats-new",
+        "checkedAt": "2026-10-11",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "huggingface-blog",
+        "checkedAt": "2026-10-11",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "vercel-skills-1-7-2",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "azure-announcements",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "meta-ai-news",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
-        "sourceId": "huggingface-blog",
-        "checkedAt": "2026-10-10",
-        "outcome": "relevant"
+        "sourceId": "mistral-large-4",
+        "checkedAt": "2026-10-11",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "google-gemini-agent",
+        "checkedAt": "2026-10-11",
+        "outcome": "no-material-change"
       },
       {
         "sourceId": "mcp-protocol-releases",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "mcp-python-releases",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "mcp-typescript-releases",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "mcp-use-2-8-2",
+        "checkedAt": "2026-10-11",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "ponytail-benchmark-hardening",
+        "checkedAt": "2026-10-11",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "caveman-3-2-0",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "knowledge-triage-repo",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "atomix-releases",
-        "checkedAt": "2026-10-10",
+        "checkedAt": "2026-10-11",
         "outcome": "no-material-change"
       }
     ],
@@ -172,32 +192,36 @@
         "targetIds": [
           "jev",
           "typed-probabilistic-decision-models",
-          "mcp-use",
+          "agent-skills",
           "vercel-skills",
+          "mcp-apps",
+          "mcp-use",
           "ponytail",
           "caveman",
           "gemini-agent"
         ],
         "sourceIds": [
           "typesafe-models",
-          "cloudflare-clef-update",
-          "mcp-use-2-8-2",
+          "microsoft-decision-1",
+          "mapika-decider",
           "vercel-skills-1-7-2",
-          "ponytail-benchmark-hardening"
+          "mcp-use-2-8-2",
+          "ponytail-benchmark-hardening",
+          "caveman-3-2-0"
         ],
         "resultSummary": {
-          "en": "Clef-omni further commoditized text-only Jev while strengthening typed decisions; named framework, distribution, and benchmark changes remained separate from their broader categories.",
-          "ja": "Clef-omniはテキスト専用Jevをさらにコモディティ化しつつ型付き判断を強化。名前付きフレームワーク、配布、ベンチマーク変更は広いカテゴリと分離して保持した。"
+          "en": "Microsoft-Decision-1 and Mapika decider broaden direct substitutes for Jev; other tracked named implementations had no verified material release after October 10.",
+          "ja": "Microsoft-Decision-1とMapika deciderがJevの直接代替を拡大。他の追跡中の名前付き実装には10月10日以降の重要リリースを確認しなかった。"
         },
         "queries": [
-          "exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for Jev, Agent Skills, MCP Apps, mcp-use, Ponytail, Caveman, Gemini agent, Knowledge Triage, and Atomix",
+          "exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for Jev, Agent Skills, Vercel skills, MCP Apps, mcp-use, Ponytail, Caveman, Gemini agent, Knowledge Triage, Atomix, AgentSpy, and SWE-Game",
           "Jev alternatives competitors",
           "decision API/model",
           "typed answers",
           "predicate choice score",
           "classification routing probabilities",
           "bounded finite-answer decisions",
-          "major-vendor decision model equivalent"
+          "major-vendor equivalent"
         ]
       },
       {
@@ -210,44 +234,48 @@
         "targetIds": [
           "jev",
           "typed-probabilistic-decision-models",
-          "mcp-use",
-          "mcp-apps",
           "agent-skills",
           "vercel-skills",
+          "mcp-apps",
+          "mcp-use",
           "ponytail",
+          "caveman",
           "gemini-agent"
         ],
         "sourceIds": [
-          "cloudflare-clef-update",
           "typesafe-models",
-          "mcp-use-2-8-2",
-          "mcp-apps-docs",
-          "vercel-skills-1-7-2",
-          "ponytail-benchmark-hardening",
-          "microsoft-copilot-rollout",
-          "anthropic-cyber-verification",
-          "mistral-large-4",
-          "gemini-api-changelog",
-          "aws-whats-new",
+          "microsoft-decision-1",
+          "mapika-decider",
+          "skillfs",
+          "cloudflare-skills-mcp",
+          "mem0-dream",
+          "zep-temporal-facts",
           "openai-changelog",
           "anthropic-api-release-notes",
-          "google-gemini-agent",
+          "gemini-api-changelog",
+          "aws-whats-new",
+          "huggingface-blog",
+          "vercel-skills-1-7-2",
           "azure-announcements",
           "meta-ai-news",
-          "huggingface-blog",
+          "mistral-large-4",
+          "google-gemini-agent",
           "mcp-protocol-releases",
           "mcp-python-releases",
           "mcp-typescript-releases",
+          "mcp-use-2-8-2",
+          "ponytail-benchmark-hardening",
+          "caveman-3-2-0",
           "knowledge-triage-repo",
           "atomix-releases"
         ],
         "resultSummary": {
-          "en": "The rolling sweep found material Clef, mcp-use, Vercel skills, MCP Apps, and Ponytail changes; major-vendor checks that did not change a public judgment remain explicit.",
-          "ja": "ローリング確認でClef、mcp-use、Vercel skills、MCP Apps、Ponytailの重要変更を確認。公開判断を変えなかった主要ベンダー確認も明示した。"
+          "en": "The rolling first-party sweep found material Microsoft Decision, SkillFS, Cloudflare Skills-over-MCP, Anthropic workflow, AWS vector-filtering, and open decision-model movement; other named items retained prior judgments.",
+          "ja": "一次情報のローリング確認でMicrosoft Decision、SkillFS、Cloudflare Skills-over-MCP、Anthropicワークフロー、AWSベクトル絞り込み、公開判断モデルの重要な動きを確認。他の名前付き項目は従来判断を維持した。"
         },
         "queries": [
-          "site- and date-restricted October 4–10 checks across OpenAI, Anthropic, Google, Microsoft, AWS, Cloudflare, Meta, Mistral, and Hugging Face",
-          "site-restricted checks for TypeSafe/Jev, Vercel Skills, MCP, mcp-use, Ponytail, Caveman, Knowledge Triage, and Atomix"
+          "site- and date-restricted October 5–11 checks across OpenAI, Anthropic, Google, Microsoft, AWS, Cloudflare, Meta, Mistral, Hugging Face, TypeSafe, Vercel, and MCP",
+          "site-restricted release checks for tracked named entities and their vendors"
         ]
       },
       {
@@ -258,27 +286,31 @@
         },
         "runRole": "scout",
         "targetIds": [
-          "agent-independent-execution-evidence",
-          "tool-effect-integrity",
-          "knowledge-triage"
+          "agent-skills",
+          "pre-generation-memory-validity"
         ],
         "sourceIds": [
-          "agent-spy-paper",
-          "swe-game-paper"
+          "skillfs",
+          "cloudflare-skills-mcp",
+          "swe-skills-bench",
+          "memory-rereads-paper",
+          "personal-memory-validity-paper",
+          "mem0-dream",
+          "zep-temporal-facts"
         ],
         "resultSummary": {
-          "en": "Open discovery found two independently operated runtime-evidence systems, enough to spawn a research-stage category without promoting either implementation.",
-          "ja": "オープン探索で独立運営の実行時証拠システムを2件確認し、どちらも昇格させず研究段階カテゴリを成立させた。"
+          "en": "Open discovery strengthened skill governance while adding task-level counterevidence, and established a research-stage memory-validity category with independent supersession and temporal-fact implementations.",
+          "ja": "オープン探索はスキル統治を強化しつつタスク単位の反証を追加し、独立した置換・時間的事実実装に基づく研究段階のメモリ有効性カテゴリを成立させた。"
         },
         "queries": [
-          "agent reliability external runtime observability",
-          "long context memory stale misattributed latency",
-          "multi-agent orchestration worker transfer",
-          "tool security supply chain",
-          "human-agent interface benchmark",
-          "shadow agent fleets",
-          "delegated authorization receipt",
-          "executable artifact evaluation"
+          "stale misattributed long-context memory",
+          "pre-generation memory validity",
+          "active fact supersession retrieval",
+          "agent skill governance",
+          "skills over MCP",
+          "skill task-success benchmark",
+          "delegated authorization receipts",
+          "receiver-signed action receipts"
         ]
       }
     ],
@@ -298,7 +330,8 @@
       "radar-loop-3",
       "radar-health-1",
       "radar-daily-2026-10-09",
-      "radar-daily-2026-10-10"
+      "radar-daily-2026-10-10",
+      "radar-daily-2026-10-11"
     ],
     "sensors": [
       {
@@ -311,11 +344,7 @@
       },
       {
         "id": "github-public",
-        "state": "skipped",
-        "reason": {
-          "en": "A successful credential-free GitHub public fetch completed after this audit snapshot; its unverified repository signals await the next editorial review.",
-          "ja": "認証情報を使わないGitHub公開取得はこの監査スナップショット後に成功した。未検証のリポジトリ信号は次回の編集レビュー待ちである。"
-        }
+        "state": "checked"
       },
       {
         "id": "preprint",
@@ -357,45 +386,43 @@
         ],
         "sourceIds": [
           "typesafe-models",
-          "cloudflare-clef-update"
+          "microsoft-decision-1",
+          "mapika-decider"
         ],
         "summary": {
-          "en": "Jev remains text-only on 1.13 while Clef-omni adds audio and video and Clef-flash lists a lower input price; lower Jev-specific differentiation while strengthening category readiness.",
-          "ja": "Jevは1.13・テキスト専用のまま、Clef-omniは音声・動画を追加し、Clef-flashはより低い入力価格を掲載。Jev固有の差別化を下げ、カテゴリ準備度を強化する。"
+          "en": "Jev remains text-only on 1.13 with no new capability release while Microsoft-Decision-1 and Mapika decider add direct hosted and open substitutes; lower Jev-specific differentiation while strengthening category adoption paths.",
+          "ja": "Jevは新機能リリースがなく1.13・テキスト専用のまま、Microsoft-Decision-1とMapika deciderがホスト型・公開の直接代替を追加。Jev固有の差別化を下げ、カテゴリの導入経路を強化する。"
         }
       },
       {
         "kind": "material-finding",
         "targetIds": [
-          "agent-independent-execution-evidence"
+          "agent-skills"
         ],
         "sourceIds": [
-          "agent-spy-paper",
-          "swe-game-paper"
+          "skillfs",
+          "cloudflare-skills-mcp",
+          "swe-skills-bench"
         ],
         "summary": {
-          "en": "AgentSpy and SWE-Game independently show that evaluator-owned runtime evidence catches behavior missed by agent trajectories, outcome-only checks, or video-only judging; the category enters at WATCH.",
-          "ja": "AgentSpyとSWE-Gameは、評価者所有の実行時証拠がエージェント軌跡、成果物のみの検査、動画のみの判定が見逃す挙動を捉えると独立に示し、カテゴリをWATCHへ追加。"
+          "en": "SkillFS and Cloudflare Skills-over-MCP add independent governance and remote-distribution paths, while preliminary paired evaluation reports that most tested skills were neutral and some harmful; keep Agent Skills at WATCH with stricter task-level gates.",
+          "ja": "SkillFSとCloudflare Skills-over-MCPが独立した統治・遠隔配布経路を追加する一方、予備的対比較評価では多くのスキルが中立で一部は有害。Agent Skillsを厳格なタスク単位ゲート付きWATCHに維持する。"
         }
       },
       {
         "kind": "material-finding",
         "targetIds": [
-          "mcp-apps",
-          "mcp-use",
-          "agent-skills",
-          "vercel-skills",
-          "ponytail"
+          "pre-generation-memory-validity"
         ],
         "sourceIds": [
-          "mcp-apps-docs",
-          "mcp-use-2-8-2",
-          "vercel-skills-1-7-2",
-          "ponytail-benchmark-hardening"
+          "memory-rereads-paper",
+          "personal-memory-validity-paper",
+          "mem0-dream",
+          "zep-temporal-facts"
         ],
         "summary": {
-          "en": "Named host support, maintenance, distribution, and benchmark-hardening changes improve evidence, but do not establish cross-host compatibility, supply-chain trust, or independent task-success gains.",
-          "ja": "名前付きホスト対応、保守、配布、ベンチマーク強化は証拠を改善するが、ホスト横断互換性、供給網信頼、独立したタスク成功改善は未確立。"
+          "en": "Two independent studies expose stale and misattributed memory before generation, while Mem0 and Zep provide independently operated supersession and temporal-validity paths; add the category at WATCH without claiming general production validation.",
+          "ja": "独立した2研究が生成前の古い情報・誤帰属メモリを示し、Mem0とZepが独立運営の置換・時間的有効性経路を提供。一般的な本番検証を主張せずカテゴリをWATCHへ追加する。"
         }
       },
       {
@@ -403,18 +430,19 @@
         "targetIds": [
           "jev",
           "typed-probabilistic-decision-models",
-          "agent-independent-execution-evidence",
-          "vercel-skills"
+          "agent-skills",
+          "pre-generation-memory-validity"
         ],
         "sourceIds": [
-          "cloudflare-clef-update",
-          "agent-spy-paper",
-          "swe-game-paper",
-          "vercel-skills-1-7-2"
+          "microsoft-decision-1",
+          "skillfs",
+          "swe-skills-bench",
+          "memory-rereads-paper",
+          "personal-memory-validity-paper"
         ],
         "summary": {
-          "en": "Keep Jev and typed decisions at WATCH, add agent-independent execution evidence and Vercel skills at WATCH, and promote nothing to PILOT or the Core Atlas.",
-          "ja": "Jevと型付き判断をWATCHに維持し、エージェント非依存の実行証拠とVercel skillsをWATCHへ追加。PILOTやコア・アトラスへは昇格しない。"
+          "en": "Keep all four at WATCH, defer a combined authorization-and-action-receipts category because its pre-action and post-action mechanisms do not yet satisfy the same-value implementation threshold, and promote nothing to PILOT or the Core Atlas.",
+          "ja": "4項目をWATCHに維持。事前認可と事後証明の機構が同一価値の実装閾値をまだ満たさないため認可・行為レシート統合カテゴリは保留し、PILOTやコア・アトラスへは昇格しない。"
         }
       }
     ]
@@ -481,7 +509,7 @@
     {
       "signalId": "typed-probabilistic-decision-models",
       "stage": "watch",
-      "score": 56,
+      "score": 60,
       "compatibility": "unknown"
     },
     {
@@ -519,6 +547,12 @@
       "stage": "watch",
       "score": 34,
       "compatibility": "unknown"
+    },
+    {
+      "signalId": "pre-generation-memory-validity",
+      "stage": "watch",
+      "score": 46,
+      "compatibility": "unknown"
     }
   ],
   "signals": [
@@ -537,11 +571,11 @@
         "frontier": 83,
         "adoption": 58,
         "fit": 78,
-        "confidence": 74
+        "confidence": 78
       },
       "recommendation": {
-        "en": "Watch and prototype with pinned sources, permission disclosure, review, and cross-host conformance checks; installability is not trust.",
-        "ja": "固定済みソース、権限開示、レビュー、ホスト横断適合性確認を伴って観測・試作する。インストール可能であることは信頼ではない。"
+        "en": "WATCH with task-scoped visibility, pinned provenance, permission review, rollback, runtime audit, and paired task-success checks; distribution and token savings do not establish benefit.",
+        "ja": "タスク別表示、固定来歴、権限レビュー、ロールバック、実行時監査、対比較のタスク成功確認を伴ってWATCHする。配布可能性とトークン削減は有効性を証明しない。"
       },
       "tradeoffs": [
         {
@@ -567,12 +601,15 @@
         "sourceIds": [
           "agent-skills-spec",
           "vercel-skills-cli",
-          "vercel-skills-1-7-2"
+          "vercel-skills-1-7-2",
+          "skillfs",
+          "cloudflare-skills-mcp",
+          "swe-skills-bench"
         ],
-        "collectedAt": "2026-10-10",
+        "collectedAt": "2026-10-11",
         "method": {
-          "en": "Reviewed the open Agent Skills specification and Vercel skills 1.7.2 distribution changes. No package was installed; provenance, permissions, and cross-host behavior remain untested.",
-          "ja": "Agent Skills公開仕様とVercel skills 1.7.2の配布変更を確認。パッケージは未導入で、来歴、権限、ホスト横断動作は未検証。"
+          "en": "Reviewed SkillFS governance, Cloudflare’s Skills-over-MCP path, and preliminary paired SWE skill evidence. Token savings are vendor-run, and no package or cross-host security test was run.",
+          "ja": "SkillFS統治、CloudflareのSkills-over-MCP経路、予備的なSWEスキル対比較証拠を確認。トークン削減はベンダー実施で、パッケージ導入やホスト横断安全性試験は未実施。"
         }
       },
       "history": [
@@ -614,6 +651,49 @@
             "fit": 78,
             "confidence": 74
           }
+        },
+        {
+          "date": "2026-10-11",
+          "event": {
+            "en": "SkillFS and Cloudflare added governance and remote-distribution implementations; preliminary paired evaluation found mostly neutral and some harmful skills, raising confidence in stricter gates rather than readiness.",
+            "ja": "SkillFSとCloudflareが統治・遠隔配布実装を追加。予備的対比較評価では多くが中立で一部が有害であり、準備度ではなく厳格なゲートへの確信を高めた。"
+          },
+          "scores": {
+            "frontier": 83,
+            "adoption": 58,
+            "fit": 78,
+            "confidence": 78
+          }
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Vercel skills",
+          "vendor": "Vercel",
+          "organizationId": "vercel",
+          "access": "open installer and updater",
+          "sourceIds": [
+            "vercel-skills-cli",
+            "vercel-skills-1-7-2"
+          ]
+        },
+        {
+          "name": "SkillFS / ANOLISA",
+          "vendor": "Alibaba / OpenAnolis",
+          "organizationId": "alibaba-openanolis",
+          "access": "open Linux/FUSE governance runtime",
+          "sourceIds": [
+            "skillfs"
+          ]
+        },
+        {
+          "name": "Cloudflare Skills over MCP",
+          "vendor": "Cloudflare",
+          "organizationId": "cloudflare",
+          "access": "hosted MCP discovery and resource retrieval",
+          "sourceIds": [
+            "cloudflare-skills-mcp"
+          ]
         }
       ]
     },
@@ -1097,14 +1177,14 @@
       "kind": "discovery-candidate",
       "atlasTermIds": [],
       "scores": {
-        "frontier": 68,
+        "frontier": 64,
         "adoption": 24,
-        "fit": 46,
-        "confidence": 74
+        "fit": 44,
+        "confidence": 76
       },
       "recommendation": {
-        "en": "WATCH Jev as a commoditizing text-only comparison target, not the category default; benchmark it against Clef-omni, Perplexity, Quyet, Jebadiah, and calibrated baselines before adoption.",
-        "ja": "Jevをカテゴリ標準ではなく、コモディティ化するテキスト専用の比較対象としてWATCHする。導入前にClef-omni、Perplexity、Quyet、Jebadiah、較正済みベースラインと比較する。"
+        "en": "WATCH Jev as a commoditizing text-only comparison target, not the category default; benchmark it against Microsoft-Decision-1, Clef, Perplexity, open decider models, and calibrated baselines before adoption.",
+        "ja": "Jevをカテゴリ標準ではなくコモディティ化するテキスト専用比較対象としてWATCHする。導入前にMicrosoft-Decision-1、Clef、Perplexity、公開deciderモデル、較正済みベースラインと比較する。"
       },
       "tradeoffs": [
         {
@@ -1133,10 +1213,10 @@
           "typesafe-models",
           "infoq-jev"
         ],
-        "collectedAt": "2026-10-10",
+        "collectedAt": "2026-10-11",
         "method": {
-          "en": "Reviewed current TypeSafe model documentation and independently challenged it against Cloudflare’s first-party Clef update plus sibling-implementation searches. Competitor evidence lowered Jev-specific novelty and fit but was not counted as Jev capability evidence; no model was installed.",
-          "ja": "TypeSafeの現行モデル資料を確認し、CloudflareのClef一次更新と同等実装検索で独立に検証。競合証拠はJev固有の新規性と適合度を下げるために用い、Jevの能力証拠には算入していない。モデルは未導入。"
+          "en": "Reviewed TypeSafe’s current model documentation and challenged it against Microsoft’s first-party Decision documentation plus open sibling implementations. Competitor evidence lowered Jev-specific differentiation but was not counted as Jev capability evidence; no model was installed.",
+          "ja": "TypeSafeの現行モデル資料を確認し、Microsoft Decisionの一次資料と公開同等実装で検証。競合証拠はJev固有の差別化を下げるために用い、Jev能力の証拠には算入していない。モデルは未導入。"
         }
       },
       "history": [
@@ -1191,6 +1271,19 @@
             "fit": 46,
             "confidence": 74
           }
+        },
+        {
+          "date": "2026-10-11",
+          "event": {
+            "en": "Microsoft-Decision-1 added a major enterprise-hosted equivalent without a new Jev capability release; Jev-specific frontier and fit fell while WATCH remained unchanged.",
+            "ja": "Jevの新機能リリースがない中でMicrosoft-Decision-1が主要企業のホスト型同等実装を追加。WATCHは維持しつつJev固有のフロンティア性と適合度を引き下げた。"
+          },
+          "scores": {
+            "frontier": 64,
+            "adoption": 24,
+            "fit": 44,
+            "confidence": 76
+          }
         }
       ]
     },
@@ -1203,10 +1296,10 @@
       "kind": "concept",
       "atlasTermIds": [],
       "scores": {
-        "frontier": 94,
-        "adoption": 56,
-        "fit": 84,
-        "confidence": 90
+        "frontier": 95,
+        "adoption": 60,
+        "fit": 85,
+        "confidence": 92
       },
       "recommendation": {
         "en": "WATCH for cheap classification, routing, verification, abstention, and escalation; benchmark local workloads against calibrated classifiers and label-probability baselines before choosing an implementation.",
@@ -1296,6 +1389,24 @@
           "sourceIds": [
             "jebadiah-repo"
           ]
+        },
+        {
+          "name": "Microsoft-Decision-1",
+          "vendor": "Microsoft",
+          "organizationId": "microsoft",
+          "access": "hosted in Microsoft Foundry",
+          "sourceIds": [
+            "microsoft-decision-1"
+          ]
+        },
+        {
+          "name": "decider model family",
+          "vendor": "Mapika",
+          "organizationId": "mapika",
+          "access": "Apache-2.0 open models, training, evaluation, and serving",
+          "sourceIds": [
+            "mapika-decider"
+          ]
         }
       ],
       "compatibility": {
@@ -1319,12 +1430,14 @@
           "quyet-pypi",
           "jebadiah-repo",
           "vercel-decisions-gateway",
-          "cloudflare-clef-update"
+          "cloudflare-clef-update",
+          "microsoft-decision-1",
+          "mapika-decider"
         ],
-        "collectedAt": "2026-10-10",
+        "collectedAt": "2026-10-11",
         "method": {
-          "en": "Reviewed Cloudflare’s first-party Clef update and the existing cross-vendor implementation set. Multimodality, listed price, hosted latency, and internal-use evidence strengthened category readiness; vendor benchmarks were not treated as cross-vendor accuracy proof and no software was installed.",
-          "ja": "CloudflareのClef一次更新と既存のベンダー横断実装群を確認。マルチモーダル、掲載価格、ホスト遅延、社内利用証拠によりカテゴリ準備度を強化したが、ベンダーベンチマークは横断的な精度証明とは扱わず、ソフトウェアも未導入。"
+          "en": "Reviewed Microsoft’s first-party hosted implementation and Mapika’s open model/training/serving family. These broaden adoption and deployment evidence; vendor and project benchmarks were not treated as a cross-vendor winner, and no software was installed.",
+          "ja": "Microsoftの一次ホスト型実装とMapikaの公開モデル・学習・配信群を確認。導入・配備証拠は広がったが、ベンダー・プロジェクト評価を横断的な勝者の証明とは扱わず、ソフトウェアも未導入。"
         }
       },
       "history": [
@@ -1391,6 +1504,19 @@
             "adoption": 56,
             "fit": 84,
             "confidence": 90
+          }
+        },
+        {
+          "date": "2026-10-11",
+          "event": {
+            "en": "Microsoft-Decision-1 and Mapika decider added major hosted and open paths; category adoption strengthened while workload calibration and the winning implementation remain unsettled.",
+            "ja": "Microsoft-Decision-1とMapika deciderが主要なホスト型・公開経路を追加。カテゴリの導入準備は強まったが、仕事固有の較正と勝者は未確定。"
+          },
+          "scores": {
+            "frontier": 95,
+            "adoption": 60,
+            "fit": 85,
+            "confidence": 92
           }
         }
       ]
@@ -1829,6 +1955,96 @@
             "adoption": 34,
             "fit": 90,
             "confidence": 78
+          }
+        }
+      ]
+    },
+    {
+      "id": "pre-generation-memory-validity",
+      "name": {
+        "en": "Pre-generation memory validity",
+        "ja": "生成前メモリ有効性"
+      },
+      "kind": "concept",
+      "atlasTermIds": [
+        "agent-memory",
+        "long-term-memory"
+      ],
+      "scores": {
+        "frontier": 86,
+        "adoption": 46,
+        "fit": 92,
+        "confidence": 82
+      },
+      "recommendation": {
+        "en": "WATCH and learn the pattern: resolve active values, identity, provenance, and abstention before memory enters the prompt; require a bounded replay of changing real profiles before PILOT.",
+        "ja": "パターンとしてWATCHし学習する。メモリをプロンプトへ入れる前に、有効値、本人同定、来歴、棄却を解決する。PILOT前に変化する実プロフィールの限定再生試験を必須とする。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Active-only retrieval can prevent obsolete values from reaching generation, but incorrect merges or identity assignment can silently hide current facts.",
+          "ja": "有効値のみの検索は古い値の生成到達を防げるが、誤った統合や本人同定は現在の事実を静かに隠し得る。"
+        },
+        {
+          "en": "Temporal provenance makes updates auditable, but re-reads and genuine reversions remain ambiguous without trustworthy change evidence.",
+          "ja": "時間的来歴は更新を監査可能にするが、信頼できる変更証拠がなければ再読と正当な復帰は区別できない。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Mem0 Dream active-memory reads",
+          "vendor": "Mem0",
+          "organizationId": "mem0",
+          "access": "hosted memory supersession and latest-only retrieval",
+          "sourceIds": [
+            "mem0-dream"
+          ]
+        },
+        {
+          "name": "Zep / Graphiti temporal facts",
+          "vendor": "Zep",
+          "organizationId": "zep",
+          "access": "managed and open temporal fact lifecycle and retrieval",
+          "sourceIds": [
+            "zep-temporal-facts"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode profile history has been replayed through either implementation, and the two studies use controlled datasets rather than this workload.",
+          "ja": "Stangyodeのプロフィール履歴をどちらの実装でも再生しておらず、2研究もこの仕事ではなく制御データセットを使用している。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "memory-rereads-paper",
+          "personal-memory-validity-paper",
+          "mem0-dream",
+          "zep-temporal-facts"
+        ],
+        "collectedAt": "2026-10-11",
+        "method": {
+          "en": "Reviewed two independent preprints plus Mem0 and Zep first-party temporal-memory paths. No code was installed, study results were not reproduced, and production generality remains unverified.",
+          "ja": "独立した2本のプレプリントとMem0・Zepの一次時間メモリ経路を確認。コードは未導入で研究結果も再現せず、本番一般性は未検証。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-11",
+          "event": {
+            "en": "Spawned at WATCH when independent stale-memory studies aligned with separately operated supersession and temporal-validity implementations.",
+            "ja": "独立した古いメモリ研究と、別運営の置換・時間的有効性実装が整合したためWATCHでカテゴリ化。"
+          },
+          "scores": {
+            "frontier": 86,
+            "adoption": 46,
+            "fit": 92,
+            "confidence": 82
           }
         }
       ]

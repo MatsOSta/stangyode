@@ -774,5 +774,77 @@
       "en": "Official MCP protocol release feed; no material protocol release was identified in this audit.",
       "ja": "公式MCPプロトコル・リリースフィード。この監査では重要なプロトコル更新を確認しなかった。"
     }
+  },
+  "microsoft-decision-1": {
+    "title": "Microsoft-Decision-1 in Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision",
+    "note": {
+      "en": "First-party deployment and API documentation for Microsoft’s hosted typed decision model; benchmark and calibration claims remain vendor-reported.",
+      "ja": "Microsoftのホスト型・型付き判断モデルの配備とAPIに関する一次資料。ベンチマークと較正主張はベンダー報告。"
+    }
+  },
+  "mapika-decider": {
+    "title": "Mapika decider model family",
+    "url": "https://github.com/Mapika/decider",
+    "note": {
+      "en": "Apache-2.0 open model, training, evaluation, and serving stack for one-pass typed decisions; published results are project-reported.",
+      "ja": "一回の推論による型付き判断のApache-2.0公開モデル、学習、評価、配信スタック。公開結果はプロジェクト報告。"
+    }
+  },
+  "skillfs": {
+    "title": "Alibaba/OpenAnolis SkillFS",
+    "url": "https://www.alibabacloud.com/blog/skillfs-governing-dozens-of-agent-skills-with-a-file-system_603623",
+    "note": {
+      "en": "First-party description of a Linux/FUSE skill-governance runtime with task-scoped views, trust states, fallback, install fencing, and audit logs; token savings are vendor-run.",
+      "ja": "タスク別表示、信頼状態、フォールバック、導入フェンス、監査ログを備えるLinux/FUSEスキル統治ランタイムの一次資料。トークン削減値はベンダー実施。"
+    }
+  },
+  "cloudflare-skills-mcp": {
+    "title": "Cloudflare Skills over MCP",
+    "url": "https://developers.cloudflare.com/changelog/post/2026-10-10-cloudflare-mcp-skills/",
+    "note": {
+      "en": "First-party release exposing Cloudflare skills through skills/list and skill:// resources; independent client interoperability and security testing remain absent.",
+      "ja": "skills/listとskill://リソースでCloudflareスキルを公開する一次リリース。独立したクライアント互換性・安全性試験は未確認。"
+    }
+  },
+  "swe-skills-bench": {
+    "title": "SWE-Skills-Bench",
+    "url": "https://arxiv.org/html/2603.15401",
+    "note": {
+      "en": "Preliminary paired benchmark of 49 software-engineering skills and about 565 tasks; most skills were neutral and three degraded pass rate.",
+      "ja": "49件のソフトウェア開発スキルと約565タスクを扱う予備的な対比較ベンチマーク。多くは中立で、3件は成功率を下げた。"
+    }
+  },
+  "memory-rereads-paper": {
+    "title": "When Old Facts Return",
+    "url": "https://arxiv.org/abs/2610.07715",
+    "note": {
+      "en": "Preprint and reference artifacts showing that re-reading retired facts can reactivate stale values; a no-resurrection guard helps in the constructed condition but cannot identify legitimate reverts without provenance.",
+      "ja": "廃止済み事実の再読が古い値を再活性化し得ることを示すプレプリントと参照成果物。再活性化防止ガードは構成条件で有効だが、来歴なしに正当な復帰を識別できない。"
+    }
+  },
+  "personal-memory-validity-paper": {
+    "title": "Stale, Misattributed, or Late",
+    "url": "https://arxiv.org/abs/2610.10265",
+    "note": {
+      "en": "Preprint separating pre-generation memory validity, identity resolution, abstention, and serving latency; reported stale-exposure figures are study-specific.",
+      "ja": "生成前メモリの有効性、本人同定、棄却、配信遅延を分離するプレプリント。報告された古い情報露出率は研究固有。"
+    }
+  },
+  "mem0-dream": {
+    "title": "Mem0 Dream supersession and active-memory reads",
+    "url": "https://docs.mem0.ai/platform/features/dream",
+    "note": {
+      "en": "First-party documentation for superseding outdated memories and latest_only reads that exclude retired and merged values; this is a platform feature, not independent validation of the research studies.",
+      "ja": "古いメモリの置換と、廃止・統合済み値を除外するlatest_only読取の一次資料。プラットフォーム機能であり、研究結果の独立検証ではない。"
+    }
+  },
+  "zep-temporal-facts": {
+    "title": "Zep temporal facts and validity bounds",
+    "url": "https://help.getzep.com/facts",
+    "note": {
+      "en": "First-party documentation for valid_at and invalid_at fact bounds used in historical and point-in-time retrieval; the fields track lifecycle and do not prove source truth.",
+      "ja": "履歴・時点検索に用いる事実のvalid_atとinvalid_at境界の一次資料。ライフサイクルを追跡するが、情報源の真実性は証明しない。"
+    }
   }
 }

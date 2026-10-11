@@ -43,6 +43,12 @@
           "adoption": 56,
           "fit": 84,
           "confidence": 90
+        },
+        {
+          "frontier": 95,
+          "adoption": 60,
+          "fit": 85,
+          "confidence": 92
         }
       ]
     },
@@ -59,7 +65,9 @@
         "ggml-org",
         "perplexity",
         "chinhnc",
-        "getainode"
+        "getainode",
+        "microsoft",
+        "mapika"
       ],
       "requiredSourceIds": [
         "typesafe-system-one",
@@ -69,7 +77,9 @@
         "llamacpp-decision-models",
         "perplexity-decisions",
         "quyet-pypi",
-        "jebadiah-repo"
+        "jebadiah-repo",
+        "microsoft-decision-1",
+        "mapika-decider"
       ]
     },
     {
@@ -84,6 +94,36 @@
       "requiredSourceIds": [
         "agent-spy-paper",
         "swe-game-paper"
+      ]
+    },
+    {
+      "id": "agent-skills-governance-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "agent-skills",
+      "minimumIndependentOrganizations": 3,
+      "requiredOrganizationIds": [
+        "vercel",
+        "alibaba-openanolis",
+        "cloudflare"
+      ],
+      "requiredSourceIds": [
+        "vercel-skills-cli",
+        "skillfs",
+        "cloudflare-skills-mcp"
+      ]
+    },
+    {
+      "id": "memory-validity-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "pre-generation-memory-validity",
+      "minimumIndependentOrganizations": 2,
+      "requiredOrganizationIds": [
+        "mem0",
+        "zep"
+      ],
+      "requiredSourceIds": [
+        "mem0-dream",
+        "zep-temporal-facts"
       ]
     }
   ]

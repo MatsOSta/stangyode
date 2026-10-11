@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-10
+Snapshot / スナップショット: 2026-10-11
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,92 +8,96 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-10T06:03:07Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-11T06:13:26Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: SUCCESS; last success 2026-10-10T05:08:51Z; failure streak 0; last failure rate_limit at 2026-10-08T13:31:55Z (resolved)
-- editor: SUCCESS; last success 2026-10-10T06:03:07Z; failure streak 0
+- scout: SUCCESS; last success 2026-10-11T05:08:42Z; failure streak 0; last failure rate_limit at 2026-10-08T13:31:55Z (resolved)
+- editor: SUCCESS; last success 2026-10-11T06:13:26Z; failure streak 0
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: SKIPPED — A successful credential-free GitHub public fetch completed after this audit snapshot; its unverified repository signals await the next editorial review. / 認証情報を使わないGitHub公開取得はこの監査スナップショット後に成功した。未検証のリポジトリ信号は次回の編集レビュー待ちである。
+- github-public: CHECKED
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
-- [Cloudflare Clef multimodal, price, and latency update](https://blog.cloudflare.com/clef-faster-cheaper-multimodal/): relevant; checked 2026-10-10; source cloudflare-clef-update
-- [TypeSafe current models](https://docs.typesafe.ai/models): no-material-change; checked 2026-10-10; source typesafe-models
-- [mcp-use 2.8.2 release](https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.2): relevant; checked 2026-10-10; source mcp-use-2-8-2
-- [MCP Apps](https://modelcontextprotocol.io/extensions/apps/overview): relevant; checked 2026-10-10; source mcp-apps-docs
-- [Vercel skills 1.7.2 release](https://github.com/vercel-labs/skills/releases/tag/v1.7.2): relevant; checked 2026-10-10; source vercel-skills-1-7-2
-- [Ponytail benchmark completeness hardening](https://github.com/DietrichGebert/ponytail/commit/88cedebb3c1f8d024ef361e13232bdf98c071481): relevant; checked 2026-10-10; source ponytail-benchmark-hardening
-- [AgentSpy: Making AI Agent Behavior Observable](https://arxiv.org/abs/2610.06001): relevant; checked 2026-10-10; source agent-spy-paper
-- [SWE-Game: Can Coding Agents Build the Games We Want?](https://arxiv.org/abs/2609.33678): relevant; checked 2026-10-10; source swe-game-paper
-- [Microsoft Copilot model rollout](https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-1-sol-and-claude-sonnet-5-5-in/ba-p/4560801): relevant; checked 2026-10-10; source microsoft-copilot-rollout
-- [Anthropic Cyber Verification Program update](https://www.anthropic.com/news/cyber-verification-program): relevant; checked 2026-10-10; source anthropic-cyber-verification
-- [Mistral Large 4 announcement](https://mistral.ai/news/mistral-large-4/): relevant; checked 2026-10-10; source mistral-large-4
-- [Gemini API release notes](https://ai.google.dev/gemini-api/docs/changelog): relevant; checked 2026-10-10; source gemini-api-changelog
-- [AWS What’s New](https://aws.amazon.com/about-aws/whats-new/): no-material-change; checked 2026-10-10; source aws-whats-new
-- [OpenAI API changelog](https://developers.openai.com/api/docs/changelog): no-material-change; checked 2026-10-10; source openai-changelog
-- [Anthropic API release notes](https://docs.anthropic.com/en/release-notes/api): no-material-change; checked 2026-10-10; source anthropic-api-release-notes
-- [Google Cloud Gemini agent announcement](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026): no-material-change; checked 2026-10-10; source google-gemini-agent
-- [Microsoft Azure announcements](https://azure.microsoft.com/en-us/blog/content-type/announcements/): no-material-change; checked 2026-10-10; source azure-announcements
-- [Meta AI news](https://about.fb.com/news/tag/ai): no-material-change; checked 2026-10-10; source meta-ai-news
-- [Hugging Face blog](https://huggingface.co/blog): relevant; checked 2026-10-10; source huggingface-blog
-- [MCP protocol releases](https://github.com/modelcontextprotocol/modelcontextprotocol/releases): no-material-change; checked 2026-10-10; source mcp-protocol-releases
-- [MCP Python SDK releases](https://github.com/modelcontextprotocol/python-sdk/releases): no-material-change; checked 2026-10-10; source mcp-python-releases
-- [MCP TypeScript SDK releases](https://github.com/modelcontextprotocol/typescript-sdk/releases): no-material-change; checked 2026-10-10; source mcp-typescript-releases
-- [Knowledge Triage reference implementation](https://github.com/searchsim-org/cikm26-knowledge-triage): no-material-change; checked 2026-10-10; source knowledge-triage-repo
-- [Atomix releases](https://github.com/mpi-dsg/atomix/releases): no-material-change; checked 2026-10-10; source atomix-releases
+- [TypeSafe current models](https://docs.typesafe.ai/models): no-material-change; checked 2026-10-11; source typesafe-models
+- [Microsoft-Decision-1 in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision): relevant; checked 2026-10-11; source microsoft-decision-1
+- [Mapika decider model family](https://github.com/Mapika/decider): relevant; checked 2026-10-11; source mapika-decider
+- [Alibaba/OpenAnolis SkillFS](https://www.alibabacloud.com/blog/skillfs-governing-dozens-of-agent-skills-with-a-file-system_603623): relevant; checked 2026-10-11; source skillfs
+- [Cloudflare Skills over MCP](https://developers.cloudflare.com/changelog/post/2026-10-10-cloudflare-mcp-skills/): relevant; checked 2026-10-11; source cloudflare-skills-mcp
+- [SWE-Skills-Bench](https://arxiv.org/html/2603.15401): relevant; checked 2026-10-11; source swe-skills-bench
+- [When Old Facts Return](https://arxiv.org/abs/2610.07715): relevant; checked 2026-10-11; source memory-rereads-paper
+- [Stale, Misattributed, or Late](https://arxiv.org/abs/2610.10265): relevant; checked 2026-10-11; source personal-memory-validity-paper
+- [Mem0 Dream supersession and active-memory reads](https://docs.mem0.ai/platform/features/dream): relevant; checked 2026-10-11; source mem0-dream
+- [Zep temporal facts and validity bounds](https://help.getzep.com/facts): relevant; checked 2026-10-11; source zep-temporal-facts
+- [OpenAI API changelog](https://developers.openai.com/api/docs/changelog): no-material-change; checked 2026-10-11; source openai-changelog
+- [Anthropic API release notes](https://docs.anthropic.com/en/release-notes/api): relevant; checked 2026-10-11; source anthropic-api-release-notes
+- [Gemini API release notes](https://ai.google.dev/gemini-api/docs/changelog): no-material-change; checked 2026-10-11; source gemini-api-changelog
+- [AWS What’s New](https://aws.amazon.com/about-aws/whats-new/): relevant; checked 2026-10-11; source aws-whats-new
+- [Hugging Face blog](https://huggingface.co/blog): relevant; checked 2026-10-11; source huggingface-blog
+- [Vercel skills 1.7.2 release](https://github.com/vercel-labs/skills/releases/tag/v1.7.2): no-material-change; checked 2026-10-11; source vercel-skills-1-7-2
+- [Microsoft Azure announcements](https://azure.microsoft.com/en-us/blog/content-type/announcements/): no-material-change; checked 2026-10-11; source azure-announcements
+- [Meta AI news](https://about.fb.com/news/tag/ai): no-material-change; checked 2026-10-11; source meta-ai-news
+- [Mistral Large 4 announcement](https://mistral.ai/news/mistral-large-4/): no-material-change; checked 2026-10-11; source mistral-large-4
+- [Google Cloud Gemini agent announcement](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026): no-material-change; checked 2026-10-11; source google-gemini-agent
+- [MCP protocol releases](https://github.com/modelcontextprotocol/modelcontextprotocol/releases): no-material-change; checked 2026-10-11; source mcp-protocol-releases
+- [MCP Python SDK releases](https://github.com/modelcontextprotocol/python-sdk/releases): no-material-change; checked 2026-10-11; source mcp-python-releases
+- [MCP TypeScript SDK releases](https://github.com/modelcontextprotocol/typescript-sdk/releases): no-material-change; checked 2026-10-11; source mcp-typescript-releases
+- [mcp-use 2.8.2 release](https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.2): no-material-change; checked 2026-10-11; source mcp-use-2-8-2
+- [Ponytail benchmark completeness hardening](https://github.com/DietrichGebert/ponytail/commit/88cedebb3c1f8d024ef361e13232bdf98c071481): no-material-change; checked 2026-10-11; source ponytail-benchmark-hardening
+- [Caveman 3.2.0 release](https://github.com/JuliusBrussee/caveman/releases/tag/v3.2.0): no-material-change; checked 2026-10-11; source caveman-3-2-0
+- [Knowledge Triage reference implementation](https://github.com/searchsim-org/cikm26-knowledge-triage): no-material-change; checked 2026-10-11; source knowledge-triage-repo
+- [Atomix releases](https://github.com/mpi-dsg/atomix/releases): no-material-change; checked 2026-10-11; source atomix-releases
 
 ### Queries run / 実行クエリ
 ### Named entities and sibling implementations / 名前付きエンティティと同等実装
-Clef-omni further commoditized text-only Jev while strengthening typed decisions; named framework, distribution, and benchmark changes remained separate from their broader categories. / Clef-omniはテキスト専用Jevをさらにコモディティ化しつつ型付き判断を強化。名前付きフレームワーク、配布、ベンチマーク変更は広いカテゴリと分離して保持した。
+Microsoft-Decision-1 and Mapika decider broaden direct substitutes for Jev; other tracked named implementations had no verified material release after October 10. / Microsoft-Decision-1とMapika deciderがJevの直接代替を拡大。他の追跡中の名前付き実装には10月10日以降の重要リリースを確認しなかった。
 
-Targets: jev, typed-probabilistic-decision-models, mcp-use, vercel-skills, ponytail, caveman, gemini-agent
+Targets: jev, typed-probabilistic-decision-models, agent-skills, vercel-skills, mcp-apps, mcp-use, ponytail, caveman, gemini-agent
 
-Evidence: typesafe-models, cloudflare-clef-update, mcp-use-2-8-2, vercel-skills-1-7-2, ponytail-benchmark-hardening
+Evidence: typesafe-models, microsoft-decision-1, mapika-decider, vercel-skills-1-7-2, mcp-use-2-8-2, ponytail-benchmark-hardening, caveman-3-2-0
 
-- `exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for Jev, Agent Skills, MCP Apps, mcp-use, Ponytail, Caveman, Gemini agent, Knowledge Triage, and Atomix`
+- `exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for Jev, Agent Skills, Vercel skills, MCP Apps, mcp-use, Ponytail, Caveman, Gemini agent, Knowledge Triage, Atomix, AgentSpy, and SWE-Game`
 - `Jev alternatives competitors`
 - `decision API/model`
 - `typed answers`
 - `predicate choice score`
 - `classification routing probabilities`
 - `bounded finite-answer decisions`
-- `major-vendor decision model equivalent`
+- `major-vendor equivalent`
 
 ### First-party release sweep / 一次情報リリース確認
-The rolling sweep found material Clef, mcp-use, Vercel skills, MCP Apps, and Ponytail changes; major-vendor checks that did not change a public judgment remain explicit. / ローリング確認でClef、mcp-use、Vercel skills、MCP Apps、Ponytailの重要変更を確認。公開判断を変えなかった主要ベンダー確認も明示した。
+The rolling first-party sweep found material Microsoft Decision, SkillFS, Cloudflare Skills-over-MCP, Anthropic workflow, AWS vector-filtering, and open decision-model movement; other named items retained prior judgments. / 一次情報のローリング確認でMicrosoft Decision、SkillFS、Cloudflare Skills-over-MCP、Anthropicワークフロー、AWSベクトル絞り込み、公開判断モデルの重要な動きを確認。他の名前付き項目は従来判断を維持した。
 
-Targets: jev, typed-probabilistic-decision-models, mcp-use, mcp-apps, agent-skills, vercel-skills, ponytail, gemini-agent
+Targets: jev, typed-probabilistic-decision-models, agent-skills, vercel-skills, mcp-apps, mcp-use, ponytail, caveman, gemini-agent
 
-Evidence: cloudflare-clef-update, typesafe-models, mcp-use-2-8-2, mcp-apps-docs, vercel-skills-1-7-2, ponytail-benchmark-hardening, microsoft-copilot-rollout, anthropic-cyber-verification, mistral-large-4, gemini-api-changelog, aws-whats-new, openai-changelog, anthropic-api-release-notes, google-gemini-agent, azure-announcements, meta-ai-news, huggingface-blog, mcp-protocol-releases, mcp-python-releases, mcp-typescript-releases, knowledge-triage-repo, atomix-releases
+Evidence: typesafe-models, microsoft-decision-1, mapika-decider, skillfs, cloudflare-skills-mcp, mem0-dream, zep-temporal-facts, openai-changelog, anthropic-api-release-notes, gemini-api-changelog, aws-whats-new, huggingface-blog, vercel-skills-1-7-2, azure-announcements, meta-ai-news, mistral-large-4, google-gemini-agent, mcp-protocol-releases, mcp-python-releases, mcp-typescript-releases, mcp-use-2-8-2, ponytail-benchmark-hardening, caveman-3-2-0, knowledge-triage-repo, atomix-releases
 
-- `site- and date-restricted October 4–10 checks across OpenAI, Anthropic, Google, Microsoft, AWS, Cloudflare, Meta, Mistral, and Hugging Face`
-- `site-restricted checks for TypeSafe/Jev, Vercel Skills, MCP, mcp-use, Ponytail, Caveman, Knowledge Triage, and Atomix`
+- `site- and date-restricted October 5–11 checks across OpenAI, Anthropic, Google, Microsoft, AWS, Cloudflare, Meta, Mistral, Hugging Face, TypeSafe, Vercel, and MCP`
+- `site-restricted release checks for tracked named entities and their vendors`
 
 ### Open phenomenon discovery / 現象ベースのオープン探索
-Open discovery found two independently operated runtime-evidence systems, enough to spawn a research-stage category without promoting either implementation. / オープン探索で独立運営の実行時証拠システムを2件確認し、どちらも昇格させず研究段階カテゴリを成立させた。
+Open discovery strengthened skill governance while adding task-level counterevidence, and established a research-stage memory-validity category with independent supersession and temporal-fact implementations. / オープン探索はスキル統治を強化しつつタスク単位の反証を追加し、独立した置換・時間的事実実装に基づく研究段階のメモリ有効性カテゴリを成立させた。
 
-Targets: agent-independent-execution-evidence, tool-effect-integrity, knowledge-triage
+Targets: agent-skills, pre-generation-memory-validity
 
-Evidence: agent-spy-paper, swe-game-paper
+Evidence: skillfs, cloudflare-skills-mcp, swe-skills-bench, memory-rereads-paper, personal-memory-validity-paper, mem0-dream, zep-temporal-facts
 
-- `agent reliability external runtime observability`
-- `long context memory stale misattributed latency`
-- `multi-agent orchestration worker transfer`
-- `tool security supply chain`
-- `human-agent interface benchmark`
-- `shadow agent fleets`
-- `delegated authorization receipt`
-- `executable artifact evaluation`
+- `stale misattributed long-context memory`
+- `pre-generation memory validity`
+- `active fact supersession retrieval`
+- `agent skill governance`
+- `skills over MCP`
+- `skill task-success benchmark`
+- `delegated authorization receipts`
+- `receiver-signed action receipts`
 
 ### Tracked named entities / 追跡中の名前付きエンティティ
 - jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent
 
 ### Changelog entries checked / 確認済み変更履歴
-- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10
+- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -101,26 +105,27 @@ Evidence: agent-spy-paper, swe-game-paper
 - anthropic-context; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
 
 ### Findings and decisions / 発見と判断
-- material-finding; jev, typed-probabilistic-decision-models: Jev remains text-only on 1.13 while Clef-omni adds audio and video and Clef-flash lists a lower input price; lower Jev-specific differentiation while strengthening category readiness. / Jevは1.13・テキスト専用のまま、Clef-omniは音声・動画を追加し、Clef-flashはより低い入力価格を掲載。Jev固有の差別化を下げ、カテゴリ準備度を強化する。; evidence: typesafe-models, cloudflare-clef-update
-- material-finding; agent-independent-execution-evidence: AgentSpy and SWE-Game independently show that evaluator-owned runtime evidence catches behavior missed by agent trajectories, outcome-only checks, or video-only judging; the category enters at WATCH. / AgentSpyとSWE-Gameは、評価者所有の実行時証拠がエージェント軌跡、成果物のみの検査、動画のみの判定が見逃す挙動を捉えると独立に示し、カテゴリをWATCHへ追加。; evidence: agent-spy-paper, swe-game-paper
-- material-finding; mcp-apps, mcp-use, agent-skills, vercel-skills, ponytail: Named host support, maintenance, distribution, and benchmark-hardening changes improve evidence, but do not establish cross-host compatibility, supply-chain trust, or independent task-success gains. / 名前付きホスト対応、保守、配布、ベンチマーク強化は証拠を改善するが、ホスト横断互換性、供給網信頼、独立したタスク成功改善は未確立。; evidence: mcp-apps-docs, mcp-use-2-8-2, vercel-skills-1-7-2, ponytail-benchmark-hardening
-- editorial-decision; jev, typed-probabilistic-decision-models, agent-independent-execution-evidence, vercel-skills: Keep Jev and typed decisions at WATCH, add agent-independent execution evidence and Vercel skills at WATCH, and promote nothing to PILOT or the Core Atlas. / Jevと型付き判断をWATCHに維持し、エージェント非依存の実行証拠とVercel skillsをWATCHへ追加。PILOTやコア・アトラスへは昇格しない。; evidence: cloudflare-clef-update, agent-spy-paper, swe-game-paper, vercel-skills-1-7-2
+- material-finding; jev, typed-probabilistic-decision-models: Jev remains text-only on 1.13 with no new capability release while Microsoft-Decision-1 and Mapika decider add direct hosted and open substitutes; lower Jev-specific differentiation while strengthening category adoption paths. / Jevは新機能リリースがなく1.13・テキスト専用のまま、Microsoft-Decision-1とMapika deciderがホスト型・公開の直接代替を追加。Jev固有の差別化を下げ、カテゴリの導入経路を強化する。; evidence: typesafe-models, microsoft-decision-1, mapika-decider
+- material-finding; agent-skills: SkillFS and Cloudflare Skills-over-MCP add independent governance and remote-distribution paths, while preliminary paired evaluation reports that most tested skills were neutral and some harmful; keep Agent Skills at WATCH with stricter task-level gates. / SkillFSとCloudflare Skills-over-MCPが独立した統治・遠隔配布経路を追加する一方、予備的対比較評価では多くのスキルが中立で一部は有害。Agent Skillsを厳格なタスク単位ゲート付きWATCHに維持する。; evidence: skillfs, cloudflare-skills-mcp, swe-skills-bench
+- material-finding; pre-generation-memory-validity: Two independent studies expose stale and misattributed memory before generation, while Mem0 and Zep provide independently operated supersession and temporal-validity paths; add the category at WATCH without claiming general production validation. / 独立した2研究が生成前の古い情報・誤帰属メモリを示し、Mem0とZepが独立運営の置換・時間的有効性経路を提供。一般的な本番検証を主張せずカテゴリをWATCHへ追加する。; evidence: memory-rereads-paper, personal-memory-validity-paper, mem0-dream, zep-temporal-facts
+- editorial-decision; jev, typed-probabilistic-decision-models, agent-skills, pre-generation-memory-validity: Keep all four at WATCH, defer a combined authorization-and-action-receipts category because its pre-action and post-action mechanisms do not yet satisfy the same-value implementation threshold, and promote nothing to PILOT or the Core Atlas. / 4項目をWATCHに維持。事前認可と事後証明の機構が同一価値の実装閾値をまだ満たさないため認可・行為レシート統合カテゴリは保留し、PILOTやコア・アトラスへは昇格しない。; evidence: microsoft-decision-1, skillfs, swe-skills-bench, memory-rereads-paper, personal-memory-validity-paper
 
 ## Signals / シグナル
 
 ### Agent Skills / Agent Skills
 - Adoption stage / 導入段階: WATCH (58/100)
-- Scores / スコア: frontier 83, fit 78, confidence 74
-- Recommendation / 推奨: Watch and prototype with pinned sources, permission disclosure, review, and cross-host conformance checks; installability is not trust. / 固定済みソース、権限開示、レビュー、ホスト横断適合性確認を伴って観測・試作する。インストール可能であることは信頼ではない。
+- Scores / スコア: frontier 83, fit 78, confidence 78
+- Recommendation / 推奨: WATCH with task-scoped visibility, pinned provenance, permission review, rollback, runtime audit, and paired task-success checks; distribution and token savings do not establish benefit. / タスク別表示、固定来歴、権限レビュー、ロールバック、実行時監査、対比較のタスク成功確認を伴ってWATCHする。配布可能性とトークン削減は有効性を証明しない。
 - Compatibility / 互換性: UNKNOWN — Host, permission, and instruction-loading compatibility remains untested across named clients. / 指定したクライアント間でのホスト、権限、指示読み込みの互換性は未検証。
 - Trade-offs / トレードオフ:
   - Portable instructions can improve reuse, but hidden dependencies can weaken reviewability. / 移植可能な指示は再利用性を高めるが、隠れた依存関係はレビュー可能性を下げる。
   - Progressive disclosure reduces context load, but adds packaging and lifecycle work. / 段階的開示はコンテキスト負荷を減らすが、パッケージ化とライフサイクル作業が増える。
-- Provenance / 来歴: verification; partially-verified; 2026-10-10
+- Provenance / 来歴: verification; partially-verified; 2026-10-11
 - History / 履歴:
   - 2026-09-24: Seeded for watch-list review. / ウォッチリスト確認用にシード。
   - 2026-10-08: Added implementation evidence for cross-client installation and update semantics; high attention supports WATCH, while provenance and permission controls remain weak. / クライアント横断のインストールと更新機能の実装証拠を追加。高い注目はWATCHを支持するが、来歴と権限制御は弱いまま。
   - 2026-10-10: Vercel skills 1.7.2 strengthened dependency and workspace distribution semantics; category readiness rose slightly while trust and permission controls remain unsettled. / Vercel skills 1.7.2が依存関係とワークスペース配布規則を強化。カテゴリ準備度をわずかに上げたが、信頼と権限制御は未確定。
+  - 2026-10-11: SkillFS and Cloudflare added governance and remote-distribution implementations; preliminary paired evaluation found mostly neutral and some harmful skills, raising confidence in stricter gates rather than readiness. / SkillFSとCloudflareが統治・遠隔配布実装を追加。予備的対比較評価では多くが中立で一部が有害であり、準備度ではなく厳格なゲートへの確信を高めた。
 
 ### MCP Apps / MCP Apps
 - Adoption stage / 導入段階: WATCH (54/100)
@@ -201,34 +206,36 @@ Evidence: agent-spy-paper, swe-game-paper
 
 ### Jev / Jev
 - Adoption stage / 導入段階: WATCH (24/100)
-- Scores / スコア: frontier 68, fit 46, confidence 74
-- Recommendation / 推奨: WATCH Jev as a commoditizing text-only comparison target, not the category default; benchmark it against Clef-omni, Perplexity, Quyet, Jebadiah, and calibrated baselines before adoption. / Jevをカテゴリ標準ではなく、コモディティ化するテキスト専用の比較対象としてWATCHする。導入前にClef-omni、Perplexity、Quyet、Jebadiah、較正済みベースラインと比較する。
+- Scores / スコア: frontier 64, fit 44, confidence 76
+- Recommendation / 推奨: WATCH Jev as a commoditizing text-only comparison target, not the category default; benchmark it against Microsoft-Decision-1, Clef, Perplexity, open decider models, and calibrated baselines before adoption. / Jevをカテゴリ標準ではなくコモディティ化するテキスト専用比較対象としてWATCHする。導入前にMicrosoft-Decision-1、Clef、Perplexity、公開deciderモデル、較正済みベースラインと比較する。
 - Compatibility / 互換性: UNKNOWN — No Stangyode workload has been run against Jev, and vendor quality or calibration claims have not been independently reproduced here. / Stangyodeの仕事をJevで実行しておらず、ベンダーの品質・較正主張もここでは独立再現していない。
 - Trade-offs / トレードオフ:
   - Jev offers typed, parse-free answers and vendor-reported low latency and cost, but it remains early-access and text-only. / Jevは解析不要の型付き回答とベンダー報告の低遅延・低コストを提供するが、早期アクセスかつテキスト専用である。
   - Clef-omni now adds native audio and video while Clef-flash undercuts Jev’s listed input price; these are competitor capabilities and reduce Jev-specific differentiation rather than strengthen Jev. / Clef-omniは音声・動画をネイティブ対応し、Clef-flashはJevの掲載入力価格を下回る。これらは競合能力であり、Jevを強化せずJev固有の差別化を下げる。
-- Provenance / 来歴: verification; partially-verified; 2026-10-10
+- Provenance / 来歴: verification; partially-verified; 2026-10-11
 - History / 履歴:
   - 2026-10-08: Initially discovered inside a combined System One / typed-decisions record. / 当初はシステムワン / 型付き判断の統合レコード内で発見された。
   - 2026-10-08: Split into a named-entity record after multiple equivalents emerged. Jev remains WATCH, but its implementation-specific fit and differentiation were lowered. / 複数の同等実装が登場したため名前付きエンティティへ分離。JevはWATCHを維持するが、実装固有の適合度と差別化を引き下げた。
   - 2026-10-09: Perplexity Decisions, Quyet, and Jebadiah added more direct substitutes without a verified Jev capability release; Jev-specific frontier and fit scores fell again. / Jevの能力リリースは確認されない一方、Perplexity Decisions、Quyet、Jebadiahという直接代替が増え、Jev固有のフロンティア性と適合度を再度引き下げた。
   - 2026-10-10: Jev remained on version 1.13 and text-only while Clef-omni added audio/video and Clef-flash listed a lower input price; Jev-specific frontier and fit fell without changing its WATCH stage. / Jevは1.13・テキスト専用のまま、Clef-omniが音声・動画を追加し、Clef-flashがより低い入力価格を掲載。WATCH段階は維持しつつ、Jev固有のフロンティア性と適合度を引き下げた。
+  - 2026-10-11: Microsoft-Decision-1 added a major enterprise-hosted equivalent without a new Jev capability release; Jev-specific frontier and fit fell while WATCH remained unchanged. / Jevの新機能リリースがない中でMicrosoft-Decision-1が主要企業のホスト型同等実装を追加。WATCHは維持しつつJev固有のフロンティア性と適合度を引き下げた。
 
 ### Typed probabilistic decision models / 型付き確率的判断モデル
-- Adoption stage / 導入段階: WATCH (56/100)
-- Scores / スコア: frontier 94, fit 84, confidence 90
+- Adoption stage / 導入段階: WATCH (60/100)
+- Scores / スコア: frontier 95, fit 85, confidence 92
 - Recommendation / 推奨: WATCH for cheap classification, routing, verification, abstention, and escalation; benchmark local workloads against calibrated classifiers and label-probability baselines before choosing an implementation. / 低コストの分類、ルーティング、検証、棄却、エスカレーション用途としてWATCHする。実装選定前に、実際の仕事を較正済み分類器とラベル確率ベースラインに対して評価する。
 - Compatibility / 互換性: UNKNOWN — Adoption paths exist for hosted, open-weight, local, text, and multimodal use, but no implementation has been benchmarked on a Stangyode workload. / ホスト型、公開ウェイト、ローカル、テキスト、マルチモーダルの導入経路はあるが、Stangyodeの仕事で評価した実装はない。
 - Trade-offs / トレードオフ:
   - Bounded predicate, choice, and score outputs avoid free-text parsing and expose probabilities in one pass, but task-specific calibration still has to be measured. / 限定されたpredicate、choice、score出力は自由文解析を避け、一回の推論で確率を示すが、仕事固有の較正は測定が必要である。
   - Hosted, open-weight, CPU/GPU, local, fully multimodal, and provider-neutral gateway paths now exist; calibration, robustness, deployment, and price—not interface novelty—decide between them. / ホスト型、公開ウェイト、CPU/GPU、ローカル、完全マルチモーダル、プロバイダー中立ゲートウェイの経路が揃った。実装選定はインターフェースの新規性ではなく、較正、堅牢性、配備、価格で決まる。
-- Provenance / 来歴: verification; partially-verified; 2026-10-10
+- Provenance / 来歴: verification; partially-verified; 2026-10-11
 - History / 履歴:
   - 2026-10-08: Discovered without a Jev-named query. Initially tracked as a combined System One / typed-decisions signal with Jev as its known implementation. / Jevという名前のクエリなしで発見。当初はJevを既知の実装とする、システムワン / 型付き判断の統合シグナルとして追跡した。
   - 2026-10-08: Added an open implementation and an independent early evidence audit. The interface and latency/cost case strengthened; general accuracy superiority remained unproven. / 公開実装と独立した初期証拠監査を追加。インターフェースと遅延・コスト面は強まったが、一般的な精度優位は未証明のままだった。
   - 2026-10-08: Spawned as a category when OpenAI Decisions, open multimodal models, and a six-model llama.cpp stack established credible cross-vendor convergence around typed probabilistic decisions. / OpenAI Decisions、公開マルチモーダルモデル、6モデルのllama.cppスタックにより、型付き確率的判断への信頼できるベンダー横断収束が成立したためカテゴリとして分離。
   - 2026-10-09: Perplexity, Quyet, and Jebadiah expanded hosted and open implementation diversity; runnable paths strengthened the category while no cross-vendor benchmark established a winner. / Perplexity、Quyet、Jebadiahによりホスト型・公開実装の多様性が拡大。実行可能経路はカテゴリを強化したが、ベンダー横断評価による勝者は未確定。
   - 2026-10-10: Clef-omni added native audio and video, while listed price, hosted latency, and internal-use evidence strengthened category readiness; no independent cross-vendor benchmark established a winner. / Clef-omniが音声・動画をネイティブ対応し、掲載価格、ホスト遅延、社内利用証拠によりカテゴリ準備度を強化。ただし独立したベンダー横断評価による勝者は未確定。
+  - 2026-10-11: Microsoft-Decision-1 and Mapika decider added major hosted and open paths; category adoption strengthened while workload calibration and the winning implementation remain unsettled. / Microsoft-Decision-1とMapika deciderが主要なホスト型・公開経路を追加。カテゴリの導入準備は強まったが、仕事固有の較正と勝者は未確定。
 
 ### Knowledge Triage / type-aware retention / Knowledge Triage / 型対応保持
 - Adoption stage / 導入段階: WATCH (28/100)
@@ -302,6 +309,18 @@ Evidence: agent-spy-paper, swe-game-paper
 - Provenance / 来歴: discovery; partially-verified; 2026-10-10
 - History / 履歴:
   - 2026-10-10: Spawned as a category when AgentSpy and SWE-Game independently showed that externally collected runtime evidence catches behavior missed by self-reports, outcome tests, or video-only judging. / AgentSpyとSWE-Gameが、外部収集した実行時証拠は自己報告、成果物テスト、動画のみの判定が見逃す挙動を捉えると独立に示したためカテゴリ化。
+
+### Pre-generation memory validity / 生成前メモリ有効性
+- Adoption stage / 導入段階: WATCH (46/100)
+- Scores / スコア: frontier 86, fit 92, confidence 82
+- Recommendation / 推奨: WATCH and learn the pattern: resolve active values, identity, provenance, and abstention before memory enters the prompt; require a bounded replay of changing real profiles before PILOT. / パターンとしてWATCHし学習する。メモリをプロンプトへ入れる前に、有効値、本人同定、来歴、棄却を解決する。PILOT前に変化する実プロフィールの限定再生試験を必須とする。
+- Compatibility / 互換性: UNKNOWN — No Stangyode profile history has been replayed through either implementation, and the two studies use controlled datasets rather than this workload. / Stangyodeのプロフィール履歴をどちらの実装でも再生しておらず、2研究もこの仕事ではなく制御データセットを使用している。
+- Trade-offs / トレードオフ:
+  - Active-only retrieval can prevent obsolete values from reaching generation, but incorrect merges or identity assignment can silently hide current facts. / 有効値のみの検索は古い値の生成到達を防げるが、誤った統合や本人同定は現在の事実を静かに隠し得る。
+  - Temporal provenance makes updates auditable, but re-reads and genuine reversions remain ambiguous without trustworthy change evidence. / 時間的来歴は更新を監査可能にするが、信頼できる変更証拠がなければ再読と正当な復帰は区別できない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-11
+- History / 履歴:
+  - 2026-10-11: Spawned at WATCH when independent stale-memory studies aligned with separately operated supersession and temporal-validity implementations. / 独立した古いメモリ研究と、別運営の置換・時間的有効性実装が整合したためWATCHでカテゴリ化。
 
 ## GitHub discovery input / GitHub発見入力
 
