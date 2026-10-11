@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-10-11",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -45,22 +45,22 @@
       "kindGuess": "category",
       "durableConcept": "State + bounded typed questions → typed answers, probabilities, and confidence without free-text parsing",
       "whyInteresting": {
-        "en": "Multiple independent hosted and open implementations now provide bounded typed probabilities; Clef-omni extends the category natively across text, image, audio, and video.",
-        "ja": "独立した複数のホスト型・公開実装が限定された型付き確率を提供し、Clef-omniはカテゴリをテキスト、画像、音声、動画へネイティブ拡張した。"
+        "en": "Microsoft-Decision-1 adds a major enterprise-hosted path and Mapika decider adds an open model/training/serving family; interface novelty is commoditized while deployment choice broadens.",
+        "ja": "Microsoft-Decision-1が主要企業のホスト経路を、Mapika deciderが公開モデル・学習・配信群を追加。インターフェースの新規性はコモディティ化し、配備選択肢は広がった。"
       },
       "firstObserved": "2026-10-08",
-      "lastObserved": "2026-10-10",
+      "lastObserved": "2026-10-11",
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "typed-probabilistic-decision-models",
       "atlasTermIds": [],
       "judgment": {
-        "substance": 90,
+        "substance": 92,
         "hype": 90,
-        "fieldImportance": 94,
-        "relevance": 86,
-        "evidenceDiversity": 97,
-        "momentum": 97
+        "fieldImportance": 95,
+        "relevance": 85,
+        "evidenceDiversity": 98,
+        "momentum": 98
       },
       "observations": [
         {
@@ -107,6 +107,16 @@
           "sensor": "primary-docs",
           "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
           "date": "2026-10-10"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision",
+          "date": "2026-10-11"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/Mapika/decider",
+          "date": "2026-10-11"
         }
       ],
       "implementations": [
@@ -183,6 +193,24 @@
           "sourceIds": [
             "jebadiah-repo"
           ]
+        },
+        {
+          "name": "Microsoft-Decision-1",
+          "vendor": "Microsoft",
+          "organizationId": "microsoft",
+          "access": "hosted in Microsoft Foundry",
+          "sourceIds": [
+            "microsoft-decision-1"
+          ]
+        },
+        {
+          "name": "decider model family",
+          "vendor": "Mapika",
+          "organizationId": "mapika",
+          "access": "Apache-2.0 open models, training, evaluation, and serving",
+          "sourceIds": [
+            "mapika-decider"
+          ]
         }
       ]
     },
@@ -195,21 +223,21 @@
       "status": "assessed",
       "kindGuess": "named-implementation",
       "whyInteresting": {
-        "en": "The high-attention launch helped define the interface, but equivalent hosted and open implementations now undercut its text-only modality and listed price.",
-        "ja": "高い注目を集めた発表がインターフェース定義に寄与したが、同等のホスト型・公開実装がテキスト専用性と掲載価格で上回りつつある。"
+        "en": "Jev remains a visible comparison target, but Microsoft-Decision-1 now supplies the same typed state-and-question primitive through a major enterprise platform without a new Jev capability release.",
+        "ja": "Jevは目立つ比較対象のままだが、Jev自体の新機能リリースがない中、Microsoft-Decision-1が主要企業基盤から同じ状態・型付き質問プリミティブを提供する。"
       },
       "firstObserved": "2026-10-08",
-      "lastObserved": "2026-10-10",
+      "lastObserved": "2026-10-11",
       "lifecycle": "commoditizing",
       "evidenceState": "partially-verified",
       "radarSignalId": "jev",
       "atlasTermIds": [],
       "judgment": {
-        "substance": 68,
+        "substance": 64,
         "hype": 86,
         "fieldImportance": 50,
-        "relevance": 46,
-        "evidenceDiversity": 70,
+        "relevance": 44,
+        "evidenceDiversity": 76,
         "momentum": 58
       },
       "observations": [
@@ -328,11 +356,11 @@
       "status": "assessed",
       "kindGuess": "format-plus-distribution-layer",
       "whyInteresting": {
-        "en": "A portable skill directory contract now has validation plus a high-attention installer/updater spanning multiple agent clients; distribution maturity is ahead of provenance and permission controls.",
-        "ja": "移植可能なスキル・ディレクトリ契約に、検証と複数エージェント対応の高注目インストール・更新ツールが加わった。配布の成熟が来歴・権限制御より先行している。"
+        "en": "Skill distribution is gaining governance and remote-discovery layers, while paired task evidence warns that indiscriminate skill injection is often neutral and can be harmful.",
+        "ja": "スキル配布に統治層と遠隔発見層が加わる一方、対比較タスク証拠は無差別なスキル注入が多くの場合中立で、害にもなり得ると警告する。"
       },
       "firstObserved": "2026-10-08",
-      "lastObserved": "2026-10-10",
+      "lastObserved": "2026-10-11",
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "agent-skills",
@@ -341,12 +369,12 @@
         "capability"
       ],
       "judgment": {
-        "substance": 78,
+        "substance": 80,
         "hype": 90,
-        "fieldImportance": 85,
+        "fieldImportance": 86,
         "relevance": 82,
-        "evidenceDiversity": 76,
-        "momentum": 86
+        "evidenceDiversity": 82,
+        "momentum": 88
       },
       "observations": [
         {
@@ -363,6 +391,51 @@
           "sensor": "github-public",
           "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.2",
           "date": "2026-10-10"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.alibabacloud.com/blog/skillfs-governing-dozens-of-agent-skills-with-a-file-system_603623",
+          "date": "2026-10-11"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-10-10-cloudflare-mcp-skills/",
+          "date": "2026-10-11"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/html/2603.15401",
+          "date": "2026-10-11"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Vercel skills",
+          "vendor": "Vercel",
+          "organizationId": "vercel",
+          "access": "open installer and updater",
+          "sourceIds": [
+            "vercel-skills-cli",
+            "vercel-skills-1-7-2"
+          ]
+        },
+        {
+          "name": "SkillFS / ANOLISA",
+          "vendor": "Alibaba / OpenAnolis",
+          "organizationId": "alibaba-openanolis",
+          "access": "open Linux/FUSE governance runtime",
+          "sourceIds": [
+            "skillfs"
+          ]
+        },
+        {
+          "name": "Cloudflare Skills over MCP",
+          "vendor": "Cloudflare",
+          "organizationId": "cloudflare",
+          "access": "hosted MCP discovery and resource retrieval",
+          "sourceIds": [
+            "cloudflare-skills-mcp"
+          ]
         }
       ]
     },
@@ -749,6 +822,80 @@
           "access": "research benchmark described in a public preprint",
           "sourceIds": [
             "swe-game-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-generation-memory-validity",
+      "names": [
+        "pre-generation memory validity",
+        "temporal memory validity",
+        "active-memory retrieval"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "durableConcept": "Resolve temporal validity and identity before retrieved memory enters the generation prompt",
+      "whyInteresting": {
+        "en": "Independent studies expose stale and misattributed context before generation, while Mem0 and Zep provide independently operated supersession and temporal-validity paths.",
+        "ja": "独立研究が生成前の古い情報・誤帰属コンテキストを可視化し、Mem0とZepが独立運営の置換・時間的有効性経路を提供する。"
+      },
+      "firstObserved": "2026-10-11",
+      "lastObserved": "2026-10-11",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "pre-generation-memory-validity",
+      "atlasTermIds": [
+        "agent-memory",
+        "long-term-memory"
+      ],
+      "judgment": {
+        "substance": 88,
+        "hype": 54,
+        "fieldImportance": 91,
+        "relevance": 92,
+        "evidenceDiversity": 84,
+        "momentum": 86
+      },
+      "observations": [
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.07715",
+          "date": "2026-10-11"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.10265",
+          "date": "2026-10-11"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://docs.mem0.ai/platform/features/dream",
+          "date": "2026-10-11"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://help.getzep.com/facts",
+          "date": "2026-10-11"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Mem0 Dream active-memory reads",
+          "vendor": "Mem0",
+          "organizationId": "mem0",
+          "access": "hosted memory supersession and latest-only retrieval",
+          "sourceIds": [
+            "mem0-dream"
+          ]
+        },
+        {
+          "name": "Zep / Graphiti temporal facts",
+          "vendor": "Zep",
+          "organizationId": "zep",
+          "access": "managed and open temporal fact lifecycle and retrieval",
+          "sourceIds": [
+            "zep-temporal-facts"
           ]
         }
       ]
