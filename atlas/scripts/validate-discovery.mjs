@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { validateGithubDiscovery } from './github-discovery-contract.mjs';
+import { validateHypeDiscovery } from './hype-discovery-contract.mjs';
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const fail = (message) => { throw new Error(message); };
@@ -14,8 +15,9 @@ const score = (value, label) => {
   if (!Number.isInteger(value) || value < 0 || value > 100) fail(`Invalid score ${label}: ${value}`);
 };
 
-const [data, github, radar, sources] = await Promise.all([
+const [data, hype, github, radar, sources] = await Promise.all([
   readFile(resolve(repo, 'atlas/data/discovery-candidates.json'), 'utf8').then(JSON.parse),
+  readFile(resolve(repo, 'atlas/data/hype-discovery.json'), 'utf8').then(JSON.parse),
   readFile(resolve(repo, 'atlas/data/github-discovery.json'), 'utf8').then(JSON.parse),
   readFile(resolve(repo, 'atlas/data/frontier-radar.json'), 'utf8').then(JSON.parse),
   readFile(resolve(repo, 'atlas/data/sources.json'), 'utf8').then(JSON.parse),
@@ -63,7 +65,8 @@ for (const candidate of data.candidates) {
   if (candidate.radarSignalId && !radarIds.has(candidate.radarSignalId)) fail(`Radar pointer missing ${candidate.id} -> ${candidate.radarSignalId}`);
 }
 
-bilingual(github.policy, 'GitHub discovery policy');
+validateHypeDiscovery(hype);
+bilingual(github.policy, 'GitHub update policy');
 validateGithubDiscovery({ github, candidateIds: ids, radarIds });
 
 const regression = data.candidates.find((candidate) => candidate.id === data.regression.id);
@@ -72,4 +75,4 @@ if (!regression.names.some((name) => /system one|typed decision/i.test(name))) {
   fail('Regression candidate must remain a phenomenon (System One / typed decisions), not a seeded product query');
 }
 
-console.log(`Validated ${data.candidates.length} discovery candidates, regression ${data.regression.id}, evidence states, and Radar pointers.`);
+console.log(`Validated ${data.candidates.length} discovery candidates, ${hype.sources.length} hype observers, regression ${data.regression.id}, evidence states, and Radar pointers.`);

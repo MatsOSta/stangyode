@@ -40,13 +40,31 @@ npm run build:atlas
 npm run build:frontier-radar
 ```
 
-Refresh the credential-free GitHub discovery sensor before a Frontier Radar editorial run:
+## Frontier discovery pipeline
+
+The pipeline deliberately separates attention discovery from evidence evaluation.
+
+### 1. Capture hype broadly
 
 ```sh
-npm run fetch:github-discovery
+npm run fetch:hype-discovery
 ```
 
-The fetch makes at most eight GitHub repository-search requests with five results per query, sends no authorization header, and replaces `atlas/data/github-discovery.json` with normalized, sorted output. Its `lastRun` audit records the attempt, actual completion time, query counts, and public API rate-limit state. Once local input validation succeeds, a failed or rate-limited request exits non-zero, clears signals, and writes an explicit failed audit instead of retaining results that could look current. A malformed input or command preflight exits non-zero without replacing the prior file; the daily editor must treat the command exit status as authoritative and mark the sensor failed rather than trusting an older `lastRun`. The editor must run this command after syncing `origin/master` and before evaluating or marking the `github-public` sensor. It may mark that sensor `checked` only when `lastRun.status` is `success` and `completedAt` is no later than the Radar audit `asOf`; otherwise it must mark the sensor `failed` with a bilingual reason.
+This credential-free scrape reads the configured observer feeds in `atlas/data/hype-discovery.json` and runs three broad, taxonomy-independent GitHub searches over newly created repositories. It preserves source mentions as an attention log, extracts linked GitHub repositories, records repository snapshots, and ranks repositories by independent-source mentions, measured star growth, and age-normalized stars. A mention means only that someone paid attention to a topic; it is not evidence that a claim is true or that Stangyode should adopt it. Partial source failures remain explicit while successful observations are retained.
+
+The editor reviews this hype inbox for unfamiliar language and projects, then creates or updates entries in `discovery-candidates.json`. Discovery is allowed to expand the taxonomy rather than requiring a pre-existing Radar target.
+
+### 2. Investigate and update known candidates
+
+```sh
+npm run fetch:github-updates
+```
+
+This targeted GitHub update fetch uses the fixed candidate and Radar queries in `atlas/data/github-discovery.json`. It makes at most eight repository-search requests with five results per query, sends no authorization header, and replaces the file with normalized, sorted output. The legacy `npm run fetch:github-discovery` command remains as an alias.
+
+Run the targeted fetch after syncing `origin/master` and before a Frontier Radar editorial run. Its `lastRun` audit records the attempt, completion time, query counts, and public API rate limit. A failed or rate-limited request clears signals and writes an explicit failed audit; malformed input fails before replacing the prior file. The editor may mark `github-public` checked only when the targeted fetch succeeded before the Radar audit time.
+
+The editorial stage then verifies primary sources, alternatives, criticism, compatibility, and task evidence before assigning WATCH, PILOT, or DEFER. Hype remains in the inbox even when evaluation is negative.
 
 ## Language support
 
