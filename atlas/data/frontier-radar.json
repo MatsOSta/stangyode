@@ -9,14 +9,14 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-11",
+    "snapshot": "2026-10-12",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-11T06:13:26Z",
+    "asOf": "2026-10-12T11:14:10Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
@@ -34,8 +34,8 @@
       },
       "editor": {
         "status": "success",
-        "lastAttemptAt": "2026-10-11T06:13:26Z",
-        "lastSuccessfulRunAt": "2026-10-11T06:13:26Z",
+        "lastAttemptAt": "2026-10-12T11:14:10Z",
+        "lastSuccessfulRunAt": "2026-10-12T11:14:10Z",
         "failureStreak": 0
       }
     },
@@ -331,7 +331,8 @@
       "radar-health-1",
       "radar-daily-2026-10-09",
       "radar-daily-2026-10-10",
-      "radar-daily-2026-10-11"
+      "radar-daily-2026-10-11",
+      "radar-daily-2026-10-12"
     ],
     "sensors": [
       {
