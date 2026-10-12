@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-11
+Snapshot / スナップショット: 2026-10-12
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,11 +8,11 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-11T06:13:26Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-12T11:14:10Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
 - scout: SUCCESS; last success 2026-10-11T05:08:42Z; failure streak 0; last failure rate_limit at 2026-10-08T13:31:55Z (resolved)
-- editor: SUCCESS; last success 2026-10-11T06:13:26Z; failure streak 0
+- editor: SUCCESS; last success 2026-10-12T11:14:10Z; failure streak 0
 
 ### Sensors / センサー
 - primary-docs: CHECKED
@@ -97,7 +97,7 @@ Evidence: skillfs, cloudflare-skills-mcp, swe-skills-bench, memory-rereads-paper
 - jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent
 
 ### Changelog entries checked / 確認済み変更履歴
-- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11
+- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
