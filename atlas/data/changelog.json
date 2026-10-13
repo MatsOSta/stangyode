@@ -52,5 +52,11 @@
     "label": "radar-daily-2026-10-12",
     "en": "Daily Radar health refresh: the bounded GitHub public-discovery sensor completed all seven queries successfully; no Radar scores, statuses, implementations, or Core Atlas terms changed.",
     "ja": "日次レーダー健全性更新：範囲限定のGitHub公開発見センサーは7件すべてのクエリを正常完了。レーダーのスコア、状態、実装、コア・アトラス用語に変更はない。"
+  },
+  {
+    "date": "2026-10-13",
+    "label": "radar-daily-2026-10-13",
+    "en": "Daily Radar: REA enters at WATCH; Claude Managed Agents and harness-owned long-horizon state enter at PILOT; Poppy remains deferred; bounded hype and GitHub sensors completed successfully.",
+    "ja": "日次レーダー：REAをWATCHへ追加。Claude Managed Agentsとハーネス所有の長期状態をPILOTへ追加。Poppyは保留。範囲限定のハイプ・GitHubセンサーは正常完了。"
   }
 ]

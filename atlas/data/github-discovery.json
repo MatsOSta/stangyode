@@ -58,6 +58,43 @@
       "targetId": "a2a",
       "status": "unverified",
       "repository": {
+        "fullName": "AAMARVA/AAMARVA",
+        "url": "https://github.com/AAMARVA/AAMARVA",
+        "description": "AAMARVA is a secure, transparent network for AI agents to discover capabilities, connect, communicate, and collaborate across frameworks. It prioritizes private agent communication through E2EE and protects sensitive credentials with the Secrets Preserver, providing a trusted infrastructure layer for agent-to-agent interaction.",
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [
+          "a2a",
+          "a2a-protocol",
+          "aamarva",
+          "aamarva-adk",
+          "agent-communication",
+          "agent-discovery",
+          "agent-infrastructure",
+          "agent-interoperability",
+          "agent-network",
+          "agent-security",
+          "agent-to-agent",
+          "agentic-ai",
+          "ai-agents",
+          "ai-infrastructure",
+          "autonomous-agents",
+          "e2ee",
+          "end-to-end-encryption",
+          "mcp",
+          "model-context-protocol",
+          "multi-agent"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-13T05:48:20Z"
+      }
+    },
+    {
+      "queryId": "a2a-query",
+      "targetId": "a2a",
+      "status": "unverified",
+      "repository": {
         "fullName": "damianvtran/local-operator",
         "url": "https://github.com/damianvtran/local-operator",
         "description": "An open-source AI agent hub for your own machine: build organizations of collaborating agents that message each other, run in the background around the clock, and share your existing AI subscriptions.",
@@ -76,7 +113,7 @@
           "proactive-ai"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T11:11:06Z"
+        "pushedAt": "2026-10-13T05:27:00Z"
       }
     },
     {
@@ -84,36 +121,22 @@
       "targetId": "a2a",
       "status": "unverified",
       "repository": {
-        "fullName": "junghan0611/entwurf",
-        "url": "https://github.com/junghan0611/entwurf",
-        "description": "Herdr and tmux sibling AI sessions: pi, pi-durable, Claude Code, Codex, Copilot, OMP and Antigravity share garden-id messaging while keeping their own auth, tools and transcripts.",
-        "stars": 27,
-        "forks": 5,
+        "fullName": "jinwon-int/a2a-nexus",
+        "url": "https://github.com/jinwon-int/a2a-nexus",
+        "description": "A2A Nexus — a control plane for delegating, tracking, and recovering work across agent nodes",
+        "stars": 0,
+        "forks": 0,
         "language": "TypeScript",
         "topics": [
-          "acp",
-          "agent-client-protocol",
-          "agent-collaboration",
-          "agent-communication",
+          "a2a",
           "agent-to-agent",
-          "ai-agents",
-          "antigravity",
-          "claude-code",
-          "codex",
-          "coding-agents",
-          "herdr",
-          "herdr-plugin",
-          "human-ai-coevolution",
-          "human-ai-collaboration",
-          "mcp",
-          "multi-agent",
-          "pi",
-          "pi-coding-agent",
-          "pi-durable",
-          "tmux"
+          "agents",
+          "broker",
+          "public-alpha",
+          "workflow-automation"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T11:04:11Z"
+        "pushedAt": "2026-10-13T05:06:22Z"
       }
     },
     {
@@ -121,99 +144,54 @@
       "targetId": "a2a",
       "status": "unverified",
       "repository": {
-        "fullName": "lostlight530/agentic-frontier-observatory",
-        "url": "https://github.com/lostlight530/agentic-frontier-observatory",
-        "description": "Bilingual, source-grounded observatory tracing global AI from its intellectual and computational roots to the agentic frontier across models, protocols, runtimes, evaluation, safety, governance, and ecosystems.",
-        "stars": 2,
+        "fullName": "kynoproj/kynomesh",
+        "url": "https://github.com/kynoproj/kynomesh",
+        "description": "Kubernetes-native platform for orchestrating distributed multi-agent systems.",
+        "stars": 13,
         "forks": 0,
-        "language": null,
-        "topics": [
-          "agent-protocols",
-          "agent-runtimes",
-          "agent-to-agent",
-          "agentic-ai",
-          "ai-agents",
-          "ai-evaluation",
-          "ai-governance",
-          "ai-infrastructure",
-          "ai-research",
-          "ai-safety",
-          "artificial-intelligence",
-          "bilingual",
-          "daily-research",
-          "evidence-based-research",
-          "foundation-models",
-          "frontier-ai",
-          "model-context-protocol",
-          "multi-agent-systems",
-          "open-research",
-          "research-observatory"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-12T11:11:22Z"
-      }
-    },
-    {
-      "queryId": "a2a-query",
-      "targetId": "a2a",
-      "status": "unverified",
-      "repository": {
-        "fullName": "opena2a-org/a2a-security-examples",
-        "url": "https://github.com/opena2a-org/a2a-security-examples",
-        "description": "Example A2A agent implementations with security best practices and input validation",
-        "stars": 3,
-        "forks": 1,
-        "language": "JavaScript",
+        "language": "Go",
         "topics": [
           "a2a",
-          "agent-card",
-          "agent-to-agent",
-          "ai-agent",
-          "ai-security",
-          "guide",
-          "honeypot",
-          "input-validation",
-          "security"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-12T11:06:58Z"
-      }
-    },
-    {
-      "queryId": "a2a-query",
-      "targetId": "a2a",
-      "status": "unverified",
-      "repository": {
-        "fullName": "openamer/openamer",
-        "url": "https://github.com/openamer/openamer",
-        "description": "Open-source self-improving AI agent for Windows: 5 native in-process ASI tools, one heartbeat over 10 subsystems (replaces ~84 cron jobs), and an A2A Global Mesh where every instance talks to every other instance. Apache-2.0, runs local.",
-        "stars": 6,
-        "forks": 3,
-        "language": "Python",
-        "topics": [
-          "a2a",
-          "agent-framework",
           "agent-mesh",
           "agent-to-agent",
-          "ai-agent",
-          "ai-agent-framework",
-          "artificial-intelligence",
-          "automation",
-          "autonomous-agents",
-          "cli",
-          "coding-agent",
-          "computer-use",
-          "developer-tools",
-          "llm",
-          "machine-learning",
-          "multi-agent",
-          "open-source",
-          "python",
-          "self-improving",
-          "windows"
+          "agents",
+          "ai",
+          "k8s",
+          "kubenetes",
+          "multi-agent"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T11:01:33Z"
+        "pushedAt": "2026-10-13T05:37:48Z"
+      }
+    },
+    {
+      "queryId": "a2a-query",
+      "targetId": "a2a",
+      "status": "unverified",
+      "repository": {
+        "fullName": "raeseoklee/artifacty",
+        "url": "https://github.com/raeseoklee/artifacty",
+        "description": "Local agent-to-agent artifact exchange for LLM workflows via HTTP, CLI, and MCP.",
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "agent-to-agent",
+          "ai-agents",
+          "artifacts",
+          "claude",
+          "cli",
+          "codex",
+          "gemini",
+          "llm",
+          "local-first",
+          "mcp",
+          "model-context-protocol",
+          "nodejs",
+          "sqlite"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-13T05:21:43Z"
       }
     },
     {
@@ -221,21 +199,24 @@
       "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
-        "fullName": "AnxForever/github-star-index",
-        "url": "https://github.com/AnxForever/github-star-index",
-        "description": "Repository knowledge for coding agents: task-driven retrieval, capability cards, and commit-pinned evidence via MCP and Skills.",
+        "fullName": "alvseek/agent-memory-project",
+        "url": "https://github.com/alvseek/agent-memory-project",
+        "description": "Coding/repo add-on overlay for the agent-memory framework — wizards, doc-gen, QA, fleet, localization, push/pull. Depends on the memory core (agent-memory-system); composes on top for coding agents.",
         "stars": 0,
         "forks": 0,
         "language": "Python",
         "topics": [
           "agent-skills",
-          "developer-tools",
-          "github-stars",
+          "ai-agents",
+          "claude-code",
+          "code-quality",
+          "developer-tooling",
           "mcp",
-          "python"
+          "openai-codex",
+          "slash-commands"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T11:10:48Z"
+        "pushedAt": "2026-10-13T06:01:39Z"
       }
     },
     {
@@ -243,27 +224,18 @@
       "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
-        "fullName": "cryptify-corporation/reconstruct-ai-skills",
-        "url": "https://github.com/cryptify-corporation/reconstruct-ai-skills",
-        "description": "Captured products, screenshots and flows as evidence for AI coding agents.",
+        "fullName": "hyyhf/imagination-atelier",
+        "url": "https://github.com/hyyhf/imagination-atelier",
+        "description": "想象显影机 一个将“灵光一现”的想法快速呈现出来的skill",
         "stars": 0,
         "forks": 0,
-        "language": null,
+        "language": "HTML",
         "topics": [
           "agent-skills",
-          "ai-agents",
-          "claude-code",
-          "claude-code-plugin",
-          "cursor-plugin",
-          "design-tokens",
-          "frontend",
-          "gemini-cli-extension",
-          "mcp",
-          "mcp-server",
-          "model-context-protocol"
+          "skills"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T11:11:13Z"
+        "pushedAt": "2026-10-13T06:01:25Z"
       }
     },
     {
@@ -271,68 +243,36 @@
       "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
-        "fullName": "hfadhlullah/kaizen",
-        "url": "https://github.com/hfadhlullah/kaizen",
-        "description": "Your AI agent shows you the plan before it does the work, and a second agent checks what it did.",
-        "stars": 6,
+        "fullName": "KCNyu/clawock",
+        "url": "https://github.com/KCNyu/clawock",
+        "description": "AI argues. Code settles. The losses stay on the page. A real HK + US brokerage account run by agents that must debate every call, settled by code the model never touches. Strategies are plugins whose parameter searches can only propose. Install the same workflow into OpenClaw, Claude Code, Codex, or DeepSeek Harness.",
+        "stars": 19,
         "forks": 0,
-        "language": "TypeScript",
+        "language": "Python",
         "topics": [
           "agent-skills",
-          "agentic-workflow",
-          "agents",
-          "ai",
+          "agentic-ai",
           "ai-agents",
-          "antigravity",
-          "bun",
-          "claude-code",
-          "cli",
-          "code-review",
-          "codex",
-          "coding-assistant",
-          "developer-tools",
-          "terminal",
-          "workflow"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-12T11:11:35Z"
-      }
-    },
-    {
-      "queryId": "agent-skills-query",
-      "targetId": "agent-skills",
-      "status": "unverified",
-      "repository": {
-        "fullName": "morluto/rea",
-        "url": "https://github.com/morluto/rea",
-        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "stars": 130200,
-        "forks": 29117,
-        "language": "TypeScript",
-        "topics": [
-          "agent-skills",
-          "ai-agents",
-          "binary-analysis",
-          "claude-code",
-          "cli",
-          "codex",
-          "cordis",
-          "ctf",
-          "decompiler",
-          "developer-tools",
-          "disassembler",
-          "dsh",
+          "algorithmic-trading",
+          "audit-trail",
+          "decision-support",
+          "deepseek-harness",
           "dsh-plugin",
-          "ghidra",
-          "hopper",
-          "llm",
-          "mcp",
-          "model-context-protocol",
-          "reverse-engineering",
-          "static-analysis"
+          "fintech",
+          "harness",
+          "investment",
+          "investment-research",
+          "openclaw",
+          "portfolio-management",
+          "quantitative-finance",
+          "risk-management",
+          "self-hosted",
+          "stock-market",
+          "trading",
+          "trading-bot"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T11:10:57Z"
+        "pushedAt": "2026-10-13T06:01:17Z"
       }
     },
     {
@@ -340,19 +280,54 @@
       "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
-        "fullName": "porada/domfiles",
-        "url": "https://github.com/porada/domfiles",
-        "description": "Agent skills and configs",
-        "stars": 6,
-        "forks": 0,
-        "language": "Shell",
+        "fullName": "rjmurillo/ai-agents",
+        "url": "https://github.com/rjmurillo/ai-agents",
+        "description": "Open source multi agent toolkit for Claude Code and GitHub Copilot CLI: 30 agents, plan to ship workflows, review and security gates, plugin marketplace.",
+        "stars": 48,
+        "forks": 14,
+        "language": "Python",
         "topics": [
+          "agent-orchestration",
           "agent-skills",
-          "dotfiles-macos",
-          "fish"
+          "agentic-ai",
+          "ai-agents",
+          "claude",
+          "claude-code",
+          "claude-code-marketplace",
+          "claude-code-plugin",
+          "code-review",
+          "coding-agents",
+          "copilot-cli",
+          "developer-tools",
+          "github-copilot",
+          "github-copilot-cli",
+          "multi-agent",
+          "multi-agent-systems",
+          "plugin-marketplace",
+          "quality-gates",
+          "spec-driven-development",
+          "subagents"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T11:11:19Z"
+        "pushedAt": "2026-10-13T06:01:39Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "shoji9x9/skills",
+        "url": "https://github.com/shoji9x9/skills",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "agent-skills"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-13T06:01:23Z"
       }
     },
     {
@@ -482,7 +457,7 @@
           "traces"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T01:45:33Z"
+        "pushedAt": "2026-10-12T18:16:59Z"
       }
     },
     {
@@ -505,7 +480,7 @@
           "developer-tools"
         ],
         "archived": false,
-        "pushedAt": "2026-10-05T14:01:12Z"
+        "pushedAt": "2026-10-12T14:50:27Z"
       }
     },
     {
@@ -513,31 +488,15 @@
       "targetId": "caveman",
       "status": "unverified",
       "repository": {
-        "fullName": "bramvanzonnua/token-meter-mod",
-        "url": "https://github.com/bramvanzonnua/token-meter-mod",
-        "description": "created a mod for claude code to get insights into token usage per chat, plus hints regarding the use of /caveman and /handoff skills based on context percentages",
-        "stars": 0,
-        "forks": 0,
-        "language": "TypeScript",
-        "topics": [],
-        "archived": false,
-        "pushedAt": "2026-10-12T09:55:54Z"
-      }
-    },
-    {
-      "queryId": "caveman-query",
-      "targetId": "caveman",
-      "status": "unverified",
-      "repository": {
-        "fullName": "C0verSnow/CavemanReader",
-        "url": "https://github.com/C0verSnow/CavemanReader",
-        "description": null,
+        "fullName": "betoneira26/cavetermux",
+        "url": "https://github.com/betoneira26/cavetermux",
+        "description": "caveman for termux",
         "stars": 0,
         "forks": 0,
         "language": null,
         "topics": [],
         "archived": false,
-        "pushedAt": "2026-10-12T09:18:50Z"
+        "pushedAt": "2026-10-13T05:01:21Z"
       }
     },
     {
@@ -545,36 +504,15 @@
       "targetId": "caveman",
       "status": "unverified",
       "repository": {
-        "fullName": "JayPokale/Chisle",
-        "url": "https://github.com/JayPokale/Chisle",
-        "description": "Cut your AI coding agent's token bill on three axes: terse prose, YAGNI-first code, and tool-output compression. Claude Code, Pi, Cursor, Codex, Gemini + 4 more. Zero deps, published benchmarks including the runs it loses.",
-        "stars": 650,
-        "forks": 48,
-        "language": "JavaScript",
-        "topics": [
-          "anthropic",
-          "caveman",
-          "caveman-alternative",
-          "caveman2",
-          "claude",
-          "claude-ai",
-          "claude-api",
-          "claude-code",
-          "claude-code-skill",
-          "claude-code-skills",
-          "claude-plugin",
-          "claude-skills",
-          "codex",
-          "cursor",
-          "developer-tools",
-          "gemini-cli",
-          "github-copilot",
-          "hacktoberfest",
-          "ponytail",
-          "token-optimization"
-        ],
+        "fullName": "cmartyniuk/beingbjorn",
+        "url": "https://github.com/cmartyniuk/beingbjorn",
+        "description": "A comic strip about a caveman who means well.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Astro",
+        "topics": [],
         "archived": false,
-        "pushedAt": "2026-10-12T10:45:03Z"
+        "pushedAt": "2026-10-13T05:03:29Z"
       }
     },
     {
@@ -609,7 +547,7 @@
           "ui"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T09:57:02Z"
+        "pushedAt": "2026-10-13T05:13:06Z"
       }
     },
     {
@@ -643,32 +581,23 @@
           "tokens"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T09:56:51Z"
+        "pushedAt": "2026-10-13T05:12:59Z"
       }
     },
     {
-      "queryId": "mcp-apps-query",
-      "targetId": "mcp-apps",
+      "queryId": "caveman-query",
+      "targetId": "caveman",
       "status": "unverified",
       "repository": {
-        "fullName": "abhinavstechdev/chatgptmcpguide",
-        "url": "https://github.com/abhinavstechdev/chatgptmcpguide",
-        "description": "Comprehensive guide, scraped docs, templates, and validator for ChatGPT plugins, MCP servers, and MCP Apps UI",
+        "fullName": "taskqorg/specq",
+        "url": "https://github.com/taskqorg/specq",
+        "description": "Public reusable rules: Caveman style library and engineering contract",
         "stars": 0,
         "forks": 0,
         "language": "Python",
-        "topics": [
-          "ai-agents",
-          "chatgpt",
-          "chatgpt-plugin",
-          "mcp",
-          "mcp-apps",
-          "model-context-protocol",
-          "openai",
-          "skills"
-        ],
+        "topics": [],
         "archived": false,
-        "pushedAt": "2026-10-12T10:39:54Z"
+        "pushedAt": "2026-10-13T04:44:33Z"
       }
     },
     {
@@ -676,36 +605,58 @@
       "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
-        "fullName": "chipfighter/context-attachment-manager",
-        "url": "https://github.com/chipfighter/context-attachment-manager",
-        "description": "Codex and Claude Code plugin (works in Claude Desktop): choose which past images go to the model with your next message. Unchecked images become placeholders, the conversation goes on, and requests stay small.",
-        "stars": 232,
-        "forks": 14,
+        "fullName": "fergusalveolar205/Generative-UI-MCP",
+        "url": "https://github.com/fergusalveolar205/Generative-UI-MCP",
+        "description": "Build interactive charts, diagrams, mockups, and widgets with an MCP server for on-demand UI generation guidelines",
+        "stars": 0,
+        "forks": 1,
         "language": "TypeScript",
         "topics": [
-          "anthropic",
-          "chatgpt",
+          "a2ui",
+          "ag-ui",
+          "agentic-ai",
+          "ai-agent",
           "claude",
-          "claude-code",
-          "claude-code-plugin",
-          "claude-desktop",
-          "codex",
-          "codex-plugin",
-          "context-management",
-          "context-window",
-          "developer-tools",
-          "images",
-          "mcp",
+          "code-generation",
+          "cybersecurity",
+          "ecommerce-website",
           "mcp-apps",
           "model-context-protocol",
-          "openai",
-          "openai-codex",
-          "proxy",
-          "token-optimization",
+          "neondb",
+          "prisma",
+          "security",
+          "svg",
+          "visualization",
+          "website-analyzer"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-13T05:08:11Z"
+      }
+    },
+    {
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
+      "status": "unverified",
+      "repository": {
+        "fullName": "GrinZero/open-game-studio",
+        "url": "https://github.com/GrinZero/open-game-studio",
+        "description": "Open Game Studio: a local game production workbench for Codex with immutable assets, visual canvases, character workflows, and MCP Apps.",
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [
+          "asset-management",
+          "codex",
+          "codex-plugin",
+          "game-development",
+          "local-first",
+          "mcp",
+          "mcp-apps",
+          "react",
           "typescript"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T10:22:57Z"
+        "pushedAt": "2026-10-13T03:54:02Z"
       }
     },
     {
@@ -713,32 +664,60 @@
       "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
-        "fullName": "GrinZero/tripo-studio-plugin",
-        "url": "https://github.com/GrinZero/tripo-studio-plugin",
-        "description": "Unofficial Codex plugin for AI 3D creation with your Tripo Studio account. Generate, texture, rig, animate and export assets with MCP Apps and local Blender tools.",
-        "stars": 7,
-        "forks": 3,
+        "fullName": "Maker-Wen/markdown-preview",
+        "url": "https://github.com/Maker-Wen/markdown-preview",
+        "description": "Codex Markdown preview with live updates, Mermaid diagrams, KaTeX math, code highlighting, and browser reading.",
+        "stars": 1,
+        "forks": 0,
         "language": "JavaScript",
         "topics": [
-          "3d-assets",
-          "3d-generation",
-          "animation",
-          "blender",
+          "browser-preview",
           "codex",
           "codex-plugin",
-          "image-to-3d",
+          "katex",
+          "live-preview",
+          "markdown",
+          "markdown-preview",
           "mcp",
           "mcp-apps",
-          "mcp-server",
-          "model-context-protocol",
-          "openai-codex",
-          "rigging",
-          "text-to-3d",
-          "tripo",
-          "tripo-studio"
+          "mermaid"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T10:39:05Z"
+        "pushedAt": "2026-10-13T05:16:33Z"
+      }
+    },
+    {
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
+      "status": "unverified",
+      "repository": {
+        "fullName": "MathTrail/mathtrail-standalone",
+        "url": "https://github.com/MathTrail/mathtrail-standalone",
+        "description": "Free, open-source standalone MathTrail app for LLM applications. Generates and validates adaptive Math Olympiad tasks with interactive MCP widgets.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Go",
+        "topics": [
+          "adaptive-learning",
+          "chatgpt",
+          "claude",
+          "clean-architecture",
+          "devcontainer",
+          "edtech",
+          "education",
+          "golang",
+          "google-cloud-run",
+          "google-drive-api",
+          "llm",
+          "math-olympiad",
+          "mcp",
+          "mcp-apps",
+          "preact",
+          "starlark",
+          "typescript"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-13T04:50:17Z"
       }
     },
     {
@@ -749,7 +728,7 @@
         "fullName": "MCPJam/inspector",
         "url": "https://github.com/MCPJam/inspector",
         "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-        "stars": 2249,
+        "stars": 2253,
         "forks": 295,
         "language": "TypeScript",
         "topics": [
@@ -775,44 +754,7 @@
           "tracing"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T11:05:00Z"
-      }
-    },
-    {
-      "queryId": "mcp-apps-query",
-      "targetId": "mcp-apps",
-      "status": "unverified",
-      "repository": {
-        "fullName": "Sandeepv68/EncodeX",
-        "url": "https://github.com/Sandeepv68/EncodeX",
-        "description": "A cross-platform multimedia conversion tool with AI built on FFmpeg, React, TypeScript, and Electron.",
-        "stars": 20,
-        "forks": 0,
-        "language": "TypeScript",
-        "topics": [
-          "audio-processing",
-          "audio-streaming",
-          "electron",
-          "electron-app",
-          "electronjs",
-          "ffmpeg",
-          "ffmpeg-gui",
-          "ffmpeg-mcp",
-          "ffmpeg-wrapper",
-          "mcp-apps",
-          "mcp-server",
-          "mcp-servers",
-          "mcp-tools",
-          "video-editing",
-          "video-editor",
-          "video-generation",
-          "video-processing",
-          "video-streaming",
-          "videoconverter",
-          "videos"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-12T10:39:56Z"
+        "pushedAt": "2026-10-13T05:53:15Z"
       }
     },
     {
@@ -820,52 +762,15 @@
       "targetId": "ponytail",
       "status": "unverified",
       "repository": {
-        "fullName": "JayPokale/Chisle",
-        "url": "https://github.com/JayPokale/Chisle",
-        "description": "Cut your AI coding agent's token bill on three axes: terse prose, YAGNI-first code, and tool-output compression. Claude Code, Pi, Cursor, Codex, Gemini + 4 more. Zero deps, published benchmarks including the runs it loses.",
-        "stars": 650,
-        "forks": 48,
-        "language": "JavaScript",
-        "topics": [
-          "anthropic",
-          "caveman",
-          "caveman-alternative",
-          "caveman2",
-          "claude",
-          "claude-ai",
-          "claude-api",
-          "claude-code",
-          "claude-code-skill",
-          "claude-code-skills",
-          "claude-plugin",
-          "claude-skills",
-          "codex",
-          "cursor",
-          "developer-tools",
-          "gemini-cli",
-          "github-copilot",
-          "hacktoberfest",
-          "ponytail",
-          "token-optimization"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-12T10:45:03Z"
-      }
-    },
-    {
-      "queryId": "ponytail-query",
-      "targetId": "ponytail",
-      "status": "unverified",
-      "repository": {
-        "fullName": "mouvementvisible-cmd/glossy-ponytail",
-        "url": "https://github.com/mouvementvisible-cmd/glossy-ponytail",
-        "description": "site web coiffure",
+        "fullName": "aa-blinov/ponytail-minimax",
+        "url": "https://github.com/aa-blinov/ponytail-minimax",
+        "description": "Ponytail lazy-senior-dev mode as a MiniMax Code plugin: the same six skills plus a SessionStart hook, so the mode is on from the first turn.",
         "stars": 0,
         "forks": 0,
-        "language": "CSS",
+        "language": "JavaScript",
         "topics": [],
         "archived": false,
-        "pushedAt": "2026-10-12T07:39:51Z"
+        "pushedAt": "2026-10-13T06:00:08Z"
       }
     },
     {
@@ -873,15 +778,31 @@
       "targetId": "ponytail",
       "status": "unverified",
       "repository": {
-        "fullName": "raawsome/dev-skills",
-        "url": "https://github.com/raawsome/dev-skills",
-        "description": "Agent skills (opencode + Claude Code): Matt Pocock flow + pstack skills + ponytail-review",
+        "fullName": "carterconway1231-cmd/Ponytail",
+        "url": "https://github.com/carterconway1231-cmd/Ponytail",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-10-13T02:24:48Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "musickevan1/heroloop",
+        "url": "https://github.com/musickevan1/heroloop",
+        "description": "Tool-agnostic AI dev loop: AI Hero + Ponytail skills, plus dev-loop and land-prs, for Copilot, Cursor, Codex and Claude Code",
         "stars": 0,
         "forks": 0,
         "language": "Shell",
         "topics": [],
         "archived": false,
-        "pushedAt": "2026-10-11T23:23:46Z"
+        "pushedAt": "2026-10-13T04:46:15Z"
       }
     },
     {
@@ -916,7 +837,7 @@
           "yagni"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T10:07:32Z"
+        "pushedAt": "2026-10-13T05:23:30Z"
       }
     },
     {
@@ -924,15 +845,15 @@
       "targetId": "ponytail",
       "status": "unverified",
       "repository": {
-        "fullName": "x-cmd-install/ponytail",
-        "url": "https://github.com/x-cmd-install/ponytail",
-        "description": "card data for ponytail, collected by x-cmd-install-action",
+        "fullName": "SkilledDragonCorp/minilab-ponytail-yagni-gate",
+        "url": "https://github.com/SkilledDragonCorp/minilab-ponytail-yagni-gate",
+        "description": null,
         "stars": 0,
         "forks": 0,
-        "language": null,
+        "language": "TypeScript",
         "topics": [],
         "archived": false,
-        "pushedAt": "2026-10-12T07:17:24Z"
+        "pushedAt": "2026-10-13T04:55:53Z"
       }
     },
     {
@@ -949,24 +870,6 @@
         "topics": [],
         "archived": false,
         "pushedAt": "2026-09-29T14:53:15Z"
-      }
-    },
-    {
-      "queryId": "typed-decision-query",
-      "targetId": "typed-decision-models",
-      "status": "unverified",
-      "repository": {
-        "fullName": "AgenticAPP-Web/Jev-Research-Index",
-        "url": "https://github.com/AgenticAPP-Web/Jev-Research-Index",
-        "description": "Jev Research Index is a bilingual catalogue of papers, software projects, interviews, public analyses, demonstrations, and social-media material related to Jev, the TypeSafe AI System One typed probabilistic decision model.",
-        "stars": 3,
-        "forks": 1,
-        "language": "JavaScript",
-        "topics": [
-          "jev"
-        ],
-        "archived": false,
-        "pushedAt": "2026-09-29T03:28:13Z"
       }
     },
     {
@@ -1024,19 +927,35 @@
         "archived": false,
         "pushedAt": "2026-10-11T17:27:00Z"
       }
+    },
+    {
+      "queryId": "typed-decision-query",
+      "targetId": "typed-decision-models",
+      "status": "unverified",
+      "repository": {
+        "fullName": "sumitmore-07/decision-model-laya",
+        "url": "https://github.com/sumitmore-07/decision-model-laya",
+        "description": "Open-source System One decision model implementation using Laya. Fast structured decisions with Choice, Score and Noul — no token generation, just typed probabilistic answers.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-10-12T18:05:39Z"
+      }
     }
   ],
   "lastRun": {
     "status": "success",
-    "attemptedAt": "2026-10-12T11:11:42.355Z",
-    "completedAt": "2026-10-12T11:11:47.549Z",
+    "attemptedAt": "2026-10-13T06:01:52.988Z",
+    "completedAt": "2026-10-13T06:01:57.879Z",
     "queryCount": 7,
     "successfulQueries": 7,
     "failedQueries": [],
     "rateLimit": {
       "limit": 10,
-      "remaining": 3,
-      "resetAt": "2026-10-12T11:12:43Z"
+      "remaining": 0,
+      "resetAt": "2026-10-13T06:02:45Z"
     }
   }
 }
