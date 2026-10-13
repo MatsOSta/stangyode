@@ -27,6 +27,8 @@ function setLocale(locale) {
   document.querySelector('meta[name="description"]')?.setAttribute('content', description);
   document.querySelector('meta[property="og:title"]')?.setAttribute('content', title);
   document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
+  document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', title);
+  document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', description);
   document.querySelectorAll('[data-en][data-ja]').forEach((element) => { if (element.dataset.rich === 'true') element.innerHTML = japanese ? element.dataset.ja : element.dataset.en; else element.textContent = japanese ? element.dataset.ja : element.dataset.en; });
   document.querySelectorAll('[data-label-en][data-label-ja]').forEach((element) => element.setAttribute('aria-label', japanese ? element.dataset.labelJa : element.dataset.labelEn));
   if (search) search.placeholder = japanese ? search.dataset.placeholderJa : search.dataset.placeholderEn;
