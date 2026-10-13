@@ -2,7 +2,7 @@
   "name": "stangyode",
   "version": "1.0.0",
   "private": true,
-  "description": "The Stangyode company homepage.",
+  "description": "Mats O. Stangjordet's bilingual public engineering record and AI Engineering Atlas.",
   "scripts": {
     "start": "node server.mjs",
     "build:atlas": "node atlas/scripts/build-atlas.mjs",
@@ -16,6 +16,7 @@
     "validate:frontier-radar": "node atlas/scripts/validate-frontier-radar.mjs",
     "validate:discovery": "node atlas/scripts/validate-discovery.mjs",
     "validate:i18n": "node scripts/validate-i18n.mjs",
-    "check": "node --check public/translations.js && node --check public/app.js && node --check public/ai-engineering/atlas.js && npm run test:github-discovery && npm run validate:i18n && npm run validate:discovery && npm run validate:atlas && npm run validate:frontier-radar"
+    "validate:metadata": "node scripts/validate-site-metadata.mjs",
+    "check": "node --check public/translations.js && node --check public/app.js && node --check public/ai-engineering/atlas.js && npm run test:github-discovery && npm run validate:i18n && npm run validate:metadata && npm run validate:discovery && npm run validate:atlas && npm run validate:frontier-radar"
   }
 }
