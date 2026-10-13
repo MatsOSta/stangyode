@@ -1,0 +1,2059 @@
+{
+  "schema": "stangyode.hype-discovery/v1",
+  "mode": "public-fetch",
+  "credentialsRequired": false,
+  "liveFetch": true,
+  "policy": {
+    "en": "This inbox records attention, not truth. Preserve emerging topics even when they are noisy, wrong, or irrelevant; verification and adoption decisions belong to the separate Frontier Radar editorial stage.",
+    "ja": "この受信箱は真実ではなく注目を記録する。騒がしい、誤っている、または無関係であっても新興トピックを保持し、検証と採用判断は別のフロンティア・レーダー編集段階で行う。"
+  },
+  "windowDays": 14,
+  "sources": [
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison's Weblog",
+      "kind": "influencer",
+      "url": "https://simonwillison.net/atom/everything/",
+      "state": "collected"
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "kind": "newsletter",
+      "url": "https://www.latent.space/feed",
+      "state": "collected"
+    },
+    {
+      "id": "hacker-news-ai",
+      "name": "Hacker News AI feed",
+      "kind": "community",
+      "url": "https://hnrss.org/newest?q=AI",
+      "state": "collected"
+    }
+  ],
+  "githubQueries": [
+    {
+      "id": "broad-ai",
+      "query": "AI in:name,description,readme",
+      "state": "collected"
+    },
+    {
+      "id": "broad-ai-agents",
+      "query": "AI agent in:name,description,readme",
+      "state": "collected"
+    },
+    {
+      "id": "broad-llm",
+      "query": "LLM in:name,description,readme",
+      "state": "collected"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "efbcb97aa0262e0b",
+      "sourceId": "hacker-news-ai",
+      "title": "Lossless Image Editing with AI",
+      "url": "https://jgibbs.dev/blogs/image-editing/",
+      "publishedAt": "2026-10-13T05:51:24Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "9de7b6a31f7ac701",
+      "sourceId": "hacker-news-ai",
+      "title": "'I use AI to do the things that I'm bad at': Linus Torvalds",
+      "url": "https://www.zdnet.com/tech/linus-torvalds-ai-coding-programming/",
+      "publishedAt": "2026-10-13T05:43:19Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "742110d8aba64288",
+      "sourceId": "hacker-news-ai",
+      "title": "DocCloak – Browser-Based Document Anonymizer for AI Submissions",
+      "url": "https://github.com/WLojek/DocCloak",
+      "publishedAt": "2026-10-13T05:27:55Z",
+      "githubRepositories": [
+        "WLojek/DocCloak"
+      ],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "99f6bea0d3e7dd56",
+      "sourceId": "hacker-news-ai",
+      "title": "Things we've learned about building AI products",
+      "url": "https://newsletter.posthog.com/p/38-things-weve-learned-about-building",
+      "publishedAt": "2026-10-13T04:59:02Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "29c9ae5f8ca18da9",
+      "sourceId": "hacker-news-ai",
+      "title": "Software engineers don't get to be Luddites about AI",
+      "url": "https://www.seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/",
+      "publishedAt": "2026-10-13T04:48:45Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "1504446eeda81a1f",
+      "sourceId": "hacker-news-ai",
+      "title": "Don't Feed the AI - Anonymizer Proxy for AI-assisted Pentesting",
+      "url": "https://github.com/zeroc00I/DontFeedTheAI",
+      "publishedAt": "2026-10-13T04:45:41Z",
+      "githubRepositories": [
+        "zeroc00I/DontFeedTheAI"
+      ],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "90e8f35d73d5cee0",
+      "sourceId": "hacker-news-ai",
+      "title": "Intel Accelerates Open Infrastructure for the Agentic AI Era",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-accelerates-open-infrastructure-agentic-ai-era.html",
+      "publishedAt": "2026-10-13T04:37:31Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "46fe65b81f1f8768",
+      "sourceId": "hacker-news-ai",
+      "title": "AI Mentions Checker: Track Your Brand Visibility in AI Search",
+      "url": "https://news.ycombinator.com/item?id=50066633",
+      "publishedAt": "2026-10-13T04:16:59Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "7a8a2fcb4f561eff",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: Search for AI agents with usefulness score built in",
+      "url": "https://github.com/Ayobamiu/usefulness-search",
+      "publishedAt": "2026-10-13T04:07:07Z",
+      "githubRepositories": [
+        "Ayobamiu/usefulness-search"
+      ],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "70b11b0d24582377",
+      "sourceId": "hacker-news-ai",
+      "title": "Can we change an AI model's architecture without retraining it from scratch?",
+      "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
+      "publishedAt": "2026-10-13T03:57:04Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "600a7459a0a689ee",
+      "sourceId": "hacker-news-ai",
+      "title": "I used an AI QA agent to test Hacker News",
+      "url": "https://hitest.ai/blog/demo-hacker-news",
+      "publishedAt": "2026-10-13T03:31:58Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "9c77abb0ce7242e6",
+      "sourceId": "hacker-news-ai",
+      "title": "Ask HN: Now that AI makes the execution easy, do ideas matter more?",
+      "url": "https://news.ycombinator.com/item?id=50066263",
+      "publishedAt": "2026-10-13T03:29:08Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "18545889460bfb8d",
+      "sourceId": "hacker-news-ai",
+      "title": "Is AI the End of Math as We Know It?",
+      "url": "https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/",
+      "publishedAt": "2026-10-13T03:24:50Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "3d176e2daaba9339",
+      "sourceId": "hacker-news-ai",
+      "title": "Leading Chinese mathematicians unite behind use of AI in research",
+      "url": "https://www.scmp.com/news/china/science/article/3370492/leading-chinese-mathematicians-unite-behind-use-ai-research",
+      "publishedAt": "2026-10-13T03:21:20Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "1d361b48feeff4fd",
+      "sourceId": "hacker-news-ai",
+      "title": "In 5 years, 95% of tokens used by AI agents will be for tasks humans never did",
+      "url": "https://twitter.com/levie/status/1986620885592113218",
+      "publishedAt": "2026-10-13T03:12:59Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "3f23117030b8eccb",
+      "sourceId": "hacker-news-ai",
+      "title": "Army turning to AI in its fight against biological threats",
+      "url": "https://defensescoop.com/2026/10/12/army-turning-to-ai-in-its-fight-against-biological-threats/",
+      "publishedAt": "2026-10-13T02:29:59Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "d0df8c57863c3099",
+      "sourceId": "hacker-news-ai",
+      "title": "I gave 16 IA's control of the AI nations in Humankind",
+      "url": "https://mod.io/g/humankind/m/realpolitik",
+      "publishedAt": "2026-10-13T02:10:39Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "99c41c03c2af87fe",
+      "sourceId": "hacker-news-ai",
+      "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "publishedAt": "2026-10-13T02:07:08Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "894f5af4b0b1a5b0",
+      "sourceId": "hacker-news-ai",
+      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "publishedAt": "2026-10-13T01:25:28Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "6626f06cddaa9016",
+      "sourceId": "hacker-news-ai",
+      "title": "Examining China's AI Financing [pdf]",
+      "url": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/Examining-Chinas-AI-Financing.pdf",
+      "publishedAt": "2026-10-13T01:25:16Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "c20e542d75f84137",
+      "sourceId": "latent-space",
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "publishedAt": "2026-10-12T18:18:17Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "dcfbb04ca90254c1",
+      "sourceId": "simon-willison",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "publishedAt": "2026-10-12T18:15:38Z",
+      "githubRepositories": [
+        "benfred/py-spy",
+        "simonw/click-app",
+        "simonw/datasette",
+        "simonw/datasette-plugin",
+        "simonw/llm-plugin",
+        "simonw/python-lib"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "d96a8b9f8042e6f6",
+      "sourceId": "hacker-news-ai",
+      "title": "Most US Adults Aren't Ready for AI to Help with Holiday Shopping, Survey Finds",
+      "url": "https://www.cnet.com/tech/services-and-software/ai-holiday-shopping-survey/",
+      "publishedAt": "2026-10-12T18:10:19Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "0d8aefe6c3ed144a",
+      "sourceId": "hacker-news-ai",
+      "title": "Mark Zuckerberg says Meta reached AI 'frontier' and rejects calls for slowdown",
+      "url": "https://www.ft.com/content/fca23e77-be57-4d7e-ae61-74ff299e25cb",
+      "publishedAt": "2026-10-12T18:08:42Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "a94ee6d141dc1bc9",
+      "sourceId": "hacker-news-ai",
+      "title": "AI is fucking overwhelming man",
+      "url": "https://himanshusinghbisht.substack.com/p/ai-is-fucking-overwhelming-man",
+      "publishedAt": "2026-10-12T18:08:15Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "598597e4255dbc05",
+      "sourceId": "hacker-news-ai",
+      "title": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video",
+      "publishedAt": "2026-10-12T18:07:08Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "481932d34cef0af2",
+      "sourceId": "hacker-news-ai",
+      "title": "I built an AI receipt scanner to track expenses and organize receipts",
+      "url": "https://play.google.com/store/apps/details?id=com.usebright.receipt_scanner&hl=en_US",
+      "publishedAt": "2026-10-12T18:07:03Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "2df4c84393c0afef",
+      "sourceId": "hacker-news-ai",
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "url": "https://gist.github.com/svieira/619d60dea942a8d4498cba3bb6b11c02",
+      "publishedAt": "2026-10-12T18:00:25Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "d2657efac3229692",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: I bought a bunch of 'smart' devices. AI was able to hack most of them",
+      "url": "https://hwrebench.com/",
+      "publishedAt": "2026-10-12T17:59:33Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "5800c7e7377b88aa",
+      "sourceId": "hacker-news-ai",
+      "title": "AI Cyberswarm Warfare Predictions",
+      "url": "https://www.transitivebullsh.it/ai-cyberswarm-warfare",
+      "publishedAt": "2026-10-12T17:48:41Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "bec2364017fb54c1",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: AI Prompt Lighting Controls",
+      "url": "https://www.kapwing.com/ai/prompt-generator/lighting",
+      "publishedAt": "2026-10-12T17:48:23Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "3c220a0bf73a0706",
+      "sourceId": "hacker-news-ai",
+      "title": "Will AI Crowd Out Jobs?",
+      "url": "https://paulkrugman.substack.com/p/will-ai-crowd-out-jobs",
+      "publishedAt": "2026-10-12T17:39:27Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "4960e7c310de7d0f",
+      "sourceId": "hacker-news-ai",
+      "title": "Man Sentenced to 18 Months in Prison for AI Assisted Music Streaming Fraud",
+      "url": "https://www.justice.gov/usao-sdny/pr/north-carolina-man-sentenced-18-months-prison-super-intelligence-assisted-music",
+      "publishedAt": "2026-10-12T17:36:00Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "2a5a6027c4a30c95",
+      "sourceId": "hacker-news-ai",
+      "title": "Can AI Automate Epoch?",
+      "url": "https://epoch.ai/publications/can-ai-automate-epoch",
+      "publishedAt": "2026-10-12T17:32:38Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "76851daf5581aba7",
+      "sourceId": "hacker-news-ai",
+      "title": "AI Plays Slay the Spire",
+      "url": "https://ai-plays-slay-the-spire.com/",
+      "publishedAt": "2026-10-12T17:28:16Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "3018e214bceea21e",
+      "sourceId": "hacker-news-ai",
+      "title": "Nvidia, Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories",
+      "publishedAt": "2026-10-12T17:25:40Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "d1ad3e60eb259c70",
+      "sourceId": "hacker-news-ai",
+      "title": "Normies won't know they're building software because their AI will do it",
+      "url": "https://levels.io/normies-ai-builds-software-for-them",
+      "publishedAt": "2026-10-12T17:14:56Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "89e99454985611f5",
+      "sourceId": "hacker-news-ai",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "publishedAt": "2026-10-12T17:14:01Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "d29b476c1b470bfd",
+      "sourceId": "hacker-news-ai",
+      "title": "Aura: A behavioral threat-intelligence framework for AI Safety",
+      "url": "https://medium.com/@kate8382/aura-ai-user-risk-assessment-a-behavioral-threat-intelligence-framework-for-ai-safety-7056f9ae0fee",
+      "publishedAt": "2026-10-12T17:09:20Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "23664761f5dca68c",
+      "sourceId": "hacker-news-ai",
+      "title": "AI Reflections of a New Grad Engineer",
+      "url": "https://medium.com/affirmengineering/ai-reflections-of-a-new-grad-engineer-3020093196fe",
+      "publishedAt": "2026-10-12T17:08:28Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "470e232d1a2cb327",
+      "sourceId": "hacker-news-ai",
+      "title": "Meta Unveils New Series of Advanced AI Models",
+      "url": "https://www.nytimes.com/2026/10/12/technology/meta-muse-wonder-full-models.html",
+      "publishedAt": "2026-10-12T17:07:20Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "dd40d93c702c610f",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: Search 123 AI labs' jobs from your own agent, no signup",
+      "url": "https://workatailab.com/agents",
+      "publishedAt": "2026-10-12T17:04:55Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:52:49.131Z"
+    },
+    {
+      "id": "cdae7d858eb661d0",
+      "sourceId": "simon-willison",
+      "title": "web-edit 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "publishedAt": "2026-10-12T15:54:36Z",
+      "githubRepositories": [
+        "simonw/web-edit"
+      ],
+      "firstSeenAt": "2026-10-13T06:01:34.409Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "9e7035ea9b7ae985",
+      "sourceId": "simon-willison",
+      "title": "datasette-ports 0.4",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "publishedAt": "2026-10-12T04:57:07Z",
+      "githubRepositories": [
+        "datasette/datasette-ports"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "3c41a054f4ebdce5",
+      "sourceId": "simon-willison",
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "publishedAt": "2026-10-11T00:52:37Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "766df9ea16213722",
+      "sourceId": "simon-willison",
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "publishedAt": "2026-10-10T23:58:04Z",
+      "githubRepositories": [
+        "actions/python-versions"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "acbf4a4cd6de1fd7",
+      "sourceId": "latent-space",
+      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+      "url": "https://www.latent.space/p/nyc2026",
+      "publishedAt": "2026-10-10T22:07:17Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "ffa643fdb6571324",
+      "sourceId": "latent-space",
+      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "url": "https://www.latent.space/p/standard-bots",
+      "publishedAt": "2026-10-10T14:04:11Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "fd66aa8125a543e7",
+      "sourceId": "latent-space",
+      "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
+      "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+      "publishedAt": "2026-10-10T06:45:57Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "3a53b06155830cbf",
+      "sourceId": "simon-willison",
+      "title": "Quoting The New York Times",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "publishedAt": "2026-10-10T02:04:12Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "161f385cf45cbbf3",
+      "sourceId": "latent-space",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/p/biohub-deepmind",
+      "publishedAt": "2026-10-10T00:31:26Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "602befb05f54f823",
+      "sourceId": "simon-willison",
+      "title": "Deno is joining Cloudflare",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "publishedAt": "2026-10-09T22:48:37Z",
+      "githubRepositories": [
+        "denoland/celld",
+        "denoland/deno"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "7a6865b42858e47f",
+      "sourceId": "simon-willison",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "publishedAt": "2026-10-09T15:02:29Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "4e9c652c47913a2a",
+      "sourceId": "simon-willison",
+      "title": "A new feature for my blog, built using my voice",
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "publishedAt": "2026-10-09T12:54:06Z",
+      "githubRepositories": [
+        "simonw/monthly-newsletter-archive",
+        "simonw/simonwillisonblog",
+        "sponsors/simonw"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "0e1ad73be08e4344",
+      "sourceId": "simon-willison",
+      "title": "ttok 1.0",
+      "url": "https://simonwillison.net/2026/Oct/9/ttok/",
+      "publishedAt": "2026-10-09T00:34:43Z",
+      "githubRepositories": [
+        "openai/tiktoken",
+        "simonw/ttok",
+        "williamliu-ai/token-count-compare"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "c6661f39d3c927ca",
+      "sourceId": "simon-willison",
+      "title": "ttok 0.4",
+      "url": "https://simonwillison.net/2026/Oct/8/ttok/",
+      "publishedAt": "2026-10-08T23:34:28Z",
+      "githubRepositories": [
+        "openai/tiktoken",
+        "simonw/ttok"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "c4aa874953e1c3ec",
+      "sourceId": "latent-space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+      "publishedAt": "2026-10-08T23:29:43Z",
+      "githubRepositories": [
+        "a2ui-project/a2ui",
+        "ggml-org/llama.cpp",
+        "thesysdev/open-intelligent-ui",
+        "thesysdev/openui",
+        "vercel-labs/json-render"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "c0257483dcf7c9ad",
+      "sourceId": "simon-willison",
+      "title": "Quoting Carson Gross",
+      "url": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+      "publishedAt": "2026-10-08T21:05:44Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "b394debda93fbe5d",
+      "sourceId": "latent-space",
+      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+      "url": "https://www.latent.space/p/periodic",
+      "publishedAt": "2026-10-08T16:27:54Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "4dad51c771377596",
+      "sourceId": "latent-space",
+      "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+      "publishedAt": "2026-10-08T07:27:51Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "c1532da7509542eb",
+      "sourceId": "simon-willison",
+      "title": "Quoting Ben Affleck",
+      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+      "publishedAt": "2026-10-07T23:14:58Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "7d453b00bc98a961",
+      "sourceId": "simon-willison",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "publishedAt": "2026-10-07T20:56:21Z",
+      "githubRepositories": [
+        "simonw/llm-anthropic"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "04de0cb116e2aa40",
+      "sourceId": "simon-willison",
+      "title": "Anti-Patterns in Software Blogging",
+      "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+      "publishedAt": "2026-10-07T14:53:51Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "2f20d3d98abd240c",
+      "sourceId": "latent-space",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "url": "https://www.latent.space/p/stacklok",
+      "publishedAt": "2026-10-07T14:10:45Z",
+      "githubRepositories": [
+        "stacklok/mecatl",
+        "stacklok/toolhive"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "5ff1c58c41227e80",
+      "sourceId": "latent-space",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "publishedAt": "2026-10-07T04:55:44Z",
+      "githubRepositories": [
+        "ggml-org/llama.cpp",
+        "openai/math"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "ed68d21d3d389c37",
+      "sourceId": "simon-willison",
+      "title": "Quoting Jake Boggan",
+      "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+      "publishedAt": "2026-10-07T04:47:55Z",
+      "githubRepositories": [
+        "openai/math"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "114f63a78192a144",
+      "sourceId": "simon-willison",
+      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "publishedAt": "2026-10-07T00:16:45Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "84bc5ff9c10e85b9",
+      "sourceId": "simon-willison",
+      "title": "Quoting Victoria Kim",
+      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+      "publishedAt": "2026-10-06T23:58:56Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "dc16cc344a6b20a4",
+      "sourceId": "simon-willison",
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "publishedAt": "2026-10-06T23:04:13Z",
+      "githubRepositories": [
+        "simonw/llm-openai-decisions",
+        "simonw/llm-typesafe"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "5747837bf9889c36",
+      "sourceId": "simon-willison",
+      "title": "llm-mistral 0.16",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "publishedAt": "2026-10-06T21:32:34Z",
+      "githubRepositories": [
+        "simonw/llm-mistral"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "cfc52a670f82969e",
+      "sourceId": "simon-willison",
+      "title": "EmbeddingGemma 2",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "publishedAt": "2026-10-06T20:37:53Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "35f2c308608ba503",
+      "sourceId": "simon-willison",
+      "title": "Introducing Mistral Large 4: Le chonk",
+      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+      "publishedAt": "2026-10-06T20:18:19Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "c388c21c445f2a2d",
+      "sourceId": "simon-willison",
+      "title": "Using Parseable with Datasette for OpenTelemetry traces",
+      "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+      "publishedAt": "2026-10-06T19:07:31Z",
+      "githubRepositories": [
+        "parseablehq/parseable"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "2fa98fabc93c5c2c",
+      "sourceId": "simon-willison",
+      "title": "Mistral Large 4",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+      "publishedAt": "2026-10-06T18:20:58Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "f1e5fb61b6587d9f",
+      "sourceId": "simon-willison",
+      "title": "datasette-atom 0.11a0",
+      "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+      "publishedAt": "2026-10-06T17:35:39Z",
+      "githubRepositories": [
+        "simonw/datasette-atom"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "c2ac285b2a454da9",
+      "sourceId": "simon-willison",
+      "title": "Scrimshaw Jukebox",
+      "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "publishedAt": "2026-10-06T15:17:39Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "fbe9556a690ef6e9",
+      "sourceId": "latent-space",
+      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "publishedAt": "2026-10-06T06:28:43Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "1c73e49e7cfc1578",
+      "sourceId": "simon-willison",
+      "title": "Quoting Felix Rieseberg",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "publishedAt": "2026-10-05T23:56:47Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "39d9b46e0f155022",
+      "sourceId": "simon-willison",
+      "title": "Qwen3.8 27B addition in words",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+      "publishedAt": "2026-10-04T23:34:00Z",
+      "githubRepositories": [
+        "simonw/research"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "73d51aeaed8dea10",
+      "sourceId": "simon-willison",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "publishedAt": "2026-10-03T23:34:02Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "dab39cc73095554a",
+      "sourceId": "simon-willison",
+      "title": "September sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+      "publishedAt": "2026-10-03T22:00:31Z",
+      "githubRepositories": [
+        "simonw-private/monthly",
+        "simonw/monthly-newsletter-archive",
+        "sponsors/simonw"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "6613d5899daa6cf5",
+      "sourceId": "latent-space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "publishedAt": "2026-10-03T08:45:15Z",
+      "githubRepositories": [
+        "StayLameBro/backburner",
+        "ggml-org/llama.cpp"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "e09830e1ee196409",
+      "sourceId": "simon-willison",
+      "title": "Rex's Dino Store",
+      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+      "publishedAt": "2026-10-02T22:57:38Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:59:06.180Z"
+    },
+    {
+      "id": "9ca2fe6fc5fa1322",
+      "sourceId": "latent-space",
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "url": "https://www.latent.space/p/airbnb",
+      "publishedAt": "2026-10-02T14:04:49Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "7ff4a0e5b2d36695",
+      "sourceId": "latent-space",
+      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "publishedAt": "2026-10-02T06:40:53Z",
+      "githubRepositories": [
+        "earendil-works/pi"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "69af912ddfaed405",
+      "sourceId": "latent-space",
+      "title": "Academia is for Ambition — Alex Zhang, MIT",
+      "url": "https://www.latent.space/p/rlm",
+      "publishedAt": "2026-10-02T00:28:04Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "7c1904651a02f03f",
+      "sourceId": "latent-space",
+      "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
+      "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "publishedAt": "2026-10-01T06:45:05Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "986c27e1bebd3d42",
+      "sourceId": "latent-space",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/p/devday-2026",
+      "publishedAt": "2026-09-30T22:23:40Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "1b51262461432785",
+      "sourceId": "latent-space",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "publishedAt": "2026-09-30T05:53:10Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-13T06:01:34.409Z"
+    },
+    {
+      "id": "6d54da03a8670720",
+      "sourceId": "latent-space",
+      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+      "publishedAt": "2026-09-29T02:55:27Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:59:06.180Z"
+    },
+    {
+      "id": "87d7c8e6f6696059",
+      "sourceId": "latent-space",
+      "title": "[AINews] Opus 5.5 is good at explainer videos",
+      "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+      "publishedAt": "2026-09-29T02:44:29Z",
+      "githubRepositories": [
+        "Contrastive-LM/CLM",
+        "ickma2311/jev-baselines-eval",
+        "woct0rdho/transformers5-qwen3.5-recipe"
+      ],
+      "firstSeenAt": "2026-10-12T18:52:49.131Z",
+      "lastSeenAt": "2026-10-12T18:59:06.180Z"
+    }
+  ],
+  "repositories": [
+    {
+      "fullName": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+      "stars": 54476,
+      "forks": 9121,
+      "createdAt": "2026-09-30T13:37:48Z",
+      "pushedAt": "2026-10-13T05:51:23Z",
+      "topics": [
+        "art",
+        "image-editing",
+        "image-editing-software",
+        "image-editor",
+        "images",
+        "photo-editing",
+        "rust"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 52345,
+          "forks": 8642
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 52367,
+          "forks": 8645
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 54476,
+          "forks": 9121
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.68,
+        "starsPerDay": 4296.21,
+        "starsDelta": 2109,
+        "forksDelta": 476,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "storytold/wordcraft",
+      "url": "https://github.com/storytold/wordcraft",
+      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "stars": 9585,
+      "forks": 2493,
+      "createdAt": "2026-10-07T08:34:24Z",
+      "pushedAt": "2026-10-12T16:22:14Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 8649,
+          "forks": 2314
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 8654,
+          "forks": 2315
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 9585,
+          "forks": 2493
+        }
+      ],
+      "metrics": {
+        "ageDays": 5.89,
+        "starsPerDay": 1627.33,
+        "starsDelta": 931,
+        "forksDelta": 178,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "storytold/pdfcraft",
+      "url": "https://github.com/storytold/pdfcraft",
+      "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+      "stars": 11706,
+      "forks": 4465,
+      "createdAt": "2026-09-30T13:39:37Z",
+      "pushedAt": "2026-10-13T05:52:22Z",
+      "topics": [
+        "document-processing",
+        "documents",
+        "pdf",
+        "pdf-generation",
+        "pdf-processing",
+        "pdf-tools",
+        "pdf-viewer",
+        "rust"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 10875,
+          "forks": 4203
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 10882,
+          "forks": 4208
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 11706,
+          "forks": 4465
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.68,
+        "starsPerDay": 923.19,
+        "starsDelta": 824,
+        "forksDelta": 257,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "storytold/filmcraft",
+      "url": "https://github.com/storytold/filmcraft",
+      "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
+      "stars": 11738,
+      "forks": 4729,
+      "createdAt": "2026-09-30T13:41:20Z",
+      "pushedAt": "2026-10-13T05:19:19Z",
+      "topics": [
+        "art",
+        "rust",
+        "video",
+        "video-editing",
+        "video-editor",
+        "video-processing"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 11219,
+          "forks": 4492
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 11224,
+          "forks": 4497
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 11738,
+          "forks": 4729
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.68,
+        "starsPerDay": 925.71,
+        "starsDelta": 514,
+        "forksDelta": 232,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "storytold/lightcraft",
+      "url": "https://github.com/storytold/lightcraft",
+      "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
+      "stars": 11399,
+      "forks": 4093,
+      "createdAt": "2026-09-30T14:09:27Z",
+      "pushedAt": "2026-10-13T06:01:05Z",
+      "topics": [
+        "art",
+        "photography",
+        "raw",
+        "raw-editor",
+        "raw-processing",
+        "rust"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 11006,
+          "forks": 3898
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 11016,
+          "forks": 3901
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 11399,
+          "forks": 4093
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.66,
+        "starsPerDay": 900.39,
+        "starsDelta": 383,
+        "forksDelta": 192,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "storytold/vectorcraft",
+      "url": "https://github.com/storytold/vectorcraft",
+      "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
+      "stars": 8026,
+      "forks": 3742,
+      "createdAt": "2026-09-30T13:43:03Z",
+      "pushedAt": "2026-10-13T05:55:05Z",
+      "topics": [
+        "art",
+        "rust",
+        "rust-lang",
+        "svg",
+        "svg-editor",
+        "vector-graphics"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 7739,
+          "forks": 3563
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 7747,
+          "forks": 3565
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 8026,
+          "forks": 3742
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.68,
+        "starsPerDay": 632.97,
+        "starsDelta": 279,
+        "forksDelta": 177,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "storytold/effectcraft",
+      "url": "https://github.com/storytold/effectcraft",
+      "description": "EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust",
+      "stars": 5892,
+      "forks": 3006,
+      "createdAt": "2026-10-01T14:24:46Z",
+      "pushedAt": "2026-10-12T21:22:54Z",
+      "topics": [
+        "art",
+        "compositing",
+        "compositing-software",
+        "motion-graphics",
+        "rust"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 5654,
+          "forks": 2846
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 5656,
+          "forks": 2849
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 5892,
+          "forks": 3006
+        }
+      ],
+      "metrics": {
+        "ageDays": 11.65,
+        "starsPerDay": 505.75,
+        "starsDelta": 236,
+        "forksDelta": 157,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "rehan-remade/universal-modder",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+      "stars": 7149,
+      "forks": 749,
+      "createdAt": "2026-09-30T05:00:35Z",
+      "pushedAt": "2026-10-13T00:36:35Z",
+      "topics": [
+        "age-of-empires",
+        "claude-code",
+        "claude-code-plugin",
+        "fal",
+        "game-assets",
+        "game-modding",
+        "mcp",
+        "modding",
+        "reverse-engineering",
+        "tmodloader"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 7003,
+          "forks": 725
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 7005,
+          "forks": 725
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 7149,
+          "forks": 749
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.04,
+        "starsPerDay": 548.24,
+        "starsDelta": 144,
+        "forksDelta": 24,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "mhtsec/ARTEX",
+      "url": "https://github.com/mhtsec/ARTEX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "stars": 3681,
+      "forks": 6063,
+      "createdAt": "2026-10-08T05:33:06Z",
+      "pushedAt": "2026-10-10T09:16:20Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 3543,
+          "forks": 5959
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 3543,
+          "forks": 5959
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 3681,
+          "forks": 6063
+        }
+      ],
+      "metrics": {
+        "ageDays": 5.02,
+        "starsPerDay": 733.27,
+        "starsDelta": 138,
+        "forksDelta": 104,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "QingYunA/answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "stars": 3195,
+      "forks": 216,
+      "createdAt": "2026-10-02T09:57:40Z",
+      "pushedAt": "2026-10-13T04:07:17Z",
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "claude-code",
+        "claude-code-skill",
+        "claude-skill",
+        "claude-skills",
+        "cli",
+        "diagram",
+        "dsh-plugin",
+        "explainer",
+        "html",
+        "llm",
+        "ste100"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 3087,
+          "forks": 211
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 3087,
+          "forks": 211
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 3195,
+          "forks": 216
+        }
+      ],
+      "metrics": {
+        "ageDays": 10.84,
+        "starsPerDay": 294.74,
+        "starsDelta": 108,
+        "forksDelta": 5,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "shader-effects-inc/shaders",
+      "url": "https://github.com/shader-effects-inc/shaders",
+      "description": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
+      "stars": 4645,
+      "forks": 191,
+      "createdAt": "2026-09-29T16:36:26Z",
+      "pushedAt": "2026-10-09T13:24:56Z",
+      "topics": [
+        "cli",
+        "javascript",
+        "mcp",
+        "react",
+        "shaders",
+        "solid",
+        "svelte",
+        "vue",
+        "webgpu-shaders"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 4561,
+          "forks": 182
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 4561,
+          "forks": 182
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 4645,
+          "forks": 191
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.56,
+        "starsPerDay": 342.55,
+        "starsDelta": 84,
+        "forksDelta": 9,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents",
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "CopilotKit/OpenDots",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+      "stars": 5088,
+      "forks": 717,
+      "createdAt": "2026-09-29T17:13:58Z",
+      "pushedAt": "2026-10-12T02:20:19Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 5046,
+          "forks": 708
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 5046,
+          "forks": 708
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 5088,
+          "forks": 717
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.53,
+        "starsPerDay": 376.05,
+        "starsDelta": 42,
+        "forksDelta": 9,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "jiwoochris/artex-ko",
+      "url": "https://github.com/jiwoochris/artex-ko",
+      "description": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "stars": 1396,
+      "forks": 1671,
+      "createdAt": "2026-10-03T14:49:48Z",
+      "pushedAt": "2026-10-12T02:21:12Z",
+      "topics": [
+        "ai-agent",
+        "autonomous-agents",
+        "blue-team",
+        "cybersecurity",
+        "detection-engineering",
+        "i18n",
+        "korean",
+        "llm",
+        "penetration-testing",
+        "security",
+        "security-research",
+        "security-tools",
+        "sigma-rules",
+        "threat-detection"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 1368,
+          "forks": 1621
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 1368,
+          "forks": 1621
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 1396,
+          "forks": 1671
+        }
+      ],
+      "metrics": {
+        "ageDays": 9.63,
+        "starsPerDay": 144.96,
+        "starsDelta": 28,
+        "forksDelta": 50,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "pingdotgg/ts-rust",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "description": "An experimental Rust port of the TypeScript 7 compiler (tsc)",
+      "stars": 1130,
+      "forks": 75,
+      "createdAt": "2026-10-07T05:17:07Z",
+      "pushedAt": "2026-10-13T05:40:03Z",
+      "topics": [
+        "compiler",
+        "rust",
+        "tsc",
+        "typescript"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 1112,
+          "forks": 73
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 1113,
+          "forks": 73
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 1130,
+          "forks": 75
+        }
+      ],
+      "metrics": {
+        "ageDays": 6.03,
+        "starsPerDay": 187.4,
+        "starsDelta": 17,
+        "forksDelta": 2,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "nanaism/yomiyasu",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+      "stars": 1925,
+      "forks": 45,
+      "createdAt": "2026-09-30T11:49:32Z",
+      "pushedAt": "2026-10-13T03:55:10Z",
+      "topics": [
+        "agent-skills",
+        "ai-writing",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "gemini",
+        "japanese",
+        "linter",
+        "llm",
+        "nlp",
+        "writing",
+        "writing-assistant",
+        "writing-tool"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 1908,
+          "forks": 43
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 1908,
+          "forks": 43
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 1925,
+          "forks": 45
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.76,
+        "starsPerDay": 150.86,
+        "starsDelta": 17,
+        "forksDelta": 2,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "Hinln/ARTEX",
+      "url": "https://github.com/Hinln/ARTEX",
+      "description": "ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。",
+      "stars": 731,
+      "forks": 1124,
+      "createdAt": "2026-10-08T11:00:36Z",
+      "pushedAt": "2026-10-08T11:06:03Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 726,
+          "forks": 1117
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 726,
+          "forks": 1117
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 731,
+          "forks": 1124
+        }
+      ],
+      "metrics": {
+        "ageDays": 4.79,
+        "starsPerDay": 152.61,
+        "starsDelta": 5,
+        "forksDelta": 7,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "amywork777/lipflow",
+      "url": "https://github.com/amywork777/lipflow",
+      "description": "Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.",
+      "stars": 606,
+      "forks": 70,
+      "createdAt": "2026-09-29T20:05:06Z",
+      "pushedAt": "2026-10-07T04:20:10Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 601,
+          "forks": 69
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 601,
+          "forks": 69
+        },
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 606,
+          "forks": 70
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.41,
+        "starsPerDay": 45.19,
+        "starsDelta": 5,
+        "forksDelta": 1,
+        "elapsedHours": 11.04,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "onehumanbeing/esp32-iphone-agent",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+      "stars": 909,
+      "forks": 116,
+      "createdAt": "2026-10-11T19:10:25Z",
+      "pushedAt": "2026-10-12T17:38:21Z",
+      "topics": [
+        "ai-agent",
+        "airplay",
+        "automation",
+        "computer-use",
+        "esp32",
+        "esp32-s3",
+        "iphone",
+        "llm",
+        "usb-hid"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 909,
+          "forks": 116
+        }
+      ],
+      "metrics": {
+        "ageDays": 1.45,
+        "starsPerDay": 626.9,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "trhhubsd/ARTEXX",
+      "url": "https://github.com/trhhubsd/ARTEXX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 Autumn-27/ARTEX",
+      "stars": 696,
+      "forks": 10,
+      "createdAt": "2026-10-08T20:35:22Z",
+      "pushedAt": "2026-10-09T12:43:45Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-13T06:01:34.409Z",
+          "stars": 696,
+          "forks": 10
+        }
+      ],
+      "metrics": {
+        "ageDays": 4.39,
+        "starsPerDay": 158.54,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "KKKKhazix/AIHOT",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "stars": 7364,
+      "forks": 1776,
+      "createdAt": "2026-09-28T23:40:05Z",
+      "pushedAt": "2026-10-12T06:12:01Z",
+      "topics": [
+        "ai",
+        "chinese",
+        "content-curation",
+        "daily-digest",
+        "docker-compose",
+        "llm",
+        "mcp",
+        "news-aggregator",
+        "postgresql",
+        "rss",
+        "self-hosted",
+        "typescript"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 7364,
+          "forks": 1776
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 7364,
+          "forks": 1776
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.8,
+        "starsPerDay": 533.62,
+        "starsDelta": 0,
+        "forksDelta": 0,
+        "elapsedHours": 0.1,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents",
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "ESPARGOS/esp-sdr",
+      "url": "https://github.com/ESPARGOS/esp-sdr",
+      "description": "ESP-SDR uses the undocumented raw I/Q capture functionality of ESP32 family chips to turn them into (low-duty-cycle) Software Defined Radios",
+      "stars": 852,
+      "forks": 121,
+      "createdAt": "2026-09-28T08:50:16Z",
+      "pushedAt": "2026-10-12T12:11:28Z",
+      "topics": [
+        "esp32",
+        "sdr"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-12T18:52:49.131Z",
+          "stars": 852,
+          "forks": 121
+        },
+        {
+          "at": "2026-10-12T18:59:06.180Z",
+          "stars": 852,
+          "forks": 121
+        }
+      ],
+      "metrics": {
+        "ageDays": 14.42,
+        "starsPerDay": 59.08,
+        "starsDelta": 0,
+        "forksDelta": 0,
+        "elapsedHours": 0.1,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    }
+  ],
+  "lastRun": {
+    "status": "success",
+    "attemptedAt": "2026-10-13T06:01:34.409Z",
+    "completedAt": "2026-10-13T06:01:34.409Z",
+    "windowStart": "2026-09-29T00:00:00Z",
+    "sourceCount": 3,
+    "successfulSources": 3,
+    "githubQueryCount": 3,
+    "successfulGithubQueries": 3,
+    "failures": [],
+    "rateLimit": {
+      "limit": 10,
+      "remaining": 7,
+      "resetAt": "2026-10-13T06:02:45Z"
+    }
+  }
+}
