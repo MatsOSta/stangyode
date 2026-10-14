@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-12
+Snapshot / スナップショット: 2026-10-13
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,11 +8,11 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-12T11:14:10Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-13T06:04:43Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: SUCCESS; last success 2026-10-11T05:08:42Z; failure streak 0; last failure rate_limit at 2026-10-08T13:31:55Z (resolved)
-- editor: SUCCESS; last success 2026-10-12T11:14:10Z; failure streak 0
+- scout: SUCCESS; last success 2026-10-13T06:01:34.409Z; failure streak 0; last failure rate_limit at 2026-10-08T13:31:55Z (resolved)
+- editor: SUCCESS; last success 2026-10-13T06:04:43Z; failure streak 0
 
 ### Sensors / センサー
 - primary-docs: CHECKED
@@ -21,83 +21,63 @@ As of / 基準時刻: 2026-10-12T11:14:10Z; cadence / 頻度: daily; data / デ�
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
-- [TypeSafe current models](https://docs.typesafe.ai/models): no-material-change; checked 2026-10-11; source typesafe-models
-- [Microsoft-Decision-1 in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision): relevant; checked 2026-10-11; source microsoft-decision-1
-- [Mapika decider model family](https://github.com/Mapika/decider): relevant; checked 2026-10-11; source mapika-decider
-- [Alibaba/OpenAnolis SkillFS](https://www.alibabacloud.com/blog/skillfs-governing-dozens-of-agent-skills-with-a-file-system_603623): relevant; checked 2026-10-11; source skillfs
-- [Cloudflare Skills over MCP](https://developers.cloudflare.com/changelog/post/2026-10-10-cloudflare-mcp-skills/): relevant; checked 2026-10-11; source cloudflare-skills-mcp
-- [SWE-Skills-Bench](https://arxiv.org/html/2603.15401): relevant; checked 2026-10-11; source swe-skills-bench
-- [When Old Facts Return](https://arxiv.org/abs/2610.07715): relevant; checked 2026-10-11; source memory-rereads-paper
-- [Stale, Misattributed, or Late](https://arxiv.org/abs/2610.10265): relevant; checked 2026-10-11; source personal-memory-validity-paper
-- [Mem0 Dream supersession and active-memory reads](https://docs.mem0.ai/platform/features/dream): relevant; checked 2026-10-11; source mem0-dream
-- [Zep temporal facts and validity bounds](https://help.getzep.com/facts): relevant; checked 2026-10-11; source zep-temporal-facts
-- [OpenAI API changelog](https://developers.openai.com/api/docs/changelog): no-material-change; checked 2026-10-11; source openai-changelog
-- [Anthropic API release notes](https://docs.anthropic.com/en/release-notes/api): relevant; checked 2026-10-11; source anthropic-api-release-notes
-- [Gemini API release notes](https://ai.google.dev/gemini-api/docs/changelog): no-material-change; checked 2026-10-11; source gemini-api-changelog
-- [AWS What’s New](https://aws.amazon.com/about-aws/whats-new/): relevant; checked 2026-10-11; source aws-whats-new
-- [Hugging Face blog](https://huggingface.co/blog): relevant; checked 2026-10-11; source huggingface-blog
-- [Vercel skills 1.7.2 release](https://github.com/vercel-labs/skills/releases/tag/v1.7.2): no-material-change; checked 2026-10-11; source vercel-skills-1-7-2
-- [Microsoft Azure announcements](https://azure.microsoft.com/en-us/blog/content-type/announcements/): no-material-change; checked 2026-10-11; source azure-announcements
-- [Meta AI news](https://about.fb.com/news/tag/ai): no-material-change; checked 2026-10-11; source meta-ai-news
-- [Mistral Large 4 announcement](https://mistral.ai/news/mistral-large-4/): no-material-change; checked 2026-10-11; source mistral-large-4
-- [Google Cloud Gemini agent announcement](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026): no-material-change; checked 2026-10-11; source google-gemini-agent
-- [MCP protocol releases](https://github.com/modelcontextprotocol/modelcontextprotocol/releases): no-material-change; checked 2026-10-11; source mcp-protocol-releases
-- [MCP Python SDK releases](https://github.com/modelcontextprotocol/python-sdk/releases): no-material-change; checked 2026-10-11; source mcp-python-releases
-- [MCP TypeScript SDK releases](https://github.com/modelcontextprotocol/typescript-sdk/releases): no-material-change; checked 2026-10-11; source mcp-typescript-releases
-- [mcp-use 2.8.2 release](https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.2): no-material-change; checked 2026-10-11; source mcp-use-2-8-2
-- [Ponytail benchmark completeness hardening](https://github.com/DietrichGebert/ponytail/commit/88cedebb3c1f8d024ef361e13232bdf98c071481): no-material-change; checked 2026-10-11; source ponytail-benchmark-hardening
-- [Caveman 3.2.0 release](https://github.com/JuliusBrussee/caveman/releases/tag/v3.2.0): no-material-change; checked 2026-10-11; source caveman-3-2-0
-- [Knowledge Triage reference implementation](https://github.com/searchsim-org/cikm26-knowledge-triage): no-material-change; checked 2026-10-11; source knowledge-triage-repo
-- [Atomix releases](https://github.com/mpi-dsg/atomix/releases): no-material-change; checked 2026-10-11; source atomix-releases
+- [Reverse Engineer Anything (REA)](https://github.com/morluto/rea): relevant; checked 2026-10-13; source rea-repo
+- [REA explained: real-app test and limitations](https://www.systemdesign.academy/explained/rea-reverse-engineer-anything): relevant; checked 2026-10-13; source rea-independent-test
+- [Claude Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview): relevant; checked 2026-10-13; source anthropic-managed-agents-overview
+- [Claude Managed Agents workflow runs](https://platform.claude.com/docs/en/managed-agents/workflow-runs): relevant; checked 2026-10-13; source anthropic-managed-agent-workflows
+- [Stateless Language Agents: Scaling Long-Horizon Automated Research](https://arxiv.org/abs/2610.07625): relevant; checked 2026-10-13; source stateless-language-agents-paper
+- [GitHub Agentic Workflows weekly update — October 12, 2026](https://github.github.com/gh-aw/blog/): relevant; checked 2026-10-13; source github-agentic-workflows-2026-10-12
+- [Rewriting Prime Agent in Rust](https://www.primeintellect.ai/blog/prime-agent-rust): relevant; checked 2026-10-13; source prime-agent-rust
+- [Temporal workflow and activity execution](https://docs.temporal.io/workflow-execution): relevant; checked 2026-10-13; source temporal-docs
+- [Artificial Analysis FrontierCode 1.1 results](https://artificialanalysis.ai/articles/frontiercode): relevant; checked 2026-10-13; source frontiercode-independent-results
+- [Personal Agent Protocol draft 0.1](https://personalagentprotocol.org/docs/spec): relevant; checked 2026-10-13; source poppy-spec-0-1
+- [Personal Agent Protocol path to 1.0](https://personalagentprotocol.org/docs/path-to-1): relevant; checked 2026-10-13; source poppy-path-to-1
+- [TypeSafe current models](https://docs.typesafe.ai/models): no-material-change; checked 2026-10-13; source typesafe-models
+- [Vercel skills 1.7.2 release](https://github.com/vercel-labs/skills/releases/tag/v1.7.2): no-material-change; checked 2026-10-13; source vercel-skills-1-7-2
+- [Google Cloud Gemini agent announcement](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026): no-material-change; checked 2026-10-13; source google-gemini-agent
+- [mcp-use 2.8.2 release](https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.2): no-material-change; checked 2026-10-13; source mcp-use-2-8-2
+- [Ponytail benchmark completeness hardening](https://github.com/DietrichGebert/ponytail/commit/88cedebb3c1f8d024ef361e13232bdf98c071481): no-material-change; checked 2026-10-13; source ponytail-benchmark-hardening
+- [Knowledge Triage reference implementation](https://github.com/searchsim-org/cikm26-knowledge-triage): no-material-change; checked 2026-10-13; source knowledge-triage-repo
+- [Atomix releases](https://github.com/mpi-dsg/atomix/releases): no-material-change; checked 2026-10-13; source atomix-releases
 
 ### Queries run / 実行クエリ
-### Named entities and sibling implementations / 名前付きエンティティと同等実装
-Microsoft-Decision-1 and Mapika decider broaden direct substitutes for Jev; other tracked named implementations had no verified material release after October 10. / Microsoft-Decision-1とMapika deciderがJevの直接代替を拡大。他の追跡中の名前付き実装には10月10日以降の重要リリースを確認しなかった。
+### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
+REA has real breadth but bounded misses; Claude Managed Agents exposes concrete beta controls; harness-owned state crosses the category threshold; Poppy remains a breaking-change draft without conformance evidence. / REAは実在する広さを持つが限定試験で見逃しがある。Claude Managed Agentsは具体的なベータ制御を公開。ハーネス所有状態はカテゴリ閾値を超えた。Poppyは適合証拠のない破壊的変更可能なドラフトに留まる。
 
-Targets: jev, typed-probabilistic-decision-models, agent-skills, vercel-skills, mcp-apps, mcp-use, ponytail, caveman, gemini-agent
+Targets: rea, claude-managed-agents, harness-owned-long-horizon-state, poppy-protocol
 
-Evidence: typesafe-models, microsoft-decision-1, mapika-decider, vercel-skills-1-7-2, mcp-use-2-8-2, ponytail-benchmark-hardening, caveman-3-2-0
+Evidence: rea-repo, rea-independent-test, anthropic-managed-agents-overview, anthropic-managed-agent-workflows, stateless-language-agents-paper, poppy-spec-0-1, poppy-path-to-1
 
-- `exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for Jev, Agent Skills, Vercel skills, MCP Apps, mcp-use, Ponytail, Caveman, Gemini agent, Knowledge Triage, Atomix, AgentSpy, and SWE-Game`
-- `Jev alternatives competitors`
-- `decision API/model`
-- `typed answers`
-- `predicate choice score`
-- `classification routing probabilities`
-- `bounded finite-answer decisions`
-- `major-vendor equivalent`
+- `exact-name release, adoption, benchmark, criticism, and limitation checks for REA, Claude Managed Agents, Stateless Language Agents, FrontierCode, and Poppy`
+- `first-party repository, documentation, specification, release, and paper checks for each investigate-now item`
 
-### First-party release sweep / 一次情報リリース確認
-The rolling first-party sweep found material Microsoft Decision, SkillFS, Cloudflare Skills-over-MCP, Anthropic workflow, AWS vector-filtering, and open decision-model movement; other named items retained prior judgments. / 一次情報のローリング確認でMicrosoft Decision、SkillFS、Cloudflare Skills-over-MCP、Anthropicワークフロー、AWSベクトル絞り込み、公開判断モデルの重要な動きを確認。他の名前付き項目は従来判断を維持した。
+### Harness-owned state sibling implementations / ハーネス所有状態の同等実装
+A research framework and independently operated GitHub, Anthropic, Prime Intellect, and Temporal paths converge on external state, explicit queues or workflows, isolation, budgets, events, and verification; comparative outcome evidence remains uneven. / 研究フレームワークと、独立運営のGitHub、Anthropic、Prime Intellect、Temporal経路が、外部状態、明示的キューまたはワークフロー、隔離、予算、イベント、検証へ収束。比較成果証拠はなお不均一。
 
-Targets: jev, typed-probabilistic-decision-models, agent-skills, vercel-skills, mcp-apps, mcp-use, ponytail, caveman, gemini-agent
+Targets: claude-managed-agents, harness-owned-long-horizon-state
 
-Evidence: typesafe-models, microsoft-decision-1, mapika-decider, skillfs, cloudflare-skills-mcp, mem0-dream, zep-temporal-facts, openai-changelog, anthropic-api-release-notes, gemini-api-changelog, aws-whats-new, huggingface-blog, vercel-skills-1-7-2, azure-announcements, meta-ai-news, mistral-large-4, google-gemini-agent, mcp-protocol-releases, mcp-python-releases, mcp-typescript-releases, mcp-use-2-8-2, ponytail-benchmark-hardening, caveman-3-2-0, knowledge-triage-repo, atomix-releases
+Evidence: stateless-language-agents-paper, github-agentic-workflows-2026-10-12, anthropic-managed-agent-workflows, prime-agent-rust, temporal-docs
 
-- `site- and date-restricted October 5–11 checks across OpenAI, Anthropic, Google, Microsoft, AWS, Cloudflare, Meta, Mistral, Hugging Face, TypeSafe, Vercel, and MCP`
-- `site-restricted release checks for tracked named entities and their vendors`
+- `durable agent workflow sandbox state budgets events alternatives`
+- `harness-owned state stateless agents context budget sibling implementations`
+- `GitHub Agentic Workflows queues ledgers graders sandbox`
+- `Temporal durable agents externalized state replay`
 
-### Open phenomenon discovery / 現象ベースのオープン探索
-Open discovery strengthened skill governance while adding task-level counterevidence, and established a research-stage memory-validity category with independent supersession and temporal-fact implementations. / オープン探索はスキル統治を強化しつつタスク単位の反証を追加し、独立した置換・時間的事実実装に基づく研究段階のメモリ有効性カテゴリを成立させた。
+### Tracked named-entity update sweep / 追跡中の名前付きエンティティ更新確認
+No verified post-October 11 release changed the judgment for tracked Jev, Agent Skills, MCP, Ponytail, Caveman, Gemini agent, Knowledge Triage, or Atomix records. / 追跡中のJev、Agent Skills、MCP、Ponytail、Caveman、Gemini agent、Knowledge Triage、Atomixの判断を変える10月11日以降の検証済みリリースは確認しなかった。
 
-Targets: agent-skills, pre-generation-memory-validity
+Targets: jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, knowledge-triage, tool-effect-integrity
 
-Evidence: skillfs, cloudflare-skills-mcp, swe-skills-bench, memory-rereads-paper, personal-memory-validity-paper, mem0-dream, zep-temporal-facts
+Evidence: typesafe-models, vercel-skills-1-7-2, google-gemini-agent, mcp-use-2-8-2, ponytail-benchmark-hardening, knowledge-triage-repo, atomix-releases
 
-- `stale misattributed long-context memory`
-- `pre-generation memory validity`
-- `active fact supersession retrieval`
-- `agent skill governance`
-- `skills over MCP`
-- `skill task-success benchmark`
-- `delegated authorization receipts`
-- `receiver-signed action receipts`
+- `exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for tracked named entities`
+- `fixed-query GitHub public update sensor across all seven configured targets`
 
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol
 
 ### Changelog entries checked / 確認済み変更履歴
-- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12
+- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -105,10 +85,10 @@ Evidence: skillfs, cloudflare-skills-mcp, swe-skills-bench, memory-rereads-paper
 - anthropic-context; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
 
 ### Findings and decisions / 発見と判断
-- material-finding; jev, typed-probabilistic-decision-models: Jev remains text-only on 1.13 with no new capability release while Microsoft-Decision-1 and Mapika decider add direct hosted and open substitutes; lower Jev-specific differentiation while strengthening category adoption paths. / Jevは新機能リリースがなく1.13・テキスト専用のまま、Microsoft-Decision-1とMapika deciderがホスト型・公開の直接代替を追加。Jev固有の差別化を下げ、カテゴリの導入経路を強化する。; evidence: typesafe-models, microsoft-decision-1, mapika-decider
-- material-finding; agent-skills: SkillFS and Cloudflare Skills-over-MCP add independent governance and remote-distribution paths, while preliminary paired evaluation reports that most tested skills were neutral and some harmful; keep Agent Skills at WATCH with stricter task-level gates. / SkillFSとCloudflare Skills-over-MCPが独立した統治・遠隔配布経路を追加する一方、予備的対比較評価では多くのスキルが中立で一部は有害。Agent Skillsを厳格なタスク単位ゲート付きWATCHに維持する。; evidence: skillfs, cloudflare-skills-mcp, swe-skills-bench
-- material-finding; pre-generation-memory-validity: Two independent studies expose stale and misattributed memory before generation, while Mem0 and Zep provide independently operated supersession and temporal-validity paths; add the category at WATCH without claiming general production validation. / 独立した2研究が生成前の古い情報・誤帰属メモリを示し、Mem0とZepが独立運営の置換・時間的有効性経路を提供。一般的な本番検証を主張せずカテゴリをWATCHへ追加する。; evidence: memory-rereads-paper, personal-memory-validity-paper, mem0-dream, zep-temporal-facts
-- editorial-decision; jev, typed-probabilistic-decision-models, agent-skills, pre-generation-memory-validity: Keep all four at WATCH, defer a combined authorization-and-action-receipts category because its pre-action and post-action mechanisms do not yet satisfy the same-value implementation threshold, and promote nothing to PILOT or the Core Atlas. / 4項目をWATCHに維持。事前認可と事後証明の機構が同一価値の実装閾値をまだ満たさないため認可・行為レシート統合カテゴリは保留し、PILOTやコア・アトラスへは昇格しない。; evidence: microsoft-decision-1, skillfs, swe-skills-bench, memory-rereads-paper, personal-memory-validity-paper
+- material-finding; rea: REA converts established reverse-engineering tools into agent-readable evidence and has extreme attention, but an independent real-app test found workload-dependent value and missed every reply path; add the named tool at WATCH, not as proof of reliable autonomous reverse engineering. / REAは既存のリバースエンジニアリング道具をエージェント可読証拠へ変換し極端な注目を得ているが、独立した実アプリ試験では価値が仕事依存で返信経路を全件見逃した。信頼できる自律リバースエンジニアリングの証明ではなく、名前付き道具をWATCHへ追加する。; evidence: rea-repo, rea-independent-test
+- material-finding; claude-managed-agents, harness-owned-long-horizon-state: Claude Managed Agents supplies a concrete beta meta-harness, while SLA, GitHub Agentic Workflows, Prime Agent, and Temporal establish cross-organization convergence around harness-owned durable state; add the named platform and category at PILOT with bounded metrics. / Claude Managed Agentsは具体的なベータ版メタハーネスを提供し、SLA、GitHub Agentic Workflows、Prime Agent、Temporalはハーネス所有の耐久状態への組織横断収束を成立させる。名前付き基盤とカテゴリを限定指標付きPILOTへ追加する。; evidence: anthropic-managed-agents-overview, anthropic-managed-agent-workflows, stateless-language-agents-paper, github-agentic-workflows-2026-10-12, prime-agent-rust, temporal-docs
+- material-finding; agent-independent-execution-evidence: Independent FrontierCode runs reinforce that passing tests is not equivalent to maintainer-mergeable work; preserve verification pressure without rescoring the runtime-evidence category because private tasks and LLM review limit reproduction. / 独立したFrontierCode実行は、テスト通過が保守者にマージ可能な仕事と同義でないことを補強する。非公開課題とLLMレビューが再現を制約するため、実行証拠カテゴリを再採点せず検証圧力を維持する。; evidence: frontiercode-independent-results
+- editorial-decision; rea, claude-managed-agents, harness-owned-long-horizon-state, poppy-protocol: Add REA at WATCH; add Claude Managed Agents and harness-owned long-horizon state at PILOT; defer Poppy from the Radar until a reference implementation or conformance suite exists; promote nothing to the Core Atlas. / REAをWATCHへ追加。Claude Managed Agentsとハーネス所有の長期状態をPILOTへ追加。Poppyは参照実装または適合試験が現れるまでレーダー追加を保留。コア・アトラスへの昇格は行わない。; evidence: rea-independent-test, anthropic-managed-agents-overview, stateless-language-agents-paper, poppy-spec-0-1, poppy-path-to-1
 
 ## Signals / シグナル
 
@@ -321,6 +301,42 @@ Evidence: skillfs, cloudflare-skills-mcp, swe-skills-bench, memory-rereads-paper
 - Provenance / 来歴: discovery; partially-verified; 2026-10-11
 - History / 履歴:
   - 2026-10-11: Spawned at WATCH when independent stale-memory studies aligned with separately operated supersession and temporal-validity implementations. / 独立した古いメモリ研究と、別運営の置換・時間的有効性実装が整合したためWATCHでカテゴリ化。
+
+### REA / Reverse Engineer Anything / REA / Reverse Engineer Anything
+- Adoption stage / 導入段階: WATCH (46/100)
+- Scores / スコア: frontier 84, fit 60, confidence 82
+- Recommendation / 推奨: WATCH; if needed, run a legally cleared known-answer pilot on one owned binary before relying on it for reverse-engineering conclusions. / WATCH。必要なら、リバースエンジニアリング結論を信頼する前に、法的に許可された所有バイナリ1件で既知正解付き試行を行う。
+- Compatibility / 互換性: UNKNOWN — No owned binary, known-answer corpus, legal scope, or local tool-permission boundary has been tested. / 所有バイナリ、既知正解コーパス、法的範囲、ローカル道具権限境界を試験していない。
+- Trade-offs / トレードオフ:
+  - It unifies mature reverse-engineering tools behind agent-friendly evidence contracts, but does not replace analyst judgment or make negative findings conclusive. / 成熟したリバースエンジニアリング道具をエージェント向け証拠契約で統合するが、分析者判断を置き換えず、否定的発見を確定もしない。
+  - An independent real-app test found correct reported locations and a novel channel, yet missed all eight reply paths; value is workload-dependent. / 独立した実アプリ試験では報告位置と新規チャネルは正しかった一方、8件の返信経路をすべて見逃しており、価値は仕事に依存する。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-13
+- History / 履歴:
+  - 2026-10-13: Added at WATCH after extreme attention was paired with concrete functionality and independent evidence of both useful hits and important misses. / 極端な注目に具体的機能と、有用な発見・重要な見逃しの両方を示す独立証拠が伴ったためWATCHへ追加。
+
+### Claude Managed Agents / Claude Managed Agents
+- Adoption stage / 導入段階: PILOT (55/100)
+- Scores / スコア: frontier 91, fit 82, confidence 84
+- Recommendation / 推奨: PILOT only on a bounded low-risk workflow with explicit token, task-success, state-correction, retention, and recovery metrics. / トークン、タスク成功、状態修正、保持、復旧の指標を明示した低リスクの限定ワークフローでのみPILOTする。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workflow has been run against the beta, and its current retention eligibility may conflict with regulated workloads. / Stangyodeの仕事ではベータを実行しておらず、現在の保持適格性は規制対象業務と衝突し得る。
+- Trade-offs / トレードオフ:
+  - Persistent event history, schedules, budgets, parallel workflows, and sandbox choices reduce custom harness work, but increase provider and state-retention coupling. / 永続イベント履歴、スケジュール、予算、並列ワークフロー、サンドボックス選択は自作ハーネス作業を減らすが、プロバイダーと状態保持への結合を増やす。
+  - The feature is beta, run limits and duplicate tool calls require defensive design, and Managed Agents is not currently eligible for ZDR or HIPAA BAA coverage. / 機能はベータで、実行制限と重複ツール呼び出しには防御的設計が必要。Managed Agentsは現在ZDRやHIPAA BAAの対象外。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-13
+- History / 履歴:
+  - 2026-10-13: Added at PILOT as a named beta platform with concrete durable execution, observability, budget, scheduling, and failure-isolation controls. / 耐久実行、可観測性、予算、スケジュール、失敗隔離の具体的制御を持つ名前付きベータ基盤としてPILOTへ追加。
+
+### Harness-owned long-horizon state / ハーネス所有の長期状態
+- Adoption stage / 導入段階: PILOT (62/100)
+- Scores / スコア: frontier 93, fit 94, confidence 90
+- Recommendation / 推奨: PILOT the pattern: keep task state, evidence, queues, budgets, and verification outside model conversations; reconstruct bounded role-specific contexts and compare against history-heavy runs. / このパターンをPILOTする。タスク状態、証拠、キュー、予算、検証をモデル会話の外に置き、限定された役割別コンテキストを再構築して履歴依存実行と比較する。
+- Compatibility / 互換性: UNKNOWN — The pattern matches Stangyode’s artifact and worktree discipline, but no controlled comparison has measured token cost, correction quality, or recovery. / このパターンはStangyodeの成果物・ワークツリー規律と合うが、トークン費用、修正品質、復旧を測る対照比較は未実施。
+- Trade-offs / トレードオフ:
+  - External state and fresh contexts can reduce context growth, duplicated work, and crash loss, but the harness becomes the correctness and synchronization boundary. / 外部状態と新規コンテキストは文脈肥大、重複作業、クラッシュ損失を減らし得るが、ハーネスが正しさと同期の境界になる。
+  - Research reports large token gains and production harnesses expose concrete primitives, but cross-workload superiority and vendor scale claims are not independently established. / 研究は大幅なトークン改善を報告し、本番ハーネスは具体的プリミティブを示すが、仕事横断の優位性やベンダーの規模主張は独立確認されていない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-13
+- History / 履歴:
+  - 2026-10-13: Spawned at PILOT after research evidence and four independent implementations converged on externalized state, bounded contexts, explicit queues, isolation, and verification. / 研究証拠と4件の独立実装が、外部化状態、限定コンテキスト、明示的キュー、隔離、検証へ収束したためPILOTでカテゴリ化。
 
 ## GitHub discovery input / GitHub発見入力
 

@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-11",
+  "generatedAt": "2026-10-13",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -897,6 +897,232 @@
           "sourceIds": [
             "zep-temporal-facts"
           ]
+        }
+      ]
+    },
+    {
+      "id": "rea",
+      "names": [
+        "REA",
+        "Reverse Engineer Anything"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-implementation",
+      "whyInteresting": {
+        "en": "A high-attention MCP/CLI evidence layer for existing reverse-engineering tools, with concrete capability breadth and independent evidence of both correct locations and important misses.",
+        "ja": "既存のリバースエンジニアリング道具をMCP/CLIから扱う高注目の証拠層。能力の広さに加え、正しい位置特定と重要な見逃しの両方を示す独立証拠がある。"
+      },
+      "firstObserved": "2026-10-13",
+      "lastObserved": "2026-10-13",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "rea",
+      "atlasTermIds": [
+        "mcp"
+      ],
+      "judgment": {
+        "substance": 84,
+        "hype": 98,
+        "fieldImportance": 68,
+        "relevance": 60,
+        "evidenceDiversity": 76,
+        "momentum": 98
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/morluto/rea",
+          "date": "2026-10-13"
+        },
+        {
+          "sensor": "independent-press",
+          "url": "https://www.systemdesign.academy/explained/rea-reverse-engineer-anything",
+          "date": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "claude-managed-agents",
+      "names": [
+        "Claude Managed Agents",
+        "Managed Agents dynamic workflows"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-platform",
+      "whyInteresting": {
+        "en": "Anthropic now exposes a beta managed harness with persistent sessions, schedules, self-hosted execution, event streams, budgets, and agent-written parallel workflows.",
+        "ja": "Anthropicは、永続セッション、スケジュール、セルフホスト実行、イベントストリーム、予算、エージェント生成の並列ワークフローを備えたベータ版管理ハーネスを公開した。"
+      },
+      "firstObserved": "2026-10-13",
+      "lastObserved": "2026-10-13",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "claude-managed-agents",
+      "atlasTermIds": [
+        "agent-harness",
+        "agent-runtime"
+      ],
+      "judgment": {
+        "substance": 90,
+        "hype": 88,
+        "fieldImportance": 90,
+        "relevance": 84,
+        "evidenceDiversity": 72,
+        "momentum": 94
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://platform.claude.com/docs/en/managed-agents/overview",
+          "date": "2026-10-13"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://platform.claude.com/docs/en/managed-agents/workflow-runs",
+          "date": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "harness-owned-long-horizon-state",
+      "names": [
+        "harness-owned long-horizon state",
+        "stateful search with stateless agents",
+        "externalized orchestration state"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "durableConcept": "Keep durable task state, evidence, queues, budgets, and verification outside any one model conversation; reconstruct bounded role-specific context for each invocation.",
+      "whyInteresting": {
+        "en": "Research and independently operated harnesses converge on externalized state, bounded fresh contexts, explicit queues, isolated workers, and deterministic verification for long-running agent work.",
+        "ja": "研究と独立運営のハーネスが、外部化状態、限定された新規コンテキスト、明示的キュー、隔離ワーカー、決定論的検証へ収束している。"
+      },
+      "firstObserved": "2026-10-13",
+      "lastObserved": "2026-10-13",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "harness-owned-long-horizon-state",
+      "atlasTermIds": [
+        "agent-harness",
+        "agent-runtime",
+        "context-engineering"
+      ],
+      "judgment": {
+        "substance": 94,
+        "hype": 90,
+        "fieldImportance": 95,
+        "relevance": 96,
+        "evidenceDiversity": 90,
+        "momentum": 96
+      },
+      "observations": [
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.07625",
+          "date": "2026-10-13"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://github.github.com/gh-aw/blog/",
+          "date": "2026-10-13"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://platform.claude.com/docs/en/managed-agents/workflow-runs",
+          "date": "2026-10-13"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+          "date": "2026-10-13"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Stateless Language Agents framework",
+          "vendor": "Stanford research collaboration",
+          "organizationId": "stanford-sla-research",
+          "access": "public preprint with author-run multi-domain evaluations",
+          "sourceIds": [
+            "stateless-language-agents-paper"
+          ]
+        },
+        {
+          "name": "GitHub Agentic Workflows",
+          "vendor": "GitHub",
+          "organizationId": "github",
+          "access": "open workflow harness with queues, ledgers, graders, routing, and sandbox controls",
+          "sourceIds": [
+            "github-agentic-workflows-2026-10-12"
+          ]
+        },
+        {
+          "name": "Claude Managed Agents dynamic workflows",
+          "vendor": "Anthropic",
+          "organizationId": "anthropic",
+          "access": "hosted beta with persistent event history and managed or self-hosted sandboxes",
+          "sourceIds": [
+            "anthropic-managed-agents-overview",
+            "anthropic-managed-agent-workflows"
+          ]
+        },
+        {
+          "name": "Prime Agent finite-state orchestration",
+          "vendor": "Prime Intellect",
+          "organizationId": "prime-intellect",
+          "access": "open-source harness with persistent sessions and vendor-operated multi-agent workflows",
+          "sourceIds": [
+            "prime-agent-rust"
+          ]
+        },
+        {
+          "name": "Temporal durable agent execution",
+          "vendor": "Temporal",
+          "organizationId": "temporal",
+          "access": "durable workflow execution and replay primitives",
+          "sourceIds": [
+            "temporal-docs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poppy-protocol",
+      "names": [
+        "Poppy",
+        "Personal Agent Protocol"
+      ],
+      "status": "assessed",
+      "kindGuess": "draft-protocol",
+      "whyInteresting": {
+        "en": "Draft 0.1 joins discovery, authorization, browser/API continuity, and company-agent conversations, but explicitly permits breaking changes and lacks a public conformance suite.",
+        "ja": "ドラフト0.1は発見、認可、ブラウザ/API継続性、企業エージェント会話を統合するが、破壊的変更を明示的に許容し、公開適合試験もない。"
+      },
+      "firstObserved": "2026-10-13",
+      "lastObserved": "2026-10-13",
+      "lifecycle": "defer-radar",
+      "evidenceState": "partially-verified",
+      "atlasTermIds": [
+        "a2a"
+      ],
+      "judgment": {
+        "substance": 72,
+        "hype": 78,
+        "fieldImportance": 76,
+        "relevance": 54,
+        "evidenceDiversity": 54,
+        "momentum": 82
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://personalagentprotocol.org/docs/spec",
+          "date": "2026-10-13"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://personalagentprotocol.org/docs/path-to-1",
+          "date": "2026-10-13"
         }
       ]
     }

@@ -846,5 +846,85 @@
       "en": "First-party documentation for valid_at and invalid_at fact bounds used in historical and point-in-time retrieval; the fields track lifecycle and do not prove source truth.",
       "ja": "履歴・時点検索に用いる事実のvalid_atとinvalid_at境界の一次資料。ライフサイクルを追跡するが、情報源の真実性は証明しない。"
     }
+  },
+  "rea-repo": {
+    "title": "Reverse Engineer Anything (REA)",
+    "url": "https://github.com/morluto/rea",
+    "note": {
+      "en": "First-party repository and release history for the MCP/CLI reverse-engineering evidence layer.",
+      "ja": "MCP/CLI型リバースエンジニアリング証拠層の一次リポジトリとリリース履歴。"
+    }
+  },
+  "rea-independent-test": {
+    "title": "REA explained: real-app test and limitations",
+    "url": "https://www.systemdesign.academy/explained/rea-reverse-engineer-anything",
+    "note": {
+      "en": "Independent bounded test: reported locations were correct, but all eight reply paths were missed and absence was not proof.",
+      "ja": "独立した限定テスト。報告位置は正しかったが8件の返信経路をすべて見逃し、不在は証明にならないと確認。"
+    }
+  },
+  "anthropic-managed-agents-overview": {
+    "title": "Claude Managed Agents overview",
+    "url": "https://platform.claude.com/docs/en/managed-agents/overview",
+    "note": {
+      "en": "First-party beta documentation for stateful sessions, managed or self-hosted sandboxes, schedules, event history, and retention limits.",
+      "ja": "状態保持セッション、管理・セルフホスト型サンドボックス、スケジュール、イベント履歴、保持制約を示す一次ベータ資料。"
+    }
+  },
+  "anthropic-managed-agent-workflows": {
+    "title": "Claude Managed Agents workflow runs",
+    "url": "https://platform.claude.com/docs/en/managed-agents/workflow-runs",
+    "note": {
+      "en": "First-party beta documentation for agent-written multi-phase workflows, parallel threads, budgets, events, failures, and limits.",
+      "ja": "エージェント生成の多段ワークフロー、並列スレッド、予算、イベント、失敗、制限を示す一次ベータ資料。"
+    }
+  },
+  "stateless-language-agents-paper": {
+    "title": "Stateless Language Agents: Scaling Long-Horizon Automated Research",
+    "url": "https://arxiv.org/abs/2610.07625",
+    "note": {
+      "en": "Public preprint reporting harness-owned research state, fresh role-specific contexts, and author-run long-horizon evaluations.",
+      "ja": "ハーネス所有の研究状態、役割別の新規コンテキスト、著者実施の長期評価を報告する公開プレプリント。"
+    }
+  },
+  "github-agentic-workflows-2026-10-12": {
+    "title": "GitHub Agentic Workflows weekly update — October 12, 2026",
+    "url": "https://github.github.com/gh-aw/blog/",
+    "note": {
+      "en": "First-party implementation update covering Git-backed queues, ledgers, routing, graders, spend visibility, and sandbox hardening.",
+      "ja": "Gitベースのキュー、台帳、ルーティング、評価器、費用可視化、サンドボックス強化を扱う一次実装更新。"
+    }
+  },
+  "prime-agent-rust": {
+    "title": "Rewriting Prime Agent in Rust",
+    "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+    "note": {
+      "en": "First-party report on finite-state multi-agent orchestration, isolated worktrees, independent review/verification, and persistent sessions; scale claims remain vendor-reported.",
+      "ja": "有限状態のマルチエージェント統制、隔離ワークツリー、独立レビュー・検証、永続セッションの一次報告。規模主張はベンダー報告のまま。"
+    }
+  },
+  "frontiercode-independent-results": {
+    "title": "Artificial Analysis FrontierCode 1.1 results",
+    "url": "https://artificialanalysis.ai/articles/frontiercode",
+    "note": {
+      "en": "Independent same-harness run of a maintainer-mergeability benchmark; private tasks and an LLM review component limit full reproduction.",
+      "ja": "保守者がマージ可能かを測る評価を同一ハーネスで独立実行。非公開課題とLLMレビュー要素により完全再現には制約がある。"
+    }
+  },
+  "poppy-spec-0-1": {
+    "title": "Personal Agent Protocol draft 0.1",
+    "url": "https://personalagentprotocol.org/docs/spec",
+    "note": {
+      "en": "First-party draft for personal-agent discovery, sessions, authorization, browser/API continuity, and conversations.",
+      "ja": "個人エージェントの発見、セッション、認可、ブラウザ/API継続性、会話を定める一次ドラフト。"
+    }
+  },
+  "poppy-path-to-1": {
+    "title": "Personal Agent Protocol path to 1.0",
+    "url": "https://personalagentprotocol.org/docs/path-to-1",
+    "note": {
+      "en": "First-party roadmap explicitly listing breaking-change risk, open topics, and implementation work still needed before 1.0.",
+      "ja": "1.0前の破壊的変更リスク、未解決項目、必要な実装作業を明示する一次ロードマップ。"
+    }
   }
 }

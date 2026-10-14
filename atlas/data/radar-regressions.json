@@ -125,6 +125,26 @@
         "mem0-dream",
         "zep-temporal-facts"
       ]
+    },
+    {
+      "id": "harness-owned-state-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "harness-owned-long-horizon-state",
+      "minimumIndependentOrganizations": 4,
+      "requiredOrganizationIds": [
+        "stanford-sla-research",
+        "github",
+        "anthropic",
+        "prime-intellect",
+        "temporal"
+      ],
+      "requiredSourceIds": [
+        "stateless-language-agents-paper",
+        "github-agentic-workflows-2026-10-12",
+        "anthropic-managed-agent-workflows",
+        "prime-agent-rust",
+        "temporal-docs"
+      ]
     }
   ]
 }
