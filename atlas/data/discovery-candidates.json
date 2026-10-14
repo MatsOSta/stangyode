@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-13",
+  "generatedAt": "2026-10-14",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -1123,6 +1123,291 @@
           "sensor": "primary-docs",
           "url": "https://personalagentprotocol.org/docs/path-to-1",
           "date": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "scion-antique",
+      "names": [
+        "Scion",
+        "Antique",
+        "Anthropic source control"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-internal-systems",
+      "whyInteresting": {
+        "en": "Anthropic reports that agent-scale change volume forced a server-centric source-control and review redesign, but the systems are internal and their measurements are not independently reproducible.",
+        "ja": "Anthropicはエージェント規模の変更量がサーバー中心のソース管理・レビュー再設計を強いたと報告するが、システムは社内限定で測定値も独立再現できない。"
+      },
+      "firstObserved": "2026-10-14",
+      "lastObserved": "2026-10-14",
+      "lifecycle": "defer-radar",
+      "evidenceState": "partially-verified",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 88,
+        "hype": 92,
+        "fieldImportance": 86,
+        "relevance": 38,
+        "evidenceDiversity": 60,
+        "momentum": 94
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "date": "2026-10-14"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://sapling-scm.com/docs/scale/overview/",
+          "date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "dyna-2",
+      "names": [
+        "Dyna-2",
+        "Dyna-2.1",
+        "Taku"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-physical-agent-system",
+      "whyInteresting": {
+        "en": "A hierarchical world-action model, orchestrator, controller, and robot complete an uncut hour-long laundry workflow; independent evidence supports sustained narrow folding, not general reliability.",
+        "ja": "階層型ワールドアクションモデル、オーケストレータ、制御器、ロボットが無編集の1時間洗濯工程を完遂。独立証拠は狭い折り畳みの長時間運転を支持するが、汎用信頼性は支持しない。"
+      },
+      "firstObserved": "2026-10-14",
+      "lastObserved": "2026-10-14",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "dyna-2",
+      "atlasTermIds": [
+        "agent-harness"
+      ],
+      "judgment": {
+        "substance": 88,
+        "hype": 90,
+        "fieldImportance": 84,
+        "relevance": 38,
+        "evidenceDiversity": 76,
+        "momentum": 90
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.dyna.co/dyna-2.1",
+          "date": "2026-10-14"
+        },
+        {
+          "sensor": "independent-press",
+          "url": "https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026",
+          "date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "american-express-ace",
+      "names": [
+        "American Express ACE",
+        "Intent Intelligence",
+        "Create Intent API"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-payment-framework",
+      "whyInteresting": {
+        "en": "ACE binds verified agents, authenticated purchase intent, tokenized Amex credentials, spend controls, and dispute context, but access and public production evidence remain limited.",
+        "ja": "ACEは検証済みエージェント、認証された購入意図、トークン化Amex資格情報、支出制御、紛争文脈を結ぶが、利用範囲と公開本番証拠は限定的。"
+      },
+      "firstObserved": "2026-10-14",
+      "lastObserved": "2026-10-14",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "american-express-ace",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 82,
+        "hype": 84,
+        "fieldImportance": 82,
+        "relevance": 44,
+        "evidenceDiversity": 68,
+        "momentum": 90
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.americanexpress.com/en-us/company/agentic-commerce",
+          "date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "intent-bound-agent-authorization",
+      "names": [
+        "intent-bound agent authorization",
+        "agentic-commerce authorization",
+        "verifiable purchase intent"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "durableConcept": "Bind agent identity, user intent, scoped credentials, transaction context, and audit evidence before an agent completes a purchase.",
+      "whyInteresting": {
+        "en": "American Express, Google, Visa, and Mastercard independently converge on verifiable agent identity, bounded user intent, scoped credentials, and transaction evidence while remaining fragmented across different protocol layers.",
+        "ja": "American Express、Google、Visa、Mastercardが、異なるプロトコル層で分断されたまま、検証可能なエージェントID、限定されたユーザー意図、範囲付き資格情報、取引証拠へ独立に収束している。"
+      },
+      "firstObserved": "2026-10-14",
+      "lastObserved": "2026-10-14",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "intent-bound-agent-authorization",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 90,
+        "hype": 88,
+        "fieldImportance": 94,
+        "relevance": 78,
+        "evidenceDiversity": 92,
+        "momentum": 94
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.americanexpress.com/en-us/company/agentic-commerce",
+          "date": "2026-10-14"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol",
+          "date": "2026-10-14"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://developer.visa.com/capabilities/trusted-agent-protocol/overview",
+          "date": "2026-10-14"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.mastercard.com/us/en/business/artificial-intelligence/mastercard-agent-pay.html",
+          "date": "2026-10-14"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2601.22569",
+          "date": "2026-10-14"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "American Express ACE",
+          "vendor": "American Express",
+          "organizationId": "american-express",
+          "access": "controlled developer access with partially available service areas",
+          "sourceIds": [
+            "amex-ace-agentic-commerce"
+          ]
+        },
+        {
+          "name": "Agent Payments Protocol (AP2)",
+          "vendor": "Google",
+          "organizationId": "google",
+          "access": "open protocol specification and reference implementation",
+          "sourceIds": [
+            "google-ap2",
+            "ap2-security-considerations"
+          ]
+        },
+        {
+          "name": "Trusted Agent Protocol (TAP)",
+          "vendor": "Visa",
+          "organizationId": "visa",
+          "access": "developer documentation and limited deployment",
+          "sourceIds": [
+            "visa-tap"
+          ]
+        },
+        {
+          "name": "Mastercard Agent Pay",
+          "vendor": "Mastercard",
+          "organizationId": "mastercard",
+          "access": "network program with announced platform and acquirer partners",
+          "sourceIds": [
+            "mastercard-agent-pay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jevcrawl",
+      "names": [
+        "Jevcrawl"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-crawler",
+      "whyInteresting": {
+        "en": "A decision-model crawler claims lower cost and better answer-page selection, but its benchmark is author-run, JavaScript coverage is absent, and no independent task-success rerun was found.",
+        "ja": "判断モデル型クローラーは低コストと回答ページ選択改善を主張するが、評価は作者実施でJavaScript対応がなく、独立した課題成功率の再実行も見つからない。"
+      },
+      "firstObserved": "2026-10-14",
+      "lastObserved": "2026-10-14",
+      "lifecycle": "defer-radar",
+      "evidenceState": "partially-verified",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 62,
+        "hype": 70,
+        "fieldImportance": 42,
+        "relevance": 52,
+        "evidenceDiversity": 38,
+        "momentum": 74
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/RayenMlayeh/jevcrawl",
+          "date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "tracely",
+      "names": [
+        "Tracely",
+        "Tracely-ai"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-agent-evaluation-platform",
+      "whyInteresting": {
+        "en": "Tracely turns selected production traces into hermetic replay cases and pull-request gates, a concrete path from observed failures to regressions; evaluator calibration and production impact remain unverified.",
+        "ja": "Tracelyは選択した本番トレースを密閉再生ケースとプルリクエストゲートへ変換し、観測障害から回帰試験への具体的経路を示す。評価器校正と本番効果は未検証。"
+      },
+      "firstObserved": "2026-10-14",
+      "lastObserved": "2026-10-14",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "tracely",
+      "atlasTermIds": [
+        "agent-observability",
+        "eval-evaluation"
+      ],
+      "judgment": {
+        "substance": 78,
+        "hype": 78,
+        "fieldImportance": 76,
+        "relevance": 86,
+        "evidenceDiversity": 56,
+        "momentum": 84
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/Jwuthri/Tracely-ai",
+          "date": "2026-10-14"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://doc.tracely-ai.com/",
+          "date": "2026-10-14"
         }
       ]
     }

@@ -926,5 +926,109 @@
       "en": "First-party roadmap explicitly listing breaking-change risk, open topics, and implementation work still needed before 1.0.",
       "ja": "1.0前の破壊的変更リスク、未解決項目、必要な実装作業を明示する一次ロードマップ。"
     }
+  },
+  "anthropic-scion": {
+    "title": "Redesigning source control at Anthropic",
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "note": {
+      "en": "First-party architecture report for the internal Scion source-control and Antique review systems; performance and scale measurements are Anthropic-reported.",
+      "ja": "社内向けScionソース管理とAntiqueレビューシステムの一次アーキテクチャ報告。性能・規模の測定値はAnthropicによる報告。"
+    }
+  },
+  "sapling-scale": {
+    "title": "Sapling — working at scale",
+    "url": "https://sapling-scm.com/docs/scale/overview/",
+    "note": {
+      "en": "First-party documentation for an independently operated client-server source-control architecture using on-demand history, sparse or virtual working copies, and server-side scale mechanisms.",
+      "ja": "オンデマンド履歴、疎または仮想ワーキングコピー、サーバー側の規模対応を用いる独立運営のクライアント・サーバー型ソース管理の一次資料。"
+    }
+  },
+  "dyna-2-1": {
+    "title": "Dyna-2.1: A Physical Agent for End-to-End Workflows",
+    "url": "https://www.dyna.co/dyna-2.1",
+    "note": {
+      "en": "First-party description and uncut demo of a hierarchical physical-agent system completing an hour-long laundry workflow; generality and reliability claims remain vendor-reported.",
+      "ja": "階層型物理エージェントが1時間の洗濯工程を完遂する一次説明と無編集デモ。汎用性と信頼性の主張はベンダー報告のまま。"
+    }
+  },
+  "epoch-robot-autonomy-2026": {
+    "title": "Where autonomy works: evaluating robot capabilities in 2026",
+    "url": "https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026",
+    "note": {
+      "en": "Independent survey of robot task evidence that credits Dyna with unusually sustained narrow folding operation while finding broader clothing transfer and commercial deployment incomplete.",
+      "ja": "Dynaの狭い折り畳み作業での長時間運転を高く評価する一方、衣類全般への転移と商用配備は未完とする独立調査。"
+    }
+  },
+  "amex-ace-agentic-commerce": {
+    "title": "American Express Agentic Commerce and ACE",
+    "url": "https://www.americanexpress.com/en-us/company/agentic-commerce",
+    "note": {
+      "en": "First-party ACE overview covering verified agents, authenticated purchase intent, tokenized credentials, cart context, access constraints, and conditional purchase protections.",
+      "ja": "検証済みエージェント、認証された購入意図、トークン化資格情報、カート文脈、利用制約、条件付き購入保護を扱うACE一次概要。"
+    }
+  },
+  "google-ap2": {
+    "title": "Google Agent Payments Protocol (AP2)",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol",
+    "note": {
+      "en": "First-party announcement of a payment-agnostic protocol using cryptographically signed intent, cart, and payment mandates with an open specification and reference implementation.",
+      "ja": "暗号署名された意図・カート・支払マンデートを用いる決済手段非依存プロトコルの一次発表。公開仕様と参照実装を含む。"
+    }
+  },
+  "visa-tap": {
+    "title": "Visa Trusted Agent Protocol overview",
+    "url": "https://developer.visa.com/capabilities/trusted-agent-protocol/overview",
+    "note": {
+      "en": "First-party developer overview for merchant-visible agent identity, intent, purpose binding, HTTP message signatures, timestamps, nonces, and anti-replay controls; availability remains limited.",
+      "ja": "加盟店から見えるエージェントID、意図、目的束縛、HTTPメッセージ署名、時刻、nonce、再送防止を扱う一次開発者概要。提供範囲は限定的。"
+    }
+  },
+  "mastercard-agent-pay": {
+    "title": "Mastercard Agent Pay",
+    "url": "https://www.mastercard.com/us/en/business/artificial-intelligence/mastercard-agent-pay.html",
+    "note": {
+      "en": "First-party product material for registered agents, explicit user intent, network tokenization, issuer visibility, and merchant controls; public evidence is rollout- and partner-led.",
+      "ja": "登録エージェント、明示的ユーザー意図、ネットワークトークン化、発行者可視性、加盟店制御を扱う一次製品資料。公開証拠は展開計画と提携中心。"
+    }
+  },
+  "ap2-security-considerations": {
+    "title": "AP2 security and privacy considerations",
+    "url": "https://ap2-protocol.org/ap2/security_and_privacy_considerations/",
+    "note": {
+      "en": "First-party threat model that treats agents and language models as potential attackers and acknowledges malicious selection, mandate reuse, and downstream manipulation risks.",
+      "ja": "エージェントと言語モデルを潜在的攻撃者として扱い、悪意ある選択、マンデート再利用、下流操作の危険を認める一次脅威モデル。"
+    }
+  },
+  "ap2-red-team-study": {
+    "title": "Red-Teaming Agentic Payment Protocols",
+    "url": "https://arxiv.org/abs/2601.22569",
+    "note": {
+      "en": "Independent implementation study showing that valid authorization signatures do not prevent prompt injection from manipulating shopping-agent reasoning before a mandate is signed.",
+      "ja": "有効な認可署名が、マンデート署名前のプロンプト注入による買物エージェント推論操作を防がないことを示す独立実装研究。"
+    }
+  },
+  "jevcrawl-repo": {
+    "title": "Jevcrawl repository and benchmark",
+    "url": "https://github.com/RayenMlayeh/jevcrawl",
+    "note": {
+      "en": "First-party MCP/CLI crawler and author-run benchmark using a decision model to select links and passages; no independent outcome rerun was found.",
+      "ja": "判断モデルでリンクと文章を選ぶ一次MCP/CLIクローラーと作者実施ベンチマーク。独立した成果再実行は確認できなかった。"
+    }
+  },
+  "tracely-repo": {
+    "title": "Tracely repository",
+    "url": "https://github.com/Jwuthri/Tracely-ai",
+    "note": {
+      "en": "First-party open repository for turning production traces into hermetic regression cases and CI gates; production outcome claims are not independently validated.",
+      "ja": "本番トレースを密閉回帰ケースとCIゲートへ変換する公開一次リポジトリ。本番成果の主張は独立検証されていない。"
+    }
+  },
+  "tracely-docs": {
+    "title": "Tracely SDK documentation",
+    "url": "https://doc.tracely-ai.com/",
+    "note": {
+      "en": "First-party SDK and CLI documentation for OTLP ingestion, trace annotation, deterministic fixture replay, and pull-request gating.",
+      "ja": "OTLP取込、トレース注釈、決定論的fixture再生、プルリクエスト制御の一次SDK・CLI資料。"
+    }
   }
 }

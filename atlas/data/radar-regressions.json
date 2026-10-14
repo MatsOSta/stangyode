@@ -145,6 +145,32 @@
         "prime-agent-rust",
         "temporal-docs"
       ]
+    },
+    {
+      "id": "ace-intent-authorization-named-category-split",
+      "type": "named-category-split",
+      "namedEntityId": "american-express-ace",
+      "categoryId": "intent-bound-agent-authorization",
+      "competitorSourceId": "google-ap2",
+      "expectedCategoryStage": "watch"
+    },
+    {
+      "id": "intent-authorization-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "intent-bound-agent-authorization",
+      "minimumIndependentOrganizations": 4,
+      "requiredOrganizationIds": [
+        "american-express",
+        "google",
+        "visa",
+        "mastercard"
+      ],
+      "requiredSourceIds": [
+        "amex-ace-agentic-commerce",
+        "google-ap2",
+        "visa-tap",
+        "mastercard-agent-pay"
+      ]
     }
   ]
 }

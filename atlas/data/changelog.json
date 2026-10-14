@@ -58,5 +58,11 @@
     "label": "radar-daily-2026-10-13",
     "en": "Daily Radar: REA enters at WATCH; Claude Managed Agents and harness-owned long-horizon state enter at PILOT; Poppy remains deferred; bounded hype and GitHub sensors completed successfully.",
     "ja": "日次レーダー：REAをWATCHへ追加。Claude Managed Agentsとハーネス所有の長期状態をPILOTへ追加。Poppyは保留。範囲限定のハイプ・GitHubセンサーは正常完了。"
+  },
+  {
+    "date": "2026-10-14",
+    "label": "radar-daily-2026-10-14",
+    "en": "Daily Radar: Dyna-2 and American Express ACE enter at WATCH; intent-bound agent authorization becomes a separate four-implementation WATCH category; Tracely enters a bounded PILOT; Scion/Antique and Jevcrawl remain deferred; the hype and GitHub sensors completed successfully.",
+    "ja": "日次レーダー：Dyna-2とAmerican Express ACEをWATCHへ追加。意図拘束型エージェント認可を4実装の独立WATCHカテゴリ化。Tracelyを限定PILOTへ追加。Scion/AntiqueとJevcrawlは保留。ハイプ・GitHubセンサーはいずれも正常完了。"
   }
 ]
