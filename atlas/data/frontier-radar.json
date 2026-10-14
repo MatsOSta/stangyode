@@ -9,125 +9,135 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-13",
+    "snapshot": "2026-10-14",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-13T06:04:43Z",
+    "asOf": "2026-10-14T06:11:13Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "success",
-        "lastAttemptAt": "2026-10-13T06:01:34.409Z",
-        "lastSuccessfulRunAt": "2026-10-13T06:01:34.409Z",
-        "failureStreak": 0,
-        "lastFailure": {
-          "at": "2026-10-08T13:31:55Z",
-          "class": "rate_limit",
-          "resolved": true
-        }
+        "lastAttemptAt": "2026-10-14T06:10:40.103Z",
+        "lastSuccessfulRunAt": "2026-10-14T06:10:40.103Z",
+        "failureStreak": 0
       },
       "editor": {
         "status": "success",
-        "lastAttemptAt": "2026-10-13T06:04:43Z",
-        "lastSuccessfulRunAt": "2026-10-13T06:04:43Z",
+        "lastAttemptAt": "2026-10-14T06:11:13Z",
+        "lastSuccessfulRunAt": "2026-10-14T06:11:13Z",
         "failureStreak": 0
       }
     },
     "sourcesChecked": [
       {
-        "sourceId": "rea-repo",
-        "checkedAt": "2026-10-13",
+        "sourceId": "anthropic-scion",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "rea-independent-test",
-        "checkedAt": "2026-10-13",
+        "sourceId": "sapling-scale",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "anthropic-managed-agents-overview",
-        "checkedAt": "2026-10-13",
+        "sourceId": "dyna-2-1",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "anthropic-managed-agent-workflows",
-        "checkedAt": "2026-10-13",
+        "sourceId": "epoch-robot-autonomy-2026",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "stateless-language-agents-paper",
-        "checkedAt": "2026-10-13",
+        "sourceId": "amex-ace-agentic-commerce",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "github-agentic-workflows-2026-10-12",
-        "checkedAt": "2026-10-13",
+        "sourceId": "google-ap2",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "prime-agent-rust",
-        "checkedAt": "2026-10-13",
+        "sourceId": "visa-tap",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "temporal-docs",
-        "checkedAt": "2026-10-13",
+        "sourceId": "mastercard-agent-pay",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "frontiercode-independent-results",
-        "checkedAt": "2026-10-13",
+        "sourceId": "ap2-security-considerations",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "poppy-spec-0-1",
-        "checkedAt": "2026-10-13",
+        "sourceId": "ap2-red-team-study",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "poppy-path-to-1",
-        "checkedAt": "2026-10-13",
+        "sourceId": "jevcrawl-repo",
+        "checkedAt": "2026-10-14",
         "outcome": "relevant"
       },
       {
-        "sourceId": "typesafe-models",
-        "checkedAt": "2026-10-13",
+        "sourceId": "tracely-repo",
+        "checkedAt": "2026-10-14",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "tracely-docs",
+        "checkedAt": "2026-10-14",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "anthropic-api-release-notes",
+        "checkedAt": "2026-10-14",
         "outcome": "no-material-change"
       },
       {
-        "sourceId": "vercel-skills-1-7-2",
-        "checkedAt": "2026-10-13",
+        "sourceId": "rea-repo",
+        "checkedAt": "2026-10-14",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "google-gemini-agent",
-        "checkedAt": "2026-10-13",
+        "checkedAt": "2026-10-14",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "vercel-skills-1-7-2",
+        "checkedAt": "2026-10-14",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "mcp-use-2-8-2",
-        "checkedAt": "2026-10-13",
+        "checkedAt": "2026-10-14",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "ponytail-benchmark-hardening",
-        "checkedAt": "2026-10-13",
+        "checkedAt": "2026-10-14",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "knowledge-triage-repo",
-        "checkedAt": "2026-10-13",
+        "checkedAt": "2026-10-14",
         "outcome": "no-material-change"
       },
       {
         "sourceId": "atomix-releases",
-        "checkedAt": "2026-10-13",
+        "checkedAt": "2026-10-14",
         "outcome": "no-material-change"
       }
     ],
@@ -140,56 +150,57 @@
         },
         "runRole": "scout",
         "targetIds": [
-          "rea",
-          "claude-managed-agents",
-          "harness-owned-long-horizon-state",
-          "poppy-protocol"
+          "scion-antique",
+          "dyna-2",
+          "american-express-ace",
+          "intent-bound-agent-authorization",
+          "jevcrawl",
+          "tracely"
         ],
         "sourceIds": [
-          "rea-repo",
-          "rea-independent-test",
-          "anthropic-managed-agents-overview",
-          "anthropic-managed-agent-workflows",
-          "stateless-language-agents-paper",
-          "poppy-spec-0-1",
-          "poppy-path-to-1"
+          "anthropic-scion",
+          "dyna-2-1",
+          "epoch-robot-autonomy-2026",
+          "amex-ace-agentic-commerce",
+          "jevcrawl-repo",
+          "tracely-repo",
+          "tracely-docs"
         ],
         "resultSummary": {
-          "en": "REA has real breadth but bounded misses; Claude Managed Agents exposes concrete beta controls; harness-owned state crosses the category threshold; Poppy remains a breaking-change draft without conformance evidence.",
-          "ja": "REAは実在する広さを持つが限定試験で見逃しがある。Claude Managed Agentsは具体的なベータ制御を公開。ハーネス所有状態はカテゴリ閾値を超えた。Poppyは適合証拠のない破壊的変更可能なドラフトに留まる。"
+          "en": "Scion and Jevcrawl remain deferred; Dyna-2 and ACE enter as named WATCH items; cross-vendor intent-bound authorization enters as a WATCH category; Tracely enters a bounded PILOT. The upstream hype scrape and bounded GitHub update sensor both completed successfully.",
+          "ja": "ScionとJevcrawlは保留。Dyna-2とACEを名前付きWATCHへ追加。組織横断の意図拘束型認可をWATCHカテゴリへ追加。Tracelyを限定PILOTへ追加。上流ハイプ取得と範囲限定GitHub更新センサーはいずれも正常完了。"
         },
         "queries": [
-          "exact-name release, adoption, benchmark, criticism, and limitation checks for REA, Claude Managed Agents, Stateless Language Agents, FrontierCode, and Poppy",
-          "first-party repository, documentation, specification, release, and paper checks for each investigate-now item"
+          "exact-name release, adoption, benchmark, criticism, and limitation checks for all investigate-now items",
+          "first-party artifact and independent-evaluation checks for Scion, Dyna-2, ACE, Jevcrawl, and Tracely"
         ]
       },
       {
-        "id": "harness-siblings",
+        "id": "intent-authorization-siblings",
         "label": {
-          "en": "Harness-owned state sibling implementations",
-          "ja": "ハーネス所有状態の同等実装"
+          "en": "Intent-bound authorization sibling implementations",
+          "ja": "意図拘束型認可の同等実装"
         },
         "runRole": "scout",
         "targetIds": [
-          "claude-managed-agents",
-          "harness-owned-long-horizon-state"
+          "american-express-ace",
+          "intent-bound-agent-authorization"
         ],
         "sourceIds": [
-          "stateless-language-agents-paper",
-          "github-agentic-workflows-2026-10-12",
-          "anthropic-managed-agent-workflows",
-          "prime-agent-rust",
-          "temporal-docs"
+          "amex-ace-agentic-commerce",
+          "google-ap2",
+          "visa-tap",
+          "mastercard-agent-pay",
+          "ap2-security-considerations",
+          "ap2-red-team-study"
         ],
         "resultSummary": {
-          "en": "A research framework and independently operated GitHub, Anthropic, Prime Intellect, and Temporal paths converge on external state, explicit queues or workflows, isolation, budgets, events, and verification; comparative outcome evidence remains uneven.",
-          "ja": "研究フレームワークと、独立運営のGitHub、Anthropic、Prime Intellect、Temporal経路が、外部状態、明示的キューまたはワークフロー、隔離、予算、イベント、検証へ収束。比較成果証拠はなお不均一。"
+          "en": "Amex ACE, Google AP2, Visa TAP, and Mastercard Agent Pay converge on verifiable identity, bounded intent, scoped credentials, and audit evidence, but occupy different layers and remain early; signed mandates do not solve reasoning-layer manipulation.",
+          "ja": "Amex ACE、Google AP2、Visa TAP、Mastercard Agent Payは検証可能ID、限定意図、範囲付き資格情報、監査証拠へ収束するが、異なる層に位置し初期段階。署名マンデートは推論層操作を解決しない。"
         },
         "queries": [
-          "durable agent workflow sandbox state budgets events alternatives",
-          "harness-owned state stateless agents context budget sibling implementations",
-          "GitHub Agentic Workflows queues ledgers graders sandbox",
-          "Temporal durable agents externalized state replay"
+          "agentic commerce authorization protocol intent identity tokenized credentials competitors",
+          "AP2 ACE TAP Agent Pay adoption criticism security limitations prompt injection"
         ]
       },
       {
@@ -208,24 +219,28 @@
           "ponytail",
           "caveman",
           "gemini-agent",
+          "rea",
+          "claude-managed-agents",
+          "poppy-protocol",
           "knowledge-triage",
           "tool-effect-integrity"
         ],
         "sourceIds": [
-          "typesafe-models",
-          "vercel-skills-1-7-2",
+          "anthropic-api-release-notes",
+          "rea-repo",
           "google-gemini-agent",
+          "vercel-skills-1-7-2",
           "mcp-use-2-8-2",
           "ponytail-benchmark-hardening",
           "knowledge-triage-repo",
           "atomix-releases"
         ],
         "resultSummary": {
-          "en": "No verified post-October 11 release changed the judgment for tracked Jev, Agent Skills, MCP, Ponytail, Caveman, Gemini agent, Knowledge Triage, or Atomix records.",
-          "ja": "追跡中のJev、Agent Skills、MCP、Ponytail、Caveman、Gemini agent、Knowledge Triage、Atomixの判断を変える10月11日以降の検証済みリリースは確認しなかった。"
+          "en": "No verified seven-day first-party change altered the existing judgments for tracked named products or prior categories.",
+          "ja": "追跡中の名前付き製品や既存カテゴリの判断を変える、検証済み7日以内の一次変更は確認しなかった。"
         },
         "queries": [
-          "exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for tracked named entities",
+          "exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for tracked entities",
           "fixed-query GitHub public update sensor across all seven configured targets"
         ]
       }
@@ -241,7 +256,13 @@
       "gemini-agent",
       "rea",
       "claude-managed-agents",
-      "poppy-protocol"
+      "poppy-protocol",
+      "scion-antique",
+      "dyna-2",
+      "american-express-ace",
+      "intent-bound-agent-authorization",
+      "jevcrawl",
+      "tracely"
     ],
     "changelogEntriesChecked": [
       "radar-loop-1",
@@ -252,7 +273,8 @@
       "radar-daily-2026-10-10",
       "radar-daily-2026-10-11",
       "radar-daily-2026-10-12",
-      "radar-daily-2026-10-13"
+      "radar-daily-2026-10-13",
+      "radar-daily-2026-10-14"
     ],
     "sensors": [
       {
@@ -302,67 +324,76 @@
       {
         "kind": "material-finding",
         "targetIds": [
-          "rea"
+          "dyna-2"
         ],
         "sourceIds": [
-          "rea-repo",
-          "rea-independent-test"
+          "dyna-2-1",
+          "epoch-robot-autonomy-2026"
         ],
         "summary": {
-          "en": "REA converts established reverse-engineering tools into agent-readable evidence and has extreme attention, but an independent real-app test found workload-dependent value and missed every reply path; add the named tool at WATCH, not as proof of reliable autonomous reverse engineering.",
-          "ja": "REAは既存のリバースエンジニアリング道具をエージェント可読証拠へ変換し極端な注目を得ているが、独立した実アプリ試験では価値が仕事依存で返信経路を全件見逃した。信頼できる自律リバースエンジニアリングの証明ではなく、名前付き道具をWATCHへ追加する。"
+          "en": "Dyna-2.1 demonstrates a concrete hour-long hierarchical physical-agent workflow, while independent evidence supports only sustained narrow folding and does not establish general reliability; add the named system at WATCH.",
+          "ja": "Dyna-2.1は具体的な1時間の階層型物理エージェント工程を示すが、独立証拠は狭い折り畳みの長時間運転のみを支持し汎用信頼性を成立させないため、名前付きシステムをWATCHへ追加。"
         }
       },
       {
         "kind": "material-finding",
         "targetIds": [
-          "claude-managed-agents",
-          "harness-owned-long-horizon-state"
+          "american-express-ace",
+          "intent-bound-agent-authorization"
         ],
         "sourceIds": [
-          "anthropic-managed-agents-overview",
-          "anthropic-managed-agent-workflows",
-          "stateless-language-agents-paper",
-          "github-agentic-workflows-2026-10-12",
-          "prime-agent-rust",
-          "temporal-docs"
+          "amex-ace-agentic-commerce",
+          "google-ap2",
+          "visa-tap",
+          "mastercard-agent-pay",
+          "ap2-security-considerations",
+          "ap2-red-team-study"
         ],
         "summary": {
-          "en": "Claude Managed Agents supplies a concrete beta meta-harness, while SLA, GitHub Agentic Workflows, Prime Agent, and Temporal establish cross-organization convergence around harness-owned durable state; add the named platform and category at PILOT with bounded metrics.",
-          "ja": "Claude Managed Agentsは具体的なベータ版メタハーネスを提供し、SLA、GitHub Agentic Workflows、Prime Agent、Temporalはハーネス所有の耐久状態への組織横断収束を成立させる。名前付き基盤とカテゴリを限定指標付きPILOTへ追加する。"
+          "en": "ACE is a distinct controlled-access Amex implementation, while four payment organizations establish a durable authorization category around verifiable identity, bounded intent, scoped credentials, and audit evidence; add both named ACE and the category at WATCH, preserving reasoning-layer risk.",
+          "ja": "ACEは利用制限付きAmex固有実装であり、4決済組織が検証可能ID、限定意図、範囲付き資格情報、監査証拠を軸に耐久的認可カテゴリを成立させる。名前付きACEとカテゴリを別々にWATCHへ追加し、推論層リスクを残す。"
         }
       },
       {
         "kind": "material-finding",
         "targetIds": [
-          "agent-independent-execution-evidence"
+          "scion-antique",
+          "jevcrawl",
+          "tracely"
         ],
         "sourceIds": [
-          "frontiercode-independent-results"
+          "anthropic-scion",
+          "sapling-scale",
+          "jevcrawl-repo",
+          "tracely-repo",
+          "tracely-docs"
         ],
         "summary": {
-          "en": "Independent FrontierCode runs reinforce that passing tests is not equivalent to maintainer-mergeable work; preserve verification pressure without rescoring the runtime-evidence category because private tasks and LLM review limit reproduction.",
-          "ja": "独立したFrontierCode実行は、テスト通過が保守者にマージ可能な仕事と同義でないことを補強する。非公開課題とLLMレビューが再現を制約するため、実行証拠カテゴリを再採点せず検証圧力を維持する。"
+          "en": "Scion/Antique offer architectural learning but are internal; Jevcrawl has only an author-run benchmark; defer both. Tracely provides a concrete trace-to-regression loop, so add it at PILOT only for a bounded non-blocking evaluation.",
+          "ja": "Scion/Antiqueは設計上の学びを与えるが社内限定。Jevcrawlは作者実施評価のみ。両者を保留。Tracelyは具体的なトレースから回帰試験への循環を持つため、限定・非阻止評価だけをPILOTとする。"
         }
       },
       {
         "kind": "editorial-decision",
         "targetIds": [
-          "rea",
-          "claude-managed-agents",
-          "harness-owned-long-horizon-state",
-          "poppy-protocol"
+          "scion-antique",
+          "dyna-2",
+          "american-express-ace",
+          "intent-bound-agent-authorization",
+          "jevcrawl",
+          "tracely"
         ],
         "sourceIds": [
-          "rea-independent-test",
-          "anthropic-managed-agents-overview",
-          "stateless-language-agents-paper",
-          "poppy-spec-0-1",
-          "poppy-path-to-1"
+          "anthropic-scion",
+          "dyna-2-1",
+          "amex-ace-agentic-commerce",
+          "google-ap2",
+          "jevcrawl-repo",
+          "tracely-repo"
         ],
         "summary": {
-          "en": "Add REA at WATCH; add Claude Managed Agents and harness-owned long-horizon state at PILOT; defer Poppy from the Radar until a reference implementation or conformance suite exists; promote nothing to the Core Atlas.",
-          "ja": "REAをWATCHへ追加。Claude Managed Agentsとハーネス所有の長期状態をPILOTへ追加。Poppyは参照実装または適合試験が現れるまでレーダー追加を保留。コア・アトラスへの昇格は行わない。"
+          "en": "Account for all five investigate-now items: defer Scion/Antique and Jevcrawl; add Dyna-2 and American Express ACE at WATCH; spawn intent-bound agent authorization at WATCH; add Tracely at PILOT; rescore no existing item and promote nothing to the Core Atlas.",
+          "ja": "investigate-now 5項目を全件処理。Scion/AntiqueとJevcrawlを保留。Dyna-2とAmerican Express ACEをWATCHへ追加。意図拘束型エージェント認可をWATCHでカテゴリ化。TracelyをPILOTへ追加。既存項目は再採点せず、コア・アトラスへ昇格しない。"
         }
       }
     ]
@@ -490,6 +521,30 @@
       "signalId": "harness-owned-long-horizon-state",
       "stage": "pilot",
       "score": 62,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "dyna-2",
+      "stage": "watch",
+      "score": 42,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "american-express-ace",
+      "stage": "watch",
+      "score": 38,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "intent-bound-agent-authorization",
+      "stage": "watch",
+      "score": 52,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "tracely",
+      "stage": "pilot",
+      "score": 52,
       "compatibility": "unknown"
     }
   ],
@@ -2238,6 +2293,313 @@
             "adoption": 62,
             "fit": 94,
             "confidence": 90
+          }
+        }
+      ]
+    },
+    {
+      "id": "dyna-2",
+      "name": {
+        "en": "Dyna-2 / Dyna-2.1",
+        "ja": "Dyna-2 / Dyna-2.1"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "agent-harness"
+      ],
+      "scores": {
+        "frontier": 88,
+        "adoption": 42,
+        "fit": 38,
+        "confidence": 76
+      },
+      "recommendation": {
+        "en": "WATCH; require repeated-shift completion, intervention and recovery distributions, transfer beyond uniform laundry, and total-cost data before considering a pilot.",
+        "ja": "WATCH。試行前に、複数シフトの完遂率、介入・復旧分布、均一な洗濯物を超える転移、総費用データを求める。"
+      },
+      "tradeoffs": [
+        {
+          "en": "The orchestrator/controller/model split and uncut workflow show meaningful system integration, but one vendor demo is not a reliability distribution.",
+          "ja": "オーケストレータ・制御器・モデルの分離と無編集工程は意味ある統合を示すが、単一ベンダーデモは信頼性分布ではない。"
+        },
+        {
+          "en": "Independent review supports sustained narrow folding operation, while broader clothing transfer, repeated deployment, and unit economics remain unproven.",
+          "ja": "独立調査は狭い折り畳みの長時間運転を支持するが、衣類全般への転移、反復配備、単位経済性は未証明。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "Stangyode has no physical-agent workload, facility, safety case, or integration path for evaluating this system.",
+          "ja": "Stangyodeにはこのシステムを評価する物理エージェント業務、施設、安全ケース、統合経路がない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "dyna-2-1",
+          "epoch-robot-autonomy-2026"
+        ],
+        "collectedAt": "2026-10-14",
+        "method": {
+          "en": "Compared Dyna’s primary architecture and uncut demo with an independent survey of sustained robot operation. No robot or software was installed or tested.",
+          "ja": "Dynaの一次アーキテクチャ・無編集デモを、ロボット長時間運転の独立調査と比較。ロボットやソフトウェアは導入・試験していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-14",
+          "event": {
+            "en": "Added at WATCH because the hour-long integrated workflow is concrete, while independent evidence remains narrow and does not establish general reliability.",
+            "ja": "1時間の統合工程は具体的だが、独立証拠は狭く汎用信頼性を成立させないためWATCHへ追加。"
+          },
+          "scores": {
+            "frontier": 88,
+            "adoption": 42,
+            "fit": 38,
+            "confidence": 76
+          }
+        }
+      ]
+    },
+    {
+      "id": "american-express-ace",
+      "name": {
+        "en": "American Express ACE",
+        "ja": "American Express ACE"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 82,
+        "adoption": 38,
+        "fit": 44,
+        "confidence": 78
+      },
+      "recommendation": {
+        "en": "WATCH; treat ACE as a controlled-access Amex implementation and wait for live merchant integrations, authorization outcomes, dispute evidence, and availability of all announced service areas.",
+        "ja": "WATCH。ACEを利用制限付きAmex実装として扱い、実加盟店統合、認可成果、紛争証拠、発表済み全機能の提供を待つ。"
+      },
+      "tradeoffs": [
+        {
+          "en": "ACE connects verified agents, purchase intent, tokenized credentials, spend controls, and cart context within Amex’s network, but some service areas remain under development.",
+          "ja": "ACEはAmex網内で検証済みエージェント、購入意図、トークン化資格情報、支出制御、カート文脈を結ぶが、一部機能は開発中。"
+        },
+        {
+          "en": "Purchase-protection language is conditional, and no public measurement yet shows lower fraud, fewer disputes, or broader production adoption.",
+          "ja": "購入保護の表現は条件付きで、不正減少、紛争削減、広範な本番採用を示す公開測定はまだない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "There is no Stangyode commerce workflow, Amex developer onboarding, or transaction corpus against which to test ACE.",
+          "ja": "StangyodeにはACEを試す商取引工程、Amex開発者オンボーディング、取引コーパスがない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "amex-ace-agentic-commerce"
+        ],
+        "collectedAt": "2026-10-14",
+        "method": {
+          "en": "Reviewed first-party product and access material, then compared ACE with sibling commerce-authorization implementations. No transaction was attempted.",
+          "ja": "一次製品・利用資料を確認し、ACEを同種の商取引認可実装と比較。取引は実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-14",
+          "event": {
+            "en": "Added as a separate named WATCH implementation; cross-vendor evidence belongs to the durable authorization category, not to ACE alone.",
+            "ja": "独立した名前付きWATCH実装として追加。組織横断証拠はACE単体でなく耐久的認可カテゴリに帰属する。"
+          },
+          "scores": {
+            "frontier": 82,
+            "adoption": 38,
+            "fit": 44,
+            "confidence": 78
+          }
+        }
+      ]
+    },
+    {
+      "id": "intent-bound-agent-authorization",
+      "name": {
+        "en": "Intent-bound agent authorization",
+        "ja": "意図拘束型エージェント認可"
+      },
+      "kind": "concept",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 90,
+        "adoption": 52,
+        "fit": 78,
+        "confidence": 88
+      },
+      "recommendation": {
+        "en": "WATCH the category; require explicit agent identity, signed or otherwise verifiable user intent, bounded credentials, replay resistance, and auditable settlement, while separately testing reasoning-layer manipulation.",
+        "ja": "カテゴリをWATCH。明示的エージェントID、署名または検証可能なユーザー意図、限定資格情報、再送耐性、監査可能な決済を求め、推論層操作は別途試験する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "American Express, Google, Visa, and Mastercard converge on an authorization and evidence layer, but their implementations span issuer, open-protocol, merchant-edge, and network-tokenization roles rather than one interoperable standard.",
+          "ja": "American Express、Google、Visa、Mastercardは認可・証拠層へ収束するが、実装は発行者、公開プロトコル、加盟店境界、ネットワークトークン化にまたがり、単一相互運用標準ではない。"
+        },
+        {
+          "en": "Cryptographic mandates prove what was authorized; they do not prove that a model interpreted intent correctly or resisted prompt injection before signing.",
+          "ja": "暗号学的マンデートは認可内容を証明するが、署名前にモデルが意図を正しく解釈し、プロンプト注入に耐えたことまでは証明しない。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "American Express ACE",
+          "vendor": "American Express",
+          "organizationId": "american-express",
+          "access": "controlled developer access with partially available service areas",
+          "sourceIds": [
+            "amex-ace-agentic-commerce"
+          ]
+        },
+        {
+          "name": "Agent Payments Protocol (AP2)",
+          "vendor": "Google",
+          "organizationId": "google",
+          "access": "open protocol specification and reference implementation",
+          "sourceIds": [
+            "google-ap2",
+            "ap2-security-considerations"
+          ]
+        },
+        {
+          "name": "Trusted Agent Protocol (TAP)",
+          "vendor": "Visa",
+          "organizationId": "visa",
+          "access": "developer documentation and limited deployment",
+          "sourceIds": [
+            "visa-tap"
+          ]
+        },
+        {
+          "name": "Mastercard Agent Pay",
+          "vendor": "Mastercard",
+          "organizationId": "mastercard",
+          "access": "network program with announced platform and acquirer partners",
+          "sourceIds": [
+            "mastercard-agent-pay"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "The principles align with approval-gated automation, but Stangyode has no payment-agent path on which to measure authorization, dispute, or recovery outcomes.",
+          "ja": "原則は承認ゲート付き自動化と整合するが、Stangyodeには認可・紛争・復旧成果を測る決済エージェント経路がない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "amex-ace-agentic-commerce",
+          "google-ap2",
+          "visa-tap",
+          "mastercard-agent-pay",
+          "ap2-security-considerations",
+          "ap2-red-team-study"
+        ],
+        "collectedAt": "2026-10-14",
+        "method": {
+          "en": "Compared four independent first-party implementations and a first-party threat model with an independent AP2 red-team study. No payment flow was executed.",
+          "ja": "4件の独立した一次実装と一次脅威モデルを、独立AP2レッドチーム研究と比較。決済フローは実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-14",
+          "event": {
+            "en": "Spawned at WATCH after four payment organizations converged on verifiable identity, bounded intent, scoped credentials, and transaction evidence; maturity and reasoning integrity remain unsettled.",
+            "ja": "4決済組織が検証可能ID、限定意図、範囲付き資格情報、取引証拠へ収束したためWATCHでカテゴリ化。成熟度と推論完全性は未確定。"
+          },
+          "scores": {
+            "frontier": 90,
+            "adoption": 52,
+            "fit": 78,
+            "confidence": 88
+          }
+        }
+      ]
+    },
+    {
+      "id": "tracely",
+      "name": {
+        "en": "Tracely",
+        "ja": "Tracely"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "agent-observability",
+        "eval-evaluation"
+      ],
+      "scores": {
+        "frontier": 78,
+        "adoption": 52,
+        "fit": 86,
+        "confidence": 64
+      },
+      "recommendation": {
+        "en": "PILOT only on a non-critical fixture set: measure false blocks, missed regressions, replay fidelity, reviewer corrections, and maintenance cost before allowing a gate to block merges.",
+        "ja": "非重要fixture群だけでPILOT。ゲートにマージを阻止させる前に、誤阻止、見逃し、再生忠実度、レビュー修正、保守費用を測る。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Promoting real failures into replayable regression cases closes a useful loop between observability and CI, and deterministic fixtures can avoid model spend and flakiness.",
+          "ja": "実障害を再生可能な回帰ケースへ昇格することで可観測性とCIの循環が閉じ、決定論的fixtureはモデル費用と不安定性を避け得る。"
+        },
+        {
+          "en": "Trace selection, evaluator calibration, privacy, and fixture staleness can create false confidence or block healthy changes; no independent production outcome study was found.",
+          "ja": "トレース選択、評価器校正、プライバシー、fixture陳腐化は誤った確信や健全変更の阻止を招き得る。独立した本番成果研究は見つからない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "The regression-gate pattern fits the repository’s deterministic checks, but no Tracely fixture, privacy boundary, or false-block baseline has been evaluated.",
+          "ja": "回帰ゲートのパターンはリポジトリの決定論的検査に合うが、Tracely fixture、プライバシー境界、誤阻止基準は未評価。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "tracely-repo",
+          "tracely-docs"
+        ],
+        "collectedAt": "2026-10-14",
+        "method": {
+          "en": "Reviewed the first-party repository and documentation for the trace-to-regression workflow. The software was not installed, and production outcome claims were not independently reproduced.",
+          "ja": "トレースから回帰試験への流れを一次リポジトリと資料で確認。ソフトウェアは導入せず、本番成果の主張も独立再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-14",
+          "event": {
+            "en": "Added at PILOT for a bounded, non-blocking evaluation of trace-derived regression gates; independent outcome evidence is still absent.",
+            "ja": "トレース由来回帰ゲートの限定・非阻止評価としてPILOTへ追加。独立成果証拠はまだない。"
+          },
+          "scores": {
+            "frontier": 78,
+            "adoption": 52,
+            "fit": 86,
+            "confidence": 64
           }
         }
       ]
