@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-14
+Snapshot / スナップショット: 2026-10-15
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,77 +8,69 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-14T06:11:13Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-15T06:04:18Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: SUCCESS; last success 2026-10-14T06:10:40.103Z; failure streak 0
-- editor: SUCCESS; last success 2026-10-14T06:11:13Z; failure streak 0
+- scout: SUCCESS; last success 2026-10-15T06:04:18Z; failure streak 0
+- editor: PARTIAL; last success 2026-10-14T06:11:13Z; failure streak 1; last failure rate_limit at 2026-10-15T06:01:28.949Z (unresolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: CHECKED
+- github-public: FAILED — The bounded GitHub update fetch hit its unauthenticated rate limit after one of seven queries; prior repository results are not presented as current. / 範囲限定GitHub更新取得は7件中1件後に未認証レート制限へ到達。過去のリポジトリ結果を現在値として提示しない。
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
-- [Redesigning source control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control): relevant; checked 2026-10-14; source anthropic-scion
-- [Sapling — working at scale](https://sapling-scm.com/docs/scale/overview/): relevant; checked 2026-10-14; source sapling-scale
-- [Dyna-2.1: A Physical Agent for End-to-End Workflows](https://www.dyna.co/dyna-2.1): relevant; checked 2026-10-14; source dyna-2-1
-- [Where autonomy works: evaluating robot capabilities in 2026](https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026): relevant; checked 2026-10-14; source epoch-robot-autonomy-2026
-- [American Express Agentic Commerce and ACE](https://www.americanexpress.com/en-us/company/agentic-commerce): relevant; checked 2026-10-14; source amex-ace-agentic-commerce
-- [Google Agent Payments Protocol (AP2)](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol): relevant; checked 2026-10-14; source google-ap2
-- [Visa Trusted Agent Protocol overview](https://developer.visa.com/capabilities/trusted-agent-protocol/overview): relevant; checked 2026-10-14; source visa-tap
-- [Mastercard Agent Pay](https://www.mastercard.com/us/en/business/artificial-intelligence/mastercard-agent-pay.html): relevant; checked 2026-10-14; source mastercard-agent-pay
-- [AP2 security and privacy considerations](https://ap2-protocol.org/ap2/security_and_privacy_considerations/): relevant; checked 2026-10-14; source ap2-security-considerations
-- [Red-Teaming Agentic Payment Protocols](https://arxiv.org/abs/2601.22569): relevant; checked 2026-10-14; source ap2-red-team-study
-- [Jevcrawl repository and benchmark](https://github.com/RayenMlayeh/jevcrawl): relevant; checked 2026-10-14; source jevcrawl-repo
-- [Tracely repository](https://github.com/Jwuthri/Tracely-ai): relevant; checked 2026-10-14; source tracely-repo
-- [Tracely SDK documentation](https://doc.tracely-ai.com/): relevant; checked 2026-10-14; source tracely-docs
-- [Anthropic API release notes](https://docs.anthropic.com/en/release-notes/api): no-material-change; checked 2026-10-14; source anthropic-api-release-notes
-- [Reverse Engineer Anything (REA)](https://github.com/morluto/rea): no-material-change; checked 2026-10-14; source rea-repo
-- [Google Cloud Gemini agent announcement](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026): no-material-change; checked 2026-10-14; source google-gemini-agent
-- [Vercel skills 1.7.2 release](https://github.com/vercel-labs/skills/releases/tag/v1.7.2): no-material-change; checked 2026-10-14; source vercel-skills-1-7-2
-- [mcp-use 2.8.2 release](https://github.com/mcp-use/mcp-use/releases/tag/mcp-use%402.8.2): no-material-change; checked 2026-10-14; source mcp-use-2-8-2
-- [Ponytail benchmark completeness hardening](https://github.com/DietrichGebert/ponytail/commit/88cedebb3c1f8d024ef361e13232bdf98c071481): no-material-change; checked 2026-10-14; source ponytail-benchmark-hardening
-- [Knowledge Triage reference implementation](https://github.com/searchsim-org/cikm26-knowledge-triage): no-material-change; checked 2026-10-14; source knowledge-triage-repo
-- [Atomix releases](https://github.com/mpi-dsg/atomix/releases): no-material-change; checked 2026-10-14; source atomix-releases
+- [Context Mode repository](https://github.com/mksglu/context-mode): relevant; checked 2026-10-15; source context-mode-repo
+- [Context Mode platform support matrix](https://github.com/mksglu/context-mode/blob/main/docs/platform-support.md): relevant; checked 2026-10-15; source context-mode-platform-support
+- [LangChain deep-agent context offloading](https://www.langchain.com/blog/context-engineering-deep-agents-remember): relevant; checked 2026-10-15; source langchain-context-offloading
+- [Agent37 core concepts](https://www.agent37.com/docs/agents-api/concepts): relevant; checked 2026-10-15; source agent37-concepts
+- [Agent37 instance lifecycle](https://www.agent37.com/docs/agents-api/instances): relevant; checked 2026-10-15; source agent37-instances
+- [LangChain agent sandbox comparison](https://www.langchain.com/resources/best-agent-sandboxes): relevant; checked 2026-10-15; source langchain-agent-sandboxes
+- [Capsem repository](https://github.com/google/capsem): relevant; checked 2026-10-15; source capsem-repo
+- [iFixAi methodology](https://github.com/ifixai-ai/iFixAi/blob/main/docs/methodology.md): relevant; checked 2026-10-15; source ifixai-methodology
+- [iFixAi v4.1.0 release](https://github.com/ifixai-ai/iFixAi/releases/tag/v4.1.0): relevant; checked 2026-10-15; source ifixai-4-1
+- [AgentSWE paper](https://arxiv.org/html/2610.13361v1): relevant; checked 2026-10-15; source agentswe-paper
+- [ReviewBench repository](https://github.com/review-bench/ReviewBench): relevant; checked 2026-10-15; source reviewbench-repo
+- [GitHub ReviewBench announcement](https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review): relevant; checked 2026-10-15; source github-reviewbench
+- [Minos paper repository](https://github.com/Leash-Labs/minos-paper): relevant; checked 2026-10-15; source minos-paper
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
-Scion and Jevcrawl remain deferred; Dyna-2 and ACE enter as named WATCH items; cross-vendor intent-bound authorization enters as a WATCH category; Tracely enters a bounded PILOT. The upstream hype scrape and bounded GitHub update sensor both completed successfully. / ScionとJevcrawlは保留。Dyna-2とACEを名前付きWATCHへ追加。組織横断の意図拘束型認可をWATCHカテゴリへ追加。Tracelyを限定PILOTへ追加。上流ハイプ取得と範囲限定GitHub更新センサーはいずれも正常完了。
+Context Mode and Agent37 enter bounded PILOT; replayable evaluator-owned acceptance artifacts enter as a three-implementation WATCH category. Capsem and Minos remain monitored without Radar entry. / Context ModeとAgent37を限定PILOTへ追加。再生可能な評価者所有の受入成果物を3実装のWATCHカテゴリへ追加。CapsemとMinosはレーダー追加なしで監視継続。
 
-Targets: scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely
+Targets: context-mode, capsem, agent37, replayable-evaluator-owned-acceptance-artifacts, minos
 
-Evidence: anthropic-scion, dyna-2-1, epoch-robot-autonomy-2026, amex-ace-agentic-commerce, jevcrawl-repo, tracely-repo, tracely-docs
+Evidence: context-mode-repo, context-mode-platform-support, agent37-concepts, agent37-instances, capsem-repo, ifixai-methodology, agentswe-paper, reviewbench-repo, minos-paper
 
-- `exact-name release, adoption, benchmark, criticism, and limitation checks for all investigate-now items`
-- `first-party artifact and independent-evaluation checks for Scion, Dyna-2, ACE, Jevcrawl, and Tracely`
+- `exact-name release, alternatives, competitors, adoption, benchmark, criticism, and limitation checks for all investigate-now items`
+- `first-party artifact and limitation checks for Context Mode, Capsem, Agent37, iFixAi, AgentSWE, ReviewBench, and Minos`
 
-### Intent-bound authorization sibling implementations / 意図拘束型認可の同等実装
-Amex ACE, Google AP2, Visa TAP, and Mastercard Agent Pay converge on verifiable identity, bounded intent, scoped credentials, and audit evidence, but occupy different layers and remain early; signed mandates do not solve reasoning-layer manipulation. / Amex ACE、Google AP2、Visa TAP、Mastercard Agent Payは検証可能ID、限定意図、範囲付き資格情報、監査証拠へ収束するが、異なる層に位置し初期段階。署名マンデートは推論層操作を解決しない。
+### Context virtualization and sandbox sibling challenge / 文脈仮想化とサンドボックスの同等実装比較
+Context offloading and persistent sandbox primitives have independent siblings, so neither attention nor packaging is unique; task quality, retrieval misses, restore reliability, egress enforcement, throughput, and economics remain the decision evidence. / 文脈退避と永続サンドボックスには独立同等実装があり、注目度やパッケージ自体は固有でない。課題品質、検索漏れ、復元信頼性、外向き通信強制、処理量、経済性が判断証拠として残る。
 
-Targets: american-express-ace, intent-bound-agent-authorization
+Targets: context-mode, agent37, capsem
 
-Evidence: amex-ace-agentic-commerce, google-ap2, visa-tap, mastercard-agent-pay, ap2-security-considerations, ap2-red-team-study
+Evidence: context-mode-repo, context-mode-platform-support, langchain-context-offloading, agent37-concepts, agent37-instances, langchain-agent-sandboxes, capsem-repo
 
-- `agentic commerce authorization protocol intent identity tokenized credentials competitors`
-- `AP2 ACE TAP Agent Pay adoption criticism security limitations prompt injection`
+- `context-mode alternatives context offloading retrieval memory Headroom LangChain`
+- `Agent37 Capsem E2B Daytona persistent sandbox restore egress isolation comparison`
 
-### Tracked named-entity update sweep / 追跡中の名前付きエンティティ更新確認
-No verified seven-day first-party change altered the existing judgments for tracked named products or prior categories. / 追跡中の名前付き製品や既存カテゴリの判断を変える、検証済み7日以内の一次変更は確認しなかった。
+### Evaluator-owned acceptance artifact convergence / 評価者所有の受入成果物への収束
+Three independent implementations externalize verification into versioned fixtures, frozen submissions, held-out cases, and scoring contracts, but evaluate different targets and retain model-judge, corpus-transfer, and calibration limits. / 3つの独立実装が検証を版管理fixture、固定提出物、非公開ケース、採点契約へ外部化するが、対象は異なり、モデル判定、コーパス転移、校正の限界が残る。
 
-Targets: jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, knowledge-triage, tool-effect-integrity
+Targets: replayable-evaluator-owned-acceptance-artifacts
 
-Evidence: anthropic-api-release-notes, rea-repo, google-gemini-agent, vercel-skills-1-7-2, mcp-use-2-8-2, ponytail-benchmark-hardening, knowledge-triage-repo, atomix-releases
+Evidence: ifixai-methodology, ifixai-4-1, agentswe-paper, reviewbench-repo, github-reviewbench
 
-- `exact-name release, alternatives, competitors, adoption, benchmark, and criticism searches for tracked entities`
-- `fixed-query GitHub public update sensor across all seven configured targets`
+- `iFixAi AgentSWE ReviewBench alternatives adoption benchmark criticism limitations`
+- `replayable evaluator-owned acceptance fixtures agent verification independent implementations`
 
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos
 
 ### Changelog entries checked / 確認済み変更履歴
-- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14
+- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -86,10 +78,8 @@ Evidence: anthropic-api-release-notes, rea-repo, google-gemini-agent, vercel-ski
 - anthropic-context; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
 
 ### Findings and decisions / 発見と判断
-- material-finding; dyna-2: Dyna-2.1 demonstrates a concrete hour-long hierarchical physical-agent workflow, while independent evidence supports only sustained narrow folding and does not establish general reliability; add the named system at WATCH. / Dyna-2.1は具体的な1時間の階層型物理エージェント工程を示すが、独立証拠は狭い折り畳みの長時間運転のみを支持し汎用信頼性を成立させないため、名前付きシステムをWATCHへ追加。; evidence: dyna-2-1, epoch-robot-autonomy-2026
-- material-finding; american-express-ace, intent-bound-agent-authorization: ACE is a distinct controlled-access Amex implementation, while four payment organizations establish a durable authorization category around verifiable identity, bounded intent, scoped credentials, and audit evidence; add both named ACE and the category at WATCH, preserving reasoning-layer risk. / ACEは利用制限付きAmex固有実装であり、4決済組織が検証可能ID、限定意図、範囲付き資格情報、監査証拠を軸に耐久的認可カテゴリを成立させる。名前付きACEとカテゴリを別々にWATCHへ追加し、推論層リスクを残す。; evidence: amex-ace-agentic-commerce, google-ap2, visa-tap, mastercard-agent-pay, ap2-security-considerations, ap2-red-team-study
-- material-finding; scion-antique, jevcrawl, tracely: Scion/Antique offer architectural learning but are internal; Jevcrawl has only an author-run benchmark; defer both. Tracely provides a concrete trace-to-regression loop, so add it at PILOT only for a bounded non-blocking evaluation. / Scion/Antiqueは設計上の学びを与えるが社内限定。Jevcrawlは作者実施評価のみ。両者を保留。Tracelyは具体的なトレースから回帰試験への循環を持つため、限定・非阻止評価だけをPILOTとする。; evidence: anthropic-scion, sapling-scale, jevcrawl-repo, tracely-repo, tracely-docs
-- editorial-decision; scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely: Account for all five investigate-now items: defer Scion/Antique and Jevcrawl; add Dyna-2 and American Express ACE at WATCH; spawn intent-bound agent authorization at WATCH; add Tracely at PILOT; rescore no existing item and promote nothing to the Core Atlas. / investigate-now 5項目を全件処理。Scion/AntiqueとJevcrawlを保留。Dyna-2とAmerican Express ACEをWATCHへ追加。意図拘束型エージェント認可をWATCHでカテゴリ化。TracelyをPILOTへ追加。既存項目は再採点せず、コア・アトラスへ昇格しない。; evidence: anthropic-scion, dyna-2-1, amex-ace-agentic-commerce, google-ap2, jevcrawl-repo, tracely-repo
+- material-finding; context-mode, agent37, replayable-evaluator-owned-acceptance-artifacts: Operational agent infrastructure is moving toward context offloading, persistent isolated computers, and replayable acceptance evidence; the artifacts are concrete, but attention and vendor benchmarks do not establish reliability or local fit. / エージェント運用基盤は文脈退避、永続隔離コンピュータ、再生可能な受入証拠へ進んでいる。成果物は具体的だが、注目度とベンダーベンチマークは信頼性やローカル適合性を証明しない。; evidence: context-mode-repo, context-mode-platform-support, langchain-context-offloading, agent37-concepts, agent37-instances, langchain-agent-sandboxes, ifixai-methodology, agentswe-paper, reviewbench-repo
+- editorial-decision; context-mode, agent37, replayable-evaluator-owned-acceptance-artifacts, capsem, minos: Add Context Mode and Agent37 as bounded PILOTs and the acceptance-artifact category at WATCH; keep Capsem and Minos monitored until stable access or independent outcome evidence appears. / Context ModeとAgent37を限定PILOT、受入成果物カテゴリをWATCHへ追加。CapsemとMinosは安定提供または独立成果証拠が出るまで監視継続。; evidence: context-mode-repo, agent37-concepts, capsem-repo, ifixai-methodology, agentswe-paper, reviewbench-repo, minos-paper
 
 ## Signals / シグナル
 
@@ -387,20 +377,56 @@ Evidence: anthropic-api-release-notes, rea-repo, google-gemini-agent, vercel-ski
 - History / 履歴:
   - 2026-10-14: Added at PILOT for a bounded, non-blocking evaluation of trace-derived regression gates; independent outcome evidence is still absent. / トレース由来回帰ゲートの限定・非阻止評価としてPILOTへ追加。独立成果証拠はまだない。
 
+### Context Mode / Context Mode
+- Adoption stage / 導入段階: PILOT (58/100)
+- Scores / スコア: frontier 86, fit 92, confidence 82
+- Recommendation / 推奨: PILOT only in a disposable repository with paired tasks; measure task success, retrieval misses, latency, crashes, permission-boundary behavior, and recovery after compaction. / 使い捨てリポジトリで対比較課題に限定してPILOT。課題成功率、検索漏れ、遅延、クラッシュ、権限境界動作、圧縮後復旧を測る。
+- Compatibility / 互換性: UNKNOWN — The pattern fits long Hermes and coding sessions, but no Stangyode task has measured quality, security, latency, or recovery. / 長時間のHermes・コーディングセッションに合う可能性はあるが、Stangyode課題で品質、安全性、遅延、復旧を測っていない。
+- Trade-offs / トレードオフ:
+  - Interception, local full-text retrieval, and continuity can keep bulky output out of the active window, but maintainer byte savings do not establish better task outcomes. / 遮断、ローカル全文検索、継続性は巨大出力を作業文脈から外せるが、保守者のバイト削減値は課題成果改善を証明しない。
+  - Host support is uneven, MCP tools enlarge the execution trust boundary, and retrieval can hide evidence the agent fails to request. / ホスト対応は不均一で、MCPツールは実行信頼境界を広げ、検索されない証拠を隠す可能性がある。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-15
+- History / 履歴:
+  - 2026-10-15: Added at PILOT because the implementation is concrete and operationally relevant, while end-to-end quality and security benefit remain unverified. / 実装が具体的で運用上関連する一方、エンドツーエンド品質と安全上の利点は未検証のためPILOTへ追加。
+
+### Agent37 / Agent37
+- Adoption stage / 導入段階: PILOT (52/100)
+- Scores / スコア: frontier 84, fit 82, confidence 78
+- Recommendation / 推奨: PILOT one disposable restore-and-egress workload; verify deny rules, credential boundaries, cold and warm recovery, backup fidelity, startup health, throughput, and full retained-state cost. / 使い捨ての復元・外向き通信ワークロードを1件PILOT。拒否規則、資格情報境界、低温・温間復旧、バックアップ忠実度、起動健全性、処理量、保持状態の総費用を検証する。
+- Compatibility / 互換性: UNKNOWN — It may fit isolated experiments, but no Agent37 instance, network policy, credential flow, or restore was exercised for Stangyode. / 隔離実験に合う可能性はあるが、Stangyode向けにAgent37インスタンス、ネットワーク方針、資格情報フロー、復元を試していない。
+- Trade-offs / トレードオフ:
+  - Persistent instances, explicit lifecycle APIs, backup/restore, and sleep/wake behavior are directly usable building blocks for long-running agents. / 永続インスタンス、明示的ライフサイクルAPI、バックアップ・復元、スリープ・復帰は長時間エージェントに直接使える構成要素。
+  - Vendor documentation describes behavior, not independent restore reliability, isolation resistance, sustained throughput, or comparative economics. / ベンダー資料は動作を説明するが、独立した復元信頼性、隔離耐性、継続処理量、比較経済性は示さない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-15
+- History / 履歴:
+  - 2026-10-15: Added at PILOT for one bounded lifecycle and egress evaluation; broad reliability, security, throughput, and cost claims remain unverified. / 限定したライフサイクル・外向き通信評価1件のPILOTへ追加。広範な信頼性、安全性、処理量、費用主張は未検証。
+
+### Replayable evaluator-owned acceptance artifacts / 再生可能な評価者所有の受入成果物
+- Adoption stage / 導入段階: WATCH (54/100)
+- Scores / スコア: frontier 90, fit 94, confidence 86
+- Recommendation / 推奨: WATCH the category and PILOT one repository-owned acceptance suite only after pinning fixtures, environment, judge, scoring contract, privacy boundary, and reviewer-correction workflow. / カテゴリをWATCHし、fixture、環境、判定モデル、採点契約、プライバシー境界、レビュー修正手順を固定してから、リポジトリ所有の受入スイートを1件だけPILOTする。
+- Compatibility / 互換性: UNKNOWN — The pattern strongly matches Stangyode regression discipline, but none of the three artifacts has been calibrated against this repository or its defect history. / このパターンはStangyodeの回帰規律に強く合うが、3成果物のいずれも本リポジトリや欠陥履歴に対して校正されていない。
+- Trade-offs / トレードオフ:
+  - Versioned fixtures, frozen submissions, held-out cases, and explicit score contracts make verification reviewable and replayable instead of trusting completion claims. / 版管理fixture、固定提出物、非公開ケース、明示採点契約により、完了主張を信じる代わりに検証をレビュー・再生可能にする。
+  - The implementations measure different targets; model judges, public corpora, fixture drift, and weak transfer to local defects can still produce false confidence. / 各実装の測定対象は異なり、モデル判定、公開コーパス、fixture変動、ローカル欠陥への弱い転移が誤った確信を生み得る。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-15
+- History / 履歴:
+  - 2026-10-15: Spawned at WATCH after three independent implementations converged on evaluator-owned, versioned, replayable acceptance evidence while retaining incompatible scopes and judge limits. / 3つの独立実装が評価者所有・版管理・再生可能な受入証拠へ収束したためWATCHでカテゴリ化。対象の非互換性と判定限界は保持。
+
 ## GitHub discovery input / GitHub発見入力
 
 Public observation input only. Living candidates live in discovery-candidates.json. Absence of a repository is not a negative finding. Queries may be phenomenon-based and need not match Core Atlas terms. / 公開観測の入力のみ。生きた候補は discovery-candidates.json にある。リポジトリがないことは否定的発見ではない。クエリは現象ベースでよく、コア・アトラス用語と一致する必要はない。
 
 Provider / プロバイダー: github; mode / モード: public-api; live fetch / ライブ取得: yes
 
-- typed-decision-models: typed probabilistic decision model System One (collected)
-- agent-skills: topic:agent-skills (collected)
-- mcp-apps: topic:mcp-apps (collected)
+- typed-decision-models: typed probabilistic decision model System One (not-collected)
+- agent-skills: topic:agent-skills (failed)
+- mcp-apps: topic:mcp-apps (not-collected)
 - a2a: topic:agent-to-agent (collected)
-- agentic-resource-discovery-ard: topic:agentic-resource-discovery (collected)
-- ponytail: ponytail (collected)
-- caveman: caveman (collected)
+- agentic-resource-discovery-ard: topic:agentic-resource-discovery (not-collected)
+- ponytail: ponytail (not-collected)
+- caveman: caveman (not-collected)
 
-Collected signals / 収集済みシグナル: 35
+Collected signals / 収集済みシグナル: 0
 
 Generated by atlas/scripts/render-frontier-briefing.mjs; deterministic for the checked-in inputs.

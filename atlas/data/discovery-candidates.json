@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-14",
+  "generatedAt": "2026-10-15",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -1408,6 +1408,246 @@
           "sensor": "primary-docs",
           "url": "https://doc.tracely-ai.com/",
           "date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "context-mode",
+      "names": [
+        "Context Mode",
+        "context-mode"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-context-virtualization-implementation",
+      "whyInteresting": {
+        "en": "Context Mode combines output interception, local indexing and retrieval, and session continuity across many coding hosts; claimed compression is concrete, but task success and retrieval misses are not independently measured.",
+        "ja": "Context Modeは多数のコーディングホストで出力遮断、ローカル索引・検索、セッション継続を統合する。圧縮主張は具体的だが、課題成功率と検索漏れは独立測定されていない。"
+      },
+      "firstObserved": "2026-10-15",
+      "lastObserved": "2026-10-15",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "context-mode",
+      "atlasTermIds": [
+        "context-engineering"
+      ],
+      "judgment": {
+        "substance": 86,
+        "hype": 94,
+        "fieldImportance": 88,
+        "relevance": 94,
+        "evidenceDiversity": 72,
+        "momentum": 96
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/mksglu/context-mode",
+          "date": "2026-10-15"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://github.com/mksglu/context-mode/blob/main/docs/platform-support.md",
+          "date": "2026-10-15"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+          "date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "agent37",
+      "names": [
+        "Agent37",
+        "Agent 37"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-agent-sandbox",
+      "whyInteresting": {
+        "en": "Agent37 exposes persistent isolated computers with explicit stop/start, backup/restore, sleep/wake, and stable HTTPS lifecycle contracts; throughput, recovery reliability, and isolation claims remain untested here.",
+        "ja": "Agent37は停止・開始、バックアップ・復元、スリープ・復帰、安定HTTPSを明示した永続隔離コンピュータを提供する。処理量、復旧信頼性、隔離主張はここでは未試験。"
+      },
+      "firstObserved": "2026-10-15",
+      "lastObserved": "2026-10-15",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "agent37",
+      "atlasTermIds": [
+        "sandbox",
+        "agent-harness"
+      ],
+      "judgment": {
+        "substance": 84,
+        "hype": 84,
+        "fieldImportance": 88,
+        "relevance": 86,
+        "evidenceDiversity": 74,
+        "momentum": 92
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.agent37.com/docs/agents-api/concepts",
+          "date": "2026-10-15"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.agent37.com/docs/agents-api/instances",
+          "date": "2026-10-15"
+        },
+        {
+          "sensor": "independent-press",
+          "url": "https://www.langchain.com/resources/best-agent-sandboxes",
+          "date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "capsem",
+      "names": [
+        "Capsem"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-agent-sandbox",
+      "whyInteresting": {
+        "en": "Capsem makes per-session VM isolation, inspected egress, policy, MCP routing, and telemetry concrete, but 0.6 remains pre-release and the repository explicitly disclaims official Google support.",
+        "ja": "Capsemはセッション別VM隔離、検査付き外向き通信、方針、MCPルーティング、遠隔測定を具体化するが、0.6はプレリリースで、リポジトリはGoogle公式支援を明示的に否定する。"
+      },
+      "firstObserved": "2026-10-15",
+      "lastObserved": "2026-10-15",
+      "lifecycle": "monitor",
+      "evidenceState": "partially-verified",
+      "atlasTermIds": [
+        "sandbox",
+        "agent-harness"
+      ],
+      "judgment": {
+        "substance": 82,
+        "hype": 80,
+        "fieldImportance": 86,
+        "relevance": 78,
+        "evidenceDiversity": 58,
+        "momentum": 88
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/google/capsem",
+          "date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "replayable-evaluator-owned-acceptance-artifacts",
+      "names": [
+        "replayable evaluator-owned acceptance artifacts",
+        "versioned agent acceptance fixtures"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "durableConcept": "Move agent verification out of self-reported completion and into versioned fixtures, frozen submissions, held-out cases, replayable environments, and explicit scoring contracts.",
+      "whyInteresting": {
+        "en": "iFixAi, AgentSWE, and ReviewBench independently package verification as inspectable artifacts rather than prompts, while measuring different targets and retaining judge and transfer limits.",
+        "ja": "iFixAi、AgentSWE、ReviewBenchは独立に、検証をプロンプトではなく検査可能な成果物として構成する。ただし対象は異なり、判定モデルと転移の限界が残る。"
+      },
+      "firstObserved": "2026-10-15",
+      "lastObserved": "2026-10-15",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "replayable-evaluator-owned-acceptance-artifacts",
+      "atlasTermIds": [
+        "eval-evaluation"
+      ],
+      "judgment": {
+        "substance": 90,
+        "hype": 82,
+        "fieldImportance": 94,
+        "relevance": 94,
+        "evidenceDiversity": 88,
+        "momentum": 92
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://github.com/ifixai-ai/iFixAi/blob/main/docs/methodology.md",
+          "date": "2026-10-15"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/html/2610.13361v1",
+          "date": "2026-10-15"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/review-bench/ReviewBench",
+          "date": "2026-10-15"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "iFixAi",
+          "vendor": "iFixAi",
+          "organizationId": "ifixai",
+          "access": "open fixed inspections, rubrics, fixtures, and scorecards",
+          "sourceIds": [
+            "ifixai-methodology",
+            "ifixai-4-1"
+          ]
+        },
+        {
+          "name": "AgentSWE",
+          "vendor": "BAAI-led research collaboration",
+          "organizationId": "baai-agentswe",
+          "access": "public paper, code, tasks, frozen submissions, and held-out acceptance cases",
+          "sourceIds": [
+            "agentswe-paper"
+          ]
+        },
+        {
+          "name": "ReviewBench",
+          "vendor": "GitHub and ReviewBench contributors",
+          "organizationId": "github-reviewbench",
+          "access": "open corpus, golden findings, container contract, and leaderboard harness",
+          "sourceIds": [
+            "reviewbench-repo",
+            "github-reviewbench"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minos",
+      "names": [
+        "Minos"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-physical-science-replay-environment",
+      "whyInteresting": {
+        "en": "Minos packages a replayable physical-science environment, but the evidence remains author-run and one implementation is not enough to establish a durable category.",
+        "ja": "Minosは再生可能な物理科学環境を構成するが、証拠は作者実施に留まり、単一実装では耐久カテゴリを成立させられない。"
+      },
+      "firstObserved": "2026-10-15",
+      "lastObserved": "2026-10-15",
+      "lifecycle": "monitor",
+      "evidenceState": "partially-verified",
+      "atlasTermIds": [
+        "eval-evaluation"
+      ],
+      "judgment": {
+        "substance": 78,
+        "hype": 76,
+        "fieldImportance": 78,
+        "relevance": 46,
+        "evidenceDiversity": 42,
+        "momentum": 80
+      },
+      "observations": [
+        {
+          "sensor": "preprint",
+          "url": "https://github.com/Leash-Labs/minos-paper",
+          "date": "2026-10-15"
         }
       ]
     }
