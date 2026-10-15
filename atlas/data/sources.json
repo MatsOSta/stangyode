@@ -1030,5 +1030,109 @@
       "en": "First-party SDK and CLI documentation for OTLP ingestion, trace annotation, deterministic fixture replay, and pull-request gating.",
       "ja": "OTLP取込、トレース注釈、決定論的fixture再生、プルリクエスト制御の一次SDK・CLI資料。"
     }
+  },
+  "context-mode-repo": {
+    "title": "Context Mode repository",
+    "url": "https://github.com/mksglu/context-mode",
+    "note": {
+      "en": "First-party implementation of tool-output interception, local indexing, retrieval, and session continuity; byte-reduction claims are maintainer-measured rather than task-success evidence.",
+      "ja": "ツール出力の遮断、ローカル索引、検索、セッション継続の一次実装。バイト削減値は保守者測定であり、課題成功の証拠ではない。"
+    }
+  },
+  "context-mode-platform-support": {
+    "title": "Context Mode platform support matrix",
+    "url": "https://github.com/mksglu/context-mode/blob/main/docs/platform-support.md",
+    "note": {
+      "en": "First-party capability matrix documenting uneven hook, injection, and MCP-only behavior across supported hosts.",
+      "ja": "対応ホスト間でフック、注入、MCP限定動作が不均一であることを示す一次機能表。"
+    }
+  },
+  "langchain-context-offloading": {
+    "title": "LangChain deep-agent context offloading",
+    "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+    "note": {
+      "en": "Independent sibling implementation that writes oversized tool results to files and exposes previews and retrieval paths instead of retaining full output in context.",
+      "ja": "巨大なツール結果をファイルへ退避し、全文を文脈へ保持せずプレビューと検索経路を示す独立同等実装。"
+    }
+  },
+  "agent37-concepts": {
+    "title": "Agent37 core concepts",
+    "url": "https://www.agent37.com/docs/agents-api/concepts",
+    "note": {
+      "en": "First-party documentation for persistent isolated instances, templates, APIs, disk retention, and sleep/wake behavior.",
+      "ja": "永続隔離インスタンス、テンプレート、API、ディスク保持、スリープ・復帰動作の一次資料。"
+    }
+  },
+  "agent37-instances": {
+    "title": "Agent37 instance lifecycle",
+    "url": "https://www.agent37.com/docs/agents-api/instances",
+    "note": {
+      "en": "First-party lifecycle contract for stop, start, restart, backup, restore, and auto-sleep, including explicit recovery caveats.",
+      "ja": "停止、開始、再起動、バックアップ、復元、自動スリープと明示的な復旧留保を定める一次ライフサイクル契約。"
+    }
+  },
+  "langchain-agent-sandboxes": {
+    "title": "LangChain agent sandbox comparison",
+    "url": "https://www.langchain.com/resources/best-agent-sandboxes",
+    "note": {
+      "en": "Independent comparison of sandbox persistence, isolation, snapshots, egress, and credential boundaries across multiple providers.",
+      "ja": "複数プロバイダーの永続性、隔離、スナップショット、外向き通信、資格情報境界を比較する独立資料。"
+    }
+  },
+  "capsem-repo": {
+    "title": "Capsem repository",
+    "url": "https://github.com/google/capsem",
+    "note": {
+      "en": "First-party pre-release implementation using per-session Linux VMs, network policy, HTTPS inspection, MCP routing, and telemetry; the repository disclaims official Google support.",
+      "ja": "セッション別Linux VM、ネットワーク方針、HTTPS検査、MCPルーティング、遠隔測定を備える一次プレリリース実装。リポジトリはGoogle公式支援を否定している。"
+    }
+  },
+  "ifixai-methodology": {
+    "title": "iFixAi methodology",
+    "url": "https://github.com/ifixai-ai/iFixAi/blob/main/docs/methodology.md",
+    "note": {
+      "en": "First-party fixed-inspection and rubric methodology with explicit judge modes, insufficient-evidence states, and limitations.",
+      "ja": "固定検査、ルーブリック、判定モデル、証拠不足状態、限界を明示する一次手法資料。"
+    }
+  },
+  "ifixai-4-1": {
+    "title": "iFixAi v4.1.0 release",
+    "url": "https://github.com/ifixai-ai/iFixAi/releases/tag/v4.1.0",
+    "note": {
+      "en": "First-party release documenting fail-closed scoring, reproducibility fingerprints, resume checks, and CI behavior fixes.",
+      "ja": "フェイルクローズ採点、再現性指紋、再開検査、CI動作修正を記録する一次リリース。"
+    }
+  },
+  "agentswe-paper": {
+    "title": "AgentSWE paper",
+    "url": "https://arxiv.org/html/2610.13361v1",
+    "note": {
+      "en": "Author-run benchmark with 25 creation, editing, and optimization commissions evaluated on frozen submissions and held-out acceptance cases; model-judge and repetition limits remain.",
+      "ja": "作成、編集、最適化の25委託課題を、固定提出物と非公開受入ケースで評価する作者実施ベンチマーク。モデル判定と反復数の限界が残る。"
+    }
+  },
+  "reviewbench-repo": {
+    "title": "ReviewBench repository",
+    "url": "https://github.com/review-bench/ReviewBench",
+    "note": {
+      "en": "Open benchmark packaging real pull requests, versioned corpus and golden findings, containerized submissions, and a reproducible scoring contract.",
+      "ja": "実プルリクエスト、版管理コーパスと正解所見、コンテナ化提出、再現可能な採点契約をまとめた公開ベンチマーク。"
+    }
+  },
+  "github-reviewbench": {
+    "title": "GitHub ReviewBench announcement",
+    "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
+    "note": {
+      "en": "First-party GitHub explanation of ReviewBench corpus construction and evaluation scope; public-benchmark performance does not establish codebase-specific defect detection.",
+      "ja": "ReviewBenchのコーパス構築と評価範囲を説明するGitHub一次資料。公開ベンチマーク性能は個別コードベースの欠陥検出を証明しない。"
+    }
+  },
+  "minos-paper": {
+    "title": "Minos paper repository",
+    "url": "https://github.com/Leash-Labs/minos-paper",
+    "note": {
+      "en": "Author materials for a replayable physical-science environment; no independent rerun or prospective assay validation was found.",
+      "ja": "再生可能な物理科学環境の作者資料。独立再実行や前向きアッセイ検証は確認できなかった。"
+    }
   }
 }

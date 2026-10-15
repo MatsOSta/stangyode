@@ -171,6 +171,22 @@
         "visa-tap",
         "mastercard-agent-pay"
       ]
+    },
+    {
+      "id": "acceptance-artifact-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "replayable-evaluator-owned-acceptance-artifacts",
+      "minimumIndependentOrganizations": 3,
+      "requiredOrganizationIds": [
+        "ifixai",
+        "baai-agentswe",
+        "github-reviewbench"
+      ],
+      "requiredSourceIds": [
+        "ifixai-methodology",
+        "agentswe-paper",
+        "reviewbench-repo"
+      ]
     }
   ]
 }

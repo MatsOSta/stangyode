@@ -64,5 +64,11 @@
     "label": "radar-daily-2026-10-14",
     "en": "Daily Radar: Dyna-2 and American Express ACE enter at WATCH; intent-bound agent authorization becomes a separate four-implementation WATCH category; Tracely enters a bounded PILOT; Scion/Antique and Jevcrawl remain deferred; the hype and GitHub sensors completed successfully.",
     "ja": "日次レーダー：Dyna-2とAmerican Express ACEをWATCHへ追加。意図拘束型エージェント認可を4実装の独立WATCHカテゴリ化。Tracelyを限定PILOTへ追加。Scion/AntiqueとJevcrawlは保留。ハイプ・GitHubセンサーはいずれも正常完了。"
+  },
+  {
+    "date": "2026-10-15",
+    "label": "radar-daily-2026-10-15",
+    "en": "Daily Radar: Context Mode and Agent37 enter bounded PILOT; replayable evaluator-owned acceptance artifacts become a three-implementation WATCH category; Capsem and Minos remain monitored; the hype scrape succeeded while the bounded GitHub update sensor failed explicitly on rate limit.",
+    "ja": "日次レーダー：Context ModeとAgent37を限定PILOTへ追加。再生可能な評価者所有の受入成果物を3実装のWATCHカテゴリ化。CapsemとMinosは監視継続。ハイプ取得は成功し、範囲限定GitHub更新センサーはレート制限で明示的に失敗。"
   }
 ]
