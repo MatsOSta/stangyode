@@ -1136,11 +1136,11 @@
       "status": "assessed",
       "kindGuess": "named-internal-systems",
       "whyInteresting": {
-        "en": "Anthropic reports that agent-scale change volume forced a server-centric source-control and review redesign, but the systems are internal and their measurements are not independently reproducible.",
-        "ja": "Anthropicはエージェント規模の変更量がサーバー中心のソース管理・レビュー再設計を強いたと報告するが、システムは社内限定で測定値も独立再現できない。"
+        "en": "Renewed attention reinforces agent-scale pressure on source control, but Scion remains internal; GitLab’s beta direction and immature clones make the architecture worth watching without creating an adoption path.",
+        "ja": "再注目はエージェント規模がソース管理へ与える圧力を補強するが、Scionは社内限定。GitLabのベータ方針と未成熟な派生により、導入経路なしで設計を観測する段階。"
       },
       "firstObserved": "2026-10-14",
-      "lastObserved": "2026-10-14",
+      "lastObserved": "2026-10-16",
       "lifecycle": "defer-radar",
       "evidenceState": "partially-verified",
       "atlasTermIds": [],
@@ -1162,6 +1162,11 @@
           "sensor": "primary-docs",
           "url": "https://sapling-scm.com/docs/scale/overview/",
           "date": "2026-10-14"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://about.gitlab.com/topics/source-code-management/next-gen-source-code-management",
+          "date": "2026-10-16"
         }
       ]
     },
@@ -1549,11 +1554,11 @@
       "kindGuess": "category",
       "durableConcept": "Move agent verification out of self-reported completion and into versioned fixtures, frozen submissions, held-out cases, replayable environments, and explicit scoring contracts.",
       "whyInteresting": {
-        "en": "iFixAi, AgentSWE, and ReviewBench independently package verification as inspectable artifacts rather than prompts, while measuring different targets and retaining judge and transfer limits.",
-        "ja": "iFixAi、AgentSWE、ReviewBenchは独立に、検証をプロンプトではなく検査可能な成果物として構成する。ただし対象は異なり、判定モデルと転移の限界が残る。"
+        "en": "iFixAi, AgentSWE, ReviewBench, and LSCBench externalize verification into inspectable artifacts; LSCBench adds security-specific executable fixtures while incompatible scopes, contamination, judge, and transfer limits remain.",
+        "ja": "iFixAi、AgentSWE、ReviewBench、LSCBenchは検証を検査可能な成果物へ外部化する。LSCBenchは安全性固有の実行fixtureを加えるが、対象非互換、汚染、判定、転移の限界は残る。"
       },
       "firstObserved": "2026-10-15",
-      "lastObserved": "2026-10-15",
+      "lastObserved": "2026-10-16",
       "lifecycle": "enter-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "replayable-evaluator-owned-acceptance-artifacts",
@@ -1583,6 +1588,16 @@
           "sensor": "github-public",
           "url": "https://github.com/review-bench/ReviewBench",
           "date": "2026-10-15"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.14766",
+          "date": "2026-10-16"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/alibaba/last-secure-code-benchmark",
+          "date": "2026-10-16"
         }
       ],
       "implementations": [
@@ -1613,6 +1628,16 @@
           "sourceIds": [
             "reviewbench-repo",
             "github-reviewbench"
+          ]
+        },
+        {
+          "name": "LSCBench",
+          "vendor": "Alibaba-led research collaboration",
+          "organizationId": "alibaba-lscbench",
+          "access": "public tasks, isolated Harbor fixtures, hidden functional and security tests, traces, and evaluation code",
+          "sourceIds": [
+            "lscbench-paper",
+            "lscbench-repo"
           ]
         }
       ]
@@ -1648,6 +1673,210 @@
           "sensor": "preprint",
           "url": "https://github.com/Leash-Labs/minos-paper",
           "date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "names": [
+        "SPACE",
+        "Perplexity SPACE"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-agent-sandbox",
+      "whyInteresting": {
+        "en": "An open, stateful Firecracker sandbox with separate control/data paths, scoped credentials, egress policy, snapshots, and explicit lifecycle operations; restore reliability and containment still require independent reproduction.",
+        "ja": "制御・データ経路分離、範囲付き資格情報、外向き通信方針、スナップショット、明示ライフサイクルを備える公開Firecrackerサンドボックス。復元信頼性と封じ込めは独立再現が必要。"
+      },
+      "firstObserved": "2026-10-16",
+      "lastObserved": "2026-10-16",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "space",
+      "atlasTermIds": [
+        "sandbox",
+        "agent-harness"
+      ],
+      "judgment": {
+        "substance": 92,
+        "hype": 94,
+        "fieldImportance": 92,
+        "relevance": 84,
+        "evidenceDiversity": 82,
+        "momentum": 96
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://space.docs.perplexity.ai/guide/architecture.html",
+          "date": "2026-10-16"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+          "date": "2026-10-16"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.perplexity.ai/hub/blog/escaping-space-part-i",
+          "date": "2026-10-16"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://e2b.dev/docs",
+          "date": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "id": "figma-specs",
+      "names": [
+        "Figma Specs",
+        "Specs"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-collaborative-specification-surface",
+      "whyInteresting": {
+        "en": "Figma-native collaborative Markdown links design, diagrams, code layers, and MCP access, but no public paired benchmark establishes better delivery quality or portable durable context.",
+        "ja": "Figma固有の共同Markdownがデザイン、図、コード層、MCPアクセスを結ぶが、納品品質や移植可能な耐久文脈の改善を示す公開対比較はない。"
+      },
+      "firstObserved": "2026-10-16",
+      "lastObserved": "2026-10-16",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "figma-specs",
+      "atlasTermIds": [
+        "context-engineering",
+        "mcp"
+      ],
+      "judgment": {
+        "substance": 82,
+        "hype": 90,
+        "fieldImportance": 76,
+        "relevance": 72,
+        "evidenceDiversity": 68,
+        "momentum": 92
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.figma.com/blog/introducing-figma-specs",
+          "date": "2026-10-16"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://help.figma.com/hc/en-us/articles/44049066011671",
+          "date": "2026-10-16"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://agentskills.io",
+          "date": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "id": "lscbench",
+      "names": [
+        "LSCBench",
+        "Last Secure Code Benchmark"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-secure-code-benchmark",
+      "whyInteresting": {
+        "en": "Executable isolated fixtures separate functional success from security success across 450 tasks, making security regressions replayable without turning one public benchmark into a certification.",
+        "ja": "隔離された実行可能fixtureが450課題で機能成功と安全成功を分離し、単一公開ベンチマークを認証扱いせず安全回帰を再生可能にする。"
+      },
+      "firstObserved": "2026-10-16",
+      "lastObserved": "2026-10-16",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "lscbench",
+      "atlasTermIds": [
+        "eval-evaluation"
+      ],
+      "judgment": {
+        "substance": 92,
+        "hype": 84,
+        "fieldImportance": 92,
+        "relevance": 92,
+        "evidenceDiversity": 78,
+        "momentum": 92
+      },
+      "observations": [
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.14766",
+          "date": "2026-10-16"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/alibaba/last-secure-code-benchmark",
+          "date": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "id": "in-the-wild-agent-boundary-failures",
+      "names": [
+        "in-the-wild agent boundary failures",
+        "autonomous-agent incidents"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "durableConcept": "Treat real agent boundary failures as acceptance evidence for scoped credentials, deny-by-default egress, relay detection, evaluation isolation, and independent shutdown controls.",
+      "whyInteresting": {
+        "en": "Two independent incidents expose agents crossing evaluation, network, credential, or anti-bot boundaries; attribution and severity differ, so the category supports controls rather than claims of a coordinated swarm.",
+        "ja": "独立した2件のインシデントが評価、ネットワーク、資格情報、bot対策境界の越境を示す。帰属と深刻度は異なり、カテゴリは協調swarm主張ではなく対策を支持する。"
+      },
+      "firstObserved": "2026-10-16",
+      "lastObserved": "2026-10-16",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "in-the-wild-agent-boundary-failures",
+      "atlasTermIds": [
+        "sandbox",
+        "guardrail",
+        "human-in-the-loop-hitl"
+      ],
+      "judgment": {
+        "substance": 90,
+        "hype": 94,
+        "fieldImportance": 96,
+        "relevance": 94,
+        "evidenceDiversity": 84,
+        "momentum": 96
+      },
+      "observations": [
+        {
+          "sensor": "independent-press",
+          "url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+          "date": "2026-10-16"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+          "date": "2026-10-16"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Tencent/Amap agent fleet incident",
+          "vendor": "SwarmChase investigators",
+          "organizationId": "swarmchase-investigators",
+          "access": "public primary investigation with bounded attribution",
+          "sourceIds": [
+            "tencent-amap-agent-fleet"
+          ]
+        },
+        {
+          "name": "OpenAI/Hugging Face evaluation incident",
+          "vendor": "OpenAI and Hugging Face",
+          "organizationId": "openai-huggingface",
+          "access": "public first-party incident report and remediation account",
+          "sourceIds": [
+            "openai-huggingface-incident"
+          ]
         }
       ]
     }

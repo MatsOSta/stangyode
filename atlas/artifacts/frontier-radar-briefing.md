@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-15
+Snapshot / スナップショット: 2026-10-16
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,69 +8,70 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-15T06:04:18Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-16T06:05:24Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: SUCCESS; last success 2026-10-15T06:04:18Z; failure streak 0
-- editor: PARTIAL; last success 2026-10-14T06:11:13Z; failure streak 1; last failure rate_limit at 2026-10-15T06:01:28.949Z (unresolved)
+- scout: SUCCESS; last success 2026-10-16T06:05:24Z; failure streak 0
+- editor: SUCCESS; last success 2026-10-16T06:05:24Z; failure streak 0; last failure rate_limit at 2026-10-15T06:01:28.949Z (resolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: FAILED — The bounded GitHub update fetch hit its unauthenticated rate limit after one of seven queries; prior repository results are not presented as current. / 範囲限定GitHub更新取得は7件中1件後に未認証レート制限へ到達。過去のリポジトリ結果を現在値として提示しない。
+- github-public: CHECKED
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
-- [Context Mode repository](https://github.com/mksglu/context-mode): relevant; checked 2026-10-15; source context-mode-repo
-- [Context Mode platform support matrix](https://github.com/mksglu/context-mode/blob/main/docs/platform-support.md): relevant; checked 2026-10-15; source context-mode-platform-support
-- [LangChain deep-agent context offloading](https://www.langchain.com/blog/context-engineering-deep-agents-remember): relevant; checked 2026-10-15; source langchain-context-offloading
-- [Agent37 core concepts](https://www.agent37.com/docs/agents-api/concepts): relevant; checked 2026-10-15; source agent37-concepts
-- [Agent37 instance lifecycle](https://www.agent37.com/docs/agents-api/instances): relevant; checked 2026-10-15; source agent37-instances
-- [LangChain agent sandbox comparison](https://www.langchain.com/resources/best-agent-sandboxes): relevant; checked 2026-10-15; source langchain-agent-sandboxes
-- [Capsem repository](https://github.com/google/capsem): relevant; checked 2026-10-15; source capsem-repo
-- [iFixAi methodology](https://github.com/ifixai-ai/iFixAi/blob/main/docs/methodology.md): relevant; checked 2026-10-15; source ifixai-methodology
-- [iFixAi v4.1.0 release](https://github.com/ifixai-ai/iFixAi/releases/tag/v4.1.0): relevant; checked 2026-10-15; source ifixai-4-1
-- [AgentSWE paper](https://arxiv.org/html/2610.13361v1): relevant; checked 2026-10-15; source agentswe-paper
-- [ReviewBench repository](https://github.com/review-bench/ReviewBench): relevant; checked 2026-10-15; source reviewbench-repo
-- [GitHub ReviewBench announcement](https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review): relevant; checked 2026-10-15; source github-reviewbench
-- [Minos paper repository](https://github.com/Leash-Labs/minos-paper): relevant; checked 2026-10-15; source minos-paper
+- [Redesigning source control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control): relevant; checked 2026-10-16; source anthropic-scion
+- [GitLab next-generation source code management](https://about.gitlab.com/topics/source-code-management/next-gen-source-code-management): relevant; checked 2026-10-16; source gitlab-next-gen-scm
+- [Chinese agent fleet investigation](https://swarmcha.se/posts/chinese-agent-fleet-full-report): relevant; checked 2026-10-16; source tencent-amap-agent-fleet
+- [OpenAI and Hugging Face evaluation incident](https://openai.com/index/hugging-face-incident-and-the-road-ahead): relevant; checked 2026-10-16; source openai-huggingface-incident
+- [SPACE architecture and lifecycle](https://space.docs.perplexity.ai/guide/architecture.html): relevant; checked 2026-10-16; source space-architecture
+- [Perplexity open-sources SPACE](https://www.perplexity.ai/hub/blog/open-sourcing-space): relevant; checked 2026-10-16; source space-open-source
+- [Escaping SPACE: Part I](https://www.perplexity.ai/hub/blog/escaping-space-part-i): relevant; checked 2026-10-16; source space-red-team
+- [E2B sandbox documentation](https://e2b.dev/docs): relevant; checked 2026-10-16; source e2b-docs
+- [Modal Sandboxes](https://modal.com/docs/guide/sandboxes): relevant; checked 2026-10-16; source modal-sandboxes
+- [Introducing Figma Specs](https://www.figma.com/blog/introducing-figma-specs): relevant; checked 2026-10-16; source figma-specs
+- [Figma Specs availability and access](https://help.figma.com/hc/en-us/articles/44049066011671): relevant; checked 2026-10-16; source figma-specs-help
+- [Agent Skills open format](https://agentskills.io): relevant; checked 2026-10-16; source agentskills-home
+- [Last Secure Code Benchmark (LSCBench)](https://arxiv.org/abs/2610.14766): relevant; checked 2026-10-16; source lscbench-paper
+- [LSCBench repository and Harbor fixtures](https://github.com/alibaba/last-secure-code-benchmark): relevant; checked 2026-10-16; source lscbench-repo
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
-Context Mode and Agent37 enter bounded PILOT; replayable evaluator-owned acceptance artifacts enter as a three-implementation WATCH category. Capsem and Minos remain monitored without Radar entry. / Context ModeとAgent37を限定PILOTへ追加。再生可能な評価者所有の受入成果物を3実装のWATCHカテゴリへ追加。CapsemとMinosはレーダー追加なしで監視継続。
+SPACE, Figma Specs, and LSCBench enter bounded PILOT; in-the-wild agent boundary failures enter as a two-incident WATCH category; Scion remains deferred because it is unavailable. / SPACE、Figma Specs、LSCBenchを限定PILOTへ追加。実環境エージェント境界障害を2件のインシデントに基づくWATCHカテゴリへ追加。Scionは利用不能のため保留継続。
 
-Targets: context-mode, capsem, agent37, replayable-evaluator-owned-acceptance-artifacts, minos
+Targets: scion-antique, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures
 
-Evidence: context-mode-repo, context-mode-platform-support, agent37-concepts, agent37-instances, capsem-repo, ifixai-methodology, agentswe-paper, reviewbench-repo, minos-paper
+Evidence: anthropic-scion, tencent-amap-agent-fleet, openai-huggingface-incident, space-architecture, space-open-source, figma-specs, figma-specs-help, lscbench-paper, lscbench-repo
 
-- `exact-name release, alternatives, competitors, adoption, benchmark, criticism, and limitation checks for all investigate-now items`
-- `first-party artifact and limitation checks for Context Mode, Capsem, Agent37, iFixAi, AgentSWE, ReviewBench, and Minos`
+- `exact-name release, alternatives, competitors, adoption, benchmark, criticism, and limitation checks for Scion, Tencent/Amap fleet, SPACE, Figma Specs, and LSCBench`
+- `first-party artifact and limitation checks for each investigate-now item`
 
-### Context virtualization and sandbox sibling challenge / 文脈仮想化とサンドボックスの同等実装比較
-Context offloading and persistent sandbox primitives have independent siblings, so neither attention nor packaging is unique; task quality, retrieval misses, restore reliability, egress enforcement, throughput, and economics remain the decision evidence. / 文脈退避と永続サンドボックスには独立同等実装があり、注目度やパッケージ自体は固有でない。課題品質、検索漏れ、復元信頼性、外向き通信強制、処理量、経済性が判断証拠として残る。
+### SPACE first-party and sibling-implementation challenge / SPACEの一次情報と同等実装による検証
+SPACE supplies a strong open lifecycle and security artifact, but E2B and Modal confirm that isolated execution and persistence are not unique; independent escape, restore, deletion, and egress reproduction remain required. / SPACEは強い公開ライフサイクル・安全成果物を提供するが、E2BとModalにより隔離実行と永続性は固有でない。脱出、復元、削除、外向き通信の独立再現が必要。
 
-Targets: context-mode, agent37, capsem
+Targets: space
 
-Evidence: context-mode-repo, context-mode-platform-support, langchain-context-offloading, agent37-concepts, agent37-instances, langchain-agent-sandboxes, capsem-repo
+Evidence: space-architecture, space-open-source, space-red-team, e2b-docs, modal-sandboxes
 
-- `context-mode alternatives context offloading retrieval memory Headroom LangChain`
-- `Agent37 Capsem E2B Daytona persistent sandbox restore egress isolation comparison`
+- `SPACE Perplexity sandbox independent security review escape restore egress limitations`
+- `open source stateful agent sandbox Firecracker E2B Modal Daytona persistent snapshots`
 
-### Evaluator-owned acceptance artifact convergence / 評価者所有の受入成果物への収束
-Three independent implementations externalize verification into versioned fixtures, frozen submissions, held-out cases, and scoring contracts, but evaluate different targets and retain model-judge, corpus-transfer, and calibration limits. / 3つの独立実装が検証を版管理fixture、固定提出物、非公開ケース、採点契約へ外部化するが、対象は異なり、モデル判定、コーパス転移、校正の限界が残る。
+### Executable acceptance and incident-control convergence / 実行可能受入とインシデント制御への収束
+LSCBench adds executable security acceptance to evaluator-owned artifacts, while two independent incidents supply real boundary-failure cases; neither benchmark scores nor incident severity are interchangeable. / LSCBenchが評価者所有成果物へ実行可能な安全受入を加え、独立した2件のインシデントが実境界障害ケースを提供。ベンチマークスコアも深刻度も相互交換できない。
 
-Targets: replayable-evaluator-owned-acceptance-artifacts
+Targets: lscbench, replayable-evaluator-owned-acceptance-artifacts, in-the-wild-agent-boundary-failures
 
-Evidence: ifixai-methodology, ifixai-4-1, agentswe-paper, reviewbench-repo, github-reviewbench
+Evidence: lscbench-paper, lscbench-repo, tencent-amap-agent-fleet, openai-huggingface-incident
 
-- `iFixAi AgentSWE ReviewBench alternatives adoption benchmark criticism limitations`
-- `replayable evaluator-owned acceptance fixtures agent verification independent implementations`
+- `LSCBench alternatives adoption benchmark criticism contamination and production transfer`
+- `autonomous agent incident credential egress evaluation isolation relay detection independent controls`
 
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures
 
 ### Changelog entries checked / 確認済み変更履歴
-- radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -78,8 +79,8 @@ Evidence: ifixai-methodology, ifixai-4-1, agentswe-paper, reviewbench-repo, gith
 - anthropic-context; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
 
 ### Findings and decisions / 発見と判断
-- material-finding; context-mode, agent37, replayable-evaluator-owned-acceptance-artifacts: Operational agent infrastructure is moving toward context offloading, persistent isolated computers, and replayable acceptance evidence; the artifacts are concrete, but attention and vendor benchmarks do not establish reliability or local fit. / エージェント運用基盤は文脈退避、永続隔離コンピュータ、再生可能な受入証拠へ進んでいる。成果物は具体的だが、注目度とベンダーベンチマークは信頼性やローカル適合性を証明しない。; evidence: context-mode-repo, context-mode-platform-support, langchain-context-offloading, agent37-concepts, agent37-instances, langchain-agent-sandboxes, ifixai-methodology, agentswe-paper, reviewbench-repo
-- editorial-decision; context-mode, agent37, replayable-evaluator-owned-acceptance-artifacts, capsem, minos: Add Context Mode and Agent37 as bounded PILOTs and the acceptance-artifact category at WATCH; keep Capsem and Minos monitored until stable access or independent outcome evidence appears. / Context ModeとAgent37を限定PILOT、受入成果物カテゴリをWATCHへ追加。CapsemとMinosは安定提供または独立成果証拠が出るまで監視継続。; evidence: context-mode-repo, agent37-concepts, capsem-repo, ifixai-methodology, agentswe-paper, reviewbench-repo, minos-paper
+- material-finding; space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, replayable-evaluator-owned-acceptance-artifacts: Operational evidence is moving toward persistent isolated execution, live design context, executable security acceptance, and incident-derived controls; the artifacts are concrete, but vendor tests, benchmark scores, and incident attribution do not establish local reliability. / 運用証拠は永続隔離実行、生きたデザイン文脈、実行可能な安全受入、インシデント由来制御へ進む。成果物は具体的だが、ベンダー試験、ベンチマーク値、インシデント帰属はローカル信頼性を証明しない。; evidence: space-architecture, space-red-team, e2b-docs, figma-specs, figma-specs-help, lscbench-paper, lscbench-repo, tencent-amap-agent-fleet, openai-huggingface-incident
+- editorial-decision; space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, scion-antique: Add SPACE, Figma Specs, and LSCBench as bounded PILOTs and the incident class at WATCH; retain Scion as DEFER and keep acceptance-artifact scores unchanged while adding LSCBench as category evidence. / SPACE、Figma Specs、LSCBenchを限定PILOT、インシデント類型をWATCHへ追加。ScionはDEFERを維持し、LSCBenchをカテゴリ証拠へ加えつつ受入成果物のスコアは変更しない。; evidence: space-architecture, space-red-team, figma-specs, lscbench-paper, tencent-amap-agent-fleet, openai-huggingface-incident, anthropic-scion, gitlab-next-gen-scm
 
 ## Signals / シグナル
 
@@ -405,13 +406,62 @@ Evidence: ifixai-methodology, ifixai-4-1, agentswe-paper, reviewbench-repo, gith
 - Adoption stage / 導入段階: WATCH (54/100)
 - Scores / スコア: frontier 90, fit 94, confidence 86
 - Recommendation / 推奨: WATCH the category and PILOT one repository-owned acceptance suite only after pinning fixtures, environment, judge, scoring contract, privacy boundary, and reviewer-correction workflow. / カテゴリをWATCHし、fixture、環境、判定モデル、採点契約、プライバシー境界、レビュー修正手順を固定してから、リポジトリ所有の受入スイートを1件だけPILOTする。
-- Compatibility / 互換性: UNKNOWN — The pattern strongly matches Stangyode regression discipline, but none of the three artifacts has been calibrated against this repository or its defect history. / このパターンはStangyodeの回帰規律に強く合うが、3成果物のいずれも本リポジトリや欠陥履歴に対して校正されていない。
+- Compatibility / 互換性: UNKNOWN — The pattern strongly matches Stangyode regression discipline, but none of the four artifacts has been calibrated against this repository or its defect history. / このパターンはStangyodeの回帰規律に強く合うが、4成果物のいずれも本リポジトリや欠陥履歴に対して校正されていない。
 - Trade-offs / トレードオフ:
   - Versioned fixtures, frozen submissions, held-out cases, and explicit score contracts make verification reviewable and replayable instead of trusting completion claims. / 版管理fixture、固定提出物、非公開ケース、明示採点契約により、完了主張を信じる代わりに検証をレビュー・再生可能にする。
   - The implementations measure different targets; model judges, public corpora, fixture drift, and weak transfer to local defects can still produce false confidence. / 各実装の測定対象は異なり、モデル判定、公開コーパス、fixture変動、ローカル欠陥への弱い転移が誤った確信を生み得る。
-- Provenance / 来歴: discovery; partially-verified; 2026-10-15
+- Provenance / 来歴: discovery; partially-verified; 2026-10-16
 - History / 履歴:
   - 2026-10-15: Spawned at WATCH after three independent implementations converged on evaluator-owned, versioned, replayable acceptance evidence while retaining incompatible scopes and judge limits. / 3つの独立実装が評価者所有・版管理・再生可能な受入証拠へ収束したためWATCHでカテゴリ化。対象の非互換性と判定限界は保持。
+  - 2026-10-16: LSCBench added executable secure-code fixtures as a fourth independent implementation; WATCH status and scores remain unchanged because benchmark scopes and transfer limits are not interchangeable. / LSCBenchの実行可能な安全コードfixtureを4番目の独立実装として追加。ベンチマーク範囲と転移限界は互換でないため、WATCH状態とスコアは変更しない。
+
+### SPACE / SPACE
+- Adoption stage / 導入段階: PILOT (60/100)
+- Scores / スコア: frontier 91, fit 84, confidence 88
+- Recommendation / 推奨: PILOT one disposable restore-and-egress workload; verify deny rules, scoped credentials, snapshot fidelity, deletion, crash recovery, startup health, throughput, and retained-state cost. / 使い捨ての復元・外向き通信ワークロードを1件PILOT。拒否規則、範囲付き資格情報、スナップショット忠実度、削除、クラッシュ復旧、起動健全性、処理量、保持費用を検証する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes. / この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。
+- Trade-offs / トレードオフ:
+  - Open Firecracker isolation, explicit lifecycle state, scoped attachment tokens, egress policy, snapshots, and E2B compatibility form a concrete self-hostable runtime. / 公開Firecracker隔離、明示ライフサイクル状態、範囲付き接続トークン、外向き通信方針、スナップショット、E2B互換性が具体的なセルフホスト実行基盤を成す。
+  - Perplexity’s own tests found network-policy bypasses before remediation; finite vendor reruns do not establish escape resistance, restore reliability, or operating economics. / Perplexity自身の試験で修正前のネットワーク方針回避が見つかった。有限のベンダー再試験は脱出耐性、復元信頼性、運用経済性を確立しない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-16
+- History / 履歴:
+  - 2026-10-16: Added at PILOT with a bounded recommendation; evidence is concrete but not independent proof of local reliability or fit. / PILOTへ限定的推奨付きで追加。証拠は具体的だが、ローカル信頼性や適合性の独立証明ではない。
+
+### Figma Specs / Figma Specs
+- Adoption stage / 導入段階: PILOT (56/100)
+- Scores / スコア: frontier 80, fit 72, confidence 78
+- Recommendation / 推奨: PILOT one real design-to-code handoff with paired baseline work; measure corrections, stale-context incidents, delivery quality, MCP friction, exportability, and cross-harness reuse. / 実際のデザインからコードへの引継ぎ1件を基準作業と対比較してPILOT。修正回数、古い文脈、納品品質、MCP摩擦、書出し可能性、ハーネス間再利用を測る。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes. / この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。
+- Trade-offs / トレードオフ:
+  - Collaborative Markdown can keep intent, designs, diagrams, and code references in one live handoff surface writable through MCP. / 共同Markdownに意図、デザイン、図、コード参照を一つの生きた引継ぎ面としてまとめ、MCPから読み書きできる。
+  - Open-beta access and Figma-native state create plan, permission, lock-in, and export risks; no public benchmark demonstrates better task outcomes. / オープンベータ利用条件とFigma固有状態はプラン、権限、ロックイン、書出しの危険を生み、課題成果改善を示す公開評価もない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-16
+- History / 履歴:
+  - 2026-10-16: Added at PILOT with a bounded recommendation; evidence is concrete but not independent proof of local reliability or fit. / PILOTへ限定的推奨付きで追加。証拠は具体的だが、ローカル信頼性や適合性の独立証明ではない。
+
+### LSCBench / LSCBench
+- Adoption stage / 導入段階: PILOT (50/100)
+- Scores / スコア: frontier 90, fit 92, confidence 86
+- Recommendation / 推奨: PILOT only as an isolated coding-agent security regression gate beside SAST, DAST, and human review; pin tasks, images, hidden-test access, model, budget, and contamination assumptions. / SAST、DAST、人手レビューと併用する隔離コーディングエージェント安全回帰ゲートとしてのみPILOT。課題、イメージ、非公開試験アクセス、モデル、予算、汚染前提を固定する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes. / この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。
+- Trade-offs / トレードオフ:
+  - Separate hidden functional and security tests make insecure success visible and package the result in replayable isolated environments. / 非公開の機能試験と安全試験を分離し、安全でない成功を可視化して隔離環境で再生可能にする。
+  - Public vulnerability families, selected attack coverage, author-run scores, and uncertain correlation with production defects prevent certification-style use. / 公開脆弱性群、選択された攻撃範囲、作者実施スコア、本番欠陥との不明な相関により、認証のようには使えない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-16
+- History / 履歴:
+  - 2026-10-16: Added at PILOT with a bounded recommendation; evidence is concrete but not independent proof of local reliability or fit. / PILOTへ限定的推奨付きで追加。証拠は具体的だが、ローカル信頼性や適合性の独立証明ではない。
+
+### In-the-wild agent boundary failures / 実環境エージェント境界障害
+- Adoption stage / 導入段階: WATCH (48/100)
+- Scores / スコア: frontier 92, fit 94, confidence 86
+- Recommendation / 推奨: WATCH the incident class and PILOT deny-by-default egress, scoped short-lived credentials, relay detection, evaluator isolation, immutable external telemetry, and an independent kill switch before broader autonomy. / インシデント類型をWATCHし、自律範囲拡大前に既定拒否の外向き通信、短命で範囲付き資格情報、中継検知、評価隔離、改変不能な外部遠隔測定、独立停止装置をPILOTする。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes. / この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。
+- Trade-offs / トレードオフ:
+  - Two independent incident records turn abstract threat models into concrete acceptance cases for network, credential, evaluation, and shutdown controls. / 独立した2件のインシデント記録が、抽象脅威モデルをネットワーク、資格情報、評価、停止制御の具体的受入ケースへ変える。
+  - Attribution, severity, and contamination differ: Tencent-hosted egress is not proof of Tencent operation, and investigator-inserted text complicates causal interpretation. / 帰属、深刻度、汚染は異なる。Tencentホスト通信はTencent運用の証明ではなく、調査者挿入文が因果解釈を複雑にする。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-16
+- History / 履歴:
+  - 2026-10-16: Added at WATCH with a bounded recommendation; evidence is concrete but not independent proof of local reliability or fit. / WATCHへ限定的推奨付きで追加。証拠は具体的だが、ローカル信頼性や適合性の独立証明ではない。
 
 ## GitHub discovery input / GitHub発見入力
 
@@ -419,14 +469,14 @@ Public observation input only. Living candidates live in discovery-candidates.js
 
 Provider / プロバイダー: github; mode / モード: public-api; live fetch / ライブ取得: yes
 
-- typed-decision-models: typed probabilistic decision model System One (not-collected)
-- agent-skills: topic:agent-skills (failed)
-- mcp-apps: topic:mcp-apps (not-collected)
+- typed-decision-models: typed probabilistic decision model System One (collected)
+- agent-skills: topic:agent-skills (collected)
+- mcp-apps: topic:mcp-apps (collected)
 - a2a: topic:agent-to-agent (collected)
-- agentic-resource-discovery-ard: topic:agentic-resource-discovery (not-collected)
-- ponytail: ponytail (not-collected)
-- caveman: caveman (not-collected)
+- agentic-resource-discovery-ard: topic:agentic-resource-discovery (collected)
+- ponytail: ponytail (collected)
+- caveman: caveman (collected)
 
-Collected signals / 収集済みシグナル: 0
+Collected signals / 収集済みシグナル: 35
 
 Generated by atlas/scripts/render-frontier-briefing.mjs; deterministic for the checked-in inputs.

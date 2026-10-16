@@ -70,5 +70,11 @@
     "label": "radar-daily-2026-10-15",
     "en": "Daily Radar: Context Mode and Agent37 enter bounded PILOT; replayable evaluator-owned acceptance artifacts become a three-implementation WATCH category; Capsem and Minos remain monitored; the hype scrape succeeded while the bounded GitHub update sensor failed explicitly on rate limit.",
     "ja": "日次レーダー：Context ModeとAgent37を限定PILOTへ追加。再生可能な評価者所有の受入成果物を3実装のWATCHカテゴリ化。CapsemとMinosは監視継続。ハイプ取得は成功し、範囲限定GitHub更新センサーはレート制限で明示的に失敗。"
+  },
+  {
+    "date": "2026-10-16",
+    "label": "radar-daily-2026-10-16",
+    "en": "Daily Radar: SPACE, Figma Specs, and LSCBench enter bounded PILOT; in-the-wild agent boundary failures become a two-incident WATCH category; LSCBench strengthens replayable evaluator-owned acceptance artifacts; Scion remains deferred; both bounded sensors completed successfully.",
+    "ja": "日次レーダー：SPACE、Figma Specs、LSCBenchを限定PILOTへ追加。実環境エージェント境界障害を2件のインシデントによるWATCHカテゴリ化。LSCBenchが再生可能な評価者所有の受入成果物を強化。Scionは保留継続。両方の範囲限定センサーは正常完了。"
   }
 ]
