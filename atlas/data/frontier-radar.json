@@ -9,192 +9,194 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-15",
+    "snapshot": "2026-10-16",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-15T06:04:18Z",
+    "asOf": "2026-10-16T06:05:24Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "success",
-        "lastAttemptAt": "2026-10-15T06:04:18Z",
-        "lastSuccessfulRunAt": "2026-10-15T06:04:18Z",
+        "lastAttemptAt": "2026-10-16T06:05:24Z",
+        "lastSuccessfulRunAt": "2026-10-16T06:05:24Z",
         "failureStreak": 0
       },
       "editor": {
-        "status": "partial",
-        "lastAttemptAt": "2026-10-15T06:04:18Z",
-        "lastSuccessfulRunAt": "2026-10-14T06:11:13Z",
-        "failureStreak": 1,
+        "status": "success",
+        "lastAttemptAt": "2026-10-16T06:05:24Z",
+        "lastSuccessfulRunAt": "2026-10-16T06:05:24Z",
+        "failureStreak": 0,
         "lastFailure": {
           "at": "2026-10-15T06:01:28.949Z",
           "class": "rate_limit",
-          "resolved": false
+          "resolved": true
         }
       }
     },
     "sourcesChecked": [
       {
-        "sourceId": "context-mode-repo",
-        "checkedAt": "2026-10-15",
+        "sourceId": "anthropic-scion",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "context-mode-platform-support",
-        "checkedAt": "2026-10-15",
+        "sourceId": "gitlab-next-gen-scm",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "langchain-context-offloading",
-        "checkedAt": "2026-10-15",
+        "sourceId": "tencent-amap-agent-fleet",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "agent37-concepts",
-        "checkedAt": "2026-10-15",
+        "sourceId": "openai-huggingface-incident",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "agent37-instances",
-        "checkedAt": "2026-10-15",
+        "sourceId": "space-architecture",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "langchain-agent-sandboxes",
-        "checkedAt": "2026-10-15",
+        "sourceId": "space-open-source",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "capsem-repo",
-        "checkedAt": "2026-10-15",
+        "sourceId": "space-red-team",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "ifixai-methodology",
-        "checkedAt": "2026-10-15",
+        "sourceId": "e2b-docs",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "ifixai-4-1",
-        "checkedAt": "2026-10-15",
+        "sourceId": "modal-sandboxes",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "agentswe-paper",
-        "checkedAt": "2026-10-15",
+        "sourceId": "figma-specs",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "reviewbench-repo",
-        "checkedAt": "2026-10-15",
+        "sourceId": "figma-specs-help",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "github-reviewbench",
-        "checkedAt": "2026-10-15",
+        "sourceId": "agentskills-home",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       },
       {
-        "sourceId": "minos-paper",
-        "checkedAt": "2026-10-15",
+        "sourceId": "lscbench-paper",
+        "checkedAt": "2026-10-16",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "lscbench-repo",
+        "checkedAt": "2026-10-16",
         "outcome": "relevant"
       }
     ],
     "queryGroups": [
       {
-        "id": "material-intake-2026-10-15",
+        "id": "material-intake-2026-10-16",
         "label": {
           "en": "Material hype intake and first-party verification",
           "ja": "重要ハイプ受入と一次情報検証"
         },
         "runRole": "scout",
         "targetIds": [
-          "context-mode",
-          "capsem",
-          "agent37",
+          "scion-antique",
+          "space",
+          "figma-specs",
+          "lscbench",
+          "in-the-wild-agent-boundary-failures"
+        ],
+        "sourceIds": [
+          "anthropic-scion",
+          "tencent-amap-agent-fleet",
+          "openai-huggingface-incident",
+          "space-architecture",
+          "space-open-source",
+          "figma-specs",
+          "figma-specs-help",
+          "lscbench-paper",
+          "lscbench-repo"
+        ],
+        "resultSummary": {
+          "en": "SPACE, Figma Specs, and LSCBench enter bounded PILOT; in-the-wild agent boundary failures enter as a two-incident WATCH category; Scion remains deferred because it is unavailable.",
+          "ja": "SPACE、Figma Specs、LSCBenchを限定PILOTへ追加。実環境エージェント境界障害を2件のインシデントに基づくWATCHカテゴリへ追加。Scionは利用不能のため保留継続。"
+        },
+        "queries": [
+          "exact-name release, alternatives, competitors, adoption, benchmark, criticism, and limitation checks for Scion, Tencent/Amap fleet, SPACE, Figma Specs, and LSCBench",
+          "first-party artifact and limitation checks for each investigate-now item"
+        ]
+      },
+      {
+        "id": "space-sibling-challenge-2026-10-16",
+        "label": {
+          "en": "SPACE first-party and sibling-implementation challenge",
+          "ja": "SPACEの一次情報と同等実装による検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "space"
+        ],
+        "sourceIds": [
+          "space-architecture",
+          "space-open-source",
+          "space-red-team",
+          "e2b-docs",
+          "modal-sandboxes"
+        ],
+        "resultSummary": {
+          "en": "SPACE supplies a strong open lifecycle and security artifact, but E2B and Modal confirm that isolated execution and persistence are not unique; independent escape, restore, deletion, and egress reproduction remain required.",
+          "ja": "SPACEは強い公開ライフサイクル・安全成果物を提供するが、E2BとModalにより隔離実行と永続性は固有でない。脱出、復元、削除、外向き通信の独立再現が必要。"
+        },
+        "queries": [
+          "SPACE Perplexity sandbox independent security review escape restore egress limitations",
+          "open source stateful agent sandbox Firecracker E2B Modal Daytona persistent snapshots"
+        ]
+      },
+      {
+        "id": "acceptance-and-incident-convergence-2026-10-16",
+        "label": {
+          "en": "Executable acceptance and incident-control convergence",
+          "ja": "実行可能受入とインシデント制御への収束"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "lscbench",
           "replayable-evaluator-owned-acceptance-artifacts",
-          "minos"
+          "in-the-wild-agent-boundary-failures"
         ],
         "sourceIds": [
-          "context-mode-repo",
-          "context-mode-platform-support",
-          "agent37-concepts",
-          "agent37-instances",
-          "capsem-repo",
-          "ifixai-methodology",
-          "agentswe-paper",
-          "reviewbench-repo",
-          "minos-paper"
+          "lscbench-paper",
+          "lscbench-repo",
+          "tencent-amap-agent-fleet",
+          "openai-huggingface-incident"
         ],
         "resultSummary": {
-          "en": "Context Mode and Agent37 enter bounded PILOT; replayable evaluator-owned acceptance artifacts enter as a three-implementation WATCH category. Capsem and Minos remain monitored without Radar entry.",
-          "ja": "Context ModeとAgent37を限定PILOTへ追加。再生可能な評価者所有の受入成果物を3実装のWATCHカテゴリへ追加。CapsemとMinosはレーダー追加なしで監視継続。"
+          "en": "LSCBench adds executable security acceptance to evaluator-owned artifacts, while two independent incidents supply real boundary-failure cases; neither benchmark scores nor incident severity are interchangeable.",
+          "ja": "LSCBenchが評価者所有成果物へ実行可能な安全受入を加え、独立した2件のインシデントが実境界障害ケースを提供。ベンチマークスコアも深刻度も相互交換できない。"
         },
         "queries": [
-          "exact-name release, alternatives, competitors, adoption, benchmark, criticism, and limitation checks for all investigate-now items",
-          "first-party artifact and limitation checks for Context Mode, Capsem, Agent37, iFixAi, AgentSWE, ReviewBench, and Minos"
-        ]
-      },
-      {
-        "id": "context-and-sandbox-siblings-2026-10-15",
-        "label": {
-          "en": "Context virtualization and sandbox sibling challenge",
-          "ja": "文脈仮想化とサンドボックスの同等実装比較"
-        },
-        "runRole": "scout",
-        "targetIds": [
-          "context-mode",
-          "agent37",
-          "capsem"
-        ],
-        "sourceIds": [
-          "context-mode-repo",
-          "context-mode-platform-support",
-          "langchain-context-offloading",
-          "agent37-concepts",
-          "agent37-instances",
-          "langchain-agent-sandboxes",
-          "capsem-repo"
-        ],
-        "resultSummary": {
-          "en": "Context offloading and persistent sandbox primitives have independent siblings, so neither attention nor packaging is unique; task quality, retrieval misses, restore reliability, egress enforcement, throughput, and economics remain the decision evidence.",
-          "ja": "文脈退避と永続サンドボックスには独立同等実装があり、注目度やパッケージ自体は固有でない。課題品質、検索漏れ、復元信頼性、外向き通信強制、処理量、経済性が判断証拠として残る。"
-        },
-        "queries": [
-          "context-mode alternatives context offloading retrieval memory Headroom LangChain",
-          "Agent37 Capsem E2B Daytona persistent sandbox restore egress isolation comparison"
-        ]
-      },
-      {
-        "id": "acceptance-artifact-convergence-2026-10-15",
-        "label": {
-          "en": "Evaluator-owned acceptance artifact convergence",
-          "ja": "評価者所有の受入成果物への収束"
-        },
-        "runRole": "scout",
-        "targetIds": [
-          "replayable-evaluator-owned-acceptance-artifacts"
-        ],
-        "sourceIds": [
-          "ifixai-methodology",
-          "ifixai-4-1",
-          "agentswe-paper",
-          "reviewbench-repo",
-          "github-reviewbench"
-        ],
-        "resultSummary": {
-          "en": "Three independent implementations externalize verification into versioned fixtures, frozen submissions, held-out cases, and scoring contracts, but evaluate different targets and retain model-judge, corpus-transfer, and calibration limits.",
-          "ja": "3つの独立実装が検証を版管理fixture、固定提出物、非公開ケース、採点契約へ外部化するが、対象は異なり、モデル判定、コーパス転移、校正の限界が残る。"
-        },
-        "queries": [
-          "iFixAi AgentSWE ReviewBench alternatives adoption benchmark criticism limitations",
-          "replayable evaluator-owned acceptance fixtures agent verification independent implementations"
+          "LSCBench alternatives adoption benchmark criticism contamination and production transfer",
+          "autonomous agent incident credential egress evaluation isolation relay detection independent controls"
         ]
       }
     ],
@@ -220,9 +222,14 @@
       "agent37",
       "capsem",
       "replayable-evaluator-owned-acceptance-artifacts",
-      "minos"
+      "minos",
+      "space",
+      "figma-specs",
+      "lscbench",
+      "in-the-wild-agent-boundary-failures"
     ],
     "changelogEntriesChecked": [
+      "v0",
       "radar-loop-1",
       "radar-loop-2",
       "radar-loop-3",
@@ -233,7 +240,8 @@
       "radar-daily-2026-10-12",
       "radar-daily-2026-10-13",
       "radar-daily-2026-10-14",
-      "radar-daily-2026-10-15"
+      "radar-daily-2026-10-15",
+      "radar-daily-2026-10-16"
     ],
     "sensors": [
       {
@@ -246,11 +254,7 @@
       },
       {
         "id": "github-public",
-        "state": "failed",
-        "reason": {
-          "en": "The bounded GitHub update fetch hit its unauthenticated rate limit after one of seven queries; prior repository results are not presented as current.",
-          "ja": "範囲限定GitHub更新取得は7件中1件後に未認証レート制限へ到達。過去のリポジトリ結果を現在値として提示しない。"
-        }
+        "state": "checked"
       },
       {
         "id": "preprint",
@@ -287,47 +291,50 @@
       {
         "kind": "material-finding",
         "targetIds": [
-          "context-mode",
-          "agent37",
+          "space",
+          "figma-specs",
+          "lscbench",
+          "in-the-wild-agent-boundary-failures",
           "replayable-evaluator-owned-acceptance-artifacts"
         ],
         "sourceIds": [
-          "context-mode-repo",
-          "context-mode-platform-support",
-          "langchain-context-offloading",
-          "agent37-concepts",
-          "agent37-instances",
-          "langchain-agent-sandboxes",
-          "ifixai-methodology",
-          "agentswe-paper",
-          "reviewbench-repo"
+          "space-architecture",
+          "space-red-team",
+          "e2b-docs",
+          "figma-specs",
+          "figma-specs-help",
+          "lscbench-paper",
+          "lscbench-repo",
+          "tencent-amap-agent-fleet",
+          "openai-huggingface-incident"
         ],
         "summary": {
-          "en": "Operational agent infrastructure is moving toward context offloading, persistent isolated computers, and replayable acceptance evidence; the artifacts are concrete, but attention and vendor benchmarks do not establish reliability or local fit.",
-          "ja": "エージェント運用基盤は文脈退避、永続隔離コンピュータ、再生可能な受入証拠へ進んでいる。成果物は具体的だが、注目度とベンダーベンチマークは信頼性やローカル適合性を証明しない。"
+          "en": "Operational evidence is moving toward persistent isolated execution, live design context, executable security acceptance, and incident-derived controls; the artifacts are concrete, but vendor tests, benchmark scores, and incident attribution do not establish local reliability.",
+          "ja": "運用証拠は永続隔離実行、生きたデザイン文脈、実行可能な安全受入、インシデント由来制御へ進む。成果物は具体的だが、ベンダー試験、ベンチマーク値、インシデント帰属はローカル信頼性を証明しない。"
         }
       },
       {
         "kind": "editorial-decision",
         "targetIds": [
-          "context-mode",
-          "agent37",
-          "replayable-evaluator-owned-acceptance-artifacts",
-          "capsem",
-          "minos"
+          "space",
+          "figma-specs",
+          "lscbench",
+          "in-the-wild-agent-boundary-failures",
+          "scion-antique"
         ],
         "sourceIds": [
-          "context-mode-repo",
-          "agent37-concepts",
-          "capsem-repo",
-          "ifixai-methodology",
-          "agentswe-paper",
-          "reviewbench-repo",
-          "minos-paper"
+          "space-architecture",
+          "space-red-team",
+          "figma-specs",
+          "lscbench-paper",
+          "tencent-amap-agent-fleet",
+          "openai-huggingface-incident",
+          "anthropic-scion",
+          "gitlab-next-gen-scm"
         ],
         "summary": {
-          "en": "Add Context Mode and Agent37 as bounded PILOTs and the acceptance-artifact category at WATCH; keep Capsem and Minos monitored until stable access or independent outcome evidence appears.",
-          "ja": "Context ModeとAgent37を限定PILOT、受入成果物カテゴリをWATCHへ追加。CapsemとMinosは安定提供または独立成果証拠が出るまで監視継続。"
+          "en": "Add SPACE, Figma Specs, and LSCBench as bounded PILOTs and the incident class at WATCH; retain Scion as DEFER and keep acceptance-artifact scores unchanged while adding LSCBench as category evidence.",
+          "ja": "SPACE、Figma Specs、LSCBenchを限定PILOT、インシデント類型をWATCHへ追加。ScionはDEFERを維持し、LSCBenchをカテゴリ証拠へ加えつつ受入成果物のスコアは変更しない。"
         }
       }
     ]
@@ -497,6 +504,30 @@
       "signalId": "replayable-evaluator-owned-acceptance-artifacts",
       "stage": "watch",
       "score": 54,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "space",
+      "stage": "pilot",
+      "score": 60,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "figma-specs",
+      "stage": "pilot",
+      "score": 56,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "lscbench",
+      "stage": "pilot",
+      "score": 50,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "in-the-wild-agent-boundary-failures",
+      "stage": "watch",
+      "score": 48,
       "compatibility": "unknown"
     }
   ],
@@ -2752,13 +2783,23 @@
             "reviewbench-repo",
             "github-reviewbench"
           ]
+        },
+        {
+          "name": "LSCBench",
+          "vendor": "Alibaba-led research collaboration",
+          "organizationId": "alibaba-lscbench",
+          "access": "public tasks, isolated Harbor fixtures, hidden functional and security tests, traces, and evaluation code",
+          "sourceIds": [
+            "lscbench-paper",
+            "lscbench-repo"
+          ]
         }
       ],
       "compatibility": {
         "status": "unknown",
         "rationale": {
-          "en": "The pattern strongly matches Stangyode regression discipline, but none of the three artifacts has been calibrated against this repository or its defect history.",
-          "ja": "このパターンはStangyodeの回帰規律に強く合うが、3成果物のいずれも本リポジトリや欠陥履歴に対して校正されていない。"
+          "en": "The pattern strongly matches Stangyode regression discipline, but none of the four artifacts has been calibrated against this repository or its defect history.",
+          "ja": "このパターンはStangyodeの回帰規律に強く合うが、4成果物のいずれも本リポジトリや欠陥履歴に対して校正されていない。"
         },
         "checkedAgainst": []
       },
@@ -2770,12 +2811,14 @@
           "ifixai-4-1",
           "agentswe-paper",
           "reviewbench-repo",
-          "github-reviewbench"
+          "github-reviewbench",
+          "lscbench-paper",
+          "lscbench-repo"
         ],
-        "collectedAt": "2026-10-15",
+        "collectedAt": "2026-10-16",
         "method": {
-          "en": "Compared three independently operated artifact families and their explicit limitations. No evaluator was installed, no published score was reproduced, and cross-tool scores are not treated as comparable.",
-          "ja": "独立運営される3つの成果物群と明示的限界を比較。評価器は導入せず、公開スコアも再現せず、ツール間スコアを比較可能とは扱わない。"
+          "en": "Compared four independently operated artifact families and their explicit limitations. LSCBench adds executable security acceptance, but no evaluator was installed, no score was reproduced, and cross-tool results remain non-comparable.",
+          "ja": "独立運営される4つの成果物群と限界を比較。LSCBenchは実行可能な安全受入を加えるが、評価器は導入せず、スコアも再現せず、ツール間結果は比較不能のまま。"
         }
       },
       "history": [
@@ -2788,6 +2831,315 @@
           "scores": {
             "frontier": 90,
             "adoption": 54,
+            "fit": 94,
+            "confidence": 86
+          }
+        },
+        {
+          "date": "2026-10-16",
+          "event": {
+            "en": "LSCBench added executable secure-code fixtures as a fourth independent implementation; WATCH status and scores remain unchanged because benchmark scopes and transfer limits are not interchangeable.",
+            "ja": "LSCBenchの実行可能な安全コードfixtureを4番目の独立実装として追加。ベンチマーク範囲と転移限界は互換でないため、WATCH状態とスコアは変更しない。"
+          },
+          "scores": {
+            "frontier": 90,
+            "adoption": 54,
+            "fit": 94,
+            "confidence": 86
+          }
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "name": {
+        "en": "SPACE",
+        "ja": "SPACE"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "sandbox",
+        "agent-harness"
+      ],
+      "scores": {
+        "frontier": 91,
+        "adoption": 60,
+        "fit": 84,
+        "confidence": 88
+      },
+      "recommendation": {
+        "en": "PILOT one disposable restore-and-egress workload; verify deny rules, scoped credentials, snapshot fidelity, deletion, crash recovery, startup health, throughput, and retained-state cost.",
+        "ja": "使い捨ての復元・外向き通信ワークロードを1件PILOT。拒否規則、範囲付き資格情報、スナップショット忠実度、削除、クラッシュ復旧、起動健全性、処理量、保持費用を検証する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Open Firecracker isolation, explicit lifecycle state, scoped attachment tokens, egress policy, snapshots, and E2B compatibility form a concrete self-hostable runtime.",
+          "ja": "公開Firecracker隔離、明示ライフサイクル状態、範囲付き接続トークン、外向き通信方針、スナップショット、E2B互換性が具体的なセルフホスト実行基盤を成す。"
+        },
+        {
+          "en": "Perplexity’s own tests found network-policy bypasses before remediation; finite vendor reruns do not establish escape resistance, restore reliability, or operating economics.",
+          "ja": "Perplexity自身の試験で修正前のネットワーク方針回避が見つかった。有限のベンダー再試験は脱出耐性、復元信頼性、運用経済性を確立しない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes.",
+          "ja": "この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "space-architecture",
+          "space-open-source",
+          "space-red-team",
+          "e2b-docs",
+          "modal-sandboxes"
+        ],
+        "collectedAt": "2026-10-16",
+        "method": {
+          "en": "Reviewed first-party architecture, release, and adversarial-test artifacts and challenged differentiation against E2B and Modal. No sandbox was installed or provisioned.",
+          "ja": "一次設計、公開、敵対試験成果物を確認し、E2BとModalに対して差別化を検証。サンドボックスは導入・作成していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-16",
+          "event": {
+            "en": "Added at PILOT with a bounded recommendation; evidence is concrete but not independent proof of local reliability or fit.",
+            "ja": "PILOTへ限定的推奨付きで追加。証拠は具体的だが、ローカル信頼性や適合性の独立証明ではない。"
+          },
+          "scores": {
+            "frontier": 91,
+            "adoption": 60,
+            "fit": 84,
+            "confidence": 88
+          }
+        }
+      ]
+    },
+    {
+      "id": "figma-specs",
+      "name": {
+        "en": "Figma Specs",
+        "ja": "Figma Specs"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "context-engineering",
+        "mcp"
+      ],
+      "scores": {
+        "frontier": 80,
+        "adoption": 56,
+        "fit": 72,
+        "confidence": 78
+      },
+      "recommendation": {
+        "en": "PILOT one real design-to-code handoff with paired baseline work; measure corrections, stale-context incidents, delivery quality, MCP friction, exportability, and cross-harness reuse.",
+        "ja": "実際のデザインからコードへの引継ぎ1件を基準作業と対比較してPILOT。修正回数、古い文脈、納品品質、MCP摩擦、書出し可能性、ハーネス間再利用を測る。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Collaborative Markdown can keep intent, designs, diagrams, and code references in one live handoff surface writable through MCP.",
+          "ja": "共同Markdownに意図、デザイン、図、コード参照を一つの生きた引継ぎ面としてまとめ、MCPから読み書きできる。"
+        },
+        {
+          "en": "Open-beta access and Figma-native state create plan, permission, lock-in, and export risks; no public benchmark demonstrates better task outcomes.",
+          "ja": "オープンベータ利用条件とFigma固有状態はプラン、権限、ロックイン、書出しの危険を生み、課題成果改善を示す公開評価もない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes.",
+          "ja": "この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "figma-specs",
+          "figma-specs-help",
+          "agentskills-home"
+        ],
+        "collectedAt": "2026-10-16",
+        "method": {
+          "en": "Reviewed Figma’s launch and access documentation and compared its packaged context with the vendor-neutral Agent Skills format. No Figma project or MCP handoff was exercised.",
+          "ja": "Figmaの発表・利用条件を確認し、包装された文脈をベンダー中立のAgent Skills形式と比較。FigmaプロジェクトやMCP引継ぎは実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-16",
+          "event": {
+            "en": "Added at PILOT with a bounded recommendation; evidence is concrete but not independent proof of local reliability or fit.",
+            "ja": "PILOTへ限定的推奨付きで追加。証拠は具体的だが、ローカル信頼性や適合性の独立証明ではない。"
+          },
+          "scores": {
+            "frontier": 80,
+            "adoption": 56,
+            "fit": 72,
+            "confidence": 78
+          }
+        }
+      ]
+    },
+    {
+      "id": "lscbench",
+      "name": {
+        "en": "LSCBench",
+        "ja": "LSCBench"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "eval-evaluation"
+      ],
+      "scores": {
+        "frontier": 90,
+        "adoption": 50,
+        "fit": 92,
+        "confidence": 86
+      },
+      "recommendation": {
+        "en": "PILOT only as an isolated coding-agent security regression gate beside SAST, DAST, and human review; pin tasks, images, hidden-test access, model, budget, and contamination assumptions.",
+        "ja": "SAST、DAST、人手レビューと併用する隔離コーディングエージェント安全回帰ゲートとしてのみPILOT。課題、イメージ、非公開試験アクセス、モデル、予算、汚染前提を固定する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Separate hidden functional and security tests make insecure success visible and package the result in replayable isolated environments.",
+          "ja": "非公開の機能試験と安全試験を分離し、安全でない成功を可視化して隔離環境で再生可能にする。"
+        },
+        {
+          "en": "Public vulnerability families, selected attack coverage, author-run scores, and uncertain correlation with production defects prevent certification-style use.",
+          "ja": "公開脆弱性群、選択された攻撃範囲、作者実施スコア、本番欠陥との不明な相関により、認証のようには使えない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes.",
+          "ja": "この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "lscbench-paper",
+          "lscbench-repo"
+        ],
+        "collectedAt": "2026-10-16",
+        "method": {
+          "en": "Reviewed the paper and public artifact contract, including isolated environments and hidden functional/security tests. No benchmark task was installed or rerun.",
+          "ja": "論文と公開成果物契約を確認し、隔離環境と非公開の機能・安全試験を検討。ベンチマーク課題は導入・再実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-16",
+          "event": {
+            "en": "Added at PILOT with a bounded recommendation; evidence is concrete but not independent proof of local reliability or fit.",
+            "ja": "PILOTへ限定的推奨付きで追加。証拠は具体的だが、ローカル信頼性や適合性の独立証明ではない。"
+          },
+          "scores": {
+            "frontier": 90,
+            "adoption": 50,
+            "fit": 92,
+            "confidence": 86
+          }
+        }
+      ]
+    },
+    {
+      "id": "in-the-wild-agent-boundary-failures",
+      "name": {
+        "en": "In-the-wild agent boundary failures",
+        "ja": "実環境エージェント境界障害"
+      },
+      "kind": "concept",
+      "atlasTermIds": [
+        "sandbox",
+        "guardrail",
+        "human-in-the-loop-hitl"
+      ],
+      "scores": {
+        "frontier": 92,
+        "adoption": 48,
+        "fit": 94,
+        "confidence": 86
+      },
+      "recommendation": {
+        "en": "WATCH the incident class and PILOT deny-by-default egress, scoped short-lived credentials, relay detection, evaluator isolation, immutable external telemetry, and an independent kill switch before broader autonomy.",
+        "ja": "インシデント類型をWATCHし、自律範囲拡大前に既定拒否の外向き通信、短命で範囲付き資格情報、中継検知、評価隔離、改変不能な外部遠隔測定、独立停止装置をPILOTする。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Two independent incident records turn abstract threat models into concrete acceptance cases for network, credential, evaluation, and shutdown controls.",
+          "ja": "独立した2件のインシデント記録が、抽象脅威モデルをネットワーク、資格情報、評価、停止制御の具体的受入ケースへ変える。"
+        },
+        {
+          "en": "Attribution, severity, and contamination differ: Tencent-hosted egress is not proof of Tencent operation, and investigator-inserted text complicates causal interpretation.",
+          "ja": "帰属、深刻度、汚染は異なる。Tencentホスト通信はTencent運用の証明ではなく、調査者挿入文が因果解釈を複雑にする。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Tencent/Amap agent fleet incident",
+          "vendor": "SwarmChase investigators",
+          "organizationId": "swarmchase-investigators",
+          "access": "public primary investigation with bounded attribution",
+          "sourceIds": [
+            "tencent-amap-agent-fleet"
+          ]
+        },
+        {
+          "name": "OpenAI/Hugging Face evaluation incident",
+          "vendor": "OpenAI and Hugging Face",
+          "organizationId": "openai-huggingface",
+          "access": "public first-party incident report and remediation account",
+          "sourceIds": [
+            "openai-huggingface-incident"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes.",
+          "ja": "この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "tencent-amap-agent-fleet",
+          "openai-huggingface-incident"
+        ],
+        "collectedAt": "2026-10-16",
+        "method": {
+          "en": "Compared two independent public incident records while preserving attribution, severity, and investigator-intervention limits. No affected system was accessed or reproduced.",
+          "ja": "独立した2件の公開インシデント記録を比較し、帰属、深刻度、調査者介入の限界を保持。影響システムへのアクセスや再現は行っていない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-16",
+          "event": {
+            "en": "Added at WATCH with a bounded recommendation; evidence is concrete but not independent proof of local reliability or fit.",
+            "ja": "WATCHへ限定的推奨付きで追加。証拠は具体的だが、ローカル信頼性や適合性の独立証明ではない。"
+          },
+          "scores": {
+            "frontier": 92,
+            "adoption": 48,
             "fit": 94,
             "confidence": 86
           }

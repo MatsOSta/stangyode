@@ -1134,5 +1134,109 @@
       "en": "Author materials for a replayable physical-science environment; no independent rerun or prospective assay validation was found.",
       "ja": "再生可能な物理科学環境の作者資料。独立再実行や前向きアッセイ検証は確認できなかった。"
     }
+  },
+  "gitlab-next-gen-scm": {
+    "title": "GitLab next-generation source code management",
+    "url": "https://about.gitlab.com/topics/source-code-management/next-gen-source-code-management",
+    "note": {
+      "en": "First-party description of GitLab’s Git-compatible, server-assisted SCM direction; availability and comparative performance remain beta and vendor-reported.",
+      "ja": "Git互換のサーバー支援型SCM方針に関するGitLab一次資料。提供状況と比較性能はベータかつベンダー報告に留まる。"
+    }
+  },
+  "tencent-amap-agent-fleet": {
+    "title": "Chinese agent fleet investigation",
+    "url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+    "note": {
+      "en": "Primary investigator report of parallel Amap-targeting agent runs, relay use, exposed credentials, and anti-bot workarounds; operator identity, private-system compromise, and material harm were not established.",
+      "ja": "Amapを対象とした並列エージェント実行、中継利用、露出資格情報、bot対策回避に関する調査者一次報告。運用者の本人性、非公開システム侵害、重大被害は確立していない。"
+    }
+  },
+  "openai-huggingface-incident": {
+    "title": "OpenAI and Hugging Face evaluation incident",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+    "note": {
+      "en": "First-party incident report describing agents escaping evaluation assumptions and affecting production workers; it supports boundary-failure controls, not general autonomy claims.",
+      "ja": "エージェントが評価前提を逸脱し本番ワーカーへ影響したことを記す一次インシデント報告。一般的自律性ではなく境界障害対策の証拠。"
+    }
+  },
+  "space-architecture": {
+    "title": "SPACE architecture and lifecycle",
+    "url": "https://space.docs.perplexity.ai/guide/architecture.html",
+    "note": {
+      "en": "First-party architecture for Firecracker microVMs, separate management and command paths, scoped attachment tokens, egress policy, and persistent pause/suspend/wake lifecycle; documentation is not independent reliability evidence.",
+      "ja": "Firecracker microVM、管理・コマンド経路分離、範囲付き接続トークン、外向き通信方針、永続pause/suspend/wakeを示す一次設計資料。独立した信頼性証拠ではない。"
+    }
+  },
+  "space-open-source": {
+    "title": "Perplexity open-sources SPACE",
+    "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+    "note": {
+      "en": "First-party Apache-2.0 release and production-use report for SPACE; deployment scale, latency, and partner statements are vendor-reported.",
+      "ja": "SPACEのApache-2.0公開と本番利用に関する一次報告。配備規模、遅延、提携情報はベンダー報告。"
+    }
+  },
+  "space-red-team": {
+    "title": "Escaping SPACE: Part I",
+    "url": "https://www.perplexity.ai/hub/blog/escaping-space-part-i",
+    "note": {
+      "en": "Perplexity-run red-team study separating VM escape from network confinement: no host escape in 108 attempts, but partial-network bypasses exposed and remediated policy weaknesses; finite author testing is not proof of isolation.",
+      "ja": "VM脱出とネットワーク封じ込めを分離したPerplexity実施レッドチーム研究。108回でホスト脱出はなかったが、部分的通信条件で方針回避が見つかり修正された。有限の作者試験は隔離の証明ではない。"
+    }
+  },
+  "e2b-docs": {
+    "title": "E2B sandbox documentation",
+    "url": "https://e2b.dev/docs",
+    "note": {
+      "en": "First-party sibling implementation documenting isolated VMs, templates, and indefinite filesystem-and-memory persistence through pause and resume.",
+      "ja": "隔離VM、テンプレート、pause/resumeによるファイルシステム・メモリの無期限保持を示す独立同等実装の一次資料。"
+    }
+  },
+  "modal-sandboxes": {
+    "title": "Modal Sandboxes",
+    "url": "https://modal.com/docs/guide/sandboxes",
+    "note": {
+      "en": "First-party documentation for managed isolated execution of untrusted user or agent code; useful as a sibling implementation, not independent security validation.",
+      "ja": "信頼できない利用者・エージェントコードの管理型隔離実行に関する一次資料。同等実装の証拠であり、独立安全性検証ではない。"
+    }
+  },
+  "figma-specs": {
+    "title": "Introducing Figma Specs",
+    "url": "https://www.figma.com/blog/introducing-figma-specs",
+    "note": {
+      "en": "First-party launch of collaborative Markdown specifications linked to designs, diagrams, code layers, and MCP access; workflow benefit claims are vendor-reported.",
+      "ja": "デザイン、図、コード層、MCPアクセスに結び付く共同Markdown仕様の一次発表。ワークフロー効果はベンダー報告。"
+    }
+  },
+  "figma-specs-help": {
+    "title": "Figma Specs availability and access",
+    "url": "https://help.figma.com/hc/en-us/articles/44049066011671",
+    "note": {
+      "en": "First-party access and plan documentation for the open beta; availability and editing constraints limit adoption readiness.",
+      "ja": "オープンベータの利用条件とプランに関する一次資料。提供範囲と編集制約が導入準備度を制限する。"
+    }
+  },
+  "agentskills-home": {
+    "title": "Agent Skills open format",
+    "url": "https://agentskills.io",
+    "note": {
+      "en": "Vendor-neutral sibling format for packaged agent instructions and resources; it does not provide Figma-native collaborative design state.",
+      "ja": "エージェント手順と資源を包装するベンダー中立の同等形式。Figma固有の共同デザイン状態は提供しない。"
+    }
+  },
+  "lscbench-paper": {
+    "title": "Last Secure Code Benchmark (LSCBench)",
+    "url": "https://arxiv.org/abs/2610.14766",
+    "note": {
+      "en": "Author-run benchmark of 450 tasks across 150 vulnerability scenarios with separate hidden functional and security tests; contamination, coverage, and production-transfer limits remain.",
+      "ja": "150の脆弱性シナリオにまたがる450課題を、非公開の機能・安全試験で分離評価する作者実施ベンチマーク。汚染、範囲、本番転移の限界が残る。"
+    }
+  },
+  "lscbench-repo": {
+    "title": "LSCBench repository and Harbor fixtures",
+    "url": "https://github.com/alibaba/last-secure-code-benchmark",
+    "note": {
+      "en": "First-party public tasks, isolated Harbor/Docker environments, hidden-test contract, traces, and evaluation code for secure code generation; published scores remain author-reported.",
+      "ja": "安全なコード生成向けの公開課題、隔離Harbor/Docker環境、非公開試験契約、軌跡、評価コードの一次成果物。公開スコアは作者報告。"
+    }
   }
 }

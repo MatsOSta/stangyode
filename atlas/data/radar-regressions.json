@@ -176,16 +176,40 @@
       "id": "acceptance-artifact-independent-implementations",
       "type": "category-evidence-threshold",
       "signalId": "replayable-evaluator-owned-acceptance-artifacts",
-      "minimumIndependentOrganizations": 3,
+      "minimumIndependentOrganizations": 4,
       "requiredOrganizationIds": [
         "ifixai",
         "baai-agentswe",
-        "github-reviewbench"
+        "github-reviewbench",
+        "alibaba-lscbench"
       ],
       "requiredSourceIds": [
         "ifixai-methodology",
         "agentswe-paper",
-        "reviewbench-repo"
+        "reviewbench-repo",
+        "lscbench-paper"
+      ]
+    },
+    {
+      "id": "lscbench-acceptance-category-split",
+      "type": "named-category-split",
+      "namedEntityId": "lscbench",
+      "categoryId": "replayable-evaluator-owned-acceptance-artifacts",
+      "competitorSourceId": "ifixai-methodology",
+      "expectedCategoryStage": "watch"
+    },
+    {
+      "id": "incident-category-independent-evidence",
+      "type": "category-evidence-threshold",
+      "signalId": "in-the-wild-agent-boundary-failures",
+      "minimumIndependentOrganizations": 2,
+      "requiredOrganizationIds": [
+        "swarmchase-investigators",
+        "openai-huggingface"
+      ],
+      "requiredSourceIds": [
+        "tencent-amap-agent-fleet",
+        "openai-huggingface-incident"
       ]
     }
   ]
