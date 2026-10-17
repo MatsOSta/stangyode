@@ -1238,5 +1238,101 @@
       "en": "First-party public tasks, isolated Harbor/Docker environments, hidden-test contract, traces, and evaluation code for secure code generation; published scores remain author-reported.",
       "ja": "安全なコード生成向けの公開課題、隔離Harbor/Docker環境、非公開試験契約、軌跡、評価コードの一次成果物。公開スコアは作者報告。"
     }
+  },
+  "rugsnare-contract-drift": {
+    "title": "MCP contract drift in the wild",
+    "url": "https://github.com/Paraphern/rugsnare/blob/main/docs/blog/2026-10-17-mcp-contract-drift.md",
+    "note": {
+      "en": "RugSnare author-run audit of tool-name, description, and schema changes across 24 MCP servers; useful measurement, not an independent benchmark.",
+      "ja": "24件のMCPサーバーにおけるツール名、説明、スキーマ変更を測ったRugSnare作者実施監査。有用な測定だが独立評価ではない。"
+    }
+  },
+  "mcpward-repo": {
+    "title": "mcpward — contract testing for MCP servers in CI",
+    "url": "https://github.com/TsvetanG2/mcpward",
+    "note": {
+      "en": "Independent open-source MCP contract, security, lockfile, and CI implementation.",
+      "ja": "独立したオープンソースのMCP契約、安全性、ロックファイル、CI実装。"
+    }
+  },
+  "mcpindex-drift-report": {
+    "title": "The MCP Drift Report",
+    "url": "https://mcpindex.ai/drift-report",
+    "note": {
+      "en": "Versioned drift census and runtime gate methodology with explicit coverage gaps and unstable-contract exclusions.",
+      "ja": "明示的な収集欠落と不安定契約除外を伴う、版管理されたドリフト全数調査と実行時ゲート手法。"
+    }
+  },
+  "mcp-hangar-digest-pin": {
+    "title": "Detect and block MCP tool rug pulls",
+    "url": "https://mcp-hangar.io/learn/detect-and-block-mcp-tool-rug-pulls",
+    "note": {
+      "en": "Independent runtime digest-pin implementation that refuses changed advertised contracts while documenting behavioral blind spots.",
+      "ja": "変更された公開契約を拒否しつつ、動作上の盲点も明記する独立した実行時ダイジェスト固定実装。"
+    }
+  },
+  "dark-factory-considered-harmful": {
+    "title": "Dark Factory Considered Harmful",
+    "url": "https://www.youtube.com/watch?v=GQatuTWSRqY",
+    "note": {
+      "en": "Practitioner argument for release-sized work, human intent, holdout validation, retry limits, and escalation instead of unbounded autonomy.",
+      "ja": "無制限自律の代わりに、リリース単位作業、人間の意図、留保検証、再試行上限、エスカレーションを求める実務家の議論。"
+    }
+  },
+  "craft-vs-cruft-dark-factory": {
+    "title": "Dark factory operating-model critique",
+    "url": "https://www.youtube.com/watch?v=FcIYAkvMuIY",
+    "note": {
+      "en": "Independent practitioner critique converging on bounded delivery, staging, review, and controlled promotion.",
+      "ja": "限定的納品、段階投入、レビュー、制御された昇格へ収束する独立した実務家批判。"
+    }
+  },
+  "ai-software-factory-repo": {
+    "title": "AI Software Factory",
+    "url": "https://github.com/coleam00/ai-software-factory",
+    "note": {
+      "en": "Public implementation of issue intake, mission boundaries, independent judging, holdout scenarios, bounded repair, and merge controls.",
+      "ja": "Issue受入、使命境界、独立判定、留保シナリオ、限定修復、マージ制御の公開実装。"
+    }
+  },
+  "agent-engineering-world": {
+    "title": "Agent Engineering London",
+    "url": "https://agentengineering.world",
+    "note": {
+      "en": "Conference program grouping prompt, context, harness, memory, loop, evaluation, protocol, and code engineering as one practice bundle.",
+      "ja": "プロンプト、文脈、ハーネス、記憶、ループ、評価、プロトコル、コード工学を一つの実践群として扱う会議プログラム。"
+    }
+  },
+  "graft-git-ai-repo": {
+    "title": "Graft / git-ai",
+    "url": "https://github.com/feder-cr/git-ai",
+    "note": {
+      "en": "Public Scion-inspired source-control implementation; benchmarks and limitations remain project-authored.",
+      "ja": "Scionに着想を得た公開ソース管理実装。評価値と限界はプロジェクト作者による報告。"
+    }
+  },
+  "esp32-iphone-agent-repo": {
+    "title": "ESP32 iPhone Agent",
+    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+    "note": {
+      "en": "Open physical-iPhone computer-use loop using AirPlay vision and USB HID actions through an ESP32-S3.",
+      "ja": "ESP32-S3経由のAirPlay視覚とUSB HID操作を使う、公開された物理iPhoneコンピューター利用ループ。"
+    }
+  },
+  "iphone-use-guide": {
+    "title": "iphone-use: let AI agents control a real iPhone",
+    "url": "https://blog.leeguoo.com/en/posts/iphone-use/",
+    "note": {
+      "en": "Independent XCTest-based physical-iPhone control implementation requiring macOS, Xcode, signing, and developer mode.",
+      "ja": "macOS、Xcode、署名、開発者モードを必要とする独立したXCTestベース物理iPhone制御実装。"
+    }
+  },
+  "gstack-ios-qa-guide": {
+    "title": "gstack iOS real-device QA guide",
+    "url": "https://github.com/garrytan/gstack/blob/main/docs/howto-ios-testing-with-gstack.md",
+    "note": {
+      "en": "Independent real-device iOS QA path using a signed debug bridge and CoreDevice transport.",
+      "ja": "署名済みデバッグブリッジとCoreDevice転送を使う独立した実機iOS QA経路。"
+    }
   }
 }

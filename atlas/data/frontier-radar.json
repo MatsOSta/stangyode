@@ -9,28 +9,28 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-16",
+    "snapshot": "2026-10-17",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-16T06:05:24Z",
+    "asOf": "2026-10-17T06:14:25.166Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "success",
-        "lastAttemptAt": "2026-10-16T06:05:24Z",
-        "lastSuccessfulRunAt": "2026-10-16T06:05:24Z",
+        "lastAttemptAt": "2026-10-17T06:14:25.166Z",
+        "lastSuccessfulRunAt": "2026-10-17T06:14:25.166Z",
         "failureStreak": 0
       },
       "editor": {
         "status": "success",
-        "lastAttemptAt": "2026-10-16T06:05:24Z",
-        "lastSuccessfulRunAt": "2026-10-16T06:05:24Z",
+        "lastAttemptAt": "2026-10-17T06:14:25.166Z",
+        "lastSuccessfulRunAt": "2026-10-17T06:14:25.166Z",
         "failureStreak": 0,
         "lastFailure": {
           "at": "2026-10-15T06:01:28.949Z",
@@ -41,162 +41,218 @@
     },
     "sourcesChecked": [
       {
+        "sourceId": "rugsnare-contract-drift",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "mcpward-repo",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "mcpindex-drift-report",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "mcp-hangar-digest-pin",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "dark-factory-considered-harmful",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "craft-vs-cruft-dark-factory",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "ai-software-factory-repo",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "github-agentic-workflows-2026-10-12",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "anthropic-managed-agent-workflows",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "openai-harness",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "agent-engineering-world",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "graft-git-ai-repo",
+        "checkedAt": "2026-10-17",
+        "outcome": "relevant"
+      },
+      {
         "sourceId": "anthropic-scion",
-        "checkedAt": "2026-10-16",
+        "checkedAt": "2026-10-17",
         "outcome": "relevant"
       },
       {
         "sourceId": "gitlab-next-gen-scm",
-        "checkedAt": "2026-10-16",
+        "checkedAt": "2026-10-17",
         "outcome": "relevant"
       },
       {
-        "sourceId": "tencent-amap-agent-fleet",
-        "checkedAt": "2026-10-16",
+        "sourceId": "esp32-iphone-agent-repo",
+        "checkedAt": "2026-10-17",
         "outcome": "relevant"
       },
       {
-        "sourceId": "openai-huggingface-incident",
-        "checkedAt": "2026-10-16",
+        "sourceId": "iphone-use-guide",
+        "checkedAt": "2026-10-17",
         "outcome": "relevant"
       },
       {
-        "sourceId": "space-architecture",
-        "checkedAt": "2026-10-16",
+        "sourceId": "gstack-ios-qa-guide",
+        "checkedAt": "2026-10-17",
         "outcome": "relevant"
       },
       {
-        "sourceId": "space-open-source",
-        "checkedAt": "2026-10-16",
-        "outcome": "relevant"
+        "sourceId": "rea-repo",
+        "checkedAt": "2026-10-17",
+        "outcome": "no-material-change"
       },
       {
-        "sourceId": "space-red-team",
-        "checkedAt": "2026-10-16",
-        "outcome": "relevant"
+        "sourceId": "openai-decisions",
+        "checkedAt": "2026-10-17",
+        "outcome": "no-material-change"
       },
       {
-        "sourceId": "e2b-docs",
-        "checkedAt": "2026-10-16",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "modal-sandboxes",
-        "checkedAt": "2026-10-16",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "figma-specs",
-        "checkedAt": "2026-10-16",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "figma-specs-help",
-        "checkedAt": "2026-10-16",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "agentskills-home",
-        "checkedAt": "2026-10-16",
-        "outcome": "relevant"
+        "sourceId": "context-mode-repo",
+        "checkedAt": "2026-10-17",
+        "outcome": "no-material-change"
       },
       {
         "sourceId": "lscbench-paper",
-        "checkedAt": "2026-10-16",
-        "outcome": "relevant"
+        "checkedAt": "2026-10-17",
+        "outcome": "no-material-change"
       },
       {
-        "sourceId": "lscbench-repo",
-        "checkedAt": "2026-10-16",
-        "outcome": "relevant"
+        "sourceId": "reviewbench-repo",
+        "checkedAt": "2026-10-17",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "agentswe-paper",
+        "checkedAt": "2026-10-17",
+        "outcome": "no-material-change"
+      },
+      {
+        "sourceId": "minos-paper",
+        "checkedAt": "2026-10-17",
+        "outcome": "no-material-change"
       }
     ],
     "queryGroups": [
       {
-        "id": "material-intake-2026-10-16",
+        "id": "material-intake-2026-10-17",
         "label": {
           "en": "Material hype intake and first-party verification",
           "ja": "重要ハイプ受入と一次情報検証"
         },
         "runRole": "scout",
         "targetIds": [
-          "scion-antique",
-          "space",
-          "figma-specs",
-          "lscbench",
-          "in-the-wild-agent-boundary-failures"
+          "rugsnare",
+          "mcp-contract-integrity",
+          "bounded-agentic-delivery",
+          "agent-engineering",
+          "graft-git-ai",
+          "esp32-iphone-agent"
         ],
         "sourceIds": [
+          "rugsnare-contract-drift",
+          "dark-factory-considered-harmful",
+          "craft-vs-cruft-dark-factory",
+          "agent-engineering-world",
+          "graft-git-ai-repo",
+          "esp32-iphone-agent-repo"
+        ],
+        "resultSummary": {
+          "en": "RugSnare enters WATCH; MCP contract integrity, bounded agentic delivery, and ESP32 iPhone Agent enter bounded PILOT; Agent Engineering and Graft remain monitored without adoption promotion.",
+          "ja": "RugSnareをWATCHへ追加。MCP契約完全性、境界付きエージェント納品、ESP32 iPhone Agentを限定PILOTへ追加。Agent EngineeringとGraftは導入昇格なしで監視継続。"
+        },
+        "queries": [
+          "exact-name release, alternatives, competitors, adoption, benchmark, criticism, and limitation checks for all five investigate-now artifacts",
+          "first-party artifact and limitation checks for each material intake item"
+        ]
+      },
+      {
+        "id": "mcp-contract-integrity-challenge-2026-10-17",
+        "label": {
+          "en": "MCP contract integrity first-party and sibling challenge",
+          "ja": "MCP契約完全性の一次情報・同等実装検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "rugsnare",
+          "mcp-contract-integrity"
+        ],
+        "sourceIds": [
+          "rugsnare-contract-drift",
+          "mcpward-repo",
+          "mcpindex-drift-report",
+          "mcp-hangar-digest-pin"
+        ],
+        "resultSummary": {
+          "en": "RugSnare supplies a useful author-run corpus, while three independent implementations confirm that contract pinning is a category rather than a unique product; unchanged-contract behavior remains outside structural coverage.",
+          "ja": "RugSnareは有用な作者実施コーパスを提供し、3つの独立実装が契約固定を固有製品ではなくカテゴリとして裏づける。不変契約の動作変化は構造検査の範囲外。"
+        },
+        "queries": [
+          "RugSnare MCP contract drift criticism limitations alternatives",
+          "MCP tool contract schema snapshot drift CI lockfile runtime digest MCPWard mcpindex Hangar"
+        ]
+      },
+      {
+        "id": "bounded-delivery-and-device-challenge-2026-10-17",
+        "label": {
+          "en": "Bounded delivery and physical-device sibling challenge",
+          "ja": "境界付き納品・物理端末の同等実装検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "bounded-agentic-delivery",
+          "esp32-iphone-agent",
+          "graft-git-ai"
+        ],
+        "sourceIds": [
+          "dark-factory-considered-harmful",
+          "craft-vs-cruft-dark-factory",
+          "ai-software-factory-repo",
+          "github-agentic-workflows-2026-10-12",
+          "anthropic-managed-agent-workflows",
+          "esp32-iphone-agent-repo",
+          "iphone-use-guide",
+          "gstack-ios-qa-guide",
+          "graft-git-ai-repo",
           "anthropic-scion",
-          "tencent-amap-agent-fleet",
-          "openai-huggingface-incident",
-          "space-architecture",
-          "space-open-source",
-          "figma-specs",
-          "figma-specs-help",
-          "lscbench-paper",
-          "lscbench-repo"
+          "gitlab-next-gen-scm"
         ],
         "resultSummary": {
-          "en": "SPACE, Figma Specs, and LSCBench enter bounded PILOT; in-the-wild agent boundary failures enter as a two-incident WATCH category; Scion remains deferred because it is unavailable.",
-          "ja": "SPACE、Figma Specs、LSCBenchを限定PILOTへ追加。実環境エージェント境界障害を2件のインシデントに基づくWATCHカテゴリへ追加。Scionは利用不能のため保留継続。"
+          "en": "Cross-vendor workflows support bounded delivery as an operating model without proving factory superiority; physical iOS control has independent implementation paths but lacks portable evaluation; Graft remains deferred.",
+          "ja": "複数ベンダーのワークフローが運用モデルとして境界付き納品を支持するが、工場方式の優位性は未証明。物理iOS制御には独立実装経路があるが移植可能評価はなく、Graftは保留。"
         },
         "queries": [
-          "exact-name release, alternatives, competitors, adoption, benchmark, criticism, and limitation checks for Scion, Tencent/Amap fleet, SPACE, Figma Specs, and LSCBench",
-          "first-party artifact and limitation checks for each investigate-now item"
-        ]
-      },
-      {
-        "id": "space-sibling-challenge-2026-10-16",
-        "label": {
-          "en": "SPACE first-party and sibling-implementation challenge",
-          "ja": "SPACEの一次情報と同等実装による検証"
-        },
-        "runRole": "scout",
-        "targetIds": [
-          "space"
-        ],
-        "sourceIds": [
-          "space-architecture",
-          "space-open-source",
-          "space-red-team",
-          "e2b-docs",
-          "modal-sandboxes"
-        ],
-        "resultSummary": {
-          "en": "SPACE supplies a strong open lifecycle and security artifact, but E2B and Modal confirm that isolated execution and persistence are not unique; independent escape, restore, deletion, and egress reproduction remain required.",
-          "ja": "SPACEは強い公開ライフサイクル・安全成果物を提供するが、E2BとModalにより隔離実行と永続性は固有でない。脱出、復元、削除、外向き通信の独立再現が必要。"
-        },
-        "queries": [
-          "SPACE Perplexity sandbox independent security review escape restore egress limitations",
-          "open source stateful agent sandbox Firecracker E2B Modal Daytona persistent snapshots"
-        ]
-      },
-      {
-        "id": "acceptance-and-incident-convergence-2026-10-16",
-        "label": {
-          "en": "Executable acceptance and incident-control convergence",
-          "ja": "実行可能受入とインシデント制御への収束"
-        },
-        "runRole": "scout",
-        "targetIds": [
-          "lscbench",
-          "replayable-evaluator-owned-acceptance-artifacts",
-          "in-the-wild-agent-boundary-failures"
-        ],
-        "sourceIds": [
-          "lscbench-paper",
-          "lscbench-repo",
-          "tencent-amap-agent-fleet",
-          "openai-huggingface-incident"
-        ],
-        "resultSummary": {
-          "en": "LSCBench adds executable security acceptance to evaluator-owned artifacts, while two independent incidents supply real boundary-failure cases; neither benchmark scores nor incident severity are interchangeable.",
-          "ja": "LSCBenchが評価者所有成果物へ実行可能な安全受入を加え、独立した2件のインシデントが実境界障害ケースを提供。ベンチマークスコアも深刻度も相互交換できない。"
-        },
-        "queries": [
-          "LSCBench alternatives adoption benchmark criticism contamination and production transfer",
-          "autonomous agent incident credential egress evaluation isolation relay detection independent controls"
+          "bounded AI software factory release tickets holdout tests retries escalation agent coding harness implementation",
+          "physical iOS agent control AirPlay HID XCTest CoreDevice alternatives limitations",
+          "Graft git-ai adoption benchmark criticism source-control recovery compatibility"
         ]
       }
     ],
@@ -226,7 +282,13 @@
       "space",
       "figma-specs",
       "lscbench",
-      "in-the-wild-agent-boundary-failures"
+      "in-the-wild-agent-boundary-failures",
+      "rugsnare",
+      "mcp-contract-integrity",
+      "bounded-agentic-delivery",
+      "agent-engineering",
+      "graft-git-ai",
+      "esp32-iphone-agent"
     ],
     "changelogEntriesChecked": [
       "v0",
@@ -241,7 +303,8 @@
       "radar-daily-2026-10-13",
       "radar-daily-2026-10-14",
       "radar-daily-2026-10-15",
-      "radar-daily-2026-10-16"
+      "radar-daily-2026-10-16",
+      "radar-daily-2026-10-17"
     ],
     "sensors": [
       {
@@ -291,50 +354,56 @@
       {
         "kind": "material-finding",
         "targetIds": [
-          "space",
-          "figma-specs",
-          "lscbench",
-          "in-the-wild-agent-boundary-failures",
-          "replayable-evaluator-owned-acceptance-artifacts"
+          "rugsnare",
+          "mcp-contract-integrity",
+          "bounded-agentic-delivery",
+          "agent-engineering",
+          "graft-git-ai",
+          "esp32-iphone-agent"
         ],
         "sourceIds": [
-          "space-architecture",
-          "space-red-team",
-          "e2b-docs",
-          "figma-specs",
-          "figma-specs-help",
-          "lscbench-paper",
-          "lscbench-repo",
-          "tencent-amap-agent-fleet",
-          "openai-huggingface-incident"
+          "rugsnare-contract-drift",
+          "mcpward-repo",
+          "mcpindex-drift-report",
+          "mcp-hangar-digest-pin",
+          "dark-factory-considered-harmful",
+          "craft-vs-cruft-dark-factory",
+          "ai-software-factory-repo",
+          "agent-engineering-world",
+          "graft-git-ai-repo",
+          "esp32-iphone-agent-repo",
+          "iphone-use-guide"
         ],
         "summary": {
-          "en": "Operational evidence is moving toward persistent isolated execution, live design context, executable security acceptance, and incident-derived controls; the artifacts are concrete, but vendor tests, benchmark scores, and incident attribution do not establish local reliability.",
-          "ja": "運用証拠は永続隔離実行、生きたデザイン文脈、実行可能な安全受入、インシデント由来制御へ進む。成果物は具体的だが、ベンダー試験、ベンチマーク値、インシデント帰属はローカル信頼性を証明しない。"
+          "en": "Attention shifted toward control surfaces: versioned MCP contracts, externally bounded delivery, machine-scale source control, and physical-device loops. Implementations are concrete, but product measurements, practitioner convergence, repository attention, and demos are not independent outcome proof.",
+          "ja": "注目は制御面へ移動した。版管理MCP契約、外部境界付き納品、機械規模ソース管理、物理端末ループである。実装は具体的だが、製品測定、実務家の収束、リポジトリ注目、デモは独立した成果証明ではない。"
         }
       },
       {
         "kind": "editorial-decision",
         "targetIds": [
-          "space",
-          "figma-specs",
-          "lscbench",
-          "in-the-wild-agent-boundary-failures",
-          "scion-antique"
+          "rugsnare",
+          "mcp-contract-integrity",
+          "bounded-agentic-delivery",
+          "esp32-iphone-agent",
+          "agent-engineering",
+          "graft-git-ai"
         ],
         "sourceIds": [
-          "space-architecture",
-          "space-red-team",
-          "figma-specs",
-          "lscbench-paper",
-          "tencent-amap-agent-fleet",
-          "openai-huggingface-incident",
-          "anthropic-scion",
-          "gitlab-next-gen-scm"
+          "rugsnare-contract-drift",
+          "mcpward-repo",
+          "mcpindex-drift-report",
+          "mcp-hangar-digest-pin",
+          "dark-factory-considered-harmful",
+          "craft-vs-cruft-dark-factory",
+          "github-agentic-workflows-2026-10-12",
+          "anthropic-managed-agent-workflows",
+          "esp32-iphone-agent-repo",
+          "graft-git-ai-repo"
         ],
         "summary": {
-          "en": "Add SPACE, Figma Specs, and LSCBench as bounded PILOTs and the incident class at WATCH; retain Scion as DEFER and keep acceptance-artifact scores unchanged while adding LSCBench as category evidence.",
-          "ja": "SPACE、Figma Specs、LSCBenchを限定PILOT、インシデント類型をWATCHへ追加。ScionはDEFERを維持し、LSCBenchをカテゴリ証拠へ加えつつ受入成果物のスコアは変更しない。"
+          "en": "Add RugSnare at WATCH and the MCP contract-integrity category at PILOT; add bounded agentic delivery and ESP32 iPhone Agent as bounded PILOTs; monitor Agent Engineering as terminology and defer Graft adoption pending independent operations evidence.",
+          "ja": "RugSnareをWATCH、MCP契約完全性カテゴリをPILOTへ追加。境界付きエージェント納品とESP32 iPhone Agentを限定PILOTへ追加。Agent Engineeringは用語として監視し、Graft導入は独立運用証拠まで保留。"
         }
       }
     ]
@@ -528,6 +597,30 @@
       "signalId": "in-the-wild-agent-boundary-failures",
       "stage": "watch",
       "score": 48,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "rugsnare",
+      "stage": "watch",
+      "score": 44,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "mcp-contract-integrity",
+      "stage": "pilot",
+      "score": 64,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "bounded-agentic-delivery",
+      "stage": "pilot",
+      "score": 66,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "esp32-iphone-agent",
+      "stage": "pilot",
+      "score": 58,
       "compatibility": "unknown"
     }
   ],
@@ -3142,6 +3235,353 @@
             "adoption": 48,
             "fit": 94,
             "confidence": 86
+          }
+        }
+      ]
+    },
+    {
+      "id": "rugsnare",
+      "name": {
+        "en": "RugSnare",
+        "ja": "RugSnare"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "mcp",
+        "guardrail",
+        "policy-enforcement"
+      ],
+      "scores": {
+        "frontier": 86,
+        "adoption": 44,
+        "fit": 88,
+        "confidence": 82
+      },
+      "recommendation": {
+        "en": "WATCH the named tool; use a disposable server to compare its canonicalization, review ergonomics, false-positive handling, fail mode, and replay behavior before adoption.",
+        "ja": "名称付きツールはWATCH。採用前に使い捨てサーバーで正規化、レビュー操作性、誤検知処理、失敗モード、再生動作を比較する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "It packages contract capture, CI diffing, runtime enforcement, and a public drift corpus into one inspectable tool.",
+          "ja": "契約取得、CI差分、実行時強制、公開ドリフトコーパスを一つの検査可能なツールにまとめる。"
+        },
+        {
+          "en": "Its measurements and overhead claims are author-run, adoption is minimal, and independent tools already provide the core control.",
+          "ja": "測定値とオーバーヘッド主張は作者実施で、採用実績は乏しく、核心制御は独立ツールにも存在する。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes.",
+          "ja": "この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "rugsnare-contract-drift"
+        ],
+        "collectedAt": "2026-10-17",
+        "method": {
+          "en": "Reviewed the first-party artifact and separated its author-run measurements from independent sibling implementations. No MCP server or tool was installed.",
+          "ja": "一次成果物を確認し、作者実施測定を独立した同等実装と分離。MCPサーバーやツールは導入していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-17",
+          "event": {
+            "en": "Added at WATCH with a bounded recommendation; attention and public artifacts do not establish local reliability or fit.",
+            "ja": "WATCHへ限定的推奨付きで追加。注目と公開成果物はローカル信頼性や適合性を証明しない。"
+          },
+          "scores": {
+            "frontier": 86,
+            "adoption": 44,
+            "fit": 88,
+            "confidence": 82
+          }
+        }
+      ]
+    },
+    {
+      "id": "mcp-contract-integrity",
+      "name": {
+        "en": "MCP contract integrity",
+        "ja": "MCP契約完全性"
+      },
+      "kind": "concept",
+      "atlasTermIds": [
+        "mcp",
+        "guardrail",
+        "policy-enforcement"
+      ],
+      "scores": {
+        "frontier": 94,
+        "adoption": 64,
+        "fit": 96,
+        "confidence": 92
+      },
+      "recommendation": {
+        "en": "PILOT contract pinning on one non-production remote MCP server; version names, descriptions, input/output schemas, review diffs, block behavior, and recovery while retaining behavioral tests and egress controls.",
+        "ja": "非本番の遠隔MCPサーバー1件で契約固定をPILOT。名称、説明、入出力スキーマ、差分レビュー、遮断動作、復旧を版管理し、動作試験と外向き通信制御も維持する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Independent CI and runtime implementations make advertised instruction and schema changes reviewable even when a declared version does not move.",
+          "ja": "独立したCI・実行時実装により、宣言版が変わらなくても公開指示とスキーマ変更をレビュー可能にする。"
+        },
+        {
+          "en": "Structural pins cannot detect backend behavior changes behind an unchanged contract and may block harmless evolution until re-approved.",
+          "ja": "構造固定は不変契約の背後で変わる動作を検知できず、無害な進化も再承認まで止め得る。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "RugSnare",
+          "vendor": "Paraphern",
+          "organizationId": "paraphern-rugsnare",
+          "access": "open CLI, contract corpus, CI and runtime enforcement",
+          "sourceIds": [
+            "rugsnare-contract-drift"
+          ]
+        },
+        {
+          "name": "mcpward",
+          "vendor": "mcpward contributors",
+          "organizationId": "mcpward",
+          "access": "open lockfile, contract, security, and CI checks",
+          "sourceIds": [
+            "mcpward-repo"
+          ]
+        },
+        {
+          "name": "mcpindex gate",
+          "vendor": "mcpindex",
+          "organizationId": "mcpindex",
+          "access": "public drift census and hosted runtime gate methodology",
+          "sourceIds": [
+            "mcpindex-drift-report"
+          ]
+        },
+        {
+          "name": "MCP Hangar digest pins",
+          "vendor": "MCP Hangar",
+          "organizationId": "mcp-hangar",
+          "access": "runtime digest pinning, refusal, CI check, and audit records",
+          "sourceIds": [
+            "mcp-hangar-digest-pin"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes.",
+          "ja": "この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "rugsnare-contract-drift",
+          "mcpward-repo",
+          "mcpindex-drift-report",
+          "mcp-hangar-digest-pin"
+        ],
+        "collectedAt": "2026-10-17",
+        "method": {
+          "en": "Compared four independently operated snapshot, lockfile, CI, and runtime-gate implementations and their stated blind spots. No software was installed.",
+          "ja": "独立運営される4つのスナップショット、ロックファイル、CI、実行時ゲート実装と明記された盲点を比較。ソフトウェアは導入していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-17",
+          "event": {
+            "en": "Added at PILOT with a bounded recommendation; attention and public artifacts do not establish local reliability or fit.",
+            "ja": "PILOTへ限定的推奨付きで追加。注目と公開成果物はローカル信頼性や適合性を証明しない。"
+          },
+          "scores": {
+            "frontier": 94,
+            "adoption": 64,
+            "fit": 96,
+            "confidence": 92
+          }
+        }
+      ]
+    },
+    {
+      "id": "bounded-agentic-delivery",
+      "name": {
+        "en": "Bounded agentic delivery",
+        "ja": "境界付きエージェント納品"
+      },
+      "kind": "concept",
+      "atlasTermIds": [
+        "agent-harness",
+        "eval-driven-development",
+        "approval-gate",
+        "human-on-the-loop"
+      ],
+      "scores": {
+        "frontier": 92,
+        "adoption": 66,
+        "fit": 98,
+        "confidence": 90
+      },
+      "recommendation": {
+        "en": "PILOT one 10–20-ticket release against the normal agent-assisted PR workflow; predeclare mission exclusions, holdouts, retry limits, escalation, promotion authority, escaped defects, review time, and rework.",
+        "ja": "10～20チケットのリリース1件を通常のエージェント支援PR手順と比較PILOT。使命外事項、留保試験、再試行上限、エスカレーション、昇格権限、流出欠陥、レビュー時間、手戻りを事前定義する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "The model keeps autonomous execution while moving intent, acceptance, retry limits, and promotion outside the worker loop.",
+          "ja": "自律実行を維持しつつ、意図、受入、再試行上限、昇格をワーカーループ外へ移す。"
+        },
+        {
+          "en": "The controls are established individually, but evidence that the complete factory model beats ordinary agent-assisted PR delivery remains anecdotal.",
+          "ja": "各制御は個別には確立しているが、工場モデル全体が通常のエージェント支援PR納品を上回る証拠は逸話的。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "AI Software Factory",
+          "vendor": "Cole Medin / Archon contributors",
+          "organizationId": "coleam-archon",
+          "access": "public issue-to-merge workflow with mission, holdout, bounded repair, and merge gates",
+          "sourceIds": [
+            "ai-software-factory-repo"
+          ]
+        },
+        {
+          "name": "GitHub Agentic Workflows",
+          "vendor": "GitHub",
+          "organizationId": "github",
+          "access": "open Git-backed queues, ledgers, graders, routing, spend visibility, and sandbox controls",
+          "sourceIds": [
+            "github-agentic-workflows-2026-10-12"
+          ]
+        },
+        {
+          "name": "Claude Managed Agents workflows",
+          "vendor": "Anthropic",
+          "organizationId": "anthropic",
+          "access": "hosted beta with persistent event history, evaluation steps, and managed or self-hosted sandboxes",
+          "sourceIds": [
+            "anthropic-managed-agent-workflows"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes.",
+          "ja": "この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "dark-factory-considered-harmful",
+          "craft-vs-cruft-dark-factory",
+          "ai-software-factory-repo",
+          "github-agentic-workflows-2026-10-12",
+          "anthropic-managed-agent-workflows",
+          "openai-harness"
+        ],
+        "collectedAt": "2026-10-17",
+        "method": {
+          "en": "Compared two independent practitioner critiques with three operated workflow families and OpenAI harness guidance. No factory workload was run.",
+          "ja": "独立した2件の実務家批判を3つの運用ワークフロー群とOpenAIハーネス指針に比較。工場ワークロードは実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-17",
+          "event": {
+            "en": "Added at PILOT with a bounded recommendation; attention and public artifacts do not establish local reliability or fit.",
+            "ja": "PILOTへ限定的推奨付きで追加。注目と公開成果物はローカル信頼性や適合性を証明しない。"
+          },
+          "scores": {
+            "frontier": 92,
+            "adoption": 66,
+            "fit": 98,
+            "confidence": 90
+          }
+        }
+      ]
+    },
+    {
+      "id": "esp32-iphone-agent",
+      "name": {
+        "en": "ESP32 iPhone Agent",
+        "ja": "ESP32 iPhone Agent"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "computer-use",
+        "agent-loop"
+      ],
+      "scores": {
+        "frontier": 88,
+        "adoption": 58,
+        "fit": 72,
+        "confidence": 84
+      },
+      "recommendation": {
+        "en": "PILOT only on a resettable iPhone with no personal credentials; publish task success, latency, failure classes, sensitive-screen exclusions, recovery, and model/network dependence.",
+        "ja": "個人資格情報のない初期化可能iPhoneでのみPILOT。課題成功率、遅延、障害分類、機密画面除外、復旧、モデル・通信依存を記録する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "AirPlay plus USB HID exercises a real physical device without jailbreak or a continuously attached Mac, and the hardware boundary is inexpensive.",
+          "ja": "AirPlayとUSB HIDで脱獄や常時接続Macなしに物理実機を操作でき、ハードウェア境界も低価格。"
+        },
+        {
+          "en": "Vision-only targeting, mirror-restricted screens, frame rate, resolution, cellular dependence, and project-authored demos limit reliability claims.",
+          "ja": "視覚のみの照準、ミラー制限画面、フレーム率、解像度、携帯回線依存、作者デモにより信頼性主張は限定される。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes.",
+          "ja": "この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "esp32-iphone-agent-repo"
+        ],
+        "collectedAt": "2026-10-17",
+        "method": {
+          "en": "Reviewed the first-party physical-device architecture and challenged it against independent XCTest/CoreDevice paths. No board, phone, app, or model was exercised.",
+          "ja": "一次の実機構成を確認し、独立したXCTest/CoreDevice経路と比較。ボード、電話、アプリ、モデルは実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-17",
+          "event": {
+            "en": "Added at PILOT with a bounded recommendation; attention and public artifacts do not establish local reliability or fit.",
+            "ja": "PILOTへ限定的推奨付きで追加。注目と公開成果物はローカル信頼性や適合性を証明しない。"
+          },
+          "scores": {
+            "frontier": 88,
+            "adoption": 58,
+            "fit": 72,
+            "confidence": 84
           }
         }
       ]

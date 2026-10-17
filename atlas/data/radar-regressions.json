@@ -211,6 +211,48 @@
         "tencent-amap-agent-fleet",
         "openai-huggingface-incident"
       ]
+    },
+    {
+      "id": "rugsnare-contract-integrity-named-category-split",
+      "type": "named-category-split",
+      "namedEntityId": "rugsnare",
+      "categoryId": "mcp-contract-integrity",
+      "competitorSourceId": "mcpward-repo",
+      "expectedCategoryStage": "pilot"
+    },
+    {
+      "id": "mcp-contract-integrity-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "mcp-contract-integrity",
+      "minimumIndependentOrganizations": 4,
+      "requiredOrganizationIds": [
+        "paraphern-rugsnare",
+        "mcpward",
+        "mcpindex",
+        "mcp-hangar"
+      ],
+      "requiredSourceIds": [
+        "rugsnare-contract-drift",
+        "mcpward-repo",
+        "mcpindex-drift-report",
+        "mcp-hangar-digest-pin"
+      ]
+    },
+    {
+      "id": "bounded-agentic-delivery-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "bounded-agentic-delivery",
+      "minimumIndependentOrganizations": 3,
+      "requiredOrganizationIds": [
+        "coleam-archon",
+        "github",
+        "anthropic"
+      ],
+      "requiredSourceIds": [
+        "ai-software-factory-repo",
+        "github-agentic-workflows-2026-10-12",
+        "anthropic-managed-agent-workflows"
+      ]
     }
   ]
 }

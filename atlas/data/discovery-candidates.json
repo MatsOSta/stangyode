@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-15",
+  "generatedAt": "2026-10-17",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -1877,6 +1877,352 @@
           "sourceIds": [
             "openai-huggingface-incident"
           ]
+        }
+      ]
+    },
+    {
+      "id": "rugsnare",
+      "names": [
+        "RugSnare",
+        "Rugsnare"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-mcp-contract-integrity-tool",
+      "whyInteresting": {
+        "en": "RugSnare makes advertised MCP tool-contract changes reviewable and enforceable, but its field counts are author-produced and the control is independently commoditized.",
+        "ja": "RugSnareは公開MCPツール契約の変更をレビュー・強制可能にするが、現場件数は作者報告であり、制御自体は独立実装によりコモディティ化している。"
+      },
+      "firstObserved": "2026-10-17",
+      "lastObserved": "2026-10-17",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "rugsnare",
+      "atlasTermIds": [
+        "mcp",
+        "guardrail",
+        "policy-enforcement"
+      ],
+      "judgment": {
+        "substance": 88,
+        "hype": 78,
+        "fieldImportance": 90,
+        "relevance": 90,
+        "evidenceDiversity": 70,
+        "momentum": 88
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/Paraphern/rugsnare/blob/main/docs/blog/2026-10-17-mcp-contract-drift.md",
+          "date": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "mcp-contract-integrity",
+      "names": [
+        "MCP contract integrity",
+        "MCP contract pinning"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "durableConcept": "Version, diff, review, and optionally block changes to advertised MCP tool contracts independently of server release labels.",
+      "whyInteresting": {
+        "en": "Four independent implementations converge on snapshots, lockfiles, CI diffs, or runtime digest gates for MCP contracts while all retain a blind spot for unchanged contracts with changed behavior.",
+        "ja": "4つの独立実装がMCP契約のスナップショット、ロックファイル、CI差分、実行時ダイジェストゲートへ収束する一方、契約を変えず動作だけ変える場合は共通の盲点として残る。"
+      },
+      "firstObserved": "2026-10-17",
+      "lastObserved": "2026-10-17",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "mcp-contract-integrity",
+      "atlasTermIds": [
+        "mcp",
+        "guardrail",
+        "policy-enforcement"
+      ],
+      "judgment": {
+        "substance": 94,
+        "hype": 86,
+        "fieldImportance": 94,
+        "relevance": 94,
+        "evidenceDiversity": 94,
+        "momentum": 92
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/Paraphern/rugsnare/blob/main/docs/blog/2026-10-17-mcp-contract-drift.md",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/TsvetanG2/mcpward",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://mcpindex.ai/drift-report",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://mcp-hangar.io/learn/detect-and-block-mcp-tool-rug-pulls",
+          "date": "2026-10-17"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "RugSnare",
+          "vendor": "Paraphern",
+          "organizationId": "paraphern-rugsnare",
+          "access": "open CLI, contract corpus, CI and runtime enforcement",
+          "sourceIds": [
+            "rugsnare-contract-drift"
+          ]
+        },
+        {
+          "name": "mcpward",
+          "vendor": "mcpward contributors",
+          "organizationId": "mcpward",
+          "access": "open lockfile, contract, security, and CI checks",
+          "sourceIds": [
+            "mcpward-repo"
+          ]
+        },
+        {
+          "name": "mcpindex gate",
+          "vendor": "mcpindex",
+          "organizationId": "mcpindex",
+          "access": "public drift census and hosted runtime gate methodology",
+          "sourceIds": [
+            "mcpindex-drift-report"
+          ]
+        },
+        {
+          "name": "MCP Hangar digest pins",
+          "vendor": "MCP Hangar",
+          "organizationId": "mcp-hangar",
+          "access": "runtime digest pinning, refusal, CI check, and audit records",
+          "sourceIds": [
+            "mcp-hangar-digest-pin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bounded-agentic-delivery",
+      "names": [
+        "bounded agentic delivery",
+        "release-sized AI software factory"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "durableConcept": "Constrain autonomous delivery to explicit mission boundaries, release-sized batches, independent acceptance, bounded repair, staged promotion, and human escalation.",
+      "whyInteresting": {
+        "en": "Independent practitioners and three operated workflow families converge on external intent, deterministic gates, independent evaluation, retry limits, and promotion authority outside the worker loop.",
+        "ja": "独立した実務家と3つの運用ワークフロー群が、外部化された意図、決定論的ゲート、独立評価、再試行上限、ワーカーループ外の昇格権限へ収束している。"
+      },
+      "firstObserved": "2026-10-17",
+      "lastObserved": "2026-10-17",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "bounded-agentic-delivery",
+      "atlasTermIds": [
+        "agent-harness",
+        "eval-driven-development",
+        "approval-gate",
+        "human-on-the-loop"
+      ],
+      "judgment": {
+        "substance": 92,
+        "hype": 90,
+        "fieldImportance": 96,
+        "relevance": 98,
+        "evidenceDiversity": 88,
+        "momentum": 94
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.youtube.com/watch?v=GQatuTWSRqY",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.youtube.com/watch?v=FcIYAkvMuIY",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/coleam00/ai-software-factory",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://developers.openai.com/blog/codex-as-a-platform",
+          "date": "2026-10-17"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "AI Software Factory",
+          "vendor": "Cole Medin / Archon contributors",
+          "organizationId": "coleam-archon",
+          "access": "public issue-to-merge workflow with mission, holdout, bounded repair, and merge gates",
+          "sourceIds": [
+            "ai-software-factory-repo"
+          ]
+        },
+        {
+          "name": "GitHub Agentic Workflows",
+          "vendor": "GitHub",
+          "organizationId": "github",
+          "access": "open Git-backed queues, ledgers, graders, routing, spend visibility, and sandbox controls",
+          "sourceIds": [
+            "github-agentic-workflows-2026-10-12"
+          ]
+        },
+        {
+          "name": "Claude Managed Agents workflows",
+          "vendor": "Anthropic",
+          "organizationId": "anthropic",
+          "access": "hosted beta with persistent event history, evaluation steps, and managed or self-hosted sandboxes",
+          "sourceIds": [
+            "anthropic-managed-agent-workflows"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esp32-iphone-agent",
+      "names": [
+        "ESP32 iPhone Agent"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-physical-device-agent-control",
+      "whyInteresting": {
+        "en": "AirPlay vision and USB HID actions put an agent loop onto a physical iPhone without jailbreak or a continuously attached Mac, but task reliability and sensitive-screen coverage are not independently measured.",
+        "ja": "AirPlay視覚とUSB HID操作により、脱獄や常時接続Macなしで物理iPhoneにエージェントループを載せるが、課題信頼性と機密画面範囲は独立測定されていない。"
+      },
+      "firstObserved": "2026-10-17",
+      "lastObserved": "2026-10-17",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "esp32-iphone-agent",
+      "atlasTermIds": [
+        "computer-use",
+        "agent-loop"
+      ],
+      "judgment": {
+        "substance": 86,
+        "hype": 96,
+        "fieldImportance": 82,
+        "relevance": 72,
+        "evidenceDiversity": 76,
+        "momentum": 98
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://blog.leeguoo.com/en/posts/iphone-use/",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/garrytan/gstack/blob/main/docs/howto-ios-testing-with-gstack.md",
+          "date": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "agent-engineering",
+      "names": [
+        "Agent Engineering"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-practice-bundle",
+      "whyInteresting": {
+        "en": "The label usefully groups prompt, context, harness, memory, loop, evaluation, protocol, and code engineering, but it overlaps existing disciplines and lacks a stable professional boundary.",
+        "ja": "この名称はプロンプト、文脈、ハーネス、記憶、ループ、評価、プロトコル、コード工学を有用に束ねるが、既存分野と重なり、職能境界も未確立。"
+      },
+      "firstObserved": "2026-10-17",
+      "lastObserved": "2026-10-17",
+      "lifecycle": "monitor",
+      "evidenceState": "partially-verified",
+      "atlasTermIds": [
+        "agentic-engineering",
+        "harness-engineering"
+      ],
+      "judgment": {
+        "substance": 80,
+        "hype": 84,
+        "fieldImportance": 86,
+        "relevance": 88,
+        "evidenceDiversity": 72,
+        "momentum": 88
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://agentengineering.world",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://developers.openai.com/blog/codex-as-a-platform",
+          "date": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "graft-git-ai",
+      "names": [
+        "Graft",
+        "git-ai"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-agent-scale-source-control",
+      "whyInteresting": {
+        "en": "Graft makes Scion-inspired machine-contributor identity, changesets, batch landing, and server verification inspectable, but operational recovery, compatibility, and comparative results remain project-authored.",
+        "ja": "GraftはScion着想の機械貢献者ID、変更セット、一括着地、サーバー検証を検査可能にするが、運用復旧、互換性、比較結果はプロジェクト作者報告のまま。"
+      },
+      "firstObserved": "2026-10-17",
+      "lastObserved": "2026-10-17",
+      "lifecycle": "monitor",
+      "evidenceState": "partially-verified",
+      "atlasTermIds": [
+        "agentic-coding",
+        "artifact"
+      ],
+      "judgment": {
+        "substance": 82,
+        "hype": 88,
+        "fieldImportance": 86,
+        "relevance": 62,
+        "evidenceDiversity": 66,
+        "momentum": 90
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/feder-cr/git-ai",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "date": "2026-10-17"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://about.gitlab.com/topics/source-code-management/next-gen-source-code-management",
+          "date": "2026-10-17"
         }
       ]
     }
