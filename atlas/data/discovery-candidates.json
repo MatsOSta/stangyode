@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-17",
+  "generatedAt": "2026-10-19",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -773,11 +773,11 @@
       "kindGuess": "category",
       "durableConcept": "Observe agent effects from an evaluator-controlled boundary rather than trusting self-reported trajectories or final outputs alone",
       "whyInteresting": {
-        "en": "Independent OS/network observation and domain-runtime probes both expose behavior missed by outcome-only or model-judged evaluation.",
-        "ja": "独立したOS・ネットワーク観測と領域実行時プローブの双方が、成果物のみ・モデル判定のみの評価が見逃す挙動を示す。"
+        "en": "Independent OS/network capture, deterministic runtime probes, and versioned harness tests expose behavior missed by outcome-only or model-judged evaluation.",
+        "ja": "独立したOS・ネットワーク取得、決定論的実行時プローブ、版管理ハーネス試験が、成果物のみ・モデル判定のみの評価が見逃す挙動を示す。"
       },
       "firstObserved": "2026-10-10",
-      "lastObserved": "2026-10-10",
+      "lastObserved": "2026-10-19",
       "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "agent-independent-execution-evidence",
@@ -790,8 +790,8 @@
         "hype": 58,
         "fieldImportance": 92,
         "relevance": 90,
-        "evidenceDiversity": 78,
-        "momentum": 84
+        "evidenceDiversity": 90,
+        "momentum": 92
       },
       "observations": [
         {
@@ -803,6 +803,11 @@
           "sensor": "preprint",
           "url": "https://arxiv.org/abs/2609.33678",
           "date": "2026-10-10"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://agenticbench.org/method.html",
+          "date": "2026-10-19"
         }
       ],
       "implementations": [
@@ -822,6 +827,16 @@
           "access": "research benchmark described in a public preprint",
           "sourceIds": [
             "swe-game-paper"
+          ]
+        },
+        {
+          "name": "AgenticBench",
+          "vendor": "Agentic Thinking",
+          "organizationId": "agentic-thinking",
+          "access": "public versioned harness tests with captured system-call, model-request, and network evidence",
+          "sourceIds": [
+            "agenticbench-home",
+            "agenticbench-method"
           ]
         }
       ]
@@ -1788,8 +1803,8 @@
         "ja": "隔離された実行可能fixtureが450課題で機能成功と安全成功を分離し、単一公開ベンチマークを認証扱いせず安全回帰を再生可能にする。"
       },
       "firstObserved": "2026-10-16",
-      "lastObserved": "2026-10-16",
-      "lifecycle": "enter-radar",
+      "lastObserved": "2026-10-19",
+      "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "lscbench",
       "atlasTermIds": [
@@ -1893,8 +1908,8 @@
         "ja": "RugSnareは公開MCPツール契約の変更をレビュー・強制可能にするが、現場件数は作者報告であり、制御自体は独立実装によりコモディティ化している。"
       },
       "firstObserved": "2026-10-17",
-      "lastObserved": "2026-10-17",
-      "lifecycle": "enter-radar",
+      "lastObserved": "2026-10-19",
+      "lifecycle": "remain-radar",
       "evidenceState": "partially-verified",
       "radarSignalId": "rugsnare",
       "atlasTermIds": [
@@ -1907,7 +1922,7 @@
         "hype": 78,
         "fieldImportance": 90,
         "relevance": 90,
-        "evidenceDiversity": 70,
+        "evidenceDiversity": 78,
         "momentum": 88
       },
       "observations": [
@@ -2223,6 +2238,144 @@
           "sensor": "primary-docs",
           "url": "https://about.gitlab.com/topics/source-code-management/next-gen-source-code-management",
           "date": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "sphinx",
+      "names": [
+        "Sphinx"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-human-comprehension-gate",
+      "whyInteresting": {
+        "en": "A local pre-push reviewer asks developers about behavior, invariants, and failure modes in their diff; several independent siblings show the mechanism is useful but already commoditizing.",
+        "ja": "ローカルのpush前レビューが差分の動作、不変条件、障害モードを開発者へ質問する。複数の独立同等実装が有用性と同時にコモディティ化を示す。"
+      },
+      "firstObserved": "2026-10-19",
+      "lastObserved": "2026-10-19",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "sphinx",
+      "atlasTermIds": [
+        "approval-gate",
+        "human-in-the-loop-hitl",
+        "agentic-coding"
+      ],
+      "judgment": {
+        "substance": 86,
+        "hype": 88,
+        "fieldImportance": 88,
+        "relevance": 96,
+        "evidenceDiversity": 82,
+        "momentum": 94
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/parthh01/sphinx",
+          "date": "2026-10-19"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://sphinx-ci.dev/",
+          "date": "2026-10-19"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/akshan-main/vibe-check",
+          "date": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "harness2",
+      "names": [
+        "Harness²",
+        "Harness2"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-recursive-harness-framework",
+      "whyInteresting": {
+        "en": "It makes prompts, guardrails, memory, tool guidance, subagents, skills, scripts, and plugins recursively editable while model weights stay fixed, but cost and gains remain project-evaluated.",
+        "ja": "モデル重みを固定したまま、プロンプト、ガードレール、メモリ、ツール指針、サブエージェント、スキル、スクリプト、プラグインを再帰的に編集可能にするが、費用と改善値はプロジェクト評価のまま。"
+      },
+      "firstObserved": "2026-10-19",
+      "lastObserved": "2026-10-19",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "harness2",
+      "atlasTermIds": [
+        "agent-harness",
+        "agent-loop",
+        "eval-evaluation"
+      ],
+      "judgment": {
+        "substance": 92,
+        "hype": 92,
+        "fieldImportance": 94,
+        "relevance": 92,
+        "evidenceDiversity": 70,
+        "momentum": 94
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/google-research/harness2",
+          "date": "2026-10-19"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.14224",
+          "date": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "agenticbench",
+      "names": [
+        "AgenticBench",
+        "AgenticBench.org"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-agent-harness-benchmark",
+      "whyInteresting": {
+        "en": "It compares coding-agent harness versions using evaluator-captured system calls, model requests, and network traffic rather than vendor claims, while initial cells remain single runs.",
+        "ja": "ベンダー主張ではなく評価者取得のシステムコール、モデル要求、ネットワーク通信でコーディングエージェントのハーネス版を比較するが、初期セルは各1回実行に留まる。"
+      },
+      "firstObserved": "2026-10-19",
+      "lastObserved": "2026-10-19",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "agenticbench",
+      "atlasTermIds": [
+        "agent-observability",
+        "eval-evaluation",
+        "agent-harness"
+      ],
+      "judgment": {
+        "substance": 90,
+        "hype": 76,
+        "fieldImportance": 94,
+        "relevance": 94,
+        "evidenceDiversity": 82,
+        "momentum": 88
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://agenticbench.org/",
+          "date": "2026-10-19"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://agenticbench.org/method.html",
+          "date": "2026-10-19"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.07639",
+          "date": "2026-10-19"
         }
       ]
     }

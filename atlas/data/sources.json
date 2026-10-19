@@ -1334,5 +1334,69 @@
       "en": "Independent real-device iOS QA path using a signed debug bridge and CoreDevice transport.",
       "ja": "署名済みデバッグブリッジとCoreDevice転送を使う独立した実機iOS QA経路。"
     }
+  },
+  "sphinx-repo": {
+    "title": "Sphinx — code-comprehension gate",
+    "url": "https://github.com/parthh01/sphinx",
+    "note": {
+      "en": "First-party implementation and synthetic evaluation for a local pre-push comprehension quiz; explicitly not a code audit or security control.",
+      "ja": "ローカルのpush前理解度クイズの一次実装と合成評価。コード監査や安全制御ではないと明記している。"
+    }
+  },
+  "sphinx-ci": {
+    "title": "sphinx-ci — code comprehension quizzes before merge",
+    "url": "https://sphinx-ci.dev/",
+    "note": {
+      "en": "Independent PR-level sibling implementation with configurable quizzes, merge gating, and fail-open behavior.",
+      "ja": "設定可能なクイズ、マージゲート、fail-open動作を備える独立したPR段階の同等実装。"
+    }
+  },
+  "vibe-check-repo": {
+    "title": "VibeCheck — diff comprehension checks",
+    "url": "https://github.com/akshan-main/vibe-check",
+    "note": {
+      "en": "Independent local and CI sibling implementation for diff-grounded comprehension questions, with an explicit skip path.",
+      "ja": "差分に基づく理解度質問をローカルとCIで行い、明示的なスキップ経路も持つ独立実装。"
+    }
+  },
+  "harness2-repo": {
+    "title": "Harness² repository",
+    "url": "https://github.com/google-research/harness2",
+    "note": {
+      "en": "First-party recursive harness framework exposing eight editable components while keeping model weights fixed; published results are project-authored.",
+      "ja": "モデル重みを固定し8つの編集可能要素を公開する一次の再帰的ハーネス基盤。公開結果はプロジェクト作者による。"
+    }
+  },
+  "harness2-paper": {
+    "title": "Harness²: Recursive Agent Harnessing for an Open World",
+    "url": "https://arxiv.org/abs/2610.14224",
+    "note": {
+      "en": "Project paper describing task-level and harnessing-level recursion, benchmark protocol, gains, and open-world generalization limits.",
+      "ja": "課題段階・ハーネス段階の再帰、評価手順、改善値、オープンワールド一般化の限界を記述するプロジェクト論文。"
+    }
+  },
+  "agenticbench-home": {
+    "title": "AgenticBench leaderboards",
+    "url": "https://agenticbench.org/",
+    "note": {
+      "en": "Independent harness leaderboard reporting versioned security and efficiency outcomes from evaluator-captured evidence.",
+      "ja": "評価者が取得した証拠から版ごとの安全性・効率結果を報告する独立ハーネス順位表。"
+    }
+  },
+  "agenticbench-method": {
+    "title": "AgenticBench method",
+    "url": "https://agenticbench.org/method.html",
+    "note": {
+      "en": "Public method for scoring model requests, system calls, network traffic, controls, and missing evidence; initial cells are single runs.",
+      "ja": "モデル要求、システムコール、ネットワーク通信、制御、欠落証拠の公開採点手法。初期セルは各1回実行。"
+    }
+  },
+  "harnesssecurity-paper": {
+    "title": "HarnessSecurity-Bench",
+    "url": "https://arxiv.org/abs/2610.07639",
+    "note": {
+      "en": "Independent sibling benchmark using deterministic utility and attack-effect oracles across coding-agent harness controls.",
+      "ja": "コーディングエージェントのハーネス制御を、決定論的な有用性・攻撃影響oracleで測る独立した同等ベンチマーク。"
+    }
   }
 }

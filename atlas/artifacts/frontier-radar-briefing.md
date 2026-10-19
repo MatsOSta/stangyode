@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-17
+Snapshot / スナップショット: 2026-10-19
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,11 +8,11 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-17T06:14:25.166Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-19T06:02:58.718Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: SUCCESS; last success 2026-10-17T06:14:25.166Z; failure streak 0
-- editor: SUCCESS; last success 2026-10-17T06:14:25.166Z; failure streak 0; last failure rate_limit at 2026-10-15T06:01:28.949Z (resolved)
+- scout: SUCCESS; last success 2026-10-19T06:02:58.718Z; failure streak 0
+- editor: SUCCESS; last success 2026-10-19T06:02:58.718Z; failure streak 0; last failure rate_limit at 2026-10-15T06:01:28.949Z (resolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
@@ -21,68 +21,61 @@ As of / 基準時刻: 2026-10-17T06:14:25.166Z; cadence / 頻度: daily; data / 
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
-- [MCP contract drift in the wild](https://github.com/Paraphern/rugsnare/blob/main/docs/blog/2026-10-17-mcp-contract-drift.md): relevant; checked 2026-10-17; source rugsnare-contract-drift
-- [mcpward — contract testing for MCP servers in CI](https://github.com/TsvetanG2/mcpward): relevant; checked 2026-10-17; source mcpward-repo
-- [The MCP Drift Report](https://mcpindex.ai/drift-report): relevant; checked 2026-10-17; source mcpindex-drift-report
-- [Detect and block MCP tool rug pulls](https://mcp-hangar.io/learn/detect-and-block-mcp-tool-rug-pulls): relevant; checked 2026-10-17; source mcp-hangar-digest-pin
-- [Dark Factory Considered Harmful](https://www.youtube.com/watch?v=GQatuTWSRqY): relevant; checked 2026-10-17; source dark-factory-considered-harmful
-- [Dark factory operating-model critique](https://www.youtube.com/watch?v=FcIYAkvMuIY): relevant; checked 2026-10-17; source craft-vs-cruft-dark-factory
-- [AI Software Factory](https://github.com/coleam00/ai-software-factory): relevant; checked 2026-10-17; source ai-software-factory-repo
-- [GitHub Agentic Workflows weekly update — October 12, 2026](https://github.github.com/gh-aw/blog/): relevant; checked 2026-10-17; source github-agentic-workflows-2026-10-12
-- [Claude Managed Agents workflow runs](https://platform.claude.com/docs/en/managed-agents/workflow-runs): relevant; checked 2026-10-17; source anthropic-managed-agent-workflows
-- [Codex as a platform: the open agent harness](https://developers.openai.com/blog/codex-as-a-platform): relevant; checked 2026-10-17; source openai-harness
-- [Agent Engineering London](https://agentengineering.world): relevant; checked 2026-10-17; source agent-engineering-world
-- [Graft / git-ai](https://github.com/feder-cr/git-ai): relevant; checked 2026-10-17; source graft-git-ai-repo
-- [Redesigning source control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control): relevant; checked 2026-10-17; source anthropic-scion
-- [GitLab next-generation source code management](https://about.gitlab.com/topics/source-code-management/next-gen-source-code-management): relevant; checked 2026-10-17; source gitlab-next-gen-scm
-- [ESP32 iPhone Agent](https://github.com/onehumanbeing/esp32-iphone-agent): relevant; checked 2026-10-17; source esp32-iphone-agent-repo
-- [iphone-use: let AI agents control a real iPhone](https://blog.leeguoo.com/en/posts/iphone-use/): relevant; checked 2026-10-17; source iphone-use-guide
-- [gstack iOS real-device QA guide](https://github.com/garrytan/gstack/blob/main/docs/howto-ios-testing-with-gstack.md): relevant; checked 2026-10-17; source gstack-ios-qa-guide
-- [Reverse Engineer Anything (REA)](https://github.com/morluto/rea): no-material-change; checked 2026-10-17; source rea-repo
-- [OpenAI Decisions API](https://developers.openai.com/api/docs/guides/decisions): no-material-change; checked 2026-10-17; source openai-decisions
-- [Context Mode repository](https://github.com/mksglu/context-mode): no-material-change; checked 2026-10-17; source context-mode-repo
-- [Last Secure Code Benchmark (LSCBench)](https://arxiv.org/abs/2610.14766): no-material-change; checked 2026-10-17; source lscbench-paper
-- [ReviewBench repository](https://github.com/review-bench/ReviewBench): no-material-change; checked 2026-10-17; source reviewbench-repo
-- [AgentSWE paper](https://arxiv.org/html/2610.13361v1): no-material-change; checked 2026-10-17; source agentswe-paper
-- [Minos paper repository](https://github.com/Leash-Labs/minos-paper): no-material-change; checked 2026-10-17; source minos-paper
+- [Sphinx — code-comprehension gate](https://github.com/parthh01/sphinx): relevant; checked 2026-10-19; source sphinx-repo
+- [sphinx-ci — code comprehension quizzes before merge](https://sphinx-ci.dev/): relevant; checked 2026-10-19; source sphinx-ci
+- [VibeCheck — diff comprehension checks](https://github.com/akshan-main/vibe-check): relevant; checked 2026-10-19; source vibe-check-repo
+- [Harness² repository](https://github.com/google-research/harness2): relevant; checked 2026-10-19; source harness2-repo
+- [Harness²: Recursive Agent Harnessing for an Open World](https://arxiv.org/abs/2610.14224): relevant; checked 2026-10-19; source harness2-paper
+- [Last Secure Code Benchmark (LSCBench)](https://arxiv.org/abs/2610.14766): relevant; checked 2026-10-19; source lscbench-paper
+- [LSCBench repository and Harbor fixtures](https://github.com/alibaba/last-secure-code-benchmark): relevant; checked 2026-10-19; source lscbench-repo
+- [AgenticBench leaderboards](https://agenticbench.org/): relevant; checked 2026-10-19; source agenticbench-home
+- [AgenticBench method](https://agenticbench.org/method.html): relevant; checked 2026-10-19; source agenticbench-method
+- [HarnessSecurity-Bench](https://arxiv.org/abs/2610.07639): relevant; checked 2026-10-19; source harnesssecurity-paper
+- [MCP contract drift in the wild](https://github.com/Paraphern/rugsnare/blob/main/docs/blog/2026-10-17-mcp-contract-drift.md): relevant; checked 2026-10-19; source rugsnare-contract-drift
+- [mcpward — contract testing for MCP servers in CI](https://github.com/TsvetanG2/mcpward): relevant; checked 2026-10-19; source mcpward-repo
+- [Reverse Engineer Anything (REA)](https://github.com/morluto/rea): no-material-change; checked 2026-10-19; source rea-repo
+- [OpenAI Decisions API](https://developers.openai.com/api/docs/guides/decisions): no-material-change; checked 2026-10-19; source openai-decisions
+- [Context Mode repository](https://github.com/mksglu/context-mode): no-material-change; checked 2026-10-19; source context-mode-repo
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
-RugSnare enters WATCH; MCP contract integrity, bounded agentic delivery, and ESP32 iPhone Agent enter bounded PILOT; Agent Engineering and Graft remain monitored without adoption promotion. / RugSnareをWATCHへ追加。MCP契約完全性、境界付きエージェント納品、ESP32 iPhone Agentを限定PILOTへ追加。Agent EngineeringとGraftは導入昇格なしで監視継続。
+Sphinx and Harness² enter bounded PILOT, AgenticBench enters WATCH and strengthens external execution evidence, LSCBench remains PILOT, and RugSnare advances to a comparison PILOT. / SphinxとHarness²を限定PILOTへ追加。AgenticBenchをWATCHへ追加し外部実行証拠を強化。LSCBenchはPILOTを維持し、RugSnareを比較PILOTへ昇格。
 
-Targets: rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent
+Targets: sphinx, harness2, lscbench, agenticbench, rugsnare, agent-independent-execution-evidence
 
-Evidence: rugsnare-contract-drift, dark-factory-considered-harmful, craft-vs-cruft-dark-factory, agent-engineering-world, graft-git-ai-repo, esp32-iphone-agent-repo
+Evidence: sphinx-repo, harness2-repo, harness2-paper, lscbench-paper, lscbench-repo, agenticbench-home, agenticbench-method, rugsnare-contract-drift
 
-- `exact-name release, alternatives, competitors, adoption, benchmark, criticism, and limitation checks for all five investigate-now artifacts`
-- `first-party artifact and limitation checks for each material intake item`
+- `Sphinx comprehension gate release alternatives adoption benchmark criticism`
+- `Harness2 recursive harness release competitors reproduction criticism`
+- `LSCBench secure coding benchmark alternatives replication`
+- `AgenticBench harness security methodology disclosures reproduction`
+- `RugSnare MCP contract drift alternatives adoption criticism`
 
-### MCP contract integrity first-party and sibling challenge / MCP契約完全性の一次情報・同等実装検証
-RugSnare supplies a useful author-run corpus, while three independent implementations confirm that contract pinning is a category rather than a unique product; unchanged-contract behavior remains outside structural coverage. / RugSnareは有用な作者実施コーパスを提供し、3つの独立実装が契約固定を固有製品ではなくカテゴリとして裏づける。不変契約の動作変化は構造検査の範囲外。
+### Sphinx first-party and sibling-implementation challenge / Sphinxの一次情報・同等実装検証
+The first-party mechanism is explicit and inspectable, while independent PR and local-hook siblings show that comprehension gating is not unique; bypassability, semantic grading, and outcome evidence remain limits. / 一次の仕組みは明示的で検査可能だが、独立したPR・ローカルhook実装により理解度ゲートは固有でない。迂回可能性、意味採点、成果証拠は限界として残る。
 
-Targets: rugsnare, mcp-contract-integrity
+Targets: sphinx
 
-Evidence: rugsnare-contract-drift, mcpward-repo, mcpindex-drift-report, mcp-hangar-digest-pin
+Evidence: sphinx-repo, sphinx-ci, vibe-check-repo
 
-- `RugSnare MCP contract drift criticism limitations alternatives`
-- `MCP tool contract schema snapshot drift CI lockfile runtime digest MCPWard mcpindex Hangar`
+- `Sphinx AI code comprehension gate alternatives Sphinx-CI VibeCheck GitHub`
+- `developer comprehension gate AI generated code quiz before commit alternatives GitHub`
 
-### Bounded delivery and physical-device sibling challenge / 境界付き納品・物理端末の同等実装検証
-Cross-vendor workflows support bounded delivery as an operating model without proving factory superiority; physical iOS control has independent implementation paths but lacks portable evaluation; Graft remains deferred. / 複数ベンダーのワークフローが運用モデルとして境界付き納品を支持するが、工場方式の優位性は未証明。物理iOS制御には独立実装経路があるが移植可能評価はなく、Graftは保留。
+### Recursive harness and external evidence challenge / 再帰ハーネス・外部証拠の検証
+Harness² exposes a concrete recursive control surface but lacks independent reproduction; AgenticBench and HarnessSecurity-Bench independently support evaluator-owned runtime evidence while measuring different boundaries. / Harness²は具体的な再帰制御面を公開するが独立再現はない。AgenticBenchとHarnessSecurity-Benchは異なる境界を測りつつ、評価者所有の実行時証拠を独立に支持する。
 
-Targets: bounded-agentic-delivery, esp32-iphone-agent, graft-git-ai
+Targets: harness2, agenticbench, agent-independent-execution-evidence
 
-Evidence: dark-factory-considered-harmful, craft-vs-cruft-dark-factory, ai-software-factory-repo, github-agentic-workflows-2026-10-12, anthropic-managed-agent-workflows, esp32-iphone-agent-repo, iphone-use-guide, gstack-ios-qa-guide, graft-git-ai-repo, anthropic-scion, gitlab-next-gen-scm
+Evidence: harness2-repo, harness2-paper, agenticbench-home, agenticbench-method, harnesssecurity-paper
 
-- `bounded AI software factory release tickets holdout tests retries escalation agent coding harness implementation`
-- `physical iOS agent control AirPlay HID XCTest CoreDevice alternatives limitations`
-- `Graft git-ai adoption benchmark criticism source-control recovery compatibility`
+- `Harness2 recursive harness optimization alternatives self improving agent harness implementation`
+- `AgenticBench external harness security benchmark alternatives captured system calls network traffic`
 
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -90,8 +83,8 @@ Evidence: dark-factory-considered-harmful, craft-vs-cruft-dark-factory, ai-softw
 - anthropic-context; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
 
 ### Findings and decisions / 発見と判断
-- material-finding; rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent: Attention shifted toward control surfaces: versioned MCP contracts, externally bounded delivery, machine-scale source control, and physical-device loops. Implementations are concrete, but product measurements, practitioner convergence, repository attention, and demos are not independent outcome proof. / 注目は制御面へ移動した。版管理MCP契約、外部境界付き納品、機械規模ソース管理、物理端末ループである。実装は具体的だが、製品測定、実務家の収束、リポジトリ注目、デモは独立した成果証明ではない。; evidence: rugsnare-contract-drift, mcpward-repo, mcpindex-drift-report, mcp-hangar-digest-pin, dark-factory-considered-harmful, craft-vs-cruft-dark-factory, ai-software-factory-repo, agent-engineering-world, graft-git-ai-repo, esp32-iphone-agent-repo, iphone-use-guide
-- editorial-decision; rugsnare, mcp-contract-integrity, bounded-agentic-delivery, esp32-iphone-agent, agent-engineering, graft-git-ai: Add RugSnare at WATCH and the MCP contract-integrity category at PILOT; add bounded agentic delivery and ESP32 iPhone Agent as bounded PILOTs; monitor Agent Engineering as terminology and defer Graft adoption pending independent operations evidence. / RugSnareをWATCH、MCP契約完全性カテゴリをPILOTへ追加。境界付きエージェント納品とESP32 iPhone Agentを限定PILOTへ追加。Agent Engineeringは用語として監視し、Graft導入は独立運用証拠まで保留。; evidence: rugsnare-contract-drift, mcpward-repo, mcpindex-drift-report, mcp-hangar-digest-pin, dark-factory-considered-harmful, craft-vs-cruft-dark-factory, github-agentic-workflows-2026-10-12, anthropic-managed-agent-workflows, esp32-iphone-agent-repo, graft-git-ai-repo
+- material-finding; sphinx, harness2, lscbench, agenticbench, agent-independent-execution-evidence, rugsnare: Attention converged on authority outside the model: human comprehension gates, recursive but measured harness changes, security acceptance, and evaluator-captured runtime evidence. The artifacts are concrete; most outcome claims remain author-run or single-run. / 注目はモデル外の権限へ収束した。人間理解度ゲート、測定付き再帰ハーネス変更、安全受入、評価者取得の実行時証拠である。成果物は具体的だが、多くの成果主張は作者実施または単回実行に留まる。; evidence: sphinx-repo, sphinx-ci, vibe-check-repo, harness2-repo, harness2-paper, lscbench-paper, agenticbench-home, agenticbench-method, harnesssecurity-paper, rugsnare-contract-drift
+- editorial-decision; sphinx, harness2, lscbench, agenticbench, agent-independent-execution-evidence, rugsnare: Add Sphinx and Harness² as bounded PILOTs; add AgenticBench at WATCH and as evidence for the existing external-execution category; retain LSCBench at PILOT; promote RugSnare to a bounded comparison PILOT without changing the MCP category. / SphinxとHarness²を限定PILOTへ追加。AgenticBenchをWATCHとし既存の外部実行証拠カテゴリの証拠へ追加。LSCBenchはPILOTを維持。MCPカテゴリは変更せずRugSnareを限定比較PILOTへ昇格。; evidence: sphinx-repo, sphinx-ci, harness2-repo, harness2-paper, lscbench-paper, agenticbench-method, harnesssecurity-paper, rugsnare-contract-drift, mcpward-repo
 
 ## Signals / シグナル
 
@@ -287,11 +280,12 @@ Evidence: dark-factory-considered-harmful, craft-vs-cruft-dark-factory, ai-softw
 - Recommendation / 推奨: WATCH and learn the pattern: collect evaluator-owned runtime evidence outside the agent before trusting self-reports or outcome-only checks; require a bounded local reproduction before PILOT. / パターンとしてWATCHし学習する。自己報告や成果物だけの検査を信頼する前に、評価者所有の実行時証拠をエージェント外部で収集する。PILOT前に限定的なローカル再現を必須とする。
 - Compatibility / 互換性: UNKNOWN — Neither implementation has been reproduced on a Stangyode coding-agent task, and their OS-level and game-runtime observation layers cover different domains. / どちらの実装もStangyodeのコーディングエージェント作業では再現しておらず、OS層とゲーム実行層という異なる領域を観測する。
 - Trade-offs / トレードオフ:
-  - OS/network observation and evaluator-owned probes reveal behavior that trajectories and final-result tests miss, but each observation boundary remains incomplete outside its domain. / OS・ネットワーク観測と評価者所有プローブは軌跡や最終結果テストが見逃す挙動を示すが、各観測境界は対象領域外では不完全。
+  - OS/network observation, deterministic probes, and versioned harness tests reveal behavior that trajectories and final-result tests miss, but each boundary remains incomplete. / OS・ネットワーク観測、決定論的プローブ、版管理ハーネス試験は軌跡や最終結果テストが見逃す挙動を示すが、各境界は不完全。
   - Deterministic evidence improves auditability, but isolated environments, instrumentation contracts, and semantic probes add cost and maintenance. / 決定論的証拠は監査可能性を高めるが、隔離環境、計測契約、意味プローブのコストと保守が増える。
-- Provenance / 来歴: discovery; partially-verified; 2026-10-10
+- Provenance / 来歴: discovery; partially-verified; 2026-10-19
 - History / 履歴:
   - 2026-10-10: Spawned as a category when AgentSpy and SWE-Game independently showed that externally collected runtime evidence catches behavior missed by self-reports, outcome tests, or video-only judging. / AgentSpyとSWE-Gameが、外部収集した実行時証拠は自己報告、成果物テスト、動画のみの判定が見逃す挙動を捉えると独立に示したためカテゴリ化。
+  - 2026-10-19: AgenticBench added as a third implementation; category scores stay unchanged because single-run public cells strengthen evidence diversity, not adoption readiness. / AgenticBenchを3つ目の実装として追加。公開セルは単回実行で、証拠多様性は強めるが導入準備度は高めないためスコアは据え置き。
 
 ### Pre-generation memory validity / 生成前メモリ有効性
 - Adoption stage / 導入段階: WATCH (46/100)
@@ -475,9 +469,9 @@ Evidence: dark-factory-considered-harmful, craft-vs-cruft-dark-factory, ai-softw
   - 2026-10-16: Added at WATCH with a bounded recommendation; evidence is concrete but not independent proof of local reliability or fit. / WATCHへ限定的推奨付きで追加。証拠は具体的だが、ローカル信頼性や適合性の独立証明ではない。
 
 ### RugSnare / RugSnare
-- Adoption stage / 導入段階: WATCH (44/100)
+- Adoption stage / 導入段階: PILOT (56/100)
 - Scores / スコア: frontier 86, fit 88, confidence 82
-- Recommendation / 推奨: WATCH the named tool; use a disposable server to compare its canonicalization, review ergonomics, false-positive handling, fail mode, and replay behavior before adoption. / 名称付きツールはWATCH。採用前に使い捨てサーバーで正規化、レビュー操作性、誤検知処理、失敗モード、再生動作を比較する。
+- Recommendation / 推奨: PILOT beside one independent contract-drift scanner on a disposable MCP server; compare canonicalization, false positives, fail mode, replay, operator time, and recovery. Do not treat either scanner as behavioral proof. / 使い捨てMCPサーバーで独立した契約ドリフト検査器1件と併用PILOT。正規化、誤検知、失敗モード、再生、運用時間、復旧を比較し、いずれも動作証明とは扱わない。
 - Compatibility / 互換性: UNKNOWN — No Stangyode workload has yet measured this candidate against its promised outcome, operational boundary, and failure modes. / この候補はStangyodeのワークロードで、期待成果、運用境界、障害モードに対してまだ測定していない。
 - Trade-offs / トレードオフ:
   - It packages contract capture, CI diffing, runtime enforcement, and a public drift corpus into one inspectable tool. / 契約取得、CI差分、実行時強制、公開ドリフトコーパスを一つの検査可能なツールにまとめる。
@@ -485,6 +479,7 @@ Evidence: dark-factory-considered-harmful, craft-vs-cruft-dark-factory, ai-softw
 - Provenance / 来歴: discovery; partially-verified; 2026-10-17
 - History / 履歴:
   - 2026-10-17: Added at WATCH with a bounded recommendation; attention and public artifacts do not establish local reliability or fit. / WATCHへ限定的推奨付きで追加。注目と公開成果物はローカル信頼性や適合性を証明しない。
+  - 2026-10-19: Advanced from WATCH to a bounded comparison PILOT after broader audit evidence; author-run measurements and unchanged-contract behavior remain unresolved. / 監査証拠の拡大によりWATCHから限定比較PILOTへ昇格。作者実施測定と不変契約の動作変化は未解決。
 
 ### MCP contract integrity / MCP契約完全性
 - Adoption stage / 導入段階: PILOT (64/100)
@@ -521,6 +516,42 @@ Evidence: dark-factory-considered-harmful, craft-vs-cruft-dark-factory, ai-softw
 - Provenance / 来歴: discovery; partially-verified; 2026-10-17
 - History / 履歴:
   - 2026-10-17: Added at PILOT with a bounded recommendation; attention and public artifacts do not establish local reliability or fit. / PILOTへ限定的推奨付きで追加。注目と公開成果物はローカル信頼性や適合性を証明しない。
+
+### Sphinx / Sphinx
+- Adoption stage / 導入段階: PILOT (56/100)
+- Scores / スコア: frontier 86, fit 96, confidence 84
+- Recommendation / 推奨: PILOT optionally before PR submission on one low-risk repository; measure escaped defects, false blocks, bypasses, grading disagreements, and developer time. Never use it as a security control. / 低リスクrepository 1件でPR提出前の任意PILOT。流出欠陥、誤遮断、迂回、採点不一致、開発者時間を測る。安全制御には使わない。
+- Compatibility / 互換性: UNKNOWN — No Stangyode change has measured comprehension, defect escape, or interruption cost under this gate. / Stangyode変更で、このゲート下の理解度、欠陥流出、中断コストを測っていない。
+- Trade-offs / トレードオフ:
+  - It tests whether the submitting human can explain behavior, invariants, and failure modes rather than re-running another code-quality check. / 別のコード品質検査を繰り返すのではなく、提出者が動作、不変条件、障害モードを説明できるかを試す。
+  - It is bypassable, semantic grading can fail, synthetic evaluation does not prove fewer escaped defects, and multiple siblings already implement the same basic gate. / 迂回可能で意味採点は誤り得る。合成評価は流出欠陥減少を証明せず、同じ基本ゲートの同等実装も複数ある。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-19
+- History / 履歴:
+  - 2026-10-19: Added at bounded PILOT after first-party and sibling review; comprehension evidence is not code-correctness or security evidence. / 一次情報と同等実装の確認後、限定PILOTへ追加。理解度証拠はコード正当性や安全性の証拠ではない。
+
+### Harness² / Harness²
+- Adoption stage / 導入段階: PILOT (52/100)
+- Scores / スコア: frontier 92, fit 92, confidence 82
+- Recommendation / 推奨: PILOT only in a sealed benchmark with frozen model, executor, tasks, budget, and holdouts; record accepted harness edits, cost, regressions, and generalization to untouched tasks. / モデル、実行器、課題、予算、留保試験を固定した隔離ベンチマークでのみPILOT。採用されたハーネス変更、費用、回帰、未使用課題への一般化を記録する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has tested whether recursive harness edits generalize or justify their additional inference and review cost. / Stangyode作業で再帰的ハーネス変更の一般化や追加推論・レビュー費用の妥当性を試していない。
+- Trade-offs / トレードオフ:
+  - It exposes eight harness components and joins per-task refinement with persistent lessons while keeping model weights fixed. / モデル重みを固定しつつ8つのハーネス要素を公開し、課題ごとの改善と永続的教訓を接続する。
+  - Published gains and cost are project-authored, no formal release exists, and recursive optimization can overfit tasks or accumulate brittle controls. / 公開改善値と費用は作者評価で正式releaseもなく、再帰最適化は課題過適合や脆い制御の蓄積を招き得る。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-19
+- History / 履歴:
+  - 2026-10-19: Added at bounded PILOT; recursive harness modification is concrete, but generalization and cost require independent testing. / 限定PILOTへ追加。再帰的ハーネス変更は具体的だが、一般化と費用は独立試験が必要。
+
+### AgenticBench / AgenticBench
+- Adoption stage / 導入段階: WATCH (42/100)
+- Scores / スコア: frontier 90, fit 94, confidence 84
+- Recommendation / 推奨: WATCH and reproduce selected cells on pinned harness versions before relying on rankings; treat captured effects as versioned evidence, not a permanent product verdict. / WATCHし、順位に依存する前に固定したハーネス版で選択セルを再現する。取得された影響は版付き証拠であり恒久的製品判定ではない。
+- Compatibility / 互換性: UNKNOWN — No published cell has been rerun on this workstation, account model, or policy boundary. / 公開セルをこのworkstation、account形態、policy境界で再実行していない。
+- Trade-offs / トレードオフ:
+  - Evaluator-controlled captures can test whether approval, telemetry, and network controls behave as documented instead of trusting agent self-reports. / 評価者制御の取得により、エージェント自己報告を信じず、承認、遠隔測定、ネットワーク制御が文書通りか試せる。
+  - Initial cells are single runs, coverage is bounded, logged-in modes are limited, and newer harness versions can invalidate older rows. / 初期セルは単回実行で範囲も限定され、ログイン形態も限られ、新版ハーネスは旧行を陳腐化し得る。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-19
+- History / 履歴:
+  - 2026-10-19: Added at WATCH and linked to the existing agent-independent execution-evidence category; single-run cells preclude PILOT. / WATCHへ追加し既存のエージェント非依存実行証拠カテゴリへ接続。単回実行セルのためPILOTにはしない。
 
 ## GitHub discovery input / GitHub発見入力
 

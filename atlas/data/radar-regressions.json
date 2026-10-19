@@ -86,14 +86,16 @@
       "id": "execution-evidence-independent-implementations",
       "type": "category-evidence-threshold",
       "signalId": "agent-independent-execution-evidence",
-      "minimumIndependentOrganizations": 2,
+      "minimumIndependentOrganizations": 3,
       "requiredOrganizationIds": [
         "university-of-st-gallen",
-        "swe-game-research-collaboration"
+        "swe-game-research-collaboration",
+        "agentic-thinking"
       ],
       "requiredSourceIds": [
         "agent-spy-paper",
-        "swe-game-paper"
+        "swe-game-paper",
+        "agenticbench-method"
       ]
     },
     {

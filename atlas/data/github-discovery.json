@@ -58,25 +58,29 @@
       "targetId": "a2a",
       "status": "unverified",
       "repository": {
-        "fullName": "damianvtran/local-operator",
-        "url": "https://github.com/damianvtran/local-operator",
-        "description": "An open-source AI agent hub for your own machine: build organizations of collaborating agents that message each other, run in the background around the clock, and share your existing AI subscriptions.",
-        "stars": 218,
-        "forks": 35,
-        "language": "Python",
+        "fullName": "4thtech/agentlink",
+        "url": "https://github.com/4thtech/agentlink",
+        "description": "AgentLink by 4thTech — encrypted, provable exchange between AI agents via MCP. Free end-to-end messaging and files; on-chain proof of agreement. Pre-alpha, built in public.",
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
         "topics": [
           "agent-to-agent",
-          "agentic-ai",
-          "agents",
-          "ai",
-          "cli",
-          "llm",
-          "local",
-          "personal-assistants",
-          "proactive-ai"
+          "ai-agents",
+          "base",
+          "blockchain",
+          "built-in-public",
+          "cloudflare-workers",
+          "end-to-end-encryption",
+          "gnosis",
+          "mcp",
+          "model-context-protocol",
+          "nostr",
+          "notarization",
+          "typescript"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T05:30:12Z"
+        "pushedAt": "2026-10-19T05:53:26Z"
       }
     },
     {
@@ -84,31 +88,46 @@
       "targetId": "a2a",
       "status": "unverified",
       "repository": {
-        "fullName": "JasonDictos/network-claude-peers-mcp",
-        "url": "https://github.com/JasonDictos/network-claude-peers-mcp",
-        "description": "Networked MCP server that lets Claude Code sessions discover and message each other — across directories, machines, and Docker containers.",
-        "stars": 0,
+        "fullName": "kynoproj/kynomesh",
+        "url": "https://github.com/kynoproj/kynomesh",
+        "description": "Kubernetes-native platform for orchestrating distributed multi-agent systems.",
+        "stars": 16,
         "forks": 0,
-        "language": "TypeScript",
+        "language": "Go",
         "topics": [
-          "agent-communication",
+          "a2a",
+          "agent-mesh",
           "agent-to-agent",
-          "ai-agents",
-          "anthropic",
-          "bun",
-          "claude",
-          "claude-code",
-          "developer-tools",
-          "distributed-systems",
-          "docker",
-          "mcp",
-          "mcp-server",
-          "model-context-protocol",
-          "multi-agent",
-          "typescript"
+          "agents",
+          "ai",
+          "k8s",
+          "kubenetes",
+          "multi-agent"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T03:39:08Z"
+        "pushedAt": "2026-10-19T05:03:56Z"
+      }
+    },
+    {
+      "queryId": "a2a-query",
+      "targetId": "a2a",
+      "status": "unverified",
+      "repository": {
+        "fullName": "LionZLH/OnlyAi",
+        "url": "https://github.com/LionZLH/OnlyAi",
+        "description": "A minimal, token-efficient GitHub Discussions forum designed for AI agents",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "agent-to-agent",
+          "ai-agents",
+          "github-discussions",
+          "llm-forum",
+          "token-optimization"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-19T05:40:28Z"
       }
     },
     {
@@ -119,7 +138,7 @@
         "fullName": "openamer/openamer",
         "url": "https://github.com/openamer/openamer",
         "description": "Open-source self-improving AI agent for Windows: 5 native in-process ASI tools, one heartbeat over 10 subsystems (replaces ~84 cron jobs), and an A2A Global Mesh where every instance talks to every other instance. Apache-2.0, runs local.",
-        "stars": 6,
+        "stars": 8,
         "forks": 4,
         "language": "Python",
         "topics": [
@@ -145,7 +164,7 @@
           "windows"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T04:53:43Z"
+        "pushedAt": "2026-10-19T05:08:48Z"
       }
     },
     {
@@ -153,197 +172,176 @@
       "targetId": "a2a",
       "status": "unverified",
       "repository": {
-        "fullName": "ThomasMarcelis/agent-peers",
-        "url": "https://github.com/ThomasMarcelis/agent-peers",
-        "description": "Local agent-to-agent messaging for Claude Code and Codex. Codex MCP server and native Hermes plugin.",
-        "stars": 0,
-        "forks": 0,
-        "language": "JavaScript",
-        "topics": [
-          "agent-communication",
-          "agent-to-agent",
-          "agents",
-          "claude-code",
-          "codex",
-          "codex-cli",
-          "cross-session",
-          "hermes",
-          "hermes-plugin",
-          "ipc",
-          "mcp",
-          "mcp-server",
-          "multi-agent"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-17T04:47:57Z"
-      }
-    },
-    {
-      "queryId": "a2a-query",
-      "targetId": "a2a",
-      "status": "unverified",
-      "repository": {
-        "fullName": "web3wes/agentcomms",
-        "url": "https://github.com/web3wes/agentcomms",
-        "description": "Free, open, account-free communication utility for agents — signed sessions, AEAD, replay protection, and MCP",
-        "stars": 0,
-        "forks": 0,
-        "language": "Python",
-        "topics": [
-          "agent-communication",
-          "agent-to-agent",
-          "ai-agents",
-          "authenticated-encryption",
-          "cryptography",
-          "e2ee",
-          "ed25519",
-          "llm-agents",
-          "llms-txt",
-          "mcp",
-          "multi-agent-systems",
-          "x25519"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-17T05:22:57Z"
-      }
-    },
-    {
-      "queryId": "agent-skills-query",
-      "targetId": "agent-skills",
-      "status": "unverified",
-      "repository": {
-        "fullName": "celigo/ai",
-        "url": "https://github.com/celigo/ai",
-        "description": "Domain knowledge and tools for building Celigo integrations with AI coding assistants.",
-        "stars": 4,
-        "forks": 106,
-        "language": "JavaScript",
-        "topics": [
-          "agent-skills",
-          "ai",
-          "celigo",
-          "integrations",
-          "llm",
-          "mcp"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-17T06:01:04Z"
-      }
-    },
-    {
-      "queryId": "agent-skills-query",
-      "targetId": "agent-skills",
-      "status": "unverified",
-      "repository": {
-        "fullName": "JuneYaooo/capsule-cinema",
-        "url": "https://github.com/JuneYaooo/capsule-cinema",
-        "description": "Claude Opus 视频效果的稳定平替：用 Claude 创作出片一次，蒸馏成视频配方，其他模型按配方复刻出类似效果。",
-        "stars": 40,
-        "forks": 7,
-        "language": "Python",
-        "topics": [
-          "agent-skills",
-          "ai-video",
-          "ai-video-editor",
-          "claude-opus",
-          "coding-agent",
-          "glm",
-          "short-video",
-          "storyboard",
-          "vibe-coding",
-          "video-automation",
-          "video-editing",
-          "video-generation",
-          "video-recipes"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-17T06:01:11Z"
-      }
-    },
-    {
-      "queryId": "agent-skills-query",
-      "targetId": "agent-skills",
-      "status": "unverified",
-      "repository": {
-        "fullName": "linny006/awesome-agent-skills",
-        "url": "https://github.com/linny006/awesome-agent-skills",
-        "description": "Curated, auto-updated awesome-list of vetted AI agent skills with quality ratings for Claude, GPT, a",
-        "stars": 39,
-        "forks": 3,
-        "language": "Python",
-        "topics": [
-          "agent-skills",
-          "ai-agents",
-          "ai-development",
-          "ai-ecosystem",
-          "ai-engineering",
-          "ai-tools",
-          "ai-workflow",
-          "anthropic",
-          "auto-updated",
-          "awesome",
-          "awesome-list",
-          "claude-code",
-          "developer-tools",
-          "github-actions",
-          "live-data",
-          "llm-tools",
-          "machine-learning",
-          "open-source",
-          "python"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-17T06:00:40Z"
-      }
-    },
-    {
-      "queryId": "agent-skills-query",
-      "targetId": "agent-skills",
-      "status": "unverified",
-      "repository": {
-        "fullName": "LNSD/lorecraft",
-        "url": "https://github.com/LNSD/lorecraft",
-        "description": "Checks a repository's agent-facing docs: coding rules, feature docs and agent skills, against declared specs.",
-        "stars": 0,
+        "fullName": "systemind-team/sharednet-client",
+        "url": "https://github.com/systemind-team/sharednet-client",
+        "description": "SharedNet CLI and Agent Skill: join persistent SharedNet Rooms where Claude Code, Codex and other coding agents talk over one ordered log. Published to npm as sharednet.",
+        "stars": 3,
         "forks": 1,
-        "language": "Python",
-        "topics": [
-          "agent-skills",
-          "agents-md",
-          "documentation",
-          "linter",
-          "python"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-17T06:01:20Z"
-      }
-    },
-    {
-      "queryId": "agent-skills-query",
-      "targetId": "agent-skills",
-      "status": "unverified",
-      "repository": {
-        "fullName": "mvschwarz/openrig",
-        "url": "https://github.com/mvschwarz/openrig",
-        "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-        "stars": 7578,
-        "forks": 590,
         "language": "TypeScript",
         "topics": [
-          "agent-harness",
-          "agent-orchestration",
+          "agent-communication",
           "agent-skills",
-          "ai-coding",
+          "agent-to-agent",
+          "ai-agents",
           "claude-code",
+          "claude-code-plugin",
           "cli",
-          "codex-cli",
+          "codex",
+          "coding-agents",
+          "cursor",
+          "developer-tools",
           "multi-agent",
-          "multi-agent-systems",
-          "tmux",
+          "openhands",
+          "sharednet",
           "typescript"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T06:00:51Z"
+        "pushedAt": "2026-10-19T05:01:38Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "arm-pz/draft-skill",
+        "url": "https://github.com/arm-pz/draft-skill",
+        "description": "Agent skill that creates a new skill from an idea: confirms the purpose before writing, checks installed siblings for overlap, splits scripts/references/assets, writes a description that triggers, validates with check_skill.py. Qoder, Claude Code.",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [
+          "agent-skill",
+          "agent-skills",
+          "ai-agents",
+          "claude-code",
+          "claude-skills",
+          "developer-tools",
+          "documentation",
+          "prompt-engineering",
+          "qoder",
+          "skill-creation"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-19T06:02:49Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "arm-pz/tune-skill",
+        "url": "https://github.com/arm-pz/tune-skill",
+        "description": "Agent skill that audits and fine-tunes a skill that already exists: triggering descriptions, sibling overlaps, stale names and counts, handoff contracts, minimal evidenced edits. Ships check_skill.py, a deterministic SKILL.md validator. Qoder, Claude Code.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "agent-skill",
+          "agent-skills",
+          "claude-code",
+          "claude-skills",
+          "code-quality",
+          "developer-tools",
+          "prompt-engineering",
+          "python",
+          "qoder",
+          "static-analysis"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-19T06:02:46Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "Thomasf93905/document-SKILLs",
+        "url": "https://github.com/Thomasf93905/document-SKILLs",
+        "description": "Claude Code and Codex SKILLs for PDF, Excel, Word, and PowerPoint manipulation — extraction, forms, formulas, tracked changes, adapted from Anthropic skills.",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "claude-code",
+          "claude-skills",
+          "codex",
+          "document-processing",
+          "docx",
+          "excel",
+          "pdf-extraction",
+          "pptx"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-19T06:02:40Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "tonydzi/clawrush",
+        "url": "https://github.com/tonydzi/clawrush",
+        "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
+        "stars": 14,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "build-in-public",
+          "building-in-public",
+          "charm",
+          "charm-os",
+          "claude-code",
+          "claude-skills",
+          "devlog",
+          "digital-twin",
+          "llm",
+          "second-brain"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-19T06:02:32Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "yagipass/verbatime",
+        "url": "https://github.com/yagipass/verbatime",
+        "description": "Java method tracing profiler. Records every method call under the methods you choose, with nothing sampled, and shows each run as a flame chart in JDK Mission Control.",
+        "stars": 1,
+        "forks": 0,
+        "language": "Java",
+        "topics": [
+          "agent-skills",
+          "bytecode",
+          "bytecode-instrumentation",
+          "flame-chart",
+          "flamegraph",
+          "instrumentation",
+          "java",
+          "java-profiler",
+          "javaagent",
+          "jdk-mission-control",
+          "jmc",
+          "jvm",
+          "method-tracing",
+          "performance",
+          "performance-analysis",
+          "profiler",
+          "profiling",
+          "tracing"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-19T06:02:53Z"
       }
     },
     {
@@ -375,7 +373,7 @@
           "x402"
         ],
         "archived": false,
-        "pushedAt": "2026-10-14T11:45:11Z"
+        "pushedAt": "2026-10-17T12:57:24Z"
       }
     },
     {
@@ -408,7 +406,7 @@
           "well-known-uri"
         ],
         "archived": false,
-        "pushedAt": "2026-10-16T19:19:09Z"
+        "pushedAt": "2026-10-17T14:51:20Z"
       }
     },
     {
@@ -474,7 +472,7 @@
           "traces"
         ],
         "archived": false,
-        "pushedAt": "2026-10-12T18:16:59Z"
+        "pushedAt": "2026-10-18T09:24:28Z"
       }
     },
     {
@@ -497,7 +495,7 @@
           "pi-package"
         ],
         "archived": false,
-        "pushedAt": "2026-10-16T16:36:35Z"
+        "pushedAt": "2026-10-18T21:32:48Z"
       }
     },
     {
@@ -507,9 +505,9 @@
       "repository": {
         "fullName": "diegosouzapw/OmniRoute",
         "url": "https://github.com/diegosouzapw/OmniRoute",
-        "description": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
-        "stars": 77445,
-        "forks": 11213,
+        "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
+        "stars": 78224,
+        "forks": 11361,
         "language": "TypeScript",
         "topics": [
           "a2a",
@@ -534,7 +532,7 @@
           "token-saver"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T06:01:08Z"
+        "pushedAt": "2026-10-19T05:41:14Z"
       }
     },
     {
@@ -542,48 +540,20 @@
       "targetId": "caveman",
       "status": "unverified",
       "repository": {
-        "fullName": "helenpapadopoulos/opentoken",
-        "url": "https://github.com/helenpapadopoulos/opentoken",
-        "description": "Token-saving companion for OpenCode — 42 compression layers, zero risk, no caveman speak",
+        "fullName": "Leksgg/claude-skills",
+        "url": "https://github.com/Leksgg/claude-skills",
+        "description": "Skills para Claude Code escritas desde cero y revisadas línea a línea. Empieza con caveman: respuestas mínimas, sin verborrea.",
         "stars": 0,
         "forks": 0,
-        "language": "TypeScript",
+        "language": "Python",
         "topics": [
-          "compression",
-          "llm",
-          "opencode",
-          "opencode-plugin",
-          "token-savings"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-17T05:30:19Z"
-      }
-    },
-    {
-      "queryId": "caveman-query",
-      "targetId": "caveman",
-      "status": "unverified",
-      "repository": {
-        "fullName": "JuliusBrussee/caveman",
-        "url": "https://github.com/JuliusBrussee/caveman",
-        "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-        "stars": 113099,
-        "forks": 6549,
-        "language": "Go",
-        "topics": [
-          "ai",
-          "anthropic",
-          "caveman",
+          "agent-skills",
           "claude",
           "claude-code",
-          "llm",
-          "meme",
-          "prompt-engineering",
-          "skill",
-          "tokens"
+          "claude-skills"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T05:51:28Z"
+        "pushedAt": "2026-10-19T05:47:48Z"
       }
     },
     {
@@ -591,21 +561,31 @@
       "targetId": "caveman",
       "status": "unverified",
       "repository": {
-        "fullName": "SamirVasquez3001/opentoken",
-        "url": "https://github.com/SamirVasquez3001/opentoken",
-        "description": "Token-saving companion for OpenCode — 42 compression layers, zero risk, no caveman speak",
-        "stars": 0,
+        "fullName": "maci0/dsh-caveman",
+        "url": "https://github.com/maci0/dsh-caveman",
+        "description": "Caveman mode for DeepSeek Harness: shorter prose, same meaning, with code, commands, paths, and error strings left intact.",
+        "stars": 1,
         "forks": 0,
         "language": "TypeScript",
-        "topics": [
-          "compression",
-          "llm",
-          "opencode",
-          "opencode-plugin",
-          "token-savings"
-        ],
+        "topics": [],
         "archived": false,
-        "pushedAt": "2026-10-17T05:30:22Z"
+        "pushedAt": "2026-10-19T04:16:50Z"
+      }
+    },
+    {
+      "queryId": "caveman-query",
+      "targetId": "caveman",
+      "status": "unverified",
+      "repository": {
+        "fullName": "quadseven/grug",
+        "url": "https://github.com/quadseven/grug",
+        "description": "One grumpy caveman. Whole software lifecycle. Grug crush bug, block evil CVE, gate weak code, run project smooth like rock. Grug know SDLC. Grug live in GitHub, post Check Runs, never spam comments. You ship. Grug guard.",
+        "stars": 1,
+        "forks": 1,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-10-19T05:32:48Z"
       }
     },
     {
@@ -621,7 +601,7 @@
         "language": null,
         "topics": [],
         "archived": false,
-        "pushedAt": "2026-10-17T05:00:07Z"
+        "pushedAt": "2026-10-19T05:24:37Z"
       }
     },
     {
@@ -629,31 +609,8 @@
       "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
-        "fullName": "JohnnyFiv3r/sourcesQL",
-        "url": "https://github.com/JohnnyFiv3r/sourcesQL",
-        "description": "SQL for web research. Search, refine, and revisit source-backed datasets through an MCP App.",
-        "stars": 0,
-        "forks": 0,
-        "language": "TypeScript",
-        "topics": [
-          "duckdb",
-          "mcp",
-          "mcp-apps",
-          "python",
-          "sql",
-          "web-research"
-        ],
-        "archived": false,
-        "pushedAt": "2026-10-17T02:06:19Z"
-      }
-    },
-    {
-      "queryId": "mcp-apps-query",
-      "targetId": "mcp-apps",
-      "status": "unverified",
-      "repository": {
-        "fullName": "JosephCarter17540/sp500-mcp-server",
-        "url": "https://github.com/JosephCarter17540/sp500-mcp-server",
+        "fullName": "antoniostavrou320/sp500-mcp-server",
+        "url": "https://github.com/antoniostavrou320/sp500-mcp-server",
         "description": "An MCP server and Next.js web app for querying S&P 500 company data from Supabase, with tools for company info, news, officers, and SEC filings, plus embedded MCP App UI resources, Elicitation, and Sampling support.",
         "stars": 0,
         "forks": 0,
@@ -676,7 +633,7 @@
           "typescript"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T05:53:21Z"
+        "pushedAt": "2026-10-19T05:48:37Z"
       }
     },
     {
@@ -684,31 +641,27 @@
       "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
-        "fullName": "lemma-work/lemma-platform",
-        "url": "https://github.com/lemma-work/lemma-platform",
-        "description": "Multiplayer harness that shapes around your work. Agents, apps and workflows your team shares, used from Slack, Telegram, WhatsApp, Teams, Email, Web or your own AI agent.",
-        "stars": 563,
-        "forks": 71,
-        "language": "Python",
+        "fullName": "dakotahp/crystal-cove",
+        "url": "https://github.com/dakotahp/crystal-cove",
+        "description": "Cloud Obsidian Vault with native Sync, MCP tools, and sign-in. (Works locally, too)",
+        "stars": 0,
+        "forks": 0,
+        "language": "Go",
         "topics": [
-          "agent-harness",
-          "agentic-ai",
-          "ai-agents",
-          "claude-code",
-          "codex",
-          "internal-tools",
+          "docker",
+          "docker-compose",
+          "docker-container",
           "mcp",
           "mcp-apps",
           "mcp-server",
-          "multiplayer-ai",
-          "open-code",
-          "open-source",
-          "self-hosted",
-          "software-factory",
-          "workflow-automation"
+          "mcp-servers",
+          "obsidian",
+          "obsidian-md",
+          "obsidian-notes",
+          "obsidian-vault"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T05:42:45Z"
+        "pushedAt": "2026-10-19T05:25:36Z"
       }
     },
     {
@@ -719,8 +672,8 @@
         "fullName": "MCPJam/inspector",
         "url": "https://github.com/MCPJam/inspector",
         "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-        "stars": 2267,
-        "forks": 296,
+        "stars": 2271,
+        "forks": 297,
         "language": "TypeScript",
         "topics": [
           "anthropic",
@@ -745,7 +698,7 @@
           "tracing"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T04:52:36Z"
+        "pushedAt": "2026-10-19T06:00:18Z"
       }
     },
     {
@@ -753,87 +706,61 @@
       "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
-        "fullName": "sajjadGG/Ghostlab",
-        "url": "https://github.com/sajjadGG/Ghostlab",
-        "description": "Local end-to-end testing lab for any MCP server: coding agents role-play real users, drive your tools over multiple turns, score runs, and render/interact with MCP Apps ui:// widgets.",
-        "stars": 3,
-        "forks": 0,
-        "language": "Python",
+        "fullName": "NimbleBrainInc/nimblebrain",
+        "url": "https://github.com/NimbleBrainInc/nimblebrain",
+        "description": "Self-hosted platform for MCP Apps and agent automations — tools, interactive UIs, scheduled runs, multi-agent delegation.",
+        "stars": 25,
+        "forks": 15,
+        "language": "TypeScript",
         "topics": [
-          "agent-orchestration",
-          "agent-testing",
+          "agent",
+          "agent-automation",
+          "agent-runtime",
           "ai-agents",
+          "anthropic",
+          "bun",
           "claude",
-          "codex",
-          "harness",
-          "harness-execution-layer",
+          "ext-apps",
           "llm",
-          "llm-evaluation",
           "mcp",
           "mcp-apps",
+          "mcp-client",
+          "mcp-host",
+          "mcp-server",
+          "mcpb",
           "model-context-protocol",
-          "python",
-          "sandbox"
+          "multi-agent",
+          "scheduled-agents",
+          "self-hosted",
+          "typescript"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T04:41:43Z"
+        "pushedAt": "2026-10-19T05:55:50Z"
       }
     },
     {
-      "queryId": "ponytail-query",
-      "targetId": "ponytail",
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
-        "fullName": "ardith666/dev-methodology",
-        "url": "https://github.com/ardith666/dev-methodology",
-        "description": "🧠 Structured dev workflow for AI agents — combines Superpowers, Ponytail, Anthropic Skills & Karpathy guidelines into one cohesive methodology.",
-        "stars": 1,
-        "forks": 0,
-        "language": null,
-        "topics": [],
-        "archived": false,
-        "pushedAt": "2026-10-17T04:52:15Z"
-      }
-    },
-    {
-      "queryId": "ponytail-query",
-      "targetId": "ponytail",
-      "status": "unverified",
-      "repository": {
-        "fullName": "clanker25/ponytail",
-        "url": "https://github.com/clanker25/ponytail",
-        "description": null,
+        "fullName": "SafrowLabs/habit-tracker-mcp-app",
+        "url": "https://github.com/SafrowLabs/habit-tracker-mcp-app",
+        "description": "Open-source habit tracker MCP App for ChatGPT and Claude — streaks, heatmap, runs entirely in the chat iframe. Stateless MCP server (HTTP + stdio).",
         "stars": 0,
         "forks": 0,
         "language": "JavaScript",
-        "topics": [],
-        "archived": false,
-        "pushedAt": "2026-10-17T05:00:30Z"
-      }
-    },
-    {
-      "queryId": "ponytail-query",
-      "targetId": "ponytail",
-      "status": "unverified",
-      "repository": {
-        "fullName": "shixingxingai/dsh-skill-ponytail",
-        "url": "https://github.com/shixingxingai/dsh-skill-ponytail",
-        "description": "Ponytail 懒人资深模式-最小改动解决问题，回复一段话就能看懂。附带 ponytail 主技能与 review、audit、debt、gain、help 五个技能。",
-        "stars": 1,
-        "forks": 0,
-        "language": "JavaScript",
         "topics": [
-          "agent",
-          "agent-skills",
-          "deepseek",
-          "deepseek-harness",
-          "dsh-plugin",
-          "dsh-plugin-desktop",
-          "dsh-plugin-market",
-          "dsh-plugins"
+          "chatgpt-apps",
+          "claude",
+          "habit-tracker",
+          "mcp",
+          "mcp-apps",
+          "mcp-server",
+          "model-context-protocol",
+          "open-source"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T04:35:26Z"
+        "pushedAt": "2026-10-19T05:17:09Z"
       }
     },
     {
@@ -841,20 +768,73 @@
       "targetId": "ponytail",
       "status": "unverified",
       "repository": {
-        "fullName": "tristanphvn/keel",
-        "url": "https://github.com/tristanphvn/keel",
-        "description": "An engineering loop for Claude Code: the main session leads, ponytail builds, critic reviews. Adapted from pstack by Lauren Tan.",
+        "fullName": "KurutoDenzeru/tersio",
+        "url": "https://github.com/KurutoDenzeru/tersio",
+        "description": "✂️ Token saver & usage tracker for coding agents: terse caveman replies, compact RTK shell output, lean Ponytail code, pstack rigor, and a gain dashboard — one-command combos over one shared extension tree.",
+        "stars": 16,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [
+          "caveman",
+          "extesnion",
+          "omp",
+          "opencode",
+          "pi",
+          "plugin",
+          "ponytail",
+          "pstack",
+          "rtk",
+          "usage-tracker"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-18T23:54:06Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "maci0/dsh-ponytail",
+        "url": "https://github.com/maci0/dsh-ponytail",
+        "description": "Ponytail (lazy senior dev mode) for DeepSeek Harness: six skills, an always-on anti-over-engineering ruleset, and a Plugin configuration card.",
         "stars": 0,
         "forks": 0,
         "language": "TypeScript",
         "topics": [
-          "ai-agents",
-          "claude-code",
-          "claude-code-plugin",
-          "developer-tools"
+          "ai-agent",
+          "deepseek-harness",
+          "dsh-plugin",
+          "ponytail",
+          "yagni"
         ],
         "archived": false,
-        "pushedAt": "2026-10-17T04:40:36Z"
+        "pushedAt": "2026-10-19T04:18:05Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "savadks95/LLM_Tails",
+        "url": "https://github.com/savadks95/LLM_Tails",
+        "description": "Disciplined AI coding mode. Understand deeply, write minimally, never hallucinate, stay consistent. Based on Ponytail & LLM Wiki.",
+        "stars": 4,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "ai-coding",
+          "anti-hallucination",
+          "claude-code",
+          "code-quality",
+          "consistency",
+          "cursor",
+          "llm",
+          "prompt-engineering"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-19T05:17:00Z"
       }
     },
     {
@@ -870,7 +850,30 @@
         "language": null,
         "topics": [],
         "archived": false,
-        "pushedAt": "2026-10-17T05:26:43Z"
+        "pushedAt": "2026-10-19T05:44:09Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "ziduup/dsh-programming-mode",
+        "url": "https://github.com/ziduup/dsh-programming-mode",
+        "description": "DeepSeek Harness 编程模式组合包：标准模式之上强制执行 Superpowers 工程纪律(TDD、系统化调试、先计划后编码、完成前验证、代码审查)与常驻 Ponytail 代码量纪律，内置 20 个技能(14 superpowers + 6 ponytail)，dsh plugin add 一键安装。",
+        "stars": 9,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "agent-preset",
+          "deepseek",
+          "dsh",
+          "dsh-plugin",
+          "ponytail",
+          "superpowers"
+        ],
+        "archived": false,
+        "pushedAt": "2026-10-19T03:30:58Z"
       }
     },
     {
@@ -914,7 +917,7 @@
         "url": "https://github.com/pozapas/awesome-system-one-models",
         "description": "Curated, evidence-graded list of System One models (typed probabilistic decision models), with genealogy, open and hosted models, datasets, tooling, graded evidence, a failure atlas and design patterns.",
         "stars": 2,
-        "forks": 4,
+        "forks": 5,
         "language": "Python",
         "topics": [
           "awesome-list",
@@ -964,15 +967,15 @@
   ],
   "lastRun": {
     "status": "success",
-    "attemptedAt": "2026-10-17T06:01:26.311Z",
-    "completedAt": "2026-10-17T06:01:29.048Z",
+    "attemptedAt": "2026-10-19T06:02:56.046Z",
+    "completedAt": "2026-10-19T06:02:58.718Z",
     "queryCount": 7,
     "successfulQueries": 7,
     "failedQueries": [],
     "rateLimit": {
       "limit": 10,
       "remaining": 0,
-      "resetAt": "2026-10-17T06:02:21Z"
+      "resetAt": "2026-10-19T06:03:54Z"
     }
   }
 }
