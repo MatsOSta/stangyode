@@ -82,5 +82,11 @@
     "label": "radar-daily-2026-10-17",
     "en": "Daily Radar: RugSnare enters at WATCH while MCP contract integrity becomes a four-implementation PILOT category; bounded agentic delivery becomes a three-implementation PILOT category; ESP32 iPhone Agent enters a resettable-device PILOT; Agent Engineering and Graft remain monitored; both sensors completed successfully.",
     "ja": "日次レーダー：RugSnareをWATCHへ追加し、MCP契約完全性を4実装のPILOTカテゴリ化。境界付きエージェント納品を3実装のPILOTカテゴリ化。ESP32 iPhone Agentを初期化可能端末限定PILOTへ追加。Agent EngineeringとGraftは監視継続。両センサーは正常完了。"
+  },
+  {
+    "date": "2026-10-19",
+    "label": "radar-daily-2026-10-19",
+    "en": "Daily Radar: Sphinx and Harness² enter bounded PILOT; AgenticBench enters WATCH and strengthens agent-independent execution evidence; LSCBench stays PILOT; RugSnare advances from WATCH to a comparison PILOT; both sensors completed successfully.",
+    "ja": "日次レーダー：SphinxとHarness²を限定PILOTへ追加。AgenticBenchをWATCHへ追加しエージェント非依存実行証拠を強化。LSCBenchはPILOTを維持。RugSnareをWATCHから比較PILOTへ昇格。両センサーは正常完了。"
   }
 ]
