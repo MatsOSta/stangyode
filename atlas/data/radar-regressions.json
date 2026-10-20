@@ -255,6 +255,22 @@
         "github-agentic-workflows-2026-10-12",
         "anthropic-managed-agent-workflows"
       ]
+    },
+    {
+      "id": "harness-engineering-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "agent-harness-engineering",
+      "minimumIndependentOrganizations": 3,
+      "requiredOrganizationIds": [
+        "yuyaoge-doc2harness",
+        "bytedance-seed-research",
+        "google-research"
+      ],
+      "requiredSourceIds": [
+        "doc2harness-repo",
+        "harnessdev-paper",
+        "harness2-repo"
+      ]
     }
   ]
 }

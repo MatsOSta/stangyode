@@ -2204,12 +2204,12 @@
       "status": "assessed",
       "kindGuess": "named-agent-scale-source-control",
       "whyInteresting": {
-        "en": "Graft makes Scion-inspired machine-contributor identity, changesets, batch landing, and server verification inspectable, but operational recovery, compatibility, and comparative results remain project-authored.",
-        "ja": "GraftはScion着想の機械貢献者ID、変更セット、一括着地、サーバー検証を検査可能にするが、運用復旧、互換性、比較結果はプロジェクト作者報告のまま。"
+        "en": "Version 0.2 makes server-side batch landing and correctness fixes concrete, but the benchmark is self-run and operational recovery, compatibility, and independent production evidence remain open.",
+        "ja": "0.2でserver側batch着地と正当性修正が具体化したが、評価は作者実施で、運用復旧、互換性、独立production証拠は未確認。"
       },
       "firstObserved": "2026-10-17",
-      "lastObserved": "2026-10-17",
-      "lifecycle": "monitor",
+      "lastObserved": "2026-10-20",
+      "lifecycle": "enter-radar",
       "evidenceState": "partially-verified",
       "atlasTermIds": [
         "agentic-coding",
@@ -2238,8 +2238,14 @@
           "sensor": "primary-docs",
           "url": "https://about.gitlab.com/topics/source-code-management/next-gen-source-code-management",
           "date": "2026-10-17"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://github.com/feder-cr/git-ai/releases/tag/v0.2.0",
+          "date": "2026-10-20"
         }
-      ]
+      ],
+      "radarSignalId": "graft-git-ai"
     },
     {
       "id": "sphinx",
@@ -2376,6 +2382,172 @@
           "sensor": "preprint",
           "url": "https://arxiv.org/abs/2610.07639",
           "date": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "doc2harness",
+      "names": [
+        "Doc2Harness"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-harness-construction-benchmark",
+      "whyInteresting": {
+        "en": "It grades a frozen harness through model requests, filesystem state, exit status, command output, and positive controls; only 94 of 328 scenarios are public.",
+        "ja": "固定ハーネスをmodel request、filesystem状態、終了status、command出力、正例対照で採点するが、328シナリオ中94件のみ公開。"
+      },
+      "firstObserved": "2026-10-20",
+      "lastObserved": "2026-10-20",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "doc2harness",
+      "atlasTermIds": [
+        "agent-harness",
+        "harness-engineering",
+        "eval-evaluation"
+      ],
+      "judgment": {
+        "substance": 92,
+        "hype": 82,
+        "fieldImportance": 94,
+        "relevance": 94,
+        "evidenceDiversity": 78,
+        "momentum": 88
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/YuyaoGe/doc2harness",
+          "date": "2026-10-20"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.20344",
+          "date": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "hy-memory",
+      "names": [
+        "Hy-Memory",
+        "MemHub"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-governed-memory-stack",
+      "whyInteresting": {
+        "en": "Tencent released a specialist memory writer, SDK, evaluation utilities, and local-first cross-application MemHub; benchmark and maturity claims remain project-authored.",
+        "ja": "Tencentが専用記憶writer、SDK、評価ツール、local-first横断MemHubを公開したが、評価値と成熟度主張は作者報告。"
+      },
+      "firstObserved": "2026-10-20",
+      "lastObserved": "2026-10-20",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "hy-memory",
+      "atlasTermIds": [
+        "agent-memory",
+        "artifact"
+      ],
+      "judgment": {
+        "substance": 90,
+        "hype": 88,
+        "fieldImportance": 92,
+        "relevance": 88,
+        "evidenceDiversity": 72,
+        "momentum": 94
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+          "date": "2026-10-20"
+        },
+        {
+          "sensor": "preprint",
+          "url": "https://arxiv.org/abs/2610.22196",
+          "date": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "yana-ai",
+      "names": [
+        "Yana AI"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-agent-governance-runtime",
+      "whyInteresting": {
+        "en": "It exposes deterministic capability, integrity, audit, and halt mechanisms and unusually candid limitations, but hard enforcement varies across hosts and adoption is minimal.",
+        "ja": "決定論的な能力、完全性、監査、停止機構と率直な限界を公開するが、hard enforcementはhostごとに異なり採用も最小。"
+      },
+      "firstObserved": "2026-10-20",
+      "lastObserved": "2026-10-20",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "yana-ai",
+      "atlasTermIds": [
+        "approval-gate",
+        "agent-harness"
+      ],
+      "judgment": {
+        "substance": 84,
+        "hype": 70,
+        "fieldImportance": 90,
+        "relevance": 90,
+        "evidenceDiversity": 70,
+        "momentum": 76
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/yanacuti1121/Yana-AI",
+          "date": "2026-10-20"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://github.com/yanacuti1121/Yana-AI/blob/main/docs/reference/known-limitations.md",
+          "date": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "costura",
+      "names": [
+        "Costura"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-ai-billing-ledger",
+      "whyInteresting": {
+        "en": "It reconciles provider-reported spend and attributes daily costs, but cannot identify the sub-agent, tool call, or workflow step that caused spending.",
+        "ja": "provider報告支出を照合し日次費用を配賦するが、支出を生んだsub-agent、tool call、workflow stepは特定できない。"
+      },
+      "firstObserved": "2026-10-20",
+      "lastObserved": "2026-10-20",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "costura",
+      "atlasTermIds": [
+        "agent-observability",
+        "artifact"
+      ],
+      "judgment": {
+        "substance": 78,
+        "hype": 76,
+        "fieldImportance": 82,
+        "relevance": 72,
+        "evidenceDiversity": 62,
+        "momentum": 82
+      },
+      "observations": [
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/CosturaAI/costura",
+          "date": "2026-10-20"
+        },
+        {
+          "sensor": "independent-press",
+          "url": "https://news.ycombinator.com/item?id=50160102",
+          "date": "2026-10-20"
         }
       ]
     }

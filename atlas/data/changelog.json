@@ -88,5 +88,11 @@
     "label": "radar-daily-2026-10-19",
     "en": "Daily Radar: Sphinx and Harness² enter bounded PILOT; AgenticBench enters WATCH and strengthens agent-independent execution evidence; LSCBench stays PILOT; RugSnare advances from WATCH to a comparison PILOT; both sensors completed successfully.",
     "ja": "日次レーダー：SphinxとHarness²を限定PILOTへ追加。AgenticBenchをWATCHへ追加しエージェント非依存実行証拠を強化。LSCBenchはPILOTを維持。RugSnareをWATCHから比較PILOTへ昇格。両センサーは正常完了。"
+  },
+  {
+    "date": "2026-10-20",
+    "label": "radar-daily-2026-10-20",
+    "en": "Daily Radar: Doc2Harness, git-ai, and Hy-Memory enter bounded PILOT; Yana AI and Costura enter WATCH; harness engineering becomes a three-implementation PILOT category. The hype scrape was partial and the bounded GitHub sensor failed explicitly after six of seven queries.",
+    "ja": "日次レーダー：Doc2Harness、git-ai、Hy-Memoryを限定PILOTへ追加。Yana AIとCosturaをWATCHへ追加し、ハーネス工学を3実装のPILOTカテゴリ化。ハイプ取得はpartialで、範囲限定GitHubセンサーは7件中6件後に明示的失敗。"
   }
 ]
