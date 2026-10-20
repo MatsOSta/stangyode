@@ -1398,5 +1398,85 @@
       "en": "Independent sibling benchmark using deterministic utility and attack-effect oracles across coding-agent harness controls.",
       "ja": "コーディングエージェントのハーネス制御を、決定論的な有用性・攻撃影響oracleで測る独立した同等ベンチマーク。"
     }
+  },
+  "doc2harness-repo": {
+    "title": "Doc2Harness repository",
+    "url": "https://github.com/YuyaoGe/doc2harness",
+    "note": {
+      "en": "Official public benchmark code; 94 public scenarios cover 53 scored cases and 41 positive controls, while the reported leaderboard uses a held-out 328-case suite.",
+      "ja": "公式公開ベンチマーク実装。公開94シナリオは採点53件と正例対照41件を含むが、公開順位表は非公開分を含む328件で算出。"
+    }
+  },
+  "doc2harness-paper": {
+    "title": "Doc2Harness paper",
+    "url": "https://arxiv.org/abs/2610.20344",
+    "note": {
+      "en": "First-party benchmark paper describing frozen harness artifacts, isolated execution, four observable channels, and author-run results across 19 models.",
+      "ja": "固定ハーネス成果物、隔離実行、4つの観測経路、19モデルでの作者実施結果を記述した一次論文。"
+    }
+  },
+  "harnessdev-paper": {
+    "title": "HarnessDev paper",
+    "url": "https://arxiv.org/abs/2609.01437",
+    "note": {
+      "en": "Independent harness-construction and evolution benchmark using frozen runnable artifacts, held-out downstream tasks, and creator/executor comparisons.",
+      "ja": "固定された実行可能成果物、非公開下流課題、作成モデルと実行モデルの比較を用いる独立したハーネス構築・進化ベンチマーク。"
+    }
+  },
+  "graft-git-ai-release-0-2": {
+    "title": "git-ai 0.2.0 release",
+    "url": "https://github.com/feder-cr/git-ai/releases/tag/v0.2.0",
+    "note": {
+      "en": "Project-authored release and benchmark for batched compare-and-swap landing; includes correctness fixes and explicit storage limitations.",
+      "ja": "一括compare-and-swap着地の作者実施リリース・評価。正当性修正と保存層の明示的限界を含む。"
+    }
+  },
+  "hy-memory-repo": {
+    "title": "Tencent Hunyuan Hy-Memory",
+    "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+    "note": {
+      "en": "First-party public framework, evaluation utilities, SDK, and MemHub application for chat, working, and coding memory.",
+      "ja": "会話・作業・コーディング記憶向けの一次公開フレームワーク、評価ツール、SDK、MemHubアプリ。"
+    }
+  },
+  "hy-memory-paper": {
+    "title": "Hy-Memory-30B-A3B paper",
+    "url": "https://arxiv.org/abs/2610.22196",
+    "note": {
+      "en": "Tencent-authored memory-writer paper; reported results use fixed 20% benchmark subsamples and have not been independently reproduced here.",
+      "ja": "Tencent作者の記憶書込みモデル論文。公開結果は固定20%サブサンプルを用い、ここでは独立再現していない。"
+    }
+  },
+  "yana-ai-repo": {
+    "title": "Yana AI repository",
+    "url": "https://github.com/yanacuti1121/Yana-AI",
+    "note": {
+      "en": "Local governance runtime with capability manifests, hooks, audit chaining, integrity checks, and an external halt watcher; enforcement varies by host surface.",
+      "ja": "能力manifest、hook、監査chain、完全性検査、外部停止watcherを持つローカル統治runtime。強制範囲はhost面ごとに異なる。"
+    }
+  },
+  "yana-ai-limitations": {
+    "title": "Yana AI known limitations",
+    "url": "https://github.com/yanacuti1121/Yana-AI/blob/main/docs/reference/known-limitations.md",
+    "note": {
+      "en": "First-party limitations document describing command-string parsing gaps, uneven hook wiring, and platform assumptions.",
+      "ja": "コマンド文字列解析の穴、不均一なhook配線、platform前提を記す一次限界文書。"
+    }
+  },
+  "costura-repo": {
+    "title": "Costura AI spend attribution",
+    "url": "https://github.com/CosturaAI/costura",
+    "note": {
+      "en": "Self-hosted provider billing ledger for daily reconciliation and attribution across keys, seats, and people; not request-level agent tracing.",
+      "ja": "key、seat、人別に日次照合・配賦するself-hosted provider請求ledger。request単位のagent traceではない。"
+    }
+  },
+  "costura-hn": {
+    "title": "Show HN: Self-hosted AI spend attribution",
+    "url": "https://news.ycombinator.com/item?id=50160102",
+    "note": {
+      "en": "Early practitioner discussion that surfaces pricing-maintenance questions; attention evidence, not independent outcome validation.",
+      "ja": "価格更新保守への疑問を示す初期実務者議論。注目の証拠であり、独立成果検証ではない。"
+    }
   }
 }

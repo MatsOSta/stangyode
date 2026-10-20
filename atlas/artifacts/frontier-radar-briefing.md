@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-19
+Snapshot / スナップショット: 2026-10-20
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,74 +8,62 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-19T06:02:58.718Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-20T06:04:06Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: SUCCESS; last success 2026-10-19T06:02:58.718Z; failure streak 0
-- editor: SUCCESS; last success 2026-10-19T06:02:58.718Z; failure streak 0; last failure rate_limit at 2026-10-15T06:01:28.949Z (resolved)
+- scout: PARTIAL; last success 2026-10-19T06:02:58.718Z; failure streak 1; last failure unknown at 2026-10-20T06:01:01.730Z (unresolved)
+- editor: PARTIAL; last success 2026-10-19T06:02:58.718Z; failure streak 1; last failure rate_limit at 2026-10-20T06:01:18.971Z (unresolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: CHECKED
+- github-public: FAILED — The bounded GitHub update fetch completed six of seven queries, then hit rate limit; its result set is empty and prior repository results are not presented as current. / 範囲限定GitHub更新取得は7件中6件完了後にrate limitへ到達。結果集合は空で、過去のrepository結果を現在値として提示しない。
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
-- [Sphinx — code-comprehension gate](https://github.com/parthh01/sphinx): relevant; checked 2026-10-19; source sphinx-repo
-- [sphinx-ci — code comprehension quizzes before merge](https://sphinx-ci.dev/): relevant; checked 2026-10-19; source sphinx-ci
-- [VibeCheck — diff comprehension checks](https://github.com/akshan-main/vibe-check): relevant; checked 2026-10-19; source vibe-check-repo
-- [Harness² repository](https://github.com/google-research/harness2): relevant; checked 2026-10-19; source harness2-repo
-- [Harness²: Recursive Agent Harnessing for an Open World](https://arxiv.org/abs/2610.14224): relevant; checked 2026-10-19; source harness2-paper
-- [Last Secure Code Benchmark (LSCBench)](https://arxiv.org/abs/2610.14766): relevant; checked 2026-10-19; source lscbench-paper
-- [LSCBench repository and Harbor fixtures](https://github.com/alibaba/last-secure-code-benchmark): relevant; checked 2026-10-19; source lscbench-repo
-- [AgenticBench leaderboards](https://agenticbench.org/): relevant; checked 2026-10-19; source agenticbench-home
-- [AgenticBench method](https://agenticbench.org/method.html): relevant; checked 2026-10-19; source agenticbench-method
-- [HarnessSecurity-Bench](https://arxiv.org/abs/2610.07639): relevant; checked 2026-10-19; source harnesssecurity-paper
-- [MCP contract drift in the wild](https://github.com/Paraphern/rugsnare/blob/main/docs/blog/2026-10-17-mcp-contract-drift.md): relevant; checked 2026-10-19; source rugsnare-contract-drift
-- [mcpward — contract testing for MCP servers in CI](https://github.com/TsvetanG2/mcpward): relevant; checked 2026-10-19; source mcpward-repo
-- [Reverse Engineer Anything (REA)](https://github.com/morluto/rea): no-material-change; checked 2026-10-19; source rea-repo
-- [OpenAI Decisions API](https://developers.openai.com/api/docs/guides/decisions): no-material-change; checked 2026-10-19; source openai-decisions
-- [Context Mode repository](https://github.com/mksglu/context-mode): no-material-change; checked 2026-10-19; source context-mode-repo
+- [Doc2Harness repository](https://github.com/YuyaoGe/doc2harness): relevant; checked 2026-10-20; source doc2harness-repo
+- [Doc2Harness paper](https://arxiv.org/abs/2610.20344): relevant; checked 2026-10-20; source doc2harness-paper
+- [HarnessDev paper](https://arxiv.org/abs/2609.01437): relevant; checked 2026-10-20; source harnessdev-paper
+- [Graft / git-ai](https://github.com/feder-cr/git-ai): relevant; checked 2026-10-20; source graft-git-ai-repo
+- [git-ai 0.2.0 release](https://github.com/feder-cr/git-ai/releases/tag/v0.2.0): relevant; checked 2026-10-20; source graft-git-ai-release-0-2
+- [Tencent Hunyuan Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory): relevant; checked 2026-10-20; source hy-memory-repo
+- [Hy-Memory-30B-A3B paper](https://arxiv.org/abs/2610.22196): relevant; checked 2026-10-20; source hy-memory-paper
+- [Yana AI repository](https://github.com/yanacuti1121/Yana-AI): relevant; checked 2026-10-20; source yana-ai-repo
+- [Yana AI known limitations](https://github.com/yanacuti1121/Yana-AI/blob/main/docs/reference/known-limitations.md): relevant; checked 2026-10-20; source yana-ai-limitations
+- [Costura AI spend attribution](https://github.com/CosturaAI/costura): relevant; checked 2026-10-20; source costura-repo
+- [Show HN: Self-hosted AI spend attribution](https://news.ycombinator.com/item?id=50160102): relevant; checked 2026-10-20; source costura-hn
+- [Harness² repository](https://github.com/google-research/harness2): relevant; checked 2026-10-20; source harness2-repo
+- [Harness²: Recursive Agent Harnessing for an Open World](https://arxiv.org/abs/2610.14224): relevant; checked 2026-10-20; source harness2-paper
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
-Sphinx and Harness² enter bounded PILOT, AgenticBench enters WATCH and strengthens external execution evidence, LSCBench remains PILOT, and RugSnare advances to a comparison PILOT. / SphinxとHarness²を限定PILOTへ追加。AgenticBenchをWATCHへ追加し外部実行証拠を強化。LSCBenchはPILOTを維持し、RugSnareを比較PILOTへ昇格。
+Doc2Harness, git-ai, and Hy-Memory enter bounded PILOT; Yana AI and Costura enter WATCH; harness engineering becomes a separate durable category. / Doc2Harness、git-ai、Hy-Memoryを限定PILOTへ追加。Yana AIとCosturaをWATCHへ追加し、ハーネス工学を独立durable category化。
 
-Targets: sphinx, harness2, lscbench, agenticbench, rugsnare, agent-independent-execution-evidence
+Targets: doc2harness, graft-git-ai, hy-memory, yana-ai, costura, agent-harness-engineering
 
-Evidence: sphinx-repo, harness2-repo, harness2-paper, lscbench-paper, lscbench-repo, agenticbench-home, agenticbench-method, rugsnare-contract-drift
+Evidence: doc2harness-repo, doc2harness-paper, graft-git-ai-repo, graft-git-ai-release-0-2, hy-memory-repo, hy-memory-paper, yana-ai-repo, yana-ai-limitations, costura-repo, costura-hn
 
-- `Sphinx comprehension gate release alternatives adoption benchmark criticism`
-- `Harness2 recursive harness release competitors reproduction criticism`
-- `LSCBench secure coding benchmark alternatives replication`
-- `AgenticBench harness security methodology disclosures reproduction`
-- `RugSnare MCP contract drift alternatives adoption criticism`
+- `Doc2Harness release alternatives adoption benchmark criticism`
+- `git-ai release competitors benchmark criticism agent-native source control`
+- `Hy-Memory MemHub releases alternatives adoption benchmark criticism`
+- `Yana AI runtime policy control plane competitors security benchmark`
+- `Costura AI spend attribution alternatives adoption reconciliation criticism`
 
-### Sphinx first-party and sibling-implementation challenge / Sphinxの一次情報・同等実装検証
-The first-party mechanism is explicit and inspectable, while independent PR and local-hook siblings show that comprehension gating is not unique; bypassability, semantic grading, and outcome evidence remain limits. / 一次の仕組みは明示的で検査可能だが、独立したPR・ローカルhook実装により理解度ゲートは固有でない。迂回可能性、意味採点、成果証拠は限界として残る。
+### Harness engineering first-party and sibling challenge / ハーネス工学の一次情報・同等実装検証
+Doc2Harness has a concrete public evaluator subset, while HarnessDev and Harness² independently confirm harness construction and evolution as engineering targets; methods and outcome boundaries differ. / Doc2Harnessには具体的な公開評価subsetがあり、HarnessDevとHarness²もハーネス構築・進化をengineering対象として独立支持するが、手法と成果境界は異なる。
 
-Targets: sphinx
+Targets: doc2harness, harness2, agent-harness-engineering
 
-Evidence: sphinx-repo, sphinx-ci, vibe-check-repo
+Evidence: doc2harness-repo, doc2harness-paper, harnessdev-paper, harness2-repo, harness2-paper
 
-- `Sphinx AI code comprehension gate alternatives Sphinx-CI VibeCheck GitHub`
-- `developer comprehension gate AI generated code quiz before commit alternatives GitHub`
-
-### Recursive harness and external evidence challenge / 再帰ハーネス・外部証拠の検証
-Harness² exposes a concrete recursive control surface but lacks independent reproduction; AgenticBench and HarnessSecurity-Bench independently support evaluator-owned runtime evidence while measuring different boundaries. / Harness²は具体的な再帰制御面を公開するが独立再現はない。AgenticBenchとHarnessSecurity-Benchは異なる境界を測りつつ、評価者所有の実行時証拠を独立に支持する。
-
-Targets: harness2, agenticbench, agent-independent-execution-evidence
-
-Evidence: harness2-repo, harness2-paper, agenticbench-home, agenticbench-method, harnesssecurity-paper
-
-- `Harness2 recursive harness optimization alternatives self improving agent harness implementation`
-- `AgenticBench external harness security benchmark alternatives captured system calls network traffic`
+- `Doc2Harness benchmark criticism alternatives`
+- `AI agent harness engineering benchmark scaffold construction HarnessDev Harness2`
 
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -83,8 +71,8 @@ Evidence: harness2-repo, harness2-paper, agenticbench-home, agenticbench-method,
 - anthropic-context; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
 
 ### Findings and decisions / 発見と判断
-- material-finding; sphinx, harness2, lscbench, agenticbench, agent-independent-execution-evidence, rugsnare: Attention converged on authority outside the model: human comprehension gates, recursive but measured harness changes, security acceptance, and evaluator-captured runtime evidence. The artifacts are concrete; most outcome claims remain author-run or single-run. / 注目はモデル外の権限へ収束した。人間理解度ゲート、測定付き再帰ハーネス変更、安全受入、評価者取得の実行時証拠である。成果物は具体的だが、多くの成果主張は作者実施または単回実行に留まる。; evidence: sphinx-repo, sphinx-ci, vibe-check-repo, harness2-repo, harness2-paper, lscbench-paper, agenticbench-home, agenticbench-method, harnesssecurity-paper, rugsnare-contract-drift
-- editorial-decision; sphinx, harness2, lscbench, agenticbench, agent-independent-execution-evidence, rugsnare: Add Sphinx and Harness² as bounded PILOTs; add AgenticBench at WATCH and as evidence for the existing external-execution category; retain LSCBench at PILOT; promote RugSnare to a bounded comparison PILOT without changing the MCP category. / SphinxとHarness²を限定PILOTへ追加。AgenticBenchをWATCHとし既存の外部実行証拠カテゴリの証拠へ追加。LSCBenchはPILOTを維持。MCPカテゴリは変更せずRugSnareを限定比較PILOTへ昇格。; evidence: sphinx-repo, sphinx-ci, harness2-repo, harness2-paper, lscbench-paper, agenticbench-method, harnesssecurity-paper, rugsnare-contract-drift, mcpward-repo
+- material-finding; doc2harness, graft-git-ai, hy-memory, yana-ai, costura, agent-harness-engineering: Harnesses are becoming engineered and evaluated artifacts, while source control, memory, policy, and cost accounting form separate operational control surfaces. The artifacts are concrete; most outcome evidence remains project-authored. / ハーネスは設計・評価される成果物となり、source control、記憶、policy、費用会計は別々の運用control面を形成する。成果物は具体的だが、多くの成果証拠は作者実施。; evidence: doc2harness-repo, doc2harness-paper, harnessdev-paper, graft-git-ai-release-0-2, hy-memory-repo, hy-memory-paper, yana-ai-repo, yana-ai-limitations, costura-repo, costura-hn
+- editorial-decision; doc2harness, graft-git-ai, hy-memory, yana-ai, costura, agent-harness-engineering: Add Doc2Harness, git-ai, and Hy-Memory at bounded PILOT; add Yana AI and Costura at WATCH; create a separate three-implementation harness-engineering PILOT category without promoting any item to Core Atlas. / Doc2Harness、git-ai、Hy-Memoryを限定PILOT、Yana AIとCosturaをWATCHへ追加。いずれもCore Atlasへ昇格せず、3実装の独立ハーネス工学PILOTカテゴリを作成。; evidence: doc2harness-repo, doc2harness-paper, harnessdev-paper, graft-git-ai-repo, graft-git-ai-release-0-2, hy-memory-repo, hy-memory-paper, yana-ai-repo, yana-ai-limitations, costura-repo
 
 ## Signals / シグナル
 
@@ -553,13 +541,85 @@ Evidence: harness2-repo, harness2-paper, agenticbench-home, agenticbench-method,
 - History / 履歴:
   - 2026-10-19: Added at WATCH and linked to the existing agent-independent execution-evidence category; single-run cells preclude PILOT. / WATCHへ追加し既存のエージェント非依存実行証拠カテゴリへ接続。単回実行セルのためPILOTにはしない。
 
+### Doc2Harness / Doc2Harness
+- Adoption stage / 導入段階: PILOT (38/100)
+- Scores / スコア: frontier 92, fit 94, confidence 84
+- Recommendation / 推奨: PILOT the 94 public scenarios against one disposable internal harness; report public-case coverage separately from the unreproducible held-out leaderboard. / 公開94シナリオを使い捨て内部ハーネス1件でPILOT。公開caseの結果と再現不能な非公開順位表を分けて報告する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Frozen artifacts, isolated runs, observable effects, and positive controls make the public evaluator concrete and auditable. / 固定成果物、隔離実行、観測可能な効果、正例対照により公開評価器は具体的で監査可能。
+  - Most cases are held out, model results are author-run, and passing synthetic clauses does not establish production task quality. / 大半のcaseは非公開で結果は作者実施。合成条項への合格はproduction課題品質を証明しない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-20
+- History / 履歴:
+  - 2026-10-20: Added at bounded PILOT; deterministic harness-construction testing is useful, but public coverage is a subset and outcomes are not independently reproduced. / 限定PILOTへ追加。決定論的なハーネス構築試験は有用だが、公開範囲は一部で成果は独立再現されていない。
+
+### git-ai / git-ai
+- Adoption stage / 導入段階: PILOT (44/100)
+- Scores / スコア: frontier 88, fit 70, confidence 76
+- Recommendation / 推奨: PILOT only on a disposable mirror with synthetic 20–50-agent contention; measure semantic merge correctness, rejected changes, recovery, and operator time. / 合成20〜50 agent競合を持つ使い捨てmirrorでのみPILOT。意味merge正当性、拒否変更、復旧、operator時間を測る。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Server-side history, machine identities, compare-and-swap landing, and semantic approval rules address concrete multi-agent source-control pressure. / server側履歴、machine identity、compare-and-swap着地、意味承認ruleはmulti-agent source管理の具体的圧力へ対応する。
+  - The 0.2 benchmark is project-authored, interfaces remain pre-1.0, and storage garbage collection and fair queuing are incomplete. / 0.2評価は作者実施でinterfaceは1.0前。保存garbage collectionと公平queueは未完成。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-20
+- History / 履歴:
+  - 2026-10-20: Advanced from monitoring to a disposable-mirror PILOT after the 0.2 release made performance and correctness changes testable. / 0.2 releaseで性能・正当性変更が試験可能になったため、監視から使い捨てmirror限定PILOTへ進めた。
+
+### Hy-Memory and MemHub / Hy-MemoryとMemHub
+- Adoption stage / 導入段階: PILOT (42/100)
+- Scores / スコア: frontier 90, fit 88, confidence 76
+- Recommendation / 推奨: PILOT with reversible, non-sensitive profile data; test memory precision, stale-fact correction, rollback, cross-tool consistency, and recovery before broader use. / 可逆で非機密のprofile dataでPILOT。記憶精度、古い事実の訂正、rollback、tool間整合、復旧を広範利用前に試す。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - The model, SDK, framework, evaluation utilities, and local-first application form an unusually complete inspectable memory stack. / model、SDK、framework、評価tool、local-first applicationが異例に完整で検査可能な記憶stackを成す。
+  - Reported scores are Tencent-run on fixed subsamples; cross-application governance, migrations, rollback, and operational maturity remain unproven. / 公開scoreはTencent実施の固定subset。横断統治、migration、rollback、運用成熟度は未証明。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-20
+- History / 履歴:
+  - 2026-10-20: Added at bounded PILOT for reversible test data; operational maturity and independent memory-quality evidence remain insufficient. / 可逆なtest data限定PILOTへ追加。運用成熟度と独立した記憶品質証拠は不足。
+
+### Yana AI / Yana AI
+- Adoption stage / 導入段階: WATCH (30/100)
+- Scores / スコア: frontier 84, fit 90, confidence 78
+- Recommendation / 推奨: WATCH; consider a disposable-repository pilot only after mapping which host paths are hard-blocked and excluding production credentials. / WATCH。どのhost経路がhard blockされるかを対応付け、production credentialを除外した後にのみ使い捨てrepository pilotを検討。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Capability manifests, approval gates, audit chaining, integrity checks, and an external halt watcher are inspectable controls. / 能力manifest、承認gate、監査chain、完全性検査、外部halt watcherは検査可能なcontrol。
+  - Command-string checks are not complete parsing, enforcement varies by host, browser-only paths are weaker, and adoption is minimal. / command文字列検査は完全なparserではなくhostごとに強制範囲が異なり、browser-only経路は弱く、採用も最小。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-20
+- History / 履歴:
+  - 2026-10-20: Added at WATCH because the control surface is concrete and self-critical, while enforcement coverage and adoption remain unsettled. / control面は具体的で自己批判的だが、強制coverageと採用が未確定のためWATCHへ追加。
+
+### Costura / Costura
+- Adoption stage / 導入段階: WATCH (28/100)
+- Scores / スコア: frontier 76, fit 72, confidence 70
+- Recommendation / 推奨: WATCH; if tested, use synthetic or read-only provider accounts and compare reconciled totals with a request-level ledger before trusting attribution. / WATCH。試す場合は合成またはread-only provider accountを用い、配賦を信頼する前に照合総額をrequest単位ledgerと比較する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Provider-side daily reconciliation can catch invoice drift and allocate shared account costs without proxying prompts. / provider側の日次照合はpromptをproxyせず請求差異を捉え、共有account費用を配賦できる。
+  - It lacks request, sub-agent, tool-call, and workflow-step causality; early releases and broad admin credentials increase operational risk. / request、sub-agent、tool call、workflow stepの因果性がなく、初期releaseと広いadmin credentialが運用riskを増す。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-20
+- History / 履歴:
+  - 2026-10-20: Added at WATCH as a billing-reconciliation ledger, not as request-level agent spend attribution. / request単位agent支出配賦ではなく、請求照合ledgerとしてWATCHへ追加。
+
+### Agent harness engineering / エージェント・ハーネス工学
+- Adoption stage / 導入段階: PILOT (42/100)
+- Scores / スコア: frontier 94, fit 96, confidence 86
+- Recommendation / 推奨: PILOT the practice through frozen artifacts, held-out tasks, cost, regression, and transfer measurements; evaluate implementations separately rather than treating “harness” as one product. / 固定成果物、非公開課題、費用、回帰、transfer測定で実践をPILOT。「harness」を単一productとして扱わず実装を個別評価する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Doc2Harness, HarnessDev, and Harness² independently make harness construction, evaluation, or evolution a first-class engineering object. / Doc2Harness、HarnessDev、Harness²が独立にハーネス構築・評価・進化を第一級engineering対象とする。
+  - They measure different boundaries, rely mainly on project-run results, and do not establish that recursive changes generalize safely to production. / 測定境界は異なり、主にproject実施結果へ依存し、再帰変更の安全なproduction一般化は証明しない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-20
+- History / 履歴:
+  - 2026-10-20: Spawned as a durable category after independent construction benchmarks and a recursive framework converged on harnesses as engineered, evaluated artifacts. / 独立した構築benchmarkと再帰frameworkが、ハーネスを設計・評価される成果物として収束したためdurable category化。
+
 ## GitHub discovery input / GitHub発見入力
 
 Public observation input only. Living candidates live in discovery-candidates.json. Absence of a repository is not a negative finding. Queries may be phenomenon-based and need not match Core Atlas terms. / 公開観測の入力のみ。生きた候補は discovery-candidates.json にある。リポジトリがないことは否定的発見ではない。クエリは現象ベースでよく、コア・アトラス用語と一致する必要はない。
 
 Provider / プロバイダー: github; mode / モード: public-api; live fetch / ライブ取得: yes
 
-- typed-decision-models: typed probabilistic decision model System One (collected)
+- typed-decision-models: typed probabilistic decision model System One (failed)
 - agent-skills: topic:agent-skills (collected)
 - mcp-apps: topic:mcp-apps (collected)
 - a2a: topic:agent-to-agent (collected)
@@ -567,6 +627,6 @@ Provider / プロバイダー: github; mode / モード: public-api; live fetch 
 - ponytail: ponytail (collected)
 - caveman: caveman (collected)
 
-Collected signals / 収集済みシグナル: 35
+Collected signals / 収集済みシグナル: 0
 
 Generated by atlas/scripts/render-frontier-briefing.mjs; deterministic for the checked-in inputs.

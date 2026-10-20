@@ -9,201 +9,174 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-19",
+    "snapshot": "2026-10-20",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-19T06:02:58.718Z",
+    "asOf": "2026-10-20T06:04:06Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
-        "status": "success",
-        "lastAttemptAt": "2026-10-19T06:02:58.718Z",
+        "status": "partial",
+        "lastAttemptAt": "2026-10-20T06:04:06Z",
         "lastSuccessfulRunAt": "2026-10-19T06:02:58.718Z",
-        "failureStreak": 0
+        "failureStreak": 1,
+        "lastFailure": {
+          "at": "2026-10-20T06:01:01.730Z",
+          "class": "unknown",
+          "resolved": false
+        }
       },
       "editor": {
-        "status": "success",
-        "lastAttemptAt": "2026-10-19T06:02:58.718Z",
+        "status": "partial",
+        "lastAttemptAt": "2026-10-20T06:04:06Z",
         "lastSuccessfulRunAt": "2026-10-19T06:02:58.718Z",
-        "failureStreak": 0,
+        "failureStreak": 1,
         "lastFailure": {
-          "at": "2026-10-15T06:01:28.949Z",
+          "at": "2026-10-20T06:01:18.971Z",
           "class": "rate_limit",
-          "resolved": true
+          "resolved": false
         }
       }
     },
     "sourcesChecked": [
       {
-        "sourceId": "sphinx-repo",
-        "checkedAt": "2026-10-19",
+        "sourceId": "doc2harness-repo",
+        "checkedAt": "2026-10-20",
         "outcome": "relevant"
       },
       {
-        "sourceId": "sphinx-ci",
-        "checkedAt": "2026-10-19",
+        "sourceId": "doc2harness-paper",
+        "checkedAt": "2026-10-20",
         "outcome": "relevant"
       },
       {
-        "sourceId": "vibe-check-repo",
-        "checkedAt": "2026-10-19",
+        "sourceId": "harnessdev-paper",
+        "checkedAt": "2026-10-20",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "graft-git-ai-repo",
+        "checkedAt": "2026-10-20",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "graft-git-ai-release-0-2",
+        "checkedAt": "2026-10-20",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "hy-memory-repo",
+        "checkedAt": "2026-10-20",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "hy-memory-paper",
+        "checkedAt": "2026-10-20",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "yana-ai-repo",
+        "checkedAt": "2026-10-20",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "yana-ai-limitations",
+        "checkedAt": "2026-10-20",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "costura-repo",
+        "checkedAt": "2026-10-20",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "costura-hn",
+        "checkedAt": "2026-10-20",
         "outcome": "relevant"
       },
       {
         "sourceId": "harness2-repo",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-20",
         "outcome": "relevant"
       },
       {
         "sourceId": "harness2-paper",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-20",
         "outcome": "relevant"
-      },
-      {
-        "sourceId": "lscbench-paper",
-        "checkedAt": "2026-10-19",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "lscbench-repo",
-        "checkedAt": "2026-10-19",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "agenticbench-home",
-        "checkedAt": "2026-10-19",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "agenticbench-method",
-        "checkedAt": "2026-10-19",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "harnesssecurity-paper",
-        "checkedAt": "2026-10-19",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "rugsnare-contract-drift",
-        "checkedAt": "2026-10-19",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "mcpward-repo",
-        "checkedAt": "2026-10-19",
-        "outcome": "relevant"
-      },
-      {
-        "sourceId": "rea-repo",
-        "checkedAt": "2026-10-19",
-        "outcome": "no-material-change"
-      },
-      {
-        "sourceId": "openai-decisions",
-        "checkedAt": "2026-10-19",
-        "outcome": "no-material-change"
-      },
-      {
-        "sourceId": "context-mode-repo",
-        "checkedAt": "2026-10-19",
-        "outcome": "no-material-change"
       }
     ],
     "queryGroups": [
       {
-        "id": "material-intake-2026-10-19",
+        "id": "material-intake-2026-10-20",
         "label": {
           "en": "Material hype intake and first-party verification",
           "ja": "重要ハイプ受入と一次情報検証"
         },
         "runRole": "scout",
         "targetIds": [
-          "sphinx",
-          "harness2",
-          "lscbench",
-          "agenticbench",
-          "rugsnare",
-          "agent-independent-execution-evidence"
+          "doc2harness",
+          "graft-git-ai",
+          "hy-memory",
+          "yana-ai",
+          "costura",
+          "agent-harness-engineering"
         ],
         "sourceIds": [
-          "sphinx-repo",
-          "harness2-repo",
-          "harness2-paper",
-          "lscbench-paper",
-          "lscbench-repo",
-          "agenticbench-home",
-          "agenticbench-method",
-          "rugsnare-contract-drift"
+          "doc2harness-repo",
+          "doc2harness-paper",
+          "graft-git-ai-repo",
+          "graft-git-ai-release-0-2",
+          "hy-memory-repo",
+          "hy-memory-paper",
+          "yana-ai-repo",
+          "yana-ai-limitations",
+          "costura-repo",
+          "costura-hn"
         ],
         "resultSummary": {
-          "en": "Sphinx and Harness² enter bounded PILOT, AgenticBench enters WATCH and strengthens external execution evidence, LSCBench remains PILOT, and RugSnare advances to a comparison PILOT.",
-          "ja": "SphinxとHarness²を限定PILOTへ追加。AgenticBenchをWATCHへ追加し外部実行証拠を強化。LSCBenchはPILOTを維持し、RugSnareを比較PILOTへ昇格。"
+          "en": "Doc2Harness, git-ai, and Hy-Memory enter bounded PILOT; Yana AI and Costura enter WATCH; harness engineering becomes a separate durable category.",
+          "ja": "Doc2Harness、git-ai、Hy-Memoryを限定PILOTへ追加。Yana AIとCosturaをWATCHへ追加し、ハーネス工学を独立durable category化。"
         },
         "queries": [
-          "Sphinx comprehension gate release alternatives adoption benchmark criticism",
-          "Harness2 recursive harness release competitors reproduction criticism",
-          "LSCBench secure coding benchmark alternatives replication",
-          "AgenticBench harness security methodology disclosures reproduction",
-          "RugSnare MCP contract drift alternatives adoption criticism"
+          "Doc2Harness release alternatives adoption benchmark criticism",
+          "git-ai release competitors benchmark criticism agent-native source control",
+          "Hy-Memory MemHub releases alternatives adoption benchmark criticism",
+          "Yana AI runtime policy control plane competitors security benchmark",
+          "Costura AI spend attribution alternatives adoption reconciliation criticism"
         ]
       },
       {
-        "id": "sphinx-sibling-challenge-2026-10-19",
+        "id": "harness-engineering-sibling-challenge-2026-10-20",
         "label": {
-          "en": "Sphinx first-party and sibling-implementation challenge",
-          "ja": "Sphinxの一次情報・同等実装検証"
+          "en": "Harness engineering first-party and sibling challenge",
+          "ja": "ハーネス工学の一次情報・同等実装検証"
         },
         "runRole": "scout",
         "targetIds": [
-          "sphinx"
-        ],
-        "sourceIds": [
-          "sphinx-repo",
-          "sphinx-ci",
-          "vibe-check-repo"
-        ],
-        "resultSummary": {
-          "en": "The first-party mechanism is explicit and inspectable, while independent PR and local-hook siblings show that comprehension gating is not unique; bypassability, semantic grading, and outcome evidence remain limits.",
-          "ja": "一次の仕組みは明示的で検査可能だが、独立したPR・ローカルhook実装により理解度ゲートは固有でない。迂回可能性、意味採点、成果証拠は限界として残る。"
-        },
-        "queries": [
-          "Sphinx AI code comprehension gate alternatives Sphinx-CI VibeCheck GitHub",
-          "developer comprehension gate AI generated code quiz before commit alternatives GitHub"
-        ]
-      },
-      {
-        "id": "harness-and-execution-evidence-challenge-2026-10-19",
-        "label": {
-          "en": "Recursive harness and external evidence challenge",
-          "ja": "再帰ハーネス・外部証拠の検証"
-        },
-        "runRole": "scout",
-        "targetIds": [
+          "doc2harness",
           "harness2",
-          "agenticbench",
-          "agent-independent-execution-evidence"
+          "agent-harness-engineering"
         ],
         "sourceIds": [
+          "doc2harness-repo",
+          "doc2harness-paper",
+          "harnessdev-paper",
           "harness2-repo",
-          "harness2-paper",
-          "agenticbench-home",
-          "agenticbench-method",
-          "harnesssecurity-paper"
+          "harness2-paper"
         ],
         "resultSummary": {
-          "en": "Harness² exposes a concrete recursive control surface but lacks independent reproduction; AgenticBench and HarnessSecurity-Bench independently support evaluator-owned runtime evidence while measuring different boundaries.",
-          "ja": "Harness²は具体的な再帰制御面を公開するが独立再現はない。AgenticBenchとHarnessSecurity-Benchは異なる境界を測りつつ、評価者所有の実行時証拠を独立に支持する。"
+          "en": "Doc2Harness has a concrete public evaluator subset, while HarnessDev and Harness² independently confirm harness construction and evolution as engineering targets; methods and outcome boundaries differ.",
+          "ja": "Doc2Harnessには具体的な公開評価subsetがあり、HarnessDevとHarness²もハーネス構築・進化をengineering対象として独立支持するが、手法と成果境界は異なる。"
         },
         "queries": [
-          "Harness2 recursive harness optimization alternatives self improving agent harness implementation",
-          "AgenticBench external harness security benchmark alternatives captured system calls network traffic"
+          "Doc2Harness benchmark criticism alternatives",
+          "AI agent harness engineering benchmark scaffold construction HarnessDev Harness2"
         ]
       }
     ],
@@ -242,7 +215,12 @@
       "esp32-iphone-agent",
       "sphinx",
       "harness2",
-      "agenticbench"
+      "agenticbench",
+      "doc2harness",
+      "hy-memory",
+      "yana-ai",
+      "costura",
+      "agent-harness-engineering"
     ],
     "changelogEntriesChecked": [
       "v0",
@@ -259,7 +237,8 @@
       "radar-daily-2026-10-15",
       "radar-daily-2026-10-16",
       "radar-daily-2026-10-17",
-      "radar-daily-2026-10-19"
+      "radar-daily-2026-10-19",
+      "radar-daily-2026-10-20"
     ],
     "sensors": [
       {
@@ -272,7 +251,11 @@
       },
       {
         "id": "github-public",
-        "state": "checked"
+        "state": "failed",
+        "reason": {
+          "en": "The bounded GitHub update fetch completed six of seven queries, then hit rate limit; its result set is empty and prior repository results are not presented as current.",
+          "ja": "範囲限定GitHub更新取得は7件中6件完了後にrate limitへ到達。結果集合は空で、過去のrepository結果を現在値として提示しない。"
+        }
       },
       {
         "id": "preprint",
@@ -309,54 +292,55 @@
       {
         "kind": "material-finding",
         "targetIds": [
-          "sphinx",
-          "harness2",
-          "lscbench",
-          "agenticbench",
-          "agent-independent-execution-evidence",
-          "rugsnare"
+          "doc2harness",
+          "graft-git-ai",
+          "hy-memory",
+          "yana-ai",
+          "costura",
+          "agent-harness-engineering"
         ],
         "sourceIds": [
-          "sphinx-repo",
-          "sphinx-ci",
-          "vibe-check-repo",
-          "harness2-repo",
-          "harness2-paper",
-          "lscbench-paper",
-          "agenticbench-home",
-          "agenticbench-method",
-          "harnesssecurity-paper",
-          "rugsnare-contract-drift"
+          "doc2harness-repo",
+          "doc2harness-paper",
+          "harnessdev-paper",
+          "graft-git-ai-release-0-2",
+          "hy-memory-repo",
+          "hy-memory-paper",
+          "yana-ai-repo",
+          "yana-ai-limitations",
+          "costura-repo",
+          "costura-hn"
         ],
         "summary": {
-          "en": "Attention converged on authority outside the model: human comprehension gates, recursive but measured harness changes, security acceptance, and evaluator-captured runtime evidence. The artifacts are concrete; most outcome claims remain author-run or single-run.",
-          "ja": "注目はモデル外の権限へ収束した。人間理解度ゲート、測定付き再帰ハーネス変更、安全受入、評価者取得の実行時証拠である。成果物は具体的だが、多くの成果主張は作者実施または単回実行に留まる。"
+          "en": "Harnesses are becoming engineered and evaluated artifacts, while source control, memory, policy, and cost accounting form separate operational control surfaces. The artifacts are concrete; most outcome evidence remains project-authored.",
+          "ja": "ハーネスは設計・評価される成果物となり、source control、記憶、policy、費用会計は別々の運用control面を形成する。成果物は具体的だが、多くの成果証拠は作者実施。"
         }
       },
       {
         "kind": "editorial-decision",
         "targetIds": [
-          "sphinx",
-          "harness2",
-          "lscbench",
-          "agenticbench",
-          "agent-independent-execution-evidence",
-          "rugsnare"
+          "doc2harness",
+          "graft-git-ai",
+          "hy-memory",
+          "yana-ai",
+          "costura",
+          "agent-harness-engineering"
         ],
         "sourceIds": [
-          "sphinx-repo",
-          "sphinx-ci",
-          "harness2-repo",
-          "harness2-paper",
-          "lscbench-paper",
-          "agenticbench-method",
-          "harnesssecurity-paper",
-          "rugsnare-contract-drift",
-          "mcpward-repo"
+          "doc2harness-repo",
+          "doc2harness-paper",
+          "harnessdev-paper",
+          "graft-git-ai-repo",
+          "graft-git-ai-release-0-2",
+          "hy-memory-repo",
+          "hy-memory-paper",
+          "yana-ai-repo",
+          "yana-ai-limitations",
+          "costura-repo"
         ],
         "summary": {
-          "en": "Add Sphinx and Harness² as bounded PILOTs; add AgenticBench at WATCH and as evidence for the existing external-execution category; retain LSCBench at PILOT; promote RugSnare to a bounded comparison PILOT without changing the MCP category.",
-          "ja": "SphinxとHarness²を限定PILOTへ追加。AgenticBenchをWATCHとし既存の外部実行証拠カテゴリの証拠へ追加。LSCBenchはPILOTを維持。MCPカテゴリは変更せずRugSnareを限定比較PILOTへ昇格。"
+          "en": "Add Doc2Harness, git-ai, and Hy-Memory at bounded PILOT; add Yana AI and Costura at WATCH; create a separate three-implementation harness-engineering PILOT category without promoting any item to Core Atlas.",
+          "ja": "Doc2Harness、git-ai、Hy-Memoryを限定PILOT、Yana AIとCosturaをWATCHへ追加。いずれもCore Atlasへ昇格せず、3実装の独立ハーネス工学PILOTカテゴリを作成。"
         }
       }
     ]
@@ -591,6 +575,42 @@
     {
       "signalId": "agenticbench",
       "stage": "watch",
+      "score": 42,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "doc2harness",
+      "stage": "pilot",
+      "score": 38,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "graft-git-ai",
+      "stage": "pilot",
+      "score": 44,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "hy-memory",
+      "stage": "pilot",
+      "score": 42,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "yana-ai",
+      "stage": "watch",
+      "score": 30,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "costura",
+      "stage": "watch",
+      "score": 28,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "agent-harness-engineering",
+      "stage": "pilot",
       "score": 42,
       "compatibility": "unknown"
     }
@@ -3800,6 +3820,451 @@
             "adoption": 42,
             "fit": 94,
             "confidence": 84
+          }
+        }
+      ]
+    },
+    {
+      "id": "doc2harness",
+      "name": {
+        "en": "Doc2Harness",
+        "ja": "Doc2Harness"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "agent-harness",
+        "harness-engineering",
+        "eval-evaluation"
+      ],
+      "scores": {
+        "frontier": 92,
+        "adoption": 38,
+        "fit": 94,
+        "confidence": 84
+      },
+      "recommendation": {
+        "en": "PILOT the 94 public scenarios against one disposable internal harness; report public-case coverage separately from the unreproducible held-out leaderboard.",
+        "ja": "公開94シナリオを使い捨て内部ハーネス1件でPILOT。公開caseの結果と再現不能な非公開順位表を分けて報告する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Frozen artifacts, isolated runs, observable effects, and positive controls make the public evaluator concrete and auditable.",
+          "ja": "固定成果物、隔離実行、観測可能な効果、正例対照により公開評価器は具体的で監査可能。"
+        },
+        {
+          "en": "Most cases are held out, model results are author-run, and passing synthetic clauses does not establish production task quality.",
+          "ja": "大半のcaseは非公開で結果は作者実施。合成条項への合格はproduction課題品質を証明しない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "doc2harness-repo",
+          "doc2harness-paper",
+          "harnessdev-paper"
+        ],
+        "collectedAt": "2026-10-20",
+        "method": {
+          "en": "Reviewed the official code and paper, then challenged novelty against the independent HarnessDev benchmark. No benchmark was installed or rerun.",
+          "ja": "公式実装・論文を確認し、独立HarnessDevベンチマークと新規性を比較。導入・再実行はしていない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-20",
+          "event": {
+            "en": "Added at bounded PILOT; deterministic harness-construction testing is useful, but public coverage is a subset and outcomes are not independently reproduced.",
+            "ja": "限定PILOTへ追加。決定論的なハーネス構築試験は有用だが、公開範囲は一部で成果は独立再現されていない。"
+          },
+          "scores": {
+            "frontier": 92,
+            "adoption": 38,
+            "fit": 94,
+            "confidence": 84
+          }
+        }
+      ]
+    },
+    {
+      "id": "graft-git-ai",
+      "name": {
+        "en": "git-ai",
+        "ja": "git-ai"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "agentic-coding",
+        "artifact"
+      ],
+      "scores": {
+        "frontier": 88,
+        "adoption": 44,
+        "fit": 70,
+        "confidence": 76
+      },
+      "recommendation": {
+        "en": "PILOT only on a disposable mirror with synthetic 20–50-agent contention; measure semantic merge correctness, rejected changes, recovery, and operator time.",
+        "ja": "合成20〜50 agent競合を持つ使い捨てmirrorでのみPILOT。意味merge正当性、拒否変更、復旧、operator時間を測る。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Server-side history, machine identities, compare-and-swap landing, and semantic approval rules address concrete multi-agent source-control pressure.",
+          "ja": "server側履歴、machine identity、compare-and-swap着地、意味承認ruleはmulti-agent source管理の具体的圧力へ対応する。"
+        },
+        {
+          "en": "The 0.2 benchmark is project-authored, interfaces remain pre-1.0, and storage garbage collection and fair queuing are incomplete.",
+          "ja": "0.2評価は作者実施でinterfaceは1.0前。保存garbage collectionと公平queueは未完成。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "graft-git-ai-repo",
+          "graft-git-ai-release-0-2"
+        ],
+        "collectedAt": "2026-10-20",
+        "method": {
+          "en": "Reviewed the repository, 0.2 release, benchmark design, fixes, and declared limitations. No server was installed or load test rerun.",
+          "ja": "repository、0.2 release、評価設計、修正、明示限界を確認。server導入や負荷試験再実行はしていない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-20",
+          "event": {
+            "en": "Advanced from monitoring to a disposable-mirror PILOT after the 0.2 release made performance and correctness changes testable.",
+            "ja": "0.2 releaseで性能・正当性変更が試験可能になったため、監視から使い捨てmirror限定PILOTへ進めた。"
+          },
+          "scores": {
+            "frontier": 88,
+            "adoption": 44,
+            "fit": 70,
+            "confidence": 76
+          }
+        }
+      ]
+    },
+    {
+      "id": "hy-memory",
+      "name": {
+        "en": "Hy-Memory and MemHub",
+        "ja": "Hy-MemoryとMemHub"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "agent-memory",
+        "artifact"
+      ],
+      "scores": {
+        "frontier": 90,
+        "adoption": 42,
+        "fit": 88,
+        "confidence": 76
+      },
+      "recommendation": {
+        "en": "PILOT with reversible, non-sensitive profile data; test memory precision, stale-fact correction, rollback, cross-tool consistency, and recovery before broader use.",
+        "ja": "可逆で非機密のprofile dataでPILOT。記憶精度、古い事実の訂正、rollback、tool間整合、復旧を広範利用前に試す。"
+      },
+      "tradeoffs": [
+        {
+          "en": "The model, SDK, framework, evaluation utilities, and local-first application form an unusually complete inspectable memory stack.",
+          "ja": "model、SDK、framework、評価tool、local-first applicationが異例に完整で検査可能な記憶stackを成す。"
+        },
+        {
+          "en": "Reported scores are Tencent-run on fixed subsamples; cross-application governance, migrations, rollback, and operational maturity remain unproven.",
+          "ja": "公開scoreはTencent実施の固定subset。横断統治、migration、rollback、運用成熟度は未証明。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "hy-memory-repo",
+          "hy-memory-paper"
+        ],
+        "collectedAt": "2026-10-20",
+        "method": {
+          "en": "Reviewed the first-party repository and paper, including the evaluation boundary. No model, SDK, or MemHub binary was installed.",
+          "ja": "一次repositoryと論文、評価境界を確認。model、SDK、MemHub binaryは導入していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-20",
+          "event": {
+            "en": "Added at bounded PILOT for reversible test data; operational maturity and independent memory-quality evidence remain insufficient.",
+            "ja": "可逆なtest data限定PILOTへ追加。運用成熟度と独立した記憶品質証拠は不足。"
+          },
+          "scores": {
+            "frontier": 90,
+            "adoption": 42,
+            "fit": 88,
+            "confidence": 76
+          }
+        }
+      ]
+    },
+    {
+      "id": "yana-ai",
+      "name": {
+        "en": "Yana AI",
+        "ja": "Yana AI"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "approval-gate",
+        "agent-harness"
+      ],
+      "scores": {
+        "frontier": 84,
+        "adoption": 30,
+        "fit": 90,
+        "confidence": 78
+      },
+      "recommendation": {
+        "en": "WATCH; consider a disposable-repository pilot only after mapping which host paths are hard-blocked and excluding production credentials.",
+        "ja": "WATCH。どのhost経路がhard blockされるかを対応付け、production credentialを除外した後にのみ使い捨てrepository pilotを検討。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Capability manifests, approval gates, audit chaining, integrity checks, and an external halt watcher are inspectable controls.",
+          "ja": "能力manifest、承認gate、監査chain、完全性検査、外部halt watcherは検査可能なcontrol。"
+        },
+        {
+          "en": "Command-string checks are not complete parsing, enforcement varies by host, browser-only paths are weaker, and adoption is minimal.",
+          "ja": "command文字列検査は完全なparserではなくhostごとに強制範囲が異なり、browser-only経路は弱く、採用も最小。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "yana-ai-repo",
+          "yana-ai-limitations"
+        ],
+        "collectedAt": "2026-10-20",
+        "method": {
+          "en": "Reviewed the repository architecture and first-party limitation ledger. No runtime, hook, or policy pack was installed.",
+          "ja": "repository architectureと一次限界ledgerを確認。runtime、hook、policy packは導入していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-20",
+          "event": {
+            "en": "Added at WATCH because the control surface is concrete and self-critical, while enforcement coverage and adoption remain unsettled.",
+            "ja": "control面は具体的で自己批判的だが、強制coverageと採用が未確定のためWATCHへ追加。"
+          },
+          "scores": {
+            "frontier": 84,
+            "adoption": 30,
+            "fit": 90,
+            "confidence": 78
+          }
+        }
+      ]
+    },
+    {
+      "id": "costura",
+      "name": {
+        "en": "Costura",
+        "ja": "Costura"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "agent-observability",
+        "artifact"
+      ],
+      "scores": {
+        "frontier": 76,
+        "adoption": 28,
+        "fit": 72,
+        "confidence": 70
+      },
+      "recommendation": {
+        "en": "WATCH; if tested, use synthetic or read-only provider accounts and compare reconciled totals with a request-level ledger before trusting attribution.",
+        "ja": "WATCH。試す場合は合成またはread-only provider accountを用い、配賦を信頼する前に照合総額をrequest単位ledgerと比較する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Provider-side daily reconciliation can catch invoice drift and allocate shared account costs without proxying prompts.",
+          "ja": "provider側の日次照合はpromptをproxyせず請求差異を捉え、共有account費用を配賦できる。"
+        },
+        {
+          "en": "It lacks request, sub-agent, tool-call, and workflow-step causality; early releases and broad admin credentials increase operational risk.",
+          "ja": "request、sub-agent、tool call、workflow stepの因果性がなく、初期releaseと広いadmin credentialが運用riskを増す。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "costura-repo",
+          "costura-hn"
+        ],
+        "collectedAt": "2026-10-20",
+        "method": {
+          "en": "Reviewed the first-party repository boundary and early practitioner discussion. No provider credentials were connected.",
+          "ja": "一次repositoryの境界と初期実務者議論を確認。provider credentialは接続していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-20",
+          "event": {
+            "en": "Added at WATCH as a billing-reconciliation ledger, not as request-level agent spend attribution.",
+            "ja": "request単位agent支出配賦ではなく、請求照合ledgerとしてWATCHへ追加。"
+          },
+          "scores": {
+            "frontier": 76,
+            "adoption": 28,
+            "fit": 72,
+            "confidence": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "agent-harness-engineering",
+      "name": {
+        "en": "Agent harness engineering",
+        "ja": "エージェント・ハーネス工学"
+      },
+      "kind": "concept",
+      "atlasTermIds": [
+        "agent-harness",
+        "harness-engineering",
+        "eval-evaluation"
+      ],
+      "scores": {
+        "frontier": 94,
+        "adoption": 42,
+        "fit": 96,
+        "confidence": 86
+      },
+      "recommendation": {
+        "en": "PILOT the practice through frozen artifacts, held-out tasks, cost, regression, and transfer measurements; evaluate implementations separately rather than treating “harness” as one product.",
+        "ja": "固定成果物、非公開課題、費用、回帰、transfer測定で実践をPILOT。「harness」を単一productとして扱わず実装を個別評価する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Doc2Harness, HarnessDev, and Harness² independently make harness construction, evaluation, or evolution a first-class engineering object.",
+          "ja": "Doc2Harness、HarnessDev、Harness²が独立にハーネス構築・評価・進化を第一級engineering対象とする。"
+        },
+        {
+          "en": "They measure different boundaries, rely mainly on project-run results, and do not establish that recursive changes generalize safely to production.",
+          "ja": "測定境界は異なり、主にproject実施結果へ依存し、再帰変更の安全なproduction一般化は証明しない。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Doc2Harness",
+          "vendor": "ICT-CAS research collaboration",
+          "organizationId": "yuyaoge-doc2harness",
+          "access": "public evaluator subset and held-out benchmark",
+          "sourceIds": [
+            "doc2harness-repo",
+            "doc2harness-paper"
+          ]
+        },
+        {
+          "name": "HarnessDev",
+          "vendor": "ByteDance Seed research collaboration",
+          "organizationId": "bytedance-seed-research",
+          "access": "public preprint describing frozen harness creation and evolution benchmark",
+          "sourceIds": [
+            "harnessdev-paper"
+          ]
+        },
+        {
+          "name": "Harness²",
+          "vendor": "Google Research",
+          "organizationId": "google-research",
+          "access": "public recursive harness research framework and paper",
+          "sourceIds": [
+            "harness2-repo",
+            "harness2-paper"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "doc2harness-repo",
+          "doc2harness-paper",
+          "harnessdev-paper",
+          "harness2-repo",
+          "harness2-paper"
+        ],
+        "collectedAt": "2026-10-20",
+        "method": {
+          "en": "Compared three independently operated implementations and their evaluation boundaries. No framework or benchmark was installed or reproduced.",
+          "ja": "独立運営の3実装と評価境界を比較。framework・benchmarkは導入・再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-20",
+          "event": {
+            "en": "Spawned as a durable category after independent construction benchmarks and a recursive framework converged on harnesses as engineered, evaluated artifacts.",
+            "ja": "独立した構築benchmarkと再帰frameworkが、ハーネスを設計・評価される成果物として収束したためdurable category化。"
+          },
+          "scores": {
+            "frontier": 94,
+            "adoption": 42,
+            "fit": 96,
+            "confidence": 86
           }
         }
       ]
