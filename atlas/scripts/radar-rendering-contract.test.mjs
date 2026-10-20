@@ -6,7 +6,10 @@ const audit = {
   asOf: '2026-10-11T06:00:00Z',
   dataStatus: 'current',
   runs: {
-    scout: { lastSuccessfulRunAt: '2026-10-11T05:00:00Z' },
+    scout: {
+      lastSuccessfulRunAt: '2026-10-11T05:00:00Z',
+      lastFailure: { at: '2026-10-11T05:45:00Z', class: 'rate_limit', resolved: false },
+    },
     editor: { lastSuccessfulRunAt: '2026-10-11T05:30:00Z' },
   },
   sensors: [
@@ -24,6 +27,7 @@ test('accepts dynamically rendered checked and failed sensor states', () => {
     audit.runs.editor.lastSuccessfulRunAt,
     '<li><strong>github-public</strong><span class="status status-checked">',
     '<li><strong>preprint</strong><span class="status status-failed">',
+    '<span data-en="Unresolved incident" data-ja="未解決障害">',
   ].join(' ');
   const markdown = [
     '## Radar health / レーダー健全性',
@@ -38,6 +42,21 @@ test('accepts dynamically rendered checked and failed sensor states', () => {
   assert.doesNotThrow(() => validateMarkdownRadarAudit(markdown, audit));
 });
 
+test('rejects a resolved label for an unresolved incident', () => {
+  const misleadingHtml = [
+    'id="radar-audit"',
+    'data-audit-state="current"',
+    audit.asOf,
+    audit.runs.scout.lastSuccessfulRunAt,
+    audit.runs.editor.lastSuccessfulRunAt,
+    '<li><strong>github-public</strong><span class="status status-checked">',
+    '<li><strong>preprint</strong><span class="status status-failed">',
+    '<span data-en="Resolved incident" data-ja="解決済み障害">',
+  ].join(' ');
+
+  assert.throws(() => validateHtmlRadarAudit(misleadingHtml, audit), /Misrepresented Radar incident resolution/);
+});
+
 test('rejects a stale hard-coded sensor state', () => {
   const staleHtml = [
     'id="radar-audit"',
@@ -47,6 +66,7 @@ test('rejects a stale hard-coded sensor state', () => {
     audit.runs.editor.lastSuccessfulRunAt,
     '<li><strong>github-public</strong><span class="status status-skipped">',
     '<li><strong>preprint</strong><span class="status status-failed">',
+    '<span data-en="Unresolved incident" data-ja="未解決障害">',
   ].join(' ');
   const staleMarkdown = [
     '## Radar health / レーダー健全性',

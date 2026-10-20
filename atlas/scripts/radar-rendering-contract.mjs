@@ -11,6 +11,12 @@ export const validateHtmlRadarAudit = (html, audit) => {
     const fragment = `<li><strong>${sensor.id}</strong><span class="status status-${sensor.state}">`;
     if (!html.includes(fragment)) fail(`Missing rendered Radar sensor ${sensor.id}:${sensor.state}`);
   }
+  const incident = audit.runs.scout.lastFailure;
+  if (incident) {
+    const expected = incident.resolved ? 'data-en="Resolved incident"' : 'data-en="Unresolved incident"';
+    const misleading = incident.resolved ? 'data-en="Unresolved incident"' : 'data-en="Resolved incident"';
+    if (!html.includes(expected) || html.includes(misleading)) fail(`Misrepresented Radar incident resolution: ${incident.resolved}`);
+  }
 };
 
 export const validateMarkdownRadarAudit = (markdown, audit) => {
