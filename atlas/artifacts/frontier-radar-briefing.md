@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-20
+Snapshot / スナップショット: 2026-10-21
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,16 +8,16 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-20T06:04:06Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-21T06:02:23.152Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: PARTIAL; last success 2026-10-19T06:02:58.718Z; failure streak 1; last failure unknown at 2026-10-20T06:01:01.730Z (unresolved)
-- editor: PARTIAL; last success 2026-10-19T06:02:58.718Z; failure streak 1; last failure rate_limit at 2026-10-20T06:01:18.971Z (unresolved)
+- scout: PARTIAL; last success 2026-10-19T06:02:58.718Z; failure streak 1; last failure unknown at 2026-10-21T06:02:18.568Z (unresolved)
+- editor: PARTIAL; last success 2026-10-19T06:02:58.718Z; failure streak 1; last failure rate_limit at 2026-10-21T06:02:23.152Z (unresolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: FAILED — The bounded GitHub update fetch completed six of seven queries, then hit rate limit; its result set is empty and prior repository results are not presented as current. / 範囲限定GitHub更新取得は7件中6件完了後にrate limitへ到達。結果集合は空で、過去のrepository結果を現在値として提示しない。
+- github-public: FAILED — The bounded GitHub fetch failed on rate limit with no current signals; prior repository results are not presented as current. / 範囲限定GitHub取得はrate limitで失敗し、現在のシグナルは空。過去のrepository結果を現在値として提示しない。
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
@@ -34,6 +34,21 @@ As of / 基準時刻: 2026-10-20T06:04:06Z; cadence / 頻度: daily; data / デ�
 - [Show HN: Self-hosted AI spend attribution](https://news.ycombinator.com/item?id=50160102): relevant; checked 2026-10-20; source costura-hn
 - [Harness² repository](https://github.com/google-research/harness2): relevant; checked 2026-10-20; source harness2-repo
 - [Harness²: Recursive Agent Harnessing for an Open World](https://arxiv.org/abs/2610.14224): relevant; checked 2026-10-20; source harness2-paper
+- [DeepInfer repository](https://github.com/deepseek-ai/DeepInfer): relevant; checked 2026-10-21; source deepinfer-repo
+- [NBER Working Paper 35275: From Writing Code to Shipping Software](https://www.nber.org/papers/w35275): relevant; checked 2026-10-21; source nber-writing-shipping-code
+- [From Writing Code to Shipping Software author PDF](https://www.mertdemirer.com/Papers/Demirer_Writing_vs_shipping_code.pdf): relevant; checked 2026-10-21; source demirer-writing-shipping-code
+- [Jellyfish: AI coding and review bottlenecks](https://fion.ac/jellyfish.pdf): relevant; checked 2026-10-21; source fiona-jellyfish
+- [Unterm repository](https://github.com/zhitongblog/unterm): relevant; checked 2026-10-21; source unterm-repo
+- [Agentitter](https://agentitter.com): relevant; checked 2026-10-21; source agentitter-home
+- [Chrome WebMCP documentation](https://developer.chrome.com/docs/ai/agents): relevant; checked 2026-10-21; source chrome-webmcp
+- [The escape hatch](https://kennethreitz.org/essays/2026-10-20-i_built_the_escape_hatch): relevant; checked 2026-10-21; source kennethreitz-escape-hatch
+- [PROTEA robot defense report](https://www.binghamton.edu/news/story/6544/secret-trigger-words-could-make-ai-powered-robots-dangerous-and-these-researchers-developed-a-defense): relevant; checked 2026-10-21; source protea-binghamton
+- [Tenuo OWASP agent security guidance](https://tenuo.ai/owasp): relevant; checked 2026-10-21; source tenuo-owasp
+- [Tenuo repository](https://github.com/tenuo-ai/tenuo): relevant; checked 2026-10-21; source tenuo-repo
+- [ARTEX repository](https://github.com/Autumn-27/ARTEX): relevant; checked 2026-10-21; source artex-repo
+- [Meta thin orchestrator architecture](https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture): relevant; checked 2026-10-21; source meta-thin-router
+- [OpenAI monitoring internal coding agents](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment): relevant; checked 2026-10-21; source openai-agent-monitoring
+- [Blueprints not prompts: TLA+](https://mulgadc.com/blog/blueprints-not-prompts-tla-plus): relevant; checked 2026-10-21; source mulgadc-tla-plus
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -59,11 +74,23 @@ Evidence: doc2harness-repo, doc2harness-paper, harnessdev-paper, harness2-repo, 
 - `Doc2Harness benchmark criticism alternatives`
 - `AI agent harness engineering benchmark scaffold construction HarnessDev Harness2`
 
+### Frontier editorial challenge and production-chain controls / フロンティア編集チャレンジと本番チェーン制御
+DeepInfer remains conditional WATCH; coding-to-release attenuation, explicit interfaces, and effective-agency controls are durable evidence categories. Lifecycle convergence and git-ai movement remain audit findings. / DeepInferは条件付きWATCHを維持。コーディングからリリースへの減衰、明示的インターフェース、実効的エージェンシー制御を持続的証拠カテゴリとする。ライフサイクル収束とgit-aiの動きは監査所見に留める。
+
+Targets: deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls
+
+Evidence: deepinfer-repo, nber-writing-shipping-code, demirer-writing-shipping-code, fiona-jellyfish, unterm-repo, agentitter-home, chrome-webmcp, kennethreitz-escape-hatch, protea-binghamton, tenuo-owasp, tenuo-repo, artex-repo, meta-thin-router, openai-agent-monitoring, mulgadc-tla-plus
+
+- `DeepInfer production readiness bounded pilot independent evidence`
+- `coding productivity downstream releases review bottleneck NBER Jellyfish`
+- `explicit agent-facing interface Unterm Agentitter WebMCP alternatives`
+- `agent effective agency controls PROTEA Tenuo ARTEX httpbin`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -73,6 +100,9 @@ Evidence: doc2harness-repo, doc2harness-paper, harnessdev-paper, harness2-repo, 
 ### Findings and decisions / 発見と判断
 - material-finding; doc2harness, graft-git-ai, hy-memory, yana-ai, costura, agent-harness-engineering: Harnesses are becoming engineered and evaluated artifacts, while source control, memory, policy, and cost accounting form separate operational control surfaces. The artifacts are concrete; most outcome evidence remains project-authored. / ハーネスは設計・評価される成果物となり、source control、記憶、policy、費用会計は別々の運用control面を形成する。成果物は具体的だが、多くの成果証拠は作者実施。; evidence: doc2harness-repo, doc2harness-paper, harnessdev-paper, graft-git-ai-release-0-2, hy-memory-repo, hy-memory-paper, yana-ai-repo, yana-ai-limitations, costura-repo, costura-hn
 - editorial-decision; doc2harness, graft-git-ai, hy-memory, yana-ai, costura, agent-harness-engineering: Add Doc2Harness, git-ai, and Hy-Memory at bounded PILOT; add Yana AI and Costura at WATCH; create a separate three-implementation harness-engineering PILOT category without promoting any item to Core Atlas. / Doc2Harness、git-ai、Hy-Memoryを限定PILOT、Yana AIとCosturaをWATCHへ追加。いずれもCore Atlasへ昇格せず、3実装の独立ハーネス工学PILOTカテゴリを作成。; evidence: doc2harness-repo, doc2harness-paper, harnessdev-paper, graft-git-ai-repo, graft-git-ai-release-0-2, hy-memory-repo, hy-memory-paper, yana-ai-repo, yana-ai-limitations, costura-repo
+- material-finding; coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls: Cross-source evidence supports downstream release attenuation, explicit agent-facing interfaces, and effective-agency controls; it is sufficient for bounded WATCH/PILOT decisions but not broad production claims. / 複数情報源の証拠は下流リリース減衰、明示的エージェント向けインターフェース、実効的エージェンシー制御を支持する。限定WATCH/PILOT判断には十分だが、広範な本番主張には不十分。; evidence: nber-writing-shipping-code, demirer-writing-shipping-code, fiona-jellyfish, unterm-repo, agentitter-home, chrome-webmcp, protea-binghamton, tenuo-owasp, tenuo-repo, artex-repo
+- editorial-decision; deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls: Add DeepInfer as named conditional WATCH; add the three durable categories at WATCH, narrow PILOT, and WATCH. Keep lifecycle architecture convergence and the unexplained git-ai star/fork fall as audit findings, not signals; do not promote Core Atlas. / DeepInferを名前付き条件付きWATCHとして追加し、3つの持続的カテゴリをWATCH、狭いPILOT、WATCHとして追加。ライフサイクル・アーキテクチャ収束と原因不明のgit-ai star/fork減少はシグナルではなく監査所見に留め、Core Atlasへ昇格しない。; evidence: deepinfer-repo, nber-writing-shipping-code, fiona-jellyfish, unterm-repo, agentitter-home, chrome-webmcp, protea-binghamton, tenuo-repo, artex-repo
+- material-finding; agent-harness-engineering, graft-git-ai: Lifecycle architecture is converging on thin routing, monitoring, and explicit control boundaries without warranting a new category. git-ai star/fork movement is an unexplained counter anomaly and is not evidence of adoption decline. / ライフサイクル・アーキテクチャは薄いルーティング、監視、明示的制御境界へ収束しているが、新カテゴリを正当化しない。git-aiのstar/forkの動きは原因不明のカウンター異常で、採用低下の証拠ではない。; evidence: meta-thin-router, openai-agent-monitoring, mulgadc-tla-plus, graft-git-ai-repo, graft-git-ai-release-0-2
 
 ## Signals / シグナル
 
@@ -613,19 +643,67 @@ Evidence: doc2harness-repo, doc2harness-paper, harnessdev-paper, harness2-repo, 
 - History / 履歴:
   - 2026-10-20: Spawned as a durable category after independent construction benchmarks and a recursive framework converged on harnesses as engineered, evaluated artifacts. / 独立した構築benchmarkと再帰frameworkが、ハーネスを設計・評価される成果物として収束したためdurable category化。
 
+### DeepInfer / DeepInfer
+- Adoption stage / 導入段階: WATCH (28/100)
+- Scores / スコア: frontier 88, fit 86, confidence 68
+- Recommendation / 推奨: WATCH; consider a bounded comparison with vLLM only on supported V4.1-Flash hardware, measuring throughput, cost, structured-output correctness, and operational complexity. / WATCH。対応するV4.1-Flashハードウェアがある場合のみvLLMとの限定比較を検討し、throughput、費用、構造化出力の正確性、運用複雑性を測る。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - A concrete model/hardware co-designed inference implementation makes the capability worth tracking. / modelとhardwareを共同設計した具体的な推論実装があり、能力を追跡する価値がある。
+  - It targets a narrow model and hardware set, is not a complete serving system, and lacks independent production evidence. / 対象modelとhardwareが限定され、完全なserving systemではなく、独立した本番証拠もない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-21
+- History / 履歴:
+  - 2026-10-21: Added in the 2026-10-21 editorial audit with evidence boundaries preserved. / 証拠の境界を保った2026-10-21編集監査で追加。
+
+### Coding-to-release attenuation / コーディングからリリースへの減衰
+- Adoption stage / 導入段階: WATCH (58/100)
+- Scores / スコア: frontier 86, fit 94, confidence 82
+- Recommendation / 推奨: WATCH; pilot full production-chain metrics rather than optimizing code volume alone. / WATCH。コード量だけでなく本番チェーン全体の指標を測るPILOTを行う。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - NBER finds large coding and project gains with a least-sharp release effect. / NBERはコーディングとプロジェクトの大幅な増加に対し、リリース効果は最も弱いと示す。
+  - Fiona Chen and James Stratton report a review bottleneck, but both evidence streams remain observational. / Fiona ChenとJames Strattonはレビュー・ボトルネックを報告するが、両方とも観察証拠である。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-21
+- History / 履歴:
+  - 2026-10-21: Added in the 2026-10-21 editorial audit with evidence boundaries preserved. / 証拠の境界を保った2026-10-21編集監査で追加。
+
+### Explicit agent-facing interfaces / 明示的エージェント向けインターフェース
+- Adoption stage / 導入段階: PILOT (34/100)
+- Scores / スコア: frontier 90, fit 88, confidence 76
+- Recommendation / 推奨: PILOT narrowly and reversibly across isolated interfaces; compare permissions, provenance, and escape paths. / 隔離されたインターフェース間で、権限、来歴、脱出経路を比較する狭く可逆なPILOTを行う。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Unterm, Agentitter, and Chrome/WebMCP expose explicit agent-facing surfaces independently. / Unterm、Agentitter、Chrome/WebMCPが独立に明示的エージェント向け面を公開する。
+  - Host coverage, permission boundaries, and interoperability remain uneven; tool exposure must stay narrow, reversible, and observable. / ホスト対応、権限境界、相互運用性は不均一で、tool公開は狭く、可逆で、観測可能に保つ必要がある。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-21
+- History / 履歴:
+  - 2026-10-21: Added in the 2026-10-21 editorial audit with evidence boundaries preserved. / 証拠の境界を保った2026-10-21編集監査で追加。
+
+### Effective-agency controls / 実効的エージェンシー制御
+- Adoption stage / 導入段階: WATCH (30/100)
+- Scores / スコア: frontier 91, fit 94, confidence 78
+- Recommendation / 推奨: WATCH; permit a narrowly bounded PILOT only with deny-by-default controls, external observation, and resettable credentials. / WATCH。deny-by-default制御、外部観測、初期化可能な資格情報を備える場合のみ狭いPILOTを許可する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張された成果を再現せず、ローカル運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - PROTEA and Tenuo provide defensive controls, while ARTEX exposes the opposing offensive automation pressure across physical planning, authorization, and reachable tools. / PROTEAとTenuoは防御制御を提供し、ARTEXは物理計画、認可、到達可能toolにまたがる反対側の攻撃自動化圧力を示す。
+  - The httpbin escape-hatch report is anecdotal evidence of a failure mode, not an implementation or efficacy proof. / httpbinのescape-hatch報告は障害モードの逸話的証拠であり、実装や有効性の証明ではない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-21
+- History / 履歴:
+  - 2026-10-21: Added in the 2026-10-21 editorial audit with evidence boundaries preserved. / 証拠の境界を保った2026-10-21編集監査で追加。
+
 ## GitHub discovery input / GitHub発見入力
 
 Public observation input only. Living candidates live in discovery-candidates.json. Absence of a repository is not a negative finding. Queries may be phenomenon-based and need not match Core Atlas terms. / 公開観測の入力のみ。生きた候補は discovery-candidates.json にある。リポジトリがないことは否定的発見ではない。クエリは現象ベースでよく、コア・アトラス用語と一致する必要はない。
 
 Provider / プロバイダー: github; mode / モード: public-api; live fetch / ライブ取得: yes
 
-- typed-decision-models: typed probabilistic decision model System One (failed)
-- agent-skills: topic:agent-skills (collected)
-- mcp-apps: topic:mcp-apps (collected)
-- a2a: topic:agent-to-agent (collected)
-- agentic-resource-discovery-ard: topic:agentic-resource-discovery (collected)
-- ponytail: ponytail (collected)
-- caveman: caveman (collected)
+- typed-decision-models: typed probabilistic decision model System One (not-collected)
+- agent-skills: topic:agent-skills (not-collected)
+- mcp-apps: topic:mcp-apps (not-collected)
+- a2a: topic:agent-to-agent (failed)
+- agentic-resource-discovery-ard: topic:agentic-resource-discovery (not-collected)
+- ponytail: ponytail (not-collected)
+- caveman: caveman (not-collected)
 
 Collected signals / 収集済みシグナル: 0
 

@@ -2550,6 +2550,145 @@
           "date": "2026-10-20"
         }
       ]
+    },
+    {
+      "id": "deepinfer",
+      "names": [
+        "DeepInfer"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-implementation",
+      "whyInteresting": {
+        "en": "A concrete first-party implementation surfaced by the frontier sweep; readiness and production fit remain unverified.",
+        "ja": "フロンティア・スイープで見つかった具体的な一次実装。準備度と本番適合性は未検証。"
+      },
+      "firstObserved": "2026-10-21",
+      "lastObserved": "2026-10-21",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "deepinfer",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 82,
+        "hype": 58,
+        "fieldImportance": 86,
+        "relevance": 84,
+        "evidenceDiversity": 78,
+        "momentum": 70
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://github.com/deepseek-ai/DeepInfer",
+          "date": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "coding-to-release-attenuation",
+      "names": [
+        "coding-to-release attenuation",
+        "shipping bottleneck"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "whyInteresting": {
+        "en": "Independent evidence separates code production from downstream release throughput and review capacity.",
+        "ja": "独立証拠がコード生産と下流リリース速度・レビュー容量を分離する。"
+      },
+      "firstObserved": "2026-10-21",
+      "lastObserved": "2026-10-21",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "coding-to-release-attenuation",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 82,
+        "hype": 58,
+        "fieldImportance": 86,
+        "relevance": 84,
+        "evidenceDiversity": 78,
+        "momentum": 70
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.nber.org/papers/w35275",
+          "date": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "explicit-agent-facing-interfaces",
+      "names": [
+        "explicit agent-facing interfaces",
+        "Unterm",
+        "Agentitter",
+        "WebMCP"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "whyInteresting": {
+        "en": "Several independent implementations expose explicit interfaces for agents, but permission and interoperability boundaries remain unsettled.",
+        "ja": "複数の独立実装がエージェント向け明示的インターフェースを公開するが、権限と相互運用性の境界は未確定。"
+      },
+      "firstObserved": "2026-10-21",
+      "lastObserved": "2026-10-21",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "explicit-agent-facing-interfaces",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 82,
+        "hype": 58,
+        "fieldImportance": 86,
+        "relevance": 84,
+        "evidenceDiversity": 78,
+        "momentum": 70
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://developer.chrome.com/docs/ai/agents",
+          "date": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "effective-agency-controls",
+      "names": [
+        "effective-agency controls",
+        "PROTEA",
+        "Tenuo",
+        "ARTEX"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "whyInteresting": {
+        "en": "Independent defensive implementations make effective control an engineering target rather than an autonomy claim.",
+        "ja": "独立した防御実装が、実効的制御を自律性の主張ではなく工学対象にする。"
+      },
+      "firstObserved": "2026-10-21",
+      "lastObserved": "2026-10-21",
+      "lifecycle": "remain-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "effective-agency-controls",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 82,
+        "hype": 58,
+        "fieldImportance": 86,
+        "relevance": 84,
+        "evidenceDiversity": 78,
+        "momentum": 70
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://github.com/Autumn-27/ARTEX",
+          "date": "2026-10-21"
+        }
+      ]
     }
   ]
 }

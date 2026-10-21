@@ -13,55 +13,55 @@
       "id": "typed-decision-query",
       "targetId": "typed-decision-models",
       "query": "typed probabilistic decision model System One",
-      "state": "failed"
+      "state": "not-collected"
     },
     {
       "id": "agent-skills-query",
       "targetId": "agent-skills",
       "query": "topic:agent-skills",
-      "state": "collected"
+      "state": "not-collected"
     },
     {
       "id": "mcp-apps-query",
       "targetId": "mcp-apps",
       "query": "topic:mcp-apps",
-      "state": "collected"
+      "state": "not-collected"
     },
     {
       "id": "a2a-query",
       "targetId": "a2a",
       "query": "topic:agent-to-agent",
-      "state": "collected"
+      "state": "failed"
     },
     {
       "id": "ard-query",
       "targetId": "agentic-resource-discovery-ard",
       "query": "topic:agentic-resource-discovery",
-      "state": "collected"
+      "state": "not-collected"
     },
     {
       "id": "ponytail-query",
       "targetId": "ponytail",
       "query": "ponytail",
-      "state": "collected"
+      "state": "not-collected"
     },
     {
       "id": "caveman-query",
       "targetId": "caveman",
       "query": "caveman",
-      "state": "collected"
+      "state": "not-collected"
     }
   ],
   "signals": [],
   "lastRun": {
     "status": "failed",
-    "attemptedAt": "2026-10-20T06:01:18.971Z",
+    "attemptedAt": "2026-10-21T06:02:23.152Z",
     "completedAt": null,
     "queryCount": 7,
-    "successfulQueries": 6,
+    "successfulQueries": 0,
     "failedQueries": [
       {
-        "id": "typed-decision-query",
+        "id": "a2a-query",
         "class": "rate_limit",
         "httpStatus": 403
       }
@@ -69,7 +69,7 @@
     "rateLimit": {
       "limit": 10,
       "remaining": 0,
-      "resetAt": "2026-10-20T06:01:38Z"
+      "resetAt": "2026-10-21T06:02:58Z"
     }
   }
 }

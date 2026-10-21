@@ -271,6 +271,52 @@
         "harnessdev-paper",
         "harness2-repo"
       ]
+    },
+    {
+      "id": "coding-release-independent-evidence",
+      "type": "category-evidence-threshold",
+      "signalId": "coding-to-release-attenuation",
+      "minimumIndependentOrganizations": 2,
+      "requiredOrganizationIds": [
+        "nber",
+        "fiona-chen-james-stratton"
+      ],
+      "requiredSourceIds": [
+        "nber-writing-shipping-code",
+        "fiona-jellyfish"
+      ]
+    },
+    {
+      "id": "agent-facing-interfaces-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "explicit-agent-facing-interfaces",
+      "minimumIndependentOrganizations": 3,
+      "requiredOrganizationIds": [
+        "zhitongblog",
+        "agentitter",
+        "google-chrome"
+      ],
+      "requiredSourceIds": [
+        "unterm-repo",
+        "agentitter-home",
+        "chrome-webmcp"
+      ]
+    },
+    {
+      "id": "effective-agency-controls-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "effective-agency-controls",
+      "minimumIndependentOrganizations": 3,
+      "requiredOrganizationIds": [
+        "binghamton-university",
+        "tenuo-ai",
+        "autumn-27"
+      ],
+      "requiredSourceIds": [
+        "protea-binghamton",
+        "tenuo-repo",
+        "artex-repo"
+      ]
     }
   ]
 }
