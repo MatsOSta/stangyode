@@ -1478,5 +1478,125 @@
       "en": "Early practitioner discussion that surfaces pricing-maintenance questions; attention evidence, not independent outcome validation.",
       "ja": "価格更新保守への疑問を示す初期実務者議論。注目の証拠であり、独立成果検証ではない。"
     }
+  },
+  "deepinfer-repo": {
+    "title": "DeepInfer repository",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "note": {
+      "en": "First-party repository for DeepInfer; capability and readiness claims remain project-reported.",
+      "ja": "DeepInferの一次リポジトリ。能力と準備度の主張はプロジェクト報告。"
+    }
+  },
+  "nber-writing-shipping-code": {
+    "title": "NBER Working Paper 35275: From Writing Code to Shipping Software",
+    "url": "https://www.nber.org/papers/w35275",
+    "note": {
+      "en": "Independent working paper measuring coding activity, projects, and releases; observational results and public/open-source scope limit causal transfer.",
+      "ja": "コーディング活動、プロジェクト、リリースを測る独立ワーキングペーパー。観察研究と公開・オープンソース中心の範囲が因果転移を制限する。"
+    }
+  },
+  "demirer-writing-shipping-code": {
+    "title": "From Writing Code to Shipping Software author PDF",
+    "url": "https://www.mertdemirer.com/Papers/Demirer_Writing_vs_shipping_code.pdf",
+    "note": {
+      "en": "Author-hosted paper copy used to inspect the release-attenuation analysis; it remains observational evidence.",
+      "ja": "リリース減衰分析を確認する著者公開論文。観察証拠である。"
+    }
+  },
+  "fiona-jellyfish": {
+    "title": "Jellyfish: AI coding and review bottlenecks",
+    "url": "https://fion.ac/jellyfish.pdf",
+    "note": {
+      "en": "Independent paper reporting increased review time and downstream bottlenecks; proprietary observational evidence limits generalization.",
+      "ja": "レビュー時間増加と下流ボトルネックを報告する独立論文。非公開データによる観察証拠で一般化に限界がある。"
+    }
+  },
+  "unterm-repo": {
+    "title": "Unterm repository",
+    "url": "https://github.com/zhitongblog/unterm",
+    "note": {
+      "en": "First-party implementation of an explicit agent-facing interface; interoperability and safety remain untested here.",
+      "ja": "明示的なエージェント向けインターフェースの一次実装。相互運用性と安全性はここでは未検証。"
+    }
+  },
+  "agentitter-home": {
+    "title": "Agentitter",
+    "url": "https://agentitter.com",
+    "note": {
+      "en": "First-party implementation of an agent-facing interface for interaction with a social surface; operational boundaries remain unverified.",
+      "ja": "ソーシャル面との対話を行うエージェント向けインターフェースの一次実装。運用境界は未検証。"
+    }
+  },
+  "chrome-webmcp": {
+    "title": "Chrome WebMCP documentation",
+    "url": "https://developer.chrome.com/docs/ai/agents",
+    "note": {
+      "en": "First-party Chrome documentation for WebMCP and browser agent-facing interfaces; availability and host constraints remain material.",
+      "ja": "WebMCPとブラウザのエージェント向けインターフェースに関するChrome一次資料。提供範囲とホスト制約が残る。"
+    }
+  },
+  "kennethreitz-escape-hatch": {
+    "title": "The escape hatch",
+    "url": "https://kennethreitz.org/essays/2026-10-20-i_built_the_escape_hatch",
+    "note": {
+      "en": "Practitioner report used as anecdotal evidence of an agent-facing escape path, not an independent implementation in this category.",
+      "ja": "エージェント向け脱出経路の逸話的証拠として扱う実務家報告であり、本カテゴリの独立実装ではない。"
+    }
+  },
+  "protea-binghamton": {
+    "title": "PROTEA robot defense report",
+    "url": "https://www.binghamton.edu/news/story/6544/secret-trigger-words-could-make-ai-powered-robots-dangerous-and-these-researchers-developed-a-defense",
+    "note": {
+      "en": "Independent university report describing PROTEA defenses against hidden trigger-word behavior in AI-powered robots.",
+      "ja": "AI搭載ロボットの隠れたトリガー語挙動へのPROTEA防御を記す大学の独立報告。"
+    }
+  },
+  "tenuo-owasp": {
+    "title": "Tenuo OWASP agent security guidance",
+    "url": "https://tenuo.ai/owasp",
+    "note": {
+      "en": "First-party threat and control guidance for agentic systems; coverage is guidance, not independent effectiveness proof.",
+      "ja": "エージェントシステムの脅威と制御に関するTenuo一次ガイダンス。独立した有効性証明ではない。"
+    }
+  },
+  "tenuo-repo": {
+    "title": "Tenuo repository",
+    "url": "https://github.com/tenuo-ai/tenuo",
+    "note": {
+      "en": "First-party open implementation of agent security controls and policy enforcement.",
+      "ja": "エージェントセキュリティ制御とポリシー強制の一次公開実装。"
+    }
+  },
+  "artex-repo": {
+    "title": "ARTEX repository",
+    "url": "https://github.com/Autumn-27/ARTEX",
+    "note": {
+      "en": "Canonical first-party repository for an autonomous offensive-security workflow; it is adversarial case evidence, not a defensive control or independent efficacy proof.",
+      "ja": "自律型攻撃セキュリティworkflowの正規一次リポジトリ。防御制御や独立した有効性証明ではなく、敵対的case証拠として扱う。"
+    }
+  },
+  "meta-thin-router": {
+    "title": "Meta thin orchestrator architecture",
+    "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture",
+    "note": {
+      "en": "First-party architecture report used as lifecycle-convergence evidence, not a separate Radar signal.",
+      "ja": "ライフサイクル収束の証拠として扱うMeta一次アーキテクチャ報告。独立レーダー項目ではない。"
+    }
+  },
+  "openai-agent-monitoring": {
+    "title": "OpenAI monitoring internal coding agents",
+    "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+    "note": {
+      "en": "First-party report used as lifecycle monitoring convergence evidence, not a separate Radar signal.",
+      "ja": "ライフサイクル監視の収束証拠として扱うOpenAI一次報告。独立レーダー項目ではない。"
+    }
+  },
+  "mulgadc-tla-plus": {
+    "title": "Blueprints not prompts: TLA+",
+    "url": "https://mulgadc.com/blog/blueprints-not-prompts-tla-plus",
+    "note": {
+      "en": "Practitioner architecture essay used as lifecycle-design convergence evidence, not a separate implementation claim.",
+      "ja": "ライフサイクル設計収束の証拠として扱う実務家アーキテクチャ論考。独立実装の主張ではない。"
+    }
   }
 }
