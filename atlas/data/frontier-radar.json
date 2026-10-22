@@ -9,39 +9,29 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-21",
+    "snapshot": "2026-10-22",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-21T06:02:23.152Z",
+    "asOf": "2026-10-22T06:01:12.841Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
-        "status": "partial",
-        "lastAttemptAt": "2026-10-21T06:02:23.152Z",
-        "lastSuccessfulRunAt": "2026-10-19T06:02:58.718Z",
-        "failureStreak": 1,
-        "lastFailure": {
-          "at": "2026-10-21T06:02:18.568Z",
-          "class": "unknown",
-          "resolved": false
-        }
+        "status": "success",
+        "lastAttemptAt": "2026-10-22T06:01:12.841Z",
+        "lastSuccessfulRunAt": "2026-10-22T06:01:12.841Z",
+        "failureStreak": 0
       },
       "editor": {
-        "status": "partial",
-        "lastAttemptAt": "2026-10-21T06:02:23.152Z",
-        "lastSuccessfulRunAt": "2026-10-19T06:02:58.718Z",
-        "failureStreak": 1,
-        "lastFailure": {
-          "at": "2026-10-21T06:02:23.152Z",
-          "class": "rate_limit",
-          "resolved": false
-        }
+        "status": "success",
+        "lastAttemptAt": "2026-10-22T06:01:12.841Z",
+        "lastSuccessfulRunAt": "2026-10-22T06:01:12.841Z",
+        "failureStreak": 0
       }
     },
     "sourcesChecked": [
@@ -184,6 +174,46 @@
         "sourceId": "mulgadc-tla-plus",
         "checkedAt": "2026-10-21",
         "outcome": "relevant"
+      },
+      {
+        "sourceId": "trailofbits-regression-review",
+        "checkedAt": "2026-10-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "regression-hunt-repo",
+        "checkedAt": "2026-10-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "cyberarena-home",
+        "checkedAt": "2026-10-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "cyberarena-paper",
+        "checkedAt": "2026-10-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "tdad-paper",
+        "checkedAt": "2026-10-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "tdad-repo",
+        "checkedAt": "2026-10-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "openai-coding-eval-audit",
+        "checkedAt": "2026-10-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "patchbench-paper",
+        "checkedAt": "2026-10-22",
+        "outcome": "relevant"
       }
     ],
     "queryGroups": [
@@ -294,6 +324,39 @@
           "explicit agent-facing interface Unterm Agentitter WebMCP alternatives",
           "agent effective agency controls PROTEA Tenuo ARTEX httpbin"
         ]
+      },
+      {
+        "id": "frontier-editorial-2026-10-22",
+        "label": {
+          "en": "Continuous behavioral verification challenge",
+          "ja": "継続的挙動検証の反証的調査"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "regression-hunt",
+          "cyberarena",
+          "continuous-behavioral-verification"
+        ],
+        "sourceIds": [
+          "trailofbits-regression-review",
+          "regression-hunt-repo",
+          "cyberarena-home",
+          "cyberarena-paper",
+          "tdad-paper",
+          "tdad-repo",
+          "openai-coding-eval-audit",
+          "patchbench-paper"
+        ],
+        "resultSummary": {
+          "en": "Regression Hunt enters bounded PILOT, CyberArena enters WATCH, and continuous behavioral verification becomes a three-implementation PILOT category; benchmark and PoC validity remain explicit constraints.",
+          "ja": "Regression Huntを限定PILOT、CyberArenaをWATCHへ追加し、継続的挙動検証を3実装のPILOT category化。benchmarkとPoC妥当性を明示的制約として残す。"
+        },
+        "queries": [
+          "regression-hunt alternatives adoption false positives recall",
+          "CyberArena competing adaptive cyber agent benchmarks criticism",
+          "AI coding agent regression test impact analysis TDAD",
+          "coding benchmark validity PatchBench SWE-Bench Pro audit"
+        ]
       }
     ],
     "trackedEntityIds": [
@@ -340,7 +403,10 @@
       "deepinfer",
       "coding-to-release-attenuation",
       "explicit-agent-facing-interfaces",
-      "effective-agency-controls"
+      "effective-agency-controls",
+      "regression-hunt",
+      "cyberarena",
+      "continuous-behavioral-verification"
     ],
     "changelogEntriesChecked": [
       "v0",
@@ -359,7 +425,8 @@
       "radar-daily-2026-10-17",
       "radar-daily-2026-10-19",
       "radar-daily-2026-10-20",
-      "radar-daily-2026-10-21"
+      "radar-daily-2026-10-21",
+      "radar-daily-2026-10-22"
     ],
     "sensors": [
       {
@@ -372,11 +439,7 @@
       },
       {
         "id": "github-public",
-        "state": "failed",
-        "reason": {
-          "en": "The bounded GitHub fetch failed on rate limit with no current signals; prior repository results are not presented as current.",
-          "ja": "範囲限定GitHub取得はrate limitで失敗し、現在のシグナルは空。過去のrepository結果を現在値として提示しない。"
-        }
+        "state": "checked"
       },
       {
         "id": "preprint",
@@ -528,6 +591,48 @@
         "summary": {
           "en": "Lifecycle architecture is converging on thin routing, monitoring, and explicit control boundaries without warranting a new category. git-ai star/fork movement is an unexplained counter anomaly and is not evidence of adoption decline.",
           "ja": "ライフサイクル・アーキテクチャは薄いルーティング、監視、明示的制御境界へ収束しているが、新カテゴリを正当化しない。git-aiのstar/forkの動きは原因不明のカウンター異常で、採用低下の証拠ではない。"
+        }
+      },
+      {
+        "kind": "material-finding",
+        "targetIds": [
+          "regression-hunt",
+          "cyberarena",
+          "continuous-behavioral-verification"
+        ],
+        "sourceIds": [
+          "trailofbits-regression-review",
+          "regression-hunt-repo",
+          "cyberarena-home",
+          "cyberarena-paper",
+          "tdad-paper",
+          "tdad-repo",
+          "openai-coding-eval-audit",
+          "patchbench-paper"
+        ],
+        "summary": {
+          "en": "Independent approaches converge on verifying behavior after agent-authored changes, but current evidence does not establish broad production recall: Regression Hunt trades stricter evidence for borderline misses, TDAD is project-evaluated, CyberArena measures adaptive cyber play, and benchmark/PoC validity remains fragile.",
+          "ja": "独立approachはagent作成変更後の挙動検証へ収束するが、現証拠は広範な本番recallを証明しない。Regression Huntは厳格証拠とborderline見逃しをtrade-offし、TDADはproject評価、CyberArenaは適応的cyber playを測り、benchmark・PoC妥当性は脆い。"
+        }
+      },
+      {
+        "kind": "editorial-decision",
+        "targetIds": [
+          "regression-hunt",
+          "cyberarena",
+          "continuous-behavioral-verification"
+        ],
+        "sourceIds": [
+          "trailofbits-regression-review",
+          "regression-hunt-repo",
+          "tdad-paper",
+          "cyberarena-paper",
+          "openai-coding-eval-audit",
+          "patchbench-paper"
+        ],
+        "summary": {
+          "en": "Add Regression Hunt at bounded advisory PILOT and CyberArena at WATCH; create a three-implementation continuous behavioral verification PILOT category. Require labeled holdouts, live or replayable evidence, human approval, and measurements of recall, false positives, escaped regressions, runtime, and review time. Do not promote Core Atlas.",
+          "ja": "Regression Huntを限定助言PILOT、CyberArenaをWATCHへ追加し、3実装の継続的挙動検証PILOT categoryを作成。ラベル付きholdout、liveまたは再生可能証拠、人間承認、recall、false positive、流出回帰、runtime、review時間の測定を必須とする。Core Atlasへ昇格しない。"
         }
       }
     ]
@@ -823,6 +928,24 @@
       "signalId": "effective-agency-controls",
       "stage": "watch",
       "score": 30,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "regression-hunt",
+      "stage": "pilot",
+      "score": 38,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "cyberarena",
+      "stage": "watch",
+      "score": 24,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "continuous-behavioral-verification",
+      "stage": "pilot",
+      "score": 42,
       "compatibility": "unknown"
     }
   ],
@@ -4829,6 +4952,241 @@
           "sourceIds": [
             "artex-repo"
           ]
+        }
+      ]
+    },
+    {
+      "id": "regression-hunt",
+      "name": {
+        "en": "Regression Hunt",
+        "ja": "Regression Hunt"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 90,
+        "adoption": 38,
+        "fit": 94,
+        "confidence": 80
+      },
+      "recommendation": {
+        "en": "PILOT on a labeled set of agent-authored patches with live before/after evidence; keep results advisory until recall, false positives, review time, and escaped regressions are measured.",
+        "ja": "agent作成patchのラベル付き集合でliveな変更前後証拠を用いてPILOT。recall、false positive、review時間、流出回帰を測るまで結果は助言用途に限る。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Trail of Bits found 21 confirmed regressions in more than 130 merged PRs and publishes a repeatable, evidence-gated workflow for finding collateral behavior changes.",
+          "ja": "Trail of Bitsは130件超のマージ済みPRで21件の確認済み回帰を発見し、付随する挙動変更を探す再現可能な証拠ゲート付きworkflowを公開している。"
+        },
+        {
+          "en": "Its preliminary comparison is internal, improves false-positive rate rather than proving recall, and leaves some known regressions borderline when evidence gates are not met.",
+          "ja": "予備比較は内部実施で、recallを証明せずfalse-positive率を改善するもの。証拠ゲートを満たさない既知回帰の一部はborderlineに残る。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "The evidence-first workflow fits deterministic review, but no Stangyode patch set has measured its recall, cost, or reviewer burden.",
+          "ja": "証拠優先workflowは決定論的reviewに合うが、Stangyodeのpatch集合でrecall、費用、reviewer負荷を測っていない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "trailofbits-regression-review",
+          "regression-hunt-repo",
+          "patchbench-paper"
+        ],
+        "collectedAt": "2026-10-22",
+        "method": {
+          "en": "Reviewed the first-party post and plugin, then challenged the method against PatchBench. No plugin was installed and no reported result was reproduced.",
+          "ja": "一次postとpluginを確認し、PatchBenchで手法を反証的に検討。pluginは導入せず、報告結果も再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "event": {
+            "en": "Added at bounded PILOT after first-party regression evidence and an independent validation challenge supported live, adversarial checks without proving production safety.",
+            "ja": "一次回帰証拠と独立検証challengeがliveでadversarialな検査を支持したため限定PILOTへ追加。ただし本番安全性は証明しない。"
+          },
+          "scores": {
+            "frontier": 90,
+            "adoption": 38,
+            "fit": 94,
+            "confidence": 80
+          }
+        }
+      ]
+    },
+    {
+      "id": "cyberarena",
+      "name": {
+        "en": "CyberArena",
+        "ja": "CyberArena"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 92,
+        "adoption": 24,
+        "fit": 82,
+        "confidence": 72
+      },
+      "recommendation": {
+        "en": "WATCH as an adaptive cyber-agent stress test; do not use arena scores as evidence that patches preserve ordinary software behavior or are production-safe.",
+        "ja": "適応的cyber-agent stress testとしてWATCH。arena scoreを通常software挙動の維持や本番安全性の証拠にしない。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Concurrent attack and defense against changing services tests adaptation that static exploit benchmarks omit.",
+          "ja": "変化するserviceに対する同時攻防は、静的exploit benchmarkが欠く適応を検査する。"
+        },
+        {
+          "en": "The benchmark is project-authored, public benchmark validity is fragile, and cyber match performance does not validate compatibility, privacy, or maintainability.",
+          "ja": "benchmarkはproject作者実施で、公開benchmarkの妥当性は脆く、cyber match性能は互換性、privacy、保守性を検証しない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No CyberArena environment or scoring path has been audited against Stangyode needs.",
+          "ja": "CyberArena環境やscoring経路をStangyode要件に対して監査していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "cyberarena-home",
+          "cyberarena-paper",
+          "openai-coding-eval-audit"
+        ],
+        "collectedAt": "2026-10-22",
+        "method": {
+          "en": "Reviewed the project page and primary paper, then bounded the score claims with an independent benchmark-validity audit. No benchmark was run.",
+          "ja": "project pageと一次論文を確認し、独立benchmark妥当性監査でscore主張を限定。benchmarkは実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "event": {
+            "en": "Added at WATCH as adaptive attack-and-defense evidence, separate from patch-correctness claims.",
+            "ja": "patch正当性主張と分離し、適応的攻防の証拠としてWATCHへ追加。"
+          },
+          "scores": {
+            "frontier": 92,
+            "adoption": 24,
+            "fit": 82,
+            "confidence": 72
+          }
+        }
+      ]
+    },
+    {
+      "id": "continuous-behavioral-verification",
+      "name": {
+        "en": "Continuous behavioral verification",
+        "ja": "継続的な挙動検証"
+      },
+      "kind": "concept",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 93,
+        "adoption": 42,
+        "fit": 95,
+        "confidence": 82
+      },
+      "recommendation": {
+        "en": "PILOT as an advisory, independent verification layer on labeled agent-authored changes; require live or replayable evidence and measure recall, false positives, review time, and escaped regressions.",
+        "ja": "ラベル付きagent作成変更に対する助言的・独立検証layerとしてPILOT。liveまたは再生可能な証拠を必須とし、recall、false positive、review時間、流出回帰を測る。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Regression Hunt, TDAD, and CyberArena independently move verification toward behavior under changed code, impacted tests, or an adaptive opponent rather than trusting patch-generation context.",
+          "ja": "Regression Hunt、TDAD、CyberArenaは独立に、patch生成contextを信頼せず、変更code、影響test、適応的相手の下での挙動へ検証を移す。"
+        },
+        {
+          "en": "The evidence spans different scopes, remains mainly project-run, and does not establish broad production recall; benchmark and PoC validity require adversarial audit.",
+          "ja": "証拠の範囲は異なり、主にproject実施で、広範な本番recallを証明しない。benchmarkとPoCの妥当性にはadversarial監査が必要。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Regression Hunt",
+          "vendor": "Trail of Bits",
+          "organizationId": "trail-of-bits",
+          "access": "public plugin and first-party merged-patch review",
+          "sourceIds": [
+            "trailofbits-regression-review",
+            "regression-hunt-repo"
+          ]
+        },
+        {
+          "name": "TDAD",
+          "vendor": "TDAD research project",
+          "organizationId": "pepealonso95-tdad",
+          "access": "public paper, repository, data, and logs",
+          "sourceIds": [
+            "tdad-paper",
+            "tdad-repo"
+          ]
+        },
+        {
+          "name": "CyberArena",
+          "vendor": "CyberArena research collaboration",
+          "organizationId": "cyberarena-research",
+          "access": "public project and primary paper",
+          "sourceIds": [
+            "cyberarena-home",
+            "cyberarena-paper"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "The category fits evidence-first delivery, but no implementation has been compared on a shared Stangyode change set.",
+          "ja": "このcategoryは証拠優先deliveryに合うが、共通のStangyode変更集合で実装比較をしていない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "trailofbits-regression-review",
+          "regression-hunt-repo",
+          "tdad-paper",
+          "tdad-repo",
+          "cyberarena-home",
+          "cyberarena-paper",
+          "openai-coding-eval-audit",
+          "patchbench-paper"
+        ],
+        "collectedAt": "2026-10-22",
+        "method": {
+          "en": "Compared three independently operated implementations and challenged their evidence with coding-benchmark and vulnerability-patch validity studies. No tool or benchmark was installed or reproduced.",
+          "ja": "独立運営の3実装を比較し、coding benchmarkと脆弱性patch妥当性研究で証拠を反証的に検討。tool・benchmarkは導入・再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "event": {
+            "en": "Spawned as a PILOT category after three independent approaches converged on behavior-focused verification while independent audits bounded benchmark and PoC claims.",
+            "ja": "3つの独立approachが挙動中心検証へ収束し、独立監査がbenchmark・PoC主張を限定したためPILOT category化。"
+          },
+          "scores": {
+            "frontier": 93,
+            "adoption": 42,
+            "fit": 95,
+            "confidence": 82
+          }
         }
       ]
     }

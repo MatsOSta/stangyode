@@ -317,6 +317,38 @@
         "tenuo-repo",
         "artex-repo"
       ]
+    },
+    {
+      "id": "regression-hunt-continuous-verification-split",
+      "type": "named-category-split",
+      "namedEntityId": "regression-hunt",
+      "categoryId": "continuous-behavioral-verification",
+      "competitorSourceId": "tdad-paper",
+      "expectedCategoryStage": "pilot"
+    },
+    {
+      "id": "cyberarena-continuous-verification-split",
+      "type": "named-category-split",
+      "namedEntityId": "cyberarena",
+      "categoryId": "continuous-behavioral-verification",
+      "competitorSourceId": "regression-hunt-repo",
+      "expectedCategoryStage": "pilot"
+    },
+    {
+      "id": "continuous-verification-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "continuous-behavioral-verification",
+      "minimumIndependentOrganizations": 3,
+      "requiredOrganizationIds": [
+        "trail-of-bits",
+        "pepealonso95-tdad",
+        "cyberarena-research"
+      ],
+      "requiredSourceIds": [
+        "regression-hunt-repo",
+        "tdad-paper",
+        "cyberarena-paper"
+      ]
     }
   ]
 }

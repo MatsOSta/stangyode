@@ -100,5 +100,11 @@
     "label": "radar-daily-2026-10-21",
     "en": "Daily Radar: DeepInfer enters named conditional WATCH; coding-to-release attenuation and effective-agency controls become WATCH categories; explicit agent-facing interfaces become a narrow PILOT category. Lifecycle convergence and git-ai counter movement remain audit findings, with partial scout/editor status and failed GitHub discovery preserved.",
     "ja": "日次レーダー：DeepInferを名前付き条件付きWATCHへ追加。コーディングからリリースへの減衰と実効的エージェンシー制御をWATCHカテゴリ化し、明示的エージェント向けインターフェースを狭いPILOTカテゴリ化。ライフサイクル収束とgit-aiのカウンター減少は監査所見に留め、scout/editorのpartialとGitHub発見失敗を保持。"
+  },
+  {
+    "date": "2026-10-22",
+    "label": "radar-daily-2026-10-22",
+    "en": "Daily Radar: Regression Hunt enters bounded advisory PILOT; CyberArena enters WATCH; continuous behavioral verification becomes a three-implementation PILOT category. Both attention and fixed-query sensors completed successfully, and no item moved to Core Atlas.",
+    "ja": "日次レーダー：Regression Huntを限定助言PILOT、CyberArenaをWATCHへ追加し、継続的挙動検証を3実装のPILOT category化。attention sensorと固定query sensorはいずれも正常完了し、Core Atlasへの昇格はない。"
   }
 ]

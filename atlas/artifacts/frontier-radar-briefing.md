@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-21
+Snapshot / スナップショット: 2026-10-22
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,16 +8,16 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-21T06:02:23.152Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-22T06:01:12.841Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: PARTIAL; last success 2026-10-19T06:02:58.718Z; failure streak 1; last failure unknown at 2026-10-21T06:02:18.568Z (unresolved)
-- editor: PARTIAL; last success 2026-10-19T06:02:58.718Z; failure streak 1; last failure rate_limit at 2026-10-21T06:02:23.152Z (unresolved)
+- scout: SUCCESS; last success 2026-10-22T06:01:12.841Z; failure streak 0
+- editor: SUCCESS; last success 2026-10-22T06:01:12.841Z; failure streak 0
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: FAILED — The bounded GitHub fetch failed on rate limit with no current signals; prior repository results are not presented as current. / 範囲限定GitHub取得はrate limitで失敗し、現在のシグナルは空。過去のrepository結果を現在値として提示しない。
+- github-public: CHECKED
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
@@ -49,6 +49,14 @@ As of / 基準時刻: 2026-10-21T06:02:23.152Z; cadence / 頻度: daily; data / 
 - [Meta thin orchestrator architecture](https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture): relevant; checked 2026-10-21; source meta-thin-router
 - [OpenAI monitoring internal coding agents](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment): relevant; checked 2026-10-21; source openai-agent-monitoring
 - [Blueprints not prompts: TLA+](https://mulgadc.com/blog/blueprints-not-prompts-tla-plus): relevant; checked 2026-10-21; source mulgadc-tla-plus
+- [Your AI agent fixed the bug, but what else did it change?](https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/): relevant; checked 2026-10-22; source trailofbits-regression-review
+- [Trail of Bits regression-hunt plugin](https://github.com/trailofbits/skills/tree/main/plugins/regression-hunt): relevant; checked 2026-10-22; source regression-hunt-repo
+- [CyberArena project](https://cyber-arena.ai/): relevant; checked 2026-10-22; source cyberarena-home
+- [CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat](https://arxiv.org/abs/2610.19005): relevant; checked 2026-10-22; source cyberarena-paper
+- [TDAD: Test-Driven Agentic Development](https://arxiv.org/abs/2603.17973): relevant; checked 2026-10-22; source tdad-paper
+- [TDAD repository](https://github.com/pepealonso95/TDAD): relevant; checked 2026-10-22; source tdad-repo
+- [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations/): relevant; checked 2026-10-22; source openai-coding-eval-audit
+- [PatchBench: Evaluating AI Agents for Vulnerability Patching](https://arxiv.org/abs/2609.04075): relevant; checked 2026-10-22; source patchbench-paper
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -86,11 +94,23 @@ Evidence: deepinfer-repo, nber-writing-shipping-code, demirer-writing-shipping-c
 - `explicit agent-facing interface Unterm Agentitter WebMCP alternatives`
 - `agent effective agency controls PROTEA Tenuo ARTEX httpbin`
 
+### Continuous behavioral verification challenge / 継続的挙動検証の反証的調査
+Regression Hunt enters bounded PILOT, CyberArena enters WATCH, and continuous behavioral verification becomes a three-implementation PILOT category; benchmark and PoC validity remain explicit constraints. / Regression Huntを限定PILOT、CyberArenaをWATCHへ追加し、継続的挙動検証を3実装のPILOT category化。benchmarkとPoC妥当性を明示的制約として残す。
+
+Targets: regression-hunt, cyberarena, continuous-behavioral-verification
+
+Evidence: trailofbits-regression-review, regression-hunt-repo, cyberarena-home, cyberarena-paper, tdad-paper, tdad-repo, openai-coding-eval-audit, patchbench-paper
+
+- `regression-hunt alternatives adoption false positives recall`
+- `CyberArena competing adaptive cyber agent benchmarks criticism`
+- `AI coding agent regression test impact analysis TDAD`
+- `coding benchmark validity PatchBench SWE-Bench Pro audit`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -103,6 +123,8 @@ Evidence: deepinfer-repo, nber-writing-shipping-code, demirer-writing-shipping-c
 - material-finding; coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls: Cross-source evidence supports downstream release attenuation, explicit agent-facing interfaces, and effective-agency controls; it is sufficient for bounded WATCH/PILOT decisions but not broad production claims. / 複数情報源の証拠は下流リリース減衰、明示的エージェント向けインターフェース、実効的エージェンシー制御を支持する。限定WATCH/PILOT判断には十分だが、広範な本番主張には不十分。; evidence: nber-writing-shipping-code, demirer-writing-shipping-code, fiona-jellyfish, unterm-repo, agentitter-home, chrome-webmcp, protea-binghamton, tenuo-owasp, tenuo-repo, artex-repo
 - editorial-decision; deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls: Add DeepInfer as named conditional WATCH; add the three durable categories at WATCH, narrow PILOT, and WATCH. Keep lifecycle architecture convergence and the unexplained git-ai star/fork fall as audit findings, not signals; do not promote Core Atlas. / DeepInferを名前付き条件付きWATCHとして追加し、3つの持続的カテゴリをWATCH、狭いPILOT、WATCHとして追加。ライフサイクル・アーキテクチャ収束と原因不明のgit-ai star/fork減少はシグナルではなく監査所見に留め、Core Atlasへ昇格しない。; evidence: deepinfer-repo, nber-writing-shipping-code, fiona-jellyfish, unterm-repo, agentitter-home, chrome-webmcp, protea-binghamton, tenuo-repo, artex-repo
 - material-finding; agent-harness-engineering, graft-git-ai: Lifecycle architecture is converging on thin routing, monitoring, and explicit control boundaries without warranting a new category. git-ai star/fork movement is an unexplained counter anomaly and is not evidence of adoption decline. / ライフサイクル・アーキテクチャは薄いルーティング、監視、明示的制御境界へ収束しているが、新カテゴリを正当化しない。git-aiのstar/forkの動きは原因不明のカウンター異常で、採用低下の証拠ではない。; evidence: meta-thin-router, openai-agent-monitoring, mulgadc-tla-plus, graft-git-ai-repo, graft-git-ai-release-0-2
+- material-finding; regression-hunt, cyberarena, continuous-behavioral-verification: Independent approaches converge on verifying behavior after agent-authored changes, but current evidence does not establish broad production recall: Regression Hunt trades stricter evidence for borderline misses, TDAD is project-evaluated, CyberArena measures adaptive cyber play, and benchmark/PoC validity remains fragile. / 独立approachはagent作成変更後の挙動検証へ収束するが、現証拠は広範な本番recallを証明しない。Regression Huntは厳格証拠とborderline見逃しをtrade-offし、TDADはproject評価、CyberArenaは適応的cyber playを測り、benchmark・PoC妥当性は脆い。; evidence: trailofbits-regression-review, regression-hunt-repo, cyberarena-home, cyberarena-paper, tdad-paper, tdad-repo, openai-coding-eval-audit, patchbench-paper
+- editorial-decision; regression-hunt, cyberarena, continuous-behavioral-verification: Add Regression Hunt at bounded advisory PILOT and CyberArena at WATCH; create a three-implementation continuous behavioral verification PILOT category. Require labeled holdouts, live or replayable evidence, human approval, and measurements of recall, false positives, escaped regressions, runtime, and review time. Do not promote Core Atlas. / Regression Huntを限定助言PILOT、CyberArenaをWATCHへ追加し、3実装の継続的挙動検証PILOT categoryを作成。ラベル付きholdout、liveまたは再生可能証拠、人間承認、recall、false positive、流出回帰、runtime、review時間の測定を必須とする。Core Atlasへ昇格しない。; evidence: trailofbits-regression-review, regression-hunt-repo, tdad-paper, cyberarena-paper, openai-coding-eval-audit, patchbench-paper
 
 ## Signals / シグナル
 
@@ -691,20 +713,56 @@ Evidence: deepinfer-repo, nber-writing-shipping-code, demirer-writing-shipping-c
 - History / 履歴:
   - 2026-10-21: Added in the 2026-10-21 editorial audit with evidence boundaries preserved. / 証拠の境界を保った2026-10-21編集監査で追加。
 
+### Regression Hunt / Regression Hunt
+- Adoption stage / 導入段階: PILOT (38/100)
+- Scores / スコア: frontier 90, fit 94, confidence 80
+- Recommendation / 推奨: PILOT on a labeled set of agent-authored patches with live before/after evidence; keep results advisory until recall, false positives, review time, and escaped regressions are measured. / agent作成patchのラベル付き集合でliveな変更前後証拠を用いてPILOT。recall、false positive、review時間、流出回帰を測るまで結果は助言用途に限る。
+- Compatibility / 互換性: UNKNOWN — The evidence-first workflow fits deterministic review, but no Stangyode patch set has measured its recall, cost, or reviewer burden. / 証拠優先workflowは決定論的reviewに合うが、Stangyodeのpatch集合でrecall、費用、reviewer負荷を測っていない。
+- Trade-offs / トレードオフ:
+  - Trail of Bits found 21 confirmed regressions in more than 130 merged PRs and publishes a repeatable, evidence-gated workflow for finding collateral behavior changes. / Trail of Bitsは130件超のマージ済みPRで21件の確認済み回帰を発見し、付随する挙動変更を探す再現可能な証拠ゲート付きworkflowを公開している。
+  - Its preliminary comparison is internal, improves false-positive rate rather than proving recall, and leaves some known regressions borderline when evidence gates are not met. / 予備比較は内部実施で、recallを証明せずfalse-positive率を改善するもの。証拠ゲートを満たさない既知回帰の一部はborderlineに残る。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-22
+- History / 履歴:
+  - 2026-10-22: Added at bounded PILOT after first-party regression evidence and an independent validation challenge supported live, adversarial checks without proving production safety. / 一次回帰証拠と独立検証challengeがliveでadversarialな検査を支持したため限定PILOTへ追加。ただし本番安全性は証明しない。
+
+### CyberArena / CyberArena
+- Adoption stage / 導入段階: WATCH (24/100)
+- Scores / スコア: frontier 92, fit 82, confidence 72
+- Recommendation / 推奨: WATCH as an adaptive cyber-agent stress test; do not use arena scores as evidence that patches preserve ordinary software behavior or are production-safe. / 適応的cyber-agent stress testとしてWATCH。arena scoreを通常software挙動の維持や本番安全性の証拠にしない。
+- Compatibility / 互換性: UNKNOWN — No CyberArena environment or scoring path has been audited against Stangyode needs. / CyberArena環境やscoring経路をStangyode要件に対して監査していない。
+- Trade-offs / トレードオフ:
+  - Concurrent attack and defense against changing services tests adaptation that static exploit benchmarks omit. / 変化するserviceに対する同時攻防は、静的exploit benchmarkが欠く適応を検査する。
+  - The benchmark is project-authored, public benchmark validity is fragile, and cyber match performance does not validate compatibility, privacy, or maintainability. / benchmarkはproject作者実施で、公開benchmarkの妥当性は脆く、cyber match性能は互換性、privacy、保守性を検証しない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-22
+- History / 履歴:
+  - 2026-10-22: Added at WATCH as adaptive attack-and-defense evidence, separate from patch-correctness claims. / patch正当性主張と分離し、適応的攻防の証拠としてWATCHへ追加。
+
+### Continuous behavioral verification / 継続的な挙動検証
+- Adoption stage / 導入段階: PILOT (42/100)
+- Scores / スコア: frontier 93, fit 95, confidence 82
+- Recommendation / 推奨: PILOT as an advisory, independent verification layer on labeled agent-authored changes; require live or replayable evidence and measure recall, false positives, review time, and escaped regressions. / ラベル付きagent作成変更に対する助言的・独立検証layerとしてPILOT。liveまたは再生可能な証拠を必須とし、recall、false positive、review時間、流出回帰を測る。
+- Compatibility / 互換性: UNKNOWN — The category fits evidence-first delivery, but no implementation has been compared on a shared Stangyode change set. / このcategoryは証拠優先deliveryに合うが、共通のStangyode変更集合で実装比較をしていない。
+- Trade-offs / トレードオフ:
+  - Regression Hunt, TDAD, and CyberArena independently move verification toward behavior under changed code, impacted tests, or an adaptive opponent rather than trusting patch-generation context. / Regression Hunt、TDAD、CyberArenaは独立に、patch生成contextを信頼せず、変更code、影響test、適応的相手の下での挙動へ検証を移す。
+  - The evidence spans different scopes, remains mainly project-run, and does not establish broad production recall; benchmark and PoC validity require adversarial audit. / 証拠の範囲は異なり、主にproject実施で、広範な本番recallを証明しない。benchmarkとPoCの妥当性にはadversarial監査が必要。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-22
+- History / 履歴:
+  - 2026-10-22: Spawned as a PILOT category after three independent approaches converged on behavior-focused verification while independent audits bounded benchmark and PoC claims. / 3つの独立approachが挙動中心検証へ収束し、独立監査がbenchmark・PoC主張を限定したためPILOT category化。
+
 ## GitHub discovery input / GitHub発見入力
 
 Public observation input only. Living candidates live in discovery-candidates.json. Absence of a repository is not a negative finding. Queries may be phenomenon-based and need not match Core Atlas terms. / 公開観測の入力のみ。生きた候補は discovery-candidates.json にある。リポジトリがないことは否定的発見ではない。クエリは現象ベースでよく、コア・アトラス用語と一致する必要はない。
 
 Provider / プロバイダー: github; mode / モード: public-api; live fetch / ライブ取得: yes
 
-- typed-decision-models: typed probabilistic decision model System One (not-collected)
-- agent-skills: topic:agent-skills (not-collected)
-- mcp-apps: topic:mcp-apps (not-collected)
-- a2a: topic:agent-to-agent (failed)
-- agentic-resource-discovery-ard: topic:agentic-resource-discovery (not-collected)
-- ponytail: ponytail (not-collected)
-- caveman: caveman (not-collected)
+- typed-decision-models: typed probabilistic decision model System One (collected)
+- agent-skills: topic:agent-skills (collected)
+- mcp-apps: topic:mcp-apps (collected)
+- a2a: topic:agent-to-agent (collected)
+- agentic-resource-discovery-ard: topic:agentic-resource-discovery (collected)
+- ponytail: ponytail (collected)
+- caveman: caveman (collected)
 
-Collected signals / 収集済みシグナル: 0
+Collected signals / 収集済みシグナル: 35
 
 Generated by atlas/scripts/render-frontier-briefing.mjs; deterministic for the checked-in inputs.

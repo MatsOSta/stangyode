@@ -1598,5 +1598,69 @@
       "en": "Practitioner architecture essay used as lifecycle-design convergence evidence, not a separate implementation claim.",
       "ja": "ライフサイクル設計収束の証拠として扱う実務家アーキテクチャ論考。独立実装の主張ではない。"
     }
+  },
+  "trailofbits-regression-review": {
+    "title": "Your AI agent fixed the bug, but what else did it change?",
+    "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+    "note": {
+      "en": "First-party review of more than 130 merged agent-assisted security patches, 21 confirmed regressions, and the preliminary regression-hunt comparison.",
+      "ja": "130件超のマージ済みエージェント支援security patch、21件の確認済み回帰、regression-huntの予備比較を扱う一次レビュー。"
+    }
+  },
+  "regression-hunt-repo": {
+    "title": "Trail of Bits regression-hunt plugin",
+    "url": "https://github.com/trailofbits/skills/tree/main/plugins/regression-hunt",
+    "note": {
+      "en": "First-party public implementation of a structured, evidence-gated regression investigation workflow.",
+      "ja": "構造化され証拠ゲートを持つ回帰調査workflowの一次公開実装。"
+    }
+  },
+  "cyberarena-home": {
+    "title": "CyberArena project",
+    "url": "https://cyber-arena.ai/",
+    "note": {
+      "en": "First-party project page for the live symmetric attack-and-defense benchmark.",
+      "ja": "live対称攻防benchmarkの一次project page。"
+    }
+  },
+  "cyberarena-paper": {
+    "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
+    "url": "https://arxiv.org/abs/2610.19005",
+    "note": {
+      "en": "Primary paper reporting 12 agents, 40 challenges, and 466 adaptive attack-and-defense matches.",
+      "ja": "12 agent、40 challenge、466件の適応的攻防matchを報告する一次論文。"
+    }
+  },
+  "tdad-paper": {
+    "title": "TDAD: Test-Driven Agentic Development",
+    "url": "https://arxiv.org/abs/2603.17973",
+    "note": {
+      "en": "Sibling implementation using graph-based test-impact analysis; project-run results report lower test regressions on bounded SWE-bench Verified samples.",
+      "ja": "graph型test-impact分析を使う同等実装。限定SWE-bench Verified標本でtest回帰低下を報告するproject実施結果。"
+    }
+  },
+  "tdad-repo": {
+    "title": "TDAD repository",
+    "url": "https://github.com/pepealonso95/TDAD",
+    "note": {
+      "en": "First-party public implementation and artifacts for TDAD.",
+      "ja": "TDADの一次公開実装とartifact。"
+    }
+  },
+  "openai-coding-eval-audit": {
+    "title": "Separating signal from noise in coding evaluations",
+    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+    "note": {
+      "en": "Independent benchmark-validity challenge reporting that roughly 30% of SWE-Bench Pro tasks were broken.",
+      "ja": "SWE-Bench Pro taskの約30%が壊れていたと報告する独立benchmark妥当性検証。"
+    }
+  },
+  "patchbench-paper": {
+    "title": "PatchBench: Evaluating AI Agents for Vulnerability Patching",
+    "url": "https://arxiv.org/abs/2609.04075",
+    "note": {
+      "en": "Independent challenge showing PoC-only validation can overstate vulnerability-patching success and miss root-cause or semantic failures.",
+      "ja": "PoCのみの検証が脆弱性patch成功を過大評価し、root causeや意味的障害を見逃し得ることを示す独立検証。"
+    }
   }
 }
