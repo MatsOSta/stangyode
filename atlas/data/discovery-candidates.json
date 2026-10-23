@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-23",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -2687,6 +2687,101 @@
           "sensor": "primary-docs",
           "url": "https://github.com/Autumn-27/ARTEX",
           "date": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "openshell",
+      "names": [
+        "NVIDIA OpenShell",
+        "OpenShell"
+      ],
+      "status": "assessed",
+      "kindGuess": "named-implementation",
+      "whyInteresting": {
+        "en": "A policy-enforced runtime makes filesystem, process, network, and credential boundaries concrete, but its containment evidence remains project-authored.",
+        "ja": "policy強制runtimeがfilesystem、process、network、資格情報境界を具体化するが、封じ込め証拠はproject作者実施のまま。"
+      },
+      "firstObserved": "2026-10-23",
+      "lastObserved": "2026-10-23",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "openshell",
+      "atlasTermIds": [
+        "sandbox",
+        "guardrail"
+      ],
+      "judgment": {
+        "substance": 90,
+        "hype": 86,
+        "fieldImportance": 94,
+        "relevance": 96,
+        "evidenceDiversity": 74,
+        "momentum": 92
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "date": "2026-10-23"
+        },
+        {
+          "sensor": "github-public",
+          "url": "https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.5",
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "policy-enforced-agent-execution",
+      "names": [
+        "policy-enforced agent execution",
+        "agent execution boundaries"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "whyInteresting": {
+        "en": "Independent runtimes converge on enforced execution boundaries, but isolation, egress, credentials, persistence, and fail-open semantics differ materially.",
+        "ja": "独立runtimeが強制execution boundaryへ収束するが、隔離、egress、資格情報、永続性、fail-open規則は大きく異なる。"
+      },
+      "firstObserved": "2026-10-23",
+      "lastObserved": "2026-10-23",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "policy-enforced-agent-execution",
+      "atlasTermIds": [
+        "sandbox",
+        "guardrail",
+        "approval-gate"
+      ],
+      "judgment": {
+        "substance": 92,
+        "hype": 80,
+        "fieldImportance": 95,
+        "relevance": 97,
+        "evidenceDiversity": 86,
+        "momentum": 90
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "date": "2026-10-23"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://learn.chatgpt.com/docs/sandboxing",
+          "date": "2026-10-23"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://e2b.dev/docs",
+          "date": "2026-10-23"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://modal.com/docs/guide/sandboxes",
+          "date": "2026-10-23"
         }
       ]
     }

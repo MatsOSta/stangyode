@@ -106,5 +106,11 @@
     "label": "radar-daily-2026-10-22",
     "en": "Daily Radar: Regression Hunt enters bounded advisory PILOT; CyberArena enters WATCH; continuous behavioral verification becomes a three-implementation PILOT category. Both attention and fixed-query sensors completed successfully, and no item moved to Core Atlas.",
     "ja": "日次レーダー：Regression Huntを限定助言PILOT、CyberArenaをWATCHへ追加し、継続的挙動検証を3実装のPILOT category化。attention sensorと固定query sensorはいずれも正常完了し、Core Atlasへの昇格はない。"
+  },
+  {
+    "date": "2026-10-23",
+    "label": "radar-daily-2026-10-23",
+    "en": "Daily Radar: OpenShell enters bounded PILOT and policy-enforced agent execution becomes a four-implementation PILOT category; Agent Skills remains WATCH after AAIF governance and named usage telemetry strengthened observability without proving outcomes. Both attention and fixed-query sensors completed successfully; no item moved to Core Atlas.",
+    "ja": "日次レーダー：OpenShellを限定PILOTへ追加し、ポリシー強制型エージェント実行を4実装のPILOT category化。AAIF統治と名前付き利用telemetryは観測性を強化したが成果を証明せず、Agent SkillsはWATCHを維持。attention sensorと固定query sensorはいずれも正常完了し、Core Atlasへの昇格はない。"
   }
 ]

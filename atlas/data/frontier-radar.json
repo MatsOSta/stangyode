@@ -9,28 +9,28 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-22",
+    "snapshot": "2026-10-23",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-22T06:01:12.841Z",
+    "asOf": "2026-10-23T06:06:23.423Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "success",
-        "lastAttemptAt": "2026-10-22T06:01:12.841Z",
-        "lastSuccessfulRunAt": "2026-10-22T06:01:12.841Z",
+        "lastAttemptAt": "2026-10-23T06:06:23.423Z",
+        "lastSuccessfulRunAt": "2026-10-23T06:06:23.423Z",
         "failureStreak": 0
       },
       "editor": {
         "status": "success",
-        "lastAttemptAt": "2026-10-22T06:01:12.841Z",
-        "lastSuccessfulRunAt": "2026-10-22T06:01:12.841Z",
+        "lastAttemptAt": "2026-10-23T06:06:23.423Z",
+        "lastSuccessfulRunAt": "2026-10-23T06:06:23.423Z",
         "failureStreak": 0
       }
     },
@@ -214,6 +214,51 @@
         "sourceId": "patchbench-paper",
         "checkedAt": "2026-10-22",
         "outcome": "relevant"
+      },
+      {
+        "sourceId": "anthropic-agent-skills-aaif",
+        "checkedAt": "2026-10-23",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "aaif-four-projects",
+        "checkedAt": "2026-10-23",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "github-customization-usage-metrics",
+        "checkedAt": "2026-10-23",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "openshell-repo",
+        "checkedAt": "2026-10-23",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "openshell-release-0-1-5",
+        "checkedAt": "2026-10-23",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "openshell-security-best-practices",
+        "checkedAt": "2026-10-23",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "codex-sandbox",
+        "checkedAt": "2026-10-23",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "e2b-docs",
+        "checkedAt": "2026-10-23",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "modal-sandboxes",
+        "checkedAt": "2026-10-23",
+        "outcome": "relevant"
       }
     ],
     "queryGroups": [
@@ -357,6 +402,59 @@
           "AI coding agent regression test impact analysis TDAD",
           "coding benchmark validity PatchBench SWE-Bench Pro audit"
         ]
+      },
+      {
+        "id": "aaif-governance-and-usage-2026-10-23",
+        "label": {
+          "en": "AAIF governance and named customization usage",
+          "ja": "AAIF統治と名前付きcustomization利用"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "agent-skills"
+        ],
+        "sourceIds": [
+          "anthropic-agent-skills-aaif",
+          "aaif-four-projects",
+          "github-customization-usage-metrics"
+        ],
+        "resultSummary": {
+          "en": "Neutral governance and named enterprise telemetry strengthen portability and trend visibility, but vendor counts and client telemetry do not prove benefit, safety, or exact adoption.",
+          "ja": "中立統治と名前付きenterprise telemetryは移植性と傾向可視性を強化するが、vendor数値とclient telemetryは効果、安全性、正確な採用を証明しない。"
+        },
+        "queries": [
+          "Agent Skills AAIF Open Responses OpenEnv OpenSandbox adoption benchmark criticism",
+          "GitHub named customization usage metrics coverage undercount limitations"
+        ]
+      },
+      {
+        "id": "policy-execution-sibling-challenge-2026-10-23",
+        "label": {
+          "en": "Policy-enforced execution first-party and sibling challenge",
+          "ja": "ポリシー強制実行の一次情報・同等実装検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "openshell",
+          "policy-enforced-agent-execution"
+        ],
+        "sourceIds": [
+          "openshell-repo",
+          "openshell-release-0-1-5",
+          "openshell-security-best-practices",
+          "codex-sandbox",
+          "e2b-docs",
+          "modal-sandboxes"
+        ],
+        "resultSummary": {
+          "en": "OpenShell exposes unusually explicit file, process, network, and credential policy, while Codex, E2B, and Modal confirm a durable execution-boundary category with non-equivalent guarantees.",
+          "ja": "OpenShellはfile、process、network、資格情報policyを明示し、Codex、E2B、Modalは保証が同等でない持続的execution-boundary categoryを裏付ける。"
+        },
+        "queries": [
+          "NVIDIA OpenShell v0.1.5 policy limitations sandbox official",
+          "OpenShell E2B Modal Codex agent sandbox comparison policy enforcement",
+          "NVIDIA OpenShell GitHub issues escape isolation benchmark"
+        ]
       }
     ],
     "trackedEntityIds": [
@@ -406,7 +504,9 @@
       "effective-agency-controls",
       "regression-hunt",
       "cyberarena",
-      "continuous-behavioral-verification"
+      "continuous-behavioral-verification",
+      "openshell",
+      "policy-enforced-agent-execution"
     ],
     "changelogEntriesChecked": [
       "v0",
@@ -426,7 +526,8 @@
       "radar-daily-2026-10-19",
       "radar-daily-2026-10-20",
       "radar-daily-2026-10-21",
-      "radar-daily-2026-10-22"
+      "radar-daily-2026-10-22",
+      "radar-daily-2026-10-23"
     ],
     "sensors": [
       {
@@ -633,6 +734,48 @@
         "summary": {
           "en": "Add Regression Hunt at bounded advisory PILOT and CyberArena at WATCH; create a three-implementation continuous behavioral verification PILOT category. Require labeled holdouts, live or replayable evidence, human approval, and measurements of recall, false positives, escaped regressions, runtime, and review time. Do not promote Core Atlas.",
           "ja": "Regression Huntを限定助言PILOT、CyberArenaをWATCHへ追加し、3実装の継続的挙動検証PILOT categoryを作成。ラベル付きholdout、liveまたは再生可能証拠、人間承認、recall、false positive、流出回帰、runtime、review時間の測定を必須とする。Core Atlasへ昇格しない。"
+        }
+      },
+      {
+        "kind": "material-finding",
+        "targetIds": [
+          "agent-skills",
+          "openshell",
+          "policy-enforced-agent-execution"
+        ],
+        "sourceIds": [
+          "anthropic-agent-skills-aaif",
+          "github-customization-usage-metrics",
+          "openshell-repo",
+          "openshell-security-best-practices",
+          "codex-sandbox",
+          "e2b-docs",
+          "modal-sandboxes"
+        ],
+        "summary": {
+          "en": "Agent infrastructure is becoming governed and measurable, while independently operated runtimes converge on enforced execution boundaries. Governance, telemetry, and public code are concrete; interoperability, containment efficacy, and task outcomes remain unproven.",
+          "ja": "agent基盤は統治・測定可能になり、独立運営runtimeは強制execution boundaryへ収束している。統治、telemetry、公開codeは具体的だが、相互運用性、封じ込め有効性、タスク成果は未証明。"
+        }
+      },
+      {
+        "kind": "editorial-decision",
+        "targetIds": [
+          "agent-skills",
+          "openshell",
+          "policy-enforced-agent-execution"
+        ],
+        "sourceIds": [
+          "aaif-four-projects",
+          "github-customization-usage-metrics",
+          "openshell-repo",
+          "openshell-security-best-practices",
+          "codex-sandbox",
+          "e2b-docs",
+          "modal-sandboxes"
+        ],
+        "summary": {
+          "en": "Keep Agent Skills at WATCH; add OpenShell at bounded PILOT and create a four-implementation policy-enforced execution PILOT category. Require hard-fail isolation where needed, explicit egress and credential tests, and external denial logs; do not promote Core Atlas.",
+          "ja": "Agent SkillsはWATCHを維持。OpenShellを限定PILOTへ追加し、4実装のポリシー強制execution PILOT categoryを作成。必要箇所のhard-fail隔離、明示的egress・資格情報試験、外部拒否logを必須とし、Core Atlasへ昇格しない。"
         }
       }
     ]
@@ -947,6 +1090,18 @@
       "stage": "pilot",
       "score": 42,
       "compatibility": "unknown"
+    },
+    {
+      "signalId": "openshell",
+      "stage": "pilot",
+      "score": 42,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "policy-enforced-agent-execution",
+      "stage": "pilot",
+      "score": 58,
+      "compatibility": "unknown"
     }
   ],
   "signals": [
@@ -998,12 +1153,15 @@
           "vercel-skills-1-7-2",
           "skillfs",
           "cloudflare-skills-mcp",
-          "swe-skills-bench"
+          "swe-skills-bench",
+          "anthropic-agent-skills-aaif",
+          "aaif-four-projects",
+          "github-customization-usage-metrics"
         ],
-        "collectedAt": "2026-10-11",
+        "collectedAt": "2026-10-23",
         "method": {
-          "en": "Reviewed SkillFS governance, Cloudflare’s Skills-over-MCP path, and preliminary paired SWE skill evidence. Token savings are vendor-run, and no package or cross-host security test was run.",
-          "ja": "SkillFS統治、CloudflareのSkills-over-MCP経路、予備的なSWEスキル対比較証拠を確認。トークン削減はベンダー実施で、パッケージ導入やホスト横断安全性試験は未実施。"
+          "en": "Reviewed the specification, distribution and governance implementations, the AAIF transfer, and GitHub named-usage telemetry. Governance and trend visibility improved, but installation and usage counts do not establish task benefit, safety, or cross-host conformance.",
+          "ja": "仕様、配布・統治実装、AAIF移管、GitHubの名前付き利用telemetryを確認。統治と傾向可視性は向上したが、導入・利用数はタスク効果、安全性、host横断conformanceを証明しない。"
         }
       },
       "history": [
@@ -1051,6 +1209,19 @@
           "event": {
             "en": "SkillFS and Cloudflare added governance and remote-distribution implementations; preliminary paired evaluation found mostly neutral and some harmful skills, raising confidence in stricter gates rather than readiness.",
             "ja": "SkillFSとCloudflareが統治・遠隔配布実装を追加。予備的対比較評価では多くが中立で一部が有害であり、準備度ではなく厳格なゲートへの確信を高めた。"
+          },
+          "scores": {
+            "frontier": 83,
+            "adoption": 58,
+            "fit": 78,
+            "confidence": 78
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "event": {
+            "en": "AAIF governance and named enterprise usage telemetry strengthened portability and adoption observability without resolving permission, outcome, or conformance evidence; WATCH remains unchanged.",
+            "ja": "AAIF統治と名前付きenterprise利用telemetryが移植性・採用観測を強化したが、権限、成果、conformance証拠は未解決で、WATCHを維持。"
           },
           "scores": {
             "frontier": 83,
@@ -5186,6 +5357,187 @@
             "adoption": 42,
             "fit": 95,
             "confidence": 82
+          }
+        }
+      ]
+    },
+    {
+      "id": "openshell",
+      "name": {
+        "en": "NVIDIA OpenShell",
+        "ja": "NVIDIA OpenShell"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "sandbox",
+        "guardrail"
+      ],
+      "scores": {
+        "frontier": 95,
+        "adoption": 42,
+        "fit": 96,
+        "confidence": 84
+      },
+      "recommendation": {
+        "en": "PILOT one disposable coding-agent sandbox with deny-by-default network, filesystem, process, and credential paths; require hard-fail isolation where gaps are unacceptable and verify blocked writes and egress before wider use.",
+        "ja": "使い捨てcoding-agent sandbox 1件で、network、filesystem、process、資格情報経路を既定拒否にしてPILOTする。gapを許容できない箇所ではhard-fail隔離を必須とし、拡大前にwrite・egress拒否を検証する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "OpenShell combines declarative policy with kernel and proxy enforcement plus endpoint-bound credentials, making the boundary more explicit than prompt or application-only controls.",
+          "ja": "OpenShellは宣言的policyをkernel・proxy強制とendpoint限定資格情報に結び、promptやapplicationだけの制御より境界を明示する。"
+        },
+        {
+          "en": "The evidence is project-authored; static policy changes require sandbox recreation, best-effort Landlock can continue with reduced restrictions, and allowed endpoints remain exfiltration paths.",
+          "ja": "証拠はproject作者実施。静的policy変更にはsandbox再作成が必要で、best-effort Landlockは制限低下のまま継続し得て、許可endpointは依然exfiltration経路となる。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No OpenShell sandbox, denied-path test, credential flow, or policy-update path has been run against a Stangyode workload.",
+          "ja": "Stangyode作業でOpenShell sandbox、拒否path試験、資格情報flow、policy更新経路を実行していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "openshell-repo",
+          "openshell-release-0-1-5",
+          "openshell-security-best-practices"
+        ],
+        "collectedAt": "2026-10-23",
+        "method": {
+          "en": "Reviewed the public implementation, stable release notes, and security guidance. No software was installed, no denied action was attempted, and no containment claim was independently reproduced.",
+          "ja": "公開実装、stable release note、security指針を確認。softwareは導入せず、拒否actionの試行や封じ込め主張の独立再現も行っていない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-23",
+          "event": {
+            "en": "Added at bounded PILOT because enforced file, process, network, and credential controls are concrete, while project-run evidence and documented fallback modes prevent a production-safety claim.",
+            "ja": "file、process、network、資格情報の強制制御が具体的なため限定PILOTへ追加。ただしproject実施証拠と文書化されたfallback modeにより本番安全性は主張しない。"
+          },
+          "scores": {
+            "frontier": 95,
+            "adoption": 42,
+            "fit": 96,
+            "confidence": 84
+          }
+        }
+      ]
+    },
+    {
+      "id": "policy-enforced-agent-execution",
+      "name": {
+        "en": "Policy-enforced agent execution",
+        "ja": "ポリシー強制型エージェント実行"
+      },
+      "kind": "concept",
+      "atlasTermIds": [
+        "sandbox",
+        "guardrail",
+        "approval-gate"
+      ],
+      "scores": {
+        "frontier": 94,
+        "adoption": 58,
+        "fit": 97,
+        "confidence": 88
+      },
+      "recommendation": {
+        "en": "PILOT a reversible execution boundary selected by workload: deny ambient filesystem and network authority, isolate credentials, log denials externally, and test the exact failure paths before trusting agent autonomy.",
+        "ja": "workloadに応じた可逆的execution boundaryをPILOTする。ambientなfilesystem・network権限を拒否し、資格情報を隔離し、拒否を外部記録し、agent自律を信頼する前に正確な失敗経路を試験する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "OpenShell, Codex sandboxing, E2B, and Modal independently provide enforced execution boundaries with different policy, isolation, persistence, and operating models.",
+          "ja": "OpenShell、Codex sandbox、E2B、Modalは、policy、隔離、永続性、運用modelが異なる強制execution boundaryを独立に提供する。"
+        },
+        {
+          "en": "A sandbox label does not establish equal containment: VM isolation, OS controls, egress policy, credential mediation, and fail-open behavior must be qualified separately.",
+          "ja": "sandboxという名称だけでは同等の封じ込めを証明しない。VM隔離、OS制御、egress policy、資格情報仲介、fail-open挙動を別々に適格化する必要がある。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "NVIDIA OpenShell",
+          "vendor": "NVIDIA",
+          "organizationId": "nvidia",
+          "access": "open policy-enforced sandbox runtime and security documentation",
+          "sourceIds": [
+            "openshell-repo",
+            "openshell-security-best-practices"
+          ]
+        },
+        {
+          "name": "Codex sandboxing and approvals",
+          "vendor": "OpenAI",
+          "organizationId": "openai",
+          "access": "host-enforced local filesystem, network, command, and approval boundaries",
+          "sourceIds": [
+            "codex-sandbox"
+          ]
+        },
+        {
+          "name": "E2B Sandboxes",
+          "vendor": "E2B",
+          "organizationId": "e2b",
+          "access": "managed isolated execution sandboxes and lifecycle APIs",
+          "sourceIds": [
+            "e2b-docs"
+          ]
+        },
+        {
+          "name": "Modal Sandboxes",
+          "vendor": "Modal",
+          "organizationId": "modal",
+          "access": "managed isolated execution with configurable sandbox lifecycle",
+          "sourceIds": [
+            "modal-sandboxes"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No implementation has been compared on a shared Stangyode task, denial matrix, persistence requirement, or reviewer workflow.",
+          "ja": "共通のStangyode課題、拒否matrix、永続性要件、reviewer workflowで実装比較をしていない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "openshell-repo",
+          "openshell-release-0-1-5",
+          "openshell-security-best-practices",
+          "codex-sandbox",
+          "e2b-docs",
+          "modal-sandboxes"
+        ],
+        "collectedAt": "2026-10-23",
+        "method": {
+          "en": "Compared four independently operated execution-boundary families and challenged OpenShell against sibling implementations and its documented fallback constraints. No sandbox or escape test was run.",
+          "ja": "独立運営の4つのexecution-boundary群を比較し、OpenShellを同等実装と文書化されたfallback制約で反証的に検討。sandboxやescape試験は実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-23",
+          "event": {
+            "en": "Spawned as a PILOT category after multiple independent implementations converged on host-enforced execution boundaries while preserving materially different guarantees.",
+            "ja": "複数の独立実装がhost強制execution boundaryへ収束する一方、保証内容が大きく異なるためPILOT category化。"
+          },
+          "scores": {
+            "frontier": 94,
+            "adoption": 58,
+            "fit": 97,
+            "confidence": 88
           }
         }
       ]

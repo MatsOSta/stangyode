@@ -349,6 +349,32 @@
         "tdad-paper",
         "cyberarena-paper"
       ]
+    },
+    {
+      "id": "openshell-policy-execution-split",
+      "type": "named-category-split",
+      "namedEntityId": "openshell",
+      "categoryId": "policy-enforced-agent-execution",
+      "competitorSourceId": "codex-sandbox",
+      "expectedCategoryStage": "pilot"
+    },
+    {
+      "id": "policy-execution-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "policy-enforced-agent-execution",
+      "minimumIndependentOrganizations": 4,
+      "requiredOrganizationIds": [
+        "nvidia",
+        "openai",
+        "e2b",
+        "modal"
+      ],
+      "requiredSourceIds": [
+        "openshell-repo",
+        "codex-sandbox",
+        "e2b-docs",
+        "modal-sandboxes"
+      ]
     }
   ]
 }

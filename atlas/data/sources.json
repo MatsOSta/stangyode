@@ -1662,5 +1662,53 @@
       "en": "Independent challenge showing PoC-only validation can overstate vulnerability-patching success and miss root-cause or semantic failures.",
       "ja": "PoCのみの検証が脆弱性patch成功を過大評価し、root causeや意味的障害を見逃し得ることを示す独立検証。"
     }
+  },
+  "aaif-four-projects": {
+    "title": "AAIF announces Agent Skills, Open Responses, OpenEnv, and OpenSandbox",
+    "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
+    "note": {
+      "en": "First-party foundation announcement covering four separately scoped projects and their contributed governance; it does not establish interoperability, isolation quality, or adoption outcomes.",
+      "ja": "範囲の異なる4プロジェクトと寄贈後の統治を示す財団の一次発表。相互運用性、隔離品質、採用成果を証明するものではない。"
+    }
+  },
+  "anthropic-agent-skills-aaif": {
+    "title": "Anthropic donates Agent Skills to the Agentic AI Foundation",
+    "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+    "note": {
+      "en": "First-party governance announcement and vendor-reported integration, publication, and installation counts; the counts lack an independently auditable denominator or task-outcome measure.",
+      "ja": "統治変更と、統合・公開・導入数に関するベンダー報告。数値には独立監査可能な分母やタスク成果測定がない。"
+    }
+  },
+  "github-customization-usage-metrics": {
+    "title": "Custom skills, agents, and MCP servers in GitHub usage metrics",
+    "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+    "note": {
+      "en": "First-party telemetry change exposing configured names and longer usage lists; GitHub warns that client telemetry can undercount and should be used for trends rather than exact accounting.",
+      "ja": "設定名とより長い利用一覧を公開する一次telemetry変更。GitHubはclient telemetryが過少集計し得るため、正確な会計ではなく傾向把握に使うよう注意している。"
+    }
+  },
+  "openshell-repo": {
+    "title": "NVIDIA OpenShell repository",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "note": {
+      "en": "First-party implementation of sandbox, policy, provider-credential, gateway, and extension layers; public code is concrete but does not independently validate containment.",
+      "ja": "sandbox、policy、provider資格情報、gateway、extension層の一次実装。公開codeは具体的だが、封じ込めを独立検証しない。"
+    }
+  },
+  "openshell-release-0-1-5": {
+    "title": "OpenShell v0.1.5 release",
+    "url": "https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.5",
+    "note": {
+      "en": "First-party release evidence for configuration delivery, conformance work, identity and Landlock tests, and observability changes; it is not a security certification.",
+      "ja": "設定配信、conformance、identity・Landlock試験、observability変更の一次release証拠。security認証ではない。"
+    }
+  },
+  "openshell-security-best-practices": {
+    "title": "OpenShell security best practices",
+    "url": "https://docs.nvidia.com/openshell/latest/security/best-practices",
+    "note": {
+      "en": "First-party control and limitation documentation: deny-by-default egress, Landlock and seccomp enforcement, immutable static controls, and a best-effort mode that can continue with reduced filesystem restrictions.",
+      "ja": "既定拒否egress、Landlock・seccomp強制、静的制御の不変性、filesystem制限が弱いまま継続し得るbest-effort modeを記す一次制御・制約資料。"
+    }
   }
 }
