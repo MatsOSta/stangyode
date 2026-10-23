@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-22
+Snapshot / スナップショット: 2026-10-23
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,11 +8,11 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-22T06:01:12.841Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-23T06:06:23.423Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: SUCCESS; last success 2026-10-22T06:01:12.841Z; failure streak 0
-- editor: SUCCESS; last success 2026-10-22T06:01:12.841Z; failure streak 0
+- scout: SUCCESS; last success 2026-10-23T06:06:23.423Z; failure streak 0
+- editor: SUCCESS; last success 2026-10-23T06:06:23.423Z; failure streak 0
 
 ### Sensors / センサー
 - primary-docs: CHECKED
@@ -57,6 +57,15 @@ As of / 基準時刻: 2026-10-22T06:01:12.841Z; cadence / 頻度: daily; data / 
 - [TDAD repository](https://github.com/pepealonso95/TDAD): relevant; checked 2026-10-22; source tdad-repo
 - [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations/): relevant; checked 2026-10-22; source openai-coding-eval-audit
 - [PatchBench: Evaluating AI Agents for Vulnerability Patching](https://arxiv.org/abs/2609.04075): relevant; checked 2026-10-22; source patchbench-paper
+- [Anthropic donates Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation): relevant; checked 2026-10-23; source anthropic-agent-skills-aaif
+- [AAIF announces Agent Skills, Open Responses, OpenEnv, and OpenSandbox](https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox): relevant; checked 2026-10-23; source aaif-four-projects
+- [Custom skills, agents, and MCP servers in GitHub usage metrics](https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api): relevant; checked 2026-10-23; source github-customization-usage-metrics
+- [NVIDIA OpenShell repository](https://github.com/NVIDIA/OpenShell): relevant; checked 2026-10-23; source openshell-repo
+- [OpenShell v0.1.5 release](https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.5): relevant; checked 2026-10-23; source openshell-release-0-1-5
+- [OpenShell security best practices](https://docs.nvidia.com/openshell/latest/security/best-practices): relevant; checked 2026-10-23; source openshell-security-best-practices
+- [Codex sandboxing and approvals](https://learn.chatgpt.com/docs/sandboxing): relevant; checked 2026-10-23; source codex-sandbox
+- [E2B sandbox documentation](https://e2b.dev/docs): relevant; checked 2026-10-23; source e2b-docs
+- [Modal Sandboxes](https://modal.com/docs/guide/sandboxes): relevant; checked 2026-10-23; source modal-sandboxes
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -106,11 +115,32 @@ Evidence: trailofbits-regression-review, regression-hunt-repo, cyberarena-home, 
 - `AI coding agent regression test impact analysis TDAD`
 - `coding benchmark validity PatchBench SWE-Bench Pro audit`
 
+### AAIF governance and named customization usage / AAIF統治と名前付きcustomization利用
+Neutral governance and named enterprise telemetry strengthen portability and trend visibility, but vendor counts and client telemetry do not prove benefit, safety, or exact adoption. / 中立統治と名前付きenterprise telemetryは移植性と傾向可視性を強化するが、vendor数値とclient telemetryは効果、安全性、正確な採用を証明しない。
+
+Targets: agent-skills
+
+Evidence: anthropic-agent-skills-aaif, aaif-four-projects, github-customization-usage-metrics
+
+- `Agent Skills AAIF Open Responses OpenEnv OpenSandbox adoption benchmark criticism`
+- `GitHub named customization usage metrics coverage undercount limitations`
+
+### Policy-enforced execution first-party and sibling challenge / ポリシー強制実行の一次情報・同等実装検証
+OpenShell exposes unusually explicit file, process, network, and credential policy, while Codex, E2B, and Modal confirm a durable execution-boundary category with non-equivalent guarantees. / OpenShellはfile、process、network、資格情報policyを明示し、Codex、E2B、Modalは保証が同等でない持続的execution-boundary categoryを裏付ける。
+
+Targets: openshell, policy-enforced-agent-execution
+
+Evidence: openshell-repo, openshell-release-0-1-5, openshell-security-best-practices, codex-sandbox, e2b-docs, modal-sandboxes
+
+- `NVIDIA OpenShell v0.1.5 policy limitations sandbox official`
+- `OpenShell E2B Modal Codex agent sandbox comparison policy enforcement`
+- `NVIDIA OpenShell GitHub issues escape isolation benchmark`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -125,6 +155,8 @@ Evidence: trailofbits-regression-review, regression-hunt-repo, cyberarena-home, 
 - material-finding; agent-harness-engineering, graft-git-ai: Lifecycle architecture is converging on thin routing, monitoring, and explicit control boundaries without warranting a new category. git-ai star/fork movement is an unexplained counter anomaly and is not evidence of adoption decline. / ライフサイクル・アーキテクチャは薄いルーティング、監視、明示的制御境界へ収束しているが、新カテゴリを正当化しない。git-aiのstar/forkの動きは原因不明のカウンター異常で、採用低下の証拠ではない。; evidence: meta-thin-router, openai-agent-monitoring, mulgadc-tla-plus, graft-git-ai-repo, graft-git-ai-release-0-2
 - material-finding; regression-hunt, cyberarena, continuous-behavioral-verification: Independent approaches converge on verifying behavior after agent-authored changes, but current evidence does not establish broad production recall: Regression Hunt trades stricter evidence for borderline misses, TDAD is project-evaluated, CyberArena measures adaptive cyber play, and benchmark/PoC validity remains fragile. / 独立approachはagent作成変更後の挙動検証へ収束するが、現証拠は広範な本番recallを証明しない。Regression Huntは厳格証拠とborderline見逃しをtrade-offし、TDADはproject評価、CyberArenaは適応的cyber playを測り、benchmark・PoC妥当性は脆い。; evidence: trailofbits-regression-review, regression-hunt-repo, cyberarena-home, cyberarena-paper, tdad-paper, tdad-repo, openai-coding-eval-audit, patchbench-paper
 - editorial-decision; regression-hunt, cyberarena, continuous-behavioral-verification: Add Regression Hunt at bounded advisory PILOT and CyberArena at WATCH; create a three-implementation continuous behavioral verification PILOT category. Require labeled holdouts, live or replayable evidence, human approval, and measurements of recall, false positives, escaped regressions, runtime, and review time. Do not promote Core Atlas. / Regression Huntを限定助言PILOT、CyberArenaをWATCHへ追加し、3実装の継続的挙動検証PILOT categoryを作成。ラベル付きholdout、liveまたは再生可能証拠、人間承認、recall、false positive、流出回帰、runtime、review時間の測定を必須とする。Core Atlasへ昇格しない。; evidence: trailofbits-regression-review, regression-hunt-repo, tdad-paper, cyberarena-paper, openai-coding-eval-audit, patchbench-paper
+- material-finding; agent-skills, openshell, policy-enforced-agent-execution: Agent infrastructure is becoming governed and measurable, while independently operated runtimes converge on enforced execution boundaries. Governance, telemetry, and public code are concrete; interoperability, containment efficacy, and task outcomes remain unproven. / agent基盤は統治・測定可能になり、独立運営runtimeは強制execution boundaryへ収束している。統治、telemetry、公開codeは具体的だが、相互運用性、封じ込め有効性、タスク成果は未証明。; evidence: anthropic-agent-skills-aaif, github-customization-usage-metrics, openshell-repo, openshell-security-best-practices, codex-sandbox, e2b-docs, modal-sandboxes
+- editorial-decision; agent-skills, openshell, policy-enforced-agent-execution: Keep Agent Skills at WATCH; add OpenShell at bounded PILOT and create a four-implementation policy-enforced execution PILOT category. Require hard-fail isolation where needed, explicit egress and credential tests, and external denial logs; do not promote Core Atlas. / Agent SkillsはWATCHを維持。OpenShellを限定PILOTへ追加し、4実装のポリシー強制execution PILOT categoryを作成。必要箇所のhard-fail隔離、明示的egress・資格情報試験、外部拒否logを必須とし、Core Atlasへ昇格しない。; evidence: aaif-four-projects, github-customization-usage-metrics, openshell-repo, openshell-security-best-practices, codex-sandbox, e2b-docs, modal-sandboxes
 
 ## Signals / シグナル
 
@@ -136,12 +168,13 @@ Evidence: trailofbits-regression-review, regression-hunt-repo, cyberarena-home, 
 - Trade-offs / トレードオフ:
   - Portable instructions can improve reuse, but hidden dependencies can weaken reviewability. / 移植可能な指示は再利用性を高めるが、隠れた依存関係はレビュー可能性を下げる。
   - Progressive disclosure reduces context load, but adds packaging and lifecycle work. / 段階的開示はコンテキスト負荷を減らすが、パッケージ化とライフサイクル作業が増える。
-- Provenance / 来歴: verification; partially-verified; 2026-10-11
+- Provenance / 来歴: verification; partially-verified; 2026-10-23
 - History / 履歴:
   - 2026-09-24: Seeded for watch-list review. / ウォッチリスト確認用にシード。
   - 2026-10-08: Added implementation evidence for cross-client installation and update semantics; high attention supports WATCH, while provenance and permission controls remain weak. / クライアント横断のインストールと更新機能の実装証拠を追加。高い注目はWATCHを支持するが、来歴と権限制御は弱いまま。
   - 2026-10-10: Vercel skills 1.7.2 strengthened dependency and workspace distribution semantics; category readiness rose slightly while trust and permission controls remain unsettled. / Vercel skills 1.7.2が依存関係とワークスペース配布規則を強化。カテゴリ準備度をわずかに上げたが、信頼と権限制御は未確定。
   - 2026-10-11: SkillFS and Cloudflare added governance and remote-distribution implementations; preliminary paired evaluation found mostly neutral and some harmful skills, raising confidence in stricter gates rather than readiness. / SkillFSとCloudflareが統治・遠隔配布実装を追加。予備的対比較評価では多くが中立で一部が有害であり、準備度ではなく厳格なゲートへの確信を高めた。
+  - 2026-10-23: AAIF governance and named enterprise usage telemetry strengthened portability and adoption observability without resolving permission, outcome, or conformance evidence; WATCH remains unchanged. / AAIF統治と名前付きenterprise利用telemetryが移植性・採用観測を強化したが、権限、成果、conformance証拠は未解決で、WATCHを維持。
 
 ### MCP Apps / MCP Apps
 - Adoption stage / 導入段階: WATCH (54/100)
@@ -748,6 +781,30 @@ Evidence: trailofbits-regression-review, regression-hunt-repo, cyberarena-home, 
 - Provenance / 来歴: discovery; partially-verified; 2026-10-22
 - History / 履歴:
   - 2026-10-22: Spawned as a PILOT category after three independent approaches converged on behavior-focused verification while independent audits bounded benchmark and PoC claims. / 3つの独立approachが挙動中心検証へ収束し、独立監査がbenchmark・PoC主張を限定したためPILOT category化。
+
+### NVIDIA OpenShell / NVIDIA OpenShell
+- Adoption stage / 導入段階: PILOT (42/100)
+- Scores / スコア: frontier 95, fit 96, confidence 84
+- Recommendation / 推奨: PILOT one disposable coding-agent sandbox with deny-by-default network, filesystem, process, and credential paths; require hard-fail isolation where gaps are unacceptable and verify blocked writes and egress before wider use. / 使い捨てcoding-agent sandbox 1件で、network、filesystem、process、資格情報経路を既定拒否にしてPILOTする。gapを許容できない箇所ではhard-fail隔離を必須とし、拡大前にwrite・egress拒否を検証する。
+- Compatibility / 互換性: UNKNOWN — No OpenShell sandbox, denied-path test, credential flow, or policy-update path has been run against a Stangyode workload. / Stangyode作業でOpenShell sandbox、拒否path試験、資格情報flow、policy更新経路を実行していない。
+- Trade-offs / トレードオフ:
+  - OpenShell combines declarative policy with kernel and proxy enforcement plus endpoint-bound credentials, making the boundary more explicit than prompt or application-only controls. / OpenShellは宣言的policyをkernel・proxy強制とendpoint限定資格情報に結び、promptやapplicationだけの制御より境界を明示する。
+  - The evidence is project-authored; static policy changes require sandbox recreation, best-effort Landlock can continue with reduced restrictions, and allowed endpoints remain exfiltration paths. / 証拠はproject作者実施。静的policy変更にはsandbox再作成が必要で、best-effort Landlockは制限低下のまま継続し得て、許可endpointは依然exfiltration経路となる。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-23
+- History / 履歴:
+  - 2026-10-23: Added at bounded PILOT because enforced file, process, network, and credential controls are concrete, while project-run evidence and documented fallback modes prevent a production-safety claim. / file、process、network、資格情報の強制制御が具体的なため限定PILOTへ追加。ただしproject実施証拠と文書化されたfallback modeにより本番安全性は主張しない。
+
+### Policy-enforced agent execution / ポリシー強制型エージェント実行
+- Adoption stage / 導入段階: PILOT (58/100)
+- Scores / スコア: frontier 94, fit 97, confidence 88
+- Recommendation / 推奨: PILOT a reversible execution boundary selected by workload: deny ambient filesystem and network authority, isolate credentials, log denials externally, and test the exact failure paths before trusting agent autonomy. / workloadに応じた可逆的execution boundaryをPILOTする。ambientなfilesystem・network権限を拒否し、資格情報を隔離し、拒否を外部記録し、agent自律を信頼する前に正確な失敗経路を試験する。
+- Compatibility / 互換性: UNKNOWN — No implementation has been compared on a shared Stangyode task, denial matrix, persistence requirement, or reviewer workflow. / 共通のStangyode課題、拒否matrix、永続性要件、reviewer workflowで実装比較をしていない。
+- Trade-offs / トレードオフ:
+  - OpenShell, Codex sandboxing, E2B, and Modal independently provide enforced execution boundaries with different policy, isolation, persistence, and operating models. / OpenShell、Codex sandbox、E2B、Modalは、policy、隔離、永続性、運用modelが異なる強制execution boundaryを独立に提供する。
+  - A sandbox label does not establish equal containment: VM isolation, OS controls, egress policy, credential mediation, and fail-open behavior must be qualified separately. / sandboxという名称だけでは同等の封じ込めを証明しない。VM隔離、OS制御、egress policy、資格情報仲介、fail-open挙動を別々に適格化する必要がある。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-23
+- History / 履歴:
+  - 2026-10-23: Spawned as a PILOT category after multiple independent implementations converged on host-enforced execution boundaries while preserving materially different guarantees. / 複数の独立実装がhost強制execution boundaryへ収束する一方、保証内容が大きく異なるためPILOT category化。
 
 ## GitHub discovery input / GitHub発見入力
 
