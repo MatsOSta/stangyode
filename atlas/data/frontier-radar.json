@@ -9,28 +9,28 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-23",
+    "snapshot": "2026-10-24",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-23T06:06:23.423Z",
+    "asOf": "2026-10-24T06:09:15.084Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "success",
-        "lastAttemptAt": "2026-10-23T06:06:23.423Z",
-        "lastSuccessfulRunAt": "2026-10-23T06:06:23.423Z",
+        "lastAttemptAt": "2026-10-24T06:09:15.084Z",
+        "lastSuccessfulRunAt": "2026-10-24T06:09:15.084Z",
         "failureStreak": 0
       },
       "editor": {
         "status": "success",
-        "lastAttemptAt": "2026-10-23T06:06:23.423Z",
-        "lastSuccessfulRunAt": "2026-10-23T06:06:23.423Z",
+        "lastAttemptAt": "2026-10-24T06:09:15.084Z",
+        "lastSuccessfulRunAt": "2026-10-24T06:09:15.084Z",
         "failureStreak": 0
       }
     },
@@ -102,7 +102,7 @@
       },
       {
         "sourceId": "deepinfer-repo",
-        "checkedAt": "2026-10-21",
+        "checkedAt": "2026-10-24",
         "outcome": "relevant"
       },
       {
@@ -187,12 +187,12 @@
       },
       {
         "sourceId": "cyberarena-home",
-        "checkedAt": "2026-10-22",
+        "checkedAt": "2026-10-24",
         "outcome": "relevant"
       },
       {
         "sourceId": "cyberarena-paper",
-        "checkedAt": "2026-10-22",
+        "checkedAt": "2026-10-24",
         "outcome": "relevant"
       },
       {
@@ -258,6 +258,121 @@
       {
         "sourceId": "modal-sandboxes",
         "checkedAt": "2026-10-23",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "agent-compute-engine-deep-dive",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "nvidia-sentry-runtime",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "solitary-home",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "docker-sandboxes-security",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "kubernetes-agent-sandbox-docker-sbx",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "agentprobe-home",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "forensicdbg-crash-gauntlet",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "anthropic-formal-verification",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "theorem-oss-verify-proofs",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "claude-mods-overview",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "harp-repo",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "aos1-repo",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "agency-repo",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "parallelpilot-paper",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "deltadb-introduction",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "claude-mem-releases",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "soma-protocol-repo",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "bellman-trust",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "deepinfer-deployment-qa",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "eagle4-repo",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "eagle4-compatibility",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "vllm-repo",
+        "checkedAt": "2026-10-24",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "sglang-repo",
+        "checkedAt": "2026-10-24",
         "outcome": "relevant"
       }
     ],
@@ -455,6 +570,123 @@
           "OpenShell E2B Modal Codex agent sandbox comparison policy enforcement",
           "NVIDIA OpenShell GitHub issues escape isolation benchmark"
         ]
+      },
+      {
+        "id": "execution-infrastructure-expansion-2026-10-24",
+        "label": {
+          "en": "Execution lifecycle and host-independent enforcement challenge",
+          "ja": "実行lifecycleとhost非依存enforcementの反証的調査"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "agent-compute-engine",
+          "nvidia-sentry",
+          "solitary",
+          "openshell",
+          "policy-enforced-agent-execution"
+        ],
+        "sourceIds": [
+          "agent-compute-engine-deep-dive",
+          "nvidia-sentry-runtime",
+          "solitary-home",
+          "openshell-release-0-1-5",
+          "docker-sandboxes-security",
+          "kubernetes-agent-sandbox-docker-sbx"
+        ],
+        "resultSummary": {
+          "en": "The category expands beyond sandbox policy into lifecycle, external credentials, host-independent enforcement, and explicit transfer, while availability and guarantees remain non-equivalent.",
+          "ja": "categoryはsandbox policyを越えてlifecycle、外部資格情報、host非依存enforcement、明示transferへ拡張するが、提供状況と保証は非同等。"
+        },
+        "queries": [
+          "Agent Compute Engine OpenShell Sentry Solitary alternatives adoption benchmark criticism",
+          "agent sandbox Docker Sandboxes Kubernetes Agent Sandbox sibling implementation isolation egress credentials"
+        ]
+      },
+      {
+        "id": "operational-verification-tracks-2026-10-24",
+        "label": {
+          "en": "Operational, adversarial, forensic, and formal verification boundaries",
+          "ja": "運用・敵対・forensic・形式検証の境界"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "cyberarena",
+          "continuous-behavioral-verification"
+        ],
+        "sourceIds": [
+          "agentprobe-home",
+          "cyberarena-home",
+          "cyberarena-paper",
+          "forensicdbg-crash-gauntlet",
+          "anthropic-formal-verification",
+          "theorem-oss-verify-proofs"
+        ],
+        "resultSummary": {
+          "en": "Failure injection, adaptive adversarial evaluation, repeated forensics, and machine-checked proof are separate tracks; no generic evaluation-category merge is justified.",
+          "ja": "failure injection、適応adversarial evaluation、反復forensics、machine-check proofは別trackであり、汎用evaluation categoryへの統合は正当化されない。"
+        },
+        "queries": [
+          "AgentProbe CyberArena ForensicDbg formal verification competitors limitations"
+        ]
+      },
+      {
+        "id": "operator-supervision-challenge-2026-10-24",
+        "label": {
+          "en": "Parallel-agent human supervision challenge",
+          "ja": "並列agent人間監督の反証的調査"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "human-supervision-infrastructure"
+        ],
+        "sourceIds": [
+          "claude-mods-overview",
+          "harp-repo",
+          "aos1-repo",
+          "agency-repo",
+          "parallelpilot-paper"
+        ],
+        "resultSummary": {
+          "en": "Independent interfaces and controlled HCI evidence establish a supervision-infrastructure category, but no named UI proves fewer missed interventions or faster verified recovery.",
+          "ja": "独立interfaceとHCI対照証拠が監督基盤categoryを成立させるが、見逃し減少や検証済み復旧高速化を証明する名前付きUIはない。"
+        },
+        "queries": [
+          "Claude Mods Harp AOS-1 Agency operator supervision benchmark"
+        ]
+      },
+      {
+        "id": "portable-state-and-inference-2026-10-24",
+        "label": {
+          "en": "Portable state and accelerated inference readiness",
+          "ja": "portable stateと加速inferenceのreadiness"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "deltadb",
+          "portable-inspectable-agent-state",
+          "deepinfer",
+          "eagle-4"
+        ],
+        "sourceIds": [
+          "deltadb-introduction",
+          "claude-mem-releases",
+          "soma-protocol-repo",
+          "bellman-trust",
+          "deepinfer-repo",
+          "deepinfer-deployment-qa",
+          "eagle4-repo",
+          "eagle4-compatibility",
+          "vllm-repo",
+          "sglang-repo"
+        ],
+        "resultSummary": {
+          "en": "Portable state separates into work, memory, collaboration, and authority semantics; DeepInfer attention accelerates without readiness promotion, while EAGLE-4 merits only a same-engine canary.",
+          "ja": "portable stateはwork、memory、collaboration、authority意味論に分離。DeepInfer注目はreadiness昇格なしで加速し、EAGLE-4は同一engine canaryに限定。"
+        },
+        "queries": [
+          "DeltaDB Claude Mem Soma Bellman portable state replay provenance",
+          "DeepInfer EAGLE-4 vLLM SGLang TensorRT-LLM benchmark deployment criticism"
+        ]
       }
     ],
     "trackedEntityIds": [
@@ -506,7 +738,14 @@
       "cyberarena",
       "continuous-behavioral-verification",
       "openshell",
-      "policy-enforced-agent-execution"
+      "policy-enforced-agent-execution",
+      "agent-compute-engine",
+      "nvidia-sentry",
+      "solitary",
+      "eagle-4",
+      "deltadb",
+      "human-supervision-infrastructure",
+      "portable-inspectable-agent-state"
     ],
     "changelogEntriesChecked": [
       "v0",
@@ -527,7 +766,8 @@
       "radar-daily-2026-10-20",
       "radar-daily-2026-10-21",
       "radar-daily-2026-10-22",
-      "radar-daily-2026-10-23"
+      "radar-daily-2026-10-23",
+      "radar-daily-2026-10-24"
     ],
     "sensors": [
       {
@@ -776,6 +1016,127 @@
         "summary": {
           "en": "Keep Agent Skills at WATCH; add OpenShell at bounded PILOT and create a four-implementation policy-enforced execution PILOT category. Require hard-fail isolation where needed, explicit egress and credential tests, and external denial logs; do not promote Core Atlas.",
           "ja": "Agent SkillsはWATCHを維持。OpenShellを限定PILOTへ追加し、4実装のポリシー強制execution PILOT categoryを作成。必要箇所のhard-fail隔離、明示的egress・資格情報試験、外部拒否logを必須とし、Core Atlasへ昇格しない。"
+        }
+      },
+      {
+        "kind": "material-finding",
+        "targetIds": [
+          "agent-compute-engine",
+          "nvidia-sentry",
+          "solitary",
+          "policy-enforced-agent-execution"
+        ],
+        "sourceIds": [
+          "agent-compute-engine-deep-dive",
+          "nvidia-sentry-runtime",
+          "solitary-home",
+          "docker-sandboxes-security",
+          "kubernetes-agent-sandbox-docker-sbx"
+        ],
+        "summary": {
+          "en": "Agent execution is becoming an infrastructure tier spanning lifecycle, credentials, networking, evidence, and host-independent enforcement; the implementations have materially different availability and trust boundaries.",
+          "ja": "agent実行はlifecycle、資格情報、network、evidence、host非依存enforcementを含むinfra tierになりつつあるが、実装の提供状況とtrust boundaryは大きく異なる。"
+        }
+      },
+      {
+        "kind": "editorial-decision",
+        "targetIds": [
+          "agent-compute-engine",
+          "nvidia-sentry",
+          "solitary",
+          "policy-enforced-agent-execution"
+        ],
+        "sourceIds": [
+          "agent-compute-engine-deep-dive",
+          "nvidia-sentry-runtime",
+          "solitary-home",
+          "docker-sandboxes-security"
+        ],
+        "summary": {
+          "en": "Keep the category and OpenShell at PILOT; add Agent Compute Engine, Sentry, and Solitary at WATCH. Compare OpenShell and Docker on denied egress; defer fleet Sentry commitment and Core Atlas promotion.",
+          "ja": "categoryとOpenShellはPILOTを維持し、Agent Compute Engine、Sentry、SolitaryをWATCHへ追加。OpenShellとDockerをdeny-egressで比較し、Sentry fleet導入とCore Atlas昇格は保留。"
+        }
+      },
+      {
+        "kind": "material-finding",
+        "targetIds": [
+          "cyberarena",
+          "continuous-behavioral-verification",
+          "human-supervision-infrastructure"
+        ],
+        "sourceIds": [
+          "agentprobe-home",
+          "cyberarena-paper",
+          "forensicdbg-crash-gauntlet",
+          "anthropic-formal-verification",
+          "claude-mods-overview",
+          "parallelpilot-paper"
+        ],
+        "summary": {
+          "en": "Verification is splitting into operational failure injection, adaptive adversarial evaluation, repeated forensic analysis, and formal proof, while parallel-agent work creates a distinct human supervision layer.",
+          "ja": "verificationは運用failure injection、適応adversarial evaluation、反復forensic分析、formal proofに分離し、並列agent作業は独立した人間監督layerを生む。"
+        }
+      },
+      {
+        "kind": "editorial-decision",
+        "targetIds": [
+          "human-supervision-infrastructure"
+        ],
+        "sourceIds": [
+          "claude-mods-overview",
+          "harp-repo",
+          "aos1-repo",
+          "agency-repo",
+          "parallelpilot-paper"
+        ],
+        "summary": {
+          "en": "Create a four-implementation supervision-infrastructure PILOT category; pilot reviewed alerts and intervention evidence, not a named dashboard or AOS-1 standardization claim.",
+          "ja": "4実装の監督基盤PILOT categoryを作成し、名前付きdashboardやAOS-1標準化主張ではなく、review済みalertとintervention evidenceを試す。"
+        }
+      },
+      {
+        "kind": "material-finding",
+        "targetIds": [
+          "deltadb",
+          "portable-inspectable-agent-state",
+          "deepinfer",
+          "eagle-4"
+        ],
+        "sourceIds": [
+          "deltadb-introduction",
+          "claude-mem-releases",
+          "soma-protocol-repo",
+          "bellman-trust",
+          "deepinfer-deployment-qa",
+          "eagle4-compatibility"
+        ],
+        "summary": {
+          "en": "Portable state is separating into work, memory, collaboration, and authority semantics. DeepInfer attention and EAGLE-4 momentum are real, but neither repository growth nor vendor benchmarks establish serving readiness.",
+          "ja": "portable stateはwork、memory、collaboration、authority意味論に分離。DeepInfer注目とEAGLE-4 momentumは実在するが、repository成長やvendor benchmarkはserving readinessを証明しない。"
+        }
+      },
+      {
+        "kind": "editorial-decision",
+        "targetIds": [
+          "deltadb",
+          "portable-inspectable-agent-state",
+          "deepinfer",
+          "eagle-4"
+        ],
+        "sourceIds": [
+          "deltadb-introduction",
+          "claude-mem-releases",
+          "soma-protocol-repo",
+          "bellman-trust",
+          "deepinfer-deployment-qa",
+          "eagle4-repo",
+          "eagle4-compatibility",
+          "vllm-repo",
+          "sglang-repo"
+        ],
+        "summary": {
+          "en": "Add DeltaDB and portable inspectable state at WATCH; keep DeepInfer at conditional WATCH with unchanged scores; add EAGLE-4 as a bounded same-engine PILOT. Defer Soma standardization and Core Atlas promotion.",
+          "ja": "DeltaDBとportable inspectable stateをWATCHへ追加。DeepInferはscore不変の条件付きWATCHを維持し、EAGLE-4を同一engine限定PILOTへ追加。Soma標準化とCore Atlas昇格は保留。"
         }
       }
     ]
@@ -1101,6 +1462,48 @@
       "signalId": "policy-enforced-agent-execution",
       "stage": "pilot",
       "score": 58,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "agent-compute-engine",
+      "stage": "watch",
+      "score": 15,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "nvidia-sentry",
+      "stage": "watch",
+      "score": 10,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "solitary",
+      "stage": "watch",
+      "score": 16,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "eagle-4",
+      "stage": "pilot",
+      "score": 18,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "deltadb",
+      "stage": "watch",
+      "score": 28,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "human-supervision-infrastructure",
+      "stage": "pilot",
+      "score": 38,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "portable-inspectable-agent-state",
+      "stage": "watch",
+      "score": 35,
       "compatibility": "unknown"
     }
   ],
@@ -4814,12 +5217,15 @@
         "kind": "discovery",
         "status": "partially-verified",
         "sourceIds": [
-          "deepinfer-repo"
+          "deepinfer-repo",
+          "deepinfer-deployment-qa",
+          "vllm-repo",
+          "sglang-repo"
         ],
-        "collectedAt": "2026-10-21",
+        "collectedAt": "2026-10-24",
         "method": {
-          "en": "Reviewed the first-party repository and bounded the claim to a model- and hardware-specific inference implementation. No discovered software was installed or run, and no throughput claim was reproduced.",
-          "ja": "一次リポジトリを確認し、主張をmodel・hardware固有の推論実装に限定。発見したソフトウェアは導入・実行せず、throughput主張も再現していない。"
+          "en": "Rechecked the accelerated repository against its deployment Q&A and mature sibling engines. Missing service components and narrow model/hardware support prevent a readiness upgrade; no benchmark was run.",
+          "ja": "加速したrepositoryをdeployment Q&Aと成熟同等engineで再確認。未実装service componentと限定model/hardwareによりreadiness昇格を見送り、benchmarkは未実施。"
         }
       },
       "history": [
@@ -4828,6 +5234,19 @@
           "event": {
             "en": "Added in the 2026-10-21 editorial audit with evidence boundaries preserved.",
             "ja": "証拠の境界を保った2026-10-21編集監査で追加。"
+          },
+          "scores": {
+            "frontier": 88,
+            "adoption": 28,
+            "fit": 86,
+            "confidence": 68
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "event": {
+            "en": "Cross-source and repository attention accelerated, but missing serving components and unreproduced economics kept conditional WATCH and all scores unchanged.",
+            "ja": "cross-source・repository注目は加速したが、未実装serving componentと未再現economicsにより条件付きWATCHと全scoreを維持。"
           },
           "scores": {
             "frontier": 88,
@@ -5454,12 +5873,12 @@
       },
       "tradeoffs": [
         {
-          "en": "OpenShell, Codex sandboxing, E2B, and Modal independently provide enforced execution boundaries with different policy, isolation, persistence, and operating models.",
-          "ja": "OpenShell、Codex sandbox、E2B、Modalは、policy、隔離、永続性、運用modelが異なる強制execution boundaryを独立に提供する。"
+          "en": "OpenShell, Codex, E2B, Modal, Agent Compute Engine, Sentry, Solitary, and Docker converge on enforced execution boundaries while adding lifecycle and host-independent enforcement layers.",
+          "ja": "OpenShell、Codex、E2B、Modal、Agent Compute Engine、Sentry、Solitary、Dockerが強制execution boundaryへ収束し、lifecycleとhost非依存enforcement層を加える。"
         },
         {
-          "en": "A sandbox label does not establish equal containment: VM isolation, OS controls, egress policy, credential mediation, and fail-open behavior must be qualified separately.",
-          "ja": "sandboxという名称だけでは同等の封じ込めを証明しない。VM隔離、OS制御、egress policy、資格情報仲介、fail-open挙動を別々に適格化する必要がある。"
+          "en": "They are not equivalent: availability, VM or OS isolation, egress, credential mediation, persistence, shared resources, hardware roots, and fail-open behavior differ materially.",
+          "ja": "同等ではなく、提供状況、VM/OS隔離、egress、資格情報仲介、永続性、共有resource、hardware root、fail-open挙動が大きく異なる。"
         }
       ],
       "implementations": [
@@ -5499,6 +5918,43 @@
           "sourceIds": [
             "modal-sandboxes"
           ]
+        },
+        {
+          "name": "Google Agent Compute Engine",
+          "vendor": "Google Cloud",
+          "organizationId": "google",
+          "access": "pre-preview persistent hardware-isolated microVM architecture",
+          "sourceIds": [
+            "agent-compute-engine-deep-dive"
+          ]
+        },
+        {
+          "name": "NVIDIA Sentry",
+          "vendor": "NVIDIA",
+          "organizationId": "nvidia",
+          "access": "planned BlueField-hosted out-of-band monitoring and enforcement",
+          "sourceIds": [
+            "nvidia-sentry-runtime"
+          ]
+        },
+        {
+          "name": "Solitary",
+          "vendor": "Dmitrii Balakin",
+          "organizationId": "dmitrii-balakin",
+          "access": "early local disposable VM-cell implementation",
+          "sourceIds": [
+            "solitary-home"
+          ]
+        },
+        {
+          "name": "Docker Sandboxes",
+          "vendor": "Docker",
+          "organizationId": "docker",
+          "access": "local or managed per-agent microVMs with network and credential boundaries",
+          "sourceIds": [
+            "docker-sandboxes-security",
+            "kubernetes-agent-sandbox-docker-sbx"
+          ]
         }
       ],
       "compatibility": {
@@ -5518,12 +5974,17 @@
           "openshell-security-best-practices",
           "codex-sandbox",
           "e2b-docs",
-          "modal-sandboxes"
+          "modal-sandboxes",
+          "agent-compute-engine-deep-dive",
+          "nvidia-sentry-runtime",
+          "solitary-home",
+          "docker-sandboxes-security",
+          "kubernetes-agent-sandbox-docker-sbx"
         ],
-        "collectedAt": "2026-10-23",
+        "collectedAt": "2026-10-24",
         "method": {
-          "en": "Compared four independently operated execution-boundary families and challenged OpenShell against sibling implementations and its documented fallback constraints. No sandbox or escape test was run.",
-          "ja": "独立運営の4つのexecution-boundary群を比較し、OpenShellを同等実装と文書化されたfallback制約で反証的に検討。sandboxやescape試験は実行していない。"
+          "en": "Expanded the existing category with lifecycle-specific compute, out-of-band hardware enforcement, a local VM-cell implementation, and Docker/Kubernetes sibling evidence. No sandbox, DPU, escape, or denial test was run.",
+          "ja": "既存categoryをlifecycle特化compute、out-of-band hardware enforcement、local VM-cell、Docker/Kubernetes同等証拠で拡張。sandbox、DPU、escape、denial試験は未実施。"
         }
       },
       "history": [
@@ -5538,6 +5999,554 @@
             "adoption": 58,
             "fit": 97,
             "confidence": 88
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "event": {
+            "en": "Expanded from sandbox policy to lifecycle, credential, network, evidence, and host-independent enforcement; PILOT status and scores remain unchanged.",
+            "ja": "sandbox policyからlifecycle、資格情報、network、evidence、host非依存enforcementへ拡張。PILOT statusとscoreは変更なし。"
+          },
+          "scores": {
+            "frontier": 94,
+            "adoption": 58,
+            "fit": 97,
+            "confidence": 88
+          }
+        }
+      ]
+    },
+    {
+      "id": "agent-compute-engine",
+      "name": {
+        "en": "Google Agent Compute Engine",
+        "ja": "Google Agent Compute Engine"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 95,
+        "adoption": 15,
+        "fit": 93,
+        "confidence": 75
+      },
+      "recommendation": {
+        "en": "WATCH the preview; require externally testable isolation, credential, egress, resume, deletion, latency, and full retained-state cost evidence before a pilot.",
+        "ja": "previewをWATCHし、PILOT前に外部試験可能な隔離、資格情報、egress、resume、削除、latency、保持state総費用の証拠を求める。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Purpose-built pause/resume, hardware isolation, external credentials, and persistent workspaces address long-running-agent lifecycle costs.",
+          "ja": "専用pause/resume、hardware隔離、外部資格情報、永続workspaceが長期agent lifecycle費用に対応する。"
+        },
+        {
+          "en": "The service is targeted for future preview; scale, density, latency, and economics are vendor-only claims.",
+          "ja": "serviceは今後のpreview予定で、scale、density、latency、economicsはvendorのみの主張。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "agent-compute-engine-deep-dive"
+        ],
+        "collectedAt": "2026-10-24",
+        "method": {
+          "en": "Reviewed the first-party architecture and preview boundary. No service access or independent benchmark was available.",
+          "ja": "一次architectureとpreview境界を確認。service accessや独立benchmarkは利用できなかった。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-24",
+          "event": {
+            "en": "Added at WATCH as a named pre-preview implementation; lifecycle design is concrete, but readiness and economics are unverified.",
+            "ja": "lifecycle設計は具体的だがreadinessとeconomicsが未検証のため、名前付きpre-preview実装としてWATCHへ追加。"
+          },
+          "scores": {
+            "frontier": 95,
+            "adoption": 15,
+            "fit": 93,
+            "confidence": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "nvidia-sentry",
+      "name": {
+        "en": "NVIDIA Sentry",
+        "ja": "NVIDIA Sentry"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 94,
+        "adoption": 10,
+        "fit": 88,
+        "confidence": 70
+      },
+      "recommendation": {
+        "en": "WATCH; defer fleet commitment until core availability, hardware requirements, false-denial behavior, and independent containment evidence are testable.",
+        "ja": "WATCH。core提供、hardware要件、false denial挙動、独立containment証拠を試験できるまでfleet導入をDEFERする。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Out-of-band DPU observation and enforcement can remain available when host software is compromised.",
+          "ja": "out-of-band DPU観測・強制はhost software侵害時にも維持し得る。"
+        },
+        {
+          "en": "Core availability is planned, specialized hardware narrows access, and efficacy and classifier behavior remain vendor-reported.",
+          "ja": "core提供は予定段階で、専用hardwareがaccessを狭め、有効性とclassifier挙動はvendor報告のまま。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "nvidia-sentry-runtime"
+        ],
+        "collectedAt": "2026-10-24",
+        "method": {
+          "en": "Reviewed NVIDIA’s architecture and planned-availability statement. No DPU path, policy, or containment behavior was reproduced.",
+          "ja": "NVIDIAのarchitectureと提供予定を確認。DPU path、policy、containment挙動は再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-24",
+          "event": {
+            "en": "Added at WATCH as a named hardware-isolated enforcement design; fleet adoption remains deferred.",
+            "ja": "hardware隔離enforcement設計としてWATCHへ追加し、fleet採用は保留。"
+          },
+          "scores": {
+            "frontier": 94,
+            "adoption": 10,
+            "fit": 88,
+            "confidence": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "solitary",
+      "name": {
+        "en": "Solitary",
+        "ja": "Solitary"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 86,
+        "adoption": 16,
+        "fit": 92,
+        "confidence": 74
+      },
+      "recommendation": {
+        "en": "WATCH as a local threat-model exemplar; compare one disposable denied-egress task against Docker Sandboxes before considering routine use.",
+        "ja": "local threat-model例としてWATCHし、日常利用前に使い捨てdeny-egress課題1件でDocker Sandboxesと比較する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "No host mounts, explicit transfer, scoped secrets, default-deny networking, and external traffic logs form a coherent local boundary.",
+          "ja": "host mountなし、明示transfer、限定secret、既定拒否network、外部traffic logが一貫したlocal境界を形成する。"
+        },
+        {
+          "en": "It is early; hypervisor escape, granted authority, in-cell secrets, allowed endpoints, and trusted images remain material risks.",
+          "ja": "初期段階で、hypervisor escape、付与authority、cell内secret、許可endpoint、信頼imageが重要riskとして残る。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "solitary-home",
+          "docker-sandboxes-security"
+        ],
+        "collectedAt": "2026-10-24",
+        "method": {
+          "en": "Reviewed the first-party model and candid limitations, then compared its boundary with Docker Sandboxes. No VM was installed or attacked.",
+          "ja": "一次modelと明示limitを確認し、Docker Sandboxesの境界と比較。VMは導入・攻撃していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-24",
+          "event": {
+            "en": "Added at WATCH as an early local containment implementation and threat-model exemplar.",
+            "ja": "初期local containment実装・threat-model例としてWATCHへ追加。"
+          },
+          "scores": {
+            "frontier": 86,
+            "adoption": 16,
+            "fit": 92,
+            "confidence": 74
+          }
+        }
+      ]
+    },
+    {
+      "id": "eagle-4",
+      "name": {
+        "en": "EAGLE-4",
+        "ja": "EAGLE-4"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 88,
+        "adoption": 18,
+        "fit": 84,
+        "confidence": 70
+      },
+      "recommendation": {
+        "en": "PILOT only as a workload-matched correctness and cost canary against the same serving engine without speculation.",
+        "ja": "同一serving engineのspeculationなし条件と比較するworkload一致のcorrectness・cost canaryに限定してPILOTする。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Workload-adaptive speculative decoding is a concrete optimization with public code and compatibility guidance.",
+          "ja": "workload適応speculative decodingは公開codeと互換指針を持つ具体的optimization。"
+        },
+        {
+          "en": "Reported gains are configuration-specific; patched engines, narrow model qualification, correctness risk, and licensing constrain readiness.",
+          "ja": "報告gainはconfiguration固有で、patched engine、限定model、correctness risk、licenseがreadinessを制約する。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "eagle4-repo",
+          "eagle4-compatibility",
+          "vllm-repo",
+          "sglang-repo"
+        ],
+        "collectedAt": "2026-10-24",
+        "method": {
+          "en": "Compared the first-party repository and compatibility matrix with sibling serving engines. No benchmark or correctness test was run.",
+          "ja": "一次repository・互換matrixを同等serving engineと比較。benchmarkやcorrectness試験は実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-24",
+          "event": {
+            "en": "Added at bounded PILOT for a same-engine canary; repository momentum did not establish general performance or adoption.",
+            "ja": "同一engine canaryの限定PILOTへ追加。repository momentumは一般性能や採用を証明しない。"
+          },
+          "scores": {
+            "frontier": 88,
+            "adoption": 18,
+            "fit": 84,
+            "confidence": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "deltadb",
+      "name": {
+        "en": "DeltaDB",
+        "ja": "DeltaDB"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 89,
+        "adoption": 28,
+        "fit": 92,
+        "confidence": 78
+      },
+      "recommendation": {
+        "en": "WATCH; pilot only a bounded export and replay slice that preserves provenance, deletion, conflict, and rollback semantics.",
+        "ja": "WATCH。provenance、削除、conflict、rollback意味論を保つ限定export・replayのみPILOTする。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Continuously addressable edits and conversation-linked work state make between-commit activity inspectable.",
+          "ja": "継続的にaddress可能なeditと会話連結work stateがcommit間活動を検査可能にする。"
+        },
+        {
+          "en": "Neutral export, cross-runtime replay, conflict semantics, and independent outcome evidence remain unsettled.",
+          "ja": "neutral export、runtime横断replay、conflict意味論、独立成果証拠は未確定。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Stangyode workload has reproduced the claimed outcome or measured local operational fit.",
+          "ja": "Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "deltadb-introduction"
+        ],
+        "collectedAt": "2026-10-24",
+        "method": {
+          "en": "Reviewed the first-party state model and bounded it against semantic-memory, execution-state, and authority-state systems. No replay was run.",
+          "ja": "一次state modelを確認し、semantic memory、execution state、authority state systemと区別。replayは実行していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-24",
+          "event": {
+            "en": "Added at WATCH as a named between-commit state implementation, separate from the portable-state category.",
+            "ja": "portable-state categoryと分離した名前付きcommit間state実装としてWATCHへ追加。"
+          },
+          "scores": {
+            "frontier": 89,
+            "adoption": 28,
+            "fit": 92,
+            "confidence": 78
+          }
+        }
+      ]
+    },
+    {
+      "id": "human-supervision-infrastructure",
+      "name": {
+        "en": "Human supervision infrastructure for parallel agents",
+        "ja": "並列エージェントの人間監督基盤"
+      },
+      "kind": "concept",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 92,
+        "adoption": 38,
+        "fit": 96,
+        "confidence": 84
+      },
+      "recommendation": {
+        "en": "PILOT a reviewed needs-you queue and evidence-rich intervention path; compare missed interventions, time-to-detect, recovery time, accepted-task success, and supervision cost against tabs or a single agent.",
+        "ja": "review済みneeds-you queueと証拠付きintervention pathをPILOTし、見逃し、検知時間、復旧時間、accepted-task成功、監督costをtabまたはsingle agentと比較する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Mods, Harp, AOS-1, and Agency independently expose attention routing, session state, replay, or causal debugging; ParallelPilot adds controlled HCI evidence.",
+          "ja": "Mods、Harp、AOS-1、Agencyがattention routing、session state、replay、causal debuggingを独立に公開し、ParallelPilotが対照HCI証拠を加える。"
+        },
+        {
+          "en": "No named product has shown fewer missed interventions or faster verified recovery; programmable control layers can inherit full host authority.",
+          "ja": "見逃し減少や検証済み復旧高速化を示した名前付き製品はなく、programmable control layerはhost全権限を継承し得る。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Claude Code Mods",
+          "vendor": "Anthropic",
+          "organizationId": "anthropic",
+          "access": "programmable prompt, tool, UI, and lifecycle interception",
+          "sourceIds": [
+            "claude-mods-overview"
+          ]
+        },
+        {
+          "name": "Harp",
+          "vendor": "Dominik Martin",
+          "organizationId": "dominik-martn",
+          "access": "public multi-agent attention and session UI",
+          "sourceIds": [
+            "harp-repo"
+          ]
+        },
+        {
+          "name": "AOS-1 monitor",
+          "vendor": "AOS-1 project",
+          "organizationId": "tomtomsatnav",
+          "access": "public local session graph, replay, alerts, and experimental contract",
+          "sourceIds": [
+            "aos1-repo"
+          ]
+        },
+        {
+          "name": "Agency",
+          "vendor": "Agency project",
+          "organizationId": "agency-project",
+          "access": "public agent debugger and profiler",
+          "sourceIds": [
+            "agency-repo"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "The pattern matches multi-agent editorial work, but no reviewed alert or intervention workflow has been measured on Stangyode.",
+          "ja": "このpatternはmulti-agent編集作業に合うが、Stangyodeでreview済みalert・intervention workflowを測定していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "claude-mods-overview",
+          "harp-repo",
+          "aos1-repo",
+          "agency-repo",
+          "parallelpilot-paper"
+        ],
+        "collectedAt": "2026-10-24",
+        "method": {
+          "en": "Compared four independently operated interfaces and an independent controlled HCI study. No product-specific outcome test was reproduced.",
+          "ja": "独立運営の4 interfaceと独立HCI対照研究を比較。製品固有成果試験は再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-24",
+          "event": {
+            "en": "Spawned as a PILOT category after independent interfaces and controlled HCI evidence converged on attention routing and intervention without establishing a default UI.",
+            "ja": "独立interfaceとHCI対照証拠がattention routing・interventionへ収束したがdefault UIを確立しないためPILOT category化。"
+          },
+          "scores": {
+            "frontier": 92,
+            "adoption": 38,
+            "fit": 96,
+            "confidence": 84
+          }
+        }
+      ]
+    },
+    {
+      "id": "portable-inspectable-agent-state",
+      "name": {
+        "en": "Portable, inspectable agent state",
+        "ja": "移植可能で検査可能なエージェント状態"
+      },
+      "kind": "concept",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 91,
+        "adoption": 35,
+        "fit": 94,
+        "confidence": 82
+      },
+      "recommendation": {
+        "en": "WATCH the category and PILOT bounded slices: stale-memory replay, checkpoint restore, export/import, conflict handling, deletion propagation, provenance, and authority-receipt verification.",
+        "ja": "categoryをWATCHし、stale-memory replay、checkpoint restore、export/import、conflict処理、削除伝播、provenance、authority receipt検証を限定PILOTする。"
+      },
+      "tradeoffs": [
+        {
+          "en": "DeltaDB, Claude Mem, Soma, and Bellman make work, memory, mandate, or collaboration state explicit and inspectable outside one ephemeral chat.",
+          "ja": "DeltaDB、Claude Mem、Soma、Bellmanがwork、memory、mandate、collaboration stateを一時chat外で明示・検査可能にする。"
+        },
+        {
+          "en": "These systems are not interchangeable: neutral formats, replay semantics, freshness, deletion, poisoned-state resistance, signatures, and interoperability remain uneven.",
+          "ja": "これらは交換可能ではなく、neutral format、replay意味論、freshness、削除、poisoned-state耐性、signature、相互運用性は不均一。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "DeltaDB",
+          "vendor": "Zed Industries",
+          "organizationId": "zed-industries",
+          "access": "continuously addressable between-commit work state",
+          "sourceIds": [
+            "deltadb-introduction"
+          ]
+        },
+        {
+          "name": "Claude Mem",
+          "vendor": "thedotmack",
+          "organizationId": "thedotmack",
+          "access": "public cross-session observation and semantic recall system",
+          "sourceIds": [
+            "claude-mem-releases"
+          ]
+        },
+        {
+          "name": "Soma protocol",
+          "vendor": "Soma project",
+          "organizationId": "mrpkk",
+          "access": "public mandate, budget, receipt, and memory envelope experiment",
+          "sourceIds": [
+            "soma-protocol-repo"
+          ]
+        },
+        {
+          "name": "Bellman rooms",
+          "vendor": "Bellman",
+          "organizationId": "bellman",
+          "access": "hosted collaboration rooms with roles and authoritative event records",
+          "sourceIds": [
+            "bellman-trust"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "The category matches evidence-first, transferable work, but no cross-runtime export, replay, deletion, or poisoned-state test has been run.",
+          "ja": "categoryは証拠優先・移管可能workに合うが、runtime横断export、replay、削除、poisoned-state試験は未実施。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "deltadb-introduction",
+          "claude-mem-releases",
+          "soma-protocol-repo",
+          "bellman-trust"
+        ],
+        "collectedAt": "2026-10-24",
+        "method": {
+          "en": "Compared four independently operated systems while separating worktree, semantic-memory, authority, and collaboration state. No interoperability claim was reproduced.",
+          "ja": "独立運営4 systemを、worktree、semantic memory、authority、collaboration stateに分離して比較。相互運用性主張は再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-24",
+          "event": {
+            "en": "Spawned at WATCH after four independent systems converged on explicit state while remaining non-equivalent and standards readiness stayed low.",
+            "ja": "4独立systemが明示stateへ収束したが非同等で標準readinessが低いためWATCH category化。"
+          },
+          "scores": {
+            "frontier": 91,
+            "adoption": 35,
+            "fit": 94,
+            "confidence": 82
           }
         }
       ]

@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-23
+Snapshot / スナップショット: 2026-10-24
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,11 +8,11 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-23T06:06:23.423Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-24T06:09:15.084Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: SUCCESS; last success 2026-10-23T06:06:23.423Z; failure streak 0
-- editor: SUCCESS; last success 2026-10-23T06:06:23.423Z; failure streak 0
+- scout: SUCCESS; last success 2026-10-24T06:09:15.084Z; failure streak 0
+- editor: SUCCESS; last success 2026-10-24T06:09:15.084Z; failure streak 0
 
 ### Sensors / センサー
 - primary-docs: CHECKED
@@ -34,7 +34,7 @@ As of / 基準時刻: 2026-10-23T06:06:23.423Z; cadence / 頻度: daily; data / 
 - [Show HN: Self-hosted AI spend attribution](https://news.ycombinator.com/item?id=50160102): relevant; checked 2026-10-20; source costura-hn
 - [Harness² repository](https://github.com/google-research/harness2): relevant; checked 2026-10-20; source harness2-repo
 - [Harness²: Recursive Agent Harnessing for an Open World](https://arxiv.org/abs/2610.14224): relevant; checked 2026-10-20; source harness2-paper
-- [DeepInfer repository](https://github.com/deepseek-ai/DeepInfer): relevant; checked 2026-10-21; source deepinfer-repo
+- [DeepInfer repository](https://github.com/deepseek-ai/DeepInfer): relevant; checked 2026-10-24; source deepinfer-repo
 - [NBER Working Paper 35275: From Writing Code to Shipping Software](https://www.nber.org/papers/w35275): relevant; checked 2026-10-21; source nber-writing-shipping-code
 - [From Writing Code to Shipping Software author PDF](https://www.mertdemirer.com/Papers/Demirer_Writing_vs_shipping_code.pdf): relevant; checked 2026-10-21; source demirer-writing-shipping-code
 - [Jellyfish: AI coding and review bottlenecks](https://fion.ac/jellyfish.pdf): relevant; checked 2026-10-21; source fiona-jellyfish
@@ -51,8 +51,8 @@ As of / 基準時刻: 2026-10-23T06:06:23.423Z; cadence / 頻度: daily; data / 
 - [Blueprints not prompts: TLA+](https://mulgadc.com/blog/blueprints-not-prompts-tla-plus): relevant; checked 2026-10-21; source mulgadc-tla-plus
 - [Your AI agent fixed the bug, but what else did it change?](https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/): relevant; checked 2026-10-22; source trailofbits-regression-review
 - [Trail of Bits regression-hunt plugin](https://github.com/trailofbits/skills/tree/main/plugins/regression-hunt): relevant; checked 2026-10-22; source regression-hunt-repo
-- [CyberArena project](https://cyber-arena.ai/): relevant; checked 2026-10-22; source cyberarena-home
-- [CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat](https://arxiv.org/abs/2610.19005): relevant; checked 2026-10-22; source cyberarena-paper
+- [CyberArena project](https://cyber-arena.ai/): relevant; checked 2026-10-24; source cyberarena-home
+- [CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat](https://arxiv.org/abs/2610.19005): relevant; checked 2026-10-24; source cyberarena-paper
 - [TDAD: Test-Driven Agentic Development](https://arxiv.org/abs/2603.17973): relevant; checked 2026-10-22; source tdad-paper
 - [TDAD repository](https://github.com/pepealonso95/TDAD): relevant; checked 2026-10-22; source tdad-repo
 - [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations/): relevant; checked 2026-10-22; source openai-coding-eval-audit
@@ -66,6 +66,29 @@ As of / 基準時刻: 2026-10-23T06:06:23.423Z; cadence / 頻度: daily; data / 
 - [Codex sandboxing and approvals](https://learn.chatgpt.com/docs/sandboxing): relevant; checked 2026-10-23; source codex-sandbox
 - [E2B sandbox documentation](https://e2b.dev/docs): relevant; checked 2026-10-23; source e2b-docs
 - [Modal Sandboxes](https://modal.com/docs/guide/sandboxes): relevant; checked 2026-10-23; source modal-sandboxes
+- [Google Agent Compute Engine deep dive](https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive): relevant; checked 2026-10-24; source agent-compute-engine-deep-dive
+- [Inside NVIDIA Sentry: Secure AI Agents at Runtime](https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime): relevant; checked 2026-10-24; source nvidia-sentry-runtime
+- [Solitary disposable coding-agent VMs](https://solitary.balakin.io/): relevant; checked 2026-10-24; source solitary-home
+- [Docker Sandboxes security model](https://docs.docker.com/ai/sandboxes/security): relevant; checked 2026-10-24; source docker-sandboxes-security
+- [Kubernetes Agent Sandbox Docker sbx example](https://github.com/kubernetes-sigs/agent-sandbox/blob/main/examples/docker-sbx/README.md): relevant; checked 2026-10-24; source kubernetes-agent-sandbox-docker-sbx
+- [AgentProbe operational failure injection](https://sampact.com): relevant; checked 2026-10-24; source agentprobe-home
+- [ForensicDbg AI Crash Debugging Gauntlet](https://www.forensicdbg.com/post/forensicdbg-s-ai-crash-debugging-gauntlet): relevant; checked 2026-10-24; source forensicdbg-crash-gauntlet
+- [Anthropic LLM-scaled formal software verification](https://www.anthropic.com/research/formal-verification): relevant; checked 2026-10-24; source anthropic-formal-verification
+- [Theorem OSS verification proof artifacts](https://github.com/theorem-labs/oss-verify-proofs): relevant; checked 2026-10-24; source theorem-oss-verify-proofs
+- [Claude Code Mods overview](https://code.claude.com/docs/en/plugins/mods/overview): relevant; checked 2026-10-24; source claude-mods-overview
+- [Harp multi-agent session supervisor](https://github.com/dominikmartn/harp): relevant; checked 2026-10-24; source harp-repo
+- [Agent Orchestration Standard AOS-1 repository](https://github.com/tomtomsatnav/agent-orchestration-standard): relevant; checked 2026-10-24; source aos1-repo
+- [Agency agent debugger and profiler](https://github.com/agency-project/agency): relevant; checked 2026-10-24; source agency-repo
+- [ParallelPilot human supervision study](https://arxiv.org/html/2609.33113): relevant; checked 2026-10-24; source parallelpilot-paper
+- [Zed introduces DeltaDB](https://zed.dev/blog/introducing-deltadb): relevant; checked 2026-10-24; source deltadb-introduction
+- [Claude Mem release history](https://github.com/thedotmack/claude-mem/releases): relevant; checked 2026-10-24; source claude-mem-releases
+- [Soma protocol repository](https://github.com/mrpkk/soma-protocol): relevant; checked 2026-10-24; source soma-protocol-repo
+- [Bellman trust and collaboration rooms](https://bellman.sh/trust): relevant; checked 2026-10-24; source bellman-trust
+- [DeepInfer inference deployment Q&A](https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md): relevant; checked 2026-10-24; source deepinfer-deployment-qa
+- [EAGLE-4 repository](https://github.com/eagle-hq/EAGLE-4): relevant; checked 2026-10-24; source eagle4-repo
+- [EAGLE-4 compatibility documentation](https://github.com/eagle-hq/EAGLE-4/blob/main/docs/compatibility.md): relevant; checked 2026-10-24; source eagle4-compatibility
+- [vLLM repository](https://github.com/vllm-project/vllm): relevant; checked 2026-10-24; source vllm-repo
+- [SGLang repository](https://github.com/sgl-project/sglang): relevant; checked 2026-10-24; source sglang-repo
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -136,11 +159,49 @@ Evidence: openshell-repo, openshell-release-0-1-5, openshell-security-best-pract
 - `OpenShell E2B Modal Codex agent sandbox comparison policy enforcement`
 - `NVIDIA OpenShell GitHub issues escape isolation benchmark`
 
+### Execution lifecycle and host-independent enforcement challenge / 実行lifecycleとhost非依存enforcementの反証的調査
+The category expands beyond sandbox policy into lifecycle, external credentials, host-independent enforcement, and explicit transfer, while availability and guarantees remain non-equivalent. / categoryはsandbox policyを越えてlifecycle、外部資格情報、host非依存enforcement、明示transferへ拡張するが、提供状況と保証は非同等。
+
+Targets: agent-compute-engine, nvidia-sentry, solitary, openshell, policy-enforced-agent-execution
+
+Evidence: agent-compute-engine-deep-dive, nvidia-sentry-runtime, solitary-home, openshell-release-0-1-5, docker-sandboxes-security, kubernetes-agent-sandbox-docker-sbx
+
+- `Agent Compute Engine OpenShell Sentry Solitary alternatives adoption benchmark criticism`
+- `agent sandbox Docker Sandboxes Kubernetes Agent Sandbox sibling implementation isolation egress credentials`
+
+### Operational, adversarial, forensic, and formal verification boundaries / 運用・敵対・forensic・形式検証の境界
+Failure injection, adaptive adversarial evaluation, repeated forensics, and machine-checked proof are separate tracks; no generic evaluation-category merge is justified. / failure injection、適応adversarial evaluation、反復forensics、machine-check proofは別trackであり、汎用evaluation categoryへの統合は正当化されない。
+
+Targets: cyberarena, continuous-behavioral-verification
+
+Evidence: agentprobe-home, cyberarena-home, cyberarena-paper, forensicdbg-crash-gauntlet, anthropic-formal-verification, theorem-oss-verify-proofs
+
+- `AgentProbe CyberArena ForensicDbg formal verification competitors limitations`
+
+### Parallel-agent human supervision challenge / 並列agent人間監督の反証的調査
+Independent interfaces and controlled HCI evidence establish a supervision-infrastructure category, but no named UI proves fewer missed interventions or faster verified recovery. / 独立interfaceとHCI対照証拠が監督基盤categoryを成立させるが、見逃し減少や検証済み復旧高速化を証明する名前付きUIはない。
+
+Targets: human-supervision-infrastructure
+
+Evidence: claude-mods-overview, harp-repo, aos1-repo, agency-repo, parallelpilot-paper
+
+- `Claude Mods Harp AOS-1 Agency operator supervision benchmark`
+
+### Portable state and accelerated inference readiness / portable stateと加速inferenceのreadiness
+Portable state separates into work, memory, collaboration, and authority semantics; DeepInfer attention accelerates without readiness promotion, while EAGLE-4 merits only a same-engine canary. / portable stateはwork、memory、collaboration、authority意味論に分離。DeepInfer注目はreadiness昇格なしで加速し、EAGLE-4は同一engine canaryに限定。
+
+Targets: deltadb, portable-inspectable-agent-state, deepinfer, eagle-4
+
+Evidence: deltadb-introduction, claude-mem-releases, soma-protocol-repo, bellman-trust, deepinfer-repo, deepinfer-deployment-qa, eagle4-repo, eagle4-compatibility, vllm-repo, sglang-repo
+
+- `DeltaDB Claude Mem Soma Bellman portable state replay provenance`
+- `DeepInfer EAGLE-4 vLLM SGLang TensorRT-LLM benchmark deployment criticism`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -157,6 +218,12 @@ Evidence: openshell-repo, openshell-release-0-1-5, openshell-security-best-pract
 - editorial-decision; regression-hunt, cyberarena, continuous-behavioral-verification: Add Regression Hunt at bounded advisory PILOT and CyberArena at WATCH; create a three-implementation continuous behavioral verification PILOT category. Require labeled holdouts, live or replayable evidence, human approval, and measurements of recall, false positives, escaped regressions, runtime, and review time. Do not promote Core Atlas. / Regression Huntを限定助言PILOT、CyberArenaをWATCHへ追加し、3実装の継続的挙動検証PILOT categoryを作成。ラベル付きholdout、liveまたは再生可能証拠、人間承認、recall、false positive、流出回帰、runtime、review時間の測定を必須とする。Core Atlasへ昇格しない。; evidence: trailofbits-regression-review, regression-hunt-repo, tdad-paper, cyberarena-paper, openai-coding-eval-audit, patchbench-paper
 - material-finding; agent-skills, openshell, policy-enforced-agent-execution: Agent infrastructure is becoming governed and measurable, while independently operated runtimes converge on enforced execution boundaries. Governance, telemetry, and public code are concrete; interoperability, containment efficacy, and task outcomes remain unproven. / agent基盤は統治・測定可能になり、独立運営runtimeは強制execution boundaryへ収束している。統治、telemetry、公開codeは具体的だが、相互運用性、封じ込め有効性、タスク成果は未証明。; evidence: anthropic-agent-skills-aaif, github-customization-usage-metrics, openshell-repo, openshell-security-best-practices, codex-sandbox, e2b-docs, modal-sandboxes
 - editorial-decision; agent-skills, openshell, policy-enforced-agent-execution: Keep Agent Skills at WATCH; add OpenShell at bounded PILOT and create a four-implementation policy-enforced execution PILOT category. Require hard-fail isolation where needed, explicit egress and credential tests, and external denial logs; do not promote Core Atlas. / Agent SkillsはWATCHを維持。OpenShellを限定PILOTへ追加し、4実装のポリシー強制execution PILOT categoryを作成。必要箇所のhard-fail隔離、明示的egress・資格情報試験、外部拒否logを必須とし、Core Atlasへ昇格しない。; evidence: aaif-four-projects, github-customization-usage-metrics, openshell-repo, openshell-security-best-practices, codex-sandbox, e2b-docs, modal-sandboxes
+- material-finding; agent-compute-engine, nvidia-sentry, solitary, policy-enforced-agent-execution: Agent execution is becoming an infrastructure tier spanning lifecycle, credentials, networking, evidence, and host-independent enforcement; the implementations have materially different availability and trust boundaries. / agent実行はlifecycle、資格情報、network、evidence、host非依存enforcementを含むinfra tierになりつつあるが、実装の提供状況とtrust boundaryは大きく異なる。; evidence: agent-compute-engine-deep-dive, nvidia-sentry-runtime, solitary-home, docker-sandboxes-security, kubernetes-agent-sandbox-docker-sbx
+- editorial-decision; agent-compute-engine, nvidia-sentry, solitary, policy-enforced-agent-execution: Keep the category and OpenShell at PILOT; add Agent Compute Engine, Sentry, and Solitary at WATCH. Compare OpenShell and Docker on denied egress; defer fleet Sentry commitment and Core Atlas promotion. / categoryとOpenShellはPILOTを維持し、Agent Compute Engine、Sentry、SolitaryをWATCHへ追加。OpenShellとDockerをdeny-egressで比較し、Sentry fleet導入とCore Atlas昇格は保留。; evidence: agent-compute-engine-deep-dive, nvidia-sentry-runtime, solitary-home, docker-sandboxes-security
+- material-finding; cyberarena, continuous-behavioral-verification, human-supervision-infrastructure: Verification is splitting into operational failure injection, adaptive adversarial evaluation, repeated forensic analysis, and formal proof, while parallel-agent work creates a distinct human supervision layer. / verificationは運用failure injection、適応adversarial evaluation、反復forensic分析、formal proofに分離し、並列agent作業は独立した人間監督layerを生む。; evidence: agentprobe-home, cyberarena-paper, forensicdbg-crash-gauntlet, anthropic-formal-verification, claude-mods-overview, parallelpilot-paper
+- editorial-decision; human-supervision-infrastructure: Create a four-implementation supervision-infrastructure PILOT category; pilot reviewed alerts and intervention evidence, not a named dashboard or AOS-1 standardization claim. / 4実装の監督基盤PILOT categoryを作成し、名前付きdashboardやAOS-1標準化主張ではなく、review済みalertとintervention evidenceを試す。; evidence: claude-mods-overview, harp-repo, aos1-repo, agency-repo, parallelpilot-paper
+- material-finding; deltadb, portable-inspectable-agent-state, deepinfer, eagle-4: Portable state is separating into work, memory, collaboration, and authority semantics. DeepInfer attention and EAGLE-4 momentum are real, but neither repository growth nor vendor benchmarks establish serving readiness. / portable stateはwork、memory、collaboration、authority意味論に分離。DeepInfer注目とEAGLE-4 momentumは実在するが、repository成長やvendor benchmarkはserving readinessを証明しない。; evidence: deltadb-introduction, claude-mem-releases, soma-protocol-repo, bellman-trust, deepinfer-deployment-qa, eagle4-compatibility
+- editorial-decision; deltadb, portable-inspectable-agent-state, deepinfer, eagle-4: Add DeltaDB and portable inspectable state at WATCH; keep DeepInfer at conditional WATCH with unchanged scores; add EAGLE-4 as a bounded same-engine PILOT. Defer Soma standardization and Core Atlas promotion. / DeltaDBとportable inspectable stateをWATCHへ追加。DeepInferはscore不変の条件付きWATCHを維持し、EAGLE-4を同一engine限定PILOTへ追加。Soma標準化とCore Atlas昇格は保留。; evidence: deltadb-introduction, claude-mem-releases, soma-protocol-repo, bellman-trust, deepinfer-deployment-qa, eagle4-repo, eagle4-compatibility, vllm-repo, sglang-repo
 
 ## Signals / シグナル
 
@@ -706,9 +773,10 @@ Evidence: openshell-repo, openshell-release-0-1-5, openshell-security-best-pract
 - Trade-offs / トレードオフ:
   - A concrete model/hardware co-designed inference implementation makes the capability worth tracking. / modelとhardwareを共同設計した具体的な推論実装があり、能力を追跡する価値がある。
   - It targets a narrow model and hardware set, is not a complete serving system, and lacks independent production evidence. / 対象modelとhardwareが限定され、完全なserving systemではなく、独立した本番証拠もない。
-- Provenance / 来歴: discovery; partially-verified; 2026-10-21
+- Provenance / 来歴: discovery; partially-verified; 2026-10-24
 - History / 履歴:
   - 2026-10-21: Added in the 2026-10-21 editorial audit with evidence boundaries preserved. / 証拠の境界を保った2026-10-21編集監査で追加。
+  - 2026-10-24: Cross-source and repository attention accelerated, but missing serving components and unreproduced economics kept conditional WATCH and all scores unchanged. / cross-source・repository注目は加速したが、未実装serving componentと未再現economicsにより条件付きWATCHと全scoreを維持。
 
 ### Coding-to-release attenuation / コーディングからリリースへの減衰
 - Adoption stage / 導入段階: WATCH (58/100)
@@ -800,11 +868,96 @@ Evidence: openshell-repo, openshell-release-0-1-5, openshell-security-best-pract
 - Recommendation / 推奨: PILOT a reversible execution boundary selected by workload: deny ambient filesystem and network authority, isolate credentials, log denials externally, and test the exact failure paths before trusting agent autonomy. / workloadに応じた可逆的execution boundaryをPILOTする。ambientなfilesystem・network権限を拒否し、資格情報を隔離し、拒否を外部記録し、agent自律を信頼する前に正確な失敗経路を試験する。
 - Compatibility / 互換性: UNKNOWN — No implementation has been compared on a shared Stangyode task, denial matrix, persistence requirement, or reviewer workflow. / 共通のStangyode課題、拒否matrix、永続性要件、reviewer workflowで実装比較をしていない。
 - Trade-offs / トレードオフ:
-  - OpenShell, Codex sandboxing, E2B, and Modal independently provide enforced execution boundaries with different policy, isolation, persistence, and operating models. / OpenShell、Codex sandbox、E2B、Modalは、policy、隔離、永続性、運用modelが異なる強制execution boundaryを独立に提供する。
-  - A sandbox label does not establish equal containment: VM isolation, OS controls, egress policy, credential mediation, and fail-open behavior must be qualified separately. / sandboxという名称だけでは同等の封じ込めを証明しない。VM隔離、OS制御、egress policy、資格情報仲介、fail-open挙動を別々に適格化する必要がある。
-- Provenance / 来歴: discovery; partially-verified; 2026-10-23
+  - OpenShell, Codex, E2B, Modal, Agent Compute Engine, Sentry, Solitary, and Docker converge on enforced execution boundaries while adding lifecycle and host-independent enforcement layers. / OpenShell、Codex、E2B、Modal、Agent Compute Engine、Sentry、Solitary、Dockerが強制execution boundaryへ収束し、lifecycleとhost非依存enforcement層を加える。
+  - They are not equivalent: availability, VM or OS isolation, egress, credential mediation, persistence, shared resources, hardware roots, and fail-open behavior differ materially. / 同等ではなく、提供状況、VM/OS隔離、egress、資格情報仲介、永続性、共有resource、hardware root、fail-open挙動が大きく異なる。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-24
 - History / 履歴:
   - 2026-10-23: Spawned as a PILOT category after multiple independent implementations converged on host-enforced execution boundaries while preserving materially different guarantees. / 複数の独立実装がhost強制execution boundaryへ収束する一方、保証内容が大きく異なるためPILOT category化。
+  - 2026-10-24: Expanded from sandbox policy to lifecycle, credential, network, evidence, and host-independent enforcement; PILOT status and scores remain unchanged. / sandbox policyからlifecycle、資格情報、network、evidence、host非依存enforcementへ拡張。PILOT statusとscoreは変更なし。
+
+### Google Agent Compute Engine / Google Agent Compute Engine
+- Adoption stage / 導入段階: WATCH (15/100)
+- Scores / スコア: frontier 95, fit 93, confidence 75
+- Recommendation / 推奨: WATCH the preview; require externally testable isolation, credential, egress, resume, deletion, latency, and full retained-state cost evidence before a pilot. / previewをWATCHし、PILOT前に外部試験可能な隔離、資格情報、egress、resume、削除、latency、保持state総費用の証拠を求める。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Purpose-built pause/resume, hardware isolation, external credentials, and persistent workspaces address long-running-agent lifecycle costs. / 専用pause/resume、hardware隔離、外部資格情報、永続workspaceが長期agent lifecycle費用に対応する。
+  - The service is targeted for future preview; scale, density, latency, and economics are vendor-only claims. / serviceは今後のpreview予定で、scale、density、latency、economicsはvendorのみの主張。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-24
+- History / 履歴:
+  - 2026-10-24: Added at WATCH as a named pre-preview implementation; lifecycle design is concrete, but readiness and economics are unverified. / lifecycle設計は具体的だがreadinessとeconomicsが未検証のため、名前付きpre-preview実装としてWATCHへ追加。
+
+### NVIDIA Sentry / NVIDIA Sentry
+- Adoption stage / 導入段階: WATCH (10/100)
+- Scores / スコア: frontier 94, fit 88, confidence 70
+- Recommendation / 推奨: WATCH; defer fleet commitment until core availability, hardware requirements, false-denial behavior, and independent containment evidence are testable. / WATCH。core提供、hardware要件、false denial挙動、独立containment証拠を試験できるまでfleet導入をDEFERする。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Out-of-band DPU observation and enforcement can remain available when host software is compromised. / out-of-band DPU観測・強制はhost software侵害時にも維持し得る。
+  - Core availability is planned, specialized hardware narrows access, and efficacy and classifier behavior remain vendor-reported. / core提供は予定段階で、専用hardwareがaccessを狭め、有効性とclassifier挙動はvendor報告のまま。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-24
+- History / 履歴:
+  - 2026-10-24: Added at WATCH as a named hardware-isolated enforcement design; fleet adoption remains deferred. / hardware隔離enforcement設計としてWATCHへ追加し、fleet採用は保留。
+
+### Solitary / Solitary
+- Adoption stage / 導入段階: WATCH (16/100)
+- Scores / スコア: frontier 86, fit 92, confidence 74
+- Recommendation / 推奨: WATCH as a local threat-model exemplar; compare one disposable denied-egress task against Docker Sandboxes before considering routine use. / local threat-model例としてWATCHし、日常利用前に使い捨てdeny-egress課題1件でDocker Sandboxesと比較する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - No host mounts, explicit transfer, scoped secrets, default-deny networking, and external traffic logs form a coherent local boundary. / host mountなし、明示transfer、限定secret、既定拒否network、外部traffic logが一貫したlocal境界を形成する。
+  - It is early; hypervisor escape, granted authority, in-cell secrets, allowed endpoints, and trusted images remain material risks. / 初期段階で、hypervisor escape、付与authority、cell内secret、許可endpoint、信頼imageが重要riskとして残る。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-24
+- History / 履歴:
+  - 2026-10-24: Added at WATCH as an early local containment implementation and threat-model exemplar. / 初期local containment実装・threat-model例としてWATCHへ追加。
+
+### EAGLE-4 / EAGLE-4
+- Adoption stage / 導入段階: PILOT (18/100)
+- Scores / スコア: frontier 88, fit 84, confidence 70
+- Recommendation / 推奨: PILOT only as a workload-matched correctness and cost canary against the same serving engine without speculation. / 同一serving engineのspeculationなし条件と比較するworkload一致のcorrectness・cost canaryに限定してPILOTする。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Workload-adaptive speculative decoding is a concrete optimization with public code and compatibility guidance. / workload適応speculative decodingは公開codeと互換指針を持つ具体的optimization。
+  - Reported gains are configuration-specific; patched engines, narrow model qualification, correctness risk, and licensing constrain readiness. / 報告gainはconfiguration固有で、patched engine、限定model、correctness risk、licenseがreadinessを制約する。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-24
+- History / 履歴:
+  - 2026-10-24: Added at bounded PILOT for a same-engine canary; repository momentum did not establish general performance or adoption. / 同一engine canaryの限定PILOTへ追加。repository momentumは一般性能や採用を証明しない。
+
+### DeltaDB / DeltaDB
+- Adoption stage / 導入段階: WATCH (28/100)
+- Scores / スコア: frontier 89, fit 92, confidence 78
+- Recommendation / 推奨: WATCH; pilot only a bounded export and replay slice that preserves provenance, deletion, conflict, and rollback semantics. / WATCH。provenance、削除、conflict、rollback意味論を保つ限定export・replayのみPILOTする。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has reproduced the claimed outcome or measured local operational fit. / Stangyode作業では主張成果を再現せず、local運用適合性も測定していない。
+- Trade-offs / トレードオフ:
+  - Continuously addressable edits and conversation-linked work state make between-commit activity inspectable. / 継続的にaddress可能なeditと会話連結work stateがcommit間活動を検査可能にする。
+  - Neutral export, cross-runtime replay, conflict semantics, and independent outcome evidence remain unsettled. / neutral export、runtime横断replay、conflict意味論、独立成果証拠は未確定。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-24
+- History / 履歴:
+  - 2026-10-24: Added at WATCH as a named between-commit state implementation, separate from the portable-state category. / portable-state categoryと分離した名前付きcommit間state実装としてWATCHへ追加。
+
+### Human supervision infrastructure for parallel agents / 並列エージェントの人間監督基盤
+- Adoption stage / 導入段階: PILOT (38/100)
+- Scores / スコア: frontier 92, fit 96, confidence 84
+- Recommendation / 推奨: PILOT a reviewed needs-you queue and evidence-rich intervention path; compare missed interventions, time-to-detect, recovery time, accepted-task success, and supervision cost against tabs or a single agent. / review済みneeds-you queueと証拠付きintervention pathをPILOTし、見逃し、検知時間、復旧時間、accepted-task成功、監督costをtabまたはsingle agentと比較する。
+- Compatibility / 互換性: UNKNOWN — The pattern matches multi-agent editorial work, but no reviewed alert or intervention workflow has been measured on Stangyode. / このpatternはmulti-agent編集作業に合うが、Stangyodeでreview済みalert・intervention workflowを測定していない。
+- Trade-offs / トレードオフ:
+  - Mods, Harp, AOS-1, and Agency independently expose attention routing, session state, replay, or causal debugging; ParallelPilot adds controlled HCI evidence. / Mods、Harp、AOS-1、Agencyがattention routing、session state、replay、causal debuggingを独立に公開し、ParallelPilotが対照HCI証拠を加える。
+  - No named product has shown fewer missed interventions or faster verified recovery; programmable control layers can inherit full host authority. / 見逃し減少や検証済み復旧高速化を示した名前付き製品はなく、programmable control layerはhost全権限を継承し得る。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-24
+- History / 履歴:
+  - 2026-10-24: Spawned as a PILOT category after independent interfaces and controlled HCI evidence converged on attention routing and intervention without establishing a default UI. / 独立interfaceとHCI対照証拠がattention routing・interventionへ収束したがdefault UIを確立しないためPILOT category化。
+
+### Portable, inspectable agent state / 移植可能で検査可能なエージェント状態
+- Adoption stage / 導入段階: WATCH (35/100)
+- Scores / スコア: frontier 91, fit 94, confidence 82
+- Recommendation / 推奨: WATCH the category and PILOT bounded slices: stale-memory replay, checkpoint restore, export/import, conflict handling, deletion propagation, provenance, and authority-receipt verification. / categoryをWATCHし、stale-memory replay、checkpoint restore、export/import、conflict処理、削除伝播、provenance、authority receipt検証を限定PILOTする。
+- Compatibility / 互換性: UNKNOWN — The category matches evidence-first, transferable work, but no cross-runtime export, replay, deletion, or poisoned-state test has been run. / categoryは証拠優先・移管可能workに合うが、runtime横断export、replay、削除、poisoned-state試験は未実施。
+- Trade-offs / トレードオフ:
+  - DeltaDB, Claude Mem, Soma, and Bellman make work, memory, mandate, or collaboration state explicit and inspectable outside one ephemeral chat. / DeltaDB、Claude Mem、Soma、Bellmanがwork、memory、mandate、collaboration stateを一時chat外で明示・検査可能にする。
+  - These systems are not interchangeable: neutral formats, replay semantics, freshness, deletion, poisoned-state resistance, signatures, and interoperability remain uneven. / これらは交換可能ではなく、neutral format、replay意味論、freshness、削除、poisoned-state耐性、signature、相互運用性は不均一。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-24
+- History / 履歴:
+  - 2026-10-24: Spawned at WATCH after four independent systems converged on explicit state while remaining non-equivalent and standards readiness stayed low. / 4独立systemが明示stateへ収束したが非同等で標準readinessが低いためWATCH category化。
 
 ## GitHub discovery input / GitHub発見入力
 

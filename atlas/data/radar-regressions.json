@@ -375,6 +375,98 @@
         "e2b-docs",
         "modal-sandboxes"
       ]
+    },
+    {
+      "id": "agent-compute-policy-execution-split",
+      "type": "named-category-split",
+      "namedEntityId": "agent-compute-engine",
+      "categoryId": "policy-enforced-agent-execution",
+      "competitorSourceId": "docker-sandboxes-security",
+      "expectedCategoryStage": "pilot"
+    },
+    {
+      "id": "sentry-policy-execution-split",
+      "type": "named-category-split",
+      "namedEntityId": "nvidia-sentry",
+      "categoryId": "policy-enforced-agent-execution",
+      "competitorSourceId": "agent-compute-engine-deep-dive",
+      "expectedCategoryStage": "pilot"
+    },
+    {
+      "id": "solitary-policy-execution-split",
+      "type": "named-category-split",
+      "namedEntityId": "solitary",
+      "categoryId": "policy-enforced-agent-execution",
+      "competitorSourceId": "openshell-repo",
+      "expectedCategoryStage": "pilot"
+    },
+    {
+      "id": "deltadb-portable-state-split",
+      "type": "named-category-split",
+      "namedEntityId": "deltadb",
+      "categoryId": "portable-inspectable-agent-state",
+      "competitorSourceId": "claude-mem-releases",
+      "expectedCategoryStage": "watch"
+    },
+    {
+      "id": "policy-execution-expanded-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "policy-enforced-agent-execution",
+      "minimumIndependentOrganizations": 7,
+      "requiredOrganizationIds": [
+        "nvidia",
+        "openai",
+        "e2b",
+        "modal",
+        "google",
+        "dmitrii-balakin",
+        "docker"
+      ],
+      "requiredSourceIds": [
+        "openshell-repo",
+        "codex-sandbox",
+        "e2b-docs",
+        "modal-sandboxes",
+        "agent-compute-engine-deep-dive",
+        "solitary-home",
+        "docker-sandboxes-security"
+      ]
+    },
+    {
+      "id": "human-supervision-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "human-supervision-infrastructure",
+      "minimumIndependentOrganizations": 4,
+      "requiredOrganizationIds": [
+        "anthropic",
+        "dominik-martn",
+        "tomtomsatnav",
+        "agency-project"
+      ],
+      "requiredSourceIds": [
+        "claude-mods-overview",
+        "harp-repo",
+        "aos1-repo",
+        "agency-repo"
+      ]
+    },
+    {
+      "id": "portable-state-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "portable-inspectable-agent-state",
+      "minimumIndependentOrganizations": 4,
+      "requiredOrganizationIds": [
+        "zed-industries",
+        "thedotmack",
+        "mrpkk",
+        "bellman"
+      ],
+      "requiredSourceIds": [
+        "deltadb-introduction",
+        "claude-mem-releases",
+        "soma-protocol-repo",
+        "bellman-trust"
+      ]
     }
   ]
 }
