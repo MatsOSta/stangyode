@@ -1710,5 +1710,189 @@
       "en": "First-party control and limitation documentation: deny-by-default egress, Landlock and seccomp enforcement, immutable static controls, and a best-effort mode that can continue with reduced filesystem restrictions.",
       "ja": "既定拒否egress、Landlock・seccomp強制、静的制御の不変性、filesystem制限が弱いまま継続し得るbest-effort modeを記す一次制御・制約資料。"
     }
+  },
+  "agent-compute-engine-deep-dive": {
+    "title": "Google Agent Compute Engine deep dive",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
+    "note": {
+      "en": "First-party architecture for persistent, pausable microVM workspaces, external credential mediation, and restricted networking; preview timing and scale claims remain vendor-reported.",
+      "ja": "永続・休止可能なmicroVM workspace、外部資格情報仲介、制限networkingの一次architecture。preview時期と規模主張はvendor報告のまま。"
+    }
+  },
+  "nvidia-sentry-runtime": {
+    "title": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
+    "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime",
+    "note": {
+      "en": "First-party design for BlueField-hosted inspection, policy enforcement, runtime context, and protected records; planned availability and efficacy are not independently validated.",
+      "ja": "BlueField上のinspection、policy強制、runtime context、保護記録の一次設計。提供予定と有効性は独立検証されていない。"
+    }
+  },
+  "solitary-home": {
+    "title": "Solitary disposable coding-agent VMs",
+    "url": "https://solitary.balakin.io/",
+    "note": {
+      "en": "First-party local VM implementation with no host mounts, scoped secrets, default-deny networking, explicit transfer, and candid hypervisor, egress, credential, and trusted-image limits.",
+      "ja": "host mountなし、限定secret、既定拒否network、明示transferと、hypervisor、egress、資格情報、信頼imageの限界を明記するlocal VM一次実装。"
+    }
+  },
+  "docker-sandboxes-security": {
+    "title": "Docker Sandboxes security model",
+    "url": "https://docs.docker.com/ai/sandboxes/security",
+    "note": {
+      "en": "First-party microVM, network, workspace, and credential boundaries plus explicit warnings about direct mounts, broad allowed domains, shared skills, and host-side MCP servers.",
+      "ja": "microVM、network、workspace、資格情報境界と、direct mount、広い許可domain、共有skill、host側MCP serverの注意点を示す一次資料。"
+    }
+  },
+  "kubernetes-agent-sandbox-docker-sbx": {
+    "title": "Kubernetes Agent Sandbox Docker sbx example",
+    "url": "https://github.com/kubernetes-sigs/agent-sandbox/blob/main/examples/docker-sbx/README.md",
+    "note": {
+      "en": "Sibling integration showing identity, storage, scheduling, per-agent microVMs, egress policy, and external credentials, while documenting privileged-pod and credential-at-rest limitations.",
+      "ja": "identity、storage、scheduling、agent別microVM、egress policy、外部資格情報を組み合わせ、privileged podと保存資格情報の限界も記す同等実装資料。"
+    }
+  },
+  "agentprobe-home": {
+    "title": "AgentProbe operational failure injection",
+    "url": "https://sampact.com",
+    "note": {
+      "en": "Project-authored failure-injection surface for stale reads, ambiguous outcomes, phantom success, and related trajectory faults; artifact identity and independent outcome evidence remain limited.",
+      "ja": "stale read、曖昧な結果、phantom successなどのtrajectory障害を注入するproject作者資料。artifact identityと独立成果証拠は限定的。"
+    }
+  },
+  "forensicdbg-crash-gauntlet": {
+    "title": "ForensicDbg AI Crash Debugging Gauntlet",
+    "url": "https://www.forensicdbg.com/post/forensicdbg-s-ai-crash-debugging-gauntlet",
+    "note": {
+      "en": "Vendor-authored repeated crash-analysis comparison; useful case evidence, but several dumps lack ground truth and the results are not an independent benchmark.",
+      "ja": "vendor作者による反復crash分析比較。case証拠として有用だが、一部dumpにground truthがなく独立benchmarkではない。"
+    }
+  },
+  "anthropic-formal-verification": {
+    "title": "Anthropic LLM-scaled formal software verification",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "note": {
+      "en": "First-party report of model-written, kernel-checked proofs with explicit semantic, assumption, and property-scope boundaries; not evidence of general bug freedom.",
+      "ja": "model生成・kernel検査proofを、semantic、仮定、property範囲の境界とともに示す一次報告。一般的な無欠陥性の証拠ではない。"
+    }
+  },
+  "theorem-oss-verify-proofs": {
+    "title": "Theorem OSS verification proof artifacts",
+    "url": "https://github.com/theorem-labs/oss-verify-proofs",
+    "note": {
+      "en": "Published proof artifacts for bounded verification targets; machine checking strengthens evidence only within the encoded model and theorem scope.",
+      "ja": "限定verification対象の公開proof artifact。machine checkが強める証拠は符号化modelとtheorem範囲内に限られる。"
+    }
+  },
+  "claude-mods-overview": {
+    "title": "Claude Code Mods overview",
+    "url": "https://code.claude.com/docs/en/plugins/mods/overview",
+    "note": {
+      "en": "First-party programmable prompt, tool, UI, and lifecycle interception surface; mods execute with Claude Code machine access and require review and pinning.",
+      "ja": "prompt、tool、UI、lifecycleをprogrammableにinterceptする一次surface。modはClaude Codeのmachine accessで動くためreviewとpinが必要。"
+    }
+  },
+  "harp-repo": {
+    "title": "Harp multi-agent session supervisor",
+    "url": "https://github.com/dominikmartn/harp",
+    "note": {
+      "en": "Public operator UI for concurrent sessions, agent trees, and needs-you state; no independent outcome study is attached to the product.",
+      "ja": "並行session、agent tree、needs-you状態の公開operator UI。製品固有の独立成果研究は付属しない。"
+    }
+  },
+  "aos1-repo": {
+    "title": "Agent Orchestration Standard AOS-1 repository",
+    "url": "https://github.com/tomtomsatnav/agent-orchestration-standard",
+    "note": {
+      "en": "Public local monitor, replay, alerts, and experimental orchestration contract; standardization and conformance claims lack independent implementations.",
+      "ja": "local monitor、replay、alert、実験的orchestration contractの公開実装。標準化とconformance主張には独立実装がない。"
+    }
+  },
+  "agency-repo": {
+    "title": "Agency agent debugger and profiler",
+    "url": "https://github.com/agency-project/agency",
+    "note": {
+      "en": "Public debugger and profiler connecting model requests, tool calls, processes, waits, critical paths, resource use, and run comparison.",
+      "ja": "model request、tool call、process、wait、critical path、resource use、run比較を結ぶ公開debugger・profiler。"
+    }
+  },
+  "parallelpilot-paper": {
+    "title": "ParallelPilot human supervision study",
+    "url": "https://arxiv.org/html/2609.33113",
+    "note": {
+      "en": "Independent controlled HCI study reporting higher short-task throughput and one additional supervised agent, but no significant improvement in perceived control or redirection.",
+      "ja": "短時間task throughput向上と監督agent 1件追加を報告する独立HCI対照研究。ただし知覚controlやredirectには有意改善なし。"
+    }
+  },
+  "deltadb-introduction": {
+    "title": "Zed introduces DeltaDB",
+    "url": "https://zed.dev/blog/introducing-deltadb",
+    "note": {
+      "en": "First-party continuously addressable between-commit edits and conversation-linked work state; portability and cross-runtime replay remain project claims.",
+      "ja": "commit間editと会話連結work stateを継続的にaddress可能にする一次資料。移植性とruntime横断replayはproject主張のまま。"
+    }
+  },
+  "claude-mem-releases": {
+    "title": "Claude Mem release history",
+    "url": "https://github.com/thedotmack/claude-mem/releases",
+    "note": {
+      "en": "Project release evidence for cross-session observation capture, summaries, retrieval, and progressive recall; independent outcome and poisoned-state evidence is absent.",
+      "ja": "session横断observation capture、summary、retrieval、progressive recallのproject release証拠。独立成果とpoisoned-state証拠はない。"
+    }
+  },
+  "soma-protocol-repo": {
+    "title": "Soma protocol repository",
+    "url": "https://github.com/mrpkk/soma-protocol",
+    "note": {
+      "en": "Early protocol for mandates, budgets, signatures, degradation, receipts, and tiered memory with a conformance suite; adoption and interoperability are unproven.",
+      "ja": "mandate、budget、signature、degradation、receipt、階層memoryとconformance suiteの初期protocol。採用と相互運用性は未証明。"
+    }
+  },
+  "bellman-trust": {
+    "title": "Bellman trust and collaboration rooms",
+    "url": "https://bellman.sh/trust",
+    "note": {
+      "en": "First-party collaboration-state and trust model with role-governed rooms and stored event records; independent portability evidence is absent.",
+      "ja": "role統治roomと保存event recordによるcollaboration state・trust modelの一次資料。独立した移植性証拠はない。"
+    }
+  },
+  "deepinfer-deployment-qa": {
+    "title": "DeepInfer inference deployment Q&A",
+    "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+    "note": {
+      "en": "First-party readiness boundary listing missing service components such as KV-cache infrastructure, disaggregation, and cross-replica load balancing.",
+      "ja": "KV-cache基盤、disaggregation、replica間load balancingなど未実装service componentを示す一次readiness境界。"
+    }
+  },
+  "eagle4-repo": {
+    "title": "EAGLE-4 repository",
+    "url": "https://github.com/eagle-hq/EAGLE-4",
+    "note": {
+      "en": "First-party speculative-decoding implementation and reported performance; gains require workload-matched reproduction and correctness checks.",
+      "ja": "speculative decoding実装と性能報告の一次資料。gainにはworkload一致の再現とcorrectness checkが必要。"
+    }
+  },
+  "eagle4-compatibility": {
+    "title": "EAGLE-4 compatibility documentation",
+    "url": "https://github.com/eagle-hq/EAGLE-4/blob/main/docs/compatibility.md",
+    "note": {
+      "en": "First-party model and engine compatibility constraints, including patched serving builds and narrow qualification; licensing and deployment fit require review.",
+      "ja": "patched serving buildと限定qualificationを含むmodel・engine互換制約の一次資料。licenseとdeployment fitのreviewが必要。"
+    }
+  },
+  "vllm-repo": {
+    "title": "vLLM repository",
+    "url": "https://github.com/vllm-project/vllm",
+    "note": {
+      "en": "Mature sibling inference and serving implementation used to bound DeepInfer and EAGLE readiness claims.",
+      "ja": "DeepInferとEAGLEのreadiness主張を限定する成熟した同等inference・serving実装。"
+    }
+  },
+  "sglang-repo": {
+    "title": "SGLang repository",
+    "url": "https://github.com/sgl-project/sglang",
+    "note": {
+      "en": "Mature sibling serving implementation with broader model and deployment surfaces than the newly observed artifacts.",
+      "ja": "新規観測artifactより広いmodel・deployment surfaceを持つ成熟した同等serving実装。"
+    }
   }
 }

@@ -50,6 +50,258 @@
   ],
   "mentions": [
     {
+      "id": "d3c108844c72cdf0",
+      "sourceId": "hacker-news-ai",
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "publishedAt": "2026-10-24T05:49:57Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "385ddef72f45e61a",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: Code Counter Machine a modern analysis of AI driven development costs",
+      "url": "https://github.com/insanai/ccm",
+      "publishedAt": "2026-10-24T05:47:12Z",
+      "githubRepositories": [
+        "insanai/ccm"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "312344f20465a8c7",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: Latch – Make any website usable by AI agents in one line (WebMCP)",
+      "url": "https://latch.tools/",
+      "publishedAt": "2026-10-24T05:41:41Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "02e4cef54b933818",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: Pilely – Build and ship web apps within your AI chat",
+      "url": "https://pilely.ai/",
+      "publishedAt": "2026-10-24T05:32:49Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "2c3ea08648a9cfc4",
+      "sourceId": "hacker-news-ai",
+      "title": "Advertisers Pull Meta Ads That Had Unwanted AI Glow-Ups",
+      "url": "https://www.adweek.com/media/advertisers-pull-meta-ads-that-had-unwanted-ai-glow-ups/",
+      "publishedAt": "2026-10-24T05:27:03Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "6b3990dd072fa599",
+      "sourceId": "hacker-news-ai",
+      "title": "'Smart Wall' of AI Cameras Is Watching the Border and More Than a Million People",
+      "url": "https://www.nytimes.com/interactive/2026/10/22/us/politics/ai-surveillance-cameras-border-mexico.html",
+      "publishedAt": "2026-10-24T04:55:56Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "8c048606d4d44784",
+      "sourceId": "hacker-news-ai",
+      "title": "Pangram CEO: People believe AI writing is indistinguishable from ours. It's not",
+      "url": "https://bigthink.com/science-tech/trust-issues/",
+      "publishedAt": "2026-10-24T04:52:28Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "54f306bdfc2952a7",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: Inference Cooperative, user-governed AI",
+      "url": "https://inference.coop/",
+      "publishedAt": "2026-10-24T03:32:54Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "3a366bcc5c7b691a",
+      "sourceId": "hacker-news-ai",
+      "title": "CowAgent – Open-Source Super AI Assistant",
+      "url": "https://cowagent.ai/en/",
+      "publishedAt": "2026-10-24T03:32:47Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "81ac92cb4b235794",
+      "sourceId": "hacker-news-ai",
+      "title": "EU Member States approve \"digital expropriation\" for AI companies",
+      "url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+      "publishedAt": "2026-10-24T03:10:11Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "89c8d59181fb29cb",
+      "sourceId": "hacker-news-ai",
+      "title": "Meta says if its AI makes a mistake, it will legally be the customer's fault",
+      "url": "https://www.cio.com/article/4237395/metas-new-enterprise-contract-says-if-its-ai-makes-a-mistake-it-will-legally-be-the-customers-fault.html",
+      "publishedAt": "2026-10-24T03:00:43Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-22T06:00:59.725Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "db5bbca925710c00",
+      "sourceId": "hacker-news-ai",
+      "title": "DeepSeek Just Shook the AI Industry Again [video]",
+      "url": "https://www.youtube.com/watch?v=YX6QdIYVSgY",
+      "publishedAt": "2026-10-24T01:42:44Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "94908f6a1117b6fa",
+      "sourceId": "hacker-news-ai",
+      "title": "The anti-AI writing police are everywhere. What are they looking for?",
+      "url": "https://www.cnn.com/2026/10/21/tech/ai-detectors-pangram-literary-prizes-cec",
+      "publishedAt": "2026-10-24T01:31:06Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "9e90ee97f81efff5",
+      "sourceId": "hacker-news-ai",
+      "title": "Google's Frontier Imperative, Compute Scarcity Dilemmas and the Future of AI",
+      "url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative",
+      "publishedAt": "2026-10-24T01:25:47Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "3adb271a090c4468",
+      "sourceId": "hacker-news-ai",
+      "title": "I built rooms for AI agents to work together",
+      "url": "https://bellman.sh/r/blog/p001-hello-front-desk",
+      "publishedAt": "2026-10-24T01:11:45Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "88ecbd07aedd0cf5",
+      "sourceId": "hacker-news-ai",
+      "title": "In the world AI, will individual apps become obsolete?",
+      "url": "https://news.ycombinator.com/item?id=50217244",
+      "publishedAt": "2026-10-24T00:38:08Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "e888bbbe9818de8d",
+      "sourceId": "hacker-news-ai",
+      "title": "AI in UX: Work Is Faster, but Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
+      "publishedAt": "2026-10-24T00:32:17Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "b8f472c64f874e43",
+      "sourceId": "hacker-news-ai",
+      "title": "Algernon – A B2B compliance and security oracle for AI agents on Base via x402",
+      "url": "https://github.com/tobiaslofton/algernon-x402-oracle",
+      "publishedAt": "2026-10-24T00:26:14Z",
+      "githubRepositories": [
+        "tobiaslofton/algernon-x402-oracle"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "fc3516a8bb1dbd90",
+      "sourceId": "hacker-news-ai",
+      "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
+      "url": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
+      "publishedAt": "2026-10-23T23:46:43Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "5cccf96fe07261c8",
+      "sourceId": "hacker-news-ai",
+      "title": "Soma – memory and proofs for AI agents, measured not asserted",
+      "url": "https://github.com/mrpkk/soma-protocol",
+      "publishedAt": "2026-10-23T23:31:45Z",
+      "githubRepositories": [
+        "mrpkk/soma-protocol"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "2be56720f61b1e20",
+      "sourceId": "simon-willison",
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "publishedAt": "2026-10-23T21:35:13Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "619ea89728dcdb3c",
+      "sourceId": "simon-willison",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "publishedAt": "2026-10-23T19:40:54Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "3d627b5cfdebf81b",
+      "sourceId": "latent-space",
+      "title": "AI Is Getting Good at Math. Here’s Why.",
+      "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+      "publishedAt": "2026-10-23T15:19:48Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "72480de7ebe4f2c1",
+      "sourceId": "latent-space",
+      "title": "[AINews] Black October",
+      "url": "https://latent.space/p/ainews-black-october/",
+      "publishedAt": "2026-10-23T10:09:29Z",
+      "githubRepositories": [
+        "0xShug0/audio.cpp",
+        "KittenML/KittenTTS",
+        "NelsonEU/arn0-tv",
+        "TheLastOxygen/mafdet",
+        "ggml-org/llama.cpp"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
       "id": "29df60f218a0584b",
       "sourceId": "hacker-news-ai",
       "title": "The Latest Anthropic Claude Models Contain AI Text Watermarks",
@@ -259,7 +511,7 @@
       "publishedAt": "2026-10-22T19:42:26Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-23T06:01:16.449Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "386c522c05e004f5",
@@ -271,7 +523,17 @@
         "datasette/datasette-mcp"
       ],
       "firstSeenAt": "2026-10-23T06:01:16.449Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "06a18015b03a6440",
+      "sourceId": "latent-space",
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://latent.space/p/modal-d/",
+      "publishedAt": "2026-10-22T17:40:57Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "6fc2501eea82ebe7",
@@ -291,7 +553,17 @@
       "publishedAt": "2026-10-22T15:34:13Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-23T06:01:16.449Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "1a9aca961cad9046",
+      "sourceId": "latent-space",
+      "title": "You are the Team  — Anekha Sokhal, Moshi",
+      "url": "https://latent.space/p/moshi/",
+      "publishedAt": "2026-10-22T14:03:40Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "93b426ccdb2ad382",
@@ -302,6 +574,21 @@
       "githubRepositories": [],
       "firstSeenAt": "2026-10-23T06:01:16.449Z",
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
+    },
+    {
+      "id": "5ae5c962b022b34e",
+      "sourceId": "latent-space",
+      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
+      "publishedAt": "2026-10-22T07:42:44Z",
+      "githubRepositories": [
+        "NelsonEU/arn0-tv",
+        "deepseek-ai/DeepInfer",
+        "eagle-hq/EAGLE-4",
+        "syv-ai/HyperQwen"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "64e6fde95bfd9f89",
@@ -479,16 +766,6 @@
       "lastSeenAt": "2026-10-22T06:00:59.725Z"
     },
     {
-      "id": "89c8d59181fb29cb",
-      "sourceId": "hacker-news-ai",
-      "title": "Meta's new terms say if its AI makes a mistake, it will be the customer's fault",
-      "url": "https://www.cio.com/article/4237395/metas-new-enterprise-contract-says-if-its-ai-makes-a-mistake-it-will-legally-be-the-customers-fault.html",
-      "publishedAt": "2026-10-21T22:48:02Z",
-      "githubRepositories": [],
-      "firstSeenAt": "2026-10-22T06:00:59.725Z",
-      "lastSeenAt": "2026-10-22T06:00:59.725Z"
-    },
-    {
       "id": "3e828d94f4f285a2",
       "sourceId": "hacker-news-ai",
       "title": "Dense Sand – Sovereign BYOA AI SoC Platform for AWS",
@@ -516,7 +793,7 @@
       "publishedAt": "2026-10-21T18:41:53Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-22T06:00:59.725Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "f9bda913acc89d1a",
@@ -528,7 +805,7 @@
         "menufactory43/panache"
       ],
       "firstSeenAt": "2026-10-22T06:00:59.725Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "7e980fdd8859966c",
@@ -541,6 +818,18 @@
       ],
       "firstSeenAt": "2026-10-22T06:00:59.725Z",
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
+    },
+    {
+      "id": "ab0e7351cf8cfbcc",
+      "sourceId": "latent-space",
+      "title": "Claude Mods: Flipping the Harness Inside Out",
+      "url": "https://latent.space/p/claude-mods/",
+      "publishedAt": "2026-10-21T13:04:19Z",
+      "githubRepositories": [
+        "DannyMac180/skills"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "6c15e6c06e87e085",
@@ -558,6 +847,23 @@
       ],
       "firstSeenAt": "2026-10-22T06:00:59.725Z",
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
+    },
+    {
+      "id": "d56067f5db58aab8",
+      "sourceId": "latent-space",
+      "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+      "url": "https://latent.space/p/ainews-deepseek-deepinfer-open-source/",
+      "publishedAt": "2026-10-21T06:54:09Z",
+      "githubRepositories": [
+        "Bogzx/bg3-agent-harness",
+        "deepseek-ai/3fs",
+        "deepseek-ai/DeepInfer",
+        "deepseek-ai/deepseek-recipe",
+        "eokahya/claude-audits-quantum-gravity",
+        "jakemanger/whatmodel"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "82ea74add8b0335d",
@@ -578,6 +884,16 @@
       "githubRepositories": [],
       "firstSeenAt": "2026-10-21T06:02:18.568Z",
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
+    },
+    {
+      "id": "bd559c52d5c40567",
+      "sourceId": "latent-space",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "url": "https://latent.space/p/tenex/",
+      "publishedAt": "2026-10-21T05:01:26Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "dcde6525dc0798da",
@@ -694,7 +1010,7 @@
         "pypa/pip"
       ],
       "firstSeenAt": "2026-10-21T06:02:18.568Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "5f735ad74e107752",
@@ -800,7 +1116,7 @@
         "simonw/battledrones"
       ],
       "firstSeenAt": "2026-10-21T06:02:18.568Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "775d6036fd1b1fba",
@@ -811,6 +1127,29 @@
       "githubRepositories": [],
       "firstSeenAt": "2026-10-21T06:02:18.568Z",
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
+    },
+    {
+      "id": "e3c861ea65b37f5a",
+      "sourceId": "latent-space",
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "url": "https://latent.space/p/sfcompute2/",
+      "publishedAt": "2026-10-20T19:31:57Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "121304769b5567a3",
+      "sourceId": "latent-space",
+      "title": "[AINews] not much happened today",
+      "url": "https://latent.space/p/ainews-not-much-happened-today-f09/",
+      "publishedAt": "2026-10-20T05:21:52Z",
+      "githubRepositories": [
+        "eokahya/claude-audits-quantum-gravity",
+        "google-research/harness2"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "b2d9207a6d799c15",
@@ -830,7 +1169,7 @@
       "publishedAt": "2026-10-19T23:58:25Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-20T06:01:01.730Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "a760e0e4e6b14d06",
@@ -1049,7 +1388,7 @@
         "simonw/llm-tools-datasette"
       ],
       "firstSeenAt": "2026-10-19T06:02:53.014Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "233c61ed8ba9112a",
@@ -1061,7 +1400,7 @@
         "simonw/llm-echo"
       ],
       "firstSeenAt": "2026-10-19T06:02:53.014Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "f1de855081cd2e77",
@@ -1071,7 +1410,7 @@
       "publishedAt": "2026-10-17T21:11:12Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-19T06:02:53.014Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "4d77d36e16b6a562",
@@ -1083,7 +1422,7 @@
         "simonw/web-edit"
       ],
       "firstSeenAt": "2026-10-19T06:02:53.014Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "63880a4bd313de17",
@@ -1096,6 +1435,18 @@
       ],
       "firstSeenAt": "2026-10-19T06:02:53.014Z",
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
+    },
+    {
+      "id": "7cfaeb485fd08e3c",
+      "sourceId": "latent-space",
+      "title": "[AINews] High Taste Testers Ep. 1",
+      "url": "https://latent.space/p/ainews-high-taste-testers-ep-1/",
+      "publishedAt": "2026-10-17T07:47:38Z",
+      "githubRepositories": [
+        "pro-vi/cc-stretch"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "9dc2af206e1ad347",
@@ -1365,7 +1716,7 @@
       "publishedAt": "2026-10-16T22:06:37Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-17T04:00:35.425Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "e3abb774ec69d74f",
@@ -1426,6 +1777,19 @@
       "githubRepositories": [],
       "firstSeenAt": "2026-10-16T06:01:39.339Z",
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
+    },
+    {
+      "id": "fc5c020de508ec92",
+      "sourceId": "latent-space",
+      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+      "url": "https://latent.space/p/ainews-agents-disprove-polysemanticity/",
+      "publishedAt": "2026-10-16T04:16:45Z",
+      "githubRepositories": [
+        "OpenBMB/MiniCPM-V",
+        "jakemanger/whatmodel"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "ef320d8eb8790c7e",
@@ -1569,7 +1933,7 @@
         "simonw/research"
       ],
       "firstSeenAt": "2026-10-22T06:00:59.725Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "e0c933859c5e9a37",
@@ -1651,7 +2015,7 @@
       "publishedAt": "2026-10-15T19:47:52Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-16T04:00:35.330Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "e8019a306fd4d40c",
@@ -1661,7 +2025,22 @@
       "publishedAt": "2026-10-15T13:04:03Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-16T04:00:35.330Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "335ae73c56f7f24d",
+      "sourceId": "latent-space",
+      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+      "url": "https://latent.space/p/ainews-modals-1b-arr-16b-series-d/",
+      "publishedAt": "2026-10-15T10:08:08Z",
+      "githubRepositories": [
+        "abhi245y/PS5LM",
+        "cobanov/PS5LM",
+        "ggml-org/llama.cpp",
+        "jakemanger/whatmodel"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "45b8b4d6a005c35c",
@@ -1849,7 +2228,7 @@
         "simonw/tools"
       ],
       "firstSeenAt": "2026-10-17T04:00:35.425Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "69a214ef8bef7ceb",
@@ -2002,6 +2381,16 @@
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
     },
     {
+      "id": "3a6e8d26d3fbc8c1",
+      "sourceId": "latent-space",
+      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+      "url": "https://latent.space/p/crossing-the-threshold/",
+      "publishedAt": "2026-10-14T21:40:52Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
       "id": "dc5a5d9378491713",
       "sourceId": "simon-willison",
       "title": "Tree Appreciator",
@@ -2009,7 +2398,20 @@
       "publishedAt": "2026-10-14T21:23:01Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-15T04:00:40.057Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "39dc643d3977da76",
+      "sourceId": "latent-space",
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "url": "https://latent.space/p/lab-in-the-loop-at-compute-speed/",
+      "publishedAt": "2026-10-14T20:35:09Z",
+      "githubRepositories": [
+        "Leash-Labs/minos-paper",
+        "jwohlwend/boltz"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "c29fb39bea991af6",
@@ -2032,7 +2434,23 @@
       "publishedAt": "2026-10-14T16:26:53Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-15T04:00:40.057Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "2c420967bc3f9ecf",
+      "sourceId": "latent-space",
+      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+      "url": "https://latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon/",
+      "publishedAt": "2026-10-14T05:40:28Z",
+      "githubRepositories": [
+        "THUMAI-Lab/LLaVA-UHD-v4",
+        "abhi245y/PS5LM",
+        "cobanov/PS5LM",
+        "ggml-org/llama.cpp",
+        "tc-mb/llama.cpp-omni"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "eb67a35ddb1b1133",
@@ -2234,7 +2652,7 @@
       "publishedAt": "2026-10-13T23:00:06Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-14T04:00:45.676Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "771ed022c3db5cec",
@@ -2266,7 +2684,17 @@
         "simonw/llm-gemini"
       ],
       "firstSeenAt": "2026-10-14T04:00:45.676Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "01c9a9843a82aa30",
+      "sourceId": "latent-space",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "url": "https://latent.space/p/dyna/",
+      "publishedAt": "2026-10-13T22:25:55Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "7cf66f694d233503",
@@ -2286,7 +2714,7 @@
       "publishedAt": "2026-10-13T13:32:00Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-14T04:00:45.676Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "8e120f13caee9cd6",
@@ -2299,6 +2727,18 @@
       ],
       "firstSeenAt": "2026-10-14T04:00:45.676Z",
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
+    },
+    {
+      "id": "d11ea05aedb5b1da",
+      "sourceId": "latent-space",
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "url": "https://latent.space/p/ainews-meta-muse-wonder-and-wonder/",
+      "publishedAt": "2026-10-13T09:37:04Z",
+      "githubRepositories": [
+        "ggml-org/llama.cpp"
+      ],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "efbcb97aa0262e0b",
@@ -2496,7 +2936,7 @@
         "simonw/web-edit"
       ],
       "firstSeenAt": "2026-10-14T04:00:45.676Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "894f5af4b0b1a5b0",
@@ -2528,7 +2968,17 @@
         "simonw/llm-meta-ai"
       ],
       "firstSeenAt": "2026-10-14T04:00:45.676Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
+    },
+    {
+      "id": "1d804ee306a9d169",
+      "sourceId": "latent-space",
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)",
+      "url": "https://latent.space/p/claude-dynamic-workflows/",
+      "publishedAt": "2026-10-12T18:18:17Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "c20e542d75f84137",
@@ -2555,7 +3005,7 @@
         "simonw/python-lib"
       ],
       "firstSeenAt": "2026-10-12T18:52:49.131Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "d96a8b9f8042e6f6",
@@ -2757,7 +3207,7 @@
         "simonw/research"
       ],
       "firstSeenAt": "2026-10-14T04:00:45.676Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "cdae7d858eb661d0",
@@ -2769,7 +3219,7 @@
         "simonw/web-edit"
       ],
       "firstSeenAt": "2026-10-13T06:01:34.409Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "9e7035ea9b7ae985",
@@ -2781,7 +3231,7 @@
         "datasette/datasette-ports"
       ],
       "firstSeenAt": "2026-10-12T18:52:49.131Z",
-      "lastSeenAt": "2026-10-23T06:01:16.449Z"
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "3c41a054f4ebdce5",
@@ -2804,6 +3254,16 @@
       ],
       "firstSeenAt": "2026-10-12T18:52:49.131Z",
       "lastSeenAt": "2026-10-23T06:01:16.449Z"
+    },
+    {
+      "id": "4343350efb11115f",
+      "sourceId": "latent-space",
+      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+      "url": "https://latent.space/p/nyc2026/",
+      "publishedAt": "2026-10-10T22:07:17Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-24T06:01:00.862Z",
+      "lastSeenAt": "2026-10-24T06:01:00.862Z"
     },
     {
       "id": "acbf4a4cd6de1fd7",
@@ -3315,8 +3775,8 @@
       "fullName": "deepseek-ai/DeepInfer",
       "url": "https://github.com/deepseek-ai/DeepInfer",
       "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-      "stars": 20219,
-      "forks": 2174,
+      "stars": 21310,
+      "forks": 2382,
       "createdAt": "2026-10-16T07:47:23Z",
       "pushedAt": "2026-10-21T04:55:44Z",
       "topics": [],
@@ -3330,13 +3790,18 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 20219,
           "forks": 2174
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 21310,
+          "forks": 2382
         }
       ],
       "metrics": {
-        "ageDays": 6.93,
-        "starsPerDay": 2917.6,
-        "starsDelta": 1643,
-        "forksDelta": 249,
+        "ageDays": 7.93,
+        "starsPerDay": 2687.26,
+        "starsDelta": 1091,
+        "forksDelta": 208,
         "elapsedHours": 24,
         "sourceMentions": 1,
         "active": true
@@ -3355,10 +3820,10 @@
       "fullName": "eagle-hq/EAGLE-4",
       "url": "https://github.com/eagle-hq/EAGLE-4",
       "description": "Official Inference Code of EAGLE-4",
-      "stars": 888,
-      "forks": 28,
+      "stars": 959,
+      "forks": 31,
       "createdAt": "2026-10-20T14:03:04Z",
-      "pushedAt": "2026-10-23T02:00:02Z",
+      "pushedAt": "2026-10-24T05:30:48Z",
       "topics": [
         "eagle",
         "gpu",
@@ -3373,14 +3838,19 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 888,
           "forks": 28
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 959,
+          "forks": 31
         }
       ],
       "metrics": {
-        "ageDays": 2.67,
-        "starsPerDay": 332.58,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
+        "ageDays": 3.67,
+        "starsPerDay": 261.31,
+        "starsDelta": 71,
+        "forksDelta": 3,
+        "elapsedHours": 24,
         "sourceMentions": 1,
         "active": true
       },
@@ -3397,10 +3867,10 @@
       "fullName": "Gathin23/cleanyourtv",
       "url": "https://github.com/Gathin23/cleanyourtv",
       "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "stars": 25101,
-      "forks": 2762,
+      "stars": 28610,
+      "forks": 3258,
       "createdAt": "2026-10-17T08:12:35Z",
-      "pushedAt": "2026-10-23T03:44:39Z",
+      "pushedAt": "2026-10-24T01:30:19Z",
       "topics": [
         "adb",
         "adblock",
@@ -3435,13 +3905,18 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 25101,
           "forks": 2762
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 28610,
+          "forks": 3258
         }
       ],
       "metrics": {
-        "ageDays": 5.91,
-        "starsPerDay": 4247.21,
-        "starsDelta": 4628,
-        "forksDelta": 532,
+        "ageDays": 6.91,
+        "starsPerDay": 4140.38,
+        "starsDelta": 3509,
+        "forksDelta": 496,
         "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
@@ -3455,13 +3930,105 @@
       }
     },
     {
+      "fullName": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "stars": 3978,
+      "forks": 303,
+      "createdAt": "2026-10-20T09:13:06Z",
+      "pushedAt": "2026-10-24T05:49:06Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-22T06:00:59.725Z",
+          "stars": 2455,
+          "forks": 178
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 3978,
+          "forks": 303
+        }
+      ],
+      "metrics": {
+        "ageDays": 3.87,
+        "starsPerDay": 1027.91,
+        "starsDelta": 1523,
+        "forksDelta": 125,
+        "elapsedHours": 48,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "xiaoyang111222/cn-math-taxonomy",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
+      "stars": 2908,
+      "forks": 663,
+      "createdAt": "2026-10-18T09:04:43Z",
+      "pushedAt": "2026-10-24T04:53:41Z",
+      "topics": [
+        "chinese",
+        "curriculum",
+        "diagnostic",
+        "edtech",
+        "education",
+        "elementary-school",
+        "english",
+        "high-school",
+        "junior-high-school",
+        "k12",
+        "knowledge-graph",
+        "math",
+        "mathematics",
+        "middle-school",
+        "open-data",
+        "primary-school"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 2358,
+          "forks": 536
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 2908,
+          "forks": 663
+        }
+      ],
+      "metrics": {
+        "ageDays": 5.87,
+        "starsPerDay": 495.4,
+        "starsDelta": 550,
+        "forksDelta": 127,
+        "elapsedHours": 24,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "simbasjungles/free-my-tv",
       "url": "https://github.com/simbasjungles/free-my-tv",
-      "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
-      "stars": 3564,
-      "forks": 511,
+      "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+      "stars": 4014,
+      "forks": 624,
       "createdAt": "2026-10-19T19:29:01Z",
-      "pushedAt": "2026-10-23T01:00:12Z",
+      "pushedAt": "2026-10-24T01:20:17Z",
       "topics": [
         "android-tv",
         "claude-code",
@@ -3470,7 +4037,10 @@
         "launcher",
         "no-ads",
         "open-source",
-        "tmdb"
+        "samsung-tizen",
+        "tizen",
+        "tmdb",
+        "webos"
       ],
       "observations": [
         {
@@ -3482,13 +4052,18 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 3564,
           "forks": 511
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 4014,
+          "forks": 624
         }
       ],
       "metrics": {
-        "ageDays": 3.44,
-        "starsPerDay": 1036.05,
-        "starsDelta": 717,
-        "forksDelta": 153,
+        "ageDays": 4.44,
+        "starsPerDay": 904.05,
+        "starsDelta": 450,
+        "forksDelta": 113,
         "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
@@ -3504,10 +4079,10 @@
       "fullName": "ly05010419/MacNativeGames",
       "url": "https://github.com/ly05010419/MacNativeGames",
       "description": null,
-      "stars": 4608,
-      "forks": 651,
+      "stars": 5005,
+      "forks": 715,
       "createdAt": "2026-10-17T19:52:00Z",
-      "pushedAt": "2026-10-22T21:18:15Z",
+      "pushedAt": "2026-10-23T23:51:29Z",
       "topics": [],
       "observations": [
         {
@@ -3519,13 +4094,18 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 4608,
           "forks": 651
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 5005,
+          "forks": 715
         }
       ],
       "metrics": {
-        "ageDays": 5.42,
-        "starsPerDay": 850.18,
-        "starsDelta": 543,
-        "forksDelta": 75,
+        "ageDays": 6.42,
+        "starsPerDay": 779.6,
+        "starsDelta": 397,
+        "forksDelta": 64,
         "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
@@ -3541,8 +4121,8 @@
       "fullName": "Leonxlnx/earshot",
       "url": "https://github.com/Leonxlnx/earshot",
       "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-      "stars": 2251,
-      "forks": 138,
+      "stars": 2502,
+      "forks": 155,
       "createdAt": "2026-10-15T06:52:46Z",
       "pushedAt": "2026-10-22T23:12:59Z",
       "topics": [
@@ -3572,19 +4152,25 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 2251,
           "forks": 138
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 2502,
+          "forks": 155
         }
       ],
       "metrics": {
-        "ageDays": 7.96,
-        "starsPerDay": 282.79,
-        "starsDelta": 189,
-        "forksDelta": 21,
+        "ageDays": 8.96,
+        "starsPerDay": 279.24,
+        "starsDelta": 251,
+        "forksDelta": 17,
         "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
       },
       "discoveredBy": {
         "queries": [
+          "broad-ai",
           "broad-ai-agents",
           "broad-llm"
         ],
@@ -3592,110 +4178,47 @@
       }
     },
     {
-      "fullName": "storytold/figcraft",
-      "url": "https://github.com/storytold/figcraft",
-      "description": "FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust",
-      "stars": 3168,
-      "forks": 1258,
-      "createdAt": "2026-10-09T16:02:13Z",
-      "pushedAt": "2026-10-23T00:40:59Z",
+      "fullName": "mmparko/dsh-purge",
+      "url": "https://github.com/mmparko/dsh-purge",
+      "description": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。",
+      "stars": 2050,
+      "forks": 2699,
+      "createdAt": "2026-10-13T05:14:47Z",
+      "pushedAt": "2026-10-13T05:50:46Z",
       "topics": [
-        "design",
-        "rust",
-        "tools"
+        "archive",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "dsh-plugins",
+        "harness-jailbreak",
+        "jailbreak",
+        "llm-jailbreak",
+        "mirror"
       ],
       "observations": [
         {
-          "at": "2026-10-22T06:00:59.725Z",
-          "stars": 3076,
-          "forks": 1223
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 1799,
+          "forks": 2506
         },
         {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 3168,
-          "forks": 1258
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 2050,
+          "forks": 2699
         }
       ],
       "metrics": {
-        "ageDays": 13.58,
-        "starsPerDay": 233.28,
-        "starsDelta": 92,
-        "forksDelta": 35,
+        "ageDays": 11.03,
+        "starsPerDay": 185.86,
+        "starsDelta": 251,
+        "forksDelta": 193,
         "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
       },
       "discoveredBy": {
         "queries": [
-          "broad-ai",
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "storytold/craft-launcher",
-      "url": "https://github.com/storytold/craft-launcher",
-      "description": "The Craft App Launcher",
-      "stars": 3871,
-      "forks": 1245,
-      "createdAt": "2026-10-09T23:21:59Z",
-      "pushedAt": "2026-10-23T03:09:35Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-16T04:00:35.330Z",
-          "stars": 2893,
-          "forks": 969
-        },
-        {
-          "at": "2026-10-16T06:01:39.339Z",
-          "stars": 2907,
-          "forks": 971
-        },
-        {
-          "at": "2026-10-17T04:00:35.425Z",
-          "stars": 3040,
-          "forks": 1016
-        },
-        {
-          "at": "2026-10-17T06:14:25.166Z",
-          "stars": 3051,
-          "forks": 1020
-        },
-        {
-          "at": "2026-10-19T06:02:53.014Z",
-          "stars": 3379,
-          "forks": 1118
-        },
-        {
-          "at": "2026-10-20T06:01:01.730Z",
-          "stars": 3526,
-          "forks": 1156
-        },
-        {
-          "at": "2026-10-22T06:00:59.725Z",
-          "stars": 3781,
-          "forks": 1220
-        },
-        {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 3871,
-          "forks": 1245
-        }
-      ],
-      "metrics": {
-        "ageDays": 13.28,
-        "starsPerDay": 291.49,
-        "starsDelta": 90,
-        "forksDelta": 25,
-        "elapsedHours": 24,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai",
           "broad-ai-agents"
         ],
         "sources": []
@@ -3705,8 +4228,8 @@
       "fullName": "onehumanbeing/esp32-iphone-agent",
       "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
       "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-      "stars": 3580,
-      "forks": 472,
+      "stars": 3669,
+      "forks": 482,
       "createdAt": "2026-10-11T19:10:25Z",
       "pushedAt": "2026-10-22T05:26:44Z",
       "topics": [
@@ -3760,298 +4283,18 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 3580,
           "forks": 472
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 3669,
+          "forks": 482
         }
       ],
       "metrics": {
-        "ageDays": 11.45,
-        "starsPerDay": 312.66,
-        "starsDelta": 72,
-        "forksDelta": 9,
-        "elapsedHours": 24,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai",
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "Tencent-Hunyuan/Hy-Memory",
-      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
-      "description": null,
-      "stars": 1200,
-      "forks": 99,
-      "createdAt": "2026-10-15T13:06:56Z",
-      "pushedAt": "2026-10-23T03:30:44Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-19T06:02:53.014Z",
-          "stars": 854,
-          "forks": 71
-        },
-        {
-          "at": "2026-10-20T06:01:01.730Z",
-          "stars": 996,
-          "forks": 84
-        },
-        {
-          "at": "2026-10-22T06:00:59.725Z",
-          "stars": 1134,
-          "forks": 95
-        },
-        {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 1200,
-          "forks": 99
-        }
-      ],
-      "metrics": {
-        "ageDays": 7.7,
-        "starsPerDay": 155.84,
-        "starsDelta": 66,
-        "forksDelta": 4,
-        "elapsedHours": 24,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "MaryCache/imozuru",
-      "url": "https://github.com/MaryCache/imozuru",
-      "description": "知らない分野を、原文にたどりつくまで芋づる式に掘る Claude Code のスキル",
-      "stars": 1118,
-      "forks": 50,
-      "createdAt": "2026-10-13T05:56:21Z",
-      "pushedAt": "2026-10-21T03:43:20Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-22T06:00:59.725Z",
-          "stars": 1055,
-          "forks": 43
-        },
-        {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 1118,
-          "forks": 50
-        }
-      ],
-      "metrics": {
-        "ageDays": 10,
-        "starsPerDay": 111.8,
-        "starsDelta": 63,
-        "forksDelta": 7,
-        "elapsedHours": 24,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "SubmitGame/awesome-decomp-games",
-      "url": "https://github.com/SubmitGame/awesome-decomp-games",
-      "description": "Rated, auto-refreshed list of decompiled, recompiled & reverse-engineered games: decomps, static recomps, source ports, engine remakes, browser ports.",
-      "stars": 2283,
-      "forks": 119,
-      "createdAt": "2026-10-09T15:15:18Z",
-      "pushedAt": "2026-10-22T08:53:05Z",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "decompilation",
-        "game-preservation",
-        "recompilation",
-        "reverse-engineering",
-        "source-port"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-22T06:00:59.725Z",
-          "stars": 2224,
-          "forks": 119
-        },
-        {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 2283,
-          "forks": 119
-        }
-      ],
-      "metrics": {
-        "ageDays": 13.62,
-        "starsPerDay": 167.62,
-        "starsDelta": 59,
-        "forksDelta": 0,
-        "elapsedHours": 24,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai",
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "feder-cr/git-ai",
-      "url": "https://github.com/feder-cr/git-ai",
-      "description": "Git designed for AI agents.",
-      "stars": 968,
-      "forks": 93,
-      "createdAt": "2026-10-15T13:12:02Z",
-      "pushedAt": "2026-10-23T06:00:05Z",
-      "topics": [
-        "ai-agents",
-        "coding-agents",
-        "git",
-        "golang",
-        "scion",
-        "version-control"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-17T04:00:35.425Z",
-          "stars": 1067,
-          "forks": 114
-        },
-        {
-          "at": "2026-10-17T06:14:25.166Z",
-          "stars": 1076,
-          "forks": 115
-        },
-        {
-          "at": "2026-10-19T06:02:53.014Z",
-          "stars": 2320,
-          "forks": 260
-        },
-        {
-          "at": "2026-10-20T06:01:01.730Z",
-          "stars": 2474,
-          "forks": 273
-        },
-        {
-          "at": "2026-10-22T06:00:59.725Z",
-          "stars": 923,
-          "forks": 85
-        },
-        {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 968,
-          "forks": 93
-        }
-      ],
-      "metrics": {
-        "ageDays": 7.7,
-        "starsPerDay": 125.71,
-        "starsDelta": 45,
-        "forksDelta": 8,
-        "elapsedHours": 24,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "opengeos/RustGIS",
-      "url": "https://github.com/opengeos/RustGIS",
-      "description": "A fast, free and open-source GIS in pure Rust.",
-      "stars": 1860,
-      "forks": 265,
-      "createdAt": "2026-10-10T18:45:41Z",
-      "pushedAt": "2026-10-23T04:17:07Z",
-      "topics": [
-        "geospatial",
-        "gis",
-        "remote-sensing",
-        "rust",
-        "rust-lang"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-22T06:00:59.725Z",
-          "stars": 1819,
-          "forks": 260
-        },
-        {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 1860,
-          "forks": 265
-        }
-      ],
-      "metrics": {
-        "ageDays": 12.47,
-        "starsPerDay": 149.16,
-        "starsDelta": 41,
-        "forksDelta": 5,
-        "elapsedHours": 24,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "liseami/CCBaga",
-      "url": "https://github.com/liseami/CCBaga",
-      "description": null,
-      "stars": 2885,
-      "forks": 302,
-      "createdAt": "2026-10-11T03:47:06Z",
-      "pushedAt": "2026-10-21T03:20:59Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-17T04:00:35.425Z",
-          "stars": 2411,
-          "forks": 242
-        },
-        {
-          "at": "2026-10-17T06:14:25.166Z",
-          "stars": 2429,
-          "forks": 244
-        },
-        {
-          "at": "2026-10-22T06:00:59.725Z",
-          "stars": 2853,
-          "forks": 300
-        },
-        {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 2885,
-          "forks": 302
-        }
-      ],
-      "metrics": {
-        "ageDays": 12.09,
-        "starsPerDay": 238.63,
-        "starsDelta": 32,
-        "forksDelta": 2,
+        "ageDays": 12.45,
+        "starsPerDay": 294.7,
+        "starsDelta": 89,
+        "forksDelta": 10,
         "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
@@ -4068,7 +4311,7 @@
       "fullName": "deeplethe/solid-glass",
       "url": "https://github.com/deeplethe/solid-glass",
       "description": "A design system for AI applications. Material, physical, tactile, technical.",
-      "stars": 2123,
+      "stars": 2191,
       "forks": 35,
       "createdAt": "2026-10-12T09:19:02Z",
       "pushedAt": "2026-10-22T18:35:56Z",
@@ -4095,13 +4338,18 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 2123,
           "forks": 35
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 2191,
+          "forks": 35
         }
       ],
       "metrics": {
-        "ageDays": 10.86,
-        "starsPerDay": 195.49,
-        "starsDelta": 21,
-        "forksDelta": 3,
+        "ageDays": 11.86,
+        "starsPerDay": 184.74,
+        "starsDelta": 68,
+        "forksDelta": 0,
         "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
@@ -4114,13 +4362,155 @@
       }
     },
     {
+      "fullName": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+      "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+      "description": "AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
+      "stars": 610,
+      "forks": 658,
+      "createdAt": "2026-10-13T10:13:21Z",
+      "pushedAt": "2026-10-18T06:48:08Z",
+      "topics": [
+        "ai-agents",
+        "cross-border-ecommerce",
+        "ecommerce",
+        "llm",
+        "mercado-livre",
+        "prompt-engineering",
+        "shopee",
+        "sop",
+        "workflow-automation"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 548,
+          "forks": 605
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 610,
+          "forks": 658
+        }
+      ],
+      "metrics": {
+        "ageDays": 10.82,
+        "starsPerDay": 56.38,
+        "starsDelta": 62,
+        "forksDelta": 53,
+        "elapsedHours": 24,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "liseami/CCBaga",
+      "url": "https://github.com/liseami/CCBaga",
+      "description": null,
+      "stars": 2936,
+      "forks": 307,
+      "createdAt": "2026-10-11T03:47:06Z",
+      "pushedAt": "2026-10-21T03:20:59Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-17T04:00:35.425Z",
+          "stars": 2411,
+          "forks": 242
+        },
+        {
+          "at": "2026-10-17T06:14:25.166Z",
+          "stars": 2429,
+          "forks": 244
+        },
+        {
+          "at": "2026-10-22T06:00:59.725Z",
+          "stars": 2853,
+          "forks": 300
+        },
+        {
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 2885,
+          "forks": 302
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 2936,
+          "forks": 307
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.09,
+        "starsPerDay": 224.29,
+        "starsDelta": 51,
+        "forksDelta": 5,
+        "elapsedHours": 24,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "MaryCache/imozuru",
+      "url": "https://github.com/MaryCache/imozuru",
+      "description": "知らない分野を、原文にたどりつくまで芋づる式に掘る Claude Code のスキル",
+      "stars": 1165,
+      "forks": 53,
+      "createdAt": "2026-10-13T05:56:21Z",
+      "pushedAt": "2026-10-21T03:43:20Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-22T06:00:59.725Z",
+          "stars": 1055,
+          "forks": 43
+        },
+        {
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 1118,
+          "forks": 50
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 1165,
+          "forks": 53
+        }
+      ],
+      "metrics": {
+        "ageDays": 11,
+        "starsPerDay": 105.91,
+        "starsDelta": 47,
+        "forksDelta": 3,
+        "elapsedHours": 24,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "marclou/mailcheap",
       "url": "https://github.com/marclou/mailcheap",
       "description": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai.",
-      "stars": 1307,
-      "forks": 335,
+      "stars": 1352,
+      "forks": 345,
       "createdAt": "2026-10-10T12:55:36Z",
-      "pushedAt": "2026-10-23T05:42:48Z",
+      "pushedAt": "2026-10-23T10:47:07Z",
       "topics": [
         "ai-agents",
         "amazon-ses",
@@ -4181,13 +4571,18 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 1307,
           "forks": 335
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 1352,
+          "forks": 345
         }
       ],
       "metrics": {
-        "ageDays": 12.71,
-        "starsPerDay": 102.83,
-        "starsDelta": 11,
-        "forksDelta": 5,
+        "ageDays": 13.71,
+        "starsPerDay": 98.61,
+        "starsDelta": 45,
+        "forksDelta": 10,
         "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
@@ -4200,128 +4595,47 @@
       }
     },
     {
-      "fullName": "xiaoyang111222/cn-math-taxonomy",
-      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
-      "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
-      "stars": 2358,
-      "forks": 536,
-      "createdAt": "2026-10-18T09:04:43Z",
-      "pushedAt": "2026-10-23T03:33:30Z",
-      "topics": [
-        "chinese",
-        "curriculum",
-        "diagnostic",
-        "edtech",
-        "education",
-        "elementary-school",
-        "english",
-        "high-school",
-        "junior-high-school",
-        "k12",
-        "knowledge-graph",
-        "math",
-        "mathematics",
-        "middle-school",
-        "open-data",
-        "primary-school"
-      ],
+      "fullName": "Tencent-Hunyuan/Hy-Memory",
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+      "description": null,
+      "stars": 1241,
+      "forks": 102,
+      "createdAt": "2026-10-15T13:06:56Z",
+      "pushedAt": "2026-10-24T04:45:56Z",
+      "topics": [],
       "observations": [
         {
+          "at": "2026-10-19T06:02:53.014Z",
+          "stars": 854,
+          "forks": 71
+        },
+        {
+          "at": "2026-10-20T06:01:01.730Z",
+          "stars": 996,
+          "forks": 84
+        },
+        {
+          "at": "2026-10-22T06:00:59.725Z",
+          "stars": 1134,
+          "forks": 95
+        },
+        {
           "at": "2026-10-23T06:01:16.449Z",
-          "stars": 2358,
-          "forks": 536
+          "stars": 1200,
+          "forks": 99
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 1241,
+          "forks": 102
         }
       ],
       "metrics": {
-        "ageDays": 4.87,
-        "starsPerDay": 484.19,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "mmparko/dsh-purge",
-      "url": "https://github.com/mmparko/dsh-purge",
-      "description": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。",
-      "stars": 1799,
-      "forks": 2506,
-      "createdAt": "2026-10-13T05:14:47Z",
-      "pushedAt": "2026-10-13T05:50:46Z",
-      "topics": [
-        "archive",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "dsh-plugins",
-        "harness-jailbreak",
-        "jailbreak",
-        "llm-jailbreak",
-        "mirror"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 1799,
-          "forks": 2506
-        }
-      ],
-      "metrics": {
-        "ageDays": 10.03,
-        "starsPerDay": 179.36,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-      "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-      "description": "AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
-      "stars": 548,
-      "forks": 605,
-      "createdAt": "2026-10-13T10:13:21Z",
-      "pushedAt": "2026-10-18T06:48:08Z",
-      "topics": [
-        "ai-agents",
-        "cross-border-ecommerce",
-        "ecommerce",
-        "llm",
-        "mercado-livre",
-        "prompt-engineering",
-        "shopee",
-        "sop",
-        "workflow-automation"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-23T06:01:16.449Z",
-          "stars": 548,
-          "forks": 605
-        }
-      ],
-      "metrics": {
-        "ageDays": 9.82,
-        "starsPerDay": 55.8,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
+        "ageDays": 8.7,
+        "starsPerDay": 142.64,
+        "starsDelta": 41,
+        "forksDelta": 3,
+        "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
       },
@@ -4333,13 +4647,61 @@
       }
     },
     {
+      "fullName": "opengeos/RustGIS",
+      "url": "https://github.com/opengeos/RustGIS",
+      "description": "A fast, free and open-source GIS in pure Rust.",
+      "stars": 1895,
+      "forks": 269,
+      "createdAt": "2026-10-10T18:45:41Z",
+      "pushedAt": "2026-10-24T05:23:44Z",
+      "topics": [
+        "geospatial",
+        "gis",
+        "remote-sensing",
+        "rust",
+        "rust-lang"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-22T06:00:59.725Z",
+          "stars": 1819,
+          "forks": 260
+        },
+        {
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 1860,
+          "forks": 265
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 1895,
+          "forks": 269
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.47,
+        "starsPerDay": 140.68,
+        "starsDelta": 35,
+        "forksDelta": 4,
+        "elapsedHours": 24,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "alexgaoth/awesome-reverse-engineered",
       "url": "https://github.com/alexgaoth/awesome-reverse-engineered",
       "description": "Don't reverse engineer it twice. 16,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file formats, games and AI tools. Search site + agent skill + MCP server, refreshed nightly.",
-      "stars": 611,
-      "forks": 118,
+      "stars": 643,
+      "forks": 123,
       "createdAt": "2026-10-11T17:30:10Z",
-      "pushedAt": "2026-10-23T05:52:52Z",
+      "pushedAt": "2026-10-23T11:57:43Z",
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -4365,14 +4727,88 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 611,
           "forks": 118
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 643,
+          "forks": 123
         }
       ],
       "metrics": {
-        "ageDays": 11.52,
-        "starsPerDay": 53.04,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
+        "ageDays": 12.52,
+        "starsPerDay": 51.36,
+        "starsDelta": 32,
+        "forksDelta": 5,
+        "elapsedHours": 24,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "feder-cr/git-ai",
+      "url": "https://github.com/feder-cr/git-ai",
+      "description": "Git designed for AI agents.",
+      "stars": 980,
+      "forks": 96,
+      "createdAt": "2026-10-15T13:12:02Z",
+      "pushedAt": "2026-10-23T11:12:35Z",
+      "topics": [
+        "ai-agents",
+        "coding-agents",
+        "git",
+        "golang",
+        "scion",
+        "version-control"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-17T04:00:35.425Z",
+          "stars": 1067,
+          "forks": 114
+        },
+        {
+          "at": "2026-10-17T06:14:25.166Z",
+          "stars": 1076,
+          "forks": 115
+        },
+        {
+          "at": "2026-10-19T06:02:53.014Z",
+          "stars": 2320,
+          "forks": 260
+        },
+        {
+          "at": "2026-10-20T06:01:01.730Z",
+          "stars": 2474,
+          "forks": 273
+        },
+        {
+          "at": "2026-10-22T06:00:59.725Z",
+          "stars": 923,
+          "forks": 85
+        },
+        {
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 968,
+          "forks": 93
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 980,
+          "forks": 96
+        }
+      ],
+      "metrics": {
+        "ageDays": 8.7,
+        "starsPerDay": 112.64,
+        "starsDelta": 12,
+        "forksDelta": 3,
+        "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
       },
@@ -4387,7 +4823,7 @@
       "fullName": "jwuthri-cloud/Tracely-ai",
       "url": "https://github.com/jwuthri-cloud/Tracely-ai",
       "description": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs that regress. Self-hostable.",
-      "stars": 1154,
+      "stars": 1163,
       "forks": 140,
       "createdAt": "2026-10-11T15:38:03Z",
       "pushedAt": "2026-10-19T18:08:39Z",
@@ -4458,13 +4894,18 @@
           "at": "2026-10-23T06:01:16.449Z",
           "stars": 1154,
           "forks": 140
+        },
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 1163,
+          "forks": 140
         }
       ],
       "metrics": {
-        "ageDays": 11.6,
-        "starsPerDay": 99.48,
-        "starsDelta": -12,
-        "forksDelta": -7,
+        "ageDays": 12.6,
+        "starsPerDay": 92.3,
+        "starsDelta": 9,
+        "forksDelta": 0,
         "elapsedHours": 24,
         "sourceMentions": 0,
         "active": true
@@ -4472,6 +4913,75 @@
       "discoveredBy": {
         "queries": [
           "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "JoasASantos/REA-Prompts",
+      "url": "https://github.com/JoasASantos/REA-Prompts",
+      "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
+      "stars": 1790,
+      "forks": 284,
+      "createdAt": "2026-10-19T22:20:47Z",
+      "pushedAt": "2026-10-21T00:32:22Z",
+      "topics": [
+        "prompt-engineering",
+        "rea",
+        "reverse-enginnering"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 1790,
+          "forks": 284
+        }
+      ],
+      "metrics": {
+        "ageDays": 4.32,
+        "starsPerDay": 414.35,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "seedds/nxnative",
+      "url": "https://github.com/seedds/nxnative",
+      "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
+      "stars": 2666,
+      "forks": 494,
+      "createdAt": "2026-10-13T05:20:14Z",
+      "pushedAt": "2026-10-24T05:21:52Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-24T06:01:00.862Z",
+          "stars": 2666,
+          "forks": 494
+        }
+      ],
+      "metrics": {
+        "ageDays": 11.03,
+        "starsPerDay": 241.7,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": true
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
         ],
         "sources": []
       }
@@ -4503,7 +5013,7 @@
         "starsDelta": 4948,
         "forksDelta": 479,
         "elapsedHours": 23.97,
-        "sourceMentions": 0,
+        "sourceMentions": 1,
         "active": false
       },
       "discoveredBy": {
@@ -4511,7 +5021,9 @@
           "broad-ai",
           "broad-ai-agents"
         ],
-        "sources": []
+        "sources": [
+          "latent-space"
+        ]
       }
     },
     {
@@ -5324,6 +5836,48 @@
       }
     },
     {
+      "fullName": "storytold/figcraft",
+      "url": "https://github.com/storytold/figcraft",
+      "description": "FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust",
+      "stars": 3168,
+      "forks": 1258,
+      "createdAt": "2026-10-09T16:02:13Z",
+      "pushedAt": "2026-10-23T00:40:59Z",
+      "topics": [
+        "design",
+        "rust",
+        "tools"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-22T06:00:59.725Z",
+          "stars": 3076,
+          "forks": 1223
+        },
+        {
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 3168,
+          "forks": 1258
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.58,
+        "starsPerDay": 233.28,
+        "starsDelta": 92,
+        "forksDelta": 35,
+        "elapsedHours": 24,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "storytold/deckcraft",
       "url": "https://github.com/storytold/deckcraft",
       "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
@@ -5375,6 +5929,74 @@
         "starsDelta": 91,
         "forksDelta": 40,
         "elapsedHours": 23.97,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "storytold/craft-launcher",
+      "url": "https://github.com/storytold/craft-launcher",
+      "description": "The Craft App Launcher",
+      "stars": 3871,
+      "forks": 1245,
+      "createdAt": "2026-10-09T23:21:59Z",
+      "pushedAt": "2026-10-23T03:09:35Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-16T04:00:35.330Z",
+          "stars": 2893,
+          "forks": 969
+        },
+        {
+          "at": "2026-10-16T06:01:39.339Z",
+          "stars": 2907,
+          "forks": 971
+        },
+        {
+          "at": "2026-10-17T04:00:35.425Z",
+          "stars": 3040,
+          "forks": 1016
+        },
+        {
+          "at": "2026-10-17T06:14:25.166Z",
+          "stars": 3051,
+          "forks": 1020
+        },
+        {
+          "at": "2026-10-19T06:02:53.014Z",
+          "stars": 3379,
+          "forks": 1118
+        },
+        {
+          "at": "2026-10-20T06:01:01.730Z",
+          "stars": 3526,
+          "forks": 1156
+        },
+        {
+          "at": "2026-10-22T06:00:59.725Z",
+          "stars": 3781,
+          "forks": 1220
+        },
+        {
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 3871,
+          "forks": 1245
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.28,
+        "starsPerDay": 291.49,
+        "starsDelta": 90,
+        "forksDelta": 25,
+        "elapsedHours": 24,
         "sourceMentions": 0,
         "active": false
       },
@@ -5585,6 +6207,52 @@
       "discoveredBy": {
         "queries": [
           "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "SubmitGame/awesome-decomp-games",
+      "url": "https://github.com/SubmitGame/awesome-decomp-games",
+      "description": "Rated, auto-refreshed list of decompiled, recompiled & reverse-engineered games: decomps, static recomps, source ports, engine remakes, browser ports.",
+      "stars": 2283,
+      "forks": 119,
+      "createdAt": "2026-10-09T15:15:18Z",
+      "pushedAt": "2026-10-22T08:53:05Z",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "decompilation",
+        "game-preservation",
+        "recompilation",
+        "reverse-engineering",
+        "source-port"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-22T06:00:59.725Z",
+          "stars": 2224,
+          "forks": 119
+        },
+        {
+          "at": "2026-10-23T06:01:16.449Z",
+          "stars": 2283,
+          "forks": 119
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.62,
+        "starsPerDay": 167.62,
+        "starsDelta": 59,
+        "forksDelta": 0,
+        "elapsedHours": 24,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
         ],
         "sources": []
       }
@@ -6671,39 +7339,6 @@
       }
     },
     {
-      "fullName": "pengchujin/aerial-tv",
-      "url": "https://github.com/pengchujin/aerial-tv",
-      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "stars": 2455,
-      "forks": 178,
-      "createdAt": "2026-10-20T09:13:06Z",
-      "pushedAt": "2026-10-22T03:06:02Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-22T06:00:59.725Z",
-          "stars": 2455,
-          "forks": 178
-        }
-      ],
-      "metrics": {
-        "ageDays": 1.87,
-        "starsPerDay": 1312.83,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": false
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai",
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
       "fullName": "feder-cr/open_scion",
       "url": "https://github.com/feder-cr/open_scion",
       "description": "Open-source version of Scion: version control built for coding agents.",
@@ -6863,9 +7498,9 @@
   ],
   "lastRun": {
     "status": "success",
-    "attemptedAt": "2026-10-23T06:01:16.449Z",
-    "completedAt": "2026-10-23T06:01:16.449Z",
-    "windowStart": "2026-10-09T00:00:00Z",
+    "attemptedAt": "2026-10-24T06:01:00.862Z",
+    "completedAt": "2026-10-24T06:01:00.862Z",
+    "windowStart": "2026-10-10T00:00:00Z",
     "sourceCount": 3,
     "successfulSources": 3,
     "githubQueryCount": 3,
@@ -6874,7 +7509,7 @@
     "rateLimit": {
       "limit": 10,
       "remaining": 7,
-      "resetAt": "2026-10-23T06:02:17Z"
+      "resetAt": "2026-10-24T06:02:07Z"
     }
   }
 }
