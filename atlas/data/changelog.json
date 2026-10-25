@@ -118,5 +118,11 @@
     "label": "radar-daily-2026-10-24",
     "en": "Daily Radar: Agent Compute Engine, NVIDIA Sentry, Solitary, DeltaDB, and EAGLE-4 enter bounded WATCH/PILOT records; policy-enforced execution expands across lifecycle and host-independent enforcement; human supervision infrastructure becomes a four-implementation PILOT category and portable inspectable state becomes a four-implementation WATCH category. DeepInfer remains conditional WATCH with unchanged scores; both sensors succeeded and nothing moved to Core Atlas.",
     "ja": "日次レーダー：Agent Compute Engine、NVIDIA Sentry、Solitary、DeltaDB、EAGLE-4を限定WATCH/PILOT記録へ追加。ポリシー強制実行はlifecycleとhost非依存enforcementへ拡張。人間監督基盤を4実装PILOT category、portable inspectable stateを4実装WATCH category化。DeepInferはscore不変の条件付きWATCHを維持し、両sensorは成功、Core Atlas昇格なし。"
+  },
+  {
+    "date": "2026-10-25",
+    "label": "radar-daily-2026-10-25",
+    "en": "Daily Radar health update: the broad attention scrape succeeded, but fixed-query GitHub discovery failed on rate limit after two of seven queries and cleared its current signal set. No substantive findings, score changes, status changes, or Core Atlas promotions were published because the fresh intake was not covered by the injected targeted accounting.",
+    "ja": "日次レーダー健全性更新：広範なattention取得は成功したが、固定queryのGitHub発見は7件中2件後にrate limitで失敗し、現在のsignal集合を空にした。fresh intakeが注入済みtargeted accountingの対象外だったため、実質的finding、score変更、status変更、Core Atlas昇格は公開しない。"
   }
 ]
