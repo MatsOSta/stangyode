@@ -130,5 +130,11 @@
     "label": "radar-daily-2026-10-26",
     "en": "Daily Radar health update: broad attention discovery was partial because the Hacker News AI feed failed on a network error, while all three broad GitHub queries and all seven fixed queries succeeded. No substantive findings, score changes, status changes, or Core Atlas promotions were published because the post-briefing fresh mention was not covered by the injected targeted accounting.",
     "ja": "日次レーダー健全性更新：Hacker News AI feedがnetwork errorで失敗したため広範なattention発見はpartialだが、3件の広範GitHub queryと7件の固定queryはすべて成功。briefing後のfresh mentionが注入済みtargeted accountingの対象外だったため、実質的finding、score変更、status変更、Core Atlas昇格は公開しない。"
+  },
+  {
+    "date": "2026-10-27",
+    "label": "radar-daily-2026-10-27",
+    "en": "Daily Radar health update: broad attention discovery completed all three feeds and all three broad GitHub queries, but fixed-query GitHub discovery failed on rate limit after one of seven queries and cleared its current signal set. No substantive findings, score changes, status changes, or Core Atlas promotions were published because 23 post-briefing fresh mentions were not covered by the injected targeted accounting.",
+    "ja": "日次レーダー健全性更新：広範なattention発見は3件のfeedと3件の広範GitHub queryをすべて完了したが、固定queryのGitHub発見は7件中1件後にrate limitで失敗し、現在のsignal集合を空にした。briefing後の新規mention 23件が注入済みtargeted accountingの対象外だったため、実質的finding、score変更、status変更、Core Atlas昇格は公開しない。"
   }
 ]
