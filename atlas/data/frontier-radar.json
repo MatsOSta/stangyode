@@ -9,36 +9,36 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-27",
+    "snapshot": "2026-10-28",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-27T07:03:51.000Z",
+    "asOf": "2026-10-28T07:05:00.000Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-10-27T07:03:51.000Z",
+        "lastAttemptAt": "2026-10-28T07:05:00.000Z",
         "lastSuccessfulRunAt": "2026-10-24T06:09:15.084Z",
-        "failureStreak": 3,
+        "failureStreak": 4,
         "lastFailure": {
-          "at": "2026-10-27T07:02:00.027Z",
+          "at": "2026-10-28T07:02:29.286Z",
           "class": "rate_limit",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-10-27T07:03:51.000Z",
+        "lastAttemptAt": "2026-10-28T07:05:00.000Z",
         "lastSuccessfulRunAt": "2026-10-24T06:09:15.084Z",
-        "failureStreak": 3,
+        "failureStreak": 4,
         "lastFailure": {
-          "at": "2026-10-27T07:02:00.027Z",
+          "at": "2026-10-28T07:02:29.286Z",
           "class": "rate_limit",
           "resolved": false
         }
@@ -384,6 +384,31 @@
         "sourceId": "sglang-repo",
         "checkedAt": "2026-10-24",
         "outcome": "relevant"
+      },
+      {
+        "sourceId": "snowflake-snowpr",
+        "checkedAt": "2026-10-28",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "cognition-frontiercode-2",
+        "checkedAt": "2026-10-28",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "ibm-scarfbench-kaggle",
+        "checkedAt": "2026-10-28",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "frontiercode-independent-audit",
+        "checkedAt": "2026-10-28",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "artificial-analysis-frontiercode-2",
+        "checkedAt": "2026-10-28",
+        "outcome": "relevant"
       }
     ],
     "queryGroups": [
@@ -697,6 +722,33 @@
           "DeltaDB Claude Mem Soma Bellman portable state replay provenance",
           "DeepInfer EAGLE-4 vLLM SGLang TensorRT-LLM benchmark deployment criticism"
         ]
+      },
+      {
+        "id": "enterprise-shaped-coding-evaluation-2026-10-28",
+        "label": {
+          "en": "Enterprise-shaped coding evaluation and sibling challenge",
+          "ja": "enterprise-shaped coding評価とsibling検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "enterprise-shaped-outcome-grounded-coding-evaluation"
+        ],
+        "sourceIds": [
+          "snowflake-snowpr",
+          "cognition-frontiercode-2",
+          "ibm-scarfbench-kaggle",
+          "frontiercode-independent-audit",
+          "artificial-analysis-frontiercode-2"
+        ],
+        "resultSummary": {
+          "en": "SnowPR, FrontierCode 2.0, and ScarfBench establish a durable private-workload and behavioral-postcondition practice, while private curation, harness confounding, workload narrowness, and non-diff merge factors bound portability.",
+          "ja": "SnowPR、FrontierCode 2.0、ScarfBenchはprivate workloadと挙動postconditionの持続的practiceを裏付けるが、private curate、harness交絡、workloadの狭さ、非diff merge要因が移植性を制限。"
+        },
+        "queries": [
+          "SnowPR FrontierCode 2.0 ScarfBench methodology results limitations",
+          "enterprise private repository coding agent benchmark merged changes hidden tests alternatives",
+          "FrontierCode 2.0 independent audit sibling implementation benchmark validity"
+        ]
       }
     ],
     "trackedEntityIds": [
@@ -755,7 +807,8 @@
       "eagle-4",
       "deltadb",
       "human-supervision-infrastructure",
-      "portable-inspectable-agent-state"
+      "portable-inspectable-agent-state",
+      "enterprise-shaped-outcome-grounded-coding-evaluation"
     ],
     "changelogEntriesChecked": [
       "v0",
@@ -780,7 +833,8 @@
       "radar-daily-2026-10-24",
       "radar-daily-2026-10-25",
       "radar-daily-2026-10-26",
-      "radar-daily-2026-10-27"
+      "radar-daily-2026-10-27",
+      "radar-daily-2026-10-28"
     ],
     "sensors": [
       {
@@ -795,8 +849,8 @@
         "id": "github-public",
         "state": "failed",
         "reason": {
-          "en": "The fixed-query GitHub fetch completed one of seven queries, then hit the API rate limit. Its current signal set is empty; prior repository results are not presented as current.",
-          "ja": "固定queryのGitHub取得は7件中1件完了後にAPI rate limitへ到達。現在のsignal集合は空で、過去のrepository結果を現在値として提示しない。"
+          "en": "The fixed-query GitHub fetch hit the API rate limit before completing any of seven queries. Its current signal set is empty; prior repository results are not presented as current.",
+          "ja": "固定queryのGitHub取得は7件を1件も完了する前にAPI rate limitへ到達。現在のsignal集合は空で、過去のrepository結果を現在値として提示しない。"
         }
       },
       {
@@ -1154,6 +1208,40 @@
         "summary": {
           "en": "Add DeltaDB and portable inspectable state at WATCH; keep DeepInfer at conditional WATCH with unchanged scores; add EAGLE-4 as a bounded same-engine PILOT. Defer Soma standardization and Core Atlas promotion.",
           "ja": "DeltaDBとportable inspectable stateをWATCHへ追加。DeepInferはscore不変の条件付きWATCHを維持し、EAGLE-4を同一engine限定PILOTへ追加。Soma標準化とCore Atlas昇格は保留。"
+        }
+      },
+      {
+        "kind": "material-finding",
+        "targetIds": [
+          "enterprise-shaped-outcome-grounded-coding-evaluation"
+        ],
+        "sourceIds": [
+          "snowflake-snowpr",
+          "cognition-frontiercode-2",
+          "ibm-scarfbench-kaggle",
+          "frontiercode-independent-audit",
+          "artificial-analysis-frontiercode-2"
+        ],
+        "summary": {
+          "en": "Independent programs converge on private or enterprise-shaped coding tasks and behavior-level postconditions. The practice is stronger than importing public leaderboard ranks, but private curation, model–harness confounding, narrow workloads, and omitted non-diff merge factors prevent universal ranking claims.",
+          "ja": "独立programはprivateまたはenterprise-shaped coding taskと挙動level postconditionへ収束。public leaderboard順位の輸入より強いpracticeだが、private curate、model–harness交絡、狭いworkload、非diff merge要因の欠落により普遍的ranking主張はできない。"
+        }
+      },
+      {
+        "kind": "editorial-decision",
+        "targetIds": [
+          "enterprise-shaped-outcome-grounded-coding-evaluation"
+        ],
+        "sourceIds": [
+          "snowflake-snowpr",
+          "cognition-frontiercode-2",
+          "ibm-scarfbench-kaggle",
+          "frontiercode-independent-audit",
+          "artificial-analysis-frontiercode-2"
+        ],
+        "summary": {
+          "en": "Create a bounded PILOT category for enterprise-shaped, outcome-grounded coding evaluation. Start with five private merged changes and deterministic business-state assertions; do not add named products, import vendor rankings, change existing scores or statuses, or promote Core Atlas.",
+          "ja": "enterprise-shaped・成果基準coding評価を限定PILOT category化。private merged change 5件と決定的business-state assertionから始め、名前付き製品追加、vendor ranking輸入、既存score・status変更、Core Atlas昇格は行わない。"
         }
       }
     ]
@@ -1521,6 +1609,12 @@
       "signalId": "portable-inspectable-agent-state",
       "stage": "watch",
       "score": 35,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "enterprise-shaped-outcome-grounded-coding-evaluation",
+      "stage": "pilot",
+      "score": 44,
       "compatibility": "unknown"
     }
   ],
@@ -6564,6 +6658,104 @@
             "adoption": 35,
             "fit": 94,
             "confidence": 82
+          }
+        }
+      ]
+    },
+    {
+      "id": "enterprise-shaped-outcome-grounded-coding-evaluation",
+      "name": {
+        "en": "Enterprise-shaped, outcome-grounded coding evaluation",
+        "ja": "enterprise-shaped・成果基準のコーディング評価"
+      },
+      "kind": "concept",
+      "atlasTermIds": [],
+      "scores": {
+        "frontier": 92,
+        "adoption": 44,
+        "fit": 97,
+        "confidence": 85
+      },
+      "recommendation": {
+        "en": "PILOT five private merged-change tasks with deterministic hidden business-state assertions; compare model–harness pairs on accepted-task success, escaped defects, runtime behavior, cost, latency, and reviewer disagreement.",
+        "ja": "決定的なhidden business-state assertionを持つprivate merged-change task 5件をPILOTし、model–harness pairをaccepted-task成功、流出defect、runtime挙動、cost、latency、reviewer不一致で比較する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "SnowPR, FrontierCode 2.0, and ScarfBench independently shift evaluation toward real change scope, merge constraints, deployment, and behavior rather than public benchmark familiarity or compilation alone.",
+          "ja": "SnowPR、FrontierCode 2.0、ScarfBenchは独立に、public benchmarkへの慣れやcompileだけでなく、実変更scope、merge制約、deployment、挙動へ評価を移す。"
+        },
+        {
+          "en": "SnowPR and FrontierCode are private and producer-curated, ScarfBench covers a narrower migration workload, and an independent FrontierCode audit shows that diff grading still omits non-code merge factors; rankings are not portable procurement evidence.",
+          "ja": "SnowPRとFrontierCodeはprivateかつproducer curateで、ScarfBenchはより狭いmigration workloadを扱う。独立FrontierCode監査はdiff採点が非codeのmerge要因をなお欠くと示し、rankingは移植可能な調達証拠ではない。"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "SnowPR",
+          "vendor": "Snowflake",
+          "organizationId": "snowflake",
+          "access": "private 65-task merged-change benchmark with shipped hidden Bazel tests",
+          "sourceIds": [
+            "snowflake-snowpr"
+          ]
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "vendor": "Cognition",
+          "organizationId": "cognition",
+          "access": "private 132-task benchmark with maintainer-authored merge blockers and rubrics",
+          "sourceIds": [
+            "cognition-frontiercode-2",
+            "artificial-analysis-frontiercode-2"
+          ]
+        },
+        {
+          "name": "ScarfBench",
+          "vendor": "IBM Research and Kaggle",
+          "organizationId": "ibm-research-kaggle",
+          "access": "open 204-task Java migration benchmark with build, startup, and behavioral validation",
+          "sourceIds": [
+            "ibm-scarfbench-kaggle"
+          ]
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "The practice fits evidence-first delivery, but no private Stangyode workload replay or cross-harness comparison has been run.",
+          "ja": "このpracticeは証拠優先deliveryに合うが、Stangyodeのprivate workload replayやharness横断比較は未実施。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "snowflake-snowpr",
+          "cognition-frontiercode-2",
+          "ibm-scarfbench-kaggle",
+          "frontiercode-independent-audit",
+          "artificial-analysis-frontiercode-2"
+        ],
+        "collectedAt": "2026-10-28",
+        "method": {
+          "en": "Compared three independently operated evaluation programs, challenged FrontierCode with a construct-validity audit and an independent sibling implementation, and did not install or reproduce any benchmark.",
+          "ja": "独立運営の3評価programを比較し、FrontierCodeをconstruct-validity監査と独立sibling実装で反証的に検討。benchmarkは導入・再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-10-28",
+          "event": {
+            "en": "Spawned as a PILOT category after three independent programs converged on private or enterprise-shaped work and behavior-level postconditions, with portability and construct-validity limits kept explicit.",
+            "ja": "3つの独立programがprivateまたはenterprise-shapedなworkと挙動level postconditionへ収束し、移植性とconstruct-validityの限界を明示したためPILOT category化。"
+          },
+          "scores": {
+            "frontier": 92,
+            "adoption": 44,
+            "fit": 97,
+            "confidence": 85
           }
         }
       ]

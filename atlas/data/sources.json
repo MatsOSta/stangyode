@@ -1894,5 +1894,45 @@
       "en": "Mature sibling serving implementation with broader model and deployment surfaces than the newly observed artifacts.",
       "ja": "新規観測artifactより広いmodel・deployment surfaceを持つ成熟した同等serving実装。"
     }
+  },
+  "snowflake-snowpr": {
+    "title": "SnowPR: Benchmarking Coding Agents on Snowflake’s 43-Million-Line Monorepo",
+    "url": "https://www.snowflake.com/en/blog/engineering/Benchmarking-coding-agents",
+    "note": {
+      "en": "First-party methodology for 65 merged-change tasks across a private Java/C++ monorepo, graded by the hidden tests that shipped with each change; REM is internal and the task set is too small to resolve narrow gaps reliably.",
+      "ja": "privateなJava/C++ monorepoの65件のmerged changeを、各変更と共に出荷されたhidden testで採点する一次methodology。REMはinternalで、task数は小さな差を安定判別するには不足。"
+    }
+  },
+  "cognition-frontiercode-2": {
+    "title": "FrontierCode 2.0",
+    "url": "https://cognition.com/blog/frontier-code-2.0",
+    "note": {
+      "en": "First-party benchmark update emphasizing inferred intent, larger changes, blocking merge criteria, and broader repository coverage; tasks and grading remain privately curated by Cognition.",
+      "ja": "意図推論、大規模変更、merge blocker、repository範囲拡大を重視する一次benchmark更新。taskと採点はCognitionのprivate curateのまま。"
+    }
+  },
+  "ibm-scarfbench-kaggle": {
+    "title": "IBM and Kaggle launch leaderboard for Java framework migration",
+    "url": "https://research.ibm.com/blog/ibm-and-kaggle-launch-leaderboard-for-java-framework-migration",
+    "note": {
+      "en": "First-party account of an open, Kaggle-reproduced 204-task Java migration benchmark that checks build, startup, and behavior and reports runtime failures behind plausible generation or compilation.",
+      "ja": "build、startup、挙動を検査し、もっともらしい生成・compile後のruntime failureを報告する、openでKaggle再現済み204-task Java migration benchmarkの一次説明。"
+    }
+  },
+  "frontiercode-independent-audit": {
+    "title": "frontiercode-audit",
+    "url": "https://github.com/kimjune01/frontiercode-audit",
+    "note": {
+      "en": "Independent construct-validity audit: credits private anti-contamination and maintainer rubrics, but argues that diff-only grading omits social and ecosystem inputs to real merge decisions and that private artifacts constrain falsifiability.",
+      "ja": "独立construct-validity監査。private化によるcontamination耐性とmaintainer rubricを評価する一方、diffのみの採点は実際のmerge判断に必要なsocial・ecosystem情報を欠き、private artifactが反証可能性を制限すると指摘。"
+    }
+  },
+  "artificial-analysis-frontiercode-2": {
+    "title": "FrontierCode 2.0 Benchmark",
+    "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+    "note": {
+      "en": "Independent sibling implementation running all 132 private tasks three times with the Stirrup harness; confirms that published results are model–harness–judge configurations rather than model-only measurements.",
+      "ja": "132件のprivate taskをStirrup harnessで各3回実行する独立sibling実装。公開結果がmodel単体ではなくmodel–harness–judge構成の測定であることを確認。"
+    }
   }
 }
