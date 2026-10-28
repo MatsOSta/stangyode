@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-10-27
+Snapshot / スナップショット: 2026-10-28
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,16 +8,16 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-10-27T07:03:51.000Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-10-28T07:05:00.000Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: PARTIAL; last success 2026-10-24T06:09:15.084Z; failure streak 3; last failure rate_limit at 2026-10-27T07:02:00.027Z (unresolved)
-- editor: PARTIAL; last success 2026-10-24T06:09:15.084Z; failure streak 3; last failure rate_limit at 2026-10-27T07:02:00.027Z (unresolved)
+- scout: PARTIAL; last success 2026-10-24T06:09:15.084Z; failure streak 4; last failure rate_limit at 2026-10-28T07:02:29.286Z (unresolved)
+- editor: PARTIAL; last success 2026-10-24T06:09:15.084Z; failure streak 4; last failure rate_limit at 2026-10-28T07:02:29.286Z (unresolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: FAILED — The fixed-query GitHub fetch completed one of seven queries, then hit the API rate limit. Its current signal set is empty; prior repository results are not presented as current. / 固定queryのGitHub取得は7件中1件完了後にAPI rate limitへ到達。現在のsignal集合は空で、過去のrepository結果を現在値として提示しない。
+- github-public: FAILED — The fixed-query GitHub fetch hit the API rate limit before completing any of seven queries. Its current signal set is empty; prior repository results are not presented as current. / 固定queryのGitHub取得は7件を1件も完了する前にAPI rate limitへ到達。現在のsignal集合は空で、過去のrepository結果を現在値として提示しない。
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
@@ -89,6 +89,11 @@ As of / 基準時刻: 2026-10-27T07:03:51.000Z; cadence / 頻度: daily; data / 
 - [EAGLE-4 compatibility documentation](https://github.com/eagle-hq/EAGLE-4/blob/main/docs/compatibility.md): relevant; checked 2026-10-24; source eagle4-compatibility
 - [vLLM repository](https://github.com/vllm-project/vllm): relevant; checked 2026-10-24; source vllm-repo
 - [SGLang repository](https://github.com/sgl-project/sglang): relevant; checked 2026-10-24; source sglang-repo
+- [SnowPR: Benchmarking Coding Agents on Snowflake’s 43-Million-Line Monorepo](https://www.snowflake.com/en/blog/engineering/Benchmarking-coding-agents): relevant; checked 2026-10-28; source snowflake-snowpr
+- [FrontierCode 2.0](https://cognition.com/blog/frontier-code-2.0): relevant; checked 2026-10-28; source cognition-frontiercode-2
+- [IBM and Kaggle launch leaderboard for Java framework migration](https://research.ibm.com/blog/ibm-and-kaggle-launch-leaderboard-for-java-framework-migration): relevant; checked 2026-10-28; source ibm-scarfbench-kaggle
+- [frontiercode-audit](https://github.com/kimjune01/frontiercode-audit): relevant; checked 2026-10-28; source frontiercode-independent-audit
+- [FrontierCode 2.0 Benchmark](https://artificialanalysis.ai/evaluations/frontiercode-2-0): relevant; checked 2026-10-28; source artificial-analysis-frontiercode-2
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -197,11 +202,22 @@ Evidence: deltadb-introduction, claude-mem-releases, soma-protocol-repo, bellman
 - `DeltaDB Claude Mem Soma Bellman portable state replay provenance`
 - `DeepInfer EAGLE-4 vLLM SGLang TensorRT-LLM benchmark deployment criticism`
 
+### Enterprise-shaped coding evaluation and sibling challenge / enterprise-shaped coding評価とsibling検証
+SnowPR, FrontierCode 2.0, and ScarfBench establish a durable private-workload and behavioral-postcondition practice, while private curation, harness confounding, workload narrowness, and non-diff merge factors bound portability. / SnowPR、FrontierCode 2.0、ScarfBenchはprivate workloadと挙動postconditionの持続的practiceを裏付けるが、private curate、harness交絡、workloadの狭さ、非diff merge要因が移植性を制限。
+
+Targets: enterprise-shaped-outcome-grounded-coding-evaluation
+
+Evidence: snowflake-snowpr, cognition-frontiercode-2, ibm-scarfbench-kaggle, frontiercode-independent-audit, artificial-analysis-frontiercode-2
+
+- `SnowPR FrontierCode 2.0 ScarfBench methodology results limitations`
+- `enterprise private repository coding agent benchmark merged changes hidden tests alternatives`
+- `FrontierCode 2.0 independent audit sibling implementation benchmark validity`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -224,6 +240,8 @@ Evidence: deltadb-introduction, claude-mem-releases, soma-protocol-repo, bellman
 - editorial-decision; human-supervision-infrastructure: Create a four-implementation supervision-infrastructure PILOT category; pilot reviewed alerts and intervention evidence, not a named dashboard or AOS-1 standardization claim. / 4実装の監督基盤PILOT categoryを作成し、名前付きdashboardやAOS-1標準化主張ではなく、review済みalertとintervention evidenceを試す。; evidence: claude-mods-overview, harp-repo, aos1-repo, agency-repo, parallelpilot-paper
 - material-finding; deltadb, portable-inspectable-agent-state, deepinfer, eagle-4: Portable state is separating into work, memory, collaboration, and authority semantics. DeepInfer attention and EAGLE-4 momentum are real, but neither repository growth nor vendor benchmarks establish serving readiness. / portable stateはwork、memory、collaboration、authority意味論に分離。DeepInfer注目とEAGLE-4 momentumは実在するが、repository成長やvendor benchmarkはserving readinessを証明しない。; evidence: deltadb-introduction, claude-mem-releases, soma-protocol-repo, bellman-trust, deepinfer-deployment-qa, eagle4-compatibility
 - editorial-decision; deltadb, portable-inspectable-agent-state, deepinfer, eagle-4: Add DeltaDB and portable inspectable state at WATCH; keep DeepInfer at conditional WATCH with unchanged scores; add EAGLE-4 as a bounded same-engine PILOT. Defer Soma standardization and Core Atlas promotion. / DeltaDBとportable inspectable stateをWATCHへ追加。DeepInferはscore不変の条件付きWATCHを維持し、EAGLE-4を同一engine限定PILOTへ追加。Soma標準化とCore Atlas昇格は保留。; evidence: deltadb-introduction, claude-mem-releases, soma-protocol-repo, bellman-trust, deepinfer-deployment-qa, eagle4-repo, eagle4-compatibility, vllm-repo, sglang-repo
+- material-finding; enterprise-shaped-outcome-grounded-coding-evaluation: Independent programs converge on private or enterprise-shaped coding tasks and behavior-level postconditions. The practice is stronger than importing public leaderboard ranks, but private curation, model–harness confounding, narrow workloads, and omitted non-diff merge factors prevent universal ranking claims. / 独立programはprivateまたはenterprise-shaped coding taskと挙動level postconditionへ収束。public leaderboard順位の輸入より強いpracticeだが、private curate、model–harness交絡、狭いworkload、非diff merge要因の欠落により普遍的ranking主張はできない。; evidence: snowflake-snowpr, cognition-frontiercode-2, ibm-scarfbench-kaggle, frontiercode-independent-audit, artificial-analysis-frontiercode-2
+- editorial-decision; enterprise-shaped-outcome-grounded-coding-evaluation: Create a bounded PILOT category for enterprise-shaped, outcome-grounded coding evaluation. Start with five private merged changes and deterministic business-state assertions; do not add named products, import vendor rankings, change existing scores or statuses, or promote Core Atlas. / enterprise-shaped・成果基準coding評価を限定PILOT category化。private merged change 5件と決定的business-state assertionから始め、名前付き製品追加、vendor ranking輸入、既存score・status変更、Core Atlas昇格は行わない。; evidence: snowflake-snowpr, cognition-frontiercode-2, ibm-scarfbench-kaggle, frontiercode-independent-audit, artificial-analysis-frontiercode-2
 
 ## Signals / シグナル
 
@@ -959,6 +977,18 @@ Evidence: deltadb-introduction, claude-mem-releases, soma-protocol-repo, bellman
 - History / 履歴:
   - 2026-10-24: Spawned at WATCH after four independent systems converged on explicit state while remaining non-equivalent and standards readiness stayed low. / 4独立systemが明示stateへ収束したが非同等で標準readinessが低いためWATCH category化。
 
+### Enterprise-shaped, outcome-grounded coding evaluation / enterprise-shaped・成果基準のコーディング評価
+- Adoption stage / 導入段階: PILOT (44/100)
+- Scores / スコア: frontier 92, fit 97, confidence 85
+- Recommendation / 推奨: PILOT five private merged-change tasks with deterministic hidden business-state assertions; compare model–harness pairs on accepted-task success, escaped defects, runtime behavior, cost, latency, and reviewer disagreement. / 決定的なhidden business-state assertionを持つprivate merged-change task 5件をPILOTし、model–harness pairをaccepted-task成功、流出defect、runtime挙動、cost、latency、reviewer不一致で比較する。
+- Compatibility / 互換性: UNKNOWN — The practice fits evidence-first delivery, but no private Stangyode workload replay or cross-harness comparison has been run. / このpracticeは証拠優先deliveryに合うが、Stangyodeのprivate workload replayやharness横断比較は未実施。
+- Trade-offs / トレードオフ:
+  - SnowPR, FrontierCode 2.0, and ScarfBench independently shift evaluation toward real change scope, merge constraints, deployment, and behavior rather than public benchmark familiarity or compilation alone. / SnowPR、FrontierCode 2.0、ScarfBenchは独立に、public benchmarkへの慣れやcompileだけでなく、実変更scope、merge制約、deployment、挙動へ評価を移す。
+  - SnowPR and FrontierCode are private and producer-curated, ScarfBench covers a narrower migration workload, and an independent FrontierCode audit shows that diff grading still omits non-code merge factors; rankings are not portable procurement evidence. / SnowPRとFrontierCodeはprivateかつproducer curateで、ScarfBenchはより狭いmigration workloadを扱う。独立FrontierCode監査はdiff採点が非codeのmerge要因をなお欠くと示し、rankingは移植可能な調達証拠ではない。
+- Provenance / 来歴: discovery; partially-verified; 2026-10-28
+- History / 履歴:
+  - 2026-10-28: Spawned as a PILOT category after three independent programs converged on private or enterprise-shaped work and behavior-level postconditions, with portability and construct-validity limits kept explicit. / 3つの独立programがprivateまたはenterprise-shapedなworkと挙動level postconditionへ収束し、移植性とconstruct-validityの限界を明示したためPILOT category化。
+
 ## GitHub discovery input / GitHub発見入力
 
 Public observation input only. Living candidates live in discovery-candidates.json. Absence of a repository is not a negative finding. Queries may be phenomenon-based and need not match Core Atlas terms. / 公開観測の入力のみ。生きた候補は discovery-candidates.json にある。リポジトリがないことは否定的発見ではない。クエリは現象ベースでよく、コア・アトラス用語と一致する必要はない。
@@ -966,9 +996,9 @@ Public observation input only. Living candidates live in discovery-candidates.js
 Provider / プロバイダー: github; mode / モード: public-api; live fetch / ライブ取得: yes
 
 - typed-decision-models: typed probabilistic decision model System One (not-collected)
-- agent-skills: topic:agent-skills (failed)
+- agent-skills: topic:agent-skills (not-collected)
 - mcp-apps: topic:mcp-apps (not-collected)
-- a2a: topic:agent-to-agent (collected)
+- a2a: topic:agent-to-agent (failed)
 - agentic-resource-discovery-ard: topic:agentic-resource-discovery (not-collected)
 - ponytail: ponytail (not-collected)
 - caveman: caveman (not-collected)

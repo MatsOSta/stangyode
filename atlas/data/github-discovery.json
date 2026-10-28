@@ -19,7 +19,7 @@
       "id": "agent-skills-query",
       "targetId": "agent-skills",
       "query": "topic:agent-skills",
-      "state": "failed"
+      "state": "not-collected"
     },
     {
       "id": "mcp-apps-query",
@@ -31,7 +31,7 @@
       "id": "a2a-query",
       "targetId": "a2a",
       "query": "topic:agent-to-agent",
-      "state": "collected"
+      "state": "failed"
     },
     {
       "id": "ard-query",
@@ -55,13 +55,13 @@
   "signals": [],
   "lastRun": {
     "status": "failed",
-    "attemptedAt": "2026-10-27T07:02:00.027Z",
+    "attemptedAt": "2026-10-28T07:02:29.286Z",
     "completedAt": null,
     "queryCount": 7,
-    "successfulQueries": 1,
+    "successfulQueries": 0,
     "failedQueries": [
       {
-        "id": "agent-skills-query",
+        "id": "a2a-query",
         "class": "rate_limit",
         "httpStatus": 403
       }
@@ -69,7 +69,7 @@
     "rateLimit": {
       "limit": 10,
       "remaining": 0,
-      "resetAt": "2026-10-27T07:02:27Z"
+      "resetAt": "2026-10-28T07:03:10Z"
     }
   }
 }

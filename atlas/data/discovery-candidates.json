@@ -1,6 +1,6 @@
 {
   "schema": "stangyode.discovery-candidates/v1",
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-28",
   "mode": "manual-run",
   "liveFetch": false,
   "policy": {
@@ -3102,6 +3102,85 @@
           "access": "hosted collaboration rooms with roles and authoritative event records",
           "sourceIds": [
             "bellman-trust"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enterprise-shaped-outcome-grounded-coding-evaluation",
+      "names": [
+        "enterprise-shaped outcome-grounded coding evaluation",
+        "private workload replay"
+      ],
+      "status": "assessed",
+      "kindGuess": "category",
+      "whyInteresting": {
+        "en": "Independent organizations converge on evaluating coding systems against private or enterprise-shaped changes and behavior-level postconditions instead of generic public patch scores.",
+        "ja": "独立組織が、汎用public patch scoreではなく、privateまたはenterprise-shapedな変更と挙動level postconditionでcoding systemを評価する方向へ収束。"
+      },
+      "firstObserved": "2026-10-28",
+      "lastObserved": "2026-10-28",
+      "lifecycle": "enter-radar",
+      "evidenceState": "partially-verified",
+      "radarSignalId": "enterprise-shaped-outcome-grounded-coding-evaluation",
+      "atlasTermIds": [],
+      "judgment": {
+        "substance": 94,
+        "hype": 86,
+        "fieldImportance": 96,
+        "relevance": 98,
+        "evidenceDiversity": 88,
+        "momentum": 92
+      },
+      "observations": [
+        {
+          "sensor": "primary-docs",
+          "url": "https://www.snowflake.com/en/blog/engineering/Benchmarking-coding-agents",
+          "date": "2026-10-28"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "date": "2026-10-28"
+        },
+        {
+          "sensor": "primary-docs",
+          "url": "https://research.ibm.com/blog/ibm-and-kaggle-launch-leaderboard-for-java-framework-migration",
+          "date": "2026-10-28"
+        },
+        {
+          "sensor": "independent-press",
+          "url": "https://github.com/kimjune01/frontiercode-audit",
+          "date": "2026-10-28"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "SnowPR",
+          "vendor": "Snowflake",
+          "organizationId": "snowflake",
+          "access": "private 65-task merged-change benchmark with shipped hidden Bazel tests",
+          "sourceIds": [
+            "snowflake-snowpr"
+          ]
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "vendor": "Cognition",
+          "organizationId": "cognition",
+          "access": "private 132-task benchmark with maintainer-authored merge blockers and rubrics",
+          "sourceIds": [
+            "cognition-frontiercode-2",
+            "artificial-analysis-frontiercode-2"
+          ]
+        },
+        {
+          "name": "ScarfBench",
+          "vendor": "IBM Research and Kaggle",
+          "organizationId": "ibm-research-kaggle",
+          "access": "open 204-task Java migration benchmark with build, startup, and behavioral validation",
+          "sourceIds": [
+            "ibm-scarfbench-kaggle"
           ]
         }
       ]
