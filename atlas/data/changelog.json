@@ -142,5 +142,11 @@
     "label": "radar-daily-2026-10-28",
     "en": "Daily Radar editorial update: broad attention discovery succeeded across all three feeds and three GitHub queries; fixed-query GitHub discovery failed on rate limit before completing any of seven queries and cleared current signals. Added one three-implementation PILOT category for enterprise-shaped, outcome-grounded coding evaluation; no named entity, existing score/status, or Core Atlas promotion changed.",
     "ja": "日次レーダー編集更新：広範なattention発見は3件のfeedと3件のGitHub queryをすべて成功。固定queryのGitHub発見は7件を1件も完了する前にrate limitで失敗し、現在のsignalを空にした。3実装のenterprise-shaped・成果基準coding評価PILOT categoryを1件追加し、名前付きentity、既存score/status、Core Atlas昇格は変更しない。"
+  },
+  {
+    "date": "2026-10-29",
+    "label": "radar-daily-2026-10-29",
+    "en": "Daily Radar health update: broad attention discovery succeeded across all three feeds and three GitHub queries, and all seven fixed-query GitHub checks succeeded. No substantive findings, score changes, status changes, or Core Atlas promotions were published because six post-briefing mentions lacked targeted accounting and REA-Prompts appeared in two Stage 2 dispositions.",
+    "ja": "日次レーダー健全性更新：広範なattention発見は3件のfeedと3件のGitHub queryをすべて成功し、固定GitHub query 7件もすべて成功した。briefing後のmention 6件にtargeted accountingがなく、REA-PromptsがStage 2の2つのdispositionへ重複したため、実質的finding、score変更、status変更、Core Atlas昇格は公開しない。"
   }
 ]
