@@ -148,5 +148,11 @@
     "label": "radar-daily-2026-10-29",
     "en": "Daily Radar health update: broad attention discovery succeeded across all three feeds and three GitHub queries, and all seven fixed-query GitHub checks succeeded. No substantive findings, score changes, status changes, or Core Atlas promotions were published because six post-briefing mentions lacked targeted accounting and REA-Prompts appeared in two Stage 2 dispositions.",
     "ja": "日次レーダー健全性更新：広範なattention発見は3件のfeedと3件のGitHub queryをすべて成功し、固定GitHub query 7件もすべて成功した。briefing後のmention 6件にtargeted accountingがなく、REA-PromptsがStage 2の2つのdispositionへ重複したため、実質的finding、score変更、status変更、Core Atlas昇格は公開しない。"
+  },
+  {
+    "date": "2026-10-30",
+    "label": "radar-daily-2026-10-30",
+    "en": "Daily Radar health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, while fixed-query GitHub discovery failed on rate limit after one of seven queries and cleared current signals. No substantive findings, score changes, status changes, or Core Atlas promotions were published because four post-briefing mentions lacked targeted accounting.",
+    "ja": "日次レーダー健全性更新：広範なattention発見は3件のfeedと3件の広範GitHub queryをすべて成功したが、固定queryのGitHub発見は7件中1件後にrate limitで失敗し、現在のsignalを空にした。briefing後のmention 4件にtargeted accountingがないため、実質的finding、score変更、status変更、Core Atlas昇格は公開しない。"
   }
 ]
