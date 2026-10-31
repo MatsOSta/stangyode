@@ -9,36 +9,36 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-10-30",
+    "snapshot": "2026-10-31",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-10-30T07:04:33.000Z",
+    "asOf": "2026-10-31T07:01:58.730Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-10-30T07:04:33.000Z",
+        "lastAttemptAt": "2026-10-31T07:01:58.730Z",
         "lastSuccessfulRunAt": "2026-10-24T06:09:15.084Z",
-        "failureStreak": 6,
+        "failureStreak": 7,
         "lastFailure": {
-          "at": "2026-10-30T07:04:33.000Z",
+          "at": "2026-10-31T07:01:58.730Z",
           "class": "validation",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-10-30T07:04:33.000Z",
+        "lastAttemptAt": "2026-10-31T07:01:58.730Z",
         "lastSuccessfulRunAt": "2026-10-24T06:09:15.084Z",
-        "failureStreak": 6,
+        "failureStreak": 7,
         "lastFailure": {
-          "at": "2026-10-30T07:04:33.000Z",
+          "at": "2026-10-31T07:01:58.730Z",
           "class": "validation",
           "resolved": false
         }
@@ -836,7 +836,8 @@
       "radar-daily-2026-10-27",
       "radar-daily-2026-10-28",
       "radar-daily-2026-10-29",
-      "radar-daily-2026-10-30"
+      "radar-daily-2026-10-30",
+      "radar-daily-2026-10-31"
     ],
     "sensors": [
       {
@@ -849,11 +850,7 @@
       },
       {
         "id": "github-public",
-        "state": "failed",
-        "reason": {
-          "en": "The fixed-query GitHub fetch hit the API rate limit after completing one of seven queries. Its current signal set is empty; prior repository results are not presented as current.",
-          "ja": "固定queryのGitHub取得は7件中1件完了後にAPI rate limitへ到達。現在のsignal集合は空で、過去のrepository結果を現在値として提示しない。"
-        }
+        "state": "checked"
       },
       {
         "id": "preprint",
