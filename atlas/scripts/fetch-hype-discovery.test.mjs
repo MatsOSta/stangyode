@@ -122,6 +122,49 @@ test('scrapes observer feeds, discovers unfamiliar repositories, and measures mo
   assert.match(requests.find(({ path }) => path === '/search/repositories').query, /created:>=2026-09-28/);
 });
 
+test('keeps calendar-window mention sources aligned with the recorded window start', async (t) => {
+  const dir = await mkdtemp(join(tmpdir(), 'hype-discovery-window-boundary-'));
+  const input = join(dir, 'input.json');
+  const output = join(dir, 'output.json');
+  const server = createServer((request, response) => {
+    const url = new URL(request.url, 'http://localhost');
+    if (url.pathname === '/feed') {
+      response.writeHead(200, { 'content-type': 'application/rss+xml' });
+      response.end('<rss><channel></channel></rss>');
+      return;
+    }
+    response.writeHead(200, {
+      'content-type': 'application/json',
+      'x-ratelimit-limit': '10',
+      'x-ratelimit-remaining': '9',
+      'x-ratelimit-reset': '1791766800',
+    });
+    response.end(JSON.stringify({ items: [] }));
+  });
+  await new Promise((resolveListen) => server.listen(0, '127.0.0.1', resolveListen));
+  t.after(() => { if (server.listening) server.close(); });
+  const endpoint = `http://127.0.0.1:${server.address().port}`;
+  const data = inputData(endpoint);
+  data.mentions = [{
+    id: 'boundary-mention',
+    sourceId: 'observer-one',
+    title: 'Boundary mention',
+    url: 'https://observer.example/boundary',
+    publishedAt: '2026-09-28T06:00:00Z',
+    githubRepositories: ['fast/riser'],
+    firstSeenAt: '2026-09-28T06:00:00Z',
+    lastSeenAt: '2026-09-28T06:00:00Z',
+  }];
+  await writeFile(input, `${JSON.stringify(data, null, 2)}\n`);
+
+  const result = await run({ input, output, endpoint, now: '2026-10-12T12:00:00Z' });
+  assert.equal(result.status, 0, result.stderr);
+  const record = JSON.parse(await readFile(output, 'utf8'));
+  assert.equal(record.lastRun.windowStart, '2026-09-28T00:00:00Z');
+  assert.equal(record.repositories[0].metrics.sourceMentions, 1);
+  assert.deepEqual(record.repositories[0].discoveredBy.sources, ['observer-one']);
+});
+
 test('keeps successful observations and records partial source failure', async (t) => {
   const dir = await mkdtemp(join(tmpdir(), 'hype-discovery-partial-'));
   const input = join(dir, 'input.json');

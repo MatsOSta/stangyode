@@ -35,20 +35,365 @@
     {
       "id": "broad-ai",
       "query": "AI in:name,description,readme",
-      "state": "collected"
+      "state": "failed"
     },
     {
       "id": "broad-ai-agents",
       "query": "AI agent in:name,description,readme",
-      "state": "collected"
+      "state": "failed"
     },
     {
       "id": "broad-llm",
       "query": "LLM in:name,description,readme",
-      "state": "collected"
+      "state": "failed"
     }
   ],
   "mentions": [
+    {
+      "id": "9cecb7cdcbd3eaec",
+      "sourceId": "hacker-news-ai",
+      "title": "AI Arbitrator",
+      "url": "https://www.adr.org/ai-arbitrator/",
+      "publishedAt": "2026-11-03T06:57:21Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:07:38.715Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "6cb4276800def34c",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: Trifecta Checker – a pre-flight safety check for AI agents",
+      "url": "https://meta-global-ai-hackathon-trifecta-c.vercel.app/",
+      "publishedAt": "2026-11-03T06:15:49Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "7dcfa6f9f697900e",
+      "sourceId": "hacker-news-ai",
+      "title": "Ask HN: Any tool to remove AI Watermark from image?",
+      "url": "https://news.ycombinator.com/item?id=50348613",
+      "publishedAt": "2026-11-03T06:03:24Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "f7b7fa9b195f6aeb",
+      "sourceId": "hacker-news-ai",
+      "title": "How AI is creating a lopsided US economy",
+      "url": "https://www.abc.net.au/news/2026-10-19/ai-stock-market-concentration-data/107261078",
+      "publishedAt": "2026-11-03T05:58:27Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "b04e69d03928f8bc",
+      "sourceId": "hacker-news-ai",
+      "title": "Y Combinator's Garry Tan uses AI agents so much",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "publishedAt": "2026-11-03T05:47:23Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "58a87b88ab14f285",
+      "sourceId": "hacker-news-ai",
+      "title": "Mav AI | FULL MATCH. FULL INSIGHT. UNDER 30 MIN.",
+      "url": "https://www.mavai.tech",
+      "publishedAt": "2026-11-03T05:43:24Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "77a3f083a3e5487c",
+      "sourceId": "latent-space",
+      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+      "publishedAt": "2026-11-03T05:35:00Z",
+      "githubRepositories": [
+        "IST-DASLab/GSQ",
+        "IST-DASLab/RCO",
+        "PhialsBasement/Strata",
+        "p-e-w/heretic",
+        "tmac1973/haruspex"
+      ],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "470843ade4a118b4",
+      "sourceId": "simon-willison",
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+      "publishedAt": "2026-11-03T05:32:25Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "bc5a8dafd0ed37c3",
+      "sourceId": "simon-willison",
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "publishedAt": "2026-11-03T05:28:59Z",
+      "githubRepositories": [
+        "simonw-private/monthly",
+        "sponsors/simonw"
+      ],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "fd402a7d2882a6f9",
+      "sourceId": "hacker-news-ai",
+      "title": "Vercel: Computer use CLI for AI agents",
+      "url": "https://agent-browser.dev/desktop",
+      "publishedAt": "2026-11-03T05:26:34Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "cc10b1adf0cc694d",
+      "sourceId": "hacker-news-ai",
+      "title": "VeilCC – AI-resistant binary hardening that seals critical logic",
+      "url": "https://veilcc.com/",
+      "publishedAt": "2026-11-03T04:55:38Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "35e22ecfbcbde754",
+      "sourceId": "hacker-news-ai",
+      "title": "AI advisors debate your business decision in Claude Code",
+      "url": "https://github.com/nateherkai/roast-room",
+      "publishedAt": "2026-11-03T04:12:40Z",
+      "githubRepositories": [
+        "nateherkai/roast-room"
+      ],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "f3222df8209ad100",
+      "sourceId": "hacker-news-ai",
+      "title": "Code-First Internal Tools vs. Low-Code in the Age of AI",
+      "url": "https://openrun.dev/blog/code-first-internal-tools/",
+      "publishedAt": "2026-11-03T03:59:46Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "26bab91582dd2753",
+      "sourceId": "hacker-news-ai",
+      "title": "MVP for a WW2 FPS Written by AI",
+      "url": "https://hng-production-47bb.up.railway.app/",
+      "publishedAt": "2026-11-03T03:45:22Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "bbaab810c476a110",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: CheapGPT – a free local AI assistant powered by Chrome's Gemini Nano",
+      "url": "https://www.predatorray.me/CheapGPT/",
+      "publishedAt": "2026-11-03T03:42:52Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "efe537b3bd364a81",
+      "sourceId": "hacker-news-ai",
+      "title": "Own Your HackerTube,an AI Curator Inspired by Karpathy's HackerTube",
+      "url": "https://ownhackertube.cc/",
+      "publishedAt": "2026-11-03T03:14:06Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "16a2e48331c1fccb",
+      "sourceId": "hacker-news-ai",
+      "title": "Claude's new rules against game cloning won't stop the AI copying boom",
+      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+      "publishedAt": "2026-11-03T03:05:58Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "7d29a187ff08a850",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: PhoneUse – Phones for AI Agents",
+      "url": "https://www.phoneuse.com/",
+      "publishedAt": "2026-11-03T02:50:40Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "c62d2dce255c79a6",
+      "sourceId": "hacker-news-ai",
+      "title": "An AI visibility checker that runs in the browser",
+      "url": "https://lumi-geo.pages.dev/",
+      "publishedAt": "2026-11-03T02:32:02Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-10-29T05:00:56.500Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "d061e9c6019b21f7",
+      "sourceId": "hacker-news-ai",
+      "title": "OpenAI hires former US Army secretary as military seeks to expand AI use",
+      "url": "https://www.ft.com/content/e6b8fd40-ef92-46e8-aeaf-f98dade55a67",
+      "publishedAt": "2026-11-03T01:30:50Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "9e1ac8db504340f1",
+      "sourceId": "hacker-news-ai",
+      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\"",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
+      "publishedAt": "2026-11-03T01:18:33Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "e538fd5f12a91eae",
+      "sourceId": "hacker-news-ai",
+      "title": "Claudbar: An AI side panel for Firefox",
+      "url": "https://addons.mozilla.org/firefox/addon/claudbar/",
+      "publishedAt": "2026-11-03T01:04:11Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "a869ba1131ee39b5",
+      "sourceId": "hacker-news-ai",
+      "title": "Goldman restricts traders and bankers from using some AI tools",
+      "url": "https://www.moneycontrol.com/europe/?url=https://www.moneycontrol.com/news/business/goldman-restricts-traders-and-bankers-from-using-some-ai-tools-14066677.html",
+      "publishedAt": "2026-11-03T00:50:45Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "ed8967a90e191f18",
+      "sourceId": "hacker-news-ai",
+      "title": "Dartmouth's provost warned us about AI cheating–but his AI use cost him his job",
+      "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+      "publishedAt": "2026-11-03T00:40:14Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:01:29.255Z"
+    },
+    {
+      "id": "328b3e71b09e2ba6",
+      "sourceId": "simon-willison",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "publishedAt": "2026-11-02T23:49:30Z",
+      "githubRepositories": [
+        "simonw/llm"
+      ],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "7f6d2c2619a73c0f",
+      "sourceId": "latent-space",
+      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+      "publishedAt": "2026-11-02T23:01:02Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "b292a38b0088ea8c",
+      "sourceId": "latent-space",
+      "title": "Building Legal Agents When You Can&apos;t See the Data - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+      "publishedAt": "2026-11-02T22:54:03Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "46539bfd95b33961",
+      "sourceId": "simon-willison",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "publishedAt": "2026-11-02T13:31:26Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "f464bc9328ef6569",
+      "sourceId": "simon-willison",
+      "title": "If in doubt, delete the uv.lock file",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "publishedAt": "2026-11-01T23:24:22Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "9a623a3c27c6cc51",
+      "sourceId": "simon-willison",
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "publishedAt": "2026-11-01T16:49:04Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "cd0f19141a71736a",
+      "sourceId": "simon-willison",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "publishedAt": "2026-10-31T23:15:22Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "241e6df66b5d1a18",
+      "sourceId": "simon-willison",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "publishedAt": "2026-10-31T22:10:01Z",
+      "githubRepositories": [
+        "datasette/datasette-llm"
+      ],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
+    {
+      "id": "60369e0ccd64eb32",
+      "sourceId": "latent-space",
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "url": "https://latent.space/p/arca/",
+      "publishedAt": "2026-10-31T16:05:00Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-03T07:01:29.255Z",
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
+    },
     {
       "id": "decd15366b12df0d",
       "sourceId": "hacker-news-ai",
@@ -104,7 +449,7 @@
         "l-wn/ClusterChat"
       ],
       "firstSeenAt": "2026-10-31T07:01:27.245Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "dcec3e77e0a1fb98",
@@ -144,16 +489,6 @@
       "publishedAt": "2026-10-31T04:24:10Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-31T07:01:27.245Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
-    },
-    {
-      "id": "c62d2dce255c79a6",
-      "sourceId": "hacker-news-ai",
-      "title": "See how AI search reads a page and fix it in one prompt",
-      "url": "https://lumi-geo.pages.dev/",
-      "publishedAt": "2026-10-31T04:01:13Z",
-      "githubRepositories": [],
-      "firstSeenAt": "2026-10-29T05:00:56.500Z",
       "lastSeenAt": "2026-10-31T07:01:27.245Z"
     },
     {
@@ -269,7 +604,7 @@
         "dbreunig/nesformer"
       ],
       "firstSeenAt": "2026-10-31T07:01:27.245Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "192f146502559d6c",
@@ -285,7 +620,7 @@
         "ggml-org/llama.cpp"
       ],
       "firstSeenAt": "2026-10-31T07:01:27.245Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "0b0b2be12bbde817",
@@ -537,7 +872,7 @@
       "publishedAt": "2026-10-29T22:48:29Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-30T05:00:55.732Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "c7b088e99fc3cb6a",
@@ -547,7 +882,7 @@
       "publishedAt": "2026-10-29T17:00:26Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-30T05:00:55.732Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "ef43018741bf9bcf",
@@ -557,7 +892,7 @@
       "publishedAt": "2026-10-29T16:00:00Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-30T05:00:55.732Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "08ee4215b72cc6b8",
@@ -567,7 +902,7 @@
       "publishedAt": "2026-10-29T14:06:27Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-30T05:00:55.732Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "91b4308dd25f8a87",
@@ -602,7 +937,7 @@
         "ggml-org/llama.cpp"
       ],
       "firstSeenAt": "2026-10-29T07:04:40.950Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "8220aeacf359722b",
@@ -814,7 +1149,7 @@
       "publishedAt": "2026-10-28T23:23:21Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-29T05:00:56.500Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "2cdfbbacddefabf5",
@@ -836,7 +1171,7 @@
       "publishedAt": "2026-10-28T19:48:05Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-29T05:00:56.500Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "99f232b4dcb465db",
@@ -846,7 +1181,7 @@
       "publishedAt": "2026-10-28T16:45:23Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-29T05:00:56.500Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "3c5aa3958243614c",
@@ -860,7 +1195,7 @@
         "simonw/pumpkin-farmer"
       ],
       "firstSeenAt": "2026-10-29T05:00:56.500Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "70628e70cc43bd2b",
@@ -870,7 +1205,7 @@
       "publishedAt": "2026-10-28T10:09:07Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-29T05:00:56.500Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "f72ca146340f64a4",
@@ -892,7 +1227,7 @@
         "token-gate-llms/TokenGate"
       ],
       "firstSeenAt": "2026-10-29T05:00:56.500Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "7514cc69c23884d4",
@@ -1100,7 +1435,7 @@
       "publishedAt": "2026-10-27T19:34:18Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-28T05:01:05.448Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "c711e4c2e33b51bd",
@@ -1110,7 +1445,7 @@
       "publishedAt": "2026-10-27T18:53:10Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-28T05:01:05.448Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "ce9164d1df9efada",
@@ -1120,7 +1455,7 @@
       "publishedAt": "2026-10-27T18:40:19Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-28T05:01:05.448Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "aab04545bc40e8fa",
@@ -1133,7 +1468,7 @@
         "anomalyco/opencode"
       ],
       "firstSeenAt": "2026-10-28T05:01:05.448Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "e2fb2b5bdbcf5ab3",
@@ -1147,7 +1482,7 @@
         "Gathin23/cleanyourtv"
       ],
       "firstSeenAt": "2026-10-28T05:01:05.448Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "13a949f88190ca9d",
@@ -1157,7 +1492,7 @@
       "publishedAt": "2026-10-26T23:53:07Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-27T05:01:08.336Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "d19f216e8f8eeb15",
@@ -1167,7 +1502,7 @@
       "publishedAt": "2026-10-26T19:00:25Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-27T05:01:08.336Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "3b5848736a7dbf23",
@@ -1181,7 +1516,7 @@
         "tractordev/webframe"
       ],
       "firstSeenAt": "2026-10-27T05:01:08.336Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "0a22dda08ee6783d",
@@ -1399,7 +1734,7 @@
       "publishedAt": "2026-10-25T15:10:19Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-26T05:00:51.550Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "ca9dac0eece7a52d",
@@ -1616,7 +1951,7 @@
         "impacifist/Windows-GPU-UNLOCK"
       ],
       "firstSeenAt": "2026-10-25T08:24:55.375Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "44587b24cc97fb9b",
@@ -1628,7 +1963,7 @@
         "simonw/battledrones"
       ],
       "firstSeenAt": "2026-10-25T08:24:55.375Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "54f306bdfc2952a7",
@@ -1844,7 +2179,7 @@
       "publishedAt": "2026-10-23T21:35:13Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-24T04:00:36.271Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "619ea89728dcdb3c",
@@ -1854,7 +2189,7 @@
       "publishedAt": "2026-10-23T19:40:54Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-24T04:00:36.271Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "3d627b5cfdebf81b",
@@ -1864,7 +2199,7 @@
       "publishedAt": "2026-10-23T15:19:48Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-24T04:00:36.271Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "72480de7ebe4f2c1",
@@ -1880,7 +2215,7 @@
         "ggml-org/llama.cpp"
       ],
       "firstSeenAt": "2026-10-24T04:00:36.271Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "0416e00a7ecf0dfb",
@@ -1890,7 +2225,7 @@
       "publishedAt": "2026-10-22T19:42:26Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-23T04:00:31.859Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "386c522c05e004f5",
@@ -1902,7 +2237,7 @@
         "datasette/datasette-mcp"
       ],
       "firstSeenAt": "2026-10-23T04:00:31.859Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "06a18015b03a6440",
@@ -1912,7 +2247,7 @@
       "publishedAt": "2026-10-22T17:40:57Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-24T04:00:36.271Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "6fc2501eea82ebe7",
@@ -1932,7 +2267,7 @@
       "publishedAt": "2026-10-22T15:34:13Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-23T04:00:31.859Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "1a9aca961cad9046",
@@ -1942,7 +2277,7 @@
       "publishedAt": "2026-10-22T14:03:40Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-24T04:00:36.271Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "93b426ccdb2ad382",
@@ -1967,7 +2302,7 @@
         "syv-ai/HyperQwen"
       ],
       "firstSeenAt": "2026-10-24T04:00:36.271Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "64e6fde95bfd9f89",
@@ -2184,7 +2519,7 @@
       "publishedAt": "2026-10-21T18:41:53Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-10-22T04:00:32.588Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "f9bda913acc89d1a",
@@ -2196,7 +2531,7 @@
         "menufactory43/panache"
       ],
       "firstSeenAt": "2026-10-22T04:00:32.588Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "7e980fdd8859966c",
@@ -2391,7 +2726,7 @@
         "pypa/pip"
       ],
       "firstSeenAt": "2026-10-21T04:00:40.480Z",
-      "lastSeenAt": "2026-10-31T07:01:27.245Z"
+      "lastSeenAt": "2026-11-03T07:07:38.715Z"
     },
     {
       "id": "5f735ad74e107752",
@@ -5415,1436 +5750,6 @@
   ],
   "repositories": [
     {
-      "fullName": "Zagitta/gpu-unlock",
-      "url": "https://github.com/Zagitta/gpu-unlock",
-      "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-      "stars": 13549,
-      "forks": 1332,
-      "createdAt": "2026-10-18T01:28:31Z",
-      "pushedAt": "2026-10-29T02:30:54Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-25T08:24:55.375Z",
-          "stars": 4023,
-          "forks": 448
-        },
-        {
-          "at": "2026-10-26T05:00:51.550Z",
-          "stars": 7356,
-          "forks": 766
-        },
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 12511,
-          "forks": 1225
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 13175,
-          "forks": 1287
-        },
-        {
-          "at": "2026-10-30T07:07:53.722Z",
-          "stars": 13208,
-          "forks": 1292
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 13208,
-          "forks": 1292
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 13549,
-          "forks": 1332
-        }
-      ],
-      "metrics": {
-        "ageDays": 13.23,
-        "starsPerDay": 1024.11,
-        "starsDelta": 341,
-        "forksDelta": 40,
-        "elapsedHours": 23.85,
-        "sourceMentions": 1,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai",
-          "broad-llm"
-        ],
-        "sources": [
-          "latent-space"
-        ]
-      }
-    },
-    {
-      "fullName": "eagle-hq/EAGLE-4",
-      "url": "https://github.com/eagle-hq/EAGLE-4",
-      "description": "Official Inference Code of EAGLE-4",
-      "stars": 1042,
-      "forks": 36,
-      "createdAt": "2026-10-20T14:03:04Z",
-      "pushedAt": "2026-10-28T20:17:23Z",
-      "topics": [
-        "eagle",
-        "gpu",
-        "llm-inference",
-        "sglang",
-        "speculative-decoding",
-        "tokenspeed",
-        "vllm"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-23T04:00:31.859Z",
-          "stars": 880,
-          "forks": 26
-        },
-        {
-          "at": "2026-10-24T04:00:36.271Z",
-          "stars": 956,
-          "forks": 31
-        },
-        {
-          "at": "2026-10-25T08:24:55.375Z",
-          "stars": 976,
-          "forks": 34
-        },
-        {
-          "at": "2026-10-26T05:00:51.550Z",
-          "stars": 992,
-          "forks": 35
-        },
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 1032,
-          "forks": 36
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 1039,
-          "forks": 36
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 1039,
-          "forks": 36
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1042,
-          "forks": 36
-        }
-      ],
-      "metrics": {
-        "ageDays": 10.71,
-        "starsPerDay": 97.29,
-        "starsDelta": 3,
-        "forksDelta": 0,
-        "elapsedHours": 23.85,
-        "sourceMentions": 1,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": [
-          "latent-space"
-        ]
-      }
-    },
-    {
-      "fullName": "anhao/ai-pose-gallery-zh",
-      "url": "https://github.com/anhao/ai-pose-gallery-zh",
-      "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
-      "stars": 4170,
-      "forks": 1064,
-      "createdAt": "2026-10-27T12:24:37Z",
-      "pushedAt": "2026-10-31T01:41:09Z",
-      "topics": [
-        "ai-art",
-        "chinese",
-        "cloudflare-pages",
-        "gallery",
-        "i18n",
-        "pose",
-        "reference-images",
-        "static-site"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 3355,
-          "forks": 874
-        },
-        {
-          "at": "2026-10-30T07:07:53.722Z",
-          "stars": 3472,
-          "forks": 900
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 3473,
-          "forks": 900
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 4170,
-          "forks": 1064
-        }
-      ],
-      "metrics": {
-        "ageDays": 3.78,
-        "starsPerDay": 1103.17,
-        "starsDelta": 697,
-        "forksDelta": 164,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai",
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "qybaihe/bla",
-      "url": "https://github.com/qybaihe/bla",
-      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
-      "stars": 1511,
-      "forks": 204,
-      "createdAt": "2026-10-25T05:25:45Z",
-      "pushedAt": "2026-10-30T18:16:20Z",
-      "topics": [
-        "adversarial-ai",
-        "claude-code",
-        "cursor",
-        "electron-security",
-        "llm-security",
-        "mcp",
-        "mcp-server",
-        "obfuscation",
-        "reverse-engineering",
-        "webassembly"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 939,
-          "forks": 136
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 1026,
-          "forks": 141
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1511,
-          "forks": 204
-        }
-      ],
-      "metrics": {
-        "ageDays": 6.07,
-        "starsPerDay": 248.93,
-        "starsDelta": 485,
-        "forksDelta": 63,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "rddmwmddr/android-ad-cleaner",
-      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-      "stars": 5184,
-      "forks": 469,
-      "createdAt": "2026-10-24T05:35:47Z",
-      "pushedAt": "2026-10-31T03:59:16Z",
-      "topics": [
-        "adb",
-        "ai-agent",
-        "android",
-        "coloros",
-        "debloat",
-        "hyperos",
-        "magicos",
-        "originos"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 4426,
-          "forks": 402
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 4800,
-          "forks": 435
-        },
-        {
-          "at": "2026-10-30T07:07:53.722Z",
-          "stars": 4850,
-          "forks": 439
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 4850,
-          "forks": 439
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 5184,
-          "forks": 469
-        }
-      ],
-      "metrics": {
-        "ageDays": 7.06,
-        "starsPerDay": 734.28,
-        "starsDelta": 334,
-        "forksDelta": 30,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "pengchujin/aerial-tv",
-      "url": "https://github.com/pengchujin/aerial-tv",
-      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "stars": 8146,
-      "forks": 684,
-      "createdAt": "2026-10-20T09:13:06Z",
-      "pushedAt": "2026-10-31T06:26:11Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-22T04:00:32.588Z",
-          "stars": 2348,
-          "forks": 167
-        },
-        {
-          "at": "2026-10-24T04:00:36.271Z",
-          "stars": 3918,
-          "forks": 294
-        },
-        {
-          "at": "2026-10-25T08:24:55.375Z",
-          "stars": 4571,
-          "forks": 358
-        },
-        {
-          "at": "2026-10-26T05:00:51.550Z",
-          "stars": 5272,
-          "forks": 431
-        },
-        {
-          "at": "2026-10-27T05:01:08.336Z",
-          "stars": 6276,
-          "forks": 529
-        },
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 7485,
-          "forks": 624
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 7822,
-          "forks": 652
-        },
-        {
-          "at": "2026-10-30T07:07:53.722Z",
-          "stars": 7873,
-          "forks": 656
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 7873,
-          "forks": 656
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 8146,
-          "forks": 684
-        }
-      ],
-      "metrics": {
-        "ageDays": 10.91,
-        "starsPerDay": 746.65,
-        "starsDelta": 273,
-        "forksDelta": 28,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai",
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "anonnerdfrenzy/survival-llm",
-      "url": "https://github.com/anonnerdfrenzy/survival-llm",
-      "description": "A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer.",
-      "stars": 1020,
-      "forks": 82,
-      "createdAt": "2026-10-24T19:12:41Z",
-      "pushedAt": "2026-10-29T22:21:56Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 616,
-          "forks": 50
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 779,
-          "forks": 67
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 798,
-          "forks": 68
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1020,
-          "forks": 82
-        }
-      ],
-      "metrics": {
-        "ageDays": 6.49,
-        "starsPerDay": 157.16,
-        "starsDelta": 222,
-        "forksDelta": 14,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "xiaoyang111222/cn-math-taxonomy",
-      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
-      "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
-      "stars": 5535,
-      "forks": 1409,
-      "createdAt": "2026-10-18T09:04:43Z",
-      "pushedAt": "2026-10-30T10:25:17Z",
-      "topics": [
-        "chinese",
-        "curriculum",
-        "diagnostic",
-        "edtech",
-        "education",
-        "elementary-school",
-        "english",
-        "high-school",
-        "junior-high-school",
-        "k12",
-        "knowledge-graph",
-        "math",
-        "mathematics",
-        "middle-school",
-        "open-data",
-        "primary-school"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-23T04:00:31.859Z",
-          "stars": 2269,
-          "forks": 517
-        },
-        {
-          "at": "2026-10-24T04:00:36.271Z",
-          "stars": 2879,
-          "forks": 656
-        },
-        {
-          "at": "2026-10-25T08:24:55.375Z",
-          "stars": 3440,
-          "forks": 816
-        },
-        {
-          "at": "2026-10-26T05:00:51.550Z",
-          "stars": 3831,
-          "forks": 938
-        },
-        {
-          "at": "2026-10-27T05:01:08.336Z",
-          "stars": 4091,
-          "forks": 1028
-        },
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 4943,
-          "forks": 1269
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 5302,
-          "forks": 1346
-        },
-        {
-          "at": "2026-10-30T07:07:53.722Z",
-          "stars": 5344,
-          "forks": 1358
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 5344,
-          "forks": 1358
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 5535,
-          "forks": 1409
-        }
-      ],
-      "metrics": {
-        "ageDays": 12.91,
-        "starsPerDay": 428.74,
-        "starsDelta": 191,
-        "forksDelta": 51,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "ly05010419/MacNativeGames",
-      "url": "https://github.com/ly05010419/MacNativeGames",
-      "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
-      "stars": 6615,
-      "forks": 965,
-      "createdAt": "2026-10-17T19:52:00Z",
-      "pushedAt": "2026-10-30T14:02:07Z",
-      "topics": [
-        "apple-silicon",
-        "arm64",
-        "breath-of-the-wild",
-        "game-port",
-        "ios",
-        "ipados",
-        "macos",
-        "metal",
-        "native-port",
-        "tears-of-the-kingdom",
-        "ultrawide",
-        "zelda"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-22T04:00:32.588Z",
-          "stars": 3998,
-          "forks": 565
-        },
-        {
-          "at": "2026-10-23T04:00:31.859Z",
-          "stars": 4560,
-          "forks": 646
-        },
-        {
-          "at": "2026-10-24T04:00:36.271Z",
-          "stars": 4979,
-          "forks": 710
-        },
-        {
-          "at": "2026-10-25T08:24:55.375Z",
-          "stars": 5296,
-          "forks": 766
-        },
-        {
-          "at": "2026-10-26T05:00:51.550Z",
-          "stars": 5537,
-          "forks": 803
-        },
-        {
-          "at": "2026-10-27T05:01:08.336Z",
-          "stars": 5834,
-          "forks": 852
-        },
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 6315,
-          "forks": 922
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 6467,
-          "forks": 944
-        },
-        {
-          "at": "2026-10-30T07:07:53.722Z",
-          "stars": 6492,
-          "forks": 949
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 6493,
-          "forks": 949
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 6615,
-          "forks": 965
-        }
-      ],
-      "metrics": {
-        "ageDays": 13.46,
-        "starsPerDay": 491.46,
-        "starsDelta": 122,
-        "forksDelta": 16,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "simbasjungles/free-my-tv",
-      "url": "https://github.com/simbasjungles/free-my-tv",
-      "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
-      "stars": 5503,
-      "forks": 920,
-      "createdAt": "2026-10-19T19:29:01Z",
-      "pushedAt": "2026-10-31T03:43:32Z",
-      "topics": [
-        "android-tv",
-        "claude-code",
-        "google-tv",
-        "home-screen",
-        "launcher",
-        "no-ads",
-        "open-source",
-        "samsung-tizen",
-        "tizen",
-        "tmdb",
-        "webos"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-22T04:00:32.588Z",
-          "stars": 2812,
-          "forks": 348
-        },
-        {
-          "at": "2026-10-23T04:00:31.859Z",
-          "stars": 3517,
-          "forks": 501
-        },
-        {
-          "at": "2026-10-24T04:00:36.271Z",
-          "stars": 3995,
-          "forks": 621
-        },
-        {
-          "at": "2026-10-25T08:24:55.375Z",
-          "stars": 4373,
-          "forks": 716
-        },
-        {
-          "at": "2026-10-26T05:00:51.550Z",
-          "stars": 4652,
-          "forks": 769
-        },
-        {
-          "at": "2026-10-27T05:01:08.336Z",
-          "stars": 4890,
-          "forks": 800
-        },
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 5264,
-          "forks": 876
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 5407,
-          "forks": 901
-        },
-        {
-          "at": "2026-10-30T07:07:53.722Z",
-          "stars": 5414,
-          "forks": 904
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 5414,
-          "forks": 904
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 5503,
-          "forks": 920
-        }
-      ],
-      "metrics": {
-        "ageDays": 11.48,
-        "starsPerDay": 479.36,
-        "starsDelta": 89,
-        "forksDelta": 16,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "wesbos/3d-model-anything",
-      "url": "https://github.com/wesbos/3d-model-anything",
-      "description": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
-      "stars": 2498,
-      "forks": 369,
-      "createdAt": "2026-10-21T19:38:50Z",
-      "pushedAt": "2026-10-27T15:08:22Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-26T05:00:51.550Z",
-          "stars": 1957,
-          "forks": 289
-        },
-        {
-          "at": "2026-10-27T05:01:08.336Z",
-          "stars": 2095,
-          "forks": 309
-        },
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 2319,
-          "forks": 348
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 2385,
-          "forks": 359
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 2415,
-          "forks": 361
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 2498,
-          "forks": 369
-        }
-      ],
-      "metrics": {
-        "ageDays": 9.47,
-        "starsPerDay": 263.78,
-        "starsDelta": 83,
-        "forksDelta": 8,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai",
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "enesozturk/dimensional-drawing",
-      "url": "https://github.com/enesozturk/dimensional-drawing",
-      "description": "Create Apple style dimensional drawings of UI components.",
-      "stars": 1656,
-      "forks": 113,
-      "createdAt": "2026-10-23T12:20:16Z",
-      "pushedAt": "2026-10-24T09:41:54Z",
-      "topics": [
-        "skills",
-        "ui"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 1575,
-          "forks": 104
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1656,
-          "forks": 113
-        }
-      ],
-      "metrics": {
-        "ageDays": 7.78,
-        "starsPerDay": 212.85,
-        "starsDelta": 81,
-        "forksDelta": 9,
-        "elapsedHours": 26.01,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "JoasASantos/REA-Prompts",
-      "url": "https://github.com/JoasASantos/REA-Prompts",
-      "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
-      "stars": 3314,
-      "forks": 597,
-      "createdAt": "2026-10-19T22:20:47Z",
-      "pushedAt": "2026-10-26T03:00:18Z",
-      "topics": [
-        "prompt-engineering",
-        "rea",
-        "reverse-enginnering"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-24T04:00:36.271Z",
-          "stars": 1769,
-          "forks": 280
-        },
-        {
-          "at": "2026-10-25T08:24:55.375Z",
-          "stars": 2231,
-          "forks": 383
-        },
-        {
-          "at": "2026-10-26T05:00:51.550Z",
-          "stars": 2513,
-          "forks": 453
-        },
-        {
-          "at": "2026-10-27T05:01:08.336Z",
-          "stars": 2814,
-          "forks": 507
-        },
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 3129,
-          "forks": 568
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 3224,
-          "forks": 582
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 3234,
-          "forks": 583
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 3314,
-          "forks": 597
-        }
-      ],
-      "metrics": {
-        "ageDays": 11.36,
-        "starsPerDay": 291.73,
-        "starsDelta": 80,
-        "forksDelta": 14,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai",
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "Marker284/yandex-station-extended",
-      "url": "https://github.com/Marker284/yandex-station-extended",
-      "description": null,
-      "stars": 678,
-      "forks": 89,
-      "createdAt": "2026-10-23T21:03:11Z",
-      "pushedAt": "2026-10-30T16:36:48Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 575,
-          "forks": 75
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 629,
-          "forks": 81
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 635,
-          "forks": 81
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 678,
-          "forks": 89
-        }
-      ],
-      "metrics": {
-        "ageDays": 7.42,
-        "starsPerDay": 91.37,
-        "starsDelta": 43,
-        "forksDelta": 8,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "humblemuzzu/dumbtv",
-      "url": "https://github.com/humblemuzzu/dumbtv",
-      "description": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.",
-      "stars": 1798,
-      "forks": 178,
-      "createdAt": "2026-10-18T17:04:12Z",
-      "pushedAt": "2026-10-27T09:02:16Z",
-      "topics": [
-        "ad-blocking",
-        "adb",
-        "android-tv",
-        "debloat",
-        "dns-filter",
-        "fire-os",
-        "fire-tv",
-        "firetv",
-        "launcher",
-        "privacy",
-        "smart-tv",
-        "telemetry"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 1726,
-          "forks": 167
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 1767,
-          "forks": 174
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 1770,
-          "forks": 174
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1798,
-          "forks": 178
-        }
-      ],
-      "metrics": {
-        "ageDays": 12.58,
-        "starsPerDay": 142.93,
-        "starsDelta": 28,
-        "forksDelta": 4,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "alchaincyf/huashu-motion",
-      "url": "https://github.com/alchaincyf/huashu-motion",
-      "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
-      "stars": 1926,
-      "forks": 184,
-      "createdAt": "2026-10-18T12:19:27Z",
-      "pushedAt": "2026-10-22T12:19:37Z",
-      "topics": [
-        "agent-skills",
-        "animation",
-        "claude-code",
-        "codex",
-        "gsap",
-        "launch-video",
-        "motion-graphics",
-        "skills"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 1867,
-          "forks": 178
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 1894,
-          "forks": 181
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 1902,
-          "forks": 181
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1926,
-          "forks": 184
-        }
-      ],
-      "metrics": {
-        "ageDays": 12.78,
-        "starsPerDay": 150.7,
-        "starsDelta": 24,
-        "forksDelta": 3,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "blakeandersonw/ai-app-playbook",
-      "url": "https://github.com/blakeandersonw/ai-app-playbook",
-      "description": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
-      "stars": 593,
-      "forks": 82,
-      "createdAt": "2026-10-26T16:07:05Z",
-      "pushedAt": "2026-10-26T16:55:25Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 579,
-          "forks": 80
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 579,
-          "forks": 82
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 593,
-          "forks": 82
-        }
-      ],
-      "metrics": {
-        "ageDays": 4.62,
-        "starsPerDay": 128.35,
-        "starsDelta": 14,
-        "forksDelta": 0,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "agharsallah/esp-labs-web",
-      "url": "https://github.com/agharsallah/esp-labs-web",
-      "description": "The ESP32-S3 bench guide as a React app: live pinout, lessons with interactive simulators, a code reader for the esp-labs firmware, and the bench log. In 11 languages.",
-      "stars": 608,
-      "forks": 89,
-      "createdAt": "2026-10-21T13:40:04Z",
-      "pushedAt": "2026-10-30T11:23:58Z",
-      "topics": [
-        "education",
-        "electronics",
-        "embedded",
-        "esp32",
-        "esp32-s3",
-        "i18n",
-        "interactive-learning",
-        "mit-license",
-        "open-source",
-        "pinout",
-        "react",
-        "react-router",
-        "rtl",
-        "simulator",
-        "tanstack-query",
-        "typescript",
-        "vite"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-29T05:00:56.500Z",
-          "stars": 574,
-          "forks": 84
-        },
-        {
-          "at": "2026-10-30T05:00:55.732Z",
-          "stars": 601,
-          "forks": 88
-        },
-        {
-          "at": "2026-10-30T07:10:42.378Z",
-          "stars": 602,
-          "forks": 88
-        },
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 608,
-          "forks": 89
-        }
-      ],
-      "metrics": {
-        "ageDays": 9.72,
-        "starsPerDay": 62.55,
-        "starsDelta": 6,
-        "forksDelta": 1,
-        "elapsedHours": 23.85,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "wangzan101/Mika",
-      "url": "https://github.com/wangzan101/Mika",
-      "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "stars": 1811,
-      "forks": 277,
-      "createdAt": "2026-10-29T14:34:07Z",
-      "pushedAt": "2026-10-31T06:41:04Z",
-      "topics": [
-        "accessibility",
-        "ai-agent",
-        "android",
-        "automation",
-        "jetpack-compose",
-        "kotlin",
-        "llm",
-        "mobile-agent"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1811,
-          "forks": 277
-        }
-      ],
-      "metrics": {
-        "ageDays": 1.69,
-        "starsPerDay": 1071.6,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "valentderah/totk-pc-recomp",
-      "url": "https://github.com/valentderah/totk-pc-recomp",
-      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
-      "stars": 1880,
-      "forks": 127,
-      "createdAt": "2026-10-29T12:32:46Z",
-      "pushedAt": "2026-10-31T05:42:35Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1880,
-          "forks": 127
-        }
-      ],
-      "metrics": {
-        "ageDays": 1.77,
-        "starsPerDay": 1062.15,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "paipiange/nvzhuang",
-      "url": "https://github.com/paipiange/nvzhuang",
-      "description": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
-      "stars": 1392,
-      "forks": 398,
-      "createdAt": "2026-10-29T06:08:00Z",
-      "pushedAt": "2026-10-31T04:23:30Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1392,
-          "forks": 398
-        }
-      ],
-      "metrics": {
-        "ageDays": 2.04,
-        "starsPerDay": 682.35,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "designfuchen/word-atlas",
-      "url": "https://github.com/designfuchen/word-atlas",
-      "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
-      "stars": 3427,
-      "forks": 748,
-      "createdAt": "2026-10-25T08:27:22Z",
-      "pushedAt": "2026-10-27T10:55:44Z",
-      "topics": [
-        "chinese",
-        "dataset",
-        "english-learning",
-        "flashcards",
-        "fsrs",
-        "ielts",
-        "language-learning",
-        "pwa",
-        "react",
-        "spaced-repetition",
-        "vocabulary",
-        "webgl"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 3427,
-          "forks": 748
-        }
-      ],
-      "metrics": {
-        "ageDays": 5.94,
-        "starsPerDay": 576.94,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "CopilotKit/OpenDuet",
-      "url": "https://github.com/CopilotKit/OpenDuet",
-      "description": "An Open Source template for a proactive AI agent that gets your work done and keeps you in the loop.",
-      "stars": 1673,
-      "forks": 210,
-      "createdAt": "2026-10-21T19:43:59Z",
-      "pushedAt": "2026-10-28T22:37:51Z",
-      "topics": [],
-      "observations": [
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 1673,
-          "forks": 210
-        }
-      ],
-      "metrics": {
-        "ageDays": 9.47,
-        "starsPerDay": 176.66,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-ai-agents"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "jackwener/DSH-Android",
-      "url": "https://github.com/jackwener/DSH-Android",
-      "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
-      "stars": 549,
-      "forks": 55,
-      "createdAt": "2026-10-27T19:26:12Z",
-      "pushedAt": "2026-10-31T02:55:14Z",
-      "topics": [
-        "ai-agent",
-        "android",
-        "deepseek",
-        "deepseek-harness",
-        "llm",
-        "phone-agent",
-        "shizuku"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 549,
-          "forks": 55
-        }
-      ],
-      "metrics": {
-        "ageDays": 3.48,
-        "starsPerDay": 157.76,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "fullName": "C4rohan/Lampline",
-      "url": "https://github.com/C4rohan/Lampline",
-      "description": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
-      "stars": 548,
-      "forks": 56,
-      "createdAt": "2026-10-19T06:50:54Z",
-      "pushedAt": "2026-10-29T23:49:43Z",
-      "topics": [
-        "agents-as-code",
-        "contact-center",
-        "conversational-ai",
-        "cx-agent-studio",
-        "dialogflow-cx",
-        "ivr",
-        "llm",
-        "pipecat",
-        "self-hosted",
-        "sip",
-        "speech-to-text",
-        "text-to-speech",
-        "voice-agents",
-        "voice-ai"
-      ],
-      "observations": [
-        {
-          "at": "2026-10-31T07:01:27.245Z",
-          "stars": 548,
-          "forks": 56
-        }
-      ],
-      "metrics": {
-        "ageDays": 12.01,
-        "starsPerDay": 45.63,
-        "starsDelta": null,
-        "forksDelta": null,
-        "elapsedHours": null,
-        "sourceMentions": 0,
-        "active": true
-      },
-      "discoveredBy": {
-        "queries": [
-          "broad-llm"
-        ],
-        "sources": []
-      }
-    },
-    {
       "fullName": "Gathin23/cleanyourtv",
       "url": "https://github.com/Gathin23/cleanyourtv",
       "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
@@ -6972,6 +5877,153 @@
         "queries": [
           "broad-ai",
           "broad-ai-agents"
+        ],
+        "sources": [
+          "latent-space"
+        ]
+      }
+    },
+    {
+      "fullName": "Zagitta/gpu-unlock",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+      "stars": 13549,
+      "forks": 1332,
+      "createdAt": "2026-10-18T01:28:31Z",
+      "pushedAt": "2026-10-29T02:30:54Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-25T08:24:55.375Z",
+          "stars": 4023,
+          "forks": 448
+        },
+        {
+          "at": "2026-10-26T05:00:51.550Z",
+          "stars": 7356,
+          "forks": 766
+        },
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 12511,
+          "forks": 1225
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 13175,
+          "forks": 1287
+        },
+        {
+          "at": "2026-10-30T07:07:53.722Z",
+          "stars": 13208,
+          "forks": 1292
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 13208,
+          "forks": 1292
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 13549,
+          "forks": 1332
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.23,
+        "starsPerDay": 1024.11,
+        "starsDelta": 341,
+        "forksDelta": 40,
+        "elapsedHours": 23.85,
+        "sourceMentions": 1,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-llm"
+        ],
+        "sources": [
+          "latent-space"
+        ]
+      }
+    },
+    {
+      "fullName": "eagle-hq/EAGLE-4",
+      "url": "https://github.com/eagle-hq/EAGLE-4",
+      "description": "Official Inference Code of EAGLE-4",
+      "stars": 1130,
+      "forks": 39,
+      "createdAt": "2026-10-20T14:03:04Z",
+      "pushedAt": "2026-11-01T02:13:59Z",
+      "topics": [
+        "eagle",
+        "gpu",
+        "llm-inference",
+        "sglang",
+        "speculative-decoding",
+        "tokenspeed",
+        "vllm"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-23T04:00:31.859Z",
+          "stars": 880,
+          "forks": 26
+        },
+        {
+          "at": "2026-10-24T04:00:36.271Z",
+          "stars": 956,
+          "forks": 31
+        },
+        {
+          "at": "2026-10-25T08:24:55.375Z",
+          "stars": 976,
+          "forks": 34
+        },
+        {
+          "at": "2026-10-26T05:00:51.550Z",
+          "stars": 992,
+          "forks": 35
+        },
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 1032,
+          "forks": 36
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 1039,
+          "forks": 36
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 1039,
+          "forks": 36
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1042,
+          "forks": 36
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 1130,
+          "forks": 39
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.71,
+        "starsPerDay": 82.42,
+        "starsDelta": 88,
+        "forksDelta": 3,
+        "elapsedHours": 72,
+        "sourceMentions": 1,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
         ],
         "sources": [
           "latent-space"
@@ -7180,6 +6232,97 @@
       }
     },
     {
+      "fullName": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "stars": 5653,
+      "forks": 1100,
+      "createdAt": "2026-10-29T14:34:07Z",
+      "pushedAt": "2026-11-02T19:08:44Z",
+      "topics": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "mobile-agent"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1811,
+          "forks": 277
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 5653,
+          "forks": 1100
+        }
+      ],
+      "metrics": {
+        "ageDays": 4.69,
+        "starsPerDay": 1205.33,
+        "starsDelta": 3842,
+        "forksDelta": 823,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "valentderah/totk-pc-recomp",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "stars": 4157,
+      "forks": 334,
+      "createdAt": "2026-10-29T12:32:46Z",
+      "pushedAt": "2026-11-03T04:40:43Z",
+      "topics": [
+        "game",
+        "linux",
+        "port",
+        "recompilation",
+        "windows"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1880,
+          "forks": 127
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 4157,
+          "forks": 334
+        }
+      ],
+      "metrics": {
+        "ageDays": 4.77,
+        "starsPerDay": 871.49,
+        "starsDelta": 2277,
+        "forksDelta": 207,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "seedds/nxnative",
       "url": "https://github.com/seedds/nxnative",
       "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
@@ -7216,6 +6359,68 @@
         "starsDelta": 1947,
         "forksDelta": 244,
         "elapsedHours": 24,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "anhao/ai-pose-gallery-zh",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+      "stars": 5605,
+      "forks": 1423,
+      "createdAt": "2026-10-27T12:24:37Z",
+      "pushedAt": "2026-11-02T13:28:31Z",
+      "topics": [
+        "ai-art",
+        "chinese",
+        "cloudflare-pages",
+        "gallery",
+        "i18n",
+        "pose",
+        "reference-images",
+        "static-site"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 3355,
+          "forks": 874
+        },
+        {
+          "at": "2026-10-30T07:07:53.722Z",
+          "stars": 3472,
+          "forks": 900
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 3473,
+          "forks": 900
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 4170,
+          "forks": 1064
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 5605,
+          "forks": 1423
+        }
+      ],
+      "metrics": {
+        "ageDays": 6.78,
+        "starsPerDay": 826.7,
+        "starsDelta": 1435,
+        "forksDelta": 359,
+        "elapsedHours": 72,
         "sourceMentions": 0,
         "active": false
       },
@@ -7273,6 +6478,89 @@
         "starsDelta": 1215,
         "forksDelta": 461,
         "elapsedHours": 21.99,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "stars": 9139,
+      "forks": 778,
+      "createdAt": "2026-10-20T09:13:06Z",
+      "pushedAt": "2026-11-03T03:10:50Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-22T04:00:32.588Z",
+          "stars": 2348,
+          "forks": 167
+        },
+        {
+          "at": "2026-10-24T04:00:36.271Z",
+          "stars": 3918,
+          "forks": 294
+        },
+        {
+          "at": "2026-10-25T08:24:55.375Z",
+          "stars": 4571,
+          "forks": 358
+        },
+        {
+          "at": "2026-10-26T05:00:51.550Z",
+          "stars": 5272,
+          "forks": 431
+        },
+        {
+          "at": "2026-10-27T05:01:08.336Z",
+          "stars": 6276,
+          "forks": 529
+        },
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 7485,
+          "forks": 624
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 7822,
+          "forks": 652
+        },
+        {
+          "at": "2026-10-30T07:07:53.722Z",
+          "stars": 7873,
+          "forks": 656
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 7873,
+          "forks": 656
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 8146,
+          "forks": 684
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 9139,
+          "forks": 778
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.91,
+        "starsPerDay": 657.01,
+        "starsDelta": 993,
+        "forksDelta": 94,
+        "elapsedHours": 72,
         "sourceMentions": 0,
         "active": false
       },
@@ -7408,6 +6696,72 @@
       }
     },
     {
+      "fullName": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "stars": 5969,
+      "forks": 538,
+      "createdAt": "2026-10-24T05:35:47Z",
+      "pushedAt": "2026-11-03T06:54:53Z",
+      "topics": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros",
+        "debloat",
+        "hyperos",
+        "magicos",
+        "originos"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 4426,
+          "forks": 402
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 4800,
+          "forks": 435
+        },
+        {
+          "at": "2026-10-30T07:07:53.722Z",
+          "stars": 4850,
+          "forks": 439
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 4850,
+          "forks": 439
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 5184,
+          "forks": 469
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 5969,
+          "forks": 538
+        }
+      ],
+      "metrics": {
+        "ageDays": 10.06,
+        "starsPerDay": 593.34,
+        "starsDelta": 785,
+        "forksDelta": 69,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "storytold/lightcraft",
       "url": "https://github.com/storytold/lightcraft",
       "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
@@ -7463,6 +6817,43 @@
       }
     },
     {
+      "fullName": "paipiange/nvzhuang",
+      "url": "https://github.com/paipiange/nvzhuang",
+      "description": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+      "stars": 2071,
+      "forks": 530,
+      "createdAt": "2026-10-29T06:08:00Z",
+      "pushedAt": "2026-11-03T07:01:03Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1392,
+          "forks": 398
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 2071,
+          "forks": 530
+        }
+      ],
+      "metrics": {
+        "ageDays": 5.04,
+        "starsPerDay": 410.91,
+        "starsDelta": 679,
+        "forksDelta": 132,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "storytold/vectorcraft",
       "url": "https://github.com/storytold/vectorcraft",
       "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
@@ -7513,6 +6904,117 @@
         "queries": [
           "broad-ai",
           "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "qybaihe/bla",
+      "url": "https://github.com/qybaihe/bla",
+      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+      "stars": 2012,
+      "forks": 274,
+      "createdAt": "2026-10-25T05:25:45Z",
+      "pushedAt": "2026-11-03T04:29:04Z",
+      "topics": [
+        "adversarial-ai",
+        "claude-code",
+        "cursor",
+        "electron-security",
+        "llm-security",
+        "mcp",
+        "mcp-server",
+        "obfuscation",
+        "reverse-engineering",
+        "webassembly"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 939,
+          "forks": 136
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 1026,
+          "forks": 141
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1511,
+          "forks": 204
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 2012,
+          "forks": 274
+        }
+      ],
+      "metrics": {
+        "ageDays": 9.07,
+        "starsPerDay": 221.83,
+        "starsDelta": 501,
+        "forksDelta": 70,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai-agents",
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "anonnerdfrenzy/survival-llm",
+      "url": "https://github.com/anonnerdfrenzy/survival-llm",
+      "description": "A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer.",
+      "stars": 1375,
+      "forks": 121,
+      "createdAt": "2026-10-24T19:12:41Z",
+      "pushedAt": "2026-10-29T22:21:56Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 616,
+          "forks": 50
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 779,
+          "forks": 67
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 798,
+          "forks": 68
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1020,
+          "forks": 82
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 1375,
+          "forks": 121
+        }
+      ],
+      "metrics": {
+        "ageDays": 9.49,
+        "starsPerDay": 144.89,
+        "starsDelta": 355,
+        "forksDelta": 39,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
         ],
         "sources": []
       }
@@ -7819,6 +7321,145 @@
       }
     },
     {
+      "fullName": "jackwener/DSH-Android",
+      "url": "https://github.com/jackwener/DSH-Android",
+      "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+      "stars": 760,
+      "forks": 81,
+      "createdAt": "2026-10-27T19:26:12Z",
+      "pushedAt": "2026-11-02T18:08:07Z",
+      "topics": [
+        "ai-agent",
+        "android",
+        "deepseek",
+        "deepseek-harness",
+        "llm",
+        "phone-agent",
+        "shizuku"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 549,
+          "forks": 55
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 760,
+          "forks": 81
+        }
+      ],
+      "metrics": {
+        "ageDays": 6.48,
+        "starsPerDay": 117.28,
+        "starsDelta": 211,
+        "forksDelta": 26,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "xiaoyang111222/cn-math-taxonomy",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
+      "stars": 5535,
+      "forks": 1409,
+      "createdAt": "2026-10-18T09:04:43Z",
+      "pushedAt": "2026-10-30T10:25:17Z",
+      "topics": [
+        "chinese",
+        "curriculum",
+        "diagnostic",
+        "edtech",
+        "education",
+        "elementary-school",
+        "english",
+        "high-school",
+        "junior-high-school",
+        "k12",
+        "knowledge-graph",
+        "math",
+        "mathematics",
+        "middle-school",
+        "open-data",
+        "primary-school"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-23T04:00:31.859Z",
+          "stars": 2269,
+          "forks": 517
+        },
+        {
+          "at": "2026-10-24T04:00:36.271Z",
+          "stars": 2879,
+          "forks": 656
+        },
+        {
+          "at": "2026-10-25T08:24:55.375Z",
+          "stars": 3440,
+          "forks": 816
+        },
+        {
+          "at": "2026-10-26T05:00:51.550Z",
+          "stars": 3831,
+          "forks": 938
+        },
+        {
+          "at": "2026-10-27T05:01:08.336Z",
+          "stars": 4091,
+          "forks": 1028
+        },
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 4943,
+          "forks": 1269
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 5302,
+          "forks": 1346
+        },
+        {
+          "at": "2026-10-30T07:07:53.722Z",
+          "stars": 5344,
+          "forks": 1358
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 5344,
+          "forks": 1358
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 5535,
+          "forks": 1409
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.91,
+        "starsPerDay": 428.74,
+        "starsDelta": 191,
+        "forksDelta": 51,
+        "elapsedHours": 23.85,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "onehumanbeing/esp32-iphone-agent",
       "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
       "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
@@ -7990,6 +7631,68 @@
       }
     },
     {
+      "fullName": "wesbos/3d-model-anything",
+      "url": "https://github.com/wesbos/3d-model-anything",
+      "description": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
+      "stars": 2662,
+      "forks": 398,
+      "createdAt": "2026-10-21T19:38:50Z",
+      "pushedAt": "2026-10-27T15:08:22Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-26T05:00:51.550Z",
+          "stars": 1957,
+          "forks": 289
+        },
+        {
+          "at": "2026-10-27T05:01:08.336Z",
+          "stars": 2095,
+          "forks": 309
+        },
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 2319,
+          "forks": 348
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 2385,
+          "forks": 359
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 2415,
+          "forks": 361
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 2498,
+          "forks": 369
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 2662,
+          "forks": 398
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.47,
+        "starsPerDay": 213.47,
+        "starsDelta": 164,
+        "forksDelta": 29,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "storytold/gridcraft",
       "url": "https://github.com/storytold/gridcraft",
       "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
@@ -8063,6 +7766,101 @@
         "queries": [
           "broad-ai",
           "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "ly05010419/MacNativeGames",
+      "url": "https://github.com/ly05010419/MacNativeGames",
+      "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
+      "stars": 6615,
+      "forks": 965,
+      "createdAt": "2026-10-17T19:52:00Z",
+      "pushedAt": "2026-10-30T14:02:07Z",
+      "topics": [
+        "apple-silicon",
+        "arm64",
+        "breath-of-the-wild",
+        "game-port",
+        "ios",
+        "ipados",
+        "macos",
+        "metal",
+        "native-port",
+        "tears-of-the-kingdom",
+        "ultrawide",
+        "zelda"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-22T04:00:32.588Z",
+          "stars": 3998,
+          "forks": 565
+        },
+        {
+          "at": "2026-10-23T04:00:31.859Z",
+          "stars": 4560,
+          "forks": 646
+        },
+        {
+          "at": "2026-10-24T04:00:36.271Z",
+          "stars": 4979,
+          "forks": 710
+        },
+        {
+          "at": "2026-10-25T08:24:55.375Z",
+          "stars": 5296,
+          "forks": 766
+        },
+        {
+          "at": "2026-10-26T05:00:51.550Z",
+          "stars": 5537,
+          "forks": 803
+        },
+        {
+          "at": "2026-10-27T05:01:08.336Z",
+          "stars": 5834,
+          "forks": 852
+        },
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 6315,
+          "forks": 922
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 6467,
+          "forks": 944
+        },
+        {
+          "at": "2026-10-30T07:07:53.722Z",
+          "stars": 6492,
+          "forks": 949
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 6493,
+          "forks": 949
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 6615,
+          "forks": 965
+        }
+      ],
+      "metrics": {
+        "ageDays": 13.46,
+        "starsPerDay": 491.46,
+        "starsDelta": 122,
+        "forksDelta": 16,
+        "elapsedHours": 23.85,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai"
         ],
         "sources": []
       }
@@ -8256,6 +8054,100 @@
         "queries": [
           "broad-ai",
           "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "simbasjungles/free-my-tv",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+      "stars": 5503,
+      "forks": 920,
+      "createdAt": "2026-10-19T19:29:01Z",
+      "pushedAt": "2026-10-31T03:43:32Z",
+      "topics": [
+        "android-tv",
+        "claude-code",
+        "google-tv",
+        "home-screen",
+        "launcher",
+        "no-ads",
+        "open-source",
+        "samsung-tizen",
+        "tizen",
+        "tmdb",
+        "webos"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-22T04:00:32.588Z",
+          "stars": 2812,
+          "forks": 348
+        },
+        {
+          "at": "2026-10-23T04:00:31.859Z",
+          "stars": 3517,
+          "forks": 501
+        },
+        {
+          "at": "2026-10-24T04:00:36.271Z",
+          "stars": 3995,
+          "forks": 621
+        },
+        {
+          "at": "2026-10-25T08:24:55.375Z",
+          "stars": 4373,
+          "forks": 716
+        },
+        {
+          "at": "2026-10-26T05:00:51.550Z",
+          "stars": 4652,
+          "forks": 769
+        },
+        {
+          "at": "2026-10-27T05:01:08.336Z",
+          "stars": 4890,
+          "forks": 800
+        },
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 5264,
+          "forks": 876
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 5407,
+          "forks": 901
+        },
+        {
+          "at": "2026-10-30T07:07:53.722Z",
+          "stars": 5414,
+          "forks": 904
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 5414,
+          "forks": 904
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 5503,
+          "forks": 920
+        }
+      ],
+      "metrics": {
+        "ageDays": 11.48,
+        "starsPerDay": 479.36,
+        "starsDelta": 89,
+        "forksDelta": 16,
+        "elapsedHours": 23.85,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai"
         ],
         "sources": []
       }
@@ -8601,6 +8493,118 @@
       }
     },
     {
+      "fullName": "enesozturk/dimensional-drawing",
+      "url": "https://github.com/enesozturk/dimensional-drawing",
+      "description": "Create Apple style dimensional drawings of UI components.",
+      "stars": 1656,
+      "forks": 113,
+      "createdAt": "2026-10-23T12:20:16Z",
+      "pushedAt": "2026-10-24T09:41:54Z",
+      "topics": [
+        "skills",
+        "ui"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 1575,
+          "forks": 104
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1656,
+          "forks": 113
+        }
+      ],
+      "metrics": {
+        "ageDays": 7.78,
+        "starsPerDay": 212.85,
+        "starsDelta": 81,
+        "forksDelta": 9,
+        "elapsedHours": 26.01,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "JoasASantos/REA-Prompts",
+      "url": "https://github.com/JoasASantos/REA-Prompts",
+      "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
+      "stars": 3314,
+      "forks": 597,
+      "createdAt": "2026-10-19T22:20:47Z",
+      "pushedAt": "2026-10-26T03:00:18Z",
+      "topics": [
+        "prompt-engineering",
+        "rea",
+        "reverse-enginnering"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-24T04:00:36.271Z",
+          "stars": 1769,
+          "forks": 280
+        },
+        {
+          "at": "2026-10-25T08:24:55.375Z",
+          "stars": 2231,
+          "forks": 383
+        },
+        {
+          "at": "2026-10-26T05:00:51.550Z",
+          "stars": 2513,
+          "forks": 453
+        },
+        {
+          "at": "2026-10-27T05:01:08.336Z",
+          "stars": 2814,
+          "forks": 507
+        },
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 3129,
+          "forks": 568
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 3224,
+          "forks": 582
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 3234,
+          "forks": 583
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 3314,
+          "forks": 597
+        }
+      ],
+      "metrics": {
+        "ageDays": 11.36,
+        "starsPerDay": 291.73,
+        "starsDelta": 80,
+        "forksDelta": 14,
+        "elapsedHours": 23.85,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "Tencent-Hunyuan/Hy-Memory",
       "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
       "description": null,
@@ -8840,6 +8844,58 @@
         "starsDelta": 68,
         "forksDelta": 45,
         "elapsedHours": 49,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "Marker284/yandex-station-extended",
+      "url": "https://github.com/Marker284/yandex-station-extended",
+      "description": null,
+      "stars": 744,
+      "forks": 99,
+      "createdAt": "2026-10-23T21:03:11Z",
+      "pushedAt": "2026-11-02T04:24:15Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 575,
+          "forks": 75
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 629,
+          "forks": 81
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 635,
+          "forks": 81
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 678,
+          "forks": 89
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 744,
+          "forks": 99
+        }
+      ],
+      "metrics": {
+        "ageDays": 10.42,
+        "starsPerDay": 71.4,
+        "starsDelta": 66,
+        "forksDelta": 10,
+        "elapsedHours": 72,
         "sourceMentions": 0,
         "active": false
       },
@@ -9516,6 +9572,76 @@
       }
     },
     {
+      "fullName": "agharsallah/esp-labs-web",
+      "url": "https://github.com/agharsallah/esp-labs-web",
+      "description": "The ESP32-S3 bench guide as a React app: live pinout, lessons with interactive simulators, a code reader for the esp-labs firmware, and the bench log. In 11 languages.",
+      "stars": 642,
+      "forks": 92,
+      "createdAt": "2026-10-21T13:40:04Z",
+      "pushedAt": "2026-11-02T02:38:29Z",
+      "topics": [
+        "education",
+        "electronics",
+        "embedded",
+        "esp32",
+        "esp32-s3",
+        "i18n",
+        "interactive-learning",
+        "mit-license",
+        "open-source",
+        "pinout",
+        "react",
+        "react-router",
+        "rtl",
+        "simulator",
+        "tanstack-query",
+        "typescript",
+        "vite"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 574,
+          "forks": 84
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 601,
+          "forks": 88
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 602,
+          "forks": 88
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 608,
+          "forks": 89
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 642,
+          "forks": 92
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.72,
+        "starsPerDay": 50.47,
+        "starsDelta": 34,
+        "forksDelta": 3,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "bherbruck/solidcraft",
       "url": "https://github.com/bherbruck/solidcraft",
       "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
@@ -9615,6 +9741,66 @@
       "discoveredBy": {
         "queries": [
           "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "humblemuzzu/dumbtv",
+      "url": "https://github.com/humblemuzzu/dumbtv",
+      "description": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.",
+      "stars": 1798,
+      "forks": 178,
+      "createdAt": "2026-10-18T17:04:12Z",
+      "pushedAt": "2026-10-27T09:02:16Z",
+      "topics": [
+        "ad-blocking",
+        "adb",
+        "android-tv",
+        "debloat",
+        "dns-filter",
+        "fire-os",
+        "fire-tv",
+        "firetv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "telemetry"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 1726,
+          "forks": 167
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 1767,
+          "forks": 174
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 1770,
+          "forks": 174
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1798,
+          "forks": 178
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.58,
+        "starsPerDay": 142.93,
+        "starsDelta": 28,
+        "forksDelta": 4,
+        "elapsedHours": 23.85,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai-agents"
         ],
         "sources": []
       }
@@ -9749,6 +9935,62 @@
       }
     },
     {
+      "fullName": "alchaincyf/huashu-motion",
+      "url": "https://github.com/alchaincyf/huashu-motion",
+      "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+      "stars": 1926,
+      "forks": 184,
+      "createdAt": "2026-10-18T12:19:27Z",
+      "pushedAt": "2026-10-22T12:19:37Z",
+      "topics": [
+        "agent-skills",
+        "animation",
+        "claude-code",
+        "codex",
+        "gsap",
+        "launch-video",
+        "motion-graphics",
+        "skills"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-29T05:00:56.500Z",
+          "stars": 1867,
+          "forks": 178
+        },
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 1894,
+          "forks": 181
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 1902,
+          "forks": 181
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1926,
+          "forks": 184
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.78,
+        "starsPerDay": 150.7,
+        "starsDelta": 24,
+        "forksDelta": 3,
+        "elapsedHours": 23.85,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "feder-cr/git-ai",
       "url": "https://github.com/feder-cr/git-ai",
       "description": "Git designed for AI agents.",
@@ -9826,6 +10068,53 @@
         "starsPerDay": 74.16,
         "starsDelta": 24,
         "forksDelta": 3,
+        "elapsedHours": 72,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "blakeandersonw/ai-app-playbook",
+      "url": "https://github.com/blakeandersonw/ai-app-playbook",
+      "description": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
+      "stars": 613,
+      "forks": 86,
+      "createdAt": "2026-10-26T16:07:05Z",
+      "pushedAt": "2026-10-26T16:55:25Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-30T05:00:55.732Z",
+          "stars": 579,
+          "forks": 80
+        },
+        {
+          "at": "2026-10-30T07:10:42.378Z",
+          "stars": 579,
+          "forks": 82
+        },
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 593,
+          "forks": 82
+        },
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 613,
+          "forks": 86
+        }
+      ],
+      "metrics": {
+        "ageDays": 7.62,
+        "starsPerDay": 80.45,
+        "starsDelta": 20,
+        "forksDelta": 4,
         "elapsedHours": 72,
         "sourceMentions": 0,
         "active": false
@@ -10797,6 +11086,105 @@
       }
     },
     {
+      "fullName": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "stars": 14523,
+      "forks": 1557,
+      "createdAt": "2026-10-31T09:32:46Z",
+      "pushedAt": "2026-10-31T12:05:51Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 14523,
+          "forks": 1557
+        }
+      ],
+      "metrics": {
+        "ageDays": 2.89,
+        "starsPerDay": 5025.26,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "stars": 5242,
+      "forks": 883,
+      "createdAt": "2026-10-31T14:50:00Z",
+      "pushedAt": "2026-11-03T03:27:16Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 5242,
+          "forks": 883
+        }
+      ],
+      "metrics": {
+        "ageDays": 2.67,
+        "starsPerDay": 1963.3,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "stars": 6591,
+      "forks": 336,
+      "createdAt": "2026-10-29T15:41:21Z",
+      "pushedAt": "2026-11-01T16:46:10Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 6591,
+          "forks": 336
+        }
+      ],
+      "metrics": {
+        "ageDays": 4.64,
+        "starsPerDay": 1420.47,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai",
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
       "fullName": "feder-cr/open_scion",
       "url": "https://github.com/feder-cr/open_scion",
       "description": "Open-source version of Scion: version control built for coding agents.",
@@ -10831,6 +11219,188 @@
       "discoveredBy": {
         "queries": [
           "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "stars": 6289,
+      "forks": 310,
+      "createdAt": "2026-10-25T08:09:52Z",
+      "pushedAt": "2026-11-03T06:48:58Z",
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "observations": [
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 6289,
+          "forks": 310
+        }
+      ],
+      "metrics": {
+        "ageDays": 8.95,
+        "starsPerDay": 702.68,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "designfuchen/word-atlas",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+      "stars": 3427,
+      "forks": 748,
+      "createdAt": "2026-10-25T08:27:22Z",
+      "pushedAt": "2026-10-27T10:55:44Z",
+      "topics": [
+        "chinese",
+        "dataset",
+        "english-learning",
+        "flashcards",
+        "fsrs",
+        "ielts",
+        "language-learning",
+        "pwa",
+        "react",
+        "spaced-repetition",
+        "vocabulary",
+        "webgl"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 3427,
+          "forks": 748
+        }
+      ],
+      "metrics": {
+        "ageDays": 5.94,
+        "starsPerDay": 576.94,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "l0ng-ai/openidea",
+      "url": "https://github.com/l0ng-ai/openidea",
+      "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+      "stars": 5249,
+      "forks": 417,
+      "createdAt": "2026-10-21T12:23:14Z",
+      "pushedAt": "2026-11-03T06:56:56Z",
+      "topics": [
+        "code-editor",
+        "cross-platform",
+        "dap",
+        "database-client",
+        "debugger",
+        "desktop-app",
+        "developer-tools",
+        "git",
+        "http-client",
+        "ide",
+        "intellij",
+        "lsp",
+        "rust",
+        "tauri",
+        "terminal"
+      ],
+      "observations": [
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 5249,
+          "forks": 417
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.78,
+        "starsPerDay": 410.72,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "haydenschmitty/floorplan",
+      "url": "https://github.com/haydenschmitty/floorplan",
+      "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+      "stars": 2317,
+      "forks": 167,
+      "createdAt": "2026-10-27T12:03:01Z",
+      "pushedAt": "2026-11-02T20:06:48Z",
+      "topics": [
+        "ai-coding",
+        "architecture-diagram",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "codebase-visualization",
+        "codex",
+        "codex-plugin",
+        "developer-tools",
+        "onboarding",
+        "openai",
+        "vibe-coding"
+      ],
+      "observations": [
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 2317,
+          "forks": 167
+        }
+      ],
+      "metrics": {
+        "ageDays": 6.79,
+        "starsPerDay": 341.24,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai-agents"
         ],
         "sources": []
       }
@@ -11003,22 +11573,184 @@
         ],
         "sources": []
       }
+    },
+    {
+      "fullName": "physicsdolphin/nv-uefi-unlocker",
+      "url": "https://github.com/physicsdolphin/nv-uefi-unlocker",
+      "description": "UEFI pre-driver NVIDIA GPU unlocker for Windows Linux Hackintosh and all EFI-bootable system (Rust): SEC2 scrubber -> FWSEC/WPR2 -> signed Booter -> V67 four-write payload, read-back verified. Verified on most RTX 20 30 40 Series.",
+      "stars": 1467,
+      "forks": 126,
+      "createdAt": "2026-10-26T06:22:24Z",
+      "pushedAt": "2026-11-03T05:26:41Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 1467,
+          "forks": 126
+        }
+      ],
+      "metrics": {
+        "ageDays": 8.03,
+        "starsPerDay": 182.69,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "CopilotKit/OpenDuet",
+      "url": "https://github.com/CopilotKit/OpenDuet",
+      "description": "An Open Source template for a proactive AI agent that gets your work done and keeps you in the loop.",
+      "stars": 1673,
+      "forks": 210,
+      "createdAt": "2026-10-21T19:43:59Z",
+      "pushedAt": "2026-10-28T22:37:51Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 1673,
+          "forks": 210
+        }
+      ],
+      "metrics": {
+        "ageDays": 9.47,
+        "starsPerDay": 176.66,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-ai-agents"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "ramenvr/autopilot",
+      "url": "https://github.com/ramenvr/autopilot",
+      "description": "Play any game",
+      "stars": 674,
+      "forks": 48,
+      "createdAt": "2026-10-30T03:47:28Z",
+      "pushedAt": "2026-11-03T04:47:35Z",
+      "topics": [],
+      "observations": [
+        {
+          "at": "2026-11-03T07:01:29.255Z",
+          "stars": 674,
+          "forks": 48
+        }
+      ],
+      "metrics": {
+        "ageDays": 4.13,
+        "starsPerDay": 163.2,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "fullName": "C4rohan/Lampline",
+      "url": "https://github.com/C4rohan/Lampline",
+      "description": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
+      "stars": 548,
+      "forks": 56,
+      "createdAt": "2026-10-19T06:50:54Z",
+      "pushedAt": "2026-10-29T23:49:43Z",
+      "topics": [
+        "agents-as-code",
+        "contact-center",
+        "conversational-ai",
+        "cx-agent-studio",
+        "dialogflow-cx",
+        "ivr",
+        "llm",
+        "pipecat",
+        "self-hosted",
+        "sip",
+        "speech-to-text",
+        "text-to-speech",
+        "voice-agents",
+        "voice-ai"
+      ],
+      "observations": [
+        {
+          "at": "2026-10-31T07:01:27.245Z",
+          "stars": 548,
+          "forks": 56
+        }
+      ],
+      "metrics": {
+        "ageDays": 12.01,
+        "starsPerDay": 45.63,
+        "starsDelta": null,
+        "forksDelta": null,
+        "elapsedHours": null,
+        "sourceMentions": 0,
+        "active": false
+      },
+      "discoveredBy": {
+        "queries": [
+          "broad-llm"
+        ],
+        "sources": []
+      }
     }
   ],
   "lastRun": {
-    "status": "success",
-    "attemptedAt": "2026-10-31T07:01:27.245Z",
-    "completedAt": "2026-10-31T07:01:27.245Z",
-    "windowStart": "2026-10-17T00:00:00Z",
+    "status": "partial",
+    "attemptedAt": "2026-11-03T07:07:38.715Z",
+    "completedAt": "2026-11-03T07:07:38.715Z",
+    "windowStart": "2026-10-20T00:00:00Z",
     "sourceCount": 3,
     "successfulSources": 3,
     "githubQueryCount": 3,
-    "successfulGithubQueries": 3,
-    "failures": [],
+    "successfulGithubQueries": 0,
+    "failures": [
+      {
+        "id": "broad-ai",
+        "kind": "github-query",
+        "class": "rate_limit",
+        "httpStatus": 403
+      },
+      {
+        "id": "broad-ai-agents",
+        "kind": "github-query",
+        "class": "rate_limit",
+        "httpStatus": 403
+      },
+      {
+        "id": "broad-llm",
+        "kind": "github-query",
+        "class": "rate_limit",
+        "httpStatus": 403
+      }
+    ],
     "rateLimit": {
       "limit": 10,
-      "remaining": 7,
-      "resetAt": "2026-10-31T07:02:44Z"
+      "remaining": 0,
+      "resetAt": "2026-11-03T07:08:27Z"
     }
   }
 }
