@@ -65,8 +65,8 @@ for (const query of input.githubQueries) {
   queryIds.add(query.id);
 }
 
-const since = new Date(now.getTime() - input.windowDays * 86_400_000);
-const sinceDate = since.toISOString().slice(0, 10);
+const sinceDate = new Date(now.getTime() - input.windowDays * 86_400_000).toISOString().slice(0, 10);
+const since = new Date(`${sinceDate}T00:00:00Z`);
 const failures = [];
 const completedSources = new Set();
 const completedQueries = new Set();
