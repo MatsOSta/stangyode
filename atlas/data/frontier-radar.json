@@ -9,36 +9,36 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-11-05",
+    "snapshot": "2026-11-06",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-11-05T07:02:29.921Z",
+    "asOf": "2026-11-06T07:03:26.802Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-05T07:02:29.921Z",
+        "lastAttemptAt": "2026-11-06T07:03:26.802Z",
         "lastSuccessfulRunAt": "2026-10-24T06:09:15.084Z",
-        "failureStreak": 10,
+        "failureStreak": 11,
         "lastFailure": {
-          "at": "2026-11-05T07:02:29.921Z",
+          "at": "2026-11-06T07:03:26.802Z",
           "class": "validation",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-05T07:02:29.921Z",
+        "lastAttemptAt": "2026-11-06T07:03:26.802Z",
         "lastSuccessfulRunAt": "2026-10-24T06:09:15.084Z",
-        "failureStreak": 10,
+        "failureStreak": 11,
         "lastFailure": {
-          "at": "2026-11-05T07:02:29.921Z",
+          "at": "2026-11-06T07:03:26.802Z",
           "class": "validation",
           "resolved": false
         }
@@ -840,7 +840,8 @@
       "radar-daily-2026-10-31",
       "radar-daily-2026-11-03",
       "radar-daily-2026-11-04",
-      "radar-daily-2026-11-05"
+      "radar-daily-2026-11-05",
+      "radar-daily-2026-11-06"
     ],
     "sensors": [
       {
