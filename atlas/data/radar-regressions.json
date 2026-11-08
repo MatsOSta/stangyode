@@ -467,6 +467,22 @@
         "soma-protocol-repo",
         "bellman-trust"
       ]
+    },
+    {
+      "id": "multi-harness-control-plane-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "multi-harness-control-plane",
+      "minimumIndependentOrganizations": 3,
+      "requiredOrganizationIds": [
+        "omnigent-ai",
+        "shakedaskayo",
+        "razzant"
+      ],
+      "requiredSourceIds": [
+        "omnigent-repo",
+        "ciab-repo",
+        "claudexor-repo"
+      ]
     }
   ]
 }

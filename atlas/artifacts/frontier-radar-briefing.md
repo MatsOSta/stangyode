@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-11-07
+Snapshot / スナップショット: 2026-11-08
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,11 +8,11 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-11-07T07:02:08.091Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-11-08T07:02:36.160Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: PARTIAL; last success 2026-10-24T06:09:15.084Z; failure streak 12; last failure validation at 2026-11-07T07:02:08.091Z (unresolved)
-- editor: PARTIAL; last success 2026-10-24T06:09:15.084Z; failure streak 12; last failure validation at 2026-11-07T07:02:08.091Z (unresolved)
+- scout: SUCCESS; last success 2026-11-08T07:02:36.160Z; failure streak 0; last failure validation at 2026-11-07T07:02:08.091Z (resolved)
+- editor: SUCCESS; last success 2026-11-08T07:02:36.160Z; failure streak 0; last failure validation at 2026-11-07T07:02:08.091Z (resolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
@@ -94,6 +94,10 @@ As of / 基準時刻: 2026-11-07T07:02:08.091Z; cadence / 頻度: daily; data / 
 - [IBM and Kaggle launch leaderboard for Java framework migration](https://research.ibm.com/blog/ibm-and-kaggle-launch-leaderboard-for-java-framework-migration): relevant; checked 2026-10-28; source ibm-scarfbench-kaggle
 - [frontiercode-audit](https://github.com/kimjune01/frontiercode-audit): relevant; checked 2026-10-28; source frontiercode-independent-audit
 - [FrontierCode 2.0 Benchmark](https://artificialanalysis.ai/evaluations/frontiercode-2-0): relevant; checked 2026-10-28; source artificial-analysis-frontiercode-2
+- [Beyond code generation: A developer's guide to agentic engineering](https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/): relevant; checked 2026-11-08; source github-agentic-engineering-2026-11-06
+- [Omnigent repository](https://github.com/omnigent-ai/omnigent): relevant; checked 2026-11-08; source omnigent-repo
+- [CIAB repository](https://github.com/shakedaskayo/ciab): relevant; checked 2026-11-08; source ciab-repo
+- [Claudexor repository](https://github.com/razzant/claudexor): relevant; checked 2026-11-08; source claudexor-repo
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -213,11 +217,24 @@ Evidence: snowflake-snowpr, cognition-frontiercode-2, ibm-scarfbench-kaggle, fro
 - `enterprise private repository coding agent benchmark merged changes hidden tests alternatives`
 - `FrontierCode 2.0 independent audit sibling implementation benchmark validity`
 
+### Multi-harness control-plane first-party and sibling challenge / マルチハーネスcontrol planeの一次情報・同等実装検証
+Three independently operated implementations establish the category, while GitHub supports the surrounding lifecycle shift. No matched-task evidence shows that the extra layer improves accepted-work outcomes. / 独立運営の3実装がcategoryを成立させ、GitHubは周辺lifecycleの変化を裏付ける。一方、追加layerがaccepted-work成果を改善するmatched-task証拠はない。
+
+Targets: multi-harness-control-plane
+
+Evidence: github-agentic-engineering-2026-11-06, omnigent-repo, ciab-repo, claudexor-repo
+
+- `GitHub agentic engineering Plan Build Verify Observe lifecycle`
+- `GitHub repository search: omnigent`
+- `GitHub repository search: "multi-harness"`
+- `CIAB Claude Code Codex Gemini CLI Cursor isolated sandboxes unified API`
+- `Claudexor multi-harness control plane Claude Code Codex Cursor OpenCode`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation, multi-harness-control-plane
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -242,6 +259,8 @@ Evidence: snowflake-snowpr, cognition-frontiercode-2, ibm-scarfbench-kaggle, fro
 - editorial-decision; deltadb, portable-inspectable-agent-state, deepinfer, eagle-4: Add DeltaDB and portable inspectable state at WATCH; keep DeepInfer at conditional WATCH with unchanged scores; add EAGLE-4 as a bounded same-engine PILOT. Defer Soma standardization and Core Atlas promotion. / DeltaDBとportable inspectable stateをWATCHへ追加。DeepInferはscore不変の条件付きWATCHを維持し、EAGLE-4を同一engine限定PILOTへ追加。Soma標準化とCore Atlas昇格は保留。; evidence: deltadb-introduction, claude-mem-releases, soma-protocol-repo, bellman-trust, deepinfer-deployment-qa, eagle4-repo, eagle4-compatibility, vllm-repo, sglang-repo
 - material-finding; enterprise-shaped-outcome-grounded-coding-evaluation: Independent programs converge on private or enterprise-shaped coding tasks and behavior-level postconditions. The practice is stronger than importing public leaderboard ranks, but private curation, model–harness confounding, narrow workloads, and omitted non-diff merge factors prevent universal ranking claims. / 独立programはprivateまたはenterprise-shaped coding taskと挙動level postconditionへ収束。public leaderboard順位の輸入より強いpracticeだが、private curate、model–harness交絡、狭いworkload、非diff merge要因の欠落により普遍的ranking主張はできない。; evidence: snowflake-snowpr, cognition-frontiercode-2, ibm-scarfbench-kaggle, frontiercode-independent-audit, artificial-analysis-frontiercode-2
 - editorial-decision; enterprise-shaped-outcome-grounded-coding-evaluation: Create a bounded PILOT category for enterprise-shaped, outcome-grounded coding evaluation. Start with five private merged changes and deterministic business-state assertions; do not add named products, import vendor rankings, change existing scores or statuses, or promote Core Atlas. / enterprise-shaped・成果基準coding評価を限定PILOT category化。private merged change 5件と決定的business-state assertionから始め、名前付き製品追加、vendor ranking輸入、既存score・status変更、Core Atlas昇格は行わない。; evidence: snowflake-snowpr, cognition-frontiercode-2, ibm-scarfbench-kaggle, frontiercode-independent-audit, artificial-analysis-frontiercode-2
+- material-finding; multi-harness-control-plane: The operating layer is moving above individual harnesses: independent systems now coordinate interchangeable native agents while centralizing isolation, state, budgets, policy, and review. Category convergence is strong; comparative outcome evidence is absent. / 運用layerは個別harnessの上位へ移行し、独立systemが交換可能なnative agentを調整しつつ、隔離、state、budget、policy、reviewを集中管理する。category収束は強いが、比較成果証拠はない。; evidence: github-agentic-engineering-2026-11-06, omnigent-repo, ciab-repo, claudexor-repo
+- editorial-decision; multi-harness-control-plane: Create a three-implementation multi-harness control-plane PILOT category. Compare one controller with a single-agent baseline on accepted-work quality per cost, recovery, intervention, and review burden; do not add named product records or promote Core Atlas. / 3実装のmulti-harness control-plane PILOT categoryを作成。1つのcontrollerを単一agent baselineと比較し、費用当たりaccepted-work品質、復旧、介入、review負荷を測定する。名前付きproduct記録の追加やCore Atlas昇格は行わない。; evidence: omnigent-repo, ciab-repo, claudexor-repo
 
 ## Signals / シグナル
 
@@ -988,6 +1007,18 @@ Evidence: snowflake-snowpr, cognition-frontiercode-2, ibm-scarfbench-kaggle, fro
 - Provenance / 来歴: discovery; partially-verified; 2026-10-28
 - History / 履歴:
   - 2026-10-28: Spawned as a PILOT category after three independent programs converged on private or enterprise-shaped work and behavior-level postconditions, with portability and construct-validity limits kept explicit. / 3つの独立programがprivateまたはenterprise-shapedなworkと挙動level postconditionへ収束し、移植性とconstruct-validityの限界を明示したためPILOT category化。
+
+### Multi-harness control plane / マルチハーネス・コントロールプレーン
+- Adoption stage / 導入段階: PILOT (44/100)
+- Scores / スコア: frontier 92, fit 94, confidence 82
+- Recommendation / 推奨: PILOT one repository against a single-agent baseline with per-task worktrees, typed budgets, evidence receipts, and explicit promotion authority; measure accepted-work quality per cost, recovery, intervention, and review burden. / 1 repositoryで単一agent baselineと比較するPILOTを行い、task別worktree、typed budget、evidence receipt、明示的promotion権限を使う。費用当たりaccepted-work品質、復旧、介入、review負荷を測定する。
+- Compatibility / 互換性: UNKNOWN — No Stangyode workload has compared a multi-harness controller with a single-agent baseline. / Stangyode作業ではmulti-harness controllerと単一agent baselineを比較していない。
+- Trade-offs / トレードオフ:
+  - Omnigent, CIAB, and Claudexor independently preserve vendor-native harnesses while centralizing routing, isolation, state, policy, and review. / Omnigent、CIAB、Claudexorは独立にvendor-native harnessを維持しつつ、routing、隔離、state、policy、reviewを集中管理する。
+  - Capabilities are project-authored and no matched-task comparison proves better accepted-work rates; the extra control plane also adds credential, state, and failure-recovery complexity. / 能力はproject作者の主張であり、matched-task比較によるaccepted-work率の向上は未証明。追加control planeは資格情報、state、障害復旧の複雑性も増やす。
+- Provenance / 来歴: discovery; partially-verified; 2026-11-08
+- History / 履歴:
+  - 2026-11-08: Spawned as a durable PILOT category after three independent implementations converged on a control layer above interchangeable native coding harnesses. / 交換可能なnative coding harnessの上位制御layerへ3つの独立実装が収束したため、持続的PILOT categoryとして追加。
 
 ## GitHub discovery input / GitHub発見入力
 
