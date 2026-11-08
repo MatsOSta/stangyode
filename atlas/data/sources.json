@@ -1934,5 +1934,37 @@
       "en": "Independent sibling implementation running all 132 private tasks three times with the Stirrup harness; confirms that published results are model–harness–judge configurations rather than model-only measurements.",
       "ja": "132件のprivate taskをStirrup harnessで各3回実行する独立sibling実装。公開結果がmodel単体ではなくmodel–harness–judge構成の測定であることを確認。"
     }
+  },
+  "github-agentic-engineering-2026-11-06": {
+    "title": "Beyond code generation: A developer's guide to agentic engineering",
+    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+    "note": {
+      "en": "First-party GitHub account of a Plan–Build–Verify–Observe lifecycle; it supports lifecycle convergence, not comparative control-plane outcomes.",
+      "ja": "Plan–Build–Verify–Observe lifecycleを示すGitHub一次資料。lifecycle収束の証拠であり、control planeの比較成果を証明しない。"
+    }
+  },
+  "omnigent-repo": {
+    "title": "Omnigent repository",
+    "url": "https://github.com/omnigent-ai/omnigent",
+    "note": {
+      "en": "First-party open implementation of a meta-harness spanning Claude Code, Codex, Cursor, Pi, and custom agents with policy, sandbox, and shared-session controls.",
+      "ja": "Claude Code、Codex、Cursor、Pi、custom agentをpolicy、sandbox、共有session制御で束ねるmeta-harnessの一次公開実装。"
+    }
+  },
+  "ciab-repo": {
+    "title": "CIAB repository",
+    "url": "https://github.com/shakedaskayo/ciab",
+    "note": {
+      "en": "Sibling open control-plane implementation for Claude Code, Codex, Gemini CLI, and Cursor across isolated local, container, Kubernetes, and EC2 execution.",
+      "ja": "Claude Code、Codex、Gemini CLI、Cursorを隔離local、container、Kubernetes、EC2実行で扱う同等の公開control-plane実装。"
+    }
+  },
+  "claudexor-repo": {
+    "title": "Claudexor repository",
+    "url": "https://github.com/razzant/claudexor",
+    "note": {
+      "en": "Sibling local-first control plane for multiple native coding harnesses with typed budgets, isolated candidates, cross-family review, and explicit apply gates.",
+      "ja": "typed budget、隔離candidate、cross-family review、明示apply gateを持つ複数native coding harness向けlocal-first control planeの同等実装。"
+    }
   }
 }
