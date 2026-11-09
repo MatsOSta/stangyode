@@ -483,6 +483,32 @@
         "ciab-repo",
         "claudexor-repo"
       ]
+    },
+    {
+      "id": "lunar-airlock-authority-category-split",
+      "type": "named-category-split",
+      "namedEntityId": "lunar-airlock",
+      "categoryId": "governed-agent-fleet-authority",
+      "competitorSourceId": "github-copilot-managed-agent-permissions",
+      "expectedCategoryStage": "pilot"
+    },
+    {
+      "id": "governed-agent-fleet-authority-independent-implementations",
+      "type": "category-evidence-threshold",
+      "signalId": "governed-agent-fleet-authority",
+      "minimumIndependentOrganizations": 4,
+      "requiredOrganizationIds": [
+        "lunareng",
+        "github",
+        "airlock-bot",
+        "hashicorp"
+      ],
+      "requiredSourceIds": [
+        "lunar-airlock-actions",
+        "github-copilot-managed-agent-permissions",
+        "airlockbot-permissions",
+        "hashicorp-consul-mcp-sidecar"
+      ]
     }
   ]
 }

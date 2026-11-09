@@ -1966,5 +1966,45 @@
       "en": "Sibling local-first control plane for multiple native coding harnesses with typed budgets, isolated candidates, cross-family review, and explicit apply gates.",
       "ja": "typed budget、隔離candidate、cross-family review、明示apply gateを持つ複数native coding harness向けlocal-first control planeの同等実装。"
     }
+  },
+  "lunar-airlock-docs": {
+    "title": "Lunar Airlock documentation",
+    "url": "https://airlock.lunareng.com/docs",
+    "note": {
+      "en": "First-party documentation entry point for role-bounded coding-agent identities, policy, autonomy gates, and run records; the public page is application-rendered and does not establish independent adoption or bypass resistance.",
+      "ja": "role限定coding-agent identity、policy、autonomy gate、run記録の一次documentation入口。公開pageはapplication描画であり、独立adoptionやbypass耐性を証明しない。"
+    }
+  },
+  "lunar-airlock-actions": {
+    "title": "Lunar Airlock GitHub Actions",
+    "url": "https://github.com/lunareng/airlock-actions",
+    "note": {
+      "en": "First-party public action implementing OIDC-proven one-hour role-scoped credentials, shadow mode, path-sensitive autonomy levels, exact-commit approval, separation-of-duties checks, and policy validation; no independent security evaluation is included.",
+      "ja": "OIDC証明付き1時間role限定credential、shadow mode、path依存autonomy level、exact-commit承認、職務分離check、policy validationを実装する公開一次action。独立security評価は含まれない。"
+    }
+  },
+  "github-copilot-managed-agent-permissions": {
+    "title": "Enterprise managed permissions for GitHub Copilot agent operations",
+    "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations/",
+    "note": {
+      "en": "First-party GitHub release describing centrally managed deny, ask, and allow controls for shell, file, and network operations that users and workspaces cannot weaken; it supports category convergence, not Lunar-specific validation.",
+      "ja": "shell、file、network操作に対する中央管理deny・ask・allow制御を説明するGitHub一次release。userやworkspaceは制約を弱められず、category収束を支持するがLunar固有の検証ではない。"
+    }
+  },
+  "airlockbot-permissions": {
+    "title": "Airlock permissions",
+    "url": "https://docs.airlock.bot/concepts/permissions",
+    "note": {
+      "en": "Independent sibling implementation documenting per-agent default-deny tool policy, tool hiding, human approval, command and argument constraints, and domain allowlists; it is separate from Lunar Airlock.",
+      "ja": "agent別default-deny tool policy、tool非表示、人間承認、command・argument制約、domain allowlistを記す独立同等実装。Lunar Airlockとは別物。"
+    }
+  },
+  "hashicorp-consul-mcp-sidecar": {
+    "title": "HashiCorp Consul MCP sidecar",
+    "url": "https://developer.hashicorp.com/consul/docs/agentic-mesh/mcp-sidecar",
+    "note": {
+      "en": "First-party beta enterprise sibling separating workload identity, delegated authority, tool policy, approval evidence, routing, and operational records; HashiCorp discourages production use while the feature remains beta.",
+      "ja": "workload identity、delegated authority、tool policy、approval evidence、routing、運用記録を分離するenterprise beta同等実装。HashiCorpはbeta中の本番利用を推奨していない。"
+    }
   }
 }

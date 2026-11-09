@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-11-08
+Snapshot / スナップショット: 2026-11-09
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,16 +8,16 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-11-08T07:02:36.160Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-11-09T07:09:36.322Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: SUCCESS; last success 2026-11-08T07:02:36.160Z; failure streak 0; last failure validation at 2026-11-07T07:02:08.091Z (resolved)
-- editor: SUCCESS; last success 2026-11-08T07:02:36.160Z; failure streak 0; last failure validation at 2026-11-07T07:02:08.091Z (resolved)
+- scout: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 1; last failure rate_limit at 2026-11-09T07:02:28.771Z (unresolved)
+- editor: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 1; last failure rate_limit at 2026-11-09T07:02:28.771Z (unresolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: CHECKED
+- github-public: FAILED — The targeted public GitHub update fetch failed on the a2a query because of a public API rate limit; no current GitHub signals are available, and prior results are not current. / 範囲限定のGitHub公開更新取得はa2aクエリで公開APIのレート制限により失敗した。現在のGitHubシグナルは利用できず、過去の結果は現時点の結果として扱わない。
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
@@ -98,6 +98,11 @@ As of / 基準時刻: 2026-11-08T07:02:36.160Z; cadence / 頻度: daily; data / 
 - [Omnigent repository](https://github.com/omnigent-ai/omnigent): relevant; checked 2026-11-08; source omnigent-repo
 - [CIAB repository](https://github.com/shakedaskayo/ciab): relevant; checked 2026-11-08; source ciab-repo
 - [Claudexor repository](https://github.com/razzant/claudexor): relevant; checked 2026-11-08; source claudexor-repo
+- [Lunar Airlock documentation](https://airlock.lunareng.com/docs): relevant; checked 2026-11-09; source lunar-airlock-docs
+- [Lunar Airlock GitHub Actions](https://github.com/lunareng/airlock-actions): relevant; checked 2026-11-09; source lunar-airlock-actions
+- [Enterprise managed permissions for GitHub Copilot agent operations](https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations/): relevant; checked 2026-11-09; source github-copilot-managed-agent-permissions
+- [Airlock permissions](https://docs.airlock.bot/concepts/permissions): relevant; checked 2026-11-09; source airlockbot-permissions
+- [HashiCorp Consul MCP sidecar](https://developer.hashicorp.com/consul/docs/agentic-mesh/mcp-sidecar): relevant; checked 2026-11-09; source hashicorp-consul-mcp-sidecar
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -230,11 +235,24 @@ Evidence: github-agentic-engineering-2026-11-06, omnigent-repo, ciab-repo, claud
 - `CIAB Claude Code Codex Gemini CLI Cursor isolated sandboxes unified API`
 - `Claudexor multi-harness control plane Claude Code Codex Cursor OpenCode`
 
+### Governed agent-fleet authority first-party and sibling challenge / 統治されたagent fleet権限の一次情報・同等実装検証
+Lunar exposes a concrete identity, scope, shadow, and exact-commit gate, while GitHub, Airlock.bot, and HashiCorp establish category convergence. Independent security, adoption, bypass, and outcome evidence remains absent. / Lunarは具体的なidentity、scope、shadow、exact-commit gateを示し、GitHub、Airlock.bot、HashiCorpがcategory収束を裏付ける。独立security、adoption、bypass、成果証拠は依然ない。
+
+Targets: lunar-airlock, governed-agent-fleet-authority
+
+Evidence: lunar-airlock-docs, lunar-airlock-actions, github-copilot-managed-agent-permissions, airlockbot-permissions, hashicorp-consul-mcp-sidecar
+
+- `Lunar Airlock release alternatives adoption benchmark criticism`
+- `governed coding agent fleet policy identity approval audit sibling implementations`
+- `GitHub Copilot enterprise managed agent permissions deny ask allow`
+- `Airlock.bot per-agent permissions approval default deny`
+- `HashiCorp Consul MCP sidecar identity policy human approval evidence`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation, multi-harness-control-plane
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation, multi-harness-control-plane, lunar-airlock, governed-agent-fleet-authority
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08, radar-daily-2026-11-09
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -261,6 +279,8 @@ Evidence: github-agentic-engineering-2026-11-06, omnigent-repo, ciab-repo, claud
 - editorial-decision; enterprise-shaped-outcome-grounded-coding-evaluation: Create a bounded PILOT category for enterprise-shaped, outcome-grounded coding evaluation. Start with five private merged changes and deterministic business-state assertions; do not add named products, import vendor rankings, change existing scores or statuses, or promote Core Atlas. / enterprise-shaped・成果基準coding評価を限定PILOT category化。private merged change 5件と決定的business-state assertionから始め、名前付き製品追加、vendor ranking輸入、既存score・status変更、Core Atlas昇格は行わない。; evidence: snowflake-snowpr, cognition-frontiercode-2, ibm-scarfbench-kaggle, frontiercode-independent-audit, artificial-analysis-frontiercode-2
 - material-finding; multi-harness-control-plane: The operating layer is moving above individual harnesses: independent systems now coordinate interchangeable native agents while centralizing isolation, state, budgets, policy, and review. Category convergence is strong; comparative outcome evidence is absent. / 運用layerは個別harnessの上位へ移行し、独立systemが交換可能なnative agentを調整しつつ、隔離、state、budget、policy、reviewを集中管理する。category収束は強いが、比較成果証拠はない。; evidence: github-agentic-engineering-2026-11-06, omnigent-repo, ciab-repo, claudexor-repo
 - editorial-decision; multi-harness-control-plane: Create a three-implementation multi-harness control-plane PILOT category. Compare one controller with a single-agent baseline on accepted-work quality per cost, recovery, intervention, and review burden; do not add named product records or promote Core Atlas. / 3実装のmulti-harness control-plane PILOT categoryを作成。1つのcontrollerを単一agent baselineと比較し、費用当たりaccepted-work品質、復旧、介入、review負荷を測定する。名前付きproduct記録の追加やCore Atlas昇格は行わない。; evidence: omnigent-repo, ciab-repo, claudexor-repo
+- material-finding; lunar-airlock, governed-agent-fleet-authority: Fleet operation is separating authority from execution: independent implementations now bind agent identity, scoped tools or credentials, policy decisions, human escalation, and records. Convergence is strong; Lunar-specific adoption and category-wide bypass efficacy remain unverified. / fleet運用では権限が実行から分離し、独立実装がagent identity、限定tool・credential、policy decision、人間escalation、記録を結び付ける。収束は強いが、Lunar固有adoptionとcategory全体のbypass有効性は未検証。; evidence: lunar-airlock-docs, lunar-airlock-actions, github-copilot-managed-agent-permissions, airlockbot-permissions, hashicorp-consul-mcp-sidecar
+- editorial-decision; lunar-airlock, governed-agent-fleet-authority: Add Lunar Airlock and a four-implementation governed agent-fleet authority category at bounded PILOT. Start in shadow mode, preserve an independent merge gate, measure grants, refusals, approval binding, revocation, bypass resistance, and audit completeness; do not promote Core Atlas. / Lunar Airlockと4実装の統治されたagent fleet権限categoryを限定PILOTへ追加。shadow modeから始め、独立merge gateを維持し、許可、拒否、approval binding、失効、bypass耐性、audit完全性を測定する。Core Atlasへ昇格しない。; evidence: lunar-airlock-actions, github-copilot-managed-agent-permissions, airlockbot-permissions, hashicorp-consul-mcp-sidecar
 
 ## Signals / シグナル
 
@@ -1020,20 +1040,44 @@ Evidence: github-agentic-engineering-2026-11-06, omnigent-repo, ciab-repo, claud
 - History / 履歴:
   - 2026-11-08: Spawned as a durable PILOT category after three independent implementations converged on a control layer above interchangeable native coding harnesses. / 交換可能なnative coding harnessの上位制御layerへ3つの独立実装が収束したため、持続的PILOT categoryとして追加。
 
+### Lunar Airlock / Lunar Airlock
+- Adoption stage / 導入段階: PILOT (22/100)
+- Scores / スコア: frontier 93, fit 96, confidence 80
+- Recommendation / 推奨: PILOT in shadow mode on one non-production repository, then allow only reversible low-risk actions with an independent merge gate; measure false grants and refusals, approval latency, credential revocation, and audit reconstruction. / 非本番repository 1件でshadow modeのPILOTを行い、その後も独立merge gate付きの可逆的low-risk actionだけを許可する。誤許可・誤拒否、承認latency、credential失効、audit再構築を測定する。
+- Compatibility / 互換性: UNKNOWN — No Airlock policy, token, approval, retry, or bypass path has been exercised against a Stangyode workload. / Stangyode workloadでAirlockのpolicy、token、承認、retry、bypass経路を試していない。
+- Trade-offs / トレードオフ:
+  - The public action concretely binds GitHub OIDC identity, one-hour role scope, shadow decisions, path-sensitive autonomy, exact-commit approval, and separation-of-duties checks. / 公開actionはGitHub OIDC identity、1時間role scope、shadow decision、path依存autonomy、exact-commit承認、職務分離checkを具体的に結び付ける。
+  - Evidence is project-authored and the public repository is new; no independent security evaluation, customer evidence, benchmark, or measured reduction in unauthorized actions was found. / 証拠はproject作者によるもので公開repositoryも新しい。独立security評価、顧客証拠、benchmark、不正action削減の測定は確認できない。
+- Provenance / 来歴: discovery; partially-verified; 2026-11-09
+- History / 履歴:
+  - 2026-11-09: Added at bounded PILOT because identity, scope, shadowing, and exact-commit approval are concrete, while adoption and bypass resistance remain unverified. / identity、scope、shadowing、exact-commit承認が具体的なため限定PILOTへ追加。ただしadoptionとbypass耐性は未検証。
+
+### Governed agent-fleet authority / 統治されたエージェントfleet権限
+- Adoption stage / 導入段階: PILOT (56/100)
+- Scores / スコア: frontier 94, fit 98, confidence 88
+- Recommendation / 推奨: PILOT a shadow-first authority layer for low- and medium-risk work with short-lived identities, default-deny scope, approval evidence bound to the exact action, and an independent merge gate; measure coverage, false grants and refusals, revocation, bypass resistance, and audit completeness. / 短命identity、default-deny scope、exact actionに紐づくapproval evidence、独立merge gateを使い、low・medium-risk作業向けshadow-first権限layerをPILOTする。coverage、誤許可・誤拒否、失効、bypass耐性、audit完全性を測定する。
+- Compatibility / 互換性: UNKNOWN — No implementation has been compared on a shared policy matrix, bypass suite, approval-integrity test, or Stangyode workflow. / 共通policy matrix、bypass suite、approval-integrity試験、Stangyode workflowで実装比較をしていない。
+- Trade-offs / トレードオフ:
+  - Lunar Airlock, GitHub Copilot managed permissions, Airlock.bot, and HashiCorp Consul independently converge on identity-aware policy, tool scope, human escalation, and decision records. / Lunar Airlock、GitHub Copilot managed permissions、Airlock.bot、HashiCorp Consulはidentity-aware policy、tool scope、人間escalation、decision recordへ独立に収束する。
+  - The implementations are not equivalent: policy attachment, credential issuance, approval binding, enforcement location, client coverage, maturity, and fail-open behavior differ; no common bypass or outcome benchmark exists. / 実装は同等ではない。policy付与、credential発行、approval binding、enforcement位置、client coverage、成熟度、fail-open挙動が異なり、共通bypass・成果benchmarkもない。
+- Provenance / 来歴: discovery; partially-verified; 2026-11-09
+- History / 履歴:
+  - 2026-11-09: Spawned as a durable PILOT category after four independent implementations converged on identity-aware policy, scoped tools, human approval, and decision evidence. / 4つの独立実装がidentity-aware policy、限定tool、人間承認、decision evidenceへ収束したため、持続的PILOT categoryとして追加。
+
 ## GitHub discovery input / GitHub発見入力
 
 Public observation input only. Living candidates live in discovery-candidates.json. Absence of a repository is not a negative finding. Queries may be phenomenon-based and need not match Core Atlas terms. / 公開観測の入力のみ。生きた候補は discovery-candidates.json にある。リポジトリがないことは否定的発見ではない。クエリは現象ベースでよく、コア・アトラス用語と一致する必要はない。
 
 Provider / プロバイダー: github; mode / モード: public-api; live fetch / ライブ取得: yes
 
-- typed-decision-models: typed probabilistic decision model System One (collected)
-- agent-skills: topic:agent-skills (collected)
-- mcp-apps: topic:mcp-apps (collected)
-- a2a: topic:agent-to-agent (collected)
-- agentic-resource-discovery-ard: topic:agentic-resource-discovery (collected)
-- ponytail: ponytail (collected)
-- caveman: caveman (collected)
+- typed-decision-models: typed probabilistic decision model System One (not-collected)
+- agent-skills: topic:agent-skills (not-collected)
+- mcp-apps: topic:mcp-apps (not-collected)
+- a2a: topic:agent-to-agent (failed)
+- agentic-resource-discovery-ard: topic:agentic-resource-discovery (not-collected)
+- ponytail: ponytail (not-collected)
+- caveman: caveman (not-collected)
 
-Collected signals / 収集済みシグナル: 35
+Collected signals / 収集済みシグナル: 0
 
 Generated by atlas/scripts/render-frontier-briefing.mjs; deterministic for the checked-in inputs.
