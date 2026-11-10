@@ -55,7 +55,7 @@
   "signals": [],
   "lastRun": {
     "status": "failed",
-    "attemptedAt": "2026-11-09T07:02:28.771Z",
+    "attemptedAt": "2026-11-10T07:09:16.560Z",
     "completedAt": null,
     "queryCount": 7,
     "successfulQueries": 0,
@@ -69,7 +69,7 @@
     "rateLimit": {
       "limit": 10,
       "remaining": 0,
-      "resetAt": "2026-11-09T07:03:16Z"
+      "resetAt": "2026-11-10T07:09:56Z"
     }
   }
 }

@@ -1,6 +1,6 @@
 # AI Frontier Radar and Adoption Intelligence / AIフロンティア・レーダーと導入インテリジェンス
 
-Snapshot / スナップショット: 2026-11-09
+Snapshot / スナップショット: 2026-11-10
 
 A bounded evidence inventory for deciding what to watch, test, or defer. / 何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。
 
@@ -8,16 +8,16 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-11-09T07:09:36.322Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-11-10T07:10:28.000Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 1; last failure rate_limit at 2026-11-09T07:02:28.771Z (unresolved)
-- editor: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 1; last failure rate_limit at 2026-11-09T07:02:28.771Z (unresolved)
+- scout: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 2; last failure rate_limit at 2026-11-10T07:09:16.560Z (unresolved)
+- editor: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 2; last failure rate_limit at 2026-11-10T07:09:16.560Z (unresolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: FAILED — The targeted public GitHub update fetch failed on the a2a query because of a public API rate limit; no current GitHub signals are available, and prior results are not current. / 範囲限定のGitHub公開更新取得はa2aクエリで公開APIのレート制限により失敗した。現在のGitHubシグナルは利用できず、過去の結果は現時点の結果として扱わない。
+- github-public: FAILED — The targeted public GitHub update fetch failed on the a2a query because of a public API rate limit; zero of seven queries were collected, no current GitHub signals are available, and prior results are not current. / 範囲限定のGitHub公開更新取得はa2aクエリで公開APIのレート制限により失敗した。7件中0件のqueryを取得し、現在のGitHubシグナルは利用できず、過去の結果は現時点の結果として扱わない。
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
@@ -103,6 +103,12 @@ As of / 基準時刻: 2026-11-09T07:09:36.322Z; cadence / 頻度: daily; data / 
 - [Enterprise managed permissions for GitHub Copilot agent operations](https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations/): relevant; checked 2026-11-09; source github-copilot-managed-agent-permissions
 - [Airlock permissions](https://docs.airlock.bot/concepts/permissions): relevant; checked 2026-11-09; source airlockbot-permissions
 - [HashiCorp Consul MCP sidecar](https://developer.hashicorp.com/consul/docs/agentic-mesh/mcp-sidecar): relevant; checked 2026-11-09; source hashicorp-consul-mcp-sidecar
+- [ZTHR pattern language](https://zthr.ai): relevant; checked 2026-11-10; source zthr-site
+- [ZTHR reference implementation](https://github.com/russlittle/ZTHR/tree/reference-implementation): relevant; checked 2026-11-10; source zthr-reference-implementation
+- [Co-Design Bench](https://arxiv.org/html/2610.35138): relevant; checked 2026-11-10; source co-design-bench-paper
+- [Co-Design Bench repository](https://github.com/Wiselnn570/Co-Design-Bench): relevant; checked 2026-11-10; source co-design-bench-repo
+- [SWE-bench repository](https://github.com/SWE-bench/SWE-bench): relevant; checked 2026-11-10; source swe-bench-repo
+- [Terminal-Bench repository](https://github.com/harbor-framework/terminal-bench-1): relevant; checked 2026-11-10; source terminal-bench-repo
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -248,11 +254,24 @@ Evidence: lunar-airlock-docs, lunar-airlock-actions, github-copilot-managed-agen
 - `Airlock.bot per-agent permissions approval default deny`
 - `HashiCorp Consul MCP sidecar identity policy human approval evidence`
 
+### Protected-intent evaluation first-party and sibling challenge / 保護された意図評価の一次情報・同等実装検証
+ZTHR and Co-Design Bench enter separate bounded PILOT records and strengthen the existing evaluator-owned acceptance-artifact category to six implementations. SWE-bench and Terminal-Bench support executable-oracle convergence, but independent adoption, judge reliability, and full intent coverage remain unproven. / ZTHRとCo-Design Benchを別々の限定PILOT記録として追加し、既存の評価者所有受入artifact categoryを6実装へ強化。SWE-benchとTerminal-Benchは実行可能oracleへの収束を支持するが、独立adoption、judge信頼性、完全な意図coverageは未証明。
+
+Targets: zthr, co-design-bench, replayable-evaluator-owned-acceptance-artifacts
+
+Evidence: zthr-site, zthr-reference-implementation, co-design-bench-paper, co-design-bench-repo, swe-bench-repo, terminal-bench-repo
+
+- `ZTHR release alternatives adoption benchmark criticism`
+- `Co-Design Bench alternatives adoption benchmark criticism hidden criteria refutation`
+- `protected intent independent evaluator agent-produced software sibling implementations`
+- `SWE-bench evaluator-owned tests reproducible containers`
+- `Terminal-Bench task-specific tests oracle solutions sandbox`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
-- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation, multi-harness-control-plane, lunar-airlock, governed-agent-fleet-authority
+- jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation, multi-harness-control-plane, lunar-airlock, governed-agent-fleet-authority, zthr, co-design-bench
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08, radar-daily-2026-11-09
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08, radar-daily-2026-11-09, radar-daily-2026-11-10
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -281,6 +300,8 @@ Evidence: lunar-airlock-docs, lunar-airlock-actions, github-copilot-managed-agen
 - editorial-decision; multi-harness-control-plane: Create a three-implementation multi-harness control-plane PILOT category. Compare one controller with a single-agent baseline on accepted-work quality per cost, recovery, intervention, and review burden; do not add named product records or promote Core Atlas. / 3実装のmulti-harness control-plane PILOT categoryを作成。1つのcontrollerを単一agent baselineと比較し、費用当たりaccepted-work品質、復旧、介入、review負荷を測定する。名前付きproduct記録の追加やCore Atlas昇格は行わない。; evidence: omnigent-repo, ciab-repo, claudexor-repo
 - material-finding; lunar-airlock, governed-agent-fleet-authority: Fleet operation is separating authority from execution: independent implementations now bind agent identity, scoped tools or credentials, policy decisions, human escalation, and records. Convergence is strong; Lunar-specific adoption and category-wide bypass efficacy remain unverified. / fleet運用では権限が実行から分離し、独立実装がagent identity、限定tool・credential、policy decision、人間escalation、記録を結び付ける。収束は強いが、Lunar固有adoptionとcategory全体のbypass有効性は未検証。; evidence: lunar-airlock-docs, lunar-airlock-actions, github-copilot-managed-agent-permissions, airlockbot-permissions, hashicorp-consul-mcp-sidecar
 - editorial-decision; lunar-airlock, governed-agent-fleet-authority: Add Lunar Airlock and a four-implementation governed agent-fleet authority category at bounded PILOT. Start in shadow mode, preserve an independent merge gate, measure grants, refusals, approval binding, revocation, bypass resistance, and audit completeness; do not promote Core Atlas. / Lunar Airlockと4実装の統治されたagent fleet権限categoryを限定PILOTへ追加。shadow modeから始め、独立merge gateを維持し、許可、拒否、approval binding、失効、bypass耐性、audit完全性を測定する。Core Atlasへ昇格しない。; evidence: lunar-airlock-actions, github-copilot-managed-agent-permissions, airlockbot-permissions, hashicorp-consul-mcp-sidecar
+- material-finding; zthr, co-design-bench, replayable-evaluator-owned-acceptance-artifacts: ZTHR protects declared intent with locked journeys and deterministic evidence, while Co-Design Bench applies hidden criteria and a refutation pass to multimodal repository tasks. Both are concrete, but ZTHR evidence is author-run, Co-Design is only partially public and LLM-judged, and neither establishes independent adoption. / ZTHRはlocked journeyと決定論的evidenceで宣言意図を保護し、Co-Design Benchはmultimodal repository taskへhidden criteriaとrefutation passを適用する。両者とも具体的だが、ZTHR証拠は作者実施、Co-Designは一部公開かつLLM判定で、独立adoptionは確立していない。; evidence: zthr-site, zthr-reference-implementation, co-design-bench-paper, co-design-bench-repo, swe-bench-repo, terminal-bench-repo
+- editorial-decision; zthr, co-design-bench, replayable-evaluator-owned-acceptance-artifacts: Add ZTHR and Co-Design Bench as separate bounded PILOT records, add both as implementations of the existing evaluator-owned acceptance-artifact category without changing its WATCH status or scores, and make no Core Atlas promotion. / ZTHRとCo-Design Benchを別々の限定PILOT記録として追加し、既存の評価者所有受入artifact categoryへ両方を実装として加える。categoryのWATCH状態・scoreは変更せず、Core Atlas昇格もしない。; evidence: zthr-site, zthr-reference-implementation, co-design-bench-paper, co-design-bench-repo
 
 ## Signals / シグナル
 
@@ -616,6 +637,7 @@ Evidence: lunar-airlock-docs, lunar-airlock-actions, github-copilot-managed-agen
 - History / 履歴:
   - 2026-10-15: Spawned at WATCH after three independent implementations converged on evaluator-owned, versioned, replayable acceptance evidence while retaining incompatible scopes and judge limits. / 3つの独立実装が評価者所有・版管理・再生可能な受入証拠へ収束したためWATCHでカテゴリ化。対象の非互換性と判定限界は保持。
   - 2026-10-16: LSCBench added executable secure-code fixtures as a fourth independent implementation; WATCH status and scores remain unchanged because benchmark scopes and transfer limits are not interchangeable. / LSCBenchの実行可能な安全コードfixtureを4番目の独立実装として追加。ベンチマーク範囲と転移限界は互換でないため、WATCH状態とスコアは変更しない。
+  - 2026-11-10: ZTHR and Co-Design Bench were added as fifth and sixth implementations; WATCH status and scores remain unchanged because both remain owner-evaluated and transfer to local defects is unverified. / ZTHRとCo-Design Benchを5・6番目の実装として追加。両方ともowner評価で、local defectへの転移も未検証のため、WATCH状態とscoreは変更しない。
 
 ### SPACE / SPACE
 - Adoption stage / 導入段階: PILOT (60/100)
@@ -1063,6 +1085,30 @@ Evidence: lunar-airlock-docs, lunar-airlock-actions, github-copilot-managed-agen
 - Provenance / 来歴: discovery; partially-verified; 2026-11-09
 - History / 履歴:
   - 2026-11-09: Spawned as a durable PILOT category after four independent implementations converged on identity-aware policy, scoped tools, human approval, and decision evidence. / 4つの独立実装がidentity-aware policy、限定tool、人間承認、decision evidenceへ収束したため、持続的PILOT categoryとして追加。
+
+### ZTHR / ZTHR
+- Adoption stage / 導入段階: PILOT (20/100)
+- Scores / スコア: frontier 94, fit 98, confidence 78
+- Recommendation / 推奨: PILOT protected intent on one small, high-risk user journey with fixtures owned outside the producing agent; require mutation sensitivity, deterministic gate evidence, escaped-defect comparison, and human audit before granting any release authority. / 小規模でhigh-riskなuser journey 1件に対し、生成agent外部が所有するfixtureで保護された意図をPILOTする。release権限付与前にmutation感度、決定論的gate evidence、escaped defect比較、人間auditを必須とする。
+- Compatibility / 互換性: UNKNOWN — No ZTHR journey, gate, mutation, or evidence store has been exercised against a Stangyode workflow. / Stangyode workflowでZTHRのjourney、gate、mutation、evidence storeを試していない。
+- Trade-offs / トレードオフ:
+  - Locked journey cards, deterministic gates, mutation-oriented checks, and append-only evidence make intent and admission criteria inspectable rather than letting the producing agent redefine success. / locked journey card、決定論的gate、mutation指向check、append-only evidenceにより、生成agentが成功条件を再定義せず、意図とadmission基準を検査可能にする。
+  - The architecture and reference implementation share one originator; metrics are author-reported, external adoption is unverified, and no independent security or outcome evaluation was found. / architectureと参照実装は同一originatorによる。metricは作者報告で、外部adoptionは未検証、独立security・成果評価も確認できない。
+- Provenance / 来歴: discovery; partially-verified; 2026-11-10
+- History / 履歴:
+  - 2026-11-10: Added at bounded PILOT because protected intent, mutation checks, and deterministic evidence are concrete, while all outcome and adoption evidence remains project-authored. / 保護された意図、mutation check、決定論的evidenceが具体的なため限定PILOTへ追加。ただし成果・adoption証拠はすべてproject作者による。
+
+### Co-Design Bench / Co-Design Bench
+- Adoption stage / 導入段階: PILOT (26/100)
+- Scores / スコア: frontier 92, fit 94, confidence 84
+- Recommendation / 推奨: PILOT the public subset on one representative repository task; audit judge and refuter disagreements against human labels, mutate hidden criteria, and compare complete-task pass rate, cost, and false acceptance with deterministic tests. / 代表的repository task 1件で公開subsetをPILOTする。judgeとrefuterの不一致をhuman labelでauditし、hidden criteriaをmutationし、complete-task pass率、費用、false acceptanceを決定論的testと比較する。
+- Compatibility / 互換性: UNKNOWN — No Co-Design task, hidden criterion, judge, refuter, or browser-evidence path has been calibrated against Stangyode. / Co-Designのtask、hidden criterion、judge、refuter、browser-evidence経路をStangyodeに対して校正していない。
+- Trade-offs / トレードオフ:
+  - Hidden expert criteria, source and browser evidence, criterion-level records, and a separate refutation pass expose the gap between partial requirement coverage and complete task success. / hidden expert criteria、source・browser evidence、criterion単位record、別refutation passにより、部分的requirement coverageとcomplete task成功の差を可視化する。
+  - The public release covers fewer tasks than the paper, both judge and refuter remain owner-controlled LLM components, and no independent reliability audit or external adoption was found. / 公開releaseのtask数は論文より少なく、judgeとrefuterはいずれもowner管理LLM componentのまま。独立信頼性auditや外部adoptionも確認できない。
+- Provenance / 来歴: discovery; partially-verified; 2026-11-10
+- History / 履歴:
+  - 2026-11-10: Added at bounded PILOT because hidden criteria and refutation make complete-task evaluation concrete, while public coverage and judge reliability remain limited. / hidden criteriaとrefutationでcomplete-task評価が具体的なため限定PILOTへ追加。ただし公開coverageとjudge信頼性には制約が残る。
 
 ## GitHub discovery input / GitHub発見入力
 
