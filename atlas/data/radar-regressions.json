@@ -178,18 +178,22 @@
       "id": "acceptance-artifact-independent-implementations",
       "type": "category-evidence-threshold",
       "signalId": "replayable-evaluator-owned-acceptance-artifacts",
-      "minimumIndependentOrganizations": 4,
+      "minimumIndependentOrganizations": 6,
       "requiredOrganizationIds": [
         "ifixai",
         "baai-agentswe",
         "github-reviewbench",
-        "alibaba-lscbench"
+        "alibaba-lscbench",
+        "russlittle-zthr",
+        "alibaba-fudan-codesign"
       ],
       "requiredSourceIds": [
         "ifixai-methodology",
         "agentswe-paper",
         "reviewbench-repo",
-        "lscbench-paper"
+        "lscbench-paper",
+        "zthr-reference-implementation",
+        "co-design-bench-paper"
       ]
     },
     {
@@ -509,6 +513,22 @@
         "airlockbot-permissions",
         "hashicorp-consul-mcp-sidecar"
       ]
+    },
+    {
+      "id": "zthr-acceptance-artifact-category-split",
+      "type": "named-category-split",
+      "namedEntityId": "zthr",
+      "categoryId": "replayable-evaluator-owned-acceptance-artifacts",
+      "competitorSourceId": "co-design-bench-paper",
+      "expectedCategoryStage": "watch"
+    },
+    {
+      "id": "co-design-bench-acceptance-artifact-category-split",
+      "type": "named-category-split",
+      "namedEntityId": "co-design-bench",
+      "categoryId": "replayable-evaluator-owned-acceptance-artifacts",
+      "competitorSourceId": "zthr-reference-implementation",
+      "expectedCategoryStage": "watch"
     }
   ]
 }

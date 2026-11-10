@@ -2006,5 +2006,53 @@
       "en": "First-party beta enterprise sibling separating workload identity, delegated authority, tool policy, approval evidence, routing, and operational records; HashiCorp discourages production use while the feature remains beta.",
       "ja": "workload identity、delegated authority、tool policy、approval evidence、routing、運用記録を分離するenterprise beta同等実装。HashiCorpはbeta中の本番利用を推奨していない。"
     }
+  },
+  "zthr-site": {
+    "title": "ZTHR pattern language",
+    "url": "https://zthr.ai",
+    "note": {
+      "en": "First-party architecture for treating declared intent as protected input and requiring deterministic gates, journey evidence, mutation checks, and explicit non-measurement; outcomes and adoption remain author-reported.",
+      "ja": "宣言された意図を保護入力として扱い、決定論的gate、journey evidence、mutation check、未測定の明示を求める一次architecture。成果と採用は作者報告のまま。"
+    }
+  },
+  "zthr-reference-implementation": {
+    "title": "ZTHR reference implementation",
+    "url": "https://github.com/russlittle/ZTHR/tree/reference-implementation",
+    "note": {
+      "en": "First-party executable reference with locked journey cards, deterministic gates, evidence stores, and mutation-oriented checks; it is not an independent replication of ZTHR.",
+      "ja": "locked journey card、決定論的gate、evidence store、mutation指向checkを備える一次実行参照。ZTHRの独立再現ではない。"
+    }
+  },
+  "co-design-bench-paper": {
+    "title": "Co-Design Bench",
+    "url": "https://arxiv.org/html/2610.35138",
+    "note": {
+      "en": "First-party benchmark paper for multimodal repository tasks with hidden expert criteria, source and browser evidence, and a judge-then-refute protocol; the headline 273-task set is only partially public and judging remains LLM-assisted.",
+      "ja": "hidden expert criteria、source・browser evidence、judge-then-refute手順を持つmultimodal repository task benchmarkの一次論文。主要273-task setは一部のみ公開で、判定はLLM支援のまま。"
+    }
+  },
+  "co-design-bench-repo": {
+    "title": "Co-Design Bench repository",
+    "url": "https://github.com/Wiselnn570/Co-Design-Bench",
+    "note": {
+      "en": "First-party public evaluator and partial dataset release with criterion-level records and refutation passes; public coverage is narrower than the paper and no independent judge audit was found.",
+      "ja": "criterion単位recordとrefutation passを含む一次公開evaluator・部分dataset。公開範囲は論文より狭く、独立judge監査は確認できない。"
+    }
+  },
+  "swe-bench-repo": {
+    "title": "SWE-bench repository",
+    "url": "https://github.com/SWE-bench/SWE-bench",
+    "note": {
+      "en": "Independent sibling benchmark using evaluator-owned tests and reproducible containers for real repository issues; tests can under-specify user intent, so it supports executable-oracle convergence rather than full intent preservation.",
+      "ja": "実repository issueに評価者所有testと再現可能containerを使う独立同等benchmark。testはuser intentを過少指定し得るため、完全な意図保全ではなく実行可能oracleへの収束を支持する。"
+    }
+  },
+  "terminal-bench-repo": {
+    "title": "Terminal-Bench repository",
+    "url": "https://github.com/harbor-framework/terminal-bench-1",
+    "note": {
+      "en": "Independent sibling benchmark with task instructions, sandboxed execution, task-specific tests, and oracle solutions; it is broader terminal evaluation rather than a direct software-intent benchmark.",
+      "ja": "task instruction、sandbox実行、task固有test、oracle solutionを持つ独立同等benchmark。software intentの直接benchmarkではなく、より広いterminal評価。"
+    }
   }
 }

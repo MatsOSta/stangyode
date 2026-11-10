@@ -202,5 +202,11 @@
     "label": "radar-daily-2026-11-09",
     "en": "Daily Radar: Lunar Airlock enters bounded PILOT separately from a four-implementation governed agent-fleet authority PILOT category. Broad hype discovery succeeded; targeted GitHub discovery was rate-limited and is published as failed with no prior signals treated as current.",
     "ja": "日次レーダー：Lunar Airlockを限定PILOTへ追加し、別記録として4実装の統治されたagent fleet権限PILOT categoryを追加。広範なhype discoveryは成功したが、範囲限定GitHub discoveryはrate limitで失敗し、過去signalを現在扱いせず失敗状態を公開。"
+  },
+  {
+    "date": "2026-11-10",
+    "label": "radar-daily-2026-11-10",
+    "en": "Daily Radar: ZTHR and Co-Design Bench enter separate bounded PILOT records and strengthen replayable evaluator-owned acceptance artifacts from four to six implementations without changing its WATCH score. Broad hype discovery succeeded; targeted GitHub discovery failed under rate limiting and remains an explicit coverage gap. No existing score/status or Core Atlas term changed.",
+    "ja": "日次レーダー：ZTHRとCo-Design Benchを別々の限定PILOT記録として追加し、再生可能な評価者所有受入artifactを4実装から6実装へ強化。WATCH scoreは変更しない。広範hype discoveryは成功したが、範囲限定GitHub discoveryはrate limitで失敗し、明示的coverage gapとして残す。既存score・status、Core Atlas用語は変更しない。"
   }
 ]

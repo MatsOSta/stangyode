@@ -9,36 +9,36 @@
       "en": "A bounded evidence inventory for deciding what to watch, test, or defer.",
       "ja": "何を観測し、試し、保留するかを決めるための、範囲を限定した証拠インベントリ。"
     },
-    "snapshot": "2026-11-09",
+    "snapshot": "2026-11-10",
     "evidencePolicy": {
       "en": "Seed items remain seed-era judgments until re-verified. New Radar items must keep provenance, history, and evidence state visible. Sensors are not proof.",
       "ja": "シード項目は再検証までシード判断のまま。新規レーダー項目は来歴、履歴、証拠状態を明示する。センサーは証明ではない。"
     }
   },
   "audit": {
-    "asOf": "2026-11-09T07:09:36.322Z",
+    "asOf": "2026-11-10T07:10:28.000Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-09T07:09:36.322Z",
+        "lastAttemptAt": "2026-11-10T07:10:28.000Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 1,
+        "failureStreak": 2,
         "lastFailure": {
-          "at": "2026-11-09T07:02:28.771Z",
+          "at": "2026-11-10T07:09:16.560Z",
           "class": "rate_limit",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-09T07:09:36.322Z",
+        "lastAttemptAt": "2026-11-10T07:10:28.000Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 1,
+        "failureStreak": 2,
         "lastFailure": {
-          "at": "2026-11-09T07:02:28.771Z",
+          "at": "2026-11-10T07:09:16.560Z",
           "class": "rate_limit",
           "resolved": false
         }
@@ -454,6 +454,36 @@
         "sourceId": "hashicorp-consul-mcp-sidecar",
         "checkedAt": "2026-11-09",
         "outcome": "relevant"
+      },
+      {
+        "sourceId": "zthr-site",
+        "checkedAt": "2026-11-10",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "zthr-reference-implementation",
+        "checkedAt": "2026-11-10",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "co-design-bench-paper",
+        "checkedAt": "2026-11-10",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "co-design-bench-repo",
+        "checkedAt": "2026-11-10",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "swe-bench-repo",
+        "checkedAt": "2026-11-10",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "terminal-bench-repo",
+        "checkedAt": "2026-11-10",
+        "outcome": "relevant"
       }
     ],
     "queryGroups": [
@@ -852,6 +882,38 @@
           "Airlock.bot per-agent permissions approval default deny",
           "HashiCorp Consul MCP sidecar identity policy human approval evidence"
         ]
+      },
+      {
+        "id": "protected-intent-evaluation-2026-11-10",
+        "label": {
+          "en": "Protected-intent evaluation first-party and sibling challenge",
+          "ja": "保護された意図評価の一次情報・同等実装検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "zthr",
+          "co-design-bench",
+          "replayable-evaluator-owned-acceptance-artifacts"
+        ],
+        "sourceIds": [
+          "zthr-site",
+          "zthr-reference-implementation",
+          "co-design-bench-paper",
+          "co-design-bench-repo",
+          "swe-bench-repo",
+          "terminal-bench-repo"
+        ],
+        "resultSummary": {
+          "en": "ZTHR and Co-Design Bench enter separate bounded PILOT records and strengthen the existing evaluator-owned acceptance-artifact category to six implementations. SWE-bench and Terminal-Bench support executable-oracle convergence, but independent adoption, judge reliability, and full intent coverage remain unproven.",
+          "ja": "ZTHRとCo-Design Benchを別々の限定PILOT記録として追加し、既存の評価者所有受入artifact categoryを6実装へ強化。SWE-benchとTerminal-Benchは実行可能oracleへの収束を支持するが、独立adoption、judge信頼性、完全な意図coverageは未証明。"
+        },
+        "queries": [
+          "ZTHR release alternatives adoption benchmark criticism",
+          "Co-Design Bench alternatives adoption benchmark criticism hidden criteria refutation",
+          "protected intent independent evaluator agent-produced software sibling implementations",
+          "SWE-bench evaluator-owned tests reproducible containers",
+          "Terminal-Bench task-specific tests oracle solutions sandbox"
+        ]
       }
     ],
     "trackedEntityIds": [
@@ -914,7 +976,9 @@
       "enterprise-shaped-outcome-grounded-coding-evaluation",
       "multi-harness-control-plane",
       "lunar-airlock",
-      "governed-agent-fleet-authority"
+      "governed-agent-fleet-authority",
+      "zthr",
+      "co-design-bench"
     ],
     "changelogEntriesChecked": [
       "v0",
@@ -950,7 +1014,8 @@
       "radar-daily-2026-11-06",
       "radar-daily-2026-11-07",
       "radar-daily-2026-11-08",
-      "radar-daily-2026-11-09"
+      "radar-daily-2026-11-09",
+      "radar-daily-2026-11-10"
     ],
     "sensors": [
       {
@@ -965,8 +1030,8 @@
         "id": "github-public",
         "state": "failed",
         "reason": {
-          "en": "The targeted public GitHub update fetch failed on the a2a query because of a public API rate limit; no current GitHub signals are available, and prior results are not current.",
-          "ja": "範囲限定のGitHub公開更新取得はa2aクエリで公開APIのレート制限により失敗した。現在のGitHubシグナルは利用できず、過去の結果は現時点の結果として扱わない。"
+          "en": "The targeted public GitHub update fetch failed on the a2a query because of a public API rate limit; zero of seven queries were collected, no current GitHub signals are available, and prior results are not current.",
+          "ja": "範囲限定のGitHub公開更新取得はa2aクエリで公開APIのレート制限により失敗した。7件中0件のqueryを取得し、現在のGitHubシグナルは利用できず、過去の結果は現時点の結果として扱わない。"
         }
       },
       {
@@ -1425,6 +1490,44 @@
           "en": "Add Lunar Airlock and a four-implementation governed agent-fleet authority category at bounded PILOT. Start in shadow mode, preserve an independent merge gate, measure grants, refusals, approval binding, revocation, bypass resistance, and audit completeness; do not promote Core Atlas.",
           "ja": "Lunar Airlockと4実装の統治されたagent fleet権限categoryを限定PILOTへ追加。shadow modeから始め、独立merge gateを維持し、許可、拒否、approval binding、失効、bypass耐性、audit完全性を測定する。Core Atlasへ昇格しない。"
         }
+      },
+      {
+        "kind": "material-finding",
+        "targetIds": [
+          "zthr",
+          "co-design-bench",
+          "replayable-evaluator-owned-acceptance-artifacts"
+        ],
+        "sourceIds": [
+          "zthr-site",
+          "zthr-reference-implementation",
+          "co-design-bench-paper",
+          "co-design-bench-repo",
+          "swe-bench-repo",
+          "terminal-bench-repo"
+        ],
+        "summary": {
+          "en": "ZTHR protects declared intent with locked journeys and deterministic evidence, while Co-Design Bench applies hidden criteria and a refutation pass to multimodal repository tasks. Both are concrete, but ZTHR evidence is author-run, Co-Design is only partially public and LLM-judged, and neither establishes independent adoption.",
+          "ja": "ZTHRはlocked journeyと決定論的evidenceで宣言意図を保護し、Co-Design Benchはmultimodal repository taskへhidden criteriaとrefutation passを適用する。両者とも具体的だが、ZTHR証拠は作者実施、Co-Designは一部公開かつLLM判定で、独立adoptionは確立していない。"
+        }
+      },
+      {
+        "kind": "editorial-decision",
+        "targetIds": [
+          "zthr",
+          "co-design-bench",
+          "replayable-evaluator-owned-acceptance-artifacts"
+        ],
+        "sourceIds": [
+          "zthr-site",
+          "zthr-reference-implementation",
+          "co-design-bench-paper",
+          "co-design-bench-repo"
+        ],
+        "summary": {
+          "en": "Add ZTHR and Co-Design Bench as separate bounded PILOT records, add both as implementations of the existing evaluator-owned acceptance-artifact category without changing its WATCH status or scores, and make no Core Atlas promotion.",
+          "ja": "ZTHRとCo-Design Benchを別々の限定PILOT記録として追加し、既存の評価者所有受入artifact categoryへ両方を実装として加える。categoryのWATCH状態・scoreは変更せず、Core Atlas昇格もしない。"
+        }
       }
     ]
   },
@@ -1815,6 +1918,18 @@
       "signalId": "governed-agent-fleet-authority",
       "stage": "pilot",
       "score": 56,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "zthr",
+      "stage": "pilot",
+      "score": 20,
+      "compatibility": "unknown"
+    },
+    {
+      "signalId": "co-design-bench",
+      "stage": "pilot",
+      "score": 26,
       "compatibility": "unknown"
     }
   ],
@@ -4121,6 +4236,25 @@
             "lscbench-paper",
             "lscbench-repo"
           ]
+        },
+        {
+          "name": "ZTHR",
+          "vendor": "Russ Little / ZTHR",
+          "organizationId": "russlittle-zthr",
+          "access": "public architecture and executable reference implementation with protected journeys and deterministic evidence gates",
+          "sourceIds": [
+            "zthr-reference-implementation"
+          ]
+        },
+        {
+          "name": "Co-Design Bench",
+          "vendor": "Alibaba, TokenHub, Fudan, and collaborators",
+          "organizationId": "alibaba-fudan-codesign",
+          "access": "public evaluator and partial multimodal repository-task dataset with hidden criteria and refutation records",
+          "sourceIds": [
+            "co-design-bench-paper",
+            "co-design-bench-repo"
+          ]
         }
       ],
       "compatibility": {
@@ -4141,12 +4275,16 @@
           "reviewbench-repo",
           "github-reviewbench",
           "lscbench-paper",
-          "lscbench-repo"
+          "lscbench-repo",
+          "zthr-site",
+          "zthr-reference-implementation",
+          "co-design-bench-paper",
+          "co-design-bench-repo"
         ],
         "collectedAt": "2026-10-16",
         "method": {
-          "en": "Compared four independently operated artifact families and their explicit limitations. LSCBench adds executable security acceptance, but no evaluator was installed, no score was reproduced, and cross-tool results remain non-comparable.",
-          "ja": "独立運営される4つの成果物群と限界を比較。LSCBenchは実行可能な安全受入を加えるが、評価器は導入せず、スコアも再現せず、ツール間結果は比較不能のまま。"
+          "en": "Compared six independently operated artifact families and their explicit limits. ZTHR adds protected journeys and mutation-oriented evidence; Co-Design Bench adds hidden multimodal criteria and refutation. No evaluator was installed, no score was reproduced, and cross-tool results remain non-comparable.",
+          "ja": "独立運営される6つのartifact群と明示的限界を比較。ZTHRは保護されたjourneyとmutation指向evidence、Co-Design Benchはhidden multimodal criteriaとrefutationを追加。evaluatorは導入せず、scoreも再現せず、tool間結果は比較不能のまま。"
         }
       },
       "history": [
@@ -4168,6 +4306,19 @@
           "event": {
             "en": "LSCBench added executable secure-code fixtures as a fourth independent implementation; WATCH status and scores remain unchanged because benchmark scopes and transfer limits are not interchangeable.",
             "ja": "LSCBenchの実行可能な安全コードfixtureを4番目の独立実装として追加。ベンチマーク範囲と転移限界は互換でないため、WATCH状態とスコアは変更しない。"
+          },
+          "scores": {
+            "frontier": 90,
+            "adoption": 54,
+            "fit": 94,
+            "confidence": 86
+          }
+        },
+        {
+          "date": "2026-11-10",
+          "event": {
+            "en": "ZTHR and Co-Design Bench were added as fifth and sixth implementations; WATCH status and scores remain unchanged because both remain owner-evaluated and transfer to local defects is unverified.",
+            "ja": "ZTHRとCo-Design Benchを5・6番目の実装として追加。両方ともowner評価で、local defectへの転移も未検証のため、WATCH状態とscoreは変更しない。"
           },
           "scores": {
             "frontier": 90,
@@ -7235,6 +7386,142 @@
             "adoption": 56,
             "fit": 98,
             "confidence": 88
+          }
+        }
+      ]
+    },
+    {
+      "id": "zthr",
+      "name": {
+        "en": "ZTHR",
+        "ja": "ZTHR"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "eval-evaluation",
+        "agent-harness"
+      ],
+      "scores": {
+        "frontier": 94,
+        "adoption": 20,
+        "fit": 98,
+        "confidence": 78
+      },
+      "recommendation": {
+        "en": "PILOT protected intent on one small, high-risk user journey with fixtures owned outside the producing agent; require mutation sensitivity, deterministic gate evidence, escaped-defect comparison, and human audit before granting any release authority.",
+        "ja": "小規模でhigh-riskなuser journey 1件に対し、生成agent外部が所有するfixtureで保護された意図をPILOTする。release権限付与前にmutation感度、決定論的gate evidence、escaped defect比較、人間auditを必須とする。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Locked journey cards, deterministic gates, mutation-oriented checks, and append-only evidence make intent and admission criteria inspectable rather than letting the producing agent redefine success.",
+          "ja": "locked journey card、決定論的gate、mutation指向check、append-only evidenceにより、生成agentが成功条件を再定義せず、意図とadmission基準を検査可能にする。"
+        },
+        {
+          "en": "The architecture and reference implementation share one originator; metrics are author-reported, external adoption is unverified, and no independent security or outcome evaluation was found.",
+          "ja": "architectureと参照実装は同一originatorによる。metricは作者報告で、外部adoptionは未検証、独立security・成果評価も確認できない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No ZTHR journey, gate, mutation, or evidence store has been exercised against a Stangyode workflow.",
+          "ja": "Stangyode workflowでZTHRのjourney、gate、mutation、evidence storeを試していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "zthr-site",
+          "zthr-reference-implementation"
+        ],
+        "collectedAt": "2026-11-10",
+        "method": {
+          "en": "Reviewed the first-party architecture and executable reference, then challenged the independent-evaluator claim against Co-Design Bench, SWE-bench, and Terminal-Bench. No software was installed and no metric was reproduced.",
+          "ja": "一次architectureと実行参照を確認し、Co-Design Bench、SWE-bench、Terminal-Benchとの比較で独立evaluator主張を反証的に検討。softwareは導入せず、metricも再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-11-10",
+          "event": {
+            "en": "Added at bounded PILOT because protected intent, mutation checks, and deterministic evidence are concrete, while all outcome and adoption evidence remains project-authored.",
+            "ja": "保護された意図、mutation check、決定論的evidenceが具体的なため限定PILOTへ追加。ただし成果・adoption証拠はすべてproject作者による。"
+          },
+          "scores": {
+            "frontier": 94,
+            "adoption": 20,
+            "fit": 98,
+            "confidence": 78
+          }
+        }
+      ]
+    },
+    {
+      "id": "co-design-bench",
+      "name": {
+        "en": "Co-Design Bench",
+        "ja": "Co-Design Bench"
+      },
+      "kind": "discovery-candidate",
+      "atlasTermIds": [
+        "eval-evaluation",
+        "agent-harness"
+      ],
+      "scores": {
+        "frontier": 92,
+        "adoption": 26,
+        "fit": 94,
+        "confidence": 84
+      },
+      "recommendation": {
+        "en": "PILOT the public subset on one representative repository task; audit judge and refuter disagreements against human labels, mutate hidden criteria, and compare complete-task pass rate, cost, and false acceptance with deterministic tests.",
+        "ja": "代表的repository task 1件で公開subsetをPILOTする。judgeとrefuterの不一致をhuman labelでauditし、hidden criteriaをmutationし、complete-task pass率、費用、false acceptanceを決定論的testと比較する。"
+      },
+      "tradeoffs": [
+        {
+          "en": "Hidden expert criteria, source and browser evidence, criterion-level records, and a separate refutation pass expose the gap between partial requirement coverage and complete task success.",
+          "ja": "hidden expert criteria、source・browser evidence、criterion単位record、別refutation passにより、部分的requirement coverageとcomplete task成功の差を可視化する。"
+        },
+        {
+          "en": "The public release covers fewer tasks than the paper, both judge and refuter remain owner-controlled LLM components, and no independent reliability audit or external adoption was found.",
+          "ja": "公開releaseのtask数は論文より少なく、judgeとrefuterはいずれもowner管理LLM componentのまま。独立信頼性auditや外部adoptionも確認できない。"
+        }
+      ],
+      "compatibility": {
+        "status": "unknown",
+        "rationale": {
+          "en": "No Co-Design task, hidden criterion, judge, refuter, or browser-evidence path has been calibrated against Stangyode.",
+          "ja": "Co-Designのtask、hidden criterion、judge、refuter、browser-evidence経路をStangyodeに対して校正していない。"
+        },
+        "checkedAgainst": []
+      },
+      "provenance": {
+        "kind": "discovery",
+        "status": "partially-verified",
+        "sourceIds": [
+          "co-design-bench-paper",
+          "co-design-bench-repo"
+        ],
+        "collectedAt": "2026-11-10",
+        "method": {
+          "en": "Reviewed the paper and public repository, separated the public subset from headline results, and challenged the evaluator model against ZTHR, SWE-bench, and Terminal-Bench. No benchmark was installed or reproduced.",
+          "ja": "論文と公開repositoryを確認し、公開subsetと主要結果を分離し、ZTHR、SWE-bench、Terminal-Benchとの比較でevaluator modelを反証的に検討。benchmarkは導入・再現していない。"
+        }
+      },
+      "history": [
+        {
+          "date": "2026-11-10",
+          "event": {
+            "en": "Added at bounded PILOT because hidden criteria and refutation make complete-task evaluation concrete, while public coverage and judge reliability remain limited.",
+            "ja": "hidden criteriaとrefutationでcomplete-task評価が具体的なため限定PILOTへ追加。ただし公開coverageとjudge信頼性には制約が残る。"
+          },
+          "scores": {
+            "frontier": 92,
+            "adoption": 26,
+            "fit": 94,
+            "confidence": 84
           }
         }
       ]
