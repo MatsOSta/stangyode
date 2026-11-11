@@ -208,5 +208,11 @@
     "label": "radar-daily-2026-11-10",
     "en": "Daily Radar: ZTHR and Co-Design Bench enter separate bounded PILOT records and strengthen replayable evaluator-owned acceptance artifacts from four to six implementations without changing its WATCH score. Broad hype discovery succeeded; targeted GitHub discovery failed under rate limiting and remains an explicit coverage gap. No existing score/status or Core Atlas term changed.",
     "ja": "日次レーダー：ZTHRとCo-Design Benchを別々の限定PILOT記録として追加し、再生可能な評価者所有受入artifactを4実装から6実装へ強化。WATCH scoreは変更しない。広範hype discoveryは成功したが、範囲限定GitHub discoveryはrate limitで失敗し、明示的coverage gapとして残す。既存score・status、Core Atlas用語は変更しない。"
+  },
+  {
+    "date": "2026-11-11",
+    "label": "radar-daily-2026-11-11",
+    "en": "Daily Radar data and health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, and all seven fixed-query GitHub checks succeeded. Stage 2 accounted for every material injected Stage 1 item, but 25 mentions first observed by the publication scrape lacked targeted accounting; no substantive findings, score/status changes, implementation changes, or Core Atlas promotions were published.",
+    "ja": "日次レーダーのdata・健全性更新：広範なattention発見は3件のfeedと3件の広範GitHub queryをすべて成功し、固定GitHub query 7件もすべて成功した。Stage 2は注入済みStage 1の重要項目をすべてaccountingしたが、公開用scrapeで初観測したmention 25件はtargeted accounting未実施のため、実質的finding、score・status変更、implementation変更、Core Atlas昇格は公開しない。"
   }
 ]
