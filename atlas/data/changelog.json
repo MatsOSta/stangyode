@@ -214,5 +214,11 @@
     "label": "radar-daily-2026-11-11",
     "en": "Daily Radar data and health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, and all seven fixed-query GitHub checks succeeded. Stage 2 accounted for every material injected Stage 1 item, but 25 mentions first observed by the publication scrape lacked targeted accounting; no substantive findings, score/status changes, implementation changes, or Core Atlas promotions were published.",
     "ja": "日次レーダーのdata・健全性更新：広範なattention発見は3件のfeedと3件の広範GitHub queryをすべて成功し、固定GitHub query 7件もすべて成功した。Stage 2は注入済みStage 1の重要項目をすべてaccountingしたが、公開用scrapeで初観測したmention 25件はtargeted accounting未実施のため、実質的finding、score・status変更、implementation変更、Core Atlas昇格は公開しない。"
+  },
+  {
+    "date": "2026-11-14",
+    "label": "radar-daily-2026-11-14",
+    "en": "Daily Radar data and health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, while fixed-query GitHub discovery failed on rate limit after six of seven queries and cleared current signals. Stage 2 accounted for every material injected Stage 1 flow, but 33 mentions first observed by the publication scrape lacked targeted accounting; no substantive findings, score/status changes, implementation changes, or Core Atlas promotions were published.",
+    "ja": "日次レーダーのdata・健全性更新：広範なattention発見は3件のfeedと3件の広範GitHub queryをすべて成功したが、固定queryのGitHub発見は7件中6件後にrate limitで失敗し、現在のsignal集合を消去した。Stage 2は注入済みStage 1の重要flowをすべてaccountingしたが、公開用scrapeで初観測したmention 33件はtargeted accounting未実施のため、実質的finding、score・status変更、implementation変更、Core Atlas昇格は公開しない。"
   }
 ]
