@@ -16,29 +16,29 @@
     }
   },
   "audit": {
-    "asOf": "2026-11-11T07:04:13.533Z",
+    "asOf": "2026-11-14T07:04:40.854Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-11T07:04:13.533Z",
+        "lastAttemptAt": "2026-11-14T07:04:40.854Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 3,
+        "failureStreak": 4,
         "lastFailure": {
-          "at": "2026-11-11T07:04:13.533Z",
+          "at": "2026-11-14T07:04:40.854Z",
           "class": "validation",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-11T07:04:13.533Z",
+        "lastAttemptAt": "2026-11-14T07:04:40.854Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 3,
+        "failureStreak": 4,
         "lastFailure": {
-          "at": "2026-11-11T07:04:13.533Z",
+          "at": "2026-11-14T07:04:40.854Z",
           "class": "validation",
           "resolved": false
         }
@@ -1016,7 +1016,8 @@
       "radar-daily-2026-11-08",
       "radar-daily-2026-11-09",
       "radar-daily-2026-11-10",
-      "radar-daily-2026-11-11"
+      "radar-daily-2026-11-11",
+      "radar-daily-2026-11-14"
     ],
     "sensors": [
       {
@@ -1029,7 +1030,11 @@
       },
       {
         "id": "github-public",
-        "state": "checked"
+        "state": "failed",
+        "reason": {
+          "en": "The targeted public GitHub update fetch failed on the typed-decision query because of a public API rate limit; six of seven queries completed, current signals were cleared, and prior results are not treated as current.",
+          "ja": "範囲限定のGitHub公開更新取得はtyped-decision queryで公開APIのrate limitにより失敗した。7件中6件のqueryは完了したが、現在のsignalは消去し、過去の結果を現時点の結果として扱わない。"
+        }
       },
       {
         "id": "preprint",
