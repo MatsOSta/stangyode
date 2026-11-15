@@ -13,7 +13,7 @@
       "id": "typed-decision-query",
       "targetId": "typed-decision-models",
       "query": "typed probabilistic decision model System One",
-      "state": "failed"
+      "state": "collected"
     },
     {
       "id": "agent-skills-query",
@@ -52,24 +52,913 @@
       "state": "collected"
     }
   ],
-  "signals": [],
-  "lastRun": {
-    "status": "failed",
-    "attemptedAt": "2026-11-14T07:03:23.044Z",
-    "completedAt": null,
-    "queryCount": 7,
-    "successfulQueries": 6,
-    "failedQueries": [
-      {
-        "id": "typed-decision-query",
-        "class": "rate_limit",
-        "httpStatus": 403
+  "signals": [
+    {
+      "queryId": "a2a-query",
+      "targetId": "a2a",
+      "status": "unverified",
+      "repository": {
+        "fullName": "5dive-ai/5dive",
+        "url": "https://github.com/5dive-ai/5dive",
+        "description": "Run your own AI team from your phone. Claude Code, Codex and more on your own server: shared tasks, always-on agents, a small composable bash core. MIT. An open-source alternative to Grok Bot and OpenAI Dots.",
+        "stars": 117,
+        "forks": 13,
+        "language": "Shell",
+        "topics": [
+          "agent-loops",
+          "agent-orchestration",
+          "agent-runtime",
+          "agent-to-agent",
+          "ai-agents",
+          "ai-company",
+          "ai-employee",
+          "ai-team",
+          "autonomous-agents",
+          "claude-code",
+          "grok-bot",
+          "grokbot",
+          "human-in-the-loop",
+          "long-running-agents",
+          "multi-agent",
+          "multi-agent-orchestration",
+          "one-person-company",
+          "persistent-agents",
+          "self-hosted",
+          "zero-human-company"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:29:22Z"
       }
-    ],
+    },
+    {
+      "queryId": "a2a-query",
+      "targetId": "a2a",
+      "status": "unverified",
+      "repository": {
+        "fullName": "clement10601/agent-mailbox",
+        "url": "https://github.com/clement10601/agent-mailbox",
+        "description": "Private, asynchronous mailbox for AI agents. Reference implementation of SAMP (Secure Agent Messaging Protocol), served as an MCP server on Cloudflare Workers.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [
+          "agent-messaging",
+          "agent-to-agent",
+          "ai-agents",
+          "claude",
+          "cloudflare-workers",
+          "llm",
+          "mcp",
+          "mcp-server",
+          "rust",
+          "samp"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:28:57Z"
+      }
+    },
+    {
+      "queryId": "a2a-query",
+      "targetId": "a2a",
+      "status": "unverified",
+      "repository": {
+        "fullName": "damianvtran/local-operator",
+        "url": "https://github.com/damianvtran/local-operator",
+        "description": "An open-source AI agent hub for your own machine: build organizations of collaborating agents that message each other, run in the background around the clock, and share your existing AI subscriptions.",
+        "stars": 229,
+        "forks": 38,
+        "language": "Python",
+        "topics": [
+          "agent-to-agent",
+          "agentic-ai",
+          "agents",
+          "ai",
+          "cli",
+          "llm",
+          "local",
+          "personal-assistants",
+          "proactive-ai"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T07:02:37Z"
+      }
+    },
+    {
+      "queryId": "a2a-query",
+      "targetId": "a2a",
+      "status": "unverified",
+      "repository": {
+        "fullName": "QWED-AI/qwed-a2a",
+        "url": "https://github.com/QWED-AI/qwed-a2a",
+        "description": "Fail-closed Agent-to-Agent verification, provenance, and attestation infrastructure for AI systems.",
+        "stars": 0,
+        "forks": 3,
+        "language": "Python",
+        "topics": [
+          "a2a",
+          "a2a-protocol",
+          "agent-security",
+          "agent-to-agent",
+          "agentic-ai",
+          "ai-agents",
+          "attestation",
+          "fail-closed",
+          "fastapi",
+          "google-a2a",
+          "interceptor",
+          "jwt",
+          "middleware",
+          "multi-agent",
+          "python",
+          "qwed",
+          "qwed-ai",
+          "rate-limiting",
+          "trust-boundary",
+          "verification"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:55:21Z"
+      }
+    },
+    {
+      "queryId": "a2a-query",
+      "targetId": "a2a",
+      "status": "unverified",
+      "repository": {
+        "fullName": "yogurt-tech/yogurt",
+        "url": "https://github.com/yogurt-tech/yogurt",
+        "description": "The front door for agents: an open protocol, and one program a company runs, to be safely reachable by other companies' agents.",
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [
+          "a2a",
+          "agent-to-agent",
+          "agents",
+          "ai-agents",
+          "b2b",
+          "bun",
+          "mcp",
+          "protocol",
+          "specification",
+          "trust",
+          "typescript"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:36:25Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "slayerbladesmanjump/GitHub-Copilot-app",
+        "url": "https://github.com/slayerbladesmanjump/GitHub-Copilot-app",
+        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+        "stars": 97,
+        "forks": 0,
+        "language": null,
+        "topics": [
+          "adminlte",
+          "agent-skills",
+          "ai",
+          "awesome",
+          "chatgpt",
+          "copilot",
+          "github-copilot",
+          "hacktoberfest",
+          "microsoft-copilot",
+          "openai",
+          "prompts",
+          "vue",
+          "xcode",
+          "xtreamcode"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T07:02:35Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "trackboatwrightplan/GitHub-Copilot-app",
+        "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
+        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+        "stars": 672,
+        "forks": 12,
+        "language": null,
+        "topics": [
+          "adminlte",
+          "agent-skills",
+          "ai",
+          "awesome",
+          "chatgpt",
+          "copilot",
+          "github-copilot",
+          "hacktoberfest",
+          "microsoft-copilot",
+          "openai",
+          "prompts",
+          "vue",
+          "xcode",
+          "xtreamcode"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T07:02:41Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "trackersnailgrip/GitHub-Copilot-app",
+        "url": "https://github.com/trackersnailgrip/GitHub-Copilot-app",
+        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+        "stars": 666,
+        "forks": 12,
+        "language": null,
+        "topics": [
+          "adminlte",
+          "agent-skills",
+          "ai",
+          "awesome",
+          "chatgpt",
+          "copilot",
+          "github-copilot",
+          "hacktoberfest",
+          "microsoft-copilot",
+          "openai",
+          "prompts",
+          "vue",
+          "xcode",
+          "xtreamcode"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T07:02:37Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "TradesmanRecord/GitHub-Copilot-app",
+        "url": "https://github.com/TradesmanRecord/GitHub-Copilot-app",
+        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+        "stars": 665,
+        "forks": 12,
+        "language": null,
+        "topics": [
+          "adminlte",
+          "agent-skills",
+          "ai",
+          "awesome",
+          "chatgpt",
+          "copilot",
+          "github-copilot",
+          "hacktoberfest",
+          "microsoft-copilot",
+          "openai",
+          "prompts",
+          "vue",
+          "xcode",
+          "xtreamcode"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T07:02:37Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "TrapBladesmith/GitHub-Copilot-app",
+        "url": "https://github.com/TrapBladesmith/GitHub-Copilot-app",
+        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+        "stars": 664,
+        "forks": 12,
+        "language": null,
+        "topics": [
+          "adminlte",
+          "agent-skills",
+          "ai",
+          "awesome",
+          "chatgpt",
+          "copilot",
+          "github-copilot",
+          "hacktoberfest",
+          "microsoft-copilot",
+          "openai",
+          "prompts",
+          "vue",
+          "xcode",
+          "xtreamcode"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T07:02:42Z"
+      }
+    },
+    {
+      "queryId": "ard-query",
+      "targetId": "agentic-resource-discovery-ard",
+      "status": "unverified",
+      "repository": {
+        "fullName": "neuronto/agentic-resource-discovery",
+        "url": "https://github.com/neuronto/agentic-resource-discovery",
+        "description": "Neuronto Agentic Resource Discovery (ARD) Index. Federated search across every public ARD registry, plus a verified tool index read from each MCP server's own tools/list, hybrid lexical and semantic retrieval, and ARD-Bench.",
+        "stars": 57,
+        "forks": 2,
+        "language": "Python",
+        "topics": [
+          "a2a",
+          "agent-discovery",
+          "agent-registry",
+          "agentic-ai",
+          "agentic-resource-discovery",
+          "ai-agent-discovery",
+          "ai-agent-tools",
+          "ai-agents",
+          "ard",
+          "benchmark",
+          "discovery",
+          "federated-search",
+          "hybrid-search",
+          "llm-tools",
+          "mcp",
+          "mcp-registry",
+          "mcp-server",
+          "mcp-tools",
+          "model-context-protocol",
+          "openapi"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-03T23:21:09Z"
+      }
+    },
+    {
+      "queryId": "ard-query",
+      "targetId": "agentic-resource-discovery-ard",
+      "status": "unverified",
+      "repository": {
+        "fullName": "neuronto/ard-publish",
+        "url": "https://github.com/neuronto/ard-publish",
+        "description": "Make your API, MCP server or AI agent discoverable by AI agents. Build, validate and verify an Agentic Resource Discovery (ARD) manifest.",
+        "stars": 1,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "a2a",
+          "agent-discovery",
+          "agentic-ai",
+          "agentic-resource-discovery",
+          "ai-agents",
+          "ard",
+          "discovery",
+          "llm-tools",
+          "mcp",
+          "mcp-server",
+          "model-context-protocol",
+          "python",
+          "registry",
+          "sdk",
+          "well-known"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-02T12:58:24Z"
+      }
+    },
+    {
+      "queryId": "ard-query",
+      "targetId": "agentic-resource-discovery-ard",
+      "status": "unverified",
+      "repository": {
+        "fullName": "Sushegaad/AgentDossier",
+        "url": "https://github.com/Sushegaad/AgentDossier",
+        "description": "AgentDossier - A vendor-neutral registry of AI agents that shows what compliance and trust evidence exists for each Agent (HIPAA, SOC 2, FedRAMP, ISO42001, EU AI Act), Traces and CVEs. Agents are discovered through the open standards they publish (ARD, A2A, MCP) as well as public registries, and same engine can scan enterprise's own network.",
+        "stars": 3,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "a2a-protocol",
+          "agent-to-agent-protocol",
+          "agent-trace",
+          "agent-traces",
+          "agentic-resource-discovery",
+          "ai-agents",
+          "ai-agents-registry",
+          "compliance",
+          "cve",
+          "mcp",
+          "registry",
+          "trace",
+          "traces"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-09T15:37:10Z"
+      }
+    },
+    {
+      "queryId": "ard-query",
+      "targetId": "agentic-resource-discovery-ard",
+      "status": "unverified",
+      "repository": {
+        "fullName": "webmaxru/ai-native-dev",
+        "url": "https://github.com/webmaxru/ai-native-dev",
+        "description": "Plugin marketplace for AI-native development agent skills",
+        "stars": 1,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "agent-package-manager",
+          "agentic-resource-discovery",
+          "agentic-workflow",
+          "ai-native",
+          "ard",
+          "developer-tools"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-11T17:16:13Z"
+      }
+    },
+    {
+      "queryId": "ard-query",
+      "targetId": "agentic-resource-discovery-ard",
+      "status": "unverified",
+      "repository": {
+        "fullName": "zeroasterisk/pi-ard",
+        "url": "https://github.com/zeroasterisk/pi-ard",
+        "description": "Agentic Resource Discovery (ARD) for Pi: search any ARD registry, install skills and MCP servers only after you confirm.",
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [
+          "agent-skills",
+          "agentic-resource-discovery",
+          "ard",
+          "mcp",
+          "pi-extension",
+          "pi-package"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-08T06:29:10Z"
+      }
+    },
+    {
+      "queryId": "caveman-query",
+      "targetId": "caveman",
+      "status": "unverified",
+      "repository": {
+        "fullName": "chanidog/opencode-caveman",
+        "url": "https://github.com/chanidog/opencode-caveman",
+        "description": "Caveman mode for OpenCode 2.x: per-session state, ruleset injection, TUI badge",
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-15T04:38:52Z"
+      }
+    },
+    {
+      "queryId": "caveman-query",
+      "targetId": "caveman",
+      "status": "unverified",
+      "repository": {
+        "fullName": "cheaper-inference/OmniRoute",
+        "url": "https://github.com/cheaper-inference/OmniRoute",
+        "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
+        "stars": 87548,
+        "forks": 13422,
+        "language": "TypeScript",
+        "topics": [
+          "a2a",
+          "ai-agents",
+          "ai-gateway",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "cline",
+          "codex",
+          "copilot",
+          "cursor",
+          "deepseek",
+          "free-ai",
+          "gemini",
+          "kimi",
+          "llm-gateway",
+          "mcp",
+          "openai",
+          "openai-proxy",
+          "qwen",
+          "token-saver"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:58:32Z"
+      }
+    },
+    {
+      "queryId": "caveman-query",
+      "targetId": "caveman",
+      "status": "unverified",
+      "repository": {
+        "fullName": "jraph/aero-cave",
+        "url": "https://github.com/jraph/aero-cave",
+        "description": "Caveman-mode memory sheets for Canadian student pilots: PPL/CPL training and PPAER, CPAER & INRAT exam prep. Bilingual EN/FR, searchable, and available offline.",
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:31:24Z"
+      }
+    },
+    {
+      "queryId": "caveman-query",
+      "targetId": "caveman",
+      "status": "unverified",
+      "repository": {
+        "fullName": "quadseven/grug",
+        "url": "https://github.com/quadseven/grug",
+        "description": "One grumpy caveman. Whole software lifecycle. Grug crush bug, block evil CVE, gate weak code, run project smooth like rock. Grug know SDLC. Grug live in GitHub, post Check Runs, never spam comments. You ship. Grug guard.",
+        "stars": 1,
+        "forks": 1,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-15T03:58:01Z"
+      }
+    },
+    {
+      "queryId": "caveman-query",
+      "targetId": "caveman",
+      "status": "unverified",
+      "repository": {
+        "fullName": "whoiwts110217-creator/CF-0",
+        "url": "https://github.com/whoiwts110217-creator/CF-0",
+        "description": "Caveman Focus",
+        "stars": 1,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-15T07:02:10Z"
+      }
+    },
+    {
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
+      "status": "unverified",
+      "repository": {
+        "fullName": "gaofeng21cn/journey-atlas",
+        "url": "https://github.com/gaofeng21cn/journey-atlas",
+        "description": "Local-first, agent-ready travel atlas: reconstruct journeys and generate multi-scale maps, passport cards, and annual reviews.",
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "local-first",
+          "maps",
+          "mcp-apps",
+          "travel-visualization"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T04:13:21Z"
+      }
+    },
+    {
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
+      "status": "unverified",
+      "repository": {
+        "fullName": "MCPJam/inspector",
+        "url": "https://github.com/MCPJam/inspector",
+        "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+        "stars": 2320,
+        "forks": 304,
+        "language": "TypeScript",
+        "topics": [
+          "anthropic",
+          "chatgpt",
+          "cicd",
+          "debugger",
+          "evals",
+          "evaluation",
+          "inspector",
+          "mcp",
+          "mcp-apps",
+          "mcp-clients",
+          "mcp-inspector",
+          "mcp-server",
+          "mcp-tools",
+          "modelcontextprotocol",
+          "oauth",
+          "oauth2",
+          "openai",
+          "openai-apps-sdk",
+          "opensource",
+          "tracing"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:18:10Z"
+      }
+    },
+    {
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
+      "status": "unverified",
+      "repository": {
+        "fullName": "NimbleBrainInc/nimblebrain",
+        "url": "https://github.com/NimbleBrainInc/nimblebrain",
+        "description": "Self-hosted platform for MCP Apps and agent automations — tools, interactive UIs, scheduled runs, multi-agent delegation.",
+        "stars": 28,
+        "forks": 17,
+        "language": "TypeScript",
+        "topics": [
+          "agent",
+          "agent-automation",
+          "agent-runtime",
+          "ai-agents",
+          "anthropic",
+          "bun",
+          "claude",
+          "ext-apps",
+          "llm",
+          "mcp",
+          "mcp-apps",
+          "mcp-client",
+          "mcp-host",
+          "mcp-server",
+          "mcpb",
+          "model-context-protocol",
+          "multi-agent",
+          "scheduled-agents",
+          "self-hosted",
+          "typescript"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:59:03Z"
+      }
+    },
+    {
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
+      "status": "unverified",
+      "repository": {
+        "fullName": "NimbleBrainInc/todosforagents",
+        "url": "https://github.com/NimbleBrainInc/todosforagents",
+        "description": "To-do boards for AI agents, as an MCP server with a board UI. Local (SQLite) or hosted.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "ai-agents",
+          "kanban",
+          "mcp",
+          "mcp-apps",
+          "mcp-server",
+          "todo"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:53:49Z"
+      }
+    },
+    {
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
+      "status": "unverified",
+      "repository": {
+        "fullName": "premmannava/sayshape",
+        "url": "https://github.com/premmannava/sayshape",
+        "description": "The UI language AI models write, and the engine that draws it. Works in Claude, ChatGPT and VS Code through MCP.",
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "canvas",
+          "chatgpt",
+          "claude",
+          "generative-ui",
+          "llm",
+          "mcp",
+          "mcp-apps",
+          "mcp-server",
+          "typescript",
+          "ui-language"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T05:14:24Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "idMolotov/opencode-v2-ponytail-scoped",
+        "url": "https://github.com/idMolotov/opencode-v2-ponytail-scoped",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-15T06:22:49Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "jusselman/ponytail",
+        "url": "https://github.com/jusselman/ponytail",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-15T02:50:07Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "nicolasmondain/adorno",
+        "url": "https://github.com/nicolasmondain/adorno",
+        "description": "Adorno, an agent that works like you: it reviews the PRs you are asked to review, answers the reviews you receive and opens your PRs, with your standards and your voice. Portable agent setup (Claude Code, Codex, Gemini CLI) built on addy/agent-skills and ponytail.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Shell",
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "ai-coding-assistant",
+          "claude-code",
+          "code-review",
+          "codex-cli",
+          "developer-tools",
+          "gemini-cli",
+          "github-automation",
+          "llm",
+          "notion",
+          "pull-requests",
+          "slack",
+          "subagents"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-14T23:17:24Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "NourEldinShobier/claude-tuning",
+        "url": "https://github.com/NourEldinShobier/claude-tuning",
+        "description": "One-command setup that makes Claude Code use fewer tokens: rtk shell compression, stash search index, web-search, codebase-memory, fast-jev-compaction, ponytail, plus Jev skill suggestions and model routing.",
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [
+          "bun",
+          "claude-code",
+          "claude-code-plugin",
+          "context-engineering",
+          "jev",
+          "mcp",
+          "rtk",
+          "tokens"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-15T04:09:19Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "xcmobiledetailing-gif/https-github.com-DietrichGebert-ponytail",
+        "url": "https://github.com/xcmobiledetailing-gif/https-github.com-DietrichGebert-ponytail",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-14T22:49:57Z"
+      }
+    },
+    {
+      "queryId": "typed-decision-query",
+      "targetId": "typed-decision-models",
+      "status": "unverified",
+      "repository": {
+        "fullName": "KasugaSteps/Neriv",
+        "url": "https://github.com/KasugaSteps/Neriv",
+        "description": "An open Jev-like System-One model and serving stack for fast typed probabilistic decisions.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-09-29T14:53:15Z"
+      }
+    },
+    {
+      "queryId": "typed-decision-query",
+      "targetId": "typed-decision-models",
+      "status": "unverified",
+      "repository": {
+        "fullName": "markuswondrak/spec-kit-decision-step",
+        "url": "https://github.com/markuswondrak/spec-kit-decision-step",
+        "description": "Spec Kit workflow step: typed, probabilistic decisions using System One models",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-10-07T16:02:21Z"
+      }
+    },
+    {
+      "queryId": "typed-decision-query",
+      "targetId": "typed-decision-models",
+      "status": "unverified",
+      "repository": {
+        "fullName": "pozapas/awesome-system-one-models",
+        "url": "https://github.com/pozapas/awesome-system-one-models",
+        "description": "Curated, evidence-graded list of System One models (typed probabilistic decision models), with genealogy, open and hosted models, datasets, tooling, graded evidence, a failure atlas and design patterns.",
+        "stars": 4,
+        "forks": 5,
+        "language": "Python",
+        "topics": [
+          "awesome-list",
+          "calibration",
+          "classification",
+          "decision-models",
+          "llm",
+          "survey",
+          "system-one-models"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-02T17:29:17Z"
+      }
+    },
+    {
+      "queryId": "typed-decision-query",
+      "targetId": "typed-decision-models",
+      "status": "unverified",
+      "repository": {
+        "fullName": "pozapas/system-one-models-survey",
+        "url": "https://github.com/pozapas/system-one-models-survey",
+        "description": "Census, evidence ledger, benchmark harness and results for the survey of System One (typed probabilistic decision) models",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-03T14:42:33Z"
+      }
+    },
+    {
+      "queryId": "typed-decision-query",
+      "targetId": "typed-decision-models",
+      "status": "unverified",
+      "repository": {
+        "fullName": "sumitmore-07/decision-model-laya",
+        "url": "https://github.com/sumitmore-07/decision-model-laya",
+        "description": "Open-source System One decision model implementation using Laya. Fast structured decisions with Choice, Score and Noul — no token generation, just typed probabilistic answers.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-10-12T18:05:39Z"
+      }
+    }
+  ],
+  "lastRun": {
+    "status": "success",
+    "attemptedAt": "2026-11-15T07:02:45.658Z",
+    "completedAt": "2026-11-15T07:02:50.882Z",
+    "queryCount": 7,
+    "successfulQueries": 7,
+    "failedQueries": [],
     "rateLimit": {
       "limit": 10,
       "remaining": 0,
-      "resetAt": "2026-11-14T07:04:02Z"
+      "resetAt": "2026-11-15T07:03:37Z"
     }
   }
 }
