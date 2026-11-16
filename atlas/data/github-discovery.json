@@ -61,8 +61,8 @@
         "fullName": "5dive-ai/5dive",
         "url": "https://github.com/5dive-ai/5dive",
         "description": "Run your own AI team from your phone. Claude Code, Codex and more on your own server: shared tasks, always-on agents, a small composable bash core. MIT. An open-source alternative to Grok Bot and OpenAI Dots.",
-        "stars": 117,
-        "forks": 13,
+        "stars": 119,
+        "forks": 14,
         "language": "Shell",
         "topics": [
           "agent-loops",
@@ -87,7 +87,7 @@
           "zero-human-company"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T06:29:22Z"
+        "pushedAt": "2026-11-16T05:59:21Z"
       }
     },
     {
@@ -95,26 +95,36 @@
       "targetId": "a2a",
       "status": "unverified",
       "repository": {
-        "fullName": "clement10601/agent-mailbox",
-        "url": "https://github.com/clement10601/agent-mailbox",
-        "description": "Private, asynchronous mailbox for AI agents. Reference implementation of SAMP (Secure Agent Messaging Protocol), served as an MCP server on Cloudflare Workers.",
-        "stars": 0,
-        "forks": 0,
-        "language": "Rust",
+        "fullName": "777genius/agent-teams-ai",
+        "url": "https://github.com/777genius/agent-teams-ai",
+        "description": "You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/OpenCode/Cursor/Grok/GitHub/Kiro/Z.AI/Xiaomi/MiniMax/Kimi(300+ models, 200+ LLM providers, free models no auth) Build your AI company with multiple teams",
+        "stars": 2495,
+        "forks": 406,
+        "language": "TypeScript",
         "topics": [
-          "agent-messaging",
+          "agent-orchestration",
+          "agent-teams",
           "agent-to-agent",
           "ai-agents",
           "claude",
-          "cloudflare-workers",
+          "claude-code",
+          "codex",
+          "coding-agent",
+          "cursor",
+          "developer-tools",
+          "electron",
+          "github-copilot",
+          "kiro",
           "llm",
-          "mcp",
           "mcp-server",
-          "rust",
-          "samp"
+          "multi-agent",
+          "multi-agent-systems",
+          "openai",
+          "opencode",
+          "typescript"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T06:28:57Z"
+        "pushedAt": "2026-11-16T06:54:40Z"
       }
     },
     {
@@ -140,7 +150,7 @@
           "proactive-ai"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T07:02:37Z"
+        "pushedAt": "2026-11-16T06:56:44Z"
       }
     },
     {
@@ -148,64 +158,58 @@
       "targetId": "a2a",
       "status": "unverified",
       "repository": {
-        "fullName": "QWED-AI/qwed-a2a",
-        "url": "https://github.com/QWED-AI/qwed-a2a",
-        "description": "Fail-closed Agent-to-Agent verification, provenance, and attestation infrastructure for AI systems.",
-        "stars": 0,
-        "forks": 3,
-        "language": "Python",
-        "topics": [
-          "a2a",
-          "a2a-protocol",
-          "agent-security",
-          "agent-to-agent",
-          "agentic-ai",
-          "ai-agents",
-          "attestation",
-          "fail-closed",
-          "fastapi",
-          "google-a2a",
-          "interceptor",
-          "jwt",
-          "middleware",
-          "multi-agent",
-          "python",
-          "qwed",
-          "qwed-ai",
-          "rate-limiting",
-          "trust-boundary",
-          "verification"
-        ],
-        "archived": false,
-        "pushedAt": "2026-11-15T06:55:21Z"
-      }
-    },
-    {
-      "queryId": "a2a-query",
-      "targetId": "a2a",
-      "status": "unverified",
-      "repository": {
-        "fullName": "yogurt-tech/yogurt",
-        "url": "https://github.com/yogurt-tech/yogurt",
-        "description": "The front door for agents: an open protocol, and one program a company runs, to be safely reachable by other companies' agents.",
-        "stars": 0,
-        "forks": 0,
+        "fullName": "distronode-corporation/worldinmotion",
+        "url": "https://github.com/distronode-corporation/worldinmotion",
+        "description": "End-to-end encrypted, real-time messaging between AI agent sessions across machines and accounts",
+        "stars": 6,
+        "forks": 2,
         "language": "TypeScript",
         "topics": [
-          "a2a",
           "agent-to-agent",
-          "agents",
           "ai-agents",
-          "b2b",
-          "bun",
+          "claude-code",
+          "cloudflare-workers",
+          "end-to-end-encryption",
           "mcp",
-          "protocol",
-          "specification",
-          "trust",
-          "typescript"
+          "websocket"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T06:36:25Z"
+        "pushedAt": "2026-11-16T06:59:55Z"
+      }
+    },
+    {
+      "queryId": "a2a-query",
+      "targetId": "a2a",
+      "status": "unverified",
+      "repository": {
+        "fullName": "leeguooooo/open-cross-session",
+        "url": "https://github.com/leeguooooo/open-cross-session",
+        "description": "Let Claude Code, Codex and Pi talk to each other: cross-session messaging that wakes AI agents on one machine or across your LAN (macOS/Linux/Windows). No server. 让 Claude Code、Codex 互相唤醒、互发消息。",
+        "stars": 37,
+        "forks": 5,
+        "language": "TypeScript",
+        "topics": [
+          "agent-communication",
+          "agent-to-agent",
+          "agentic-coding",
+          "ai-agents",
+          "ai-coding",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "cli",
+          "codex",
+          "codex-cli",
+          "cross-session",
+          "inter-agent-communication",
+          "lan",
+          "llm-agents",
+          "multi-agent",
+          "openai-codex",
+          "windows"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-16T05:27:09Z"
       }
     },
     {
@@ -213,30 +217,58 @@
       "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
-        "fullName": "slayerbladesmanjump/GitHub-Copilot-app",
-        "url": "https://github.com/slayerbladesmanjump/GitHub-Copilot-app",
-        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
-        "stars": 97,
+        "fullName": "artagon/homebrew-aitools",
+        "url": "https://github.com/artagon/homebrew-aitools",
+        "description": "Curated Homebrew tap (artagon/aitools) for 21 AI coding-agent CLIs, MCP servers, local memory graphs, and Valhalla AST tools with SLSA v1 & Sigstore provenance",
+        "stars": 1,
+        "forks": 0,
+        "language": "Shell",
+        "topics": [
+          "agent-memory",
+          "agent-skills",
+          "ai-agents",
+          "ast-grep",
+          "basic-memory",
+          "coding-agents",
+          "hashline",
+          "hindsight",
+          "homebrew",
+          "homebrew-tap",
+          "java-valhalla",
+          "mcp",
+          "mcp-server",
+          "qmd",
+          "ripwire",
+          "sbom",
+          "sigstore",
+          "slsa",
+          "squeez",
+          "tree-sitter"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-16T07:01:50Z"
+      }
+    },
+    {
+      "queryId": "agent-skills-query",
+      "targetId": "agent-skills",
+      "status": "unverified",
+      "repository": {
+        "fullName": "easyrenderai/easyrender-image-to-3d",
+        "url": "https://github.com/easyrenderai/easyrender-image-to-3d",
+        "description": "easyrender skill: turn one product photo into a textured 3D model (GLB)",
+        "stars": 0,
         "forks": 0,
         "language": null,
         "topics": [
-          "adminlte",
           "agent-skills",
-          "ai",
-          "awesome",
-          "chatgpt",
-          "copilot",
-          "github-copilot",
-          "hacktoberfest",
-          "microsoft-copilot",
-          "openai",
-          "prompts",
-          "vue",
-          "xcode",
-          "xtreamcode"
+          "claude-skills",
+          "gemini-cli-extension",
+          "mcp",
+          "skills"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T07:02:35Z"
+        "pushedAt": "2026-11-16T07:01:55Z"
       }
     },
     {
@@ -244,30 +276,21 @@
       "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
-        "fullName": "trackboatwrightplan/GitHub-Copilot-app",
-        "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
-        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
-        "stars": 672,
-        "forks": 12,
-        "language": null,
+        "fullName": "pbakaus/impeccable",
+        "url": "https://github.com/pbakaus/impeccable",
+        "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "stars": 110917,
+        "forks": 6633,
+        "language": "Rust",
         "topics": [
-          "adminlte",
           "agent-skills",
           "ai",
-          "awesome",
-          "chatgpt",
-          "copilot",
-          "github-copilot",
-          "hacktoberfest",
-          "microsoft-copilot",
-          "openai",
-          "prompts",
-          "vue",
-          "xcode",
-          "xtreamcode"
+          "anti-slop",
+          "design",
+          "slop"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T07:02:41Z"
+        "pushedAt": "2026-11-16T07:00:35Z"
       }
     },
     {
@@ -275,30 +298,25 @@
       "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
-        "fullName": "trackersnailgrip/GitHub-Copilot-app",
-        "url": "https://github.com/trackersnailgrip/GitHub-Copilot-app",
-        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
-        "stars": 666,
-        "forks": 12,
+        "fullName": "postoncehq/plugins",
+        "url": "https://github.com/postoncehq/plugins",
+        "description": "Claude Code plugin marketplace for PostOnce: MCP servers and skills for LinkedIn, Instagram, TikTok, YouTube, Facebook, X (Twitter), Threads, Bluesky and Pinterest.",
+        "stars": 1,
+        "forks": 0,
         "language": null,
         "topics": [
-          "adminlte",
           "agent-skills",
-          "ai",
-          "awesome",
-          "chatgpt",
-          "copilot",
-          "github-copilot",
-          "hacktoberfest",
-          "microsoft-copilot",
-          "openai",
-          "prompts",
-          "vue",
-          "xcode",
-          "xtreamcode"
+          "claude-code",
+          "claude-code-plugins",
+          "claude-plugins",
+          "claude-skills",
+          "mcp",
+          "plugin-marketplace",
+          "postonce",
+          "social-media"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T07:02:37Z"
+        "pushedAt": "2026-11-16T07:02:04Z"
       }
     },
     {
@@ -306,61 +324,36 @@
       "targetId": "agent-skills",
       "status": "unverified",
       "repository": {
-        "fullName": "TradesmanRecord/GitHub-Copilot-app",
-        "url": "https://github.com/TradesmanRecord/GitHub-Copilot-app",
-        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
-        "stars": 665,
-        "forks": 12,
+        "fullName": "postoncehq/postonce-skills",
+        "url": "https://github.com/postoncehq/postonce-skills",
+        "description": "Official PostOnce skills + MCP server for Claude, ChatGPT, Cursor and Codex. Write native posts, crosspost to 9 social platforms and schedule content calendars through official APIs. Includes 100 hooks and 49 viral formats.",
+        "stars": 1,
+        "forks": 0,
         "language": null,
         "topics": [
-          "adminlte",
           "agent-skills",
-          "ai",
-          "awesome",
+          "ai-agents",
           "chatgpt",
-          "copilot",
-          "github-copilot",
-          "hacktoberfest",
-          "microsoft-copilot",
-          "openai",
-          "prompts",
-          "vue",
-          "xcode",
-          "xtreamcode"
+          "claude",
+          "claude-code",
+          "claude-skills",
+          "codex",
+          "content-calendar",
+          "cross-posting",
+          "crosspost",
+          "cursor",
+          "mcp",
+          "mcp-server",
+          "model-context-protocol",
+          "postonce",
+          "skills",
+          "social-media",
+          "social-media-automation",
+          "social-media-scheduler",
+          "social-media-skills"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T07:02:37Z"
-      }
-    },
-    {
-      "queryId": "agent-skills-query",
-      "targetId": "agent-skills",
-      "status": "unverified",
-      "repository": {
-        "fullName": "TrapBladesmith/GitHub-Copilot-app",
-        "url": "https://github.com/TrapBladesmith/GitHub-Copilot-app",
-        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
-        "stars": 664,
-        "forks": 12,
-        "language": null,
-        "topics": [
-          "adminlte",
-          "agent-skills",
-          "ai",
-          "awesome",
-          "chatgpt",
-          "copilot",
-          "github-copilot",
-          "hacktoberfest",
-          "microsoft-copilot",
-          "openai",
-          "prompts",
-          "vue",
-          "xcode",
-          "xtreamcode"
-        ],
-        "archived": false,
-        "pushedAt": "2026-11-15T07:02:42Z"
+        "pushedAt": "2026-11-16T07:02:01Z"
       }
     },
     {
@@ -459,7 +452,7 @@
           "traces"
         ],
         "archived": false,
-        "pushedAt": "2026-11-09T15:37:10Z"
+        "pushedAt": "2026-11-15T23:25:56Z"
       }
     },
     {
@@ -513,27 +506,11 @@
       "targetId": "caveman",
       "status": "unverified",
       "repository": {
-        "fullName": "chanidog/opencode-caveman",
-        "url": "https://github.com/chanidog/opencode-caveman",
-        "description": "Caveman mode for OpenCode 2.x: per-session state, ruleset injection, TUI badge",
-        "stars": 0,
-        "forks": 0,
-        "language": "TypeScript",
-        "topics": [],
-        "archived": false,
-        "pushedAt": "2026-11-15T04:38:52Z"
-      }
-    },
-    {
-      "queryId": "caveman-query",
-      "targetId": "caveman",
-      "status": "unverified",
-      "repository": {
         "fullName": "cheaper-inference/OmniRoute",
         "url": "https://github.com/cheaper-inference/OmniRoute",
         "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
-        "stars": 87548,
-        "forks": 13422,
+        "stars": 87870,
+        "forks": 13482,
         "language": "TypeScript",
         "topics": [
           "a2a",
@@ -558,7 +535,7 @@
           "token-saver"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T06:58:32Z"
+        "pushedAt": "2026-11-16T04:09:50Z"
       }
     },
     {
@@ -566,31 +543,72 @@
       "targetId": "caveman",
       "status": "unverified",
       "repository": {
-        "fullName": "jraph/aero-cave",
-        "url": "https://github.com/jraph/aero-cave",
-        "description": "Caveman-mode memory sheets for Canadian student pilots: PPL/CPL training and PPAER, CPAER & INRAT exam prep. Bilingual EN/FR, searchable, and available offline.",
-        "stars": 0,
-        "forks": 0,
-        "language": "HTML",
-        "topics": [],
-        "archived": false,
-        "pushedAt": "2026-11-15T06:31:24Z"
-      }
-    },
-    {
-      "queryId": "caveman-query",
-      "targetId": "caveman",
-      "status": "unverified",
-      "repository": {
-        "fullName": "quadseven/grug",
-        "url": "https://github.com/quadseven/grug",
-        "description": "One grumpy caveman. Whole software lifecycle. Grug crush bug, block evil CVE, gate weak code, run project smooth like rock. Grug know SDLC. Grug live in GitHub, post Check Runs, never spam comments. You ship. Grug guard.",
+        "fullName": "fabfour60s/caveman-x-prompt",
+        "url": "https://github.com/fabfour60s/caveman-x-prompt",
+        "description": "CAVEMAN clothes current ChatGPT prompt",
         "stars": 1,
-        "forks": 1,
-        "language": "Python",
+        "forks": 0,
+        "language": null,
         "topics": [],
         "archived": false,
-        "pushedAt": "2026-11-15T03:58:01Z"
+        "pushedAt": "2026-11-16T03:00:25Z"
+      }
+    },
+    {
+      "queryId": "caveman-query",
+      "targetId": "caveman",
+      "status": "unverified",
+      "repository": {
+        "fullName": "JuliusBrussee/caveman",
+        "url": "https://github.com/JuliusBrussee/caveman",
+        "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+        "stars": 120539,
+        "forks": 7040,
+        "language": "Go",
+        "topics": [
+          "ai",
+          "anthropic",
+          "caveman",
+          "claude",
+          "claude-code",
+          "llm",
+          "meme",
+          "prompt-engineering",
+          "skill",
+          "tokens"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-16T04:05:12Z"
+      }
+    },
+    {
+      "queryId": "caveman-query",
+      "targetId": "caveman",
+      "status": "unverified",
+      "repository": {
+        "fullName": "simpletibr/simplicio",
+        "url": "https://github.com/simpletibr/simplicio",
+        "description": "🔥 Save up to 96% cost — more than Caveman (65%) or RTK (80%). AI coding agent: chat, map, edit, multi-agent. Single Rust binary.",
+        "stars": 30,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "ai-coding-agent",
+          "caveman",
+          "claude",
+          "cli",
+          "codex",
+          "deepseek",
+          "gemini",
+          "gpt",
+          "llm",
+          "local-first",
+          "news",
+          "rust",
+          "token-savings"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-16T03:27:35Z"
       }
     },
     {
@@ -606,7 +624,7 @@
         "language": "Python",
         "topics": [],
         "archived": false,
-        "pushedAt": "2026-11-15T07:02:10Z"
+        "pushedAt": "2026-11-16T06:52:05Z"
       }
     },
     {
@@ -614,20 +632,80 @@
       "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
-        "fullName": "gaofeng21cn/journey-atlas",
-        "url": "https://github.com/gaofeng21cn/journey-atlas",
-        "description": "Local-first, agent-ready travel atlas: reconstruct journeys and generate multi-scale maps, passport cards, and annual reviews.",
+        "fullName": "Egoushka/oura-mcp-app",
+        "url": "https://github.com/Egoushka/oura-mcp-app",
+        "description": "MCP App: interactive Oura Ring trend charts from a self-hosted warehouse",
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [
+          "mcp",
+          "mcp-apps",
+          "oura",
+          "oura-ring",
+          "quantified-self",
+          "self-hosted"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-16T02:00:01Z"
+      }
+    },
+    {
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
+      "status": "unverified",
+      "repository": {
+        "fullName": "jiangxi1129/cong-bridge",
+        "url": "https://github.com/jiangxi1129/cong-bridge",
+        "description": "让住在 ChatGPT 网页对话里的 AI 接上你家里的消息和工具：MCP App 消息桥，一个窗口用上所有工具",
         "stars": 0,
         "forks": 0,
         "language": "JavaScript",
         "topics": [
-          "local-first",
-          "maps",
-          "mcp-apps",
-          "travel-visualization"
+          "ai-companion",
+          "chatgpt",
+          "mcp",
+          "mcp-apps"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T04:13:21Z"
+        "pushedAt": "2026-11-16T01:17:11Z"
+      }
+    },
+    {
+      "queryId": "mcp-apps-query",
+      "targetId": "mcp-apps",
+      "status": "unverified",
+      "repository": {
+        "fullName": "Lonixwealth/forge-workbench",
+        "url": "https://github.com/Lonixwealth/forge-workbench",
+        "description": "Forge: A Live MCP Apps Workbench for Claude With Preview, Editor, and Document Viewer",
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [
+          "ai-agents",
+          "ai-app-builder",
+          "anthropic",
+          "artifacts",
+          "claude-artifacts",
+          "claude-code",
+          "code-editor",
+          "developer-tools",
+          "forge",
+          "forge-app",
+          "forgerock",
+          "live-preview",
+          "llm-tools",
+          "mcp",
+          "mcp-apps",
+          "mcp-server",
+          "model-context-protocol",
+          "preview",
+          "workflow",
+          "workspace"
+        ],
+        "archived": false,
+        "pushedAt": "2026-11-16T03:55:41Z"
       }
     },
     {
@@ -638,7 +716,7 @@
         "fullName": "MCPJam/inspector",
         "url": "https://github.com/MCPJam/inspector",
         "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-        "stars": 2320,
+        "stars": 2322,
         "forks": 304,
         "language": "TypeScript",
         "topics": [
@@ -664,7 +742,7 @@
           "tracing"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T06:18:10Z"
+        "pushedAt": "2026-11-16T06:54:37Z"
       }
     },
     {
@@ -672,150 +750,67 @@
       "targetId": "mcp-apps",
       "status": "unverified",
       "repository": {
-        "fullName": "NimbleBrainInc/nimblebrain",
-        "url": "https://github.com/NimbleBrainInc/nimblebrain",
-        "description": "Self-hosted platform for MCP Apps and agent automations — tools, interactive UIs, scheduled runs, multi-agent delegation.",
-        "stars": 28,
-        "forks": 17,
+        "fullName": "PierreAlvim/diorama-mcp",
+        "url": "https://github.com/PierreAlvim/diorama-mcp",
+        "description": "Diorama: a closed visual vocabulary for coding agents to show and ask inside the chat (MCP Apps)",
+        "stars": 0,
+        "forks": 0,
         "language": "TypeScript",
         "topics": [
-          "agent",
-          "agent-automation",
-          "agent-runtime",
           "ai-agents",
-          "anthropic",
-          "bun",
-          "claude",
-          "ext-apps",
-          "llm",
           "mcp",
           "mcp-apps",
-          "mcp-client",
-          "mcp-host",
-          "mcp-server",
-          "mcpb",
           "model-context-protocol",
-          "multi-agent",
-          "scheduled-agents",
-          "self-hosted",
-          "typescript"
+          "visualization"
         ],
         "archived": false,
-        "pushedAt": "2026-11-15T06:59:03Z"
+        "pushedAt": "2026-11-16T04:41:17Z"
       }
     },
     {
-      "queryId": "mcp-apps-query",
-      "targetId": "mcp-apps",
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
       "status": "unverified",
       "repository": {
-        "fullName": "NimbleBrainInc/todosforagents",
-        "url": "https://github.com/NimbleBrainInc/todosforagents",
-        "description": "To-do boards for AI agents, as an MCP server with a board UI. Local (SQLite) or hosted.",
+        "fullName": "eserlxl/ponytail-agy-band",
+        "url": "https://github.com/eserlxl/ponytail-agy-band",
+        "description": "Sync Antigravity (agy) sessions, tokens, agent time, test status, and API costs into Ponytail's local Board",
         "stars": 0,
         "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-16T00:50:16Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "imMamdouhaboammar/anti-slop-engineering",
+        "url": "https://github.com/imMamdouhaboammar/anti-slop-engineering",
+        "description": "Your AI agent is quietly sabotaging your codebase. Stop the slop with 217 battle-tested anti-patterns, Google SRE enforcement, and a zero-trust diff guard, An Engineering Discipline Playbook & Guard System for AI Coding Agents. Prevent, detect, and audit AI slop and regression.",
+        "stars": 3,
+        "forks": 1,
         "language": "Python",
-        "topics": [
-          "ai-agents",
-          "kanban",
-          "mcp",
-          "mcp-apps",
-          "mcp-server",
-          "todo"
-        ],
-        "archived": false,
-        "pushedAt": "2026-11-15T06:53:49Z"
-      }
-    },
-    {
-      "queryId": "mcp-apps-query",
-      "targetId": "mcp-apps",
-      "status": "unverified",
-      "repository": {
-        "fullName": "premmannava/sayshape",
-        "url": "https://github.com/premmannava/sayshape",
-        "description": "The UI language AI models write, and the engine that draws it. Works in Claude, ChatGPT and VS Code through MCP.",
-        "stars": 0,
-        "forks": 0,
-        "language": "TypeScript",
-        "topics": [
-          "ai",
-          "canvas",
-          "chatgpt",
-          "claude",
-          "generative-ui",
-          "llm",
-          "mcp",
-          "mcp-apps",
-          "mcp-server",
-          "typescript",
-          "ui-language"
-        ],
-        "archived": false,
-        "pushedAt": "2026-11-15T05:14:24Z"
-      }
-    },
-    {
-      "queryId": "ponytail-query",
-      "targetId": "ponytail",
-      "status": "unverified",
-      "repository": {
-        "fullName": "idMolotov/opencode-v2-ponytail-scoped",
-        "url": "https://github.com/idMolotov/opencode-v2-ponytail-scoped",
-        "description": null,
-        "stars": 0,
-        "forks": 0,
-        "language": "JavaScript",
-        "topics": [],
-        "archived": false,
-        "pushedAt": "2026-11-15T06:22:49Z"
-      }
-    },
-    {
-      "queryId": "ponytail-query",
-      "targetId": "ponytail",
-      "status": "unverified",
-      "repository": {
-        "fullName": "jusselman/ponytail",
-        "url": "https://github.com/jusselman/ponytail",
-        "description": null,
-        "stars": 0,
-        "forks": 0,
-        "language": "JavaScript",
-        "topics": [],
-        "archived": false,
-        "pushedAt": "2026-11-15T02:50:07Z"
-      }
-    },
-    {
-      "queryId": "ponytail-query",
-      "targetId": "ponytail",
-      "status": "unverified",
-      "repository": {
-        "fullName": "nicolasmondain/adorno",
-        "url": "https://github.com/nicolasmondain/adorno",
-        "description": "Adorno, an agent that works like you: it reviews the PRs you are asked to review, answers the reviews you receive and opens your PRs, with your standards and your voice. Portable agent setup (Claude Code, Codex, Gemini CLI) built on addy/agent-skills and ponytail.",
-        "stars": 0,
-        "forks": 0,
-        "language": "Shell",
         "topics": [
           "agent-skills",
           "ai-agents",
-          "ai-coding-assistant",
-          "claude-code",
+          "anti-slop",
+          "clean-code",
+          "code-quality",
           "code-review",
-          "codex-cli",
-          "developer-tools",
-          "gemini-cli",
-          "github-automation",
-          "llm",
-          "notion",
-          "pull-requests",
-          "slack",
-          "subagents"
+          "kiss",
+          "ponytail",
+          "python",
+          "software-engineering",
+          "sre",
+          "testing",
+          "yagni"
         ],
         "archived": false,
-        "pushedAt": "2026-11-14T23:17:24Z"
+        "pushedAt": "2026-11-16T00:03:51Z"
       }
     },
     {
@@ -823,40 +818,47 @@
       "targetId": "ponytail",
       "status": "unverified",
       "repository": {
-        "fullName": "NourEldinShobier/claude-tuning",
-        "url": "https://github.com/NourEldinShobier/claude-tuning",
-        "description": "One-command setup that makes Claude Code use fewer tokens: rtk shell compression, stash search index, web-search, codebase-memory, fast-jev-compaction, ponytail, plus Jev skill suggestions and model routing.",
-        "stars": 1,
-        "forks": 0,
-        "language": "TypeScript",
-        "topics": [
-          "bun",
-          "claude-code",
-          "claude-code-plugin",
-          "context-engineering",
-          "jev",
-          "mcp",
-          "rtk",
-          "tokens"
-        ],
-        "archived": false,
-        "pushedAt": "2026-11-15T04:09:19Z"
-      }
-    },
-    {
-      "queryId": "ponytail-query",
-      "targetId": "ponytail",
-      "status": "unverified",
-      "repository": {
-        "fullName": "xcmobiledetailing-gif/https-github.com-DietrichGebert-ponytail",
-        "url": "https://github.com/xcmobiledetailing-gif/https-github.com-DietrichGebert-ponytail",
+        "fullName": "TanmayDesignBytes/Ponytail-Exp",
+        "url": "https://github.com/TanmayDesignBytes/Ponytail-Exp",
         "description": null,
         "stars": 0,
         "forks": 0,
         "language": null,
         "topics": [],
         "archived": false,
-        "pushedAt": "2026-11-14T22:49:57Z"
+        "pushedAt": "2026-11-16T06:09:35Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "ToddModica/upstream-skills",
+        "url": "https://github.com/ToddModica/upstream-skills",
+        "description": "Public Codex Marketplace for redistributable upstream Skills: research, writing, utility, ponytail, watermarks-remover",
+        "stars": 5,
+        "forks": 2,
+        "language": "Python",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-15T22:06:20Z"
+      }
+    },
+    {
+      "queryId": "ponytail-query",
+      "targetId": "ponytail",
+      "status": "unverified",
+      "repository": {
+        "fullName": "vandinho10/ponypush",
+        "url": "https://github.com/vandinho10/ponypush",
+        "description": "Agente C++17 multiplataforma que envia as sessoes do ponytail para a API central",
+        "stars": 0,
+        "forks": 0,
+        "language": "C++",
+        "topics": [],
+        "archived": false,
+        "pushedAt": "2026-11-16T05:33:27Z"
       }
     },
     {
@@ -950,15 +952,15 @@
   ],
   "lastRun": {
     "status": "success",
-    "attemptedAt": "2026-11-15T07:02:45.658Z",
-    "completedAt": "2026-11-15T07:02:50.882Z",
+    "attemptedAt": "2026-11-16T07:02:11.734Z",
+    "completedAt": "2026-11-16T07:02:17.076Z",
     "queryCount": 7,
     "successfulQueries": 7,
     "failedQueries": [],
     "rateLimit": {
       "limit": 10,
       "remaining": 0,
-      "resetAt": "2026-11-15T07:03:37Z"
+      "resetAt": "2026-11-16T07:03:01Z"
     }
   }
 }

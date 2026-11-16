@@ -226,5 +226,11 @@
     "label": "radar-daily-2026-11-15",
     "en": "Daily Radar data and health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, and all seven fixed-query GitHub checks succeeded. Stage 2 accounted exactly once for all 21 material injected Stage 1 inbox items and all 20 active repository dispositions, but 20 additional mentions first observed by the publication scrape lacked targeted accounting; no substantive findings, score/status changes, implementation changes, or Core Atlas promotions were published.",
     "ja": "日次レーダーのdata・健全性更新：広範なattention発見は3件のfeedと3件の広範GitHub queryをすべて成功し、固定GitHub query 7件もすべて成功した。Stage 2は注入済みStage 1 inboxの重要項目21件とactive repository disposition 20件をすべて重複なくaccountingしたが、公開用scrapeで追加観測したmention 20件はtargeted accounting未実施のため、実質的finding、score・status変更、implementation変更、Core Atlas昇格は公開しない。"
+  },
+  {
+    "date": "2026-11-16",
+    "label": "radar-daily-2026-11-16",
+    "en": "Daily Radar data and health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, producing 70 fresh input records, 71 rolling-72-hour mentions, and 21 active repositories; all seven fixed-query GitHub checks also succeeded. Stage 2 accounted exactly once for all 32 injected Stage 1 inbox items and all 21 active repository dispositions, but 20 current-window mentions present in the publication scrape were outside that targeted accounting; no substantive findings, score/status changes, implementation changes, or Core Atlas promotions were published.",
+    "ja": "日次レーダーのdata・健全性更新：広範なattention発見は3件のfeedと3件の広範GitHub queryをすべて成功し、fresh input record 70件、rolling 72時間mention 71件、active repository 21件を得た。固定GitHub query 7件もすべて成功した。Stage 2は注入済みStage 1 inbox 32件とactive repository disposition 21件をすべて重複なくaccountingしたが、公開用scrapeのcurrent-window mention 20件はtargeted accountingの対象外だったため、実質的finding、score・status変更、implementation変更、Core Atlas昇格は公開しない。"
   }
 ]

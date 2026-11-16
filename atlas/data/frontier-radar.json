@@ -16,29 +16,29 @@
     }
   },
   "audit": {
-    "asOf": "2026-11-15T07:05:18.967Z",
+    "asOf": "2026-11-16T07:14:43.000Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-15T07:05:18.967Z",
+        "lastAttemptAt": "2026-11-16T07:14:43.000Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 5,
+        "failureStreak": 6,
         "lastFailure": {
-          "at": "2026-11-15T07:05:18.967Z",
+          "at": "2026-11-16T07:14:43.000Z",
           "class": "validation",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-15T07:05:18.967Z",
+        "lastAttemptAt": "2026-11-16T07:14:43.000Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 5,
+        "failureStreak": 6,
         "lastFailure": {
-          "at": "2026-11-15T07:05:18.967Z",
+          "at": "2026-11-16T07:14:43.000Z",
           "class": "validation",
           "resolved": false
         }
@@ -1018,7 +1018,8 @@
       "radar-daily-2026-11-10",
       "radar-daily-2026-11-11",
       "radar-daily-2026-11-14",
-      "radar-daily-2026-11-15"
+      "radar-daily-2026-11-15",
+      "radar-daily-2026-11-16"
     ],
     "sensors": [
       {
