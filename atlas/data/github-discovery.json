@@ -13,7 +13,7 @@
       "id": "typed-decision-query",
       "targetId": "typed-decision-models",
       "query": "typed probabilistic decision model System One",
-      "state": "failed"
+      "state": "not-collected"
     },
     {
       "id": "agent-skills-query",
@@ -25,7 +25,7 @@
       "id": "mcp-apps-query",
       "targetId": "mcp-apps",
       "query": "topic:mcp-apps",
-      "state": "collected"
+      "state": "not-collected"
     },
     {
       "id": "a2a-query",
@@ -43,25 +43,25 @@
       "id": "ponytail-query",
       "targetId": "ponytail",
       "query": "ponytail",
-      "state": "collected"
+      "state": "not-collected"
     },
     {
       "id": "caveman-query",
       "targetId": "caveman",
       "query": "caveman",
-      "state": "collected"
+      "state": "failed"
     }
   ],
   "signals": [],
   "lastRun": {
     "status": "failed",
-    "attemptedAt": "2026-11-17T07:02:31.651Z",
+    "attemptedAt": "2026-11-18T07:02:46.044Z",
     "completedAt": null,
     "queryCount": 7,
-    "successfulQueries": 6,
+    "successfulQueries": 3,
     "failedQueries": [
       {
-        "id": "typed-decision-query",
+        "id": "caveman-query",
         "class": "rate_limit",
         "httpStatus": 403
       }
@@ -69,7 +69,7 @@
     "rateLimit": {
       "limit": 10,
       "remaining": 0,
-      "resetAt": "2026-11-17T07:02:52Z"
+      "resetAt": "2026-11-18T07:03:22Z"
     }
   }
 }

@@ -238,5 +238,11 @@
     "label": "radar-daily-2026-11-17",
     "en": "Daily Radar data and health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, producing 70 fresh input records, 71 rolling-72-hour mentions, and 22 active repositories; fixed-query GitHub discovery failed on a public API rate limit after six of seven queries and cleared current signals. Stage 2 accounted exactly once for all 30 injected Stage 1 inbox items and all 22 active repository dispositions, but six additional current-window mentions arrived after the injected briefings and lacked targeted accounting; no substantive findings, score/status changes, implementation changes, or Core Atlas promotions were published.",
     "ja": "日次レーダーのdata・健全性更新：広範なattention発見は3件のfeedと3件の広範GitHub queryをすべて成功し、fresh input record 70件、rolling 72時間mention 71件、active repository 22件を得た。固定GitHub queryの発見は7件中6件の完了後に公開APIのrate limitで失敗し、現在のsignalを消去した。Stage 2は注入済みStage 1 inbox 30件とactive repository disposition 22件をすべて重複なくaccountingしたが、注入済みbriefing後にcurrent-window mention 6件が追加されtargeted accounting未実施のため、実質的finding、score・status変更、implementation変更、Core Atlas昇格は公開しない。"
+  },
+  {
+    "date": "2026-11-18",
+    "label": "radar-daily-2026-11-18",
+    "en": "Daily Radar data and health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, producing 70 fresh input records, 71 rolling-72-hour mentions, and 27 active repositories; fixed-query GitHub discovery failed on a public API rate limit after three of seven queries and cleared current signals. Stage 2 accounted exactly once for all 33 injected Stage 1 inbox items and all 27 active repository dispositions, but 20 additional Hacker News mentions first observed by the publication scrape lacked targeted accounting; no substantive findings, score/status changes, implementation changes, or Core Atlas promotions were published.",
+    "ja": "日次レーダーのdata・健全性更新：広範なattention発見は3件のfeedと3件の広範GitHub queryをすべて成功し、fresh input record 70件、rolling 72時間mention 71件、active repository 27件を得た。固定GitHub queryの発見は7件中3件の完了後に公開APIのrate limitで失敗し、現在のsignalを消去した。Stage 2は注入済みStage 1 inbox 33件とactive repository disposition 27件をすべて重複なくaccountingしたが、公開用scrapeで初観測したHacker News mention 20件はtargeted accounting未実施のため、実質的finding、score・status変更、implementation変更、Core Atlas昇格は公開しない。"
   }
 ]
