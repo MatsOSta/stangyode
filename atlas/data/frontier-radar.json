@@ -16,29 +16,29 @@
     }
   },
   "audit": {
-    "asOf": "2026-11-18T07:06:04.000Z",
+    "asOf": "2026-11-21T07:09:56.000Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-18T07:06:04.000Z",
+        "lastAttemptAt": "2026-11-21T07:09:56.000Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 8,
+        "failureStreak": 9,
         "lastFailure": {
-          "at": "2026-11-18T07:06:04.000Z",
+          "at": "2026-11-21T07:09:56.000Z",
           "class": "validation",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-18T07:06:04.000Z",
+        "lastAttemptAt": "2026-11-21T07:09:56.000Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 8,
+        "failureStreak": 9,
         "lastFailure": {
-          "at": "2026-11-18T07:06:04.000Z",
+          "at": "2026-11-21T07:09:56.000Z",
           "class": "validation",
           "resolved": false
         }
@@ -484,6 +484,21 @@
         "sourceId": "terminal-bench-repo",
         "checkedAt": "2026-11-10",
         "outcome": "relevant"
+      },
+      {
+        "sourceId": "openai-performance-factory",
+        "checkedAt": "2026-11-21",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "loopforge-repo",
+        "checkedAt": "2026-11-21",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "github-agentic-workflows-2026-10-12",
+        "checkedAt": "2026-11-21",
+        "outcome": "relevant"
       }
     ],
     "queryGroups": [
@@ -914,6 +929,32 @@
           "SWE-bench evaluator-owned tests reproducible containers",
           "Terminal-Bench task-specific tests oracle solutions sandbox"
         ]
+      },
+      {
+        "id": "durable-agent-delivery-challenge-2026-11-21",
+        "label": {
+          "en": "Durable agent-delivery first-party and sibling challenge",
+          "ja": "耐久的agent deliveryの一次情報・同等実装検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "harness-owned-long-horizon-state",
+          "bounded-agentic-delivery"
+        ],
+        "sourceIds": [
+          "openai-performance-factory",
+          "loopforge-repo",
+          "github-agentic-workflows-2026-10-12"
+        ],
+        "resultSummary": {
+          "en": "OpenAI reports a concrete production workflow with persistent task state, separate adversarial review, engineer-controlled merges, and recovery checks; LoopForge and GitHub independently implement adjacent workflow gates. The pattern converges, but outcomes remain mostly vendor-authored, and seven post-brief mentions lack targeted accounting, so no Radar decision or score change is published.",
+          "ja": "OpenAIは永続task state、別sessionの反証review、engineer管理のmerge、回復確認を備える具体的本番workflowを報告し、LoopForgeとGitHubも隣接するworkflow gateを独立実装する。patternは収束するが、成果証拠の多くはvendor作者実施で、briefing後のmention 7件は未accountingのため、Radar判断やscore変更は公開しない。"
+        },
+        "queries": [
+          "OpenAI Performance Factory production workflow accuracy limitations first-party",
+          "persistent task state coding-agent workflow deterministic gates independent review sibling implementations",
+          "GitHub Agentic Workflows LoopForge durable delivery state human approval verification"
+        ]
       }
     ],
     "trackedEntityIds": [
@@ -1021,7 +1062,8 @@
       "radar-daily-2026-11-15",
       "radar-daily-2026-11-16",
       "radar-daily-2026-11-17",
-      "radar-daily-2026-11-18"
+      "radar-daily-2026-11-18",
+      "radar-daily-2026-11-21"
     ],
     "sensors": [
       {
@@ -1034,11 +1076,7 @@
       },
       {
         "id": "github-public",
-        "state": "failed",
-        "reason": {
-          "en": "The targeted public GitHub update fetch failed on the Caveman query because of a public API rate limit; three of seven queries completed, current signals were cleared, and prior results are not treated as current.",
-          "ja": "範囲限定のGitHub公開更新取得はCaveman queryで公開APIのrate limitにより失敗した。7件中3件のqueryは完了したが、現在のsignalは消去し、過去の結果を現時点の結果として扱わない。"
-        }
+        "state": "checked"
       },
       {
         "id": "preprint",

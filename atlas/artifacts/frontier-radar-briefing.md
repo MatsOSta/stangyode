@@ -8,16 +8,16 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-11-18T07:06:04.000Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-11-21T07:09:56.000Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 8; last failure validation at 2026-11-18T07:06:04.000Z (unresolved)
-- editor: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 8; last failure validation at 2026-11-18T07:06:04.000Z (unresolved)
+- scout: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 9; last failure validation at 2026-11-21T07:09:56.000Z (unresolved)
+- editor: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 9; last failure validation at 2026-11-21T07:09:56.000Z (unresolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
 - independent-press: CHECKED
-- github-public: FAILED — The targeted public GitHub update fetch failed on the Caveman query because of a public API rate limit; three of seven queries completed, current signals were cleared, and prior results are not treated as current. / 範囲限定のGitHub公開更新取得はCaveman queryで公開APIのrate limitにより失敗した。7件中3件のqueryは完了したが、現在のsignalは消去し、過去の結果を現時点の結果として扱わない。
+- github-public: CHECKED
 - preprint: CHECKED
 
 ### First-party sources checked / 確認済み一次情報
@@ -109,6 +109,9 @@ As of / 基準時刻: 2026-11-18T07:06:04.000Z; cadence / 頻度: daily; data / 
 - [Co-Design Bench repository](https://github.com/Wiselnn570/Co-Design-Bench): relevant; checked 2026-11-10; source co-design-bench-repo
 - [SWE-bench repository](https://github.com/SWE-bench/SWE-bench): relevant; checked 2026-11-10; source swe-bench-repo
 - [Terminal-Bench repository](https://github.com/harbor-framework/terminal-bench-1): relevant; checked 2026-11-10; source terminal-bench-repo
+- [How OpenAI’s Performance Factory keeps ChatGPT fast](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast): relevant; checked 2026-11-21; source openai-performance-factory
+- [Tencent LoopForge repository](https://github.com/Tencent/LoopForge): relevant; checked 2026-11-21; source loopforge-repo
+- [GitHub Agentic Workflows weekly update — October 12, 2026](https://github.github.com/gh-aw/blog/): relevant; checked 2026-11-21; source github-agentic-workflows-2026-10-12
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -267,11 +270,22 @@ Evidence: zthr-site, zthr-reference-implementation, co-design-bench-paper, co-de
 - `SWE-bench evaluator-owned tests reproducible containers`
 - `Terminal-Bench task-specific tests oracle solutions sandbox`
 
+### Durable agent-delivery first-party and sibling challenge / 耐久的agent deliveryの一次情報・同等実装検証
+OpenAI reports a concrete production workflow with persistent task state, separate adversarial review, engineer-controlled merges, and recovery checks; LoopForge and GitHub independently implement adjacent workflow gates. The pattern converges, but outcomes remain mostly vendor-authored, and seven post-brief mentions lack targeted accounting, so no Radar decision or score change is published. / OpenAIは永続task state、別sessionの反証review、engineer管理のmerge、回復確認を備える具体的本番workflowを報告し、LoopForgeとGitHubも隣接するworkflow gateを独立実装する。patternは収束するが、成果証拠の多くはvendor作者実施で、briefing後のmention 7件は未accountingのため、Radar判断やscore変更は公開しない。
+
+Targets: harness-owned-long-horizon-state, bounded-agentic-delivery
+
+Evidence: openai-performance-factory, loopforge-repo, github-agentic-workflows-2026-10-12
+
+- `OpenAI Performance Factory production workflow accuracy limitations first-party`
+- `persistent task state coding-agent workflow deterministic gates independent review sibling implementations`
+- `GitHub Agentic Workflows LoopForge durable delivery state human approval verification`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
 - jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation, multi-harness-control-plane, lunar-airlock, governed-agent-fleet-authority, zthr, co-design-bench
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08, radar-daily-2026-11-09, radar-daily-2026-11-10, radar-daily-2026-11-11, radar-daily-2026-11-14, radar-daily-2026-11-15, radar-daily-2026-11-16, radar-daily-2026-11-17, radar-daily-2026-11-18
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08, radar-daily-2026-11-09, radar-daily-2026-11-10, radar-daily-2026-11-11, radar-daily-2026-11-14, radar-daily-2026-11-15, radar-daily-2026-11-16, radar-daily-2026-11-17, radar-daily-2026-11-18, radar-daily-2026-11-21
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
@@ -1116,14 +1130,14 @@ Public observation input only. Living candidates live in discovery-candidates.js
 
 Provider / プロバイダー: github; mode / モード: public-api; live fetch / ライブ取得: yes
 
-- typed-decision-models: typed probabilistic decision model System One (not-collected)
+- typed-decision-models: typed probabilistic decision model System One (collected)
 - agent-skills: topic:agent-skills (collected)
-- mcp-apps: topic:mcp-apps (not-collected)
+- mcp-apps: topic:mcp-apps (collected)
 - a2a: topic:agent-to-agent (collected)
 - agentic-resource-discovery-ard: topic:agentic-resource-discovery (collected)
-- ponytail: ponytail (not-collected)
-- caveman: caveman (failed)
+- ponytail: ponytail (collected)
+- caveman: caveman (collected)
 
-Collected signals / 収集済みシグナル: 0
+Collected signals / 収集済みシグナル: 35
 
 Generated by atlas/scripts/render-frontier-briefing.mjs; deterministic for the checked-in inputs.
