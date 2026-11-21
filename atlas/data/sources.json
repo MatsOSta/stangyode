@@ -2054,5 +2054,21 @@
       "en": "Independent sibling benchmark with task instructions, sandboxed execution, task-specific tests, and oracle solutions; it is broader terminal evaluation rather than a direct software-intent benchmark.",
       "ja": "task instruction、sandbox実行、task固有test、oracle solutionを持つ独立同等benchmark。software intentの直接benchmarkではなく、より広いterminal評価。"
     }
+  },
+  "openai-performance-factory": {
+    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+    "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "note": {
+      "en": "First-party production report for persistent regression tasks, explicit workflow states, separate adversarial review, engineer-controlled merges, and post-deployment recovery checks; accuracy and volume figures are OpenAI-reported.",
+      "ja": "永続的なregression task、明示的workflow state、別sessionの反証review、engineer管理のmerge、deployment後の回復確認を示す一次本番報告。精度と件数はOpenAI報告。"
+    }
+  },
+  "loopforge-repo": {
+    "title": "Tencent LoopForge repository",
+    "url": "https://github.com/Tencent/LoopForge",
+    "note": {
+      "en": "First-party open implementation of coding-agent workflows with sandboxed agent steps, deterministic scripts, independent review, declared artifacts, and human approval gates; outcome claims remain project-authored.",
+      "ja": "sandbox化したagent step、決定論的script、独立review、宣言済みartifact、人間approval gateを備えるcoding-agent workflowの公開一次実装。成果主張はproject作者実施。"
+    }
   }
 }
