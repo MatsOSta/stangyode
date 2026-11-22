@@ -16,29 +16,29 @@
     }
   },
   "audit": {
-    "asOf": "2026-11-21T07:09:56.000Z",
+    "asOf": "2026-11-22T07:02:17.744Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-21T07:09:56.000Z",
+        "lastAttemptAt": "2026-11-22T07:02:17.744Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 9,
+        "failureStreak": 10,
         "lastFailure": {
-          "at": "2026-11-21T07:09:56.000Z",
+          "at": "2026-11-22T07:02:17.744Z",
           "class": "validation",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-21T07:09:56.000Z",
+        "lastAttemptAt": "2026-11-22T07:02:17.744Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 9,
+        "failureStreak": 10,
         "lastFailure": {
-          "at": "2026-11-21T07:09:56.000Z",
+          "at": "2026-11-22T07:02:17.744Z",
           "class": "validation",
           "resolved": false
         }
@@ -499,6 +499,21 @@
         "sourceId": "github-agentic-workflows-2026-10-12",
         "checkedAt": "2026-11-21",
         "outcome": "relevant"
+      },
+      {
+        "sourceId": "compact-bench-working-context-paper",
+        "checkedAt": "2026-11-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "compact-bench-sibling-paper",
+        "checkedAt": "2026-11-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "benchmarks-compaction-friendly-paper",
+        "checkedAt": "2026-11-22",
+        "outcome": "relevant"
       }
     ],
     "queryGroups": [
@@ -955,6 +970,31 @@
           "persistent task state coding-agent workflow deterministic gates independent review sibling implementations",
           "GitHub Agentic Workflows LoopForge durable delivery state human approval verification"
         ]
+      },
+      {
+        "id": "working-context-compaction-challenge-2026-11-22",
+        "label": {
+          "en": "Working-context compaction first-party and sibling challenge",
+          "ja": "working-context圧縮の一次情報・同等研究検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "harness-owned-long-horizon-state"
+        ],
+        "sourceIds": [
+          "compact-bench-working-context-paper",
+          "compact-bench-sibling-paper",
+          "benchmarks-compaction-friendly-paper"
+        ],
+        "resultSummary": {
+          "en": "Three independent evaluations agree that compaction can lose execution-critical state, but differ on severity because retention ratio, repeated boundaries, benchmark structure, and externalized state materially affect results. No Radar decision is published because seven mentions arrived after the injected briefings without Stage 2 accounting.",
+          "ja": "3件の独立評価は圧縮が実行に不可欠なstateを失い得る点で一致するが、保持率、反復境界、benchmark構造、外部化stateが結果へ大きく影響するため深刻度は異なる。注入済みbriefing後に7件のmentionが到着しStage 2 accountingがないため、Radar判断は公開しない。"
+        },
+        "queries": [
+          "CompAct-Bench official paper benchmark context compaction constraints 2611.25673",
+          "agent context compaction benchmark sibling implementation benchmark constraint retention ContextBench 2026",
+          "CompAct-Bench criticism limitations independent evaluation"
+        ]
       }
     ],
     "trackedEntityIds": [
@@ -1063,7 +1103,8 @@
       "radar-daily-2026-11-16",
       "radar-daily-2026-11-17",
       "radar-daily-2026-11-18",
-      "radar-daily-2026-11-21"
+      "radar-daily-2026-11-21",
+      "radar-daily-2026-11-22"
     ],
     "sensors": [
       {
@@ -1571,6 +1612,21 @@
         "summary": {
           "en": "Add ZTHR and Co-Design Bench as separate bounded PILOT records, add both as implementations of the existing evaluator-owned acceptance-artifact category without changing its WATCH status or scores, and make no Core Atlas promotion.",
           "ja": "ZTHRとCo-Design Benchを別々の限定PILOT記録として追加し、既存の評価者所有受入artifact categoryへ両方を実装として加える。categoryのWATCH状態・scoreは変更せず、Core Atlas昇格もしない。"
+        }
+      },
+      {
+        "kind": "material-finding",
+        "targetIds": [
+          "harness-owned-long-horizon-state"
+        ],
+        "sourceIds": [
+          "compact-bench-working-context-paper",
+          "compact-bench-sibling-paper",
+          "benchmarks-compaction-friendly-paper"
+        ],
+        "summary": {
+          "en": "CompAct-Bench makes post-compaction task completion measurable, while sibling studies show that repeated compaction, exact-constraint loss, benchmark selection, and state location can reverse or narrow headline conclusions. The evaluation direction is durable; no benchmark was reproduced and no score, status, implementation, or Core Atlas record changes.",
+          "ja": "CompAct-Benchは圧縮後task完了を測定可能にし、同等研究は反復圧縮、厳密制約の喪失、benchmark選択、state配置が主要結論を逆転または縮小し得ることを示す。評価方向は持続的だが、benchmarkは再現しておらず、score、status、implementation、Core Atlas記録は変更しない。"
         }
       }
     ]
