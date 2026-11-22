@@ -50,6 +50,220 @@
   ],
   "mentions": [
     {
+      "id": "6ca3bf8e4b973afe",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: Prompt Upgrader – a no-signup tool that scores and rewrites AI prompts",
+      "url": "https://madgpt1.github.io/prompt-upgrader/",
+      "publishedAt": "2026-11-22T06:41:12Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "9ab7e77f201e58c3",
+      "sourceId": "hacker-news-ai",
+      "title": "AI resolved all null pointer dereferences in C",
+      "url": "https://kapteko.com/ai-resolved-all-null-pointer-dereferences/",
+      "publishedAt": "2026-11-22T06:36:36Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "8273b003b84cebe9",
+      "sourceId": "hacker-news-ai",
+      "title": "AWS local emulator created by AI agents",
+      "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
+      "publishedAt": "2026-11-22T05:57:03Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "52d575c7fa84d48b",
+      "sourceId": "hacker-news-ai",
+      "title": "AI as a Lifestyle Choice",
+      "url": "https://grahamdumpleton.me/posts/2026/11/ai-as-a-lifestyle-choice/",
+      "publishedAt": "2026-11-22T05:28:59Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "e09c26b0d14e97e2",
+      "sourceId": "hacker-news-ai",
+      "title": "Ask HN: What made you pivot your interest to the field of AI?",
+      "url": "https://news.ycombinator.com/item?id=50596564",
+      "publishedAt": "2026-11-22T05:20:06Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "40dfbd8ae4451e45",
+      "sourceId": "hacker-news-ai",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "publishedAt": "2026-11-22T05:11:43Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "2be9fca92dc0a77e",
+      "sourceId": "hacker-news-ai",
+      "title": "AiDotNet – Comprehensive AI/ML Framework for .NET",
+      "url": "https://github.com/ooples/AiDotNet",
+      "publishedAt": "2026-11-22T05:07:05Z",
+      "githubRepositories": [
+        "ooples/AiDotNet"
+      ],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "4e7dba441d76b423",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: Vouch – See what AI assistants say about your brand mid-conversation",
+      "url": "https://vouchgeo.com",
+      "publishedAt": "2026-11-22T04:24:22Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "1b9fa56facdd786f",
+      "sourceId": "hacker-news-ai",
+      "title": "Ask HN: Are you prepared to rent intelligence from AI providers?",
+      "url": "https://news.ycombinator.com/item?id=50596041",
+      "publishedAt": "2026-11-22T03:48:46Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "36be9b86146cce6e",
+      "sourceId": "hacker-news-ai",
+      "title": "Ask HN: Printing documents in the age of AI cyberattacks",
+      "url": "https://news.ycombinator.com/item?id=50596012",
+      "publishedAt": "2026-11-22T03:41:48Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "deed8527670c11b7",
+      "sourceId": "hacker-news-ai",
+      "title": "Can AI Make Its Own Manufacturing Decisions?",
+      "url": "https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/",
+      "publishedAt": "2026-11-22T03:29:53Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "706e723e60a42b93",
+      "sourceId": "hacker-news-ai",
+      "title": "Current Efforts Aren't Enough to Slow the AI Cyber Virus",
+      "url": "https://www.bridgewater.com/research-and-insights/current-efforts-arent-enough-to-slow-the-ai-cyber-virus",
+      "publishedAt": "2026-11-22T03:28:48Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "3950b8c95b8f50b8",
+      "sourceId": "hacker-news-ai",
+      "title": "Together.ai: Prompt Leakage for Requests",
+      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "publishedAt": "2026-11-22T03:07:27Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "51e79bf36c39c758",
+      "sourceId": "hacker-news-ai",
+      "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+      "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "publishedAt": "2026-11-22T03:06:35Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "3a68a6499b92e952",
+      "sourceId": "hacker-news-ai",
+      "title": "Wall Street Asks What Can Save AI Trade After Anthropic Wipeout",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/wall-street-asks-what-can-save-ai-trade-after-anthropic-wipeout",
+      "publishedAt": "2026-11-22T02:27:39Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "d244844b8c1daac8",
+      "sourceId": "hacker-news-ai",
+      "title": "The Mythology of Conscious AI",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "publishedAt": "2026-11-22T02:10:02Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "ebc3052beb4ad874",
+      "sourceId": "hacker-news-ai",
+      "title": "The AI cyber threat is here",
+      "url": "https://www.ft.com/content/3cf882c6-0be6-43f5-b01e-b6f765686c8b",
+      "publishedAt": "2026-11-22T01:39:20Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "be204f14d962e713",
+      "sourceId": "hacker-news-ai",
+      "title": "Apple's iPhone camera chief, an opponent of AI-altered photos, has retired",
+      "url": "https://www.dpreview.com/news/apples-iphone-camera-chief-has-retired/",
+      "publishedAt": "2026-11-22T01:29:23Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "d0654fa13e59f722",
+      "sourceId": "hacker-news-ai",
+      "title": "The No AI Slop Manifesto",
+      "url": "https://gist.github.com/dexhorthy/4cc96f01be5b1208519e75dad250a948",
+      "publishedAt": "2026-11-22T01:18:06Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "60cc696d73aaac44",
+      "sourceId": "simon-willison",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "publishedAt": "2026-11-21T23:56:28Z",
+      "githubRepositories": [
+        "muruhq/muru"
+      ],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "b55db2f021c36532",
+      "sourceId": "hacker-news-ai",
+      "title": "Show HN: WorldFoundry – AI agents need experience, not just training data",
+      "url": "https://worldfoundry-demo.vercel.app/",
+      "publishedAt": "2026-11-21T23:53:34Z",
+      "githubRepositories": [],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
       "id": "29155cb9e87d952c",
       "sourceId": "hacker-news-ai",
       "title": "Aletheia Aegis: Deterministic sub-millisecond output guard for AI agents",
@@ -126,7 +340,7 @@
         "Tencent-Hunyuan/Hy4"
       ],
       "firstSeenAt": "2026-11-21T07:07:39.888Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "4ea875cf93aeafb7",
@@ -340,7 +554,7 @@
       "publishedAt": "2026-11-20T21:18:41Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-21T05:01:19.450Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "4981bdaee4b67b5e",
@@ -350,7 +564,7 @@
       "publishedAt": "2026-11-20T19:21:49Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-21T05:01:19.450Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "77d2e57cd0418d7b",
@@ -360,7 +574,7 @@
       "publishedAt": "2026-11-20T16:30:48Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-21T05:01:19.450Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "9fa342b93fea5ff7",
@@ -375,7 +589,19 @@
         "vitaminclaude/voidstruck"
       ],
       "firstSeenAt": "2026-11-21T05:01:19.450Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
+    },
+    {
+      "id": "e32a38046c0289f9",
+      "sourceId": "simon-willison",
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+      "publishedAt": "2026-11-20T03:01:57Z",
+      "githubRepositories": [
+        "simonw/llm-gemini"
+      ],
+      "firstSeenAt": "2026-11-22T07:01:53.058Z",
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "848e767af042b129",
@@ -385,7 +611,7 @@
       "publishedAt": "2026-11-20T02:49:57Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-21T05:01:19.450Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "f13f30f3e2cc8b6c",
@@ -395,7 +621,7 @@
       "publishedAt": "2026-11-19T23:58:21Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-21T05:01:19.450Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "efa6c06a769b9bfb",
@@ -407,7 +633,7 @@
         "wikimedia/mediawiki"
       ],
       "firstSeenAt": "2026-11-21T05:01:19.450Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "ef01ffe193eea264",
@@ -420,7 +646,7 @@
         "maxmelichov/BlueTTS"
       ],
       "firstSeenAt": "2026-11-21T05:01:19.450Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "e60110a5fc2ef7d8",
@@ -674,7 +900,7 @@
         "simonw/llm-gemini"
       ],
       "firstSeenAt": "2026-11-19T07:02:08.532Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "9458976fcc3966ec",
@@ -686,7 +912,7 @@
         "datasette/datasette-arrows"
       ],
       "firstSeenAt": "2026-11-19T05:01:19.179Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "0b4f11f5380f6399",
@@ -696,7 +922,7 @@
       "publishedAt": "2026-11-18T15:58:27Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-19T05:01:19.179Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "47e275ddafd4bdae",
@@ -706,7 +932,7 @@
       "publishedAt": "2026-11-18T14:44:48Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-19T05:01:19.179Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "d5bdb5c0b21cc779",
@@ -716,7 +942,7 @@
       "publishedAt": "2026-11-18T10:19:04Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-19T05:01:19.179Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "5b0677c3ce1b4741",
@@ -913,7 +1139,7 @@
         "prime-radiant-inc/external-sandbox-v86"
       ],
       "firstSeenAt": "2026-11-18T05:01:22.665Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "648e46257039ed56",
@@ -923,7 +1149,7 @@
       "publishedAt": "2026-11-17T22:38:52Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-18T05:01:22.665Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "e66c77687255a22b",
@@ -941,7 +1167,7 @@
         "simonw/research"
       ],
       "firstSeenAt": "2026-11-18T05:01:22.665Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "3833b5a1daca50c4",
@@ -951,7 +1177,7 @@
       "publishedAt": "2026-11-17T15:00:00Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-18T05:01:22.665Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "a95efa7cf304b971",
@@ -964,7 +1190,7 @@
         "manuelgscom/inside-llm"
       ],
       "firstSeenAt": "2026-11-18T05:01:22.665Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "28e670974677d3b4",
@@ -994,7 +1220,7 @@
       "publishedAt": "2026-11-17T06:16:26Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-18T05:01:22.665Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "4c10d7ea19509e4a",
@@ -1226,7 +1452,7 @@
         "simonw/llm"
       ],
       "firstSeenAt": "2026-11-17T05:01:20.268Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "715d880000aef52d",
@@ -1246,7 +1472,7 @@
       "publishedAt": "2026-11-16T21:38:03Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-17T05:01:20.268Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "db0ee0a49e9fa5af",
@@ -1517,7 +1743,7 @@
         "sponsors/hyperknot"
       ],
       "firstSeenAt": "2026-11-16T05:01:21.163Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "8888740dd8174dc0",
@@ -1549,7 +1775,7 @@
         "simonw/datasette"
       ],
       "firstSeenAt": "2026-11-16T05:01:21.163Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "a5dea37e620dd802",
@@ -1561,7 +1787,7 @@
         "simonw/datasette"
       ],
       "firstSeenAt": "2026-11-16T05:01:21.163Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "0b32f33f7cd2d047",
@@ -1685,7 +1911,7 @@
         "datasette/datasette-apps"
       ],
       "firstSeenAt": "2026-11-16T05:01:21.163Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "380ddd8cffc4ccfc",
@@ -1717,7 +1943,7 @@
         "datasette/datasette-agent"
       ],
       "firstSeenAt": "2026-11-16T05:01:21.163Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "153bea7cb8abdc47",
@@ -1802,7 +2028,7 @@
         "ggml-org/llama.cpp"
       ],
       "firstSeenAt": "2026-11-15T05:01:33.209Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "fb23a3d8cef88d99",
@@ -1814,7 +2040,7 @@
         "simonw/datasette-vega"
       ],
       "firstSeenAt": "2026-11-15T05:01:33.209Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "ee927f2f0be83c43",
@@ -1829,7 +2055,7 @@
         "sgl-project/sglang"
       ],
       "firstSeenAt": "2026-11-15T05:01:33.209Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "02afcdef2fd32821",
@@ -2044,7 +2270,7 @@
         "simonw/datasette-cluster-map"
       ],
       "firstSeenAt": "2026-11-14T05:01:25.196Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "ab76b0a18e1c72d1",
@@ -2066,7 +2292,7 @@
         "simonw/datasette-leaflet"
       ],
       "firstSeenAt": "2026-11-14T05:01:25.196Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "5c8773e01f24424d",
@@ -2081,7 +2307,7 @@
         "kaelorlabs/smitline"
       ],
       "firstSeenAt": "2026-11-14T05:01:25.196Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "71c06b00ca64684c",
@@ -2093,7 +2319,7 @@
         "storytold/photocraft"
       ],
       "firstSeenAt": "2026-11-14T05:01:25.196Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "e92f955868bd15e9",
@@ -2105,7 +2331,7 @@
         "simonw/llm-gemini"
       ],
       "firstSeenAt": "2026-11-14T05:01:25.196Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "495aaaf3719e25df",
@@ -2120,7 +2346,7 @@
         "ifm-ai/PAN2"
       ],
       "firstSeenAt": "2026-11-14T05:01:25.196Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "d638bb879063e5d0",
@@ -2130,7 +2356,7 @@
       "publishedAt": "2026-11-12T05:08:20Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-14T05:01:25.196Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "326c613a42458b15",
@@ -2316,7 +2542,7 @@
       "publishedAt": "2026-11-11T22:03:25Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-12T05:01:16.954Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "264b9976c20fd4c8",
@@ -2358,7 +2584,7 @@
         "aws/aws-emulator"
       ],
       "firstSeenAt": "2026-11-12T05:01:16.954Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "8502ba335cc85c6a",
@@ -2370,7 +2596,7 @@
         "tree-sitter/py-tree-sitter"
       ],
       "firstSeenAt": "2026-11-12T05:01:16.954Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "459d63ca31a96c06",
@@ -2382,7 +2608,7 @@
         "simonw/llm"
       ],
       "firstSeenAt": "2026-11-12T05:01:16.954Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "753ac9ede398ebad",
@@ -2392,7 +2618,7 @@
       "publishedAt": "2026-11-11T15:11:59Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-12T05:01:16.954Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "ed7449acf22e41e0",
@@ -2408,7 +2634,7 @@
         "oguzeldereli/ttf-ternary"
       ],
       "firstSeenAt": "2026-11-12T05:01:16.954Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "52014c7eda81aef5",
@@ -2488,7 +2714,7 @@
       "publishedAt": "2026-11-11T04:49:48Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-11T05:01:16.562Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "f446bf354646bd6b",
@@ -2700,7 +2926,7 @@
       "publishedAt": "2026-11-10T20:05:17Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-11T05:01:16.562Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "5bbd78c852f25507",
@@ -2714,7 +2940,7 @@
         "gbeltramo/llm-verbosity"
       ],
       "firstSeenAt": "2026-11-11T05:01:16.562Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "0407cbcdb8d9fabb",
@@ -2769,7 +2995,7 @@
         "tetsuo-ai/agenc-core"
       ],
       "firstSeenAt": "2026-11-10T07:02:32.903Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "e88c76a301146ced",
@@ -3066,7 +3292,7 @@
       "publishedAt": "2026-11-09T17:15:53Z",
       "githubRepositories": [],
       "firstSeenAt": "2026-11-10T05:01:21.215Z",
-      "lastSeenAt": "2026-11-21T07:09:39.343Z"
+      "lastSeenAt": "2026-11-22T07:01:53.058Z"
     },
     {
       "id": "5c1053ffaf7401d7",
@@ -21110,9 +21336,9 @@
   ],
   "lastRun": {
     "status": "partial",
-    "attemptedAt": "2026-11-21T07:09:39.343Z",
-    "completedAt": "2026-11-21T07:09:39.343Z",
-    "windowStart": "2026-11-07T00:00:00Z",
+    "attemptedAt": "2026-11-22T07:01:53.058Z",
+    "completedAt": "2026-11-22T07:01:53.058Z",
+    "windowStart": "2026-11-08T00:00:00Z",
     "sourceCount": 3,
     "successfulSources": 3,
     "githubQueryCount": 3,
@@ -21140,7 +21366,7 @@
     "rateLimit": {
       "limit": 10,
       "remaining": 0,
-      "resetAt": "2026-11-21T07:09:59Z"
+      "resetAt": "2026-11-22T07:02:07Z"
     }
   }
 }

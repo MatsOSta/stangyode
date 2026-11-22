@@ -2070,5 +2070,29 @@
       "en": "First-party open implementation of coding-agent workflows with sandboxed agent steps, deterministic scripts, independent review, declared artifacts, and human approval gates; outcome claims remain project-authored.",
       "ja": "sandbox化したagent step、決定論的script、独立review、宣言済みartifact、人間approval gateを備えるcoding-agent workflowの公開一次実装。成果主張はproject作者実施。"
     }
+  },
+  "compact-bench-working-context-paper": {
+    "title": "CompAct-Bench: A Benchmark for Working-Context Compaction in Long-Horizon Agent Tasks",
+    "url": "https://arxiv.org/abs/2611.25673",
+    "note": {
+      "en": "First-party paper for a 200-task process-level benchmark that measures downstream completion after controlled working-context compaction; CompanyBench is internal and the reported runs were not reproduced.",
+      "ja": "制御されたworking-context圧縮後の下流task完了を測る200-task process-level benchmarkの一次論文。CompanyBenchは非公開で、報告runは再現していない。"
+    }
+  },
+  "compact-bench-sibling-paper": {
+    "title": "Compact-Bench: Measuring What Context Compaction Costs Long-Horizon Coding Agents",
+    "url": "https://arxiv.org/abs/2610.31710",
+    "note": {
+      "en": "Independent sibling benchmark using paired full-history and summary-only continuations plus repeated production compactions; its scope and measurements differ from CompAct-Bench.",
+      "ja": "full-historyとsummary-onlyの対になる継続、および反復production圧縮を使う独立同等benchmark。範囲と測定法はCompAct-Benchと異なる。"
+    }
+  },
+  "benchmarks-compaction-friendly-paper": {
+    "title": "Benchmarks Are Surprisingly Compaction-Friendly",
+    "url": "https://arxiv.org/abs/2610.31778",
+    "note": {
+      "en": "Independent frontier-model study reporting that compaction effects depend strongly on benchmark structure, repeated boundaries, constraint retention, and whether task state is externalized.",
+      "ja": "圧縮影響はbenchmark構造、反復境界、制約保持、task stateの外部化に大きく依存すると報告する独立frontier-model研究。"
+    }
   }
 }
