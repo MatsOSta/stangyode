@@ -16,29 +16,29 @@
     }
   },
   "audit": {
-    "asOf": "2026-11-22T07:02:17.744Z",
+    "asOf": "2026-11-27T07:07:53.799Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-22T07:02:17.744Z",
+        "lastAttemptAt": "2026-11-27T07:07:53.799Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 10,
+        "failureStreak": 11,
         "lastFailure": {
-          "at": "2026-11-22T07:02:17.744Z",
+          "at": "2026-11-27T07:07:53.799Z",
           "class": "validation",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-22T07:02:17.744Z",
+        "lastAttemptAt": "2026-11-27T07:07:53.799Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 10,
+        "failureStreak": 11,
         "lastFailure": {
-          "at": "2026-11-22T07:02:17.744Z",
+          "at": "2026-11-27T07:07:53.799Z",
           "class": "validation",
           "resolved": false
         }
@@ -513,6 +513,31 @@
       {
         "sourceId": "benchmarks-compaction-friendly-paper",
         "checkedAt": "2026-11-22",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "turing-agent-paper",
+        "checkedAt": "2026-11-27",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "alphaproof-code",
+        "checkedAt": "2026-11-27",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "anthropic-formal-math-repo",
+        "checkedAt": "2026-11-27",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "openai-math-repo",
+        "checkedAt": "2026-11-27",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "left-to-solve",
+        "checkedAt": "2026-11-27",
         "outcome": "relevant"
       }
     ],
@@ -995,6 +1020,33 @@
           "agent context compaction benchmark sibling implementation benchmark constraint retention ContextBench 2026",
           "CompAct-Bench criticism limitations independent evaluation"
         ]
+      },
+      {
+        "id": "formal-proof-supply-chain-challenge-2026-11-27",
+        "label": {
+          "en": "Formal-proof supply-chain first-party and sibling challenge",
+          "ja": "formal proof supply chainの一次情報・同等実装検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "continuous-behavioral-verification"
+        ],
+        "sourceIds": [
+          "turing-agent-paper",
+          "alphaproof-code",
+          "anthropic-formal-math-repo",
+          "openai-math-repo",
+          "left-to-solve"
+        ],
+        "resultSummary": {
+          "en": "Turing Agent, AlphaProof Code, Anthropic, OpenAI, and Left to Solve confirm growing machine-checkable proof supply and distinct orchestration paths. Kernel checks establish artifact validity, not faithful statements, expert acceptance, or general adoption; nine post-briefing mentions lacked Stage 2 accounting, so no Radar decision or score change is published.",
+          "ja": "Turing Agent、AlphaProof Code、Anthropic、OpenAI、Left to Solveはmachine-check可能なproof供給と異なるorchestration経路の増加を示す。kernel checkはartifact妥当性を示すが、statement忠実性、専門家受理、一般採用を証明しない。briefing後のmention 9件にStage 2 accountingがないため、Radar判断やscore変更は公開しない。"
+        },
+        "queries": [
+          "Turing Agent formal verification faithful formalization limitations first-party",
+          "AlphaProof Code formal verification human specification review first-party",
+          "Lean proof generation agent sibling implementations Anthropic formal-math OpenAI math Left to Solve"
+        ]
       }
     ],
     "trackedEntityIds": [
@@ -1104,7 +1156,8 @@
       "radar-daily-2026-11-17",
       "radar-daily-2026-11-18",
       "radar-daily-2026-11-21",
-      "radar-daily-2026-11-22"
+      "radar-daily-2026-11-22",
+      "radar-daily-2026-11-27"
     ],
     "sensors": [
       {

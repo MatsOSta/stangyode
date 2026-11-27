@@ -2094,5 +2094,45 @@
       "en": "Independent frontier-model study reporting that compaction effects depend strongly on benchmark structure, repeated boundaries, constraint retention, and whether task state is externalized.",
       "ja": "圧縮影響はbenchmark構造、反復境界、制約保持、task stateの外部化に大きく依存すると報告する独立frontier-model研究。"
     }
+  },
+  "turing-agent-paper": {
+    "title": "Turing Agent: Agentic Formal Verification for Mathematical Research",
+    "url": "https://arxiv.org/abs/2611.21299",
+    "note": {
+      "en": "Primary paper for an agent harness that separates theorem formalization, proof formalization, checking, and selective semantic review.",
+      "ja": "定理形式化、証明形式化、検査、選択的semantic reviewを分離するagent harnessの一次論文。"
+    }
+  },
+  "alphaproof-code": {
+    "title": "Introducing AlphaProof Code",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+    "note": {
+      "en": "First-party report on human-reviewed specifications and Lean-checked verification of selected Signal implementation properties.",
+      "ja": "人間がreviewした仕様と、Signal実装の選択された性質に対するLean検査済み検証の一次報告。"
+    }
+  },
+  "anthropic-formal-math-repo": {
+    "title": "Anthropic formal-math repository",
+    "url": "https://github.com/anthropics/formal-math",
+    "note": {
+      "en": "First-party repository of pinned, machine-checked Lean projects with explicit build and acceptance rules.",
+      "ja": "固定toolchain、machine-check済みLean project、明示的build・acceptance ruleを持つ一次repository。"
+    }
+  },
+  "openai-math-repo": {
+    "title": "OpenAI math repository",
+    "url": "https://github.com/openai/math",
+    "note": {
+      "en": "First-party collection that explicitly separates machine-checked artifacts from unformalized results that may contain issues.",
+      "ja": "machine-check済みartifactと、問題を含み得る未形式化結果を明示的に分離する一次collection。"
+    }
+  },
+  "left-to-solve": {
+    "title": "Left to Solve",
+    "url": "https://lefttosolve.com/",
+    "note": {
+      "en": "Public proof-submission queue with Lean checking; observed activity establishes throughput attention, not acceptance of open-problem solutions.",
+      "ja": "Lean検査を備えた公開proof submission queue。観測された活動はthroughput注目を示すが、未解決問題の解決受理を示さない。"
+    }
   }
 }
