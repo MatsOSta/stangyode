@@ -8,11 +8,11 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-11-22T07:02:17.744Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-11-27T07:07:53.799Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 10; last failure validation at 2026-11-22T07:02:17.744Z (unresolved)
-- editor: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 10; last failure validation at 2026-11-22T07:02:17.744Z (unresolved)
+- scout: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 11; last failure validation at 2026-11-27T07:07:53.799Z (unresolved)
+- editor: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 11; last failure validation at 2026-11-27T07:07:53.799Z (unresolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
@@ -115,6 +115,11 @@ As of / 基準時刻: 2026-11-22T07:02:17.744Z; cadence / 頻度: daily; data / 
 - [CompAct-Bench: A Benchmark for Working-Context Compaction in Long-Horizon Agent Tasks](https://arxiv.org/abs/2611.25673): relevant; checked 2026-11-22; source compact-bench-working-context-paper
 - [Compact-Bench: Measuring What Context Compaction Costs Long-Horizon Coding Agents](https://arxiv.org/abs/2610.31710): relevant; checked 2026-11-22; source compact-bench-sibling-paper
 - [Benchmarks Are Surprisingly Compaction-Friendly](https://arxiv.org/abs/2610.31778): relevant; checked 2026-11-22; source benchmarks-compaction-friendly-paper
+- [Turing Agent: Agentic Formal Verification for Mathematical Research](https://arxiv.org/abs/2611.21299): relevant; checked 2026-11-27; source turing-agent-paper
+- [Introducing AlphaProof Code](https://deepmind.google/blog/introducing-alphaproof-code): relevant; checked 2026-11-27; source alphaproof-code
+- [Anthropic formal-math repository](https://github.com/anthropics/formal-math): relevant; checked 2026-11-27; source anthropic-formal-math-repo
+- [OpenAI math repository](https://github.com/openai/math): relevant; checked 2026-11-27; source openai-math-repo
+- [Left to Solve](https://lefttosolve.com/): relevant; checked 2026-11-27; source left-to-solve
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -295,11 +300,22 @@ Evidence: compact-bench-working-context-paper, compact-bench-sibling-paper, benc
 - `agent context compaction benchmark sibling implementation benchmark constraint retention ContextBench 2026`
 - `CompAct-Bench criticism limitations independent evaluation`
 
+### Formal-proof supply-chain first-party and sibling challenge / formal proof supply chainの一次情報・同等実装検証
+Turing Agent, AlphaProof Code, Anthropic, OpenAI, and Left to Solve confirm growing machine-checkable proof supply and distinct orchestration paths. Kernel checks establish artifact validity, not faithful statements, expert acceptance, or general adoption; nine post-briefing mentions lacked Stage 2 accounting, so no Radar decision or score change is published. / Turing Agent、AlphaProof Code、Anthropic、OpenAI、Left to Solveはmachine-check可能なproof供給と異なるorchestration経路の増加を示す。kernel checkはartifact妥当性を示すが、statement忠実性、専門家受理、一般採用を証明しない。briefing後のmention 9件にStage 2 accountingがないため、Radar判断やscore変更は公開しない。
+
+Targets: continuous-behavioral-verification
+
+Evidence: turing-agent-paper, alphaproof-code, anthropic-formal-math-repo, openai-math-repo, left-to-solve
+
+- `Turing Agent formal verification faithful formalization limitations first-party`
+- `AlphaProof Code formal verification human specification review first-party`
+- `Lean proof generation agent sibling implementations Anthropic formal-math OpenAI math Left to Solve`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
 - jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation, multi-harness-control-plane, lunar-airlock, governed-agent-fleet-authority, zthr, co-design-bench
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08, radar-daily-2026-11-09, radar-daily-2026-11-10, radar-daily-2026-11-11, radar-daily-2026-11-14, radar-daily-2026-11-15, radar-daily-2026-11-16, radar-daily-2026-11-17, radar-daily-2026-11-18, radar-daily-2026-11-21, radar-daily-2026-11-22
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08, radar-daily-2026-11-09, radar-daily-2026-11-10, radar-daily-2026-11-11, radar-daily-2026-11-14, radar-daily-2026-11-15, radar-daily-2026-11-16, radar-daily-2026-11-17, radar-daily-2026-11-18, radar-daily-2026-11-21, radar-daily-2026-11-22, radar-daily-2026-11-27
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
