@@ -8,11 +8,11 @@ A bounded evidence inventory for deciding what to watch, test, or defer. / 何�
 
 ## Radar health / レーダー健全性
 
-As of / 基準時刻: 2026-11-27T07:07:53.799Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
+As of / 基準時刻: 2026-11-28T07:04:52.409Z; cadence / 頻度: daily; data / データ: CURRENT; stale after / 期限: 48h
 
 ### Pipeline runs / パイプライン実行
-- scout: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 11; last failure validation at 2026-11-27T07:07:53.799Z (unresolved)
-- editor: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 11; last failure validation at 2026-11-27T07:07:53.799Z (unresolved)
+- scout: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 12; last failure validation at 2026-11-28T07:04:52.409Z (unresolved)
+- editor: PARTIAL; last success 2026-11-08T07:02:36.160Z; failure streak 12; last failure validation at 2026-11-28T07:04:52.409Z (unresolved)
 
 ### Sensors / センサー
 - primary-docs: CHECKED
@@ -120,6 +120,10 @@ As of / 基準時刻: 2026-11-27T07:07:53.799Z; cadence / 頻度: daily; data / 
 - [Anthropic formal-math repository](https://github.com/anthropics/formal-math): relevant; checked 2026-11-27; source anthropic-formal-math-repo
 - [OpenAI math repository](https://github.com/openai/math): relevant; checked 2026-11-27; source openai-math-repo
 - [Left to Solve](https://lefttosolve.com/): relevant; checked 2026-11-27; source left-to-solve
+- [Qwen Code 0.28.6 release](https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6): relevant; checked 2026-11-28; source qwen-code-0-28-6
+- [Goose 1.61.1 release](https://github.com/aaif-goose/goose/releases/tag/v1.61.1): relevant; checked 2026-11-28; source goose-1-61-1
+- [Agentic State Machines](https://goose-docs.ai/blog/2026/09/16/agentic-state-machines): relevant; checked 2026-11-28; source goose-agentic-state-machines
+- [AuthGateBench: Benchmarking LLMs as Authorization Gate](https://arxiv.org/abs/2610.16426): relevant; checked 2026-11-28; source authgatebench-paper
 
 ### Queries run / 実行クエリ
 ### Material hype intake and first-party verification / 重要ハイプ受入と一次情報検証
@@ -311,11 +315,22 @@ Evidence: turing-agent-paper, alphaproof-code, anthropic-formal-math-repo, opena
 - `AlphaProof Code formal verification human specification review first-party`
 - `Lean proof generation agent sibling implementations Anthropic formal-math OpenAI math Left to Solve`
 
+### Durable approval-state first-party and sibling challenge / durable approval stateの一次情報・同等実装検証
+Qwen Code parks and recovers approval waits, while Goose independently persists re-entrant execution state and strips imported approvals that could execute automatically. AuthGateBench shows that durable state does not make automated authorization decisions stable or correct. Twenty-four post-briefing mentions lacked Stage 2 accounting, so no Radar decision, score, status, implementation, or Core Atlas change is published. / Qwen Codeはapproval waitをpark・復旧し、Gooseは独立に再入可能な実行stateを永続化するとともに、自動実行につながり得るimport済みapprovalを除去する。AuthGateBenchは、stateのdurabilityだけでは自動authorization判断の安定性や正しさを保証しないことを示す。briefing後のmention 24件にStage 2 accountingがないため、Radar判断、score、status、implementation、Core Atlas変更は公開しない。
+
+Targets: policy-enforced-agent-execution, governed-agent-fleet-authority
+
+Evidence: qwen-code-0-28-6, goose-1-61-1, goose-agentic-state-machines, authgatebench-paper
+
+- `Qwen Code 0.28.6 managed approval parking recovery first-party release`
+- `durable approval state restart sibling implementation Goose Antigravity`
+- `automated coding-agent authorization gate benchmark limitations scope escalation`
+
 ### Tracked named entities / 追跡中の名前付きエンティティ
 - jev, agent-skills, mcp-apps, mcp-use, vercel-skills, ponytail, caveman, gemini-agent, rea, claude-managed-agents, poppy-protocol, scion-antique, dyna-2, american-express-ace, intent-bound-agent-authorization, jevcrawl, tracely, context-mode, agent37, capsem, replayable-evaluator-owned-acceptance-artifacts, minos, space, figma-specs, lscbench, in-the-wild-agent-boundary-failures, rugsnare, mcp-contract-integrity, bounded-agentic-delivery, agent-engineering, graft-git-ai, esp32-iphone-agent, sphinx, harness2, agenticbench, doc2harness, hy-memory, yana-ai, costura, agent-harness-engineering, deepinfer, coding-to-release-attenuation, explicit-agent-facing-interfaces, effective-agency-controls, regression-hunt, cyberarena, continuous-behavioral-verification, openshell, policy-enforced-agent-execution, agent-compute-engine, nvidia-sentry, solitary, eagle-4, deltadb, human-supervision-infrastructure, portable-inspectable-agent-state, enterprise-shaped-outcome-grounded-coding-evaluation, multi-harness-control-plane, lunar-airlock, governed-agent-fleet-authority, zthr, co-design-bench
 
 ### Changelog entries checked / 確認済み変更履歴
-- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08, radar-daily-2026-11-09, radar-daily-2026-11-10, radar-daily-2026-11-11, radar-daily-2026-11-14, radar-daily-2026-11-15, radar-daily-2026-11-16, radar-daily-2026-11-17, radar-daily-2026-11-18, radar-daily-2026-11-21, radar-daily-2026-11-22, radar-daily-2026-11-27
+- v0, radar-loop-1, radar-loop-2, radar-loop-3, radar-health-1, radar-daily-2026-10-09, radar-daily-2026-10-10, radar-daily-2026-10-11, radar-daily-2026-10-12, radar-daily-2026-10-13, radar-daily-2026-10-14, radar-daily-2026-10-15, radar-daily-2026-10-16, radar-daily-2026-10-17, radar-daily-2026-10-19, radar-daily-2026-10-20, radar-daily-2026-10-21, radar-daily-2026-10-22, radar-daily-2026-10-23, radar-daily-2026-10-24, radar-daily-2026-10-25, radar-daily-2026-10-26, radar-daily-2026-10-27, radar-daily-2026-10-28, radar-daily-2026-10-29, radar-daily-2026-10-30, radar-daily-2026-10-31, radar-daily-2026-11-03, radar-daily-2026-11-04, radar-daily-2026-11-05, radar-daily-2026-11-06, radar-daily-2026-11-07, radar-daily-2026-11-08, radar-daily-2026-11-09, radar-daily-2026-11-10, radar-daily-2026-11-11, radar-daily-2026-11-14, radar-daily-2026-11-15, radar-daily-2026-11-16, radar-daily-2026-11-17, radar-daily-2026-11-18, radar-daily-2026-11-21, radar-daily-2026-11-22, radar-daily-2026-11-27, radar-daily-2026-11-28
 
 ### Explicitly stale sources / 明示的に古い情報源
 - a2a-spec; last checked 2026-09-24: This seed-era source has not been re-verified into the Radar record. / このシード時点の情報源はレーダー記録へ再検証されていない。
