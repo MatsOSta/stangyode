@@ -262,5 +262,11 @@
     "label": "radar-daily-2026-11-27",
     "en": "Daily Radar data and health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, retaining 988 historical mentions and 20 active repositories; all seven fixed-query GitHub checks succeeded with 35 unverified signals. Stage 2 accounted for all 13 injected material flows, but nine mentions first observed after the briefings lacked targeted accounting. No named entity, category, implementation, score/status, or Core Atlas record changed.",
     "ja": "日次Radarのdata・健全性更新：広範attention discoveryは3件のfeedと3件の広範GitHub queryをすべて成功し、historical mention 988件とactive repository 20件を保持。固定GitHub query 7件もすべて成功し、未検証signal 35件を得た。Stage 2は注入済みの重要flow 13件をすべてaccountingしたが、briefing後にfirst-seenとなったmention 9件はtargeted accounting未実施。名前付きentity、category、implementation、score・status、Core Atlas記録は変更しない。"
+  },
+  {
+    "date": "2026-11-28",
+    "label": "radar-daily-2026-11-28",
+    "en": "Daily Radar data and health update: broad attention discovery succeeded across all three feeds and three broad GitHub queries, retaining 1,012 historical mentions, 61 rolling-72-hour mentions, and 19 active repositories; all seven fixed-query GitHub checks succeeded with 35 unverified signals. Stage 2 accounted for all 13 injected material flows, but 24 mentions first observed after the briefings lacked targeted accounting. No named entity, category, implementation, score/status, or Core Atlas record changed.",
+    "ja": "日次Radarのdata・健全性更新：広範attention discoveryは3件のfeedと3件の広範GitHub queryをすべて成功し、historical mention 1,012件、rolling 72時間mention 61件、active repository 19件を保持。固定GitHub query 7件もすべて成功し、未検証signal 35件を得た。Stage 2は注入済みの重要flow 13件をすべてaccountingしたが、briefing後にfirst-seenとなったmention 24件はtargeted accounting未実施。名前付きentity、category、implementation、score・status、Core Atlas記録は変更しない。"
   }
 ]

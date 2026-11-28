@@ -16,29 +16,29 @@
     }
   },
   "audit": {
-    "asOf": "2026-11-27T07:07:53.799Z",
+    "asOf": "2026-11-28T07:04:52.409Z",
     "cadence": "daily",
     "staleAfterHours": 48,
     "dataStatus": "current",
     "runs": {
       "scout": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-27T07:07:53.799Z",
+        "lastAttemptAt": "2026-11-28T07:04:52.409Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 11,
+        "failureStreak": 12,
         "lastFailure": {
-          "at": "2026-11-27T07:07:53.799Z",
+          "at": "2026-11-28T07:04:52.409Z",
           "class": "validation",
           "resolved": false
         }
       },
       "editor": {
         "status": "partial",
-        "lastAttemptAt": "2026-11-27T07:07:53.799Z",
+        "lastAttemptAt": "2026-11-28T07:04:52.409Z",
         "lastSuccessfulRunAt": "2026-11-08T07:02:36.160Z",
-        "failureStreak": 11,
+        "failureStreak": 12,
         "lastFailure": {
-          "at": "2026-11-27T07:07:53.799Z",
+          "at": "2026-11-28T07:04:52.409Z",
           "class": "validation",
           "resolved": false
         }
@@ -538,6 +538,26 @@
       {
         "sourceId": "left-to-solve",
         "checkedAt": "2026-11-27",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "qwen-code-0-28-6",
+        "checkedAt": "2026-11-28",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "goose-1-61-1",
+        "checkedAt": "2026-11-28",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "goose-agentic-state-machines",
+        "checkedAt": "2026-11-28",
+        "outcome": "relevant"
+      },
+      {
+        "sourceId": "authgatebench-paper",
+        "checkedAt": "2026-11-28",
         "outcome": "relevant"
       }
     ],
@@ -1047,6 +1067,33 @@
           "AlphaProof Code formal verification human specification review first-party",
           "Lean proof generation agent sibling implementations Anthropic formal-math OpenAI math Left to Solve"
         ]
+      },
+      {
+        "id": "durable-approval-state-challenge-2026-11-28",
+        "label": {
+          "en": "Durable approval-state first-party and sibling challenge",
+          "ja": "durable approval stateの一次情報・同等実装検証"
+        },
+        "runRole": "scout",
+        "targetIds": [
+          "policy-enforced-agent-execution",
+          "governed-agent-fleet-authority"
+        ],
+        "sourceIds": [
+          "qwen-code-0-28-6",
+          "goose-1-61-1",
+          "goose-agentic-state-machines",
+          "authgatebench-paper"
+        ],
+        "resultSummary": {
+          "en": "Qwen Code parks and recovers approval waits, while Goose independently persists re-entrant execution state and strips imported approvals that could execute automatically. AuthGateBench shows that durable state does not make automated authorization decisions stable or correct. Twenty-four post-briefing mentions lacked Stage 2 accounting, so no Radar decision, score, status, implementation, or Core Atlas change is published.",
+          "ja": "Qwen Codeはapproval waitをpark・復旧し、Gooseは独立に再入可能な実行stateを永続化するとともに、自動実行につながり得るimport済みapprovalを除去する。AuthGateBenchは、stateのdurabilityだけでは自動authorization判断の安定性や正しさを保証しないことを示す。briefing後のmention 24件にStage 2 accountingがないため、Radar判断、score、status、implementation、Core Atlas変更は公開しない。"
+        },
+        "queries": [
+          "Qwen Code 0.28.6 managed approval parking recovery first-party release",
+          "durable approval state restart sibling implementation Goose Antigravity",
+          "automated coding-agent authorization gate benchmark limitations scope escalation"
+        ]
       }
     ],
     "trackedEntityIds": [
@@ -1157,7 +1204,8 @@
       "radar-daily-2026-11-18",
       "radar-daily-2026-11-21",
       "radar-daily-2026-11-22",
-      "radar-daily-2026-11-27"
+      "radar-daily-2026-11-27",
+      "radar-daily-2026-11-28"
     ],
     "sensors": [
       {

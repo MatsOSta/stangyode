@@ -2134,5 +2134,37 @@
       "en": "Public proof-submission queue with Lean checking; observed activity establishes throughput attention, not acceptance of open-problem solutions.",
       "ja": "Lean検査を備えた公開proof submission queue。観測された活動はthroughput注目を示すが、未解決問題の解決受理を示さない。"
     }
+  },
+  "qwen-code-0-28-6": {
+    "title": "Qwen Code 0.28.6 release",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6",
+    "note": {
+      "en": "First-party release documenting parked approval waits, recovery after a harness crash, and persistent MCP approvals.",
+      "ja": "parkされたapproval wait、harness crash後の復旧、MCP approval永続化を記録する一次release。"
+    }
+  },
+  "goose-1-61-1": {
+    "title": "Goose 1.61.1 release",
+    "url": "https://github.com/aaif-goose/goose/releases/tag/v1.61.1",
+    "note": {
+      "en": "First-party release that drops tool-approval state from imported sessions to prevent automatic execution on load.",
+      "ja": "load時の自動実行を防ぐため、import sessionからtool approval stateを除去する一次release。"
+    }
+  },
+  "goose-agentic-state-machines": {
+    "title": "Agentic State Machines",
+    "url": "https://goose-docs.ai/blog/2026/09/16/agentic-state-machines",
+    "note": {
+      "en": "First-party Goose design account of persisted, re-entrant operations that can resume after process restart.",
+      "ja": "process restart後に再開できる永続化・再入可能operationを説明するGooseの一次design記録。"
+    }
+  },
+  "authgatebench-paper": {
+    "title": "AuthGateBench: Benchmarking LLMs as Authorization Gate",
+    "url": "https://arxiv.org/abs/2610.16426",
+    "note": {
+      "en": "Independent authorization-gate study reporting uneven failure modes and unstable decisions across 1,400 policy-guided cases.",
+      "ja": "policy付き1,400 caseでfailure modeごとの不均一性と不安定な判断を報告する独立authorization-gate研究。"
+    }
   }
 }
